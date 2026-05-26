@@ -170,12 +170,11 @@ function renderSelectedTeam(){
 
   document.getElementById('selectedTeam').innerHTML = `
     <div class="meta">Source: ${roster.source || '-'}</div>
-    <div class="meta">Official players: ${roster.officialPlayerCount ?? '-'}</div>
-    <div class="meta">ESPN players: ${roster.espnPlayerCount ?? '-'}</div>
+    <div class="meta">Players: ${(roster.players || []).length}</div>
     <div class="meta">Last checked: ${roster.checkedAt || '-'}</div>
     ${errors ? '<br>' + errors : ''}
     <br>
-    ${players.length ? players.map(p => `<div class="player ${p.important ? 'important' : ''}">${p.name || ''} — ${p.position || '?'} — ${p.status || ''}<div class="meta">${p.sourceStatus || ''}</div></div>`).join('') : '<div class="meta">No players found.</div>'}
+    ${players.length ? players.map(p => `<div class="player ${p.important ? 'important' : ''}">${p.name || ''} — ${p.position || '?'} — ${p.status || ''}<div class="meta">Source: NFL.com</div></div>`).join('') : '<div class="meta">No players found.</div>'}
   `;
 }
 
