@@ -283,6 +283,23 @@ def run():
         time.sleep(1.5)
 
     append_all_log(all_changes)
+    for change in all_changes:
+    team_code = change["teamCode"]
+
+    team_log_path = LOGS / f"{team_code}.json"
+
+    existing_team_log = []
+    if team_log_path.exists():
+        existing_team_log = json.loads(
+            team_log_path.read_text(encoding="utf-8")
+        )
+
+    existing_team_log.insert(0, change)
+
+    team_log_path.write_text(
+        json.dumps(existing_team_log, indent=2, ensure_ascii=False),
+        encoding="utf-8"
+    )
 
     summary = {
         "lastRunFinished": now_iso(),
