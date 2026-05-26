@@ -5,61 +5,323 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NFL Roster Monitor</title>
   <style>
-    body { font-family: Arial, sans-serif; background:#f4f6f8; color:#111827; margin:0; padding:24px; }
-    .container { max-width:1400px; margin:0 auto; }
-    h1 { margin:0 0 4px; }
-    .subtitle { color:#6b7280; margin-bottom:20px; }
-    .box,.card { background:#fff; border-radius:14px; padding:16px; box-shadow:0 2px 8px rgba(0,0,0,.08); }
-    .top { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:16px; }
-    .value { font-size:26px; font-weight:bold; }
-    .label { color:#6b7280; font-size:13px; }
-    button,select,input { padding:10px; border-radius:8px; border:1px solid #d1d5db; font-size:14px; }
-    button { background:#111827; color:#fff; cursor:pointer; font-weight:bold; border:none; }
-    .controls { display:flex; gap:10px; align-items:center; margin-bottom:16px; flex-wrap:wrap; }
-    .grid { display:grid; grid-template-columns:1.1fr .9fr; gap:16px; }
-    .teams { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:12px; }
-    .team { border:2px solid transparent; cursor:pointer; }
-    .team:hover { border-color:#2563eb; }
-    .team.selected { border-color:#111827; }
-    .team-title { font-weight:bold; }
-    .meta { color:#6b7280; font-size:12px; line-height:1.45; margin-top:6px; }
-    .pill { display:inline-block; padding:3px 8px; border-radius:999px; font-size:11px; font-weight:bold; background:#dcfce7; color:#16a34a; }
-    .pill.error { background:#fee2e2; color:#dc2626; }
-    .player { padding:8px 0; border-bottom:1px solid #e5e7eb; }
-    .important { font-weight:bold; }
-    .status { color:#6b7280; font-size:13px; margin-bottom:12px; }
-    .errorText { color:#dc2626; font-weight:bold; }
-    @media(max-width:900px){ .top,.grid { grid-template-columns:1fr; } }
+    :root {
+      --bg: #0f172a;
+      --panel: #111827;
+      --card: #ffffff;
+      --soft: #f8fafc;
+      --text: #0f172a;
+      --muted: #64748b;
+      --line: #e5e7eb;
+      --blue: #2563eb;
+      --blue-soft: #dbeafe;
+      --green: #16a34a;
+      --green-soft: #dcfce7;
+      --yellow: #d97706;
+      --yellow-soft: #fef3c7;
+      --red: #dc2626;
+      --red-soft: #fee2e2;
+      --purple: #7c3aed;
+      --purple-soft: #ede9fe;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      font-family: Arial, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(37,99,235,.35), transparent 32%),
+        radial-gradient(circle at top right, rgba(124,58,237,.25), transparent 28%),
+        var(--bg);
+      color: var(--text);
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .hero {
+      color: white;
+      padding: 28px 24px 22px;
+      border-bottom: 1px solid rgba(255,255,255,.12);
+    }
+
+    .container {
+      max-width: 1450px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 34px;
+      letter-spacing: -0.04em;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #111827;
+    }
+
+    .subtitle {
+      color: #cbd5e1;
+      margin-top: 8px;
+      font-size: 15px;
+    }
+
+    .main {
+      padding: 22px 24px 40px;
+    }
+
+    .box, .card {
+      background: rgba(255,255,255,.96);
+      border-radius: 18px;
+      padding: 16px;
+      box-shadow: 0 12px 30px rgba(0,0,0,.18);
+      border: 1px solid rgba(255,255,255,.65);
+    }
+
+    .top {
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+
+    .stat-card {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stat-card:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(90deg, var(--blue), var(--purple));
+    }
+
+    .value {
+      font-size: 30px;
+      font-weight: 800;
+      color: #111827;
+    }
+
+    .label {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 4px;
+    }
+
+    button, select, input {
+      padding: 11px 12px;
+      border-radius: 12px;
+      border: 1px solid #cbd5e1;
+      font-size: 14px;
+      background: white;
+    }
+
+    button {
+      background: linear-gradient(135deg, var(--blue), var(--purple));
+      color: #fff;
+      cursor: pointer;
+      font-weight: 800;
+      border: none;
+      box-shadow: 0 8px 18px rgba(37,99,235,.35);
+    }
+
+    button:hover {
+      filter: brightness(1.05);
+    }
+
+    .controls {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.13);
+      padding: 12px;
+      border-radius: 18px;
+    }
+
+    .controls input { min-width: 230px; }
+    .controls select { min-width: 220px; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap: 18px;
+    }
+
+    .teams {
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(230px,1fr));
+      gap: 12px;
+    }
+
+    .team {
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: transform .12s ease, border-color .12s ease, box-shadow .12s ease;
+      box-shadow: 0 8px 20px rgba(15,23,42,.08);
+    }
+
+    .team:hover {
+      transform: translateY(-2px);
+      border-color: var(--blue);
+      box-shadow: 0 12px 26px rgba(37,99,235,.16);
+    }
+
+    .team.selected {
+      border-color: var(--purple);
+      background: linear-gradient(180deg, #fff, #f5f3ff);
+    }
+
+    .team-title {
+      font-weight: 800;
+      font-size: 15px;
+      color: #111827;
+    }
+
+    .team-code {
+      display: inline-block;
+      margin-top: 6px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: var(--blue-soft);
+      color: #1d4ed8;
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+      margin-top: 6px;
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 4px 9px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 900;
+      background: var(--green-soft);
+      color: var(--green);
+    }
+
+    .pill.error {
+      background: var(--red-soft);
+      color: var(--red);
+    }
+
+    .player {
+      padding: 10px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .player-name {
+      font-weight: 700;
+    }
+
+    .important .player-name {
+      color: #111827;
+      font-weight: 900;
+    }
+
+    .position {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 7px;
+      background: var(--purple-soft);
+      color: var(--purple);
+      font-size: 12px;
+      font-weight: 900;
+      margin-left: 6px;
+    }
+
+    .status-pill {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 7px;
+      background: var(--green-soft);
+      color: var(--green);
+      font-size: 12px;
+      font-weight: 900;
+      margin-left: 6px;
+    }
+
+    .status-pill.warning {
+      background: var(--yellow-soft);
+      color: var(--yellow);
+    }
+
+    .status-pill.danger {
+      background: var(--red-soft);
+      color: var(--red);
+    }
+
+    .status {
+      color: #dbeafe;
+      font-size: 13px;
+      margin-bottom: 14px;
+    }
+
+    .errorText {
+      color: var(--red);
+      font-weight: 800;
+    }
+
+    .source-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 14px;
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+
+    @media(max-width:900px){
+      .top,.grid { grid-template-columns:1fr; }
+      h1 { font-size: 28px; }
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>NFL Roster Monitor</h1>
-    <div class="subtitle">Reads roster snapshots generated by GitHub Actions.</div>
-
-    <div class="controls">
-      <button onclick="loadDashboard()">Refresh dashboard</button>
-      <select id="teamSelect" onchange="selectTeam(this.value)"></select>
-      <input id="searchBox" placeholder="Search player..." oninput="renderSelectedTeam()" />
+  <div class="hero">
+    <div class="container">
+      <h1>NFL Roster Monitor</h1>
+      <div class="subtitle">Official NFL roster snapshots, generated by GitHub Actions and displayed as a live monitoring dashboard.</div>
     </div>
+  </div>
 
-    <div id="status" class="status">Loading...</div>
-
-    <div class="top">
-      <div class="card"><div id="teamsChecked" class="value">-</div><div class="label">Teams checked</div></div>
-      <div class="card"><div id="teamsOk" class="value">-</div><div class="label">Teams OK</div></div>
-      <div class="card"><div id="teamsErrored" class="value">-</div><div class="label">Teams errored</div></div>
-      <div class="card"><div id="totalChanges" class="value">-</div><div class="label">Changes last run</div></div>
-    </div>
-
-    <div class="grid">
-      <div class="box">
-        <h2>Teams</h2>
-        <div id="teams" class="teams"></div>
+  <div class="main">
+    <div class="container">
+      <div class="controls">
+        <button onclick="loadDashboard()">Refresh dashboard</button>
+        <select id="teamSelect" onchange="selectTeam(this.value)"></select>
+        <input id="searchBox" placeholder="Search player..." oninput="renderSelectedTeam()" />
       </div>
-      <div class="box">
-        <h2 id="selectedTitle">Selected Team</h2>
-        <div id="selectedTeam">Select a team.</div>
+
+      <div id="status" class="status">Loading...</div>
+
+      <div class="top">
+        <div class="card stat-card"><div id="teamsChecked" class="value">-</div><div class="label">Teams checked</div></div>
+        <div class="card stat-card"><div id="teamsOk" class="value">-</div><div class="label">Teams OK</div></div>
+        <div class="card stat-card"><div id="teamsErrored" class="value">-</div><div class="label">Teams errored</div></div>
+        <div class="card stat-card"><div id="totalChanges" class="value">-</div><div class="label">Changes last run</div></div>
+      </div>
+
+      <div class="grid">
+        <div class="box">
+          <h2>Teams</h2>
+          <div id="teams" class="teams"></div>
+        </div>
+        <div class="box">
+          <h2 id="selectedTitle">Selected Team</h2>
+          <div id="selectedTeam">Select a team.</div>
+        </div>
       </div>
     </div>
   </div>
@@ -112,7 +374,7 @@ async function loadDashboard(){
     if(!selectedCode) selectedCode = 'BUF';
     document.getElementById('teamSelect').value = selectedCode;
     renderSelectedTeam();
-    setStatus(`Loaded. Last run finished: ${summary.lastRunFinished || 'unknown'}`);
+    setStatus(`Loaded successfully. Last run finished: ${summary.lastRunFinished || 'unknown'} | Source: ${summary.source || 'NFL.com'}`);
   } catch(e){
     setStatus('Dashboard load error: ' + e.message, true);
   }
@@ -134,14 +396,14 @@ function renderTeams(){
   const html = TEAMS.map(t => {
     const r = rosters[t.code] || {};
     const s = getStatus(t.code);
-    const errors = (r.errors || []).length;
+    const errors = (r.errors || []).length || Boolean(s.lastError);
     const count = (r.players || []).length;
     return `<div class="card team ${selectedCode === t.code ? 'selected' : ''}" onclick="selectTeam('${t.code}')">
       <div class="team-title">${t.name}</div>
-      <div class="meta">${t.code}</div>
+      <div class="team-code">${t.code}</div>
       <div class="meta">Players: ${count}</div>
-      <div class="meta">Checked: ${r.checkedAt || s.checkedAt || '-'}</div>
-      <div class="meta"><span class="pill ${errors ? 'error' : ''}">${errors ? 'Source issue' : 'OK'}</span></div>
+      <div class="meta">Checked: ${formatDate(r.checkedAt || s.checkedAt)}</div>
+      <div class="meta"><span class="pill ${errors ? 'error' : ''}">${errors ? 'Source issue' : 'Official OK'}</span></div>
     </div>`;
   }).join('');
   document.getElementById('teams').innerHTML = html;
@@ -158,6 +420,18 @@ function selectTeam(code){
   renderSelectedTeam();
 }
 
+function statusClass(status){
+  const s = String(status || '').toUpperCase();
+  if(['IR','PUP','NFI','SUS','RES'].includes(s)) return 'danger';
+  if(['UFA','RFA','UDF','NON'].includes(s)) return 'warning';
+  return '';
+}
+
+function formatDate(value){
+  if(!value) return '-';
+  try { return new Date(value).toLocaleString(); } catch(e) { return value; }
+}
+
 function renderSelectedTeam(){
   const roster = rosters[selectedCode];
   const team = TEAMS.find(t => t.code === selectedCode);
@@ -169,12 +443,19 @@ function renderSelectedTeam(){
   const errors = (roster.errors || []).map(e => `<div class="errorText">${e}</div>`).join('');
 
   document.getElementById('selectedTeam').innerHTML = `
-    <div class="meta">Source: ${roster.source || '-'}</div>
-    <div class="meta">Players: ${(roster.players || []).length}</div>
-    <div class="meta">Last checked: ${roster.checkedAt || '-'}</div>
-    ${errors ? '<br>' + errors : ''}
-    <br>
-    ${players.length ? players.map(p => `<div class="player ${p.important ? 'important' : ''}">${p.name || ''} — ${p.position || '?'} — ${p.status || ''}<div class="meta">Source: NFL.com</div></div>`).join('') : '<div class="meta">No players found.</div>'}
+    <div class="source-card">
+      <div class="meta">Source: ${roster.source || 'NFL.com official roster'}</div>
+      <div class="meta">Players: ${(roster.players || []).length}</div>
+      <div class="meta">Last checked: ${formatDate(roster.checkedAt)}</div>
+    </div>
+    ${errors ? errors + '<br>' : ''}
+    ${players.length ? players.map(p => `
+      <div class="player ${p.important ? 'important' : ''}">
+        <span class="player-name">${p.name || ''}</span>
+        <span class="position">${p.position || '?'}</span>
+        <span class="status-pill ${statusClass(p.status)}">${p.status || ''}</span>
+        <div class="meta">Source: NFL.com${p.number ? ' | #' + p.number : ''}</div>
+      </div>`).join('') : '<div class="meta">No players found.</div>'}
   `;
 }
 
