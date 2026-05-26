@@ -1,10 +1,8 @@
-import csv
 import json
 import re
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional
 
 import requests
 from bs4 import BeautifulSoup
@@ -12,226 +10,209 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 LATEST = DATA / "latest"
-TEAM_LOGS = DATA / "team-logs"
-STATUS_FILE = DATA / "status.json"
-ALL_ACTIVITY = DATA / "all-activity.csv"
+STATE = DATA / "state"
+LOGS = ROOT / "logs"
 
 TEAMS = [
-    ("ARI", "Arizona Cardinals", "arizona-cardinals", "ari"),
-    ("ATL", "Atlanta Falcons", "atlanta-falcons", "atl"),
-    ("BAL", "Baltimore Ravens", "baltimore-ravens", "bal"),
-    ("BUF", "Buffalo Bills", "buffalo-bills", "buf"),
-    ("CAR", "Carolina Panthers", "carolina-panthers", "car"),
-    ("CHI", "Chicago Bears", "chicago-bears", "chi"),
-    ("CIN", "Cincinnati Bengals", "cincinnati-bengals", "cin"),
-    ("CLE", "Cleveland Browns", "cleveland-browns", "cle"),
-    ("DAL", "Dallas Cowboys", "dallas-cowboys", "dal"),
-    ("DEN", "Denver Broncos", "denver-broncos", "den"),
-    ("DET", "Detroit Lions", "detroit-lions", "det"),
-    ("GB", "Green Bay Packers", "green-bay-packers", "gb"),
-    ("HOU", "Houston Texans", "houston-texans", "hou"),
-    ("IND", "Indianapolis Colts", "indianapolis-colts", "ind"),
-    ("JAX", "Jacksonville Jaguars", "jacksonville-jaguars", "jax"),
-    ("KC", "Kansas City Chiefs", "kansas-city-chiefs", "kc"),
-    ("LV", "Las Vegas Raiders", "las-vegas-raiders", "lv"),
-    ("LAC", "Los Angeles Chargers", "los-angeles-chargers", "lac"),
-    ("LAR", "Los Angeles Rams", "los-angeles-rams", "lar"),
-    ("MIA", "Miami Dolphins", "miami-dolphins", "mia"),
-    ("MIN", "Minnesota Vikings", "minnesota-vikings", "min"),
-    ("NE", "New England Patriots", "new-england-patriots", "ne"),
-    ("NO", "New Orleans Saints", "new-orleans-saints", "no"),
-    ("NYG", "New York Giants", "new-york-giants", "nyg"),
-    ("NYJ", "New York Jets", "new-york-jets", "nyj"),
-    ("PHI", "Philadelphia Eagles", "philadelphia-eagles", "phi"),
-    ("PIT", "Pittsburgh Steelers", "pittsburgh-steelers", "pit"),
-    ("SF", "San Francisco 49ers", "san-francisco-49ers", "sf"),
-    ("SEA", "Seattle Seahawks", "seattle-seahawks", "sea"),
-    ("TB", "Tampa Bay Buccaneers", "tampa-bay-buccaneers", "tb"),
-    ("TEN", "Tennessee Titans", "tennessee-titans", "ten"),
-    ("WAS", "Washington Commanders", "washington-commanders", "wsh"),
+    ("ARI", "Arizona Cardinals", "arizona-cardinals"),
+    ("ATL", "Atlanta Falcons", "atlanta-falcons"),
+    ("BAL", "Baltimore Ravens", "baltimore-ravens"),
+    ("BUF", "Buffalo Bills", "buffalo-bills"),
+    ("CAR", "Carolina Panthers", "carolina-panthers"),
+    ("CHI", "Chicago Bears", "chicago-bears"),
+    ("CIN", "Cincinnati Bengals", "cincinnati-bengals"),
+    ("CLE", "Cleveland Browns", "cleveland-browns"),
+    ("DAL", "Dallas Cowboys", "dallas-cowboys"),
+    ("DEN", "Denver Broncos", "denver-broncos"),
+    ("DET", "Detroit Lions", "detroit-lions"),
+    ("GB", "Green Bay Packers", "green-bay-packers"),
+    ("HOU", "Houston Texans", "houston-texans"),
+    ("IND", "Indianapolis Colts", "indianapolis-colts"),
+    ("JAX", "Jacksonville Jaguars", "jacksonville-jaguars"),
+    ("KC", "Kansas City Chiefs", "kansas-city-chiefs"),
+    ("LV", "Las Vegas Raiders", "las-vegas-raiders"),
+    ("LAC", "Los Angeles Chargers", "los-angeles-chargers"),
+    ("LAR", "Los Angeles Rams", "los-angeles-rams"),
+    ("MIA", "Miami Dolphins", "miami-dolphins"),
+    ("MIN", "Minnesota Vikings", "minnesota-vikings"),
+    ("NE", "New England Patriots", "new-england-patriots"),
+    ("NO", "New Orleans Saints", "new-orleans-saints"),
+    ("NYG", "New York Giants", "new-york-giants"),
+    ("NYJ", "New York Jets", "new-york-jets"),
+    ("PHI", "Philadelphia Eagles", "philadelphia-eagles"),
+    ("PIT", "Pittsburgh Steelers", "pittsburgh-steelers"),
+    ("SF", "San Francisco 49ers", "san-francisco-49ers"),
+    ("SEA", "Seattle Seahawks", "seattle-seahawks"),
+    ("TB", "Tampa Bay Buccaneers", "tampa-bay-buccaneers"),
+    ("TEN", "Tennessee Titans", "tennessee-titans"),
+    ("WAS", "Washington Commanders", "washington-commanders"),
 ]
 
-IMPORTANT_POSITIONS = {"QB", "RB", "WR", "TE", "K", "PK", "CB", "DB", "S", "FS", "SS", "DE", "EDGE", "OT", "LT"}
-POSITIONS_RE = r"QB|RB|FB|WR|TE|C|G|OG|OT|OL|DE|DT|DL|LB|OLB|MLB|CB|S|FS|SS|DB|PK|K|P|LS|EDGE"
+IMPORTANT_POSITIONS = {"QB", "RB", "WR", "TE", "K", "CB", "DB", "S", "FS", "SS", "DE", "EDGE", "OT", "LT"}
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; RosterActivityMonitor/1.0)",
+    "User-Agent": "Mozilla/5.0 NFLRosterMonitor/1.0",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 }
 
-
-def now_iso() -> str:
+def now_iso():
     return datetime.now(timezone.utc).isoformat()
 
-
-def clean(text: str) -> str:
-    return re.sub(r"\s+", " ", text or "").strip()
-
-
-def official_url(slug: str) -> str:
+def official_url(slug):
     return f"https://www.nfl.com/teams/{slug}/roster"
 
+def ensure_dirs():
+    for folder in [DATA, LATEST, STATE, LOGS]:
+        folder.mkdir(parents=True, exist_ok=True)
 
-def espn_url(espn: str) -> str:
-    return f"https://www.espn.com/nfl/team/roster/_/name/{espn}"
-
-
-def fetch_html(url: str, attempts: int = 2) -> str:
-    last_error: Optional[Exception] = None
-    for attempt in range(attempts):
+def fetch_html(url):
+    last_error = None
+    for attempt in range(3):
         try:
-            response = requests.get(url, headers=HEADERS, timeout=30)
-            response.raise_for_status()
-            if len(response.text) < 500:
-                raise ValueError("response too short")
-            return response.text
-        except Exception as exc:
-            last_error = exc
-            time.sleep(1.5 + attempt)
-    raise RuntimeError(f"failed to fetch {url}: {last_error}")
+            r = requests.get(url, headers=HEADERS, timeout=25)
+            r.raise_for_status()
+            if len(r.text) < 500:
+                raise ValueError("Response too short")
+            return r.text
+        except Exception as e:
+            last_error = e
+            time.sleep(2 + attempt * 2)
+    raise RuntimeError(str(last_error))
 
+def clean(text):
+    return re.sub(r"\s+", " ", text or "").strip()
 
-def make_player(name: str, position: str, status: str, source_status: str) -> dict:
-    position = "K" if position == "PK" else position
+def parse_roster(html, code, name, slug):
+    soup = BeautifulSoup(html, "html.parser")
+    players = {}
+    positions = r"QB|RB|FB|WR|TE|C|G|OG|OT|OL|DE|DT|DL|LB|OLB|MLB|CB|S|FS|SS|DB|K|PK|P|LS|EDGE"
+
+    rows = soup.find_all("tr")
+    for row in rows:
+        text = clean(row.get_text(" "))
+        if not text:
+            continue
+
+        pos_match = re.search(rf"\b({positions})\b", text)
+        if not pos_match:
+            continue
+
+        links = row.find_all("a")
+        possible_names = [clean(a.get_text(" ")) for a in links]
+        possible_names = [
+            n for n in possible_names
+            if re.match(r"^[A-Z][A-Za-z.'-]+(?: [A-Z][A-Za-z.'-]+){1,3}$", n)
+        ]
+
+        if not possible_names:
+            name_match = re.search(r"([A-Z][A-Za-z.'-]+(?: [A-Z][A-Za-z.'-]+){1,3})", text)
+            if not name_match:
+                continue
+            player_name = clean(name_match.group(1))
+        else:
+            player_name = possible_names[0]
+
+        position = pos_match.group(1)
+        if position == "PK":
+            position = "K"
+
+        number_match = re.search(r"\b([0-9]{1,2})\b", text)
+        status_match = re.search(r"\b(ACT|RES|IR|PUP|NFI|SUS|EXE|RFA|UFA|UDF|NON)\b", text)
+
+        players[player_name.lower()] = {
+            "name": player_name,
+            "position": position,
+            "number": number_match.group(1) if number_match else "",
+            "status": status_match.group(1) if status_match else "LISTED",
+            "important": position in IMPORTANT_POSITIONS,
+            "source": "NFL.com",
+        }
+
     return {
-        "name": clean(name),
-        "position": position,
-        "status": status,
-        "sourceStatus": source_status,
-        "important": position in IMPORTANT_POSITIONS,
+        "code": code,
+        "team": name,
+        "source": "NFL.com official roster",
+        "url": official_url(slug),
+        "checkedAt": now_iso(),
+        "players": sorted(players.values(), key=lambda x: x["name"]),
     }
 
-
-def parse_official(html: str) -> List[dict]:
-    soup = BeautifulSoup(html, "lxml")
-    text = clean(soup.get_text(" "))
-    players: Dict[str, dict] = {}
-
-    pattern = re.compile(rf"\b([A-Z][A-Za-z.'-]+(?: [A-Z][A-Za-z.'-]+){{1,3}})\s+(?:#?\d{{1,2}}\s+)?({POSITIONS_RE})\b")
-    for name, position in pattern.findall(text):
-        name = clean(name)
-        key = name.lower()
-        if len(name) > 45 or key in players:
-            continue
-        if any(skip in name.lower() for skip in ["official", "roster", "tickets", "news"]):
-            continue
-        players[key] = make_player(name, position, "LISTED", "official")
-
-    return sorted(players.values(), key=lambda p: p["name"])
-
-
-def parse_espn(html: str) -> List[dict]:
-    soup = BeautifulSoup(html, "lxml")
-    text = clean(soup.get_text(" "))
-    players: Dict[str, dict] = {}
-
-    pattern = re.compile(rf"\b([A-Z][A-Za-z.'-]+(?: [A-Z][A-Za-z.'-]+){{1,3}})\s+({POSITIONS_RE})\s+\d{{1,2}}\b")
-    for name, position in pattern.findall(text):
-        name = clean(name)
-        key = name.lower()
-        if len(name) > 45 or key in players:
-            continue
-        players[key] = make_player(name, position, "LISTED", "espn")
-
-    return sorted(players.values(), key=lambda p: p["name"])
-
-
-def merge_rosters(official_players: List[dict], espn_players: List[dict]) -> List[dict]:
-    official = {p["name"].lower(): p for p in official_players}
-    espn = {p["name"].lower(): p for p in espn_players}
-    names = sorted(set(official) | set(espn))
-    merged = []
-    for key in names:
-        o = official.get(key)
-        e = espn.get(key)
-        base = dict(o or e)
-        if o and e:
-            base["status"] = "CONFIRMED"
-            base["sourceStatus"] = "confirmed-both"
-        elif o:
-            base["status"] = "OFFICIAL_ONLY"
-            base["sourceStatus"] = "official-only"
-        else:
-            base["status"] = "ESPN_ONLY"
-            base["sourceStatus"] = "espn-only"
-        base["important"] = bool((o and o.get("important")) or (e and e.get("important")))
-        merged.append(base)
-    return merged
-
-
-def load_snapshot(team_code: str) -> Optional[dict]:
-    path = LATEST / f"{team_code}.json"
+def load_json(path):
     if not path.exists():
         return None
     return json.loads(path.read_text(encoding="utf-8"))
 
+def save_json(path, data):
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
-def save_snapshot(team_code: str, snapshot: dict) -> None:
-    LATEST.mkdir(parents=True, exist_ok=True)
-    (LATEST / f"{team_code}.json").write_text(json.dumps(snapshot, indent=2, ensure_ascii=False), encoding="utf-8")
+def player_map(roster):
+    return {p["name"].lower(): p for p in roster.get("players", [])}
 
-
-def player_map(snapshot: dict) -> Dict[str, dict]:
-    return {p["name"].lower(): p for p in snapshot.get("players", [])}
-
-
-def score_change(change: dict) -> str:
+def severity(change):
     score = 0
     pos = change.get("position", "")
-    text = f"{change.get('type','')} {change.get('oldValue','')} {change.get('newValue','')}".lower()
+    text = f"{change['type']} {change.get('oldValue','')} {change.get('newValue','')}".lower()
+
     if pos == "QB":
         score += 50
-    if pos in {"RB", "WR", "TE", "K"}:
+    elif pos in {"RB", "WR", "TE", "K"}:
         score += 25
-    if pos in {"CB", "DB", "S", "FS", "SS", "DE", "EDGE", "OT"}:
+    elif pos in {"CB", "DB", "S", "FS", "SS", "DE", "EDGE", "OT", "LT"}:
         score += 15
+
     if change["type"] == "removed":
         score += 45
-    if change["type"] == "added":
+    elif change["type"] == "added":
         score += 15
-    if change["type"] == "status changed":
+    elif change["type"] == "status changed":
         score += 35
+
     if re.search(r"ir|pup|nfi|sus|res|out|inj", text):
         score += 40
+
     if score >= 80:
         return "high"
     if score >= 40:
         return "medium"
     return "low"
 
-
-def make_change(snapshot: dict, change_type: str, player: dict, old_value: str, new_value: str) -> dict:
-    change = {
+def make_change(roster, change_type, player, old_value="", new_value=""):
+    item = {
         "timestamp": now_iso(),
-        "teamCode": snapshot["code"],
-        "teamName": snapshot["team"],
-        "severity": "low",
+        "teamCode": roster["code"],
+        "teamName": roster["team"],
         "type": change_type,
         "playerName": player.get("name", ""),
         "position": player.get("position", ""),
         "oldValue": old_value or "",
         "newValue": new_value or "",
-        "sourceStatus": player.get("sourceStatus", ""),
+        "source": "NFL.com",
     }
-    change["severity"] = score_change(change)
-    return change
+    item["severity"] = severity(item)
+    return item
 
-
-def diff_snapshots(old: Optional[dict], new: dict) -> List[dict]:
+def diff_rosters(old, new):
     if old is None:
         return []
-    changes: List[dict] = []
+
     old_map = player_map(old)
     new_map = player_map(new)
+    changes = []
 
     for key, new_player in new_map.items():
         old_player = old_map.get(key)
-        if old_player is None:
+        if not old_player:
             changes.append(make_change(new, "added", new_player, "", new_player.get("status", "")))
             continue
-        for field, label in [("status", "status changed"), ("position", "position changed"), ("sourceStatus", "source confirmation changed")]:
-            if old_player.get(field, "") != new_player.get(field, ""):
-                changes.append(make_change(new, label, new_player, old_player.get(field, ""), new_player.get(field, "")))
+
+        if old_player.get("status", "") != new_player.get("status", ""):
+            changes.append(make_change(new, "status changed", new_player, old_player.get("status", ""), new_player.get("status", "")))
+
+        if old_player.get("position", "") != new_player.get("position", ""):
+            changes.append(make_change(new, "position changed", new_player, old_player.get("position", ""), new_player.get("position", "")))
+
+        if old_player.get("number", "") != new_player.get("number", ""):
+            changes.append(make_change(new, "number changed", new_player, old_player.get("number", ""), new_player.get("number", "")))
 
     for key, old_player in old_map.items():
         if key not in new_map:
@@ -239,120 +220,83 @@ def diff_snapshots(old: Optional[dict], new: dict) -> List[dict]:
 
     return changes
 
-
-def append_csv(path: Path, fieldnames: List[str], rows: List[dict]) -> None:
-    if not rows:
+def append_team_log(code, changes):
+    if not changes:
         return
-    path.parent.mkdir(parents=True, exist_ok=True)
-    exists = path.exists()
-    with path.open("a", newline="", encoding="utf-8") as fh:
-        writer = csv.DictWriter(fh, fieldnames=fieldnames)
-        if not exists:
-            writer.writeheader()
-        for row in rows:
-            writer.writerow({field: row.get(field, "") for field in fieldnames})
 
+    path = LOGS / f"{code}.json"
+    existing = load_json(path) or []
+    save_json(path, changes + existing)
 
-def append_changes(changes: List[dict]) -> None:
-    fields = ["timestamp", "teamCode", "teamName", "severity", "type", "playerName", "position", "oldValue", "newValue", "sourceStatus"]
-    append_csv(ALL_ACTIVITY, fields, changes)
-    by_team: Dict[str, List[dict]] = {}
-    for change in changes:
-        by_team.setdefault(change["teamCode"], []).append(change)
-    for team_code, rows in by_team.items():
-        append_csv(TEAM_LOGS / f"{team_code}.csv", fields, rows)
+def append_all_log(changes):
+    if not changes:
+        return
 
+    path = LOGS / "all_changes.json"
+    existing = load_json(path) or []
+    save_json(path, changes + existing)
 
-def read_status() -> dict:
-    if STATUS_FILE.exists():
-        return json.loads(STATUS_FILE.read_text(encoding="utf-8"))
-    return {}
+def run():
+    ensure_dirs()
 
+    statuses = []
+    all_changes = []
 
-def save_status(status: dict) -> None:
-    DATA.mkdir(parents=True, exist_ok=True)
-    STATUS_FILE.write_text(json.dumps(status, indent=2, ensure_ascii=False), encoding="utf-8")
+    for code, team_name, slug in TEAMS:
+        try:
+            html = fetch_html(official_url(slug))
+            roster = parse_roster(html, code, team_name, slug)
 
+            old_roster = load_json(STATE / f"{code}.json")
+            changes = diff_rosters(old_roster, roster)
 
-def check_team(team_code: str, name: str, slug: str, espn: str) -> dict:
-    errors = []
-    official_players: List[dict] = []
-    espn_players: List[dict] = []
+            save_json(STATE / f"{code}.json", roster)
+            save_json(LATEST / f"{code}.json", roster)
 
-    try:
-        official_players = parse_official(fetch_html(official_url(slug)))
-        if not official_players:
-            raise ValueError("no official players parsed")
-    except Exception as exc:
-        errors.append(f"official: {exc}")
+            append_team_log(code, changes)
+            all_changes.extend(changes)
 
-    try:
-        espn_players = parse_espn(fetch_html(espn_url(espn)))
-        if not espn_players:
-            raise ValueError("no ESPN players parsed")
-    except Exception as exc:
-        errors.append(f"espn: {exc}")
+            statuses.append({
+                "teamCode": code,
+                "teamName": team_name,
+                "checkedAt": roster["checkedAt"],
+                "playerCount": len(roster["players"]),
+                "lastChangeCount": len(changes),
+                "lastError": "",
+                "source": "NFL.com",
+            })
 
-    if not official_players and not espn_players:
-        return {"teamCode": team_code, "teamName": name, "ok": False, "error": " | ".join(errors), "checkedAt": now_iso()}
+            print(f"{code}: {len(roster['players'])} players, {len(changes)} changes")
 
-    players = merge_rosters(official_players, espn_players)
-    snapshot = {
-        "team": name,
-        "code": team_code,
-        "checkedAt": now_iso(),
-        "source": "NFL.com + ESPN",
-        "officialPlayerCount": len(official_players),
-        "espnPlayerCount": len(espn_players),
-        "errors": errors,
-        "players": players,
-    }
-    old = load_snapshot(team_code)
-    changes = diff_snapshots(old, snapshot)
-    save_snapshot(team_code, snapshot)
-    append_changes(changes)
+        except Exception as e:
+            statuses.append({
+                "teamCode": code,
+                "teamName": team_name,
+                "checkedAt": now_iso(),
+                "playerCount": 0,
+                "lastChangeCount": 0,
+                "lastError": str(e),
+                "source": "NFL.com",
+            })
+            print(f"{code}: ERROR {e}")
 
-    return {
-        "teamCode": team_code,
-        "teamName": name,
-        "ok": True,
-        "checkedAt": snapshot["checkedAt"],
-        "playerCount": len(players),
-        "officialPlayerCount": len(official_players),
-        "espnPlayerCount": len(espn_players),
-        "changeCount": len(changes),
-        "errors": errors,
-        "baselineCreated": old is None,
-    }
+        time.sleep(1.5)
 
-
-def main() -> None:
-    DATA.mkdir(exist_ok=True)
-    LATEST.mkdir(parents=True, exist_ok=True)
-    TEAM_LOGS.mkdir(parents=True, exist_ok=True)
-
-    status = read_status()
-    run_started = now_iso()
-    results = []
-
-    for team in TEAMS:
-        result = check_team(*team)
-        results.append(result)
-        status[result["teamCode"]] = result
-        save_status(status)
-        time.sleep(1.0)
+    append_all_log(all_changes)
 
     summary = {
-        "lastRunStarted": run_started,
         "lastRunFinished": now_iso(),
-        "teamsChecked": len(results),
-        "teamsOk": sum(1 for r in results if r.get("ok")),
-        "teamsErrored": sum(1 for r in results if not r.get("ok")),
-        "totalChanges": sum(r.get("changeCount", 0) for r in results),
+        "teamsChecked": len(TEAMS),
+        "teamsOk": sum(1 for s in statuses if not s["lastError"]),
+        "teamsErrored": sum(1 for s in statuses if s["lastError"]),
+        "totalChanges": len(all_changes),
+        "source": "NFL.com official roster only",
     }
-    (DATA / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
-    print(json.dumps(summary, indent=2))
 
+    save_json(DATA / "status.json", statuses)
+    save_json(DATA / "summary.json", summary)
+
+    print("Done:", summary)
 
 if __name__ == "__main__":
-    main()
+    run()
