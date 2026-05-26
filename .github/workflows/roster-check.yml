@@ -3,7 +3,7 @@ name: NFL Roster Check
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "0 8 * * *"
 
 permissions:
   contents: write
