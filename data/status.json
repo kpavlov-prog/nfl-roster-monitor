@@ -1,450 +1,290 @@
-{
-  "ARI": {
+[
+  {
     "teamCode": "ARI",
     "teamName": "Arizona Cardinals",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:02:43.203243+00:00",
+    "checkedAt": "2026-05-26T18:06:10.775081+00:00",
     "playerCount": 95,
-    "officialPlayerCount": 95,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "ATL": {
+  {
     "teamCode": "ATL",
     "teamName": "Atlanta Falcons",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:02:45.255967+00:00",
+    "checkedAt": "2026-05-26T18:06:13.089302+00:00",
     "playerCount": 94,
-    "officialPlayerCount": 94,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "BAL": {
+  {
     "teamCode": "BAL",
     "teamName": "Baltimore Ravens",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:02:47.006206+00:00",
+    "checkedAt": "2026-05-26T18:06:14.797018+00:00",
     "playerCount": 89,
-    "officialPlayerCount": 89,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "BUF": {
+  {
     "teamCode": "BUF",
     "teamName": "Buffalo Bills",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:02:49.072332+00:00",
+    "checkedAt": "2026-05-26T18:06:17.553972+00:00",
     "playerCount": 100,
-    "officialPlayerCount": 100,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "CAR": {
+  {
     "teamCode": "CAR",
     "teamName": "Carolina Panthers",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:02:51.419319+00:00",
+    "checkedAt": "2026-05-26T18:06:20.487902+00:00",
     "playerCount": 90,
-    "officialPlayerCount": 90,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "CHI": {
+  {
     "teamCode": "CHI",
     "teamName": "Chicago Bears",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:02:53.802253+00:00",
-    "playerCount": 89,
-    "officialPlayerCount": 89,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "checkedAt": "2026-05-26T18:06:22.331815+00:00",
+    "playerCount": 90,
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "CIN": {
+  {
     "teamCode": "CIN",
     "teamName": "Cincinnati Bengals",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:02:56.161022+00:00",
+    "checkedAt": "2026-05-26T18:06:24.976498+00:00",
     "playerCount": 83,
-    "officialPlayerCount": 83,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "CLE": {
+  {
     "teamCode": "CLE",
     "teamName": "Cleveland Browns",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:02:57.938646+00:00",
+    "checkedAt": "2026-05-26T18:06:27.598735+00:00",
     "playerCount": 95,
-    "officialPlayerCount": 95,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "DAL": {
+  {
     "teamCode": "DAL",
     "teamName": "Dallas Cowboys",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:02:59.684522+00:00",
-    "playerCount": 90,
-    "officialPlayerCount": 90,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "checkedAt": "2026-05-26T18:06:30.341301+00:00",
+    "playerCount": 91,
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "DEN": {
+  {
     "teamCode": "DEN",
     "teamName": "Denver Broncos",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:00.804959+00:00",
+    "checkedAt": "2026-05-26T18:06:32.842915+00:00",
     "playerCount": 85,
-    "officialPlayerCount": 85,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "DET": {
+  {
     "teamCode": "DET",
     "teamName": "Detroit Lions",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:01.920056+00:00",
+    "checkedAt": "2026-05-26T18:06:36.069073+00:00",
     "playerCount": 91,
-    "officialPlayerCount": 91,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "GB": {
+  {
     "teamCode": "GB",
     "teamName": "Green Bay Packers",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:03.066872+00:00",
+    "checkedAt": "2026-05-26T18:06:39.094964+00:00",
     "playerCount": 87,
-    "officialPlayerCount": 87,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "HOU": {
+  {
     "teamCode": "HOU",
     "teamName": "Houston Texans",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:04.183830+00:00",
+    "checkedAt": "2026-05-26T18:06:41.529330+00:00",
     "playerCount": 92,
-    "officialPlayerCount": 92,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "IND": {
+  {
     "teamCode": "IND",
     "teamName": "Indianapolis Colts",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:05.297564+00:00",
+    "checkedAt": "2026-05-26T18:06:44.159173+00:00",
     "playerCount": 92,
-    "officialPlayerCount": 92,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "JAX": {
+  {
     "teamCode": "JAX",
     "teamName": "Jacksonville Jaguars",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:06.406731+00:00",
+    "checkedAt": "2026-05-26T18:06:46.465094+00:00",
     "playerCount": 88,
-    "officialPlayerCount": 88,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "KC": {
+  {
     "teamCode": "KC",
     "teamName": "Kansas City Chiefs",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:07.517194+00:00",
+    "checkedAt": "2026-05-26T18:06:48.240744+00:00",
     "playerCount": 91,
-    "officialPlayerCount": 91,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "LV": {
+  {
     "teamCode": "LV",
     "teamName": "Las Vegas Raiders",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:09.371898+00:00",
+    "checkedAt": "2026-05-26T18:06:51.608979+00:00",
     "playerCount": 97,
-    "officialPlayerCount": 97,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "LAC": {
+  {
     "teamCode": "LAC",
     "teamName": "Los Angeles Chargers",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:11.529679+00:00",
+    "checkedAt": "2026-05-26T18:06:53.294074+00:00",
     "playerCount": 92,
-    "officialPlayerCount": 92,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "LAR": {
+  {
     "teamCode": "LAR",
     "teamName": "Los Angeles Rams",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:13.267146+00:00",
-    "playerCount": 84,
-    "officialPlayerCount": 84,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "checkedAt": "2026-05-26T18:06:55.375135+00:00",
+    "playerCount": 85,
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "MIA": {
+  {
     "teamCode": "MIA",
     "teamName": "Miami Dolphins",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:15.175090+00:00",
+    "checkedAt": "2026-05-26T18:06:57.572374+00:00",
     "playerCount": 101,
-    "officialPlayerCount": 101,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "MIN": {
+  {
     "teamCode": "MIN",
     "teamName": "Minnesota Vikings",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:17.539157+00:00",
+    "checkedAt": "2026-05-26T18:07:00.781291+00:00",
     "playerCount": 91,
-    "officialPlayerCount": 91,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "NE": {
+  {
     "teamCode": "NE",
     "teamName": "New England Patriots",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:20.065264+00:00",
+    "checkedAt": "2026-05-26T18:07:03.315645+00:00",
     "playerCount": 93,
-    "officialPlayerCount": 93,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "NO": {
+  {
     "teamCode": "NO",
     "teamName": "New Orleans Saints",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:21.175724+00:00",
-    "playerCount": 91,
-    "officialPlayerCount": 91,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "checkedAt": "2026-05-26T18:07:05.960264+00:00",
+    "playerCount": 92,
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "NYG": {
+  {
     "teamCode": "NYG",
     "teamName": "New York Giants",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:23.225559+00:00",
-    "playerCount": 95,
-    "officialPlayerCount": 95,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "checkedAt": "2026-05-26T18:07:09.212051+00:00",
+    "playerCount": 96,
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "NYJ": {
+  {
     "teamCode": "NYJ",
     "teamName": "New York Jets",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:25.578952+00:00",
+    "checkedAt": "2026-05-26T18:07:12.094310+00:00",
     "playerCount": 91,
-    "officialPlayerCount": 91,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "PHI": {
+  {
     "teamCode": "PHI",
     "teamName": "Philadelphia Eagles",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:27.927443+00:00",
+    "checkedAt": "2026-05-26T18:07:14.125998+00:00",
     "playerCount": 87,
-    "officialPlayerCount": 87,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "PIT": {
+  {
     "teamCode": "PIT",
     "teamName": "Pittsburgh Steelers",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:29.888696+00:00",
+    "checkedAt": "2026-05-26T18:07:17.454539+00:00",
     "playerCount": 94,
-    "officialPlayerCount": 94,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "SF": {
+  {
     "teamCode": "SF",
     "teamName": "San Francisco 49ers",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:31.686437+00:00",
+    "checkedAt": "2026-05-26T18:07:20.059868+00:00",
     "playerCount": 93,
-    "officialPlayerCount": 93,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "SEA": {
+  {
     "teamCode": "SEA",
     "teamName": "Seattle Seahawks",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:34.034005+00:00",
+    "checkedAt": "2026-05-26T18:07:23.005700+00:00",
     "playerCount": 84,
-    "officialPlayerCount": 84,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "TB": {
+  {
     "teamCode": "TB",
     "teamName": "Tampa Bay Buccaneers",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:36.079352+00:00",
+    "checkedAt": "2026-05-26T18:07:25.487865+00:00",
     "playerCount": 93,
-    "officialPlayerCount": 93,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "TEN": {
+  {
     "teamCode": "TEN",
     "teamName": "Tennessee Titans",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:37.180390+00:00",
+    "checkedAt": "2026-05-26T18:07:28.294902+00:00",
     "playerCount": 89,
-    "officialPlayerCount": 89,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   },
-  "WAS": {
+  {
     "teamCode": "WAS",
     "teamName": "Washington Commanders",
-    "ok": true,
-    "checkedAt": "2026-05-26T17:03:39.534668+00:00",
+    "checkedAt": "2026-05-26T18:07:31.156279+00:00",
     "playerCount": 100,
-    "officialPlayerCount": 100,
-    "espnPlayerCount": 0,
-    "changeCount": 0,
-    "errors": [
-      "espn: no ESPN players parsed"
-    ],
-    "baselineCreated": true
+    "lastChangeCount": 0,
+    "lastError": "",
+    "source": "NFL.com"
   }
-}
+]
