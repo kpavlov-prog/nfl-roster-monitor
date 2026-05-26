@@ -1,0 +1,713 @@
+{
+  "team": "Buffalo Bills",
+  "code": "BUF",
+  "checkedAt": "2026-05-26T17:02:49.072332+00:00",
+  "source": "NFL.com + ESPN",
+  "officialPlayerCount": 100,
+  "espnPlayerCount": 0,
+  "errors": [
+    "espn: no ESPN players parsed"
+  ],
+  "players": [
+    {
+      "name": "Alabama Connor McGovern",
+      "position": "G",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Appalachian State Deone Walker",
+      "position": "DT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Arkansas De'Metrius Weatherspoon",
+      "position": "OT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Arkansas Keonta Jenkins",
+      "position": "LB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Army Travis Clayton",
+      "position": "OT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Boise State Tyrell Shavers",
+      "position": "WR",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Boston College DJ Moore",
+      "position": "WR",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Boston College Nick Broeker",
+      "position": "G",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Brown Kody Huisman",
+      "position": "DT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Buffalo Tyler Bass",
+      "position": "K",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Charlotte Ed Oliver",
+      "position": "DT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Clemson Jordan Phillips",
+      "position": "DT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Clemson Tommy Doman Jr.",
+      "position": "P",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Connecticut Christian Benford",
+      "position": "CB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Connecticut Ja'Mori Maclin",
+      "position": "WR",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Desmond Reid",
+      "position": "RB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Diego State Trent Sherfield",
+      "position": "WR",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Duke Bradley Chubb",
+      "position": "OLB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Duke Dee Alford",
+      "position": "CB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Experience College Jackson Acker",
+      "position": "RB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Florida Frank Gore Jr.",
+      "position": "RB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Florida Jordan Dunbar",
+      "position": "DB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Florida Sedrick Van Pran-Granger",
+      "position": "C",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Florida State James Cook",
+      "position": "RB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Georgia Ben VanSumeren",
+      "position": "RB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Georgia Brandin Cooks",
+      "position": "WR",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Georgia Chase Lundt",
+      "position": "OT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Georgia Jackson Hawes",
+      "position": "TE",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Georgia Southern Skyler Bell",
+      "position": "WR",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Georgia Tech Michael Hoecht",
+      "position": "LB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Houston Alec Anderson",
+      "position": "OT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Iowa Dorian Strong",
+      "position": "CB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Iowa Reid Ferguson",
+      "position": "LS",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Kennesaw State Terrel Bernard",
+      "position": "LB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Kentucky Dion Dawkins",
+      "position": "OT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Kentucky Kani Walker",
+      "position": "DB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Kentucky Phidarian Mathis",
+      "position": "DT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Keon Coleman",
+      "position": "WR",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "LSU Bruno Fina",
+      "position": "OT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "LSU Dorian Williams",
+      "position": "LB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "LSU Michael Danna",
+      "position": "LB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Maryland DaQuan Jones",
+      "position": "DE",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Maryland Josh Allen",
+      "position": "QB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Maryland Khalil Shakir",
+      "position": "WR",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Maryland Larry Ogunjobi",
+      "position": "DT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Miami Curtis Samuel",
+      "position": "WR",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Miami Jordan Poyer",
+      "position": "FS",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Miami Lloyd Cushenberry III",
+      "position": "C",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Michigan Gabe Davis",
+      "position": "WR",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Michigan State Jalen Virgil",
+      "position": "WR",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Mississippi Keleki Latu",
+      "position": "TE",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Mississippi Spencer Brown",
+      "position": "OT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Missouri State Zane Durant",
+      "position": "DT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "N.C. State Jimmy Ciarlo",
+      "position": "LB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Nevada Te'Cory Couch",
+      "position": "DB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "New Hampshire Josh Palmer",
+      "position": "WR",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Northern Iowa Shane Buechele",
+      "position": "QB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Ohio State Dane Jackson",
+      "position": "CB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Ohio State Jude Bowry",
+      "position": "OT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Ohio State Mecole Hardman",
+      "position": "WR",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Ohio State T.J. Sanders",
+      "position": "DT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Oklahoma Daryl Porter",
+      "position": "CB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Oregon State Austin Corbett",
+      "position": "G",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Oregon State Matt Prater",
+      "position": "K",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Penn State Kaleb Elarms-Orr",
+      "position": "LB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Penn State Matt Milano",
+      "position": "OLB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Pittsburgh Greg Rousseau",
+      "position": "LB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Pittsburgh Jordan Hancock",
+      "position": "CB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Pittsburgh Landon Jackson",
+      "position": "DE",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "SMU DeWayne Carter",
+      "position": "DT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "South Carolina Dalton Kincaid",
+      "position": "TE",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "South Carolina Darnell Savage",
+      "position": "DB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Southern Mississippi Stephen Gosnell",
+      "position": "WR",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "State Andre Jones Jr.",
+      "position": "LB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Syracuse Tre'Davious White",
+      "position": "CB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "TCU A.J. Epenesa",
+      "position": "DE",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Temple Cade Denhoff",
+      "position": "DE",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Temple Theron Gaines",
+      "position": "LB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Tennessee Technological Univ",
+      "position": "C",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Tennessee TJ Parker",
+      "position": "LB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Tulane Mitch Wishnowsky",
+      "position": "P",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "UCF Ray Davis",
+      "position": "RB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "UCF Shaq Thompson",
+      "position": "OLB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "UCF Toriano Pride Jr.",
+      "position": "CB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "UCLA Joe Andreessen",
+      "position": "LB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Utah Dawson Knox",
+      "position": "TE",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Utah Joey Bosa",
+      "position": "DE",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Utah Shane Zylstra",
+      "position": "TE",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Vanderbilt Javon Solomon",
+      "position": "LB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Villanova Gabriel Benyard",
+      "position": "WR",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Virginia Tech Davison Igbinosun",
+      "position": "CB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Virginia Tech Max Tomczak",
+      "position": "WR",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Virginia Tech Ty Johnson",
+      "position": "RB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Virginia Tech Tylan Grable",
+      "position": "OT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Washington Ar'maj Reed-Adams",
+      "position": "G",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Washington Maxwell Hairston",
+      "position": "CB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Washington Zion Logue",
+      "position": "DT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Wisconsin Tommy Akingbesote",
+      "position": "DT",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    },
+    {
+      "name": "Wyoming Kyle Allen",
+      "position": "QB",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": true
+    },
+    {
+      "name": "Youngstown State O'Cyrus Torrence",
+      "position": "G",
+      "status": "OFFICIAL_ONLY",
+      "sourceStatus": "official-only",
+      "important": false
+    }
+  ]
+}
