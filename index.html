@@ -84,7 +84,15 @@
       gap: 14px;
       margin-bottom: 18px;
     }
-
+    
+    .team-logo {
+      width: 42px;
+      height: 42px;
+      object-fit: contain;
+      margin-top: 8px;
+      margin-bottom: 10px;
+    }
+    
     .stat-card {
       position: relative;
       overflow: hidden;
@@ -391,7 +399,11 @@ function getStatus(code){
   if(Array.isArray(statusRows)) return statusRows.find(x => x.teamCode === code || x.code === code) || {};
   return statusRows[code] || {};
 }
-
+const LOGOS = {
+  BUF: "https://static.www.nfl.com/image/private/f_auto/league/giphcy6ie9mxbnldntsf",
+  KC: "https://static.www.nfl.com/image/private/f_auto/league/ujshjqvmnxce8m4obmvs",
+  DAL: "https://static.www.nfl.com/image/private/f_auto/league/rjgc6g8jrm9xkq2h0qwy"
+};
 function renderTeams(){
   const html = TEAMS.map(t => {
     const r = rosters[t.code] || {};
@@ -400,6 +412,7 @@ function renderTeams(){
     const count = (r.players || []).length;
     return `<div class="card team ${selectedCode === t.code ? 'selected' : ''}" onclick="selectTeam('${t.code}')">
       <div class="team-title">${t.name}</div>
+      <img src="${LOGOS[t.code]}" class="team-logo">
       <div class="team-code">${t.code}</div>
       <div class="meta">Players: ${count}</div>
       <div class="meta">Checked: ${formatDate(r.checkedAt || s.checkedAt)}</div>
