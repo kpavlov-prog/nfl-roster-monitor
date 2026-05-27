@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NFL Roster Monitor</title>
 
   <style>
@@ -23,9 +23,7 @@
       --yellow-bg:#fef3c7;
     }
 
-    *{
-      box-sizing:border-box;
-    }
+    *{ box-sizing:border-box; }
 
     body{
       margin:0;
@@ -38,22 +36,9 @@
       min-height:100vh;
     }
 
-    .container{
-      max-width:1450px;
-      margin:0 auto;
-      padding:28px 24px 40px;
-    }
-
-    h1{
-      margin:0;
-      font-size:42px;
-      letter-spacing:-0.04em;
-    }
-
-    .subtitle{
-      margin-top:8px;
-      color:#cbd5e1;
-    }
+    .container{ max-width:1500px; margin:0 auto; padding:28px 24px 40px; }
+    h1{ margin:0; font-size:42px; letter-spacing:-0.04em; }
+    .subtitle{ margin-top:8px; color:#cbd5e1; }
 
     .controls{
       margin-top:24px;
@@ -66,638 +51,317 @@
       border-radius:18px;
     }
 
-    button,
-    select,
-    input{
-      padding:11px 14px;
-      border-radius:12px;
-      border:none;
-      font-size:14px;
-    }
+    button,select,input{ padding:11px 14px; border-radius:12px; border:none; font-size:14px; }
+    button{ background:linear-gradient(135deg,var(--blue),var(--purple)); color:white; font-weight:800; cursor:pointer; }
+    input{ min-width:220px; }
+    select{ min-width:220px; }
+    .status{ margin-top:14px; color:#dbeafe; font-size:14px; }
 
-    button{
-      background:linear-gradient(135deg,var(--blue),var(--purple));
-      color:white;
-      font-weight:800;
-      cursor:pointer;
-    }
+    .stats{ margin-top:18px; display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
+    .stat{ background:white; color:var(--text); border-radius:18px; padding:18px; box-shadow:0 10px 25px rgba(0,0,0,.18); position:relative; overflow:hidden; }
+    .stat:before{ content:""; position:absolute; top:0; left:0; width:100%; height:5px; background:linear-gradient(90deg,var(--blue),var(--purple)); }
+    .stat-value{ font-size:34px; font-weight:900; }
+    .stat-label{ margin-top:6px; color:var(--muted); font-size:13px; }
 
-    input{
-      min-width:220px;
-    }
+    .layout{ margin-top:18px; display:grid; grid-template-columns:1.1fr .9fr; gap:18px; align-items:start; }
+    .panel{ background:white; color:var(--text); border-radius:20px; padding:18px; box-shadow:0 12px 30px rgba(0,0,0,.18); }
+    .panel + .panel{ margin-top:18px; }
 
-    select{
-      min-width:220px;
-    }
+    .teams{ display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:12px; }
+    .team{ border:2px solid transparent; border-radius:16px; padding:14px; background:#f8fafc; cursor:pointer; transition:.12s ease; }
+    .team:hover{ transform:translateY(-2px); border-color:var(--blue); }
+    .team.selected{ border-color:var(--purple); background:#f5f3ff; }
+    .team.has-change{ border-color:var(--yellow); }
+    .team-top{ display:flex; gap:12px; align-items:center; }
+    .team-logo{ width:46px; height:46px; object-fit:contain; flex-shrink:0; }
+    .team-name{ font-weight:900; font-size:15px; }
+    .team-code{ margin-top:4px; display:inline-block; background:#dbeafe; color:#1d4ed8; padding:3px 8px; border-radius:999px; font-size:11px; font-weight:900; }
 
-    .status{
-      margin-top:14px;
-      color:#dbeafe;
-      font-size:14px;
-    }
+    .meta{ margin-top:8px; color:var(--muted); font-size:12px; line-height:1.45; }
+    .pill{ display:inline-block; padding:4px 9px; border-radius:999px; font-size:11px; font-weight:900; margin-top:6px; }
+    .ok{ background:var(--green-bg); color:var(--green); }
+    .error{ background:var(--red-bg); color:var(--red); }
+    .warn{ background:var(--yellow-bg); color:var(--yellow); }
 
-    .stats{
-      margin-top:18px;
-      display:grid;
-      grid-template-columns:repeat(4,1fr);
-      gap:14px;
-    }
+    .player{ padding:10px 0; border-bottom:1px solid var(--line); }
+    .player.highlight{ background:#fef3c7; margin:6px -8px; padding:10px 8px; border-radius:10px; }
+    .player-name{ font-weight:800; }
+    .position{ display:inline-block; margin-left:8px; background:#ede9fe; color:var(--purple); padding:2px 7px; border-radius:7px; font-size:12px; font-weight:900; }
+    .status-pill{ display:inline-block; margin-left:6px; padding:2px 7px; border-radius:7px; font-size:12px; font-weight:900; background:var(--green-bg); color:var(--green); }
+    .status-danger{ background:var(--red-bg); color:var(--red); }
+    .status-warning{ background:var(--yellow-bg); color:var(--yellow); }
 
-    .stat{
-      background:white;
-      color:var(--text);
-      border-radius:18px;
-      padding:18px;
-      box-shadow:0 10px 25px rgba(0,0,0,.18);
-      position:relative;
-      overflow:hidden;
-    }
+    .change-item{ padding:12px; border:1px solid var(--line); border-radius:14px; margin-bottom:10px; background:#f8fafc; cursor:pointer; transition:.12s ease; }
+    .change-item:hover{ border-color:var(--blue); transform:translateY(-1px); }
+    .change-item.high{ background:var(--red-bg); border-color:#fecaca; }
+    .change-item.medium{ background:var(--yellow-bg); border-color:#fde68a; }
+    .change-title{ font-weight:900; }
+    .change-time{ color:var(--muted); font-size:12px; margin-top:4px; }
+    .change-action{ color:#2563eb; font-size:12px; font-weight:800; margin-top:6px; }
 
-    .stat:before{
-      content:"";
-      position:absolute;
-      top:0;
-      left:0;
-      width:100%;
-      height:5px;
-      background:linear-gradient(90deg,var(--blue),var(--purple));
-    }
+    .history-item{ padding:10px 0; border-bottom:1px solid var(--line); }
+    .history-main{ font-weight:800; }
+    .history-time{ color:var(--muted); font-size:12px; margin-top:4px; }
+    .empty{ color:var(--muted); font-style:italic; }
 
-    .stat-value{
-      font-size:34px;
-      font-weight:900;
-    }
-
-    .stat-label{
-      margin-top:6px;
-      color:var(--muted);
-      font-size:13px;
-    }
-
-    .grid{
-      margin-top:18px;
-      display:grid;
-      grid-template-columns:1.15fr .85fr;
-      gap:18px;
-    }
-
-    .panel{
-      background:white;
-      color:var(--text);
-      border-radius:20px;
-      padding:18px;
-      box-shadow:0 12px 30px rgba(0,0,0,.18);
-    }
-
-    .teams{
-      display:grid;
-      grid-template-columns:repeat(auto-fill,minmax(230px,1fr));
-      gap:12px;
-    }
-
-    .team{
-      border:2px solid transparent;
-      border-radius:16px;
-      padding:14px;
-      background:#f8fafc;
-      cursor:pointer;
-      transition:.12s ease;
-    }
-
-    .team:hover{
-      transform:translateY(-2px);
-      border-color:var(--blue);
-    }
-
-    .team.selected{
-      border-color:var(--purple);
-      background:#f5f3ff;
-    }
-
-    .team-top{
-      display:flex;
-      gap:12px;
-      align-items:center;
-    }
-
-    .team-logo{
-      width:46px;
-      height:46px;
-      object-fit:contain;
-      flex-shrink:0;
-    }
-
-    .team-name{
-      font-weight:900;
-      font-size:15px;
-    }
-
-    .team-code{
-      margin-top:4px;
-      display:inline-block;
-      background:#dbeafe;
-      color:#1d4ed8;
-      padding:3px 8px;
-      border-radius:999px;
-      font-size:11px;
-      font-weight:900;
-    }
-
-    .meta{
-      margin-top:8px;
-      color:var(--muted);
-      font-size:12px;
-      line-height:1.45;
-    }
-
-    .pill{
-      display:inline-block;
-      padding:4px 9px;
-      border-radius:999px;
-      font-size:11px;
-      font-weight:900;
-      margin-top:6px;
-    }
-
-    .ok{
-      background:var(--green-bg);
-      color:var(--green);
-    }
-
-    .error{
-      background:var(--red-bg);
-      color:var(--red);
-    }
-
-    .player{
-      padding:10px 0;
-      border-bottom:1px solid var(--line);
-    }
-
-    .player-name{
-      font-weight:800;
-    }
-
-    .position{
-      display:inline-block;
-      margin-left:8px;
-      background:#ede9fe;
-      color:var(--purple);
-      padding:2px 7px;
-      border-radius:7px;
-      font-size:12px;
-      font-weight:900;
-    }
-
-    .status-pill{
-      display:inline-block;
-      margin-left:6px;
-      padding:2px 7px;
-      border-radius:7px;
-      font-size:12px;
-      font-weight:900;
-      background:var(--green-bg);
-      color:var(--green);
-    }
-
-    .status-danger{
-      background:var(--red-bg);
-      color:var(--red);
-    }
-
-    .status-warning{
-      background:var(--yellow-bg);
-      color:var(--yellow);
-    }
-
-    .history-item{
-      padding:10px 0;
-      border-bottom:1px solid var(--line);
-    }
-
-    .history-time{
-      color:var(--muted);
-      font-size:12px;
-      margin-top:4px;
-    }
-
-    @media(max-width:950px){
-      .stats,
-      .grid{
-        grid-template-columns:1fr;
-      }
-    }
+    @media(max-width:1050px){ .stats,.layout{ grid-template-columns:1fr; } }
   </style>
 </head>
 
 <body>
-
 <div class="container">
-
   <h1>NFL Roster Monitor</h1>
-  <div class="subtitle">
-    Official NFL roster monitoring dashboard powered by GitHub Actions.
-  </div>
+  <div class="subtitle">Official NFL roster monitoring dashboard powered by GitHub Actions.</div>
 
   <div class="controls">
-    <button onclick="loadDashboard()">
-      Refresh dashboard
-    </button>
-
-    <select id="teamSelect" onchange="selectTeam(this.value)">
-    </select>
-
-    <input
-      id="searchBox"
-      placeholder="Search player..."
-      oninput="renderSelectedTeam()"
-    />
+    <button onclick="loadDashboard()">Refresh dashboard</button>
+    <select id="teamSelect" onchange="selectTeam(this.value)"></select>
+    <input id="searchBox" placeholder="Search player..." oninput="renderSelectedTeam()" />
   </div>
 
-  <div id="status" class="status">
-    Loading...
-  </div>
+  <div id="status" class="status">Loading...</div>
 
   <div class="stats">
-
-    <div class="stat">
-      <div id="teamsChecked" class="stat-value">-</div>
-      <div class="stat-label">Teams checked</div>
-    </div>
-
-    <div class="stat">
-      <div id="teamsOk" class="stat-value">-</div>
-      <div class="stat-label">Teams OK</div>
-    </div>
-
-    <div class="stat">
-      <div id="teamsErrored" class="stat-value">-</div>
-      <div class="stat-label">Teams errored</div>
-    </div>
-
-    <div class="stat">
-      <div id="totalChanges" class="stat-value">-</div>
-      <div class="stat-label">Changes detected</div>
-    </div>
-
+    <div class="stat"><div id="teamsChecked" class="stat-value">-</div><div class="stat-label">Teams checked</div></div>
+    <div class="stat"><div id="teamsOk" class="stat-value">-</div><div class="stat-label">Teams OK</div></div>
+    <div class="stat"><div id="teamsErrored" class="stat-value">-</div><div class="stat-label">Teams errored</div></div>
+    <div class="stat"><div id="totalChanges" class="stat-value">-</div><div class="stat-label">Changes detected</div></div>
   </div>
 
-  <div class="grid">
-
-    <div class="panel">
-
-      <h2>Teams</h2>
-
-      <div id="teams" class="teams"></div>
-
-    </div>
-
-    <div class="panel">
-
-      <h2 id="selectedTitle">Selected Team</h2>
-
-      <div id="selectedTeam">
-        Select a team.
+  <div class="layout">
+    <div>
+      <div class="panel">
+        <h2>Latest Changes Detected</h2>
+        <div id="latestChanges" class="empty">No roster changes logged yet.</div>
       </div>
 
+      <div class="panel">
+        <h2>Teams</h2>
+        <div id="teams" class="teams"></div>
+      </div>
     </div>
 
+    <div class="panel">
+      <h2 id="selectedTitle">Selected Team</h2>
+      <div id="selectedTeam">Select a team.</div>
+    </div>
   </div>
-
 </div>
 
 <script>
-
 const LOGOS = {
-  ARI:"https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-  ATL:"https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
-  BAL:"https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-  BUF:"https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-  CAR:"https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
-  CHI:"https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-  CIN:"https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
-  CLE:"https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
-  DAL:"https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-  DEN:"https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-  DET:"https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
-  GB:"https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-  HOU:"https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-  IND:"https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-  JAX:"https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-  KC:"https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-  LV:"https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-  LAC:"https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-  LAR:"https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-  MIA:"https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-  MIN:"https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-  NE:"https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-  NO:"https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-  NYG:"https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-  NYJ:"https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-  PHI:"https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-  PIT:"https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-  SF:"https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-  SEA:"https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-  TB:"https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-  TEN:"https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-  WAS:"https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png"
+  ARI:"https://a.espncdn.com/i/teamlogos/nfl/500/ari.png", ATL:"https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+  BAL:"https://a.espncdn.com/i/teamlogos/nfl/500/bal.png", BUF:"https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+  CAR:"https://a.espncdn.com/i/teamlogos/nfl/500/car.png", CHI:"https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+  CIN:"https://a.espncdn.com/i/teamlogos/nfl/500/cin.png", CLE:"https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+  DAL:"https://a.espncdn.com/i/teamlogos/nfl/500/dal.png", DEN:"https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+  DET:"https://a.espncdn.com/i/teamlogos/nfl/500/det.png", GB:"https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+  HOU:"https://a.espncdn.com/i/teamlogos/nfl/500/hou.png", IND:"https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+  JAX:"https://a.espncdn.com/i/teamlogos/nfl/500/jax.png", KC:"https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+  LV:"https://a.espncdn.com/i/teamlogos/nfl/500/lv.png", LAC:"https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+  LAR:"https://a.espncdn.com/i/teamlogos/nfl/500/lar.png", MIA:"https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+  MIN:"https://a.espncdn.com/i/teamlogos/nfl/500/min.png", NE:"https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+  NO:"https://a.espncdn.com/i/teamlogos/nfl/500/no.png", NYG:"https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+  NYJ:"https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png", PHI:"https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+  PIT:"https://a.espncdn.com/i/teamlogos/nfl/500/pit.png", SF:"https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+  SEA:"https://a.espncdn.com/i/teamlogos/nfl/500/sea.png", TB:"https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+  TEN:"https://a.espncdn.com/i/teamlogos/nfl/500/ten.png", WAS:"https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png"
 };
-
-const TEAMS = Object.keys(LOGOS).map(code => ({
-  code
-}));
 
 let summary = {};
 let statusRows = [];
 let rosters = {};
+let allChanges = [];
 let selectedCode = "BUF";
+let highlightedPlayer = "";
 
-function setStatus(msg){
-  document.getElementById("status").textContent = msg;
-}
+function setStatus(msg){ document.getElementById("status").textContent = msg; }
 
 async function fetchJson(path){
   const res = await fetch(path + "?v=" + Date.now());
-
-  if(!res.ok){
-    throw new Error(path + " failed");
-  }
-
+  if(!res.ok) throw new Error(path + " failed");
   return await res.json();
 }
 
+function timeAgo(value){
+  if(!value) return "unknown time ago";
+  const diffMs = Date.now() - new Date(value).getTime();
+  const mins = Math.floor(diffMs / 60000);
+  const hours = Math.floor(mins / 60);
+  const days = Math.floor(hours / 24);
+  if(days > 0) return days + (days === 1 ? " day ago" : " days ago");
+  if(hours > 0) return hours + (hours === 1 ? " hour ago" : " hours ago");
+  if(mins > 0) return mins + (mins === 1 ? " minute ago" : " minutes ago");
+  return "just now";
+}
+
+function formatDate(value){
+  if(!value) return "-";
+  try { return new Date(value).toLocaleString(); } catch(e) { return value; }
+}
+
+function changeSentence(change){
+  const name = change.playerName || "Unknown player";
+  const type = String(change.type || "change").toLowerCase();
+  const oldValue = change.oldValue || "";
+  const newValue = change.newValue || "";
+
+  if(type === "added") return `${name} joined the team ${timeAgo(change.timestamp)}`;
+  if(type === "removed") return `${name} left the team ${timeAgo(change.timestamp)}`;
+  if(type === "status changed") return `${name} status changed ${oldValue} → ${newValue} ${timeAgo(change.timestamp)}`;
+  if(type === "position changed") return `${name} position changed ${oldValue} → ${newValue} ${timeAgo(change.timestamp)}`;
+  if(type === "number changed") return `${name} number changed ${oldValue || 'blank'} → ${newValue || 'blank'} ${timeAgo(change.timestamp)}`;
+  return `${name}: ${change.type || 'Roster change'} ${timeAgo(change.timestamp)}`;
+}
+
+function severityClass(change){
+  return change.severity === "high" ? "high" : change.severity === "medium" ? "medium" : "";
+}
+
 async function loadDashboard(){
-
   try{
-
     setStatus("Loading dashboard...");
-
     summary = await fetchJson("data/summary.json");
     statusRows = await fetchJson("data/status.json");
 
+    try { allChanges = await fetchJson("logs/all_changes.json"); }
+    catch(err) { allChanges = []; }
+
     rosters = {};
-
     for(const row of statusRows){
-
       const code = row.teamCode;
-
-      try{
-        rosters[code] = await fetchJson(
-          `data/latest/${code}.json`
-        );
-      }catch(err){
-        rosters[code] = {
-          players:[],
-          errors:[err.message]
-        };
-      }
+      try { rosters[code] = await fetchJson(`data/latest/${code}.json`); }
+      catch(err){ rosters[code] = { players:[], errors:[err.message] }; }
     }
 
     renderSummary();
-    renderTeams();
     renderTeamOptions();
+    renderLatestChanges();
+    renderTeams();
     renderSelectedTeam();
-
-    setStatus(
-      "Last update: " +
-      new Date(summary.lastRunFinished).toLocaleString()
-    );
-
+    setStatus("Last update: " + formatDate(summary.lastRunFinished));
   }catch(err){
-
     setStatus("Dashboard error: " + err.message);
-
   }
-
 }
 
 function renderSummary(){
-
-  document.getElementById("teamsChecked").textContent =
-    summary.teamsChecked || 0;
-
-  document.getElementById("teamsOk").textContent =
-    summary.teamsOk || 0;
-
-  document.getElementById("teamsErrored").textContent =
-    summary.teamsErrored || 0;
-
-  document.getElementById("totalChanges").textContent =
-    summary.totalChanges || 0;
+  document.getElementById("teamsChecked").textContent = summary.teamsChecked || 0;
+  document.getElementById("teamsOk").textContent = summary.teamsOk || 0;
+  document.getElementById("teamsErrored").textContent = summary.teamsErrored || 0;
+  document.getElementById("totalChanges").textContent = allChanges.length || summary.totalChanges || 0;
 }
 
 function renderTeamOptions(){
-
-  document.getElementById("teamSelect").innerHTML =
-    statusRows.map(r => `
-      <option value="${r.teamCode}">
-        ${r.teamName}
-      </option>
-    `).join("");
-
-  document.getElementById("teamSelect").value =
-    selectedCode;
+  document.getElementById("teamSelect").innerHTML = statusRows.map(r => `<option value="${r.teamCode}">${r.teamName}</option>`).join("");
+  document.getElementById("teamSelect").value = selectedCode;
 }
 
 function selectTeam(code){
-
   selectedCode = code;
-
+  document.getElementById("teamSelect").value = code;
   renderTeams();
   renderSelectedTeam();
 }
 
+function openChange(teamCode, playerName){
+  selectedCode = teamCode;
+  highlightedPlayer = playerName || "";
+  document.getElementById("searchBox").value = playerName || "";
+  selectTeam(teamCode);
+  document.getElementById("selectedTitle").scrollIntoView({behavior:"smooth", block:"start"});
+}
+
+function renderLatestChanges(){
+  const box = document.getElementById("latestChanges");
+  if(!allChanges.length){ box.innerHTML = `<div class="empty">No roster changes logged yet.</div>`; return; }
+
+  box.innerHTML = allChanges.slice(0, 20).map(c => `
+    <div class="change-item ${severityClass(c)}" onclick="openChange('${c.teamCode}', '${String(c.playerName || '').replace(/'/g, "\\'")}')">
+      <div class="change-title">${c.teamName || c.teamCode}: ${changeSentence(c)}</div>
+      <div class="change-time">${formatDate(c.timestamp)} | ${String(c.severity || 'low').toUpperCase()}</div>
+      <div class="change-action">Open team and player →</div>
+    </div>
+  `).join("");
+}
+
+function teamHasChanges(code){
+  return allChanges.some(c => c.teamCode === code);
+}
+
 function renderTeams(){
-
-  document.getElementById("teams").innerHTML =
-    statusRows.map(r => {
-
-      const roster = rosters[r.teamCode] || {};
-      const errors =
-        roster.errors || [];
-
-      return `
-        <div
-          class="team ${selectedCode === r.teamCode ? 'selected' : ''}"
-          onclick="selectTeam('${r.teamCode}')"
-        >
-
-          <div class="team-top">
-
-            <img
-              src="${LOGOS[r.teamCode]}"
-              class="team-logo"
-            >
-
-            <div>
-
-              <div class="team-name">
-                ${r.teamName}
-              </div>
-
-              <div class="team-code">
-                ${r.teamCode}
-              </div>
-
-            </div>
-
+  document.getElementById("teams").innerHTML = statusRows.map(r => {
+    const roster = rosters[r.teamCode] || {};
+    const errors = roster.errors || [];
+    const recent = allChanges.find(c => c.teamCode === r.teamCode);
+    return `
+      <div class="team ${selectedCode === r.teamCode ? 'selected' : ''} ${teamHasChanges(r.teamCode) ? 'has-change' : ''}" onclick="selectTeam('${r.teamCode}')">
+        <div class="team-top">
+          <img src="${LOGOS[r.teamCode]}" class="team-logo" alt="${r.teamCode} logo">
+          <div>
+            <div class="team-name">${r.teamName}</div>
+            <div class="team-code">${r.teamCode}</div>
           </div>
-
-          <div class="meta">
-            Players:
-            ${(roster.players || []).length}
-          </div>
-
-          <div class="meta">
-            Checked:
-            ${new Date(r.checkedAt).toLocaleString()}
-          </div>
-
-          <div class="pill ${errors.length ? 'error' : 'ok'}">
-            ${errors.length ? 'Source issue' : 'Official OK'}
-          </div>
-
         </div>
-      `;
-    }).join("");
+        <div class="meta">Players: ${(roster.players || []).length}</div>
+        <div class="meta">Checked: ${formatDate(r.checkedAt)}</div>
+        ${recent ? `<div class="meta">Last movement: ${timeAgo(recent.timestamp)}</div>` : `<div class="meta">Last movement: none logged</div>`}
+        <div class="pill ${errors.length ? 'error' : teamHasChanges(r.teamCode) ? 'warn' : 'ok'}">
+          ${errors.length ? 'Source issue' : teamHasChanges(r.teamCode) ? 'Has history' : 'Official OK'}
+        </div>
+      </div>`;
+  }).join("");
 }
 
 function statusClass(status){
-
   const s = String(status || "").toUpperCase();
-
-  if(["IR","PUP","NFI","SUS","RES"].includes(s)){
-    return "status-danger";
-  }
-
-  if(["UFA","RFA","UDF"].includes(s)){
-    return "status-warning";
-  }
-
+  if(["IR","PUP","NFI","SUS","RES"].includes(s)) return "status-danger";
+  if(["UFA","RFA","UDF"].includes(s)) return "status-warning";
   return "";
 }
 
 async function renderSelectedTeam(){
-
   const roster = rosters[selectedCode];
-
-  if(!roster){
-    return;
-  }
+  if(!roster) return;
 
   let history = [];
+  try { history = await fetchJson(`logs/${selectedCode}.json`); }
+  catch(err) { history = []; }
 
-  try{
-    history = await fetchJson(
-      `logs/${selectedCode}.json`
-    );
-  }catch(err){
-    history = [];
-  }
+  const q = document.getElementById("searchBox").value.trim().toLowerCase();
+  const players = (roster.players || []).filter(p => !q || String(p.name || "").toLowerCase().includes(q));
 
-  const q =
-    document.getElementById("searchBox")
-    .value
-    .trim()
-    .toLowerCase();
+  document.getElementById("selectedTitle").innerHTML = `
+    <img src="${LOGOS[selectedCode]}" class="team-logo" style="vertical-align:middle;margin-right:10px;" alt="${selectedCode} logo">
+    ${roster.team || selectedCode}
+  `;
 
-  const players =
-    (roster.players || [])
-    .filter(p =>
-      !q ||
-      p.name.toLowerCase().includes(q)
-    );
-
-  document.getElementById("selectedTitle").innerHTML =
-    `
-      <img
-        src="${LOGOS[selectedCode]}"
-        class="team-logo"
-        style="vertical-align:middle;margin-right:10px;"
-      >
-      ${roster.team}
-    `;
-
-  document.getElementById("selectedTeam").innerHTML =
-    `
-
-      <div class="meta">
-        Source:
-        ${roster.source}
+  document.getElementById("selectedTeam").innerHTML = `
+    <div class="meta">Source: ${roster.source || 'NFL.com official roster'}</div>
+    <div class="meta">Players shown: ${players.length}</div>
+    <div class="meta">Last checked: ${formatDate(roster.checkedAt)}</div>
+    <hr>
+    <h3>Roster</h3>
+    ${players.length ? players.map(p => `
+      <div class="player ${highlightedPlayer && p.name === highlightedPlayer ? 'highlight' : ''}">
+        <span class="player-name">${p.name}</span>
+        <span class="position">${p.position || '?'}</span>
+        <span class="status-pill ${statusClass(p.status)}">${p.status || ''}</span>
       </div>
-
-      <div class="meta">
-        Players:
-        ${players.length}
+    `).join("") : `<div class="empty">No players found.</div>`}
+    <hr>
+    <h3>Team History</h3>
+    ${history.length ? history.slice(0, 50).map(h => `
+      <div class="history-item">
+        <div class="history-main">${changeSentence(h)}</div>
+        <div class="history-time">${formatDate(h.timestamp)} | ${String(h.severity || 'low').toUpperCase()}</div>
       </div>
-
-      <div class="meta">
-        Last checked:
-        ${new Date(roster.checkedAt).toLocaleString()}
-      </div>
-
-      <hr>
-
-      <h3>Roster</h3>
-
-      ${players.map(p => `
-        <div class="player">
-
-          <span class="player-name">
-            ${p.name}
-          </span>
-
-          <span class="position">
-            ${p.position}
-          </span>
-
-          <span class="status-pill ${statusClass(p.status)}">
-            ${p.status}
-          </span>
-
-        </div>
-      `).join("")}
-
-      <hr>
-
-      <h3>History</h3>
-
-      ${
-        history.length
-        ?
-        history.slice(0,20).map(h => `
-          <div class="history-item">
-
-            <strong>
-              ${h.type}
-            </strong>
-
-            —
-            ${h.playerName}
-
-            <div class="history-time">
-              ${new Date(h.timestamp).toLocaleString()}
-            </div>
-
-          </div>
-        `).join("")
-        :
-        `<div class="meta">
-          No roster changes logged yet.
-        </div>`
-      }
-
-    `;
+    `).join("") : `<div class="empty">No roster changes logged yet.</div>`}
+  `;
 }
 
 loadDashboard();
-
-setInterval(
-  loadDashboard,
-  24 * 60 * 60 * 1000
-);
-
+setInterval(loadDashboard, 24 * 60 * 60 * 1000);
 </script>
-
 </body>
 </html>
