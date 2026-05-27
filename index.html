@@ -458,7 +458,11 @@ function renderSelectedTeam(){
       </div>`).join('') : '<div class="meta">No players found.</div>'}
   `;
 }
-
+const LOGOS = {
+  BUF: "https://static.www.nfl.com/image/private/f_auto/league/giphcy6ie9mxbnldntsf",
+  KC: "https://static.www.nfl.com/image/private/f_auto/league/ujshjqvmnxce8m4obmvs",
+  DAL: "https://static.www.nfl.com/image/private/f_auto/league/rjgc6g8jrm9xkq2h0qwy"
+};
 loadDashboard();
 setInterval(loadDashboard, 15 * 60 * 1000);
 </script>
