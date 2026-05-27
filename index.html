@@ -2,482 +2,702 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>NFL Roster Monitor</title>
+
   <style>
-    :root {
-      --bg: #0f172a;
-      --panel: #111827;
-      --card: #ffffff;
-      --soft: #f8fafc;
-      --text: #0f172a;
-      --muted: #64748b;
-      --line: #e5e7eb;
-      --blue: #2563eb;
-      --blue-soft: #dbeafe;
-      --green: #16a34a;
-      --green-soft: #dcfce7;
-      --yellow: #d97706;
-      --yellow-soft: #fef3c7;
-      --red: #dc2626;
-      --red-soft: #fee2e2;
-      --purple: #7c3aed;
-      --purple-soft: #ede9fe;
+    :root{
+      --bg:#081226;
+      --panel:#0f172a;
+      --card:#ffffff;
+      --line:#e5e7eb;
+      --text:#111827;
+      --muted:#64748b;
+      --blue:#2563eb;
+      --purple:#7c3aed;
+      --green:#16a34a;
+      --green-bg:#dcfce7;
+      --red:#dc2626;
+      --red-bg:#fee2e2;
+      --yellow:#d97706;
+      --yellow-bg:#fef3c7;
     }
 
-    * { box-sizing: border-box; }
+    *{
+      box-sizing:border-box;
+    }
 
-    body {
-      font-family: Arial, sans-serif;
+    body{
+      margin:0;
+      font-family:Arial,sans-serif;
       background:
-        radial-gradient(circle at top left, rgba(37,99,235,.35), transparent 32%),
-        radial-gradient(circle at top right, rgba(124,58,237,.25), transparent 28%),
+        radial-gradient(circle at top left, rgba(37,99,235,.28), transparent 32%),
+        radial-gradient(circle at top right, rgba(124,58,237,.22), transparent 28%),
         var(--bg);
-      color: var(--text);
-      margin: 0;
-      min-height: 100vh;
+      color:white;
+      min-height:100vh;
     }
 
-    .hero {
-      color: white;
-      padding: 28px 24px 22px;
-      border-bottom: 1px solid rgba(255,255,255,.12);
+    .container{
+      max-width:1450px;
+      margin:0 auto;
+      padding:28px 24px 40px;
     }
 
-    .container {
-      max-width: 1450px;
-      margin: 0 auto;
+    h1{
+      margin:0;
+      font-size:42px;
+      letter-spacing:-0.04em;
     }
 
-    h1 {
-      margin: 0;
-      font-size: 34px;
-      letter-spacing: -0.04em;
+    .subtitle{
+      margin-top:8px;
+      color:#cbd5e1;
     }
 
-    h2 {
-      margin-top: 0;
-      color: #111827;
+    .controls{
+      margin-top:24px;
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      background:rgba(255,255,255,.08);
+      border:1px solid rgba(255,255,255,.08);
+      padding:14px;
+      border-radius:18px;
     }
 
-    .subtitle {
-      color: #cbd5e1;
-      margin-top: 8px;
-      font-size: 15px;
+    button,
+    select,
+    input{
+      padding:11px 14px;
+      border-radius:12px;
+      border:none;
+      font-size:14px;
     }
 
-    .main {
-      padding: 22px 24px 40px;
+    button{
+      background:linear-gradient(135deg,var(--blue),var(--purple));
+      color:white;
+      font-weight:800;
+      cursor:pointer;
     }
 
-    .box, .card {
-      background: rgba(255,255,255,.96);
-      border-radius: 18px;
-      padding: 16px;
-      box-shadow: 0 12px 30px rgba(0,0,0,.18);
-      border: 1px solid rgba(255,255,255,.65);
+    input{
+      min-width:220px;
     }
 
-    .top {
-      display: grid;
-      grid-template-columns: repeat(4,1fr);
-      gap: 14px;
-      margin-bottom: 18px;
-    }
-    
-    .team-logo {
-      width: 42px;
-      height: 42px;
-      object-fit: contain;
-      margin-top: 8px;
-      margin-bottom: 10px;
-    }
-    
-    .stat-card {
-      position: relative;
-      overflow: hidden;
+    select{
+      min-width:220px;
     }
 
-    .stat-card:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 5px;
-      background: linear-gradient(90deg, var(--blue), var(--purple));
+    .status{
+      margin-top:14px;
+      color:#dbeafe;
+      font-size:14px;
     }
 
-    .value {
-      font-size: 30px;
-      font-weight: 800;
-      color: #111827;
+    .stats{
+      margin-top:18px;
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:14px;
     }
 
-    .label {
-      color: var(--muted);
-      font-size: 13px;
-      margin-top: 4px;
+    .stat{
+      background:white;
+      color:var(--text);
+      border-radius:18px;
+      padding:18px;
+      box-shadow:0 10px 25px rgba(0,0,0,.18);
+      position:relative;
+      overflow:hidden;
     }
 
-    button, select, input {
-      padding: 11px 12px;
-      border-radius: 12px;
-      border: 1px solid #cbd5e1;
-      font-size: 14px;
-      background: white;
+    .stat:before{
+      content:"";
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:5px;
+      background:linear-gradient(90deg,var(--blue),var(--purple));
     }
 
-    button {
-      background: linear-gradient(135deg, var(--blue), var(--purple));
-      color: #fff;
-      cursor: pointer;
-      font-weight: 800;
-      border: none;
-      box-shadow: 0 8px 18px rgba(37,99,235,.35);
+    .stat-value{
+      font-size:34px;
+      font-weight:900;
     }
 
-    button:hover {
-      filter: brightness(1.05);
+    .stat-label{
+      margin-top:6px;
+      color:var(--muted);
+      font-size:13px;
     }
 
-    .controls {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      margin-bottom: 18px;
-      flex-wrap: wrap;
-      background: rgba(255,255,255,.08);
-      border: 1px solid rgba(255,255,255,.13);
-      padding: 12px;
-      border-radius: 18px;
+    .grid{
+      margin-top:18px;
+      display:grid;
+      grid-template-columns:1.15fr .85fr;
+      gap:18px;
     }
 
-    .controls input { min-width: 230px; }
-    .controls select { min-width: 220px; }
-
-    .grid {
-      display: grid;
-      grid-template-columns: 1.15fr .85fr;
-      gap: 18px;
+    .panel{
+      background:white;
+      color:var(--text);
+      border-radius:20px;
+      padding:18px;
+      box-shadow:0 12px 30px rgba(0,0,0,.18);
     }
 
-    .teams {
-      display: grid;
-      grid-template-columns: repeat(auto-fill,minmax(230px,1fr));
-      gap: 12px;
+    .teams{
+      display:grid;
+      grid-template-columns:repeat(auto-fill,minmax(230px,1fr));
+      gap:12px;
     }
 
-    .team {
-      cursor: pointer;
-      border: 2px solid transparent;
-      transition: transform .12s ease, border-color .12s ease, box-shadow .12s ease;
-      box-shadow: 0 8px 20px rgba(15,23,42,.08);
+    .team{
+      border:2px solid transparent;
+      border-radius:16px;
+      padding:14px;
+      background:#f8fafc;
+      cursor:pointer;
+      transition:.12s ease;
     }
 
-    .team:hover {
-      transform: translateY(-2px);
-      border-color: var(--blue);
-      box-shadow: 0 12px 26px rgba(37,99,235,.16);
+    .team:hover{
+      transform:translateY(-2px);
+      border-color:var(--blue);
     }
 
-    .team.selected {
-      border-color: var(--purple);
-      background: linear-gradient(180deg, #fff, #f5f3ff);
+    .team.selected{
+      border-color:var(--purple);
+      background:#f5f3ff;
     }
 
-    .team-title {
-      font-weight: 800;
-      font-size: 15px;
-      color: #111827;
+    .team-top{
+      display:flex;
+      gap:12px;
+      align-items:center;
     }
 
-    .team-code {
-      display: inline-block;
-      margin-top: 6px;
-      padding: 3px 8px;
-      border-radius: 999px;
-      background: var(--blue-soft);
-      color: #1d4ed8;
-      font-size: 11px;
-      font-weight: 800;
+    .team-logo{
+      width:46px;
+      height:46px;
+      object-fit:contain;
+      flex-shrink:0;
     }
 
-    .meta {
-      color: var(--muted);
-      font-size: 12px;
-      line-height: 1.45;
-      margin-top: 6px;
+    .team-name{
+      font-weight:900;
+      font-size:15px;
     }
 
-    .pill {
-      display: inline-block;
-      padding: 4px 9px;
-      border-radius: 999px;
-      font-size: 11px;
-      font-weight: 900;
-      background: var(--green-soft);
-      color: var(--green);
+    .team-code{
+      margin-top:4px;
+      display:inline-block;
+      background:#dbeafe;
+      color:#1d4ed8;
+      padding:3px 8px;
+      border-radius:999px;
+      font-size:11px;
+      font-weight:900;
     }
 
-    .pill.error {
-      background: var(--red-soft);
-      color: var(--red);
+    .meta{
+      margin-top:8px;
+      color:var(--muted);
+      font-size:12px;
+      line-height:1.45;
     }
 
-    .player {
-      padding: 10px 0;
-      border-bottom: 1px solid var(--line);
+    .pill{
+      display:inline-block;
+      padding:4px 9px;
+      border-radius:999px;
+      font-size:11px;
+      font-weight:900;
+      margin-top:6px;
     }
 
-    .player-name {
-      font-weight: 700;
+    .ok{
+      background:var(--green-bg);
+      color:var(--green);
     }
 
-    .important .player-name {
-      color: #111827;
-      font-weight: 900;
+    .error{
+      background:var(--red-bg);
+      color:var(--red);
     }
 
-    .position {
-      display: inline-block;
-      padding: 2px 7px;
-      border-radius: 7px;
-      background: var(--purple-soft);
-      color: var(--purple);
-      font-size: 12px;
-      font-weight: 900;
-      margin-left: 6px;
+    .player{
+      padding:10px 0;
+      border-bottom:1px solid var(--line);
     }
 
-    .status-pill {
-      display: inline-block;
-      padding: 2px 7px;
-      border-radius: 7px;
-      background: var(--green-soft);
-      color: var(--green);
-      font-size: 12px;
-      font-weight: 900;
-      margin-left: 6px;
+    .player-name{
+      font-weight:800;
     }
 
-    .status-pill.warning {
-      background: var(--yellow-soft);
-      color: var(--yellow);
+    .position{
+      display:inline-block;
+      margin-left:8px;
+      background:#ede9fe;
+      color:var(--purple);
+      padding:2px 7px;
+      border-radius:7px;
+      font-size:12px;
+      font-weight:900;
     }
 
-    .status-pill.danger {
-      background: var(--red-soft);
-      color: var(--red);
+    .status-pill{
+      display:inline-block;
+      margin-left:6px;
+      padding:2px 7px;
+      border-radius:7px;
+      font-size:12px;
+      font-weight:900;
+      background:var(--green-bg);
+      color:var(--green);
     }
 
-    .status {
-      color: #dbeafe;
-      font-size: 13px;
-      margin-bottom: 14px;
+    .status-danger{
+      background:var(--red-bg);
+      color:var(--red);
     }
 
-    .errorText {
-      color: var(--red);
-      font-weight: 800;
+    .status-warning{
+      background:var(--yellow-bg);
+      color:var(--yellow);
     }
 
-    .source-card {
-      background: #f8fafc;
-      border: 1px solid #e2e8f0;
-      border-radius: 14px;
-      padding: 12px;
-      margin-bottom: 12px;
+    .history-item{
+      padding:10px 0;
+      border-bottom:1px solid var(--line);
     }
 
-    @media(max-width:900px){
-      .top,.grid { grid-template-columns:1fr; }
-      h1 { font-size: 28px; }
+    .history-time{
+      color:var(--muted);
+      font-size:12px;
+      margin-top:4px;
+    }
+
+    @media(max-width:950px){
+      .stats,
+      .grid{
+        grid-template-columns:1fr;
+      }
     }
   </style>
 </head>
+
 <body>
-  <div class="hero">
-    <div class="container">
-      <h1>NFL Roster Monitor</h1>
-      <div class="subtitle">Official NFL roster snapshots, generated by GitHub Actions and displayed as a live monitoring dashboard.</div>
-    </div>
+
+<div class="container">
+
+  <h1>NFL Roster Monitor</h1>
+  <div class="subtitle">
+    Official NFL roster monitoring dashboard powered by GitHub Actions.
   </div>
 
-  <div class="main">
-    <div class="container">
-      <div class="controls">
-        <button onclick="loadDashboard()">Refresh dashboard</button>
-        <select id="teamSelect" onchange="selectTeam(this.value)"></select>
-        <input id="searchBox" placeholder="Search player..." oninput="renderSelectedTeam()" />
-      </div>
+  <div class="controls">
+    <button onclick="loadDashboard()">
+      Refresh dashboard
+    </button>
 
-      <div id="status" class="status">Loading...</div>
+    <select id="teamSelect" onchange="selectTeam(this.value)">
+    </select>
 
-      <div class="top">
-        <div class="card stat-card"><div id="teamsChecked" class="value">-</div><div class="label">Teams checked</div></div>
-        <div class="card stat-card"><div id="teamsOk" class="value">-</div><div class="label">Teams OK</div></div>
-        <div class="card stat-card"><div id="teamsErrored" class="value">-</div><div class="label">Teams errored</div></div>
-        <div class="card stat-card"><div id="totalChanges" class="value">-</div><div class="label">Changes last run</div></div>
-      </div>
-
-      <div class="grid">
-        <div class="box">
-          <h2>Teams</h2>
-          <div id="teams" class="teams"></div>
-        </div>
-        <div class="box">
-          <h2 id="selectedTitle">Selected Team</h2>
-          <div id="selectedTeam">Select a team.</div>
-        </div>
-      </div>
-    </div>
+    <input
+      id="searchBox"
+      placeholder="Search player..."
+      oninput="renderSelectedTeam()"
+    />
   </div>
+
+  <div id="status" class="status">
+    Loading...
+  </div>
+
+  <div class="stats">
+
+    <div class="stat">
+      <div id="teamsChecked" class="stat-value">-</div>
+      <div class="stat-label">Teams checked</div>
+    </div>
+
+    <div class="stat">
+      <div id="teamsOk" class="stat-value">-</div>
+      <div class="stat-label">Teams OK</div>
+    </div>
+
+    <div class="stat">
+      <div id="teamsErrored" class="stat-value">-</div>
+      <div class="stat-label">Teams errored</div>
+    </div>
+
+    <div class="stat">
+      <div id="totalChanges" class="stat-value">-</div>
+      <div class="stat-label">Changes detected</div>
+    </div>
+
+  </div>
+
+  <div class="grid">
+
+    <div class="panel">
+
+      <h2>Teams</h2>
+
+      <div id="teams" class="teams"></div>
+
+    </div>
+
+    <div class="panel">
+
+      <h2 id="selectedTitle">Selected Team</h2>
+
+      <div id="selectedTeam">
+        Select a team.
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
 
 <script>
-const TEAMS = [
-  ['ARI','Arizona Cardinals'], ['ATL','Atlanta Falcons'], ['BAL','Baltimore Ravens'], ['BUF','Buffalo Bills'],
-  ['CAR','Carolina Panthers'], ['CHI','Chicago Bears'], ['CIN','Cincinnati Bengals'], ['CLE','Cleveland Browns'],
-  ['DAL','Dallas Cowboys'], ['DEN','Denver Broncos'], ['DET','Detroit Lions'], ['GB','Green Bay Packers'],
-  ['HOU','Houston Texans'], ['IND','Indianapolis Colts'], ['JAX','Jacksonville Jaguars'], ['KC','Kansas City Chiefs'],
-  ['LV','Las Vegas Raiders'], ['LAC','Los Angeles Chargers'], ['LAR','Los Angeles Rams'], ['MIA','Miami Dolphins'],
-  ['MIN','Minnesota Vikings'], ['NE','New England Patriots'], ['NO','New Orleans Saints'], ['NYG','New York Giants'],
-  ['NYJ','New York Jets'], ['PHI','Philadelphia Eagles'], ['PIT','Pittsburgh Steelers'], ['SF','San Francisco 49ers'],
-  ['SEA','Seattle Seahawks'], ['TB','Tampa Bay Buccaneers'], ['TEN','Tennessee Titans'], ['WAS','Washington Commanders']
-].map(([code,name]) => ({code,name}));
 
-let summary = null;
+const LOGOS = {
+  ARI:"https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+  ATL:"https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+  BAL:"https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+  BUF:"https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+  CAR:"https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+  CHI:"https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+  CIN:"https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+  CLE:"https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+  DAL:"https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+  DEN:"https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+  DET:"https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+  GB:"https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+  HOU:"https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+  IND:"https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+  JAX:"https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+  KC:"https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+  LV:"https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+  LAC:"https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+  LAR:"https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+  MIA:"https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+  MIN:"https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+  NE:"https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+  NO:"https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+  NYG:"https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+  NYJ:"https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+  PHI:"https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+  PIT:"https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+  SF:"https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+  SEA:"https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+  TB:"https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+  TEN:"https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+  WAS:"https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png"
+};
+
+const TEAMS = Object.keys(LOGOS).map(code => ({
+  code
+}));
+
+let summary = {};
 let statusRows = [];
 let rosters = {};
-let selectedCode = '';
+let selectedCode = "BUF";
 
-function setStatus(msg, isError=false){
-  document.getElementById('status').innerHTML = isError ? `<span class="errorText">${msg}</span>` : msg;
+function setStatus(msg){
+  document.getElementById("status").textContent = msg;
 }
 
 async function fetchJson(path){
-  const res = await fetch(path + '?v=' + Date.now(), { cache:'no-store' });
-  if(!res.ok) throw new Error(`${path} returned HTTP ${res.status}`);
+  const res = await fetch(path + "?v=" + Date.now());
+
+  if(!res.ok){
+    throw new Error(path + " failed");
+  }
+
   return await res.json();
 }
 
 async function loadDashboard(){
-  setStatus('Loading dashboard data...');
-  try {
-    summary = await fetchJson('data/summary.json');
-    statusRows = await fetchJson('data/status.json');
+
+  try{
+
+    setStatus("Loading dashboard...");
+
+    summary = await fetchJson("data/summary.json");
+    statusRows = await fetchJson("data/status.json");
 
     rosters = {};
-    for(const team of TEAMS){
-      try {
-        rosters[team.code] = await fetchJson(`data/latest/${team.code}.json`);
-      } catch(e) {
-        rosters[team.code] = { code:team.code, team:team.name, players:[], errors:[e.message] };
+
+    for(const row of statusRows){
+
+      const code = row.teamCode;
+
+      try{
+        rosters[code] = await fetchJson(
+          `data/latest/${code}.json`
+        );
+      }catch(err){
+        rosters[code] = {
+          players:[],
+          errors:[err.message]
+        };
       }
     }
 
     renderSummary();
     renderTeams();
     renderTeamOptions();
-    if(!selectedCode) selectedCode = 'BUF';
-    document.getElementById('teamSelect').value = selectedCode;
     renderSelectedTeam();
-    setStatus(`Loaded successfully. Last run finished: ${summary.lastRunFinished || 'unknown'} | Source: ${summary.source || 'NFL.com'}`);
-  } catch(e){
-    setStatus('Dashboard load error: ' + e.message, true);
+
+    setStatus(
+      "Last update: " +
+      new Date(summary.lastRunFinished).toLocaleString()
+    );
+
+  }catch(err){
+
+    setStatus("Dashboard error: " + err.message);
+
   }
+
 }
 
 function renderSummary(){
-  document.getElementById('teamsChecked').textContent = summary.teamsChecked ?? '-';
-  document.getElementById('teamsOk').textContent = summary.teamsOk ?? '-';
-  document.getElementById('teamsErrored').textContent = summary.teamsErrored ?? '-';
-  document.getElementById('totalChanges').textContent = summary.totalChanges ?? '-';
-}
 
-function getStatus(code){
-  if(Array.isArray(statusRows)) return statusRows.find(x => x.teamCode === code || x.code === code) || {};
-  return statusRows[code] || {};
-}
-const LOGOS = {
-  BUF: "https://static.www.nfl.com/image/private/f_auto/league/giphcy6ie9mxbnldntsf",
-  KC: "https://static.www.nfl.com/image/private/f_auto/league/ujshjqvmnxce8m4obmvs",
-  DAL: "https://static.www.nfl.com/image/private/f_auto/league/rjgc6g8jrm9xkq2h0qwy"
-};
-function renderTeams(){
-  const html = TEAMS.map(t => {
-    const r = rosters[t.code] || {};
-    const s = getStatus(t.code);
-    const errors = (r.errors || []).length || Boolean(s.lastError);
-    const count = (r.players || []).length;
-    return `<div class="card team ${selectedCode === t.code ? 'selected' : ''}" onclick="selectTeam('${t.code}')">
-      <div class="team-title">${t.name}</div>
-      <img src="${LOGOS[t.code]}" class="team-logo">
-      <div class="team-code">${t.code}</div>
-      <div class="meta">Players: ${count}</div>
-      <div class="meta">Checked: ${formatDate(r.checkedAt || s.checkedAt)}</div>
-      <div class="meta"><span class="pill ${errors ? 'error' : ''}">${errors ? 'Source issue' : 'Official OK'}</span></div>
-    </div>`;
-  }).join('');
-  document.getElementById('teams').innerHTML = html;
+  document.getElementById("teamsChecked").textContent =
+    summary.teamsChecked || 0;
+
+  document.getElementById("teamsOk").textContent =
+    summary.teamsOk || 0;
+
+  document.getElementById("teamsErrored").textContent =
+    summary.teamsErrored || 0;
+
+  document.getElementById("totalChanges").textContent =
+    summary.totalChanges || 0;
 }
 
 function renderTeamOptions(){
-  document.getElementById('teamSelect').innerHTML = TEAMS.map(t => `<option value="${t.code}">${t.name}</option>`).join('');
+
+  document.getElementById("teamSelect").innerHTML =
+    statusRows.map(r => `
+      <option value="${r.teamCode}">
+        ${r.teamName}
+      </option>
+    `).join("");
+
+  document.getElementById("teamSelect").value =
+    selectedCode;
 }
 
 function selectTeam(code){
+
   selectedCode = code;
-  document.getElementById('teamSelect').value = code;
+
   renderTeams();
   renderSelectedTeam();
 }
 
+function renderTeams(){
+
+  document.getElementById("teams").innerHTML =
+    statusRows.map(r => {
+
+      const roster = rosters[r.teamCode] || {};
+      const errors =
+        roster.errors || [];
+
+      return `
+        <div
+          class="team ${selectedCode === r.teamCode ? 'selected' : ''}"
+          onclick="selectTeam('${r.teamCode}')"
+        >
+
+          <div class="team-top">
+
+            <img
+              src="${LOGOS[r.teamCode]}"
+              class="team-logo"
+            >
+
+            <div>
+
+              <div class="team-name">
+                ${r.teamName}
+              </div>
+
+              <div class="team-code">
+                ${r.teamCode}
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="meta">
+            Players:
+            ${(roster.players || []).length}
+          </div>
+
+          <div class="meta">
+            Checked:
+            ${new Date(r.checkedAt).toLocaleString()}
+          </div>
+
+          <div class="pill ${errors.length ? 'error' : 'ok'}">
+            ${errors.length ? 'Source issue' : 'Official OK'}
+          </div>
+
+        </div>
+      `;
+    }).join("");
+}
+
 function statusClass(status){
-  const s = String(status || '').toUpperCase();
-  if(['IR','PUP','NFI','SUS','RES'].includes(s)) return 'danger';
-  if(['UFA','RFA','UDF','NON'].includes(s)) return 'warning';
-  return '';
+
+  const s = String(status || "").toUpperCase();
+
+  if(["IR","PUP","NFI","SUS","RES"].includes(s)){
+    return "status-danger";
+  }
+
+  if(["UFA","RFA","UDF"].includes(s)){
+    return "status-warning";
+  }
+
+  return "";
 }
 
-function formatDate(value){
-  if(!value) return '-';
-  try { return new Date(value).toLocaleString(); } catch(e) { return value; }
-}
+async function renderSelectedTeam(){
 
-function renderSelectedTeam(){
   const roster = rosters[selectedCode];
-  const team = TEAMS.find(t => t.code === selectedCode);
-  if(!roster){ document.getElementById('selectedTeam').innerHTML = 'No team selected.'; return; }
 
-  document.getElementById('selectedTitle').textContent = `${team.name} Roster`;
-  const q = document.getElementById('searchBox').value.trim().toLowerCase();
-  const players = (roster.players || []).filter(p => !q || String(p.name || '').toLowerCase().includes(q));
-  const errors = (roster.errors || []).map(e => `<div class="errorText">${e}</div>`).join('');
+  if(!roster){
+    return;
+  }
 
-  document.getElementById('selectedTeam').innerHTML = `
-    <div class="source-card">
-      <div class="meta">Source: ${roster.source || 'NFL.com official roster'}</div>
-      <div class="meta">Players: ${(roster.players || []).length}</div>
-      <div class="meta">Last checked: ${formatDate(roster.checkedAt)}</div>
-    </div>
-    ${errors ? errors + '<br>' : ''}
-    ${players.length ? players.map(p => `
-      <div class="player ${p.important ? 'important' : ''}">
-        <span class="player-name">${p.name || ''}</span>
-        <span class="position">${p.position || '?'}</span>
-        <span class="status-pill ${statusClass(p.status)}">${p.status || ''}</span>
-        <div class="meta">Source: NFL.com${p.number ? ' | #' + p.number : ''}</div>
-      </div>`).join('') : '<div class="meta">No players found.</div>'}
-  `;
+  let history = [];
+
+  try{
+    history = await fetchJson(
+      `logs/${selectedCode}.json`
+    );
+  }catch(err){
+    history = [];
+  }
+
+  const q =
+    document.getElementById("searchBox")
+    .value
+    .trim()
+    .toLowerCase();
+
+  const players =
+    (roster.players || [])
+    .filter(p =>
+      !q ||
+      p.name.toLowerCase().includes(q)
+    );
+
+  document.getElementById("selectedTitle").innerHTML =
+    `
+      <img
+        src="${LOGOS[selectedCode]}"
+        class="team-logo"
+        style="vertical-align:middle;margin-right:10px;"
+      >
+      ${roster.team}
+    `;
+
+  document.getElementById("selectedTeam").innerHTML =
+    `
+
+      <div class="meta">
+        Source:
+        ${roster.source}
+      </div>
+
+      <div class="meta">
+        Players:
+        ${players.length}
+      </div>
+
+      <div class="meta">
+        Last checked:
+        ${new Date(roster.checkedAt).toLocaleString()}
+      </div>
+
+      <hr>
+
+      <h3>Roster</h3>
+
+      ${players.map(p => `
+        <div class="player">
+
+          <span class="player-name">
+            ${p.name}
+          </span>
+
+          <span class="position">
+            ${p.position}
+          </span>
+
+          <span class="status-pill ${statusClass(p.status)}">
+            ${p.status}
+          </span>
+
+        </div>
+      `).join("")}
+
+      <hr>
+
+      <h3>History</h3>
+
+      ${
+        history.length
+        ?
+        history.slice(0,20).map(h => `
+          <div class="history-item">
+
+            <strong>
+              ${h.type}
+            </strong>
+
+            —
+            ${h.playerName}
+
+            <div class="history-time">
+              ${new Date(h.timestamp).toLocaleString()}
+            </div>
+
+          </div>
+        `).join("")
+        :
+        `<div class="meta">
+          No roster changes logged yet.
+        </div>`
+      }
+
+    `;
 }
-const LOGOS = {
-  BUF: "https://static.www.nfl.com/image/private/f_auto/league/giphcy6ie9mxbnldntsf",
-  KC: "https://static.www.nfl.com/image/private/f_auto/league/ujshjqvmnxce8m4obmvs",
-  DAL: "https://static.www.nfl.com/image/private/f_auto/league/rjgc6g8jrm9xkq2h0qwy"
-};
+
 loadDashboard();
-setInterval(loadDashboard, 15 * 60 * 1000);
+
+setInterval(
+  loadDashboard,
+  24 * 60 * 60 * 1000
+);
+
 </script>
+
 </body>
 </html>
