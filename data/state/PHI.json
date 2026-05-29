@@ -3,7 +3,7 @@
   "team": "Philadelphia Eagles",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/philadelphia-eagles/roster",
-  "checkedAt": "2026-05-28T18:27:17.054268+00:00",
+  "checkedAt": "2026-05-29T18:21:31.831340+00:00",
   "players": [
     {
       "name": "A.J. Brown",
@@ -58,6 +58,14 @@
       "position": "DE",
       "number": "55",
       "status": "UFA",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Brandon Hayes",
+      "position": "WR",
+      "number": "74",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },

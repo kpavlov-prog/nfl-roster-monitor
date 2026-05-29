@@ -3,7 +3,7 @@
   "team": "Cleveland Browns",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/cleveland-browns/roster",
-  "checkedAt": "2026-05-28T18:26:25.051025+00:00",
+  "checkedAt": "2026-05-29T18:20:38.098354+00:00",
   "players": [
     {
       "name": "Aaron Anderson",
@@ -146,6 +146,14 @@
       "position": "WR",
       "number": "2",
       "status": "UFA",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "DeCarlos Nicholson",
+      "position": "CB",
+      "number": "75",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
