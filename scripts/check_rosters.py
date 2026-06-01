@@ -353,10 +353,10 @@ def run():
 
             save_json(state_path, current_roster)
             save_json(LATEST / f"{code}.json", current_roster)
-
-        if changes:
-            append_team_log(code, changes)
-            all_changes.extend(changes)
+        
+            if changes:
+                append_team_log(code, changes)
+                all_changes.extend(changes)
 
             statuses.append({
                 "teamCode": code,
