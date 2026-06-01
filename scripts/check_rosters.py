@@ -355,7 +355,7 @@ def run():
             save_json(LATEST / f"{code}.json", current_roster)
 
         if changes:
-            save_json(LOGS / f"{code}.json", changes + (load_json(LOGS / f"{code}.json") or []))
+            append_team_log(code, changes)
             all_changes.extend(changes)
 
             statuses.append({
