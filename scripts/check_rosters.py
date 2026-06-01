@@ -355,6 +355,7 @@ def run():
             save_json(LATEST / f"{code}.json", current_roster)
         
             if changes:
+                print("WRITING TEAM LOG:", LOGS / f"{code}.json")
                 append_team_log(code, changes)
                 all_changes.extend(changes)
 
@@ -385,6 +386,8 @@ def run():
 
         time.sleep(1.5)
 
+    print("TOTAL CHANGES TO WRITE:", len(all_changes))
+    print("WRITING ALL LOG:", LOGS / "all_changes.json")
     append_all_log(all_changes)
 
     summary = {
