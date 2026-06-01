@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-06-01T21:17:46.042231+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "removed",
+    "playerName": "DeCarlos Nicholson",
+    "position": "CB",
+    "oldValue": "RES",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-06-01T21:18:13.299449+00:00",
+    "teamCode": "LAR",
+    "teamName": "Los Angeles Rams",
+    "type": "status changed",
+    "playerName": "Max Klare",
+    "position": "TE",
+    "oldValue": "UDF",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-01T21:18:25.331717+00:00",
+    "teamCode": "NYG",
+    "teamName": "New York Giants",
+    "type": "status changed",
+    "playerName": "Arvell Reese",
+    "position": "LB",
+    "oldValue": "UDF",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-06-01T11:42:21.599775+00:00",
     "teamCode": "ARI",
     "teamName": "Arizona Cardinals",
