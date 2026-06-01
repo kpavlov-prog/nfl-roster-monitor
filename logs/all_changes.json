@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-06-01T11:42:21.599775+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Cardinals",
+    "type": "added",
+    "playerName": "Andrew Billings",
+    "position": "DT",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-01T11:42:21.599905+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Cardinals",
+    "type": "removed",
+    "playerName": "Andrew Billings TEST",
+    "position": "DT",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  }
+]
