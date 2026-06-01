@@ -285,7 +285,7 @@ def run():
     append_all_log(all_changes)
     
     for change in all_changes:
-        team_code = change["teamCode"]
+        append_team_log(change["teamCode"], [change])
 
         team_log_path = LOGS / f"{team_code}.json"
 
