@@ -247,8 +247,17 @@ def run():
             html = fetch_html(official_url(slug))
             roster = parse_roster(html, code, team_name, slug)
 
-            old_roster = load_json(STATE / f"{code}.json")
-            changes = diff_rosters(old_roster, roster)
+    old_roster = load_json(STATE / f"{code}.json")
+
+    if code == "ARI":
+        print("DEBUG STATE PATH:", STATE / f"{code}.json")
+        if old_roster:
+            names = [p.get("name", "") for p in old_roster.get("players", [])]
+            print("DEBUG ARI TEST FOUND:", any("TEST" in n for n in names))
+        else:
+            print("DEBUG ARI OLD ROSTER: None")
+
+    changes = diff_rosters(old_roster, roster)
 
             save_json(STATE / f"{code}.json", roster)
             save_json(LATEST / f"{code}.json", roster)
