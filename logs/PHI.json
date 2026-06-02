@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-06-02T20:00:02.223148+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "added",
+    "playerName": "Samori Toure",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-02T20:00:02.223164+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "removed",
+    "playerName": "Chandler Martin",
+    "position": "LB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  }
+]

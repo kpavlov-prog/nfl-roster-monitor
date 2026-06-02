@@ -1,0 +1,62 @@
+[
+  {
+    "timestamp": "2026-06-02T19:59:58.348564+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "added",
+    "playerName": "Chase Wilson",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-02T19:59:58.348576+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "added",
+    "playerName": "Da'Quan Felton",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-02T19:59:58.348595+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "status changed",
+    "playerName": "Omar Cooper Jr.",
+    "position": "WR",
+    "oldValue": "UDF",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-02T19:59:58.348607+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "removed",
+    "playerName": "Kobe King",
+    "position": "LB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-02T19:59:58.348611+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "removed",
+    "playerName": "Lenny Krieg",
+    "position": "K",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  }
+]

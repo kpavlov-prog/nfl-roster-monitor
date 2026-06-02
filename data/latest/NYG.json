@@ -3,7 +3,7 @@
   "team": "New York Giants",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-york-giants/roster",
-  "checkedAt": "2026-06-01T21:18:25.331382+00:00",
+  "checkedAt": "2026-06-02T19:59:56.127031+00:00",
   "players": [
     {
       "name": "Aaron Stinnie",
@@ -105,6 +105,14 @@
       "name": "Brandon Allen",
       "position": "QB",
       "number": "12",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Braxton Berrios",
+      "position": "WR",
+      "number": "69",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -361,7 +369,7 @@
       "name": "Gunner Olszewski",
       "position": "WR",
       "number": "80",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -598,6 +606,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Odell Beckham Jr.",
+      "position": "WR",
+      "number": "71",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Patrick Ricard",
       "position": "RB",
       "number": "45",
@@ -753,7 +769,7 @@
       "name": "Zach Triner",
       "position": "LS",
       "number": "55",
-      "status": "ACT",
+      "status": "UFA",
       "important": false,
       "source": "NFL.com"
     },

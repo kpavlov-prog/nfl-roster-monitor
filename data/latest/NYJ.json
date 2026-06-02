@@ -3,7 +3,7 @@
   "team": "New York Jets",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-york-jets/roster",
-  "checkedAt": "2026-06-01T21:18:27.828758+00:00",
+  "checkedAt": "2026-06-02T19:59:58.348197+00:00",
   "players": [
     {
       "name": "Adonai Mitchell",
@@ -142,6 +142,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Chase Wilson",
+      "position": "LB",
+      "number": "73",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Chip Trayanum",
       "position": "RB",
       "number": "40",
@@ -179,6 +187,14 @@
       "number": "38",
       "status": "ACT",
       "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Da'Quan Felton",
+      "position": "WR",
+      "number": "77",
+      "status": "ACT",
+      "important": true,
       "source": "NFL.com"
     },
     {
@@ -462,14 +478,6 @@
       "source": "NFL.com"
     },
     {
-      "name": "Kobe King",
-      "position": "LB",
-      "number": "45",
-      "status": "ACT",
-      "important": false,
-      "source": "NFL.com"
-    },
-    {
       "name": "Kohl Levao",
       "position": "OL",
       "number": "60",
@@ -489,14 +497,6 @@
       "name": "Landon Young",
       "position": "OT",
       "number": "79",
-      "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Lenny Krieg",
-      "position": "K",
-      "number": "11",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -609,7 +609,7 @@
       "name": "Omar Cooper Jr.",
       "position": "WR",
       "number": "72",
-      "status": "UDF",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
