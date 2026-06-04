@@ -302,33 +302,33 @@ function compareCsv(text){
     });
   });
 
-document.getElementById("csvResults").innerHTML = `
-  <b>CSV Reconciliation Summary</b>
+  document.getElementById("csvResults").innerHTML = `
+    <b>CSV Reconciliation Summary</b>
 
-  <div class="meta">
-    Found in both: ${found}
-    |
-    CSV players missing from official roster: ${missingOfficial}
-    |
-    Official players missing from CSV: ${missingCsv}
-    |
-    Position/status mismatches: ${mismatch}
-  </div>
+    <div class="meta">
+      Found in both: ${found}
+      |
+      CSV players missing from official roster: ${missingOfficial}
+      |
+      Official players missing from CSV: ${missingCsv}
+      |
+      Position/status mismatches: ${mismatch}
+    </div>
 
-  <br>
+    <br>
 
-  <h3>Needs Review: In CSV but missing from official roster</h3>
-  ${missingOfficialRows.join("") || `<div class="empty">None.</div>`}
+    <h3>Needs Review: In CSV but missing from official roster</h3>
+    ${missingOfficialRows.join("") || `<div class="empty">None.</div>`}
 
-  <h3>Needs Review: On official roster but missing from CSV</h3>
-  ${missingCsvRows.join("") || `<div class="empty">None.</div>`}
+    <h3>Needs Review: On official roster but missing from CSV</h3>
+    ${missingCsvRows.join("") || `<div class="empty">None.</div>`}
 
-  <h3>Position / Status Mismatches</h3>
-  ${mismatchRows.join("") || `<div class="empty">None.</div>`}
+    <h3>Position / Status Mismatches</h3>
+    ${mismatchRows.join("") || `<div class="empty">None.</div>`}
 
-  <h3>Found in both</h3>
-  ${foundRows.join("") || `<div class="empty">None.</div>`}
-`;
+    <h3>Found in both</h3>
+    ${foundRows.join("") || `<div class="empty">None.</div>`}
+  `;
 
 function exportCsv(){const rows=[["timestamp_gmt","teamCode","teamName","severity","type","playerName","position","oldValue","newValue"]];allChanges.forEach(c=>rows.push([gmt(c.timestamp),c.teamCode||"",c.teamName||"",c.severity||"",c.type||"",c.playerName||"",c.position||"",c.oldValue||"",c.newValue||""]));const csv=rows.map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(",")).join("\n");const blob=new Blob([csv],{type:"text/csv"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="nfl-roster-changes.csv";a.click();URL.revokeObjectURL(url)}
 
