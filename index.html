@@ -168,8 +168,9 @@ function compareCsv(text){
   const idx = {
     name: headers.indexOf("name"),
     team: headers.indexOf("team name"),
-    position: headers.indexOf("
-
+    position: headers.indexOf("position"),
+    status: headers.indexOf("status")
+};
   if(idx.name < 0){
     document.getElementById("csvResults").innerHTML = "CSV must have a Name column.";
     return;
