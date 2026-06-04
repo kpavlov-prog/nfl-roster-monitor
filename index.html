@@ -1,91 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NFL Roster Monitor</title>
-  <style>
-    :root{
-      --bg:#081226; --card:#ffffff; --line:#e5e7eb; --text:#111827; --muted:#64748b;
-      --blue:#2563eb; --purple:#7c3aed; --green:#16a34a; --green-bg:#dcfce7;
-      --red:#dc2626; --red-bg:#fee2e2; --yellow:#d97706; --yellow-bg:#fef3c7;
-      --slate:#334155; --soft:#f8fafc;
-    }
-    *{box-sizing:border-box}
-    body{margin:0;font-family:Arial,sans-serif;background:radial-gradient(circle at top left,rgba(37,99,235,.28),transparent 32%),radial-gradient(circle at top right,rgba(124,58,237,.22),transparent 28%),var(--bg);color:white;min-height:100vh}
-    .container{max-width:1550px;margin:0 auto;padding:28px 24px 40px}
-    h1{margin:0;font-size:42px;letter-spacing:-.04em}.subtitle{margin-top:8px;color:#cbd5e1}
-    .controls{margin-top:24px;display:flex;gap:12px;flex-wrap:wrap;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.08);padding:14px;border-radius:18px}
-    button,select,input{padding:11px 14px;border-radius:12px;border:none;font-size:14px}
-    button{background:linear-gradient(135deg,var(--blue),var(--purple));color:white;font-weight:800;cursor:pointer}
-    button.secondary{background:#334155}
-    button.checked-btn{background:#e2e8f0;color:#334155;box-shadow:none;padding:8px 10px;font-size:12px;margin-top:8px}
-    input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbeafe;font-size:14px}
-    .stats{margin-top:18px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.stat{background:white;color:var(--text);border-radius:18px;padding:18px;box-shadow:0 10px 25px rgba(0,0,0,.18);position:relative;overflow:hidden}.stat:before{content:"";position:absolute;top:0;left:0;width:100%;height:5px;background:linear-gradient(90deg,var(--blue),var(--purple))}.stat-value{font-size:34px;font-weight:900}.stat-label{margin-top:6px;color:var(--muted);font-size:13px}
-    .layout{margin-top:18px;display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:start}.panel{background:white;color:var(--text);border-radius:20px;padding:18px;box-shadow:0 12px 30px rgba(0,0,0,.18)}.panel+.panel{margin-top:18px}.panel h2{margin-top:0}
-    .teams{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}.team{border:2px solid transparent;border-radius:16px;padding:14px;background:#f8fafc;cursor:pointer;transition:.12s ease}.team:hover{transform:translateY(-2px);border-color:var(--blue)}.team.selected{border-color:var(--purple);background:#f5f3ff}.team.has-change{border-color:var(--yellow)}.team.has-important{border-color:var(--red)}
-    .team-top{display:flex;gap:12px;align-items:center}.team-logo{width:46px;height:46px;object-fit:contain;flex-shrink:0}.team-name{font-weight:900;font-size:15px}.team-code{margin-top:4px;display:inline-block;background:#dbeafe;color:#1d4ed8;padding:3px 8px;border-radius:999px;font-size:11px;font-weight:900}.meta{margin-top:8px;color:var(--muted);font-size:12px;line-height:1.45}
-    .pill{display:inline-block;padding:4px 9px;border-radius:999px;font-size:11px;font-weight:900;margin-top:6px}.ok{background:var(--green-bg);color:var(--green)}.error{background:var(--red-bg);color:var(--red)}.warn{background:var(--yellow-bg);color:var(--yellow)}.danger{background:var(--red-bg);color:var(--red)}
-    .player{padding:10px 0;border-bottom:1px solid var(--line)}.player.highlight{background:#fef3c7;margin:6px -8px;padding:10px 8px;border-radius:10px}.player-name{font-weight:800}.position{display:inline-block;margin-left:8px;background:#ede9fe;color:var(--purple);padding:2px 7px;border-radius:7px;font-size:12px;font-weight:900}.status-pill{display:inline-block;margin-left:6px;padding:2px 7px;border-radius:7px;font-size:12px;font-weight:900;background:var(--green-bg);color:var(--green)}.status-danger{background:var(--red-bg);color:var(--red)}.status-warning{background:var(--yellow-bg);color:var(--yellow)}
-    .change-item{padding:12px;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;background:#f8fafc;cursor:pointer;transition:.12s ease}.change-item:hover{border-color:var(--blue);transform:translateY(-1px)}.change-item.high{background:var(--red-bg);border-color:#fecaca}.change-item.medium{background:var(--yellow-bg);border-color:#fde68a}.change-title{font-weight:900}.change-time{color:var(--muted);font-size:12px;margin-top:4px}.change-action{color:#2563eb;font-size:12px;font-weight:800;margin-top:6px}
-    .filter-row{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.filter-btn{background:#e2e8f0;color:#334155;box-shadow:none;padding:8px 10px;font-size:12px}.filter-btn.active{background:linear-gradient(135deg,var(--blue),var(--purple));color:#fff}.history-item{padding:10px 0;border-bottom:1px solid var(--line)}.history-main{font-weight:800}.history-time{color:var(--muted);font-size:12px;margin-top:4px}.empty{color:var(--muted);font-style:italic}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-    .history-toggle{width:100%;text-align:left;background:#f1f5f9;color:#111827;box-shadow:none;margin-top:16px}
-    .history-box{display:none;margin-top:12px}.history-box.open{display:block}
-    @media(max-width:1150px){.stats,.layout,.two-col{grid-template-columns:1fr}}
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NFL Roster Monitor</title>
+
+<style>
+:root{--bg:#081226;--line:#e5e7eb;--text:#111827;--muted:#64748b;--blue:#2563eb;--purple:#7c3aed;--green:#16a34a;--green-bg:#dcfce7;--red:#dc2626;--red-bg:#fee2e2;--yellow:#d97706;--yellow-bg:#fef3c7;--soft:#f8fafc}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:radial-gradient(circle at top left,rgba(37,99,235,.28),transparent 32%),radial-gradient(circle at top right,rgba(124,58,237,.22),transparent 28%),var(--bg);color:white;min-height:100vh}
+.container{max-width:1550px;margin:0 auto;padding:28px 24px 40px}
+h1{margin:0;font-size:42px}.subtitle{margin-top:8px;color:#cbd5e1}
+.controls{margin-top:24px;display:flex;gap:12px;flex-wrap:wrap;background:rgba(255,255,255,.08);padding:14px;border-radius:18px}
+button,select,input{padding:11px 14px;border-radius:12px;border:none;font-size:14px}
+button{background:linear-gradient(135deg,var(--blue),var(--purple));color:white;font-weight:800;cursor:pointer}
+button.secondary{background:#334155}.checked-btn{background:#e2e8f0;color:#334155;padding:8px 10px;font-size:12px;margin-top:8px}
+input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbeafe;font-size:14px}
+.stats{margin-top:18px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.stat{background:white;color:var(--text);border-radius:18px;padding:18px;box-shadow:0 10px 25px rgba(0,0,0,.18);border-top:5px solid var(--purple)}
+.stat-value{font-size:34px;font-weight:900}.stat-label{margin-top:6px;color:var(--muted);font-size:13px}
+.layout{margin-top:18px;display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:start}
+.panel{background:white;color:var(--text);border-radius:20px;padding:18px;box-shadow:0 12px 30px rgba(0,0,0,.18)}
+.panel+.panel{margin-top:18px}.panel h2{margin-top:0}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.teams{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.team{border:2px solid transparent;border-radius:16px;padding:14px;background:#f8fafc;cursor:pointer}
+.team:hover{border-color:var(--blue)}.team.selected{border-color:var(--purple);background:#f5f3ff}.team.has-change{border-color:var(--yellow)}.team.has-important{border-color:var(--red)}
+.team-top{display:flex;gap:12px;align-items:center}.team-logo{width:46px;height:46px;object-fit:contain}.team-name{font-weight:900;font-size:15px}
+.team-code{margin-top:4px;display:inline-block;background:#dbeafe;color:#1d4ed8;padding:3px 8px;border-radius:999px;font-size:11px;font-weight:900}
+.meta{margin-top:8px;color:var(--muted);font-size:12px;line-height:1.45}
+.pill{display:inline-block;padding:4px 9px;border-radius:999px;font-size:11px;font-weight:900;margin-top:6px}
+.ok{background:var(--green-bg);color:var(--green)}.error{background:var(--red-bg);color:var(--red)}.warn{background:var(--yellow-bg);color:var(--yellow)}.danger{background:var(--red-bg);color:var(--red)}
+.player{padding:10px 0;border-bottom:1px solid var(--line)}.player.highlight{background:#fef3c7;margin:6px -8px;padding:10px 8px;border-radius:10px}
+.player-name{font-weight:800}.position{display:inline-block;margin-left:8px;background:#ede9fe;color:var(--purple);padding:2px 7px;border-radius:7px;font-size:12px;font-weight:900}
+.status-pill{display:inline-block;margin-left:6px;padding:2px 7px;border-radius:7px;font-size:12px;font-weight:900;background:var(--green-bg);color:var(--green)}
+.status-danger{background:var(--red-bg);color:var(--red)}.status-warning{background:var(--yellow-bg);color:var(--yellow)}
+.change-item,.csv-row{padding:12px;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;background:#f8fafc}
+.change-item{cursor:pointer}.change-item.high{background:var(--red-bg)}.change-item.medium{background:var(--yellow-bg)}
+.change-title{font-weight:900}.change-time{color:var(--muted);font-size:12px;margin-top:4px}.change-action{color:#2563eb;font-size:12px;font-weight:800;margin-top:6px}
+.filter-row{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.filter-btn{background:#e2e8f0;color:#334155;padding:8px 10px;font-size:12px}.filter-btn.active{background:linear-gradient(135deg,var(--blue),var(--purple));color:#fff}
+.history-toggle{width:100%;text-align:left;background:#f1f5f9;color:#111827;margin-top:16px}.history-box{display:none;margin-top:12px}.history-box.open{display:block}
+.history-item{padding:10px 0;border-bottom:1px solid var(--line)}.history-main{font-weight:800}.history-time{color:var(--muted);font-size:12px;margin-top:4px}
+.empty{color:var(--muted);font-style:italic}.csv-found{border-left:6px solid var(--green)}.csv-missing{border-left:6px solid var(--red)}.csv-warning{border-left:6px solid var(--yellow)}
+@media(max-width:1150px){.stats,.layout,.two-col{grid-template-columns:1fr}}
+</style>
 </head>
+
 <body>
 <div class="container">
-  <h1>NFL Roster Monitor</h1>
-  <div class="subtitle">Official NFL roster monitoring dashboard powered by GitHub Actions. Times shown in GMT.</div>
+<h1>NFL Roster Monitor</h1>
+<div class="subtitle">Official NFL roster monitoring dashboard powered by GitHub Actions. Times shown in GMT.</div>
 
-  <div class="controls">
-    <button onclick="loadDashboard()">Refresh dashboard</button>
-    <button class="secondary" onclick="exportCsv()">Export changes CSV</button>
-    <button class="secondary" onclick="markAllChecked()">Mark All Checked</button>
-    <button class="secondary" onclick="clearCheckedChanges()">Reset checked items</button>
-    <select id="teamSelect" onchange="selectTeam(this.value)"></select>
-    <input id="searchBox" placeholder="Search player..." oninput="renderSelectedTeam()" />
-  </div>
+<div class="controls">
+<button onclick="loadDashboard()">Refresh dashboard</button>
+<button class="secondary" onclick="exportCsv()">Export changes CSV</button>
+<button class="secondary" onclick="markAllChecked()">Mark All Checked</button>
+<button class="secondary" onclick="clearCheckedChanges()">Reset checked items</button>
+<select id="teamSelect" onchange="selectTeam(this.value)"></select>
+<input id="searchBox" placeholder="Search player..." oninput="renderSelectedTeam()" />
+</div>
 
-  <div id="status" class="status">Loading...</div>
+<div id="status" class="status">Loading...</div>
 
-  <div class="stats">
-    <div class="stat"><div id="teamsChecked" class="stat-value">-</div><div class="stat-label">Teams checked</div></div>
-    <div class="stat"><div id="teamsOk" class="stat-value">-</div><div class="stat-label">Teams OK</div></div>
-    <div class="stat"><div id="teamsErrored" class="stat-value">-</div><div class="stat-label">Teams errored</div></div>
-    <div class="stat"><div id="totalChanges" class="stat-value">-</div><div class="stat-label">Unchecked changes</div></div>
-  </div>
+<div class="stats">
+<div class="stat"><div id="teamsChecked" class="stat-value">-</div><div class="stat-label">Teams checked</div></div>
+<div class="stat"><div id="teamsOk" class="stat-value">-</div><div class="stat-label">Teams OK</div></div>
+<div class="stat"><div id="teamsErrored" class="stat-value">-</div><div class="stat-label">Teams errored</div></div>
+<div class="stat"><div id="totalChanges" class="stat-value">-</div><div class="stat-label">Unchecked changes</div></div>
+</div>
 
-  <div class="layout">
-    <div>
-      <div class="two-col">
-        <div class="panel">
-          <h2>Important Changes</h2>
-          <div id="importantChanges" class="empty">No important changes logged yet.</div>
-        </div>
-        <div class="panel">
-          <h2>Last 24h Changes</h2>
-          <div id="last24Changes" class="empty">No changes in the last 24 hours.</div>
-        </div>
-      </div>
+<div class="layout">
+<div>
+<div class="two-col">
+<div class="panel"><h2>Important Changes</h2><div id="importantChanges" class="empty">No important changes logged yet.</div></div>
+<div class="panel"><h2>Last 24h Changes</h2><div id="last24Changes" class="empty">No changes in the last 24 hours.</div></div>
+</div>
 
-      <div class="panel">
-        <h2>Latest Changes Detected</h2>
-        <div id="latestChanges" class="empty">No roster changes logged yet.</div>
-      </div>
+<div class="panel"><h2>Latest Changes Detected</h2><div id="latestChanges" class="empty">No roster changes logged yet.</div></div>
 
-      <div class="panel">
-        <h2>Teams</h2>
-        <div id="teams" class="teams"></div>
-      </div>
-    </div>
+<div class="panel">
+<h2>CSV Roster Check</h2>
+<div class="meta">Upload CSV with columns: <b>Name</b>, <b>Team name</b>, <b>Position</b>, <b>Status</b>. Other columns are ignored.</div><br>
+<input type="file" id="csvFile" accept=".csv" />
+<button onclick="runCsvCheck()">Run CSV Check</button>
+<div id="csvResults" class="meta" style="margin-top:14px;">No CSV checked yet.</div>
+</div>
 
-    <div class="panel">
-      <h2 id="selectedTitle">Selected Team</h2>
-      <div id="selectedTeam">Select a team.</div>
-    </div>
-  </div>
+<div class="panel"><h2>Teams</h2><div id="teams" class="teams"></div></div>
+</div>
+
+<div class="panel"><h2 id="selectedTitle">Selected Team</h2><div id="selectedTeam">Select a team.</div></div>
+</div>
 </div>
 
 <script>
@@ -98,26 +103,15 @@ function saveChecked(items){localStorage.setItem("checkedChanges",JSON.stringify
 function changeId(c){return [c.timestamp,c.teamCode,c.type,c.playerName,c.oldValue,c.newValue].join("|")}
 function isChecked(c){return getChecked().includes(changeId(c))}
 function markChecked(id){const items=new Set(getChecked());items.add(id);saveChecked([...items]);renderSummary();renderChangePanels();renderTeams()}
-function markAllChecked(){
-
-    const ids = allChanges.map(c => changeId(c));
-
-    localStorage.setItem(
-        "checkedChanges",
-        JSON.stringify(ids)
-    );
-
-    renderSummary();
-    renderChangePanels();
-    renderTeams();
-}
+function markAllChecked(){saveChecked(allChanges.map(c=>changeId(c)));renderSummary();renderChangePanels();renderTeams()}
 function clearCheckedChanges(){localStorage.removeItem("checkedChanges");renderSummary();renderChangePanels();renderTeams()}
 
 function setStatus(msg){document.getElementById("status").textContent=msg}
 async function fetchJson(path){const res=await fetch(path+"?v="+Date.now());if(!res.ok)throw new Error(path+" failed");return await res.json()}
 function gmt(value){if(!value)return"-";try{return new Date(value).toLocaleString('en-GB',{timeZone:'UTC',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit'})+" GMT"}catch(e){return value}}
+function norm(v){return String(v||"").toLowerCase().replace(/[^a-z0-9]/g,"")}
 function timeAgo(value){if(!value)return"unknown time ago";const diff=Date.now()-new Date(value).getTime(),mins=Math.floor(diff/60000),hours=Math.floor(mins/60),days=Math.floor(hours/24);if(days>0)return days+(days===1?" day ago":" days ago");if(hours>0)return hours+(hours===1?" hour ago":" hours ago");if(mins>0)return mins+(mins===1?" minute ago":" minutes ago");return"just now"}
-function changeSentence(c){const name=c.playerName||"Unknown player",type=String(c.type||"change").toLowerCase(),oldv=c.oldValue||"",newv=c.newValue||"";if(type==="added")return`${name} joined the team ${timeAgo(c.timestamp)}`;if(type==="removed")return`${name} left the team ${timeAgo(c.timestamp)}`;if(type==="status changed")return`${name} status changed ${oldv} → ${newv} ${timeAgo(c.timestamp)}`;if(type==="position changed")return`${name} position changed ${oldv} → ${newv} ${timeAgo(c.timestamp)}`;if(type==="number changed")return`${name} number changed ${oldv||'blank'} → ${newv||'blank'} ${timeAgo(c.timestamp)}`;return`${name}: ${c.type||'Roster change'} ${timeAgo(c.timestamp)}`}
+function changeSentence(c){const n=c.playerName||"Unknown player",t=String(c.type||"change").toLowerCase(),o=c.oldValue||"",ne=c.newValue||"";if(t==="added")return`${n} joined the team ${timeAgo(c.timestamp)}`;if(t==="removed")return`${n} left the team ${timeAgo(c.timestamp)}`;if(t==="status changed")return`${n} status changed ${o} → ${ne} ${timeAgo(c.timestamp)}`;return`${n}: ${c.type||'Roster change'} ${timeAgo(c.timestamp)}`}
 function severityClass(c){return c.severity==="high"?"high":c.severity==="medium"?"medium":""}
 function isImportant(c){const pos=String(c.position||"").toUpperCase(),type=String(c.type||"").toLowerCase(),txt=(type+" "+(c.oldValue||"")+" "+(c.newValue||"")).toLowerCase();return c.severity==="high"||["QB","RB","WR","TE","K"].includes(pos)&&(type==="removed"||type==="status changed")||/ir|pup|nfi|sus|res|out|inj/.test(txt)}
 function isLast24(c){return Date.now()-new Date(c.timestamp).getTime()<=24*60*60*1000}
@@ -129,21 +123,21 @@ function renderSummary(){document.getElementById("teamsChecked").textContent=sum
 function renderTeamOptions(){document.getElementById("teamSelect").innerHTML=statusRows.map(r=>`<option value="${r.teamCode}">${r.teamName}</option>`).join("");document.getElementById("teamSelect").value=selectedCode}
 function selectTeam(code){selectedCode=code;document.getElementById("teamSelect").value=code;highlightedPlayer="";historyFilter="all";renderTeams();renderSelectedTeam()}
 function openChange(teamCode,playerName){selectedCode=teamCode;highlightedPlayer=playerName||"";document.getElementById("searchBox").value=playerName||"";document.getElementById("teamSelect").value=teamCode;renderTeams();renderSelectedTeam();document.getElementById("selectedTitle").scrollIntoView({behavior:"smooth",block:"start"})}
+function changeHtml(c){const safeName=String(c.playerName||"").replace(/'/g,"\\'"),id=changeId(c).replace(/"/g,"&quot;");return`<div class="change-item ${severityClass(c)}"><div onclick="openChange('${c.teamCode}','${safeName}')"><div class="change-title">${c.teamName||c.teamCode}: ${changeSentence(c)}</div><div class="change-time">${gmt(c.timestamp)} | ${String(c.severity||'low').toUpperCase()}</div><div class="change-action">Open team and player →</div></div><button class="checked-btn" onclick="markChecked('${id}')">Checked ✓</button></div>`}
+function renderChangePanels(){const changes=visibleChanges();document.getElementById("latestChanges").innerHTML=changes.length?changes.slice(0,20).map(changeHtml).join(""):`<div class="empty">No unchecked roster changes.</div>`;const important=changes.filter(isImportant);document.getElementById("importantChanges").innerHTML=important.length?important.slice(0,20).map(changeHtml).join(""):`<div class="empty">No unchecked important changes.</div>`;const recent=changes.filter(isLast24);document.getElementById("last24Changes").innerHTML=recent.length?recent.slice(0,20).map(changeHtml).join(""):`<div class="empty">No unchecked changes in the last 24 hours.</div>`}
 
-function changeHtml(c){const safeName=String(c.playerName||"").replace(/'/g,"\\'");const id=changeId(c).replace(/"/g,"&quot;");return`<div class="change-item ${severityClass(c)}"><div onclick="openChange('${c.teamCode}','${safeName}')"><div class="change-title">${c.teamName||c.teamCode}: ${changeSentence(c)}</div><div class="change-time">${gmt(c.timestamp)} | ${String(c.severity||'low').toUpperCase()}</div><div class="change-action">Open team and player →</div></div><button class="checked-btn" onclick="markChecked('${id}')">Checked ✓</button></div>`}
-
-function renderChangePanels(){const latest=document.getElementById("latestChanges"),imp=document.getElementById("importantChanges"),last24=document.getElementById("last24Changes");const changes=visibleChanges();latest.innerHTML=changes.length?changes.slice(0,20).map(changeHtml).join(""):`<div class="empty">No unchecked roster changes.</div>`;const important=changes.filter(isImportant);imp.innerHTML=important.length?important.slice(0,20).map(changeHtml).join(""):`<div class="empty">No unchecked important changes.</div>`;const recent=changes.filter(isLast24);last24.innerHTML=recent.length?recent.slice(0,20).map(changeHtml).join(""):`<div class="empty">No unchecked changes in the last 24 hours.</div>`}
-
-function teamChanges(code){return allChanges.filter(c=>c.teamCode===code)}
-function teamUnchecked(code){return visibleChanges().filter(c=>c.teamCode===code)}
-function renderTeams(){document.getElementById("teams").innerHTML=statusRows.map(r=>{const roster=rosters[r.teamCode]||{},errors=roster.errors||[],changes=teamChanges(r.teamCode),unchecked=teamUnchecked(r.teamCode),recent=changes[0],important=unchecked.some(isImportant);return`<div class="team ${selectedCode===r.teamCode?'selected':''} ${unchecked.length?'has-change':''} ${important?'has-important':''}" onclick="selectTeam('${r.teamCode}')"><div class="team-top"><img src="${LOGOS[r.teamCode]}" class="team-logo" alt="${r.teamCode} logo"><div><div class="team-name">${r.teamName}</div><div class="team-code">${r.teamCode}</div></div></div><div class="meta">Players: ${(roster.players||[]).length}</div><div class="meta">Checked: ${gmt(r.checkedAt)}</div><div class="meta">Last movement: ${recent?timeAgo(recent.timestamp):'none logged'}</div><div class="meta">Unchecked changes: ${unchecked.length}</div><div class="pill ${errors.length?'error':important?'danger':unchecked.length?'warn':'ok'}">${errors.length?'Source issue':important?'Important unchecked':unchecked.length?'Needs review':'Official OK'}</div></div>`}).join("")}
+function teamChanges(code){return allChanges.filter(c=>c.teamCode===code)}function teamUnchecked(code){return visibleChanges().filter(c=>c.teamCode===code)}
+function renderTeams(){document.getElementById("teams").innerHTML=statusRows.map(r=>{const roster=rosters[r.teamCode]||{},errors=roster.errors||[],changes=teamChanges(r.teamCode),unchecked=teamUnchecked(r.teamCode),recent=changes[0],important=unchecked.some(isImportant);return`<div class="team ${selectedCode===r.teamCode?'selected':''} ${unchecked.length?'has-change':''} ${important?'has-important':''}" onclick="selectTeam('${r.teamCode}')"><div class="team-top"><img src="${LOGOS[r.teamCode]}" class="team-logo"><div><div class="team-name">${r.teamName}</div><div class="team-code">${r.teamCode}</div></div></div><div class="meta">Players: ${(roster.players||[]).length}</div><div class="meta">Checked: ${gmt(r.checkedAt)}</div><div class="meta">Last movement: ${recent?timeAgo(recent.timestamp):'none logged'}</div><div class="meta">Unchecked changes: ${unchecked.length}</div><div class="pill ${errors.length?'error':important?'danger':unchecked.length?'warn':'ok'}">${errors.length?'Source issue':important?'Important unchecked':unchecked.length?'Needs review':'Official OK'}</div></div>`}).join("")}
 
 function statusClass(status){const s=String(status||"").toUpperCase();if(["IR","PUP","NFI","SUS","RES"].includes(s))return"status-danger";if(["UFA","RFA","UDF"].includes(s))return"status-warning";return""}
-function setHistoryFilter(filter){historyFilter=filter;renderSelectedTeam()}
-function toggleHistory(){historyOpen=!historyOpen;renderSelectedTeam()}
+function setHistoryFilter(filter){historyFilter=filter;renderSelectedTeam()}function toggleHistory(){historyOpen=!historyOpen;renderSelectedTeam()}
 function historyMatches(c){const t=String(c.type||"").toLowerCase();if(historyFilter==="all")return true;if(historyFilter==="joined")return t==="added";if(historyFilter==="left")return t==="removed";if(historyFilter==="status")return t==="status changed";return true}
+async function renderSelectedTeam(){const roster=rosters[selectedCode];if(!roster)return;let history=[];try{history=await fetchJson(`logs/${selectedCode}.json`)}catch(e){history=[]}const filteredHistory=history.filter(historyMatches),q=document.getElementById("searchBox").value.trim().toLowerCase(),players=(roster.players||[]).filter(p=>!q||String(p.name||"").toLowerCase().includes(q));document.getElementById("selectedTitle").innerHTML=`<img src="${LOGOS[selectedCode]}" class="team-logo" style="vertical-align:middle;margin-right:10px;">${roster.team||selectedCode}`;document.getElementById("selectedTeam").innerHTML=`<div class="meta">Source: ${roster.source||'NFL.com official roster'}</div><div class="meta">Players shown: ${players.length}</div><div class="meta">Last checked: ${gmt(roster.checkedAt)}</div><hr><h3>Roster</h3>${players.length?players.map(p=>`<div class="player ${highlightedPlayer&&p.name===highlightedPlayer?'highlight':''}"><span class="player-name">${p.name}</span><span class="position">${p.position||'?'}</span><span class="status-pill ${statusClass(p.status)}">${p.status||''}</span></div>`).join(""):`<div class="empty">No players found.</div>`}<button class="history-toggle" onclick="toggleHistory()">${historyOpen?'▲ Hide':'▼ Show'} Team History (${history.length})</button><div class="history-box ${historyOpen?'open':''}"><div class="filter-row"><button class="filter-btn ${historyFilter==='all'?'active':''}" onclick="setHistoryFilter('all')">All</button><button class="filter-btn ${historyFilter==='joined'?'active':''}" onclick="setHistoryFilter('joined')">Joined</button><button class="filter-btn ${historyFilter==='left'?'active':''}" onclick="setHistoryFilter('left')">Left</button><button class="filter-btn ${historyFilter==='status'?'active':''}" onclick="setHistoryFilter('status')">Status Changed</button></div>${filteredHistory.length?filteredHistory.slice(0,80).map(h=>`<div class="history-item"><div class="history-main">${changeSentence(h)}</div><div class="history-time">${gmt(h.timestamp)} | ${String(h.severity||'low').toUpperCase()}</div></div>`).join(""):`<div class="empty">No roster changes logged yet for this filter.</div>`}</div>`}
 
-async function renderSelectedTeam(){const roster=rosters[selectedCode];if(!roster)return;let history=[];try{history=await fetchJson(`logs/${selectedCode}.json`)}catch(e){history=[]}const filteredHistory=history.filter(historyMatches);const q=document.getElementById("searchBox").value.trim().toLowerCase();const players=(roster.players||[]).filter(p=>!q||String(p.name||"").toLowerCase().includes(q));document.getElementById("selectedTitle").innerHTML=`<img src="${LOGOS[selectedCode]}" class="team-logo" style="vertical-align:middle;margin-right:10px;" alt="${selectedCode} logo">${roster.team||selectedCode}`;document.getElementById("selectedTeam").innerHTML=`<div class="meta">Source: ${roster.source||'NFL.com official roster'}</div><div class="meta">Players shown: ${players.length}</div><div class="meta">Last checked: ${gmt(roster.checkedAt)}</div><hr><h3>Roster</h3>${players.length?players.map(p=>`<div class="player ${highlightedPlayer&&p.name===highlightedPlayer?'highlight':''}"><span class="player-name">${p.name}</span><span class="position">${p.position||'?'}</span><span class="status-pill ${statusClass(p.status)}">${p.status||''}</span></div>`).join(""):`<div class="empty">No players found.</div>`}<button class="history-toggle" onclick="toggleHistory()">${historyOpen?'▲ Hide':'▼ Show'} Team History (${history.length})</button><div class="history-box ${historyOpen?'open':''}"><div class="filter-row"><button class="filter-btn ${historyFilter==='all'?'active':''}" onclick="setHistoryFilter('all')">All</button><button class="filter-btn ${historyFilter==='joined'?'active':''}" onclick="setHistoryFilter('joined')">Joined</button><button class="filter-btn ${historyFilter==='left'?'active':''}" onclick="setHistoryFilter('left')">Left</button><button class="filter-btn ${historyFilter==='status'?'active':''}" onclick="setHistoryFilter('status')">Status Changed</button></div>${filteredHistory.length?filteredHistory.slice(0,80).map(h=>`<div class="history-item"><div class="history-main">${changeSentence(h)}</div><div class="history-time">${gmt(h.timestamp)} | ${String(h.severity||'low').toUpperCase()}</div></div>`).join(""):`<div class="empty">No roster changes logged yet for this filter.</div>`}</div>`}
+function parseCsv(text){const rows=[];let row=[],field="",quotes=false;for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];if(c=='"'&&quotes&&n=='"'){field+='"';i++}else if(c=='"'){quotes=!quotes}else if(c==","&&!quotes){row.push(field);field=""}else if((c=="\n"||c=="\r")&&!quotes){if(field||row.length){row.push(field);rows.push(row);row=[];field=""}if(c=="\r"&&n=="\n")i++}else field+=c}if(field||row.length){row.push(field);rows.push(row)}return rows}
+function teamCodeFromCsv(v){const s=norm(v);const found=statusRows.find(r=>norm(r.teamCode)===s||norm(r.teamName)===s);return found?found.teamCode:selectedCode}
+function runCsvCheck(){const file=document.getElementById("csvFile").files[0];if(!file){document.getElementById("csvResults").innerHTML="Please upload a CSV first.";return}const reader=new FileReader();reader.onload=()=>compareCsv(reader.result);reader.readAsText(file)}
+function compareCsv(text){const rows=parseCsv(text);if(rows.length<2){document.getElementById("csvResults").innerHTML="CSV has no data.";return}const headers=rows[0].map(h=>h.trim().toLowerCase());const idx={name:headers.indexOf("name"),team:headers.indexOf("team name"),position:headers.indexOf("position"),status:headers.indexOf("status")};if(idx.name<0){document.getElementById("csvResults").innerHTML="CSV must have a Name column.";return}let found=0,missing=0,mismatch=0;const output=[];rows.slice(1).forEach(r=>{const name=(r[idx.name]||"").trim();if(!name)return;const teamVal=idx.team>=0?(r[idx.team]||"").trim():"";const code=teamCodeFromCsv(teamVal);const roster=rosters[code]||{players:[]};const official=(roster.players||[]).find(p=>norm(p.name)===norm(name));const csvPos=idx.position>=0?(r[idx.position]||"").trim():"";const csvStatus=idx.status>=0?(r[idx.status]||"").trim():"";if(!official){missing++;output.push(`<div class="csv-row csv-missing"><b>Missing:</b> ${name} | ${code}<div class="meta">Not found on official roster.</div></div>`);return}let issues=[];if(csvPos&&norm(csvPos)!==norm(official.position))issues.push(`Position CSV ${csvPos} vs Official ${official.position}`);if(csvStatus&&norm(csvStatus)!==norm(official.status))issues.push(`Status CSV ${csvStatus} vs Official ${official.status}`);if(issues.length){mismatch++;output.push(`<div class="csv-row csv-warning"><b>Mismatch:</b> ${name} | ${code}<div class="meta">${issues.join(" | ")}</div></div>`)}else{found++;output.push(`<div class="csv-row csv-found"><b>Found:</b> ${name} | ${code}<div class="meta">Official: ${official.position} | ${official.status}</div></div>`)}});document.getElementById("csvResults").innerHTML=`<b>CSV Check Summary</b><div class="meta">Found: ${found} | Missing: ${missing} | Mismatches: ${mismatch}</div><br>${output.join("")}`}
 
 function exportCsv(){const rows=[["timestamp_gmt","teamCode","teamName","severity","type","playerName","position","oldValue","newValue"]];allChanges.forEach(c=>rows.push([gmt(c.timestamp),c.teamCode||"",c.teamName||"",c.severity||"",c.type||"",c.playerName||"",c.position||"",c.oldValue||"",c.newValue||""]));const csv=rows.map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(",")).join("\n");const blob=new Blob([csv],{type:"text/csv"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="nfl-roster-changes.csv";a.click();URL.revokeObjectURL(url)}
 
