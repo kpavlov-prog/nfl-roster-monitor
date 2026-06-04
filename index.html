@@ -177,8 +177,11 @@ function compareCsv(text){
   }
 
   const csvByTeam = {};
-  const output = [];
-
+  const missingOfficialRows = [];
+  const missingCsvRows = [];
+  const mismatchRows = [];
+  const foundRows = [];
+  
   let found = 0;
   let missingOfficial = 0;
   let missingCsv = 0;
