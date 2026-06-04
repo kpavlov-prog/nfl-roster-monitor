@@ -109,7 +109,10 @@ function clearCheckedChanges(){localStorage.removeItem("checkedChanges");renderS
 function setStatus(msg){document.getElementById("status").textContent=msg}
 async function fetchJson(path){const res=await fetch(path+"?v="+Date.now());if(!res.ok)throw new Error(path+" failed");return await res.json()}
 function gmt(value){if(!value)return"-";try{return new Date(value).toLocaleString('en-GB',{timeZone:'UTC',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit'})+" GMT"}catch(e){return value}}
-function norm(v){return String(v||"").toLowerCase().replace(/[^a-z0-9]/g,"")}
+function norm(v){return String(v || "").replace(/\s*\([^)]*\)\s*/g, "") // remove (ARI), (BUF), etc.
+                 .toLowerCase()
+                 .replace(/[^a-z0-9]/g, "");
+}                 
   function normStatus(v){
   const s = norm(v);
 
