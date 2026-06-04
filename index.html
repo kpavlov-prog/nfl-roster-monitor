@@ -155,7 +155,171 @@ async function renderSelectedTeam(){const roster=rosters[selectedCode];if(!roste
 function parseCsv(text){const rows=[];let row=[],field="",quotes=false;for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];if(c=='"'&&quotes&&n=='"'){field+='"';i++}else if(c=='"'){quotes=!quotes}else if(c==","&&!quotes){row.push(field);field=""}else if((c=="\n"||c=="\r")&&!quotes){if(field||row.length){row.push(field);rows.push(row);row=[];field=""}if(c=="\r"&&n=="\n")i++}else field+=c}if(field||row.length){row.push(field);rows.push(row)}return rows}
 function teamCodeFromCsv(v){const s=norm(v);const found=statusRows.find(r=>norm(r.teamCode)===s||norm(r.teamName)===s);return found?found.teamCode:selectedCode}
 function runCsvCheck(){const file=document.getElementById("csvFile").files[0];if(!file){document.getElementById("csvResults").innerHTML="Please upload a CSV first.";return}const reader=new FileReader();reader.onload=()=>compareCsv(reader.result);reader.readAsText(file)}
-function compareCsv(text){const rows=parseCsv(text);if(rows.length<2){document.getElementById("csvResults").innerHTML="CSV has no data.";return}const headers=rows[0].map(h=>h.trim().toLowerCase());const idx={name:headers.indexOf("name"),team:headers.indexOf("team name"),position:headers.indexOf("position"),status:headers.indexOf("status")};if(idx.name<0){document.getElementById("csvResults").innerHTML="CSV must have a Name column.";return}let found=0,missing=0,mismatch=0;const output=[];rows.slice(1).forEach(r=>{const name=(r[idx.name]||"").trim();if(!name)return;const teamVal=idx.team>=0?(r[idx.team]||"").trim():"";const code=teamCodeFromCsv(teamVal);const roster=rosters[code]||{players:[]};const official=(roster.players||[]).find(p=>norm(p.name)===norm(name));const csvPos=idx.position>=0?(r[idx.position]||"").trim():"";const csvStatus=idx.status>=0?(r[idx.status]||"").trim():"";if(!official){missing++;output.push(`<div class="csv-row csv-missing"><b>Missing:</b> ${name} | ${code}<div class="meta">Not found on official roster.</div></div>`);return}let issues=[];if(csvPos&&norm(csvPos)!==norm(official.position))issues.push(`Position CSV ${csvPos} vs Official ${official.position}`);if(csvStatus&&normStatus(csvStatus)!==normStatus(official.status))issues.push(`Status CSV ${csvStatus} vs Official ${official.status}`);if(issues.length){mismatch++;output.push(`<div class="csv-row csv-warning"><b>Mismatch:</b> ${name} | ${code}<div class="meta">${issues.join(" | ")}</div></div>`)}else{found++;output.push(`<div class="csv-row csv-found"><b>Found:</b> ${name} | ${code}<div class="meta">Official: ${official.position} | ${official.status}</div></div>`)}});document.getElementById("csvResults").innerHTML=`<b>CSV Check Summary</b><div class="meta">Found: ${found} | Missing: ${missing} | Mismatches: ${mismatch}</div><br>${output.join("")}`}
+function compareCsv(text){
+  const rows = parseCsv(text);
+
+  if(rows.length < 2){
+    document.getElementById("csvResults").innerHTML = "CSV has no data.";
+    return;
+  }
+
+  const headers = rows[0].map(h => h.trim().toLowerCase());
+
+  const idx = {
+    name: headers.indexOf("name"),
+    team: headers.indexOf("team name"),
+    position: headers.indexOf("position"),
+    status: headers.indexOf("status")
+  };
+
+  if(idx.name < 0){
+    document.getElementById("csvResults").innerHTML = "CSV must have a Name column.";
+    return;
+  }
+
+  const csvByTeam = {};
+  const output = [];
+
+  let found = 0;
+  let missingOfficial = 0;
+  let missingCsv = 0;
+  let mismatch = 0;
+
+  rows.slice(1).forEach(r => {
+    const rawName = (r[idx.name] || "").trim();
+    if(!rawName) return;
+
+    const cleanName = rawName.replace(/\s*\([^)]*\)\s*/g, "").trim();
+
+    const teamVal = idx.team >= 0 ? (r[idx.team] || "").trim() : "";
+    const code = teamCodeFromCsv(teamVal);
+
+    const csvPos = idx.position >= 0 ? (r[idx.position] || "").trim() : "";
+    const csvStatus = idx.status >= 0 ? (r[idx.status] || "").trim() : "";
+
+    if(!csvByTeam[code]){
+      csvByTeam[code] = [];
+    }
+
+    csvByTeam[code].push({
+      name: cleanName,
+      rawName,
+      position: csvPos,
+      status: csvStatus
+    });
+  });
+
+  Object.keys(csvByTeam).forEach(code => {
+    const roster = rosters[code] || { players: [] };
+    const officialPlayers = roster.players || [];
+    const csvPlayers = csvByTeam[code];
+
+    const officialMap = new Map(
+      officialPlayers.map(p => [norm(p.name), p])
+    );
+
+    const csvMap = new Map(
+      csvPlayers.map(p => [norm(p.name), p])
+    );
+
+    csvPlayers.forEach(csvPlayer => {
+      const official = officialMap.get(norm(csvPlayer.name));
+
+      if(!official){
+        missingOfficial++;
+
+        output.push(`
+          <div class="csv-row csv-missing">
+            <b>Missing from official roster:</b> ${csvPlayer.rawName} | ${code}
+            <div class="meta">
+              This player is in your CSV but was not found on the official NFL roster.
+            </div>
+          </div>
+        `);
+
+        return;
+      }
+
+      let issues = [];
+
+      if(
+        csvPlayer.position &&
+        norm(csvPlayer.position) !== norm(official.position)
+      ){
+        issues.push(
+          `Position CSV ${csvPlayer.position} vs Official ${official.position}`
+        );
+      }
+
+      if(
+        csvPlayer.status &&
+        normStatus(csvPlayer.status) !== normStatus(official.status)
+      ){
+        issues.push(
+          `Status CSV ${csvPlayer.status} vs Official ${official.status}`
+        );
+      }
+
+      if(issues.length){
+        mismatch++;
+
+        output.push(`
+          <div class="csv-row csv-warning">
+            <b>Mismatch:</b> ${csvPlayer.rawName} | ${code}
+            <div class="meta">
+              ${issues.join(" | ")}
+            </div>
+          </div>
+        `);
+      } else {
+        found++;
+
+        output.push(`
+          <div class="csv-row csv-found">
+            <b>Found in both:</b> ${csvPlayer.rawName} | ${code}
+            <div class="meta">
+              Official: ${official.position} | ${official.status}
+            </div>
+          </div>
+        `);
+      }
+    });
+
+    officialPlayers.forEach(official => {
+      if(!csvMap.has(norm(official.name))){
+        missingCsv++;
+
+        output.push(`
+          <div class="csv-row csv-warning">
+            <b>Missing from CSV:</b> ${official.name} | ${code}
+            <div class="meta">
+              This player exists on the official NFL roster but is not in your CSV.
+              Official: ${official.position} | ${official.status}
+            </div>
+          </div>
+        `);
+      }
+    });
+  });
+
+  document.getElementById("csvResults").innerHTML = `
+    <b>CSV Reconciliation Summary</b>
+
+    <div class="meta">
+      Found in both: ${found}
+      |
+      CSV players missing from official roster: ${missingOfficial}
+      |
+      Official players missing from CSV: ${missingCsv}
+      |
+      Position/status mismatches: ${mismatch}
+    </div>
+
+    <br>
+
+    ${output.join("")}
+  `;
+}
 
 function exportCsv(){const rows=[["timestamp_gmt","teamCode","teamName","severity","type","playerName","position","oldValue","newValue"]];allChanges.forEach(c=>rows.push([gmt(c.timestamp),c.teamCode||"",c.teamName||"",c.severity||"",c.type||"",c.playerName||"",c.position||"",c.oldValue||"",c.newValue||""]));const csv=rows.map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(",")).join("\n");const blob=new Blob([csv],{type:"text/csv"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="nfl-roster-changes.csv";a.click();URL.revokeObjectURL(url)}
 
