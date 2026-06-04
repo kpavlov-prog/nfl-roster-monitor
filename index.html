@@ -42,6 +42,7 @@
   <div class="controls">
     <button onclick="loadDashboard()">Refresh dashboard</button>
     <button class="secondary" onclick="exportCsv()">Export changes CSV</button>
+    <button class="secondary" onclick="markAllChecked()">Mark All Checked</button>
     <button class="secondary" onclick="clearCheckedChanges()">Reset checked items</button>
     <select id="teamSelect" onchange="selectTeam(this.value)"></select>
     <input id="searchBox" placeholder="Search player..." oninput="renderSelectedTeam()" />
@@ -97,6 +98,19 @@ function saveChecked(items){localStorage.setItem("checkedChanges",JSON.stringify
 function changeId(c){return [c.timestamp,c.teamCode,c.type,c.playerName,c.oldValue,c.newValue].join("|")}
 function isChecked(c){return getChecked().includes(changeId(c))}
 function markChecked(id){const items=new Set(getChecked());items.add(id);saveChecked([...items]);renderSummary();renderChangePanels();renderTeams()}
+function markAllChecked(){
+
+    const ids = allChanges.map(c => changeId(c));
+
+    localStorage.setItem(
+        "checkedChanges",
+        JSON.stringify(ids)
+    );
+
+    renderSummary();
+    renderChangePanels();
+    renderTeams();
+}
 function clearCheckedChanges(){localStorage.removeItem("checkedChanges");renderSummary();renderChangePanels();renderTeams()}
 
 function setStatus(msg){document.getElementById("status").textContent=msg}
