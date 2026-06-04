@@ -157,7 +157,10 @@ function teamCodeFromCsv(v){const s=norm(v);const found=statusRows.find(r=>norm(
 function runCsvCheck(){const file=document.getElementById("csvFile").files[0];if(!file){document.getElementById("csvResults").innerHTML="Please upload a CSV first.";return}const reader=new FileReader();reader.onload=()=>compareCsv(reader.result);reader.readAsText(file)}
 function compareCsv(text){
   const rows = parseCsv(text);
-
+  const missingOfficialRows = [];
+  const missingCsvRows = [];
+  const mismatchRows = [];
+  const foundRows = [];
   if(rows.length < 2){
     document.getElementById("csvResults").innerHTML = "CSV has no data.";
     return;
