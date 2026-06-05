@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-06-05T17:03:21.315547+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Steelers",
+    "type": "added",
+    "playerName": "Jamin Davis",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-05T17:03:21.315565+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Steelers",
+    "type": "added",
+    "playerName": "Robert Tonyan",
+    "position": "TE",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-05T17:03:21.315575+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Steelers",
+    "type": "removed",
+    "playerName": "Chamon Metayer",
+    "position": "TE",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-03T20:29:08.931644+00:00",
     "teamCode": "PIT",
     "teamName": "Pittsburgh Steelers",

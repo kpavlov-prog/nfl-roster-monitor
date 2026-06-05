@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-06-05T17:02:44.779125+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Texans",
+    "type": "status changed",
+    "playerName": "Keylan Rutledge",
+    "position": "G",
+    "oldValue": "UDF",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-05T17:02:44.779141+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Texans",
+    "type": "added",
+    "playerName": "Louis Hansen",
+    "position": "TE",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-05T17:02:44.779157+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Texans",
+    "type": "removed",
+    "playerName": "Jalen Walthall",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-03T20:28:27.850562+00:00",
     "teamCode": "HOU",
     "teamName": "Houston Texans",

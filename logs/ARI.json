@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-05T17:02:12.933833+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Cardinals",
+    "type": "added",
+    "playerName": "Isaiah Oliver",
+    "position": "FS",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-05T17:02:12.933950+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Cardinals",
+    "type": "removed",
+    "playerName": "Joshua Karty",
+    "position": "K",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-03T20:27:56.046768+00:00",
     "teamCode": "ARI",
     "teamName": "Arizona Cardinals",
