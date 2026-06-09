@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-06-09T17:14:09.099182+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "added",
+    "playerName": "Jalen Walthall",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-09T17:14:09.099203+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "removed",
+    "playerName": "Gus Hartwig",
+    "position": "C",
+    "oldValue": "PUP",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-06-09T17:14:09.099211+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "removed",
+    "playerName": "Quentin Skinner",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-05T17:03:16.472914+00:00",
     "teamCode": "NYJ",
     "teamName": "New York Jets",

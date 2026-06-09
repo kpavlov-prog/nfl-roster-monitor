@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-09T17:13:11.740849+00:00",
+    "teamCode": "CAR",
+    "teamName": "Carolina Panthers",
+    "type": "added",
+    "playerName": "Malick Meiga",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-09T17:13:11.740959+00:00",
+    "teamCode": "CAR",
+    "teamName": "Carolina Panthers",
+    "type": "removed",
+    "playerName": "Heinrich Haarberg",
+    "position": "TE",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-03T20:28:05.332011+00:00",
     "teamCode": "CAR",
     "teamName": "Carolina Panthers",
