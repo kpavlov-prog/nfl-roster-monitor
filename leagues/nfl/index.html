@@ -1,1 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sports Roster Monitor</title>
 
+<style>
+:root{
+  --bg:#071225;
+  --card:#ffffff;
+  --text:#111827;
+  --muted:#64748b;
+  --blue:#2563eb;
+  --purple:#7c3aed;
+  --green:#16a34a;
+  --orange:#ea580c;
+  --ice:#0891b2;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  min-height:100vh;
+  font-family:Arial,sans-serif;
+  color:white;
+  background:
+    radial-gradient(circle at top left,rgba(37,99,235,.30),transparent 32%),
+    radial-gradient(circle at top right,rgba(124,58,237,.24),transparent 30%),
+    var(--bg);
+}
+
+.container{
+  max-width:1250px;
+  margin:0 auto;
+  padding:46px 24px 60px;
+}
+
+.header{
+  margin-bottom:34px;
+}
+
+.badge{
+  display:inline-block;
+  padding:7px 12px;
+  border-radius:999px;
+  background:rgba(255,255,255,.10);
+  color:#dbeafe;
+  font-size:13px;
+  font-weight:800;
+  margin-bottom:14px;
+}
+
+h1{
+  font-size:56px;
+  line-height:1;
+  margin:0;
+  letter-spacing:-.05em;
+}
+
+.subtitle{
+  max-width:780px;
+  margin-top:16px;
+  color:#cbd5e1;
+  font-size:17px;
+  line-height:1.5;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+  margin-top:30px;
+}
+
+.card{
+  background:white;
+  color:var(--text);
+  border-radius:24px;
+  padding:24px;
+  min-height:270px;
+  box-shadow:0 18px 40px rgba(0,0,0,.25);
+  border:2px solid transparent;
+  text-decoration:none;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  transition:.16s ease;
+  position:relative;
+  overflow:hidden;
+}
+
+.card:hover{
+  transform:translateY(-4px);
+  border-color:#7c3aed;
+}
+
+.card:before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:7px;
+  background:linear-gradient(90deg,var(--blue),var(--purple));
+}
+
+.icon{
+  font-size:46px;
+  margin-bottom:18px;
+}
+
+.card h2{
+  margin:0;
+  font-size:26px;
+}
+
+.card p{
+  color:var(--muted);
+  line-height:1.45;
+  font-size:14px;
+}
+
+.leagues{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-top:16px;
+}
+
+.pill{
+  padding:6px 9px;
+  border-radius:999px;
+  font-size:12px;
+  font-weight:900;
+  background:#eef2ff;
+  color:#3730a3;
+}
+
+.open{
+  margin-top:20px;
+  font-weight:900;
+  color:#2563eb;
+}
+
+.footer{
+  margin-top:34px;
+  color:#94a3b8;
+  font-size:13px;
+}
+
+@media(max-width:1050px){
+  .grid{grid-template-columns:repeat(2,1fr)}
+}
+
+@media(max-width:650px){
+  h1{font-size:40px}
+  .grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+  <div class="header">
+    <div class="badge">Roster Monitoring Hub</div>
+    <h1>Sports Roster Monitor</h1>
+    <div class="subtitle">
+      Central dashboard for official roster monitoring, change history, and CSV reconciliation across major sports.
+    </div>
+  </div>
+
+  <div class="grid">
+
+    <a class="card" href="leagues/nfl/">
+      <div>
+        <div class="icon">🏈</div>
+        <h2>Football</h2>
+        <p>
+          Monitor official NFL roster changes, player movement, statuses, and team-level history.
+        </p>
+        <div class="leagues">
+          <span class="pill">NFL</span>
+        </div>
+      </div>
+      <div class="open">Open Football Monitor →</div>
+    </a>
+
+    <a class="card" href="leagues/basketball/">
+      <div>
+        <div class="icon">🏀</div>
+        <h2>Basketball</h2>
+        <p>
+          Compare NBA and WNBA rosters against uploaded CSV lists and track official changes.
+        </p>
+        <div class="leagues">
+          <span class="pill">NBA</span>
+          <span class="pill">WNBA</span>
+        </div>
+      </div>
+      <div class="open">Open Basketball Monitor →</div>
+    </a>
+
+    <a class="card" href="leagues/baseball/">
+      <div>
+        <div class="icon">⚾</div>
+        <h2>Baseball</h2>
+        <p>
+          MLB roster monitoring with permanent logs and CSV reconciliation against official sources.
+        </p>
+        <div class="leagues">
+          <span class="pill">MLB</span>
+        </div>
+      </div>
+      <div class="open">Open Baseball Monitor →</div>
+    </a>
+
+    <a class="card" href="leagues/hockey/">
+      <div>
+        <div class="icon">🏒</div>
+        <h2>Ice Hockey</h2>
+        <p>
+          NHL roster checks, team history, player changes, and imported roster validation.
+        </p>
+        <div class="leagues">
+          <span class="pill">NHL</span>
+        </div>
+      </div>
+      <div class="open">Open Hockey Monitor →</div>
+    </a>
+
+  </div>
+
+  <div class="footer">
+    Powered by GitHub Actions, GitHub Pages, official roster sources, and permanent JSON history logs.
+  </div>
+
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NFL Roster Monitor</title>
+
+<style>
+:root{--bg:#081226;--line:#e5e7eb;--text:#111827;--muted:#64748b;--blue:#2563eb;--purple:#7c3aed;--green:#16a34a;--green-bg:#dcfce7;--red:#dc2626;--red-bg:#fee2e2;--yellow:#d97706;--yellow-bg:#fef3c7}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:radial-gradient(circle at top left,rgba(37,99,235,.28),transparent 32%),radial-gradient(circle at top right,rgba(124,58,237,.22),transparent 28%),var(--bg);color:white;min-height:100vh}
+.container{max-width:1550px;margin:0 auto;padding:28px 24px 40px}
+h1{margin:0;font-size:42px}.subtitle{margin-top:8px;color:#cbd5e1}
+.controls{margin-top:24px;display:flex;gap:12px;flex-wrap:wrap;background:rgba(255,255,255,.08);padding:14px;border-radius:18px}
+button,select,input{padding:11px 14px;border-radius:12px;border:none;font-size:14px}
+button{background:linear-gradient(135deg,var(--blue),var(--purple));color:white;font-weight:800;cursor:pointer}
+button.secondary{background:#334155}.checked-btn{background:#e2e8f0;color:#334155;padding:8px 10px;font-size:12px;margin-top:8px}
+input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbeafe;font-size:14px}
+.stats{margin-top:18px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.stat{background:white;color:var(--text);border-radius:18px;padding:18px;box-shadow:0 10px 25px rgba(0,0,0,.18);border-top:5px solid var(--purple)}
+.stat-value{font-size:34px;font-weight:900}.stat-label{margin-top:6px;color:var(--muted);font-size:13px}
+.layout{margin-top:18px;display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:start}
+.panel{background:white;color:var(--text);border-radius:20px;padding:18px;box-shadow:0 12px 30px rgba(0,0,0,.18)}
+.panel+.panel{margin-top:18px}.panel h2{margin-top:0}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.teams{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.team{border:2px solid transparent;border-radius:16px;padding:14px;background:#f8fafc;cursor:pointer}
+.team:hover{border-color:var(--blue)}.team.selected{border-color:var(--purple);background:#f5f3ff}.team.has-change{border-color:var(--yellow)}.team.has-important{border-color:var(--red)}
+.team-top{display:flex;gap:12px;align-items:center}.team-logo{width:46px;height:46px;object-fit:contain}.team-name{font-weight:900;font-size:15px}
+.team-code{margin-top:4px;display:inline-block;background:#dbeafe;color:#1d4ed8;padding:3px 8px;border-radius:999px;font-size:11px;font-weight:900}
+.meta{margin-top:8px;color:var(--muted);font-size:12px;line-height:1.45}
+.pill{display:inline-block;padding:4px 9px;border-radius:999px;font-size:11px;font-weight:900;margin-top:6px}
+.ok{background:var(--green-bg);color:var(--green)}.error{background:var(--red-bg);color:var(--red)}.warn{background:var(--yellow-bg);color:var(--yellow)}.danger{background:var(--red-bg);color:var(--red)}
+.player{padding:10px 0;border-bottom:1px solid var(--line)}.player.highlight{background:#fef3c7;margin:6px -8px;padding:10px 8px;border-radius:10px}
+.player-name{font-weight:800}.position{display:inline-block;margin-left:8px;background:#ede9fe;color:var(--purple);padding:2px 7px;border-radius:7px;font-size:12px;font-weight:900}
+.status-pill{display:inline-block;margin-left:6px;padding:2px 7px;border-radius:7px;font-size:12px;font-weight:900;background:var(--green-bg);color:var(--green)}
+.status-danger{background:var(--red-bg);color:var(--red)}.status-warning{background:var(--yellow-bg);color:var(--yellow)}
+.change-item,.csv-row{padding:12px;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;background:#f8fafc}
+.change-item{cursor:pointer}.change-item.high{background:var(--red-bg)}.change-item.medium{background:var(--yellow-bg)}
+.change-title{font-weight:900}.change-time{color:var(--muted);font-size:12px;margin-top:4px}.change-action{color:#2563eb;font-size:12px;font-weight:800;margin-top:6px}
+.filter-row{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.filter-btn{background:#e2e8f0;color:#334155;padding:8px 10px;font-size:12px}.filter-btn.active{background:linear-gradient(135deg,var(--blue),var(--purple));color:#fff}
+.history-toggle{width:100%;text-align:left;background:#f1f5f9;color:#111827;margin-top:16px}.history-box{display:none;margin-top:12px}.history-box.open{display:block}
+.history-item{padding:10px 0;border-bottom:1px solid var(--line)}.history-main{font-weight:800}.history-time{color:var(--muted);font-size:12px;margin-top:4px}
+.empty{color:var(--muted);font-style:italic}.csv-found{border-left:6px solid var(--green)}.csv-missing{border-left:6px solid var(--red)}.csv-warning{border-left:6px solid var(--yellow)}
+@media(max-width:1150px){.stats,.layout,.two-col{grid-template-columns:1fr}}
+</style>
+</head>
+
+<body>
+<div class="container">
+<h1>NFL Roster Monitor</h1>
+<div class="subtitle">Official NFL roster monitoring dashboard powered by GitHub Actions. Times shown in GMT.</div>
+
+<div class="controls">
+<button onclick="loadDashboard()">Refresh dashboard</button>
+<button class="secondary" onclick="exportCsv()">Export changes CSV</button>
+<button class="secondary" onclick="markAllChecked()">Mark All Checked</button>
+<button class="secondary" onclick="clearCheckedChanges()">Reset checked items</button>
+<select id="teamSelect" onchange="selectTeam(this.value)"></select>
+<input id="searchBox" placeholder="Search player..." oninput="renderSelectedTeam()" />
+</div>
+
+<div id="status" class="status">Loading...</div>
+
+<div class="stats">
+<div class="stat"><div id="teamsChecked" class="stat-value">-</div><div class="stat-label">Teams checked</div></div>
+<div class="stat"><div id="teamsOk" class="stat-value">-</div><div class="stat-label">Teams OK</div></div>
+<div class="stat"><div id="teamsErrored" class="stat-value">-</div><div class="stat-label">Teams errored</div></div>
+<div class="stat"><div id="totalChanges" class="stat-value">-</div><div class="stat-label">Unchecked changes</div></div>
+</div>
+
+<div class="layout">
+<div>
+<div class="two-col">
+<div class="panel"><h2>Important Changes</h2><div id="importantChanges" class="empty">No important changes logged yet.</div></div>
+<div class="panel"><h2>Last 24h Changes</h2><div id="last24Changes" class="empty">No changes in the last 24 hours.</div></div>
+</div>
+
+<div class="panel"><h2>Latest Changes Detected</h2><div id="latestChanges" class="empty">No roster changes logged yet.</div></div>
+
+<div class="panel">
+<h2>CSV Roster Check</h2>
+<div class="meta">Upload CSV with columns: <b>Name</b>, <b>Team name</b>, <b>Position</b>, <b>Status</b>. Other columns are ignored.</div><br>
+<input type="file" id="csvFile" accept=".csv" />
+<button onclick="runCsvCheck()">Run CSV Check</button>
+<div id="csvResults" class="meta" style="margin-top:14px;">No CSV checked yet.</div>
+</div>
+
+<div class="panel"><h2>Teams</h2><div id="teams" class="teams"></div></div>
+</div>
+
+<div class="panel"><h2 id="selectedTitle">Selected Team</h2><div id="selectedTeam">Select a team.</div></div>
+</div>
+</div>
+
+<script>
+const LOGOS={ARI:"https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",ATL:"https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",BAL:"https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",BUF:"https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",CAR:"https://a.espncdn.com/i/teamlogos/nfl/500/car.png",CHI:"https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",CIN:"https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",CLE:"https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",DAL:"https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",DEN:"https://a.espncdn.com/i/teamlogos/nfl/500/den.png",DET:"https://a.espncdn.com/i/teamlogos/nfl/500/det.png",GB:"https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",HOU:"https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",IND:"https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",JAX:"https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",KC:"https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",LV:"https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",LAC:"https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",LAR:"https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",MIA:"https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",MIN:"https://a.espncdn.com/i/teamlogos/nfl/500/min.png",NE:"https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",NO:"https://a.espncdn.com/i/teamlogos/nfl/500/no.png",NYG:"https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",NYJ:"https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",PHI:"https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",PIT:"https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",SF:"https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",SEA:"https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",TB:"https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",TEN:"https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",WAS:"https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png"};
+
+let summary={},statusRows=[],rosters={},allChanges=[],selectedCode="BUF",highlightedPlayer="",historyFilter="all",historyOpen=false;
+
+function getChecked(){return JSON.parse(localStorage.getItem("checkedChanges")||"[]")}
+function saveChecked(items){localStorage.setItem("checkedChanges",JSON.stringify(items))}
+function changeId(c){return [c.timestamp,c.teamCode,c.type,c.playerName,c.oldValue,c.newValue].join("|")}
+function isChecked(c){return getChecked().includes(changeId(c))}
+function markChecked(id){const items=new Set(getChecked());items.add(id);saveChecked([...items]);renderSummary();renderChangePanels();renderTeams()}
+function markAllChecked(){saveChecked(allChanges.map(c=>changeId(c)));renderSummary();renderChangePanels();renderTeams()}
+function clearCheckedChanges(){localStorage.removeItem("checkedChanges");renderSummary();renderChangePanels();renderTeams()}
+
+function setStatus(msg){document.getElementById("status").textContent=msg}
+async function fetchJson(path){const res=await fetch(path+"?v="+Date.now());if(!res.ok)throw new Error(path+" failed");return await res.json()}
+function gmt(value){if(!value)return"-";try{return new Date(value).toLocaleString('en-GB',{timeZone:'UTC',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit'})+" GMT"}catch(e){return value}}
+
+function norm(v){
+  return String(v || "")
+    .replace(/\s*\([^)]*\)\s*/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "");
+}
+
+function normStatus(v){
+  const s=norm(v);
+  if(["active","act"].includes(s))return"act";
+  if(["injuredreserve","injuredreserved","ir"].includes(s))return"ir";
+  if(["practice","practicesquad","ps"].includes(s))return"ps";
+  if(["reserved","reserve","res"].includes(s))return"res";
+  if(["suspended","sus"].includes(s))return"sus";
+  if(["physicallyunabletoperform","pup"].includes(s))return"pup";
+  if(["nonfootballinjury","nfi"].includes(s))return"nfi";
+  if(["unrestrictedfreeagent","ufa"].includes(s))return"ufa";
+  if(["restrictedfreeagent","rfa"].includes(s))return"rfa";
+  return s;
+}
+
+function timeAgo(value){if(!value)return"unknown time ago";const diff=Date.now()-new Date(value).getTime(),mins=Math.floor(diff/60000),hours=Math.floor(mins/60),days=Math.floor(hours/24);if(days>0)return days+(days===1?" day ago":" days ago");if(hours>0)return hours+(hours===1?" hour ago":" hours ago");if(mins>0)return mins+(mins===1?" minute ago":" minutes ago");return"just now"}
+function changeSentence(c){const n=c.playerName||"Unknown player",t=String(c.type||"change").toLowerCase(),o=c.oldValue||"",ne=c.newValue||"";if(t==="added")return`${n} joined the team ${timeAgo(c.timestamp)}`;if(t==="removed")return`${n} left the team ${timeAgo(c.timestamp)}`;if(t==="status changed")return`${n} status changed ${o} → ${ne} ${timeAgo(c.timestamp)}`;return`${n}: ${c.type||'Roster change'} ${timeAgo(c.timestamp)}`}
+function severityClass(c){return c.severity==="high"?"high":c.severity==="medium"?"medium":""}
+function isImportant(c){const pos=String(c.position||"").toUpperCase(),type=String(c.type||"").toLowerCase(),txt=(type+" "+(c.oldValue||"")+" "+(c.newValue||"")).toLowerCase();return c.severity==="high"||["QB","RB","WR","TE","K"].includes(pos)&&(type==="removed"||type==="status changed")||/ir|pup|nfi|sus|res|out|inj/.test(txt)}
+function isLast24(c){return Date.now()-new Date(c.timestamp).getTime()<=24*60*60*1000}
+function visibleChanges(){return allChanges.filter(c=>!isChecked(c))}
+
+async function loadDashboard(){try{setStatus("Loading dashboard...");summary=await fetchJson("data/summary.json");statusRows=await fetchJson("data/status.json");try{allChanges=await fetchJson("logs/all_changes.json")}catch(e){allChanges=[]}rosters={};for(const row of statusRows){try{rosters[row.teamCode]=await fetchJson(`data/latest/${row.teamCode}.json`)}catch(e){rosters[row.teamCode]={players:[],errors:[e.message]}}}renderSummary();renderTeamOptions();renderChangePanels();renderTeams();renderSelectedTeam();setStatus("Last update: "+gmt(summary.lastRunFinished))}catch(e){setStatus("Dashboard error: "+e.message)}}
+
+function renderSummary(){document.getElementById("teamsChecked").textContent=summary.teamsChecked||0;document.getElementById("teamsOk").textContent=summary.teamsOk||0;document.getElementById("teamsErrored").textContent=summary.teamsErrored||0;document.getElementById("totalChanges").textContent=visibleChanges().length}
+function renderTeamOptions(){document.getElementById("teamSelect").innerHTML=statusRows.map(r=>`<option value="${r.teamCode}">${r.teamName}</option>`).join("");document.getElementById("teamSelect").value=selectedCode}
+function selectTeam(code){selectedCode=code;document.getElementById("teamSelect").value=code;highlightedPlayer="";historyFilter="all";renderTeams();renderSelectedTeam()}
+function openChange(teamCode,playerName){selectedCode=teamCode;highlightedPlayer=playerName||"";document.getElementById("searchBox").value=playerName||"";document.getElementById("teamSelect").value=teamCode;renderTeams();renderSelectedTeam();document.getElementById("selectedTitle").scrollIntoView({behavior:"smooth",block:"start"})}
+function changeHtml(c){const safeName=String(c.playerName||"").replace(/'/g,"\\'"),id=changeId(c).replace(/"/g,"&quot;");return`<div class="change-item ${severityClass(c)}"><div onclick="openChange('${c.teamCode}','${safeName}')"><div class="change-title">${c.teamName||c.teamCode}: ${changeSentence(c)}</div><div class="change-time">${gmt(c.timestamp)} | ${String(c.severity||'low').toUpperCase()}</div><div class="change-action">Open team and player →</div></div><button class="checked-btn" onclick="markChecked('${id}')">Checked ✓</button></div>`}
+function renderChangePanels(){const changes=visibleChanges();document.getElementById("latestChanges").innerHTML=changes.length?changes.slice(0,20).map(changeHtml).join(""):`<div class="empty">No unchecked roster changes.</div>`;const important=changes.filter(isImportant);document.getElementById("importantChanges").innerHTML=important.length?important.slice(0,20).map(changeHtml).join(""):`<div class="empty">No unchecked important changes.</div>`;const recent=changes.filter(isLast24);document.getElementById("last24Changes").innerHTML=recent.length?recent.slice(0,20).map(changeHtml).join(""):`<div class="empty">No unchecked changes in the last 24 hours.</div>`}
+
+function teamChanges(code){return allChanges.filter(c=>c.teamCode===code)}
+function teamUnchecked(code){return visibleChanges().filter(c=>c.teamCode===code)}
+function renderTeams(){document.getElementById("teams").innerHTML=statusRows.map(r=>{const roster=rosters[r.teamCode]||{},errors=roster.errors||[],changes=teamChanges(r.teamCode),unchecked=teamUnchecked(r.teamCode),recent=changes[0],important=unchecked.some(isImportant);return`<div class="team ${selectedCode===r.teamCode?'selected':''} ${unchecked.length?'has-change':''} ${important?'has-important':''}" onclick="selectTeam('${r.teamCode}')"><div class="team-top"><img src="${LOGOS[r.teamCode]}" class="team-logo"><div><div class="team-name">${r.teamName}</div><div class="team-code">${r.teamCode}</div></div></div><div class="meta">Players: ${(roster.players||[]).length}</div><div class="meta">Checked: ${gmt(r.checkedAt)}</div><div class="meta">Last movement: ${recent?timeAgo(recent.timestamp):'none logged'}</div><div class="meta">Unchecked changes: ${unchecked.length}</div><div class="pill ${errors.length?'error':important?'danger':unchecked.length?'warn':'ok'}">${errors.length?'Source issue':important?'Important unchecked':unchecked.length?'Needs review':'Official OK'}</div></div>`}).join("")}
+
+function statusClass(status){const s=String(status||"").toUpperCase();if(["IR","PUP","NFI","SUS","RES"].includes(s))return"status-danger";if(["UFA","RFA","UDF"].includes(s))return"status-warning";return""}
+function setHistoryFilter(filter){historyFilter=filter;renderSelectedTeam()}
+function toggleHistory(){historyOpen=!historyOpen;renderSelectedTeam()}
+function historyMatches(c){const t=String(c.type||"").toLowerCase();if(historyFilter==="all")return true;if(historyFilter==="joined")return t==="added";if(historyFilter==="left")return t==="removed";if(historyFilter==="status")return t==="status changed";return true}
+async function renderSelectedTeam(){const roster=rosters[selectedCode];if(!roster)return;let history=[];try{history=await fetchJson(`logs/${selectedCode}.json`)}catch(e){history=[]}const filteredHistory=history.filter(historyMatches),q=document.getElementById("searchBox").value.trim().toLowerCase(),players=(roster.players||[]).filter(p=>!q||String(p.name||"").toLowerCase().includes(q));document.getElementById("selectedTitle").innerHTML=`<img src="${LOGOS[selectedCode]}" class="team-logo" style="vertical-align:middle;margin-right:10px;">${roster.team||selectedCode}`;document.getElementById("selectedTeam").innerHTML=`<div class="meta">Source: ${roster.source||'NFL.com official roster'}</div><div class="meta">Players shown: ${players.length}</div><div class="meta">Last checked: ${gmt(roster.checkedAt)}</div><hr><h3>Roster</h3>${players.length?players.map(p=>`<div class="player ${highlightedPlayer&&p.name===highlightedPlayer?'highlight':''}"><span class="player-name">${p.name}</span><span class="position">${p.position||'?'}</span><span class="status-pill ${statusClass(p.status)}">${p.status||''}</span></div>`).join(""):`<div class="empty">No players found.</div>`}<button class="history-toggle" onclick="toggleHistory()">${historyOpen?'▲ Hide':'▼ Show'} Team History (${history.length})</button><div class="history-box ${historyOpen?'open':''}"><div class="filter-row"><button class="filter-btn ${historyFilter==='all'?'active':''}" onclick="setHistoryFilter('all')">All</button><button class="filter-btn ${historyFilter==='joined'?'active':''}" onclick="setHistoryFilter('joined')">Joined</button><button class="filter-btn ${historyFilter==='left'?'active':''}" onclick="setHistoryFilter('left')">Left</button><button class="filter-btn ${historyFilter==='status'?'active':''}" onclick="setHistoryFilter('status')">Status Changed</button></div>${filteredHistory.length?filteredHistory.slice(0,80).map(h=>`<div class="history-item"><div class="history-main">${changeSentence(h)}</div><div class="history-time">${gmt(h.timestamp)} | ${String(h.severity||'low').toUpperCase()}</div></div>`).join(""):`<div class="empty">No roster changes logged yet for this filter.</div>`}</div>`}
+
+function parseCsv(text){const rows=[];let row=[],field="",quotes=false;for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];if(c=='"'&&quotes&&n=='"'){field+='"';i++}else if(c=='"'){quotes=!quotes}else if(c==","&&!quotes){row.push(field);field=""}else if((c=="\n"||c=="\r")&&!quotes){if(field||row.length){row.push(field);rows.push(row);row=[];field=""}if(c=="\r"&&n=="\n")i++}else field+=c}if(field||row.length){row.push(field);rows.push(row)}return rows}
+function teamCodeFromCsv(v){const s=norm(v);const found=statusRows.find(r=>norm(r.teamCode)===s||norm(r.teamName)===s);return found?found.teamCode:selectedCode}
+function runCsvCheck(){const file=document.getElementById("csvFile").files[0];if(!file){document.getElementById("csvResults").innerHTML="Please upload a CSV first.";return}const reader=new FileReader();reader.onload=()=>compareCsv(reader.result);reader.readAsText(file)}
+
+function compareCsv(text){
+  const rows=parseCsv(text);
+
+  if(rows.length<2){
+    document.getElementById("csvResults").innerHTML="CSV has no data.";
+    return;
+  }
+
+  const headers=rows[0].map(h=>h.trim().toLowerCase());
+  const idx={
+    name:headers.indexOf("name"),
+    team:headers.indexOf("team name"),
+    position:headers.indexOf("position"),
+    status:headers.indexOf("status")
+  };
+
+  if(idx.name<0){
+    document.getElementById("csvResults").innerHTML="CSV must have a Name column.";
+    return;
+  }
+
+  const csvByTeam={};
+  const missingOfficialRows=[];
+  const missingCsvRows=[];
+  const mismatchRows=[];
+  const foundRows=[];
+
+  let found=0,missingOfficial=0,missingCsv=0,mismatch=0;
+
+  rows.slice(1).forEach(r=>{
+    const rawName=(r[idx.name]||"").trim();
+    if(!rawName)return;
+
+    const cleanName=rawName.replace(/\s*\([^)]*\)\s*/g,"").trim();
+    const teamVal=idx.team>=0?(r[idx.team]||"").trim():"";
+    const code=teamCodeFromCsv(teamVal);
+    const csvPos=idx.position>=0?(r[idx.position]||"").trim():"";
+    const csvStatus=idx.status>=0?(r[idx.status]||"").trim():"";
+
+    if(!csvByTeam[code])csvByTeam[code]=[];
+
+    csvByTeam[code].push({
+      name:cleanName,
+      rawName:rawName,
+      position:csvPos,
+      status:csvStatus
+    });
+  });
+
+  Object.keys(csvByTeam).forEach(code=>{
+    const roster=rosters[code]||{players:[]};
+    const officialPlayers=roster.players||[];
+    const csvPlayers=csvByTeam[code];
+
+    const officialMap=new Map(officialPlayers.map(p=>[norm(p.name),p]));
+    const csvMap=new Map(csvPlayers.map(p=>[norm(p.name),p]));
+
+    csvPlayers.forEach(csvPlayer=>{
+      const official=officialMap.get(norm(csvPlayer.name));
+
+      if(!official){
+        missingOfficial++;
+        missingOfficialRows.push(`
+          <div class="csv-row csv-missing">
+            <b>Missing from official roster:</b> ${csvPlayer.rawName} | ${code}
+            <div class="meta">This player is in your CSV but was not found on the official NFL roster.</div>
+          </div>
+        `);
+        return;
+      }
+
+      const issues=[];
+
+      if(csvPlayer.position&&norm(csvPlayer.position)!==norm(official.position)){
+        issues.push(`Position CSV ${csvPlayer.position} vs Official ${official.position}`);
+      }
+
+      if(csvPlayer.status&&normStatus(csvPlayer.status)!==normStatus(official.status)){
+        issues.push(`Status CSV ${csvPlayer.status} vs Official ${official.status}`);
+      }
+
+      if(issues.length){
+        mismatch++;
+        mismatchRows.push(`
+          <div class="csv-row csv-warning">
+            <b>Mismatch:</b> ${csvPlayer.rawName} | ${code}
+            <div class="meta">${issues.join(" | ")}</div>
+          </div>
+        `);
+      }else{
+        found++;
+        foundRows.push(`
+          <div class="csv-row csv-found">
+            <b>Found in both:</b> ${csvPlayer.rawName} | ${code}
+            <div class="meta">Official: ${official.position} | ${official.status}</div>
+          </div>
+        `);
+      }
+    });
+
+    officialPlayers.forEach(official=>{
+      if(!csvMap.has(norm(official.name))){
+        missingCsv++;
+        missingCsvRows.push(`
+          <div class="csv-row csv-warning">
+            <b>Missing from CSV:</b> ${official.name} | ${code}
+            <div class="meta">This player exists on the official NFL roster but is not in your CSV. Official: ${official.position} | ${official.status}</div>
+          </div>
+        `);
+      }
+    });
+  });
+
+  document.getElementById("csvResults").innerHTML=`
+    <b>CSV Reconciliation Summary</b>
+    <div class="meta">
+      Found in both: ${found}
+      |
+      CSV players missing from official roster: ${missingOfficial}
+      |
+      Official players missing from CSV: ${missingCsv}
+      |
+      Position/status mismatches: ${mismatch}
+    </div>
+
+    <br>
+
+    <h3>Needs Review: In CSV but missing from official roster</h3>
+    ${missingOfficialRows.join("")||`<div class="empty">None.</div>`}
+
+    <h3>Needs Review: On official roster but missing from CSV</h3>
+    ${missingCsvRows.join("")||`<div class="empty">None.</div>`}
+
+    <h3>Position / Status Mismatches</h3>
+    ${mismatchRows.join("")||`<div class="empty">None.</div>`}
+
+    <h3>Found in both</h3>
+    ${foundRows.join("")||`<div class="empty">None.</div>`}
+  `;
+}
+
+function exportCsv(){const rows=[["timestamp_gmt","teamCode","teamName","severity","type","playerName","position","oldValue","newValue"]];allChanges.forEach(c=>rows.push([gmt(c.timestamp),c.teamCode||"",c.teamName||"",c.severity||"",c.type||"",c.playerName||"",c.position||"",c.oldValue||"",c.newValue||""]));const csv=rows.map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(",")).join("\n");const blob=new Blob([csv],{type:"text/csv"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="nfl-roster-changes.csv";a.click();URL.revokeObjectURL(url)}
+
+loadDashboard();
+setInterval(loadDashboard,24*60*60*1000);
+</script>
+</body>
+</html>
