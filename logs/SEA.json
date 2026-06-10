@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-10T18:17:32.617777+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Seahawks",
+    "type": "added",
+    "playerName": "Bobby Hart",
+    "position": "OT",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-10T18:17:32.617808+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Seahawks",
+    "type": "removed",
+    "playerName": "Levi Wentz",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-03T20:29:15.096129+00:00",
     "teamCode": "SEA",
     "teamName": "Seattle Seahawks",

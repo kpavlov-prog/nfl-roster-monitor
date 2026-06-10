@@ -3,7 +3,7 @@
   "team": "Seattle Seahawks",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/seattle-seahawks/roster",
-  "checkedAt": "2026-06-09T17:14:19.704731+00:00",
+  "checkedAt": "2026-06-10T18:17:32.617486+00:00",
   "players": [
     {
       "name": "AJ Barner",
@@ -59,6 +59,14 @@
       "number": "60",
       "status": "ACT",
       "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Bobby Hart",
+      "position": "OT",
+      "number": "77",
+      "status": "ACT",
+      "important": true,
       "source": "NFL.com"
     },
     {
@@ -433,14 +441,6 @@
       "name": "Leonard Williams",
       "position": "DE",
       "number": "99",
-      "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Levi Wentz",
-      "position": "WR",
-      "number": "83",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

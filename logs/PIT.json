@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-10T18:17:26.095751+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Steelers",
+    "type": "added",
+    "playerName": "Aidan Laros",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-10T18:17:26.095783+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Steelers",
+    "type": "removed",
+    "playerName": "Brandon Johnson",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-05T17:03:21.315547+00:00",
     "teamCode": "PIT",
     "teamName": "Pittsburgh Steelers",

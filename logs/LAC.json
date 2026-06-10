@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-10T18:17:02.387629+00:00",
+    "teamCode": "LAC",
+    "teamName": "Los Angeles Chargers",
+    "type": "status changed",
+    "playerName": "Akheem Mesidor",
+    "position": "LB",
+    "oldValue": "UDF",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-10T18:17:02.387640+00:00",
+    "teamCode": "LAC",
+    "teamName": "Los Angeles Chargers",
+    "type": "position changed",
+    "playerName": "Akheem Mesidor",
+    "position": "LB",
+    "oldValue": "DE",
+    "newValue": "LB",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-06-03T20:28:43.359384+00:00",
     "teamCode": "LAC",
     "teamName": "Los Angeles Chargers",
