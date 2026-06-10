@@ -1,1 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NBA Roster Monitor</title>
+<style>
+:root{--bg:#081226;--text:#111827;--muted:#64748b;--blue:#2563eb;--purple:#7c3aed;--yellow:#d97706;--yellow-bg:#fef3c7;--line:#e5e7eb}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:radial-gradient(circle at top left,rgba(37,99,235,.28),transparent 32%),radial-gradient(circle at top right,rgba(124,58,237,.22),transparent 28%),var(--bg);color:white;min-height:100vh}
+.container{max-width:1500px;margin:0 auto;padding:28px 24px 40px}
+.top-nav{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.nav-card{color:white;text-decoration:none;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.14);padding:10px 14px;border-radius:14px;font-weight:800}
+.nav-card.active{background:linear-gradient(135deg,var(--blue),var(--purple))}
+h1{margin:0;font-size:42px}.subtitle{margin-top:8px;color:#cbd5e1}
+.controls{margin-top:24px;display:flex;gap:12px;flex-wrap:wrap;background:rgba(255,255,255,.08);padding:14px;border-radius:18px}
+button,input,select{padding:11px 14px;border-radius:12px;border:none;font-size:14px}
+button{background:linear-gradient(135deg,var(--blue),var(--purple));color:white;font-weight:800;cursor:pointer}
+button.secondary{background:#334155}.status{margin-top:14px;color:#dbeafe;font-size:14px}
+.stats{margin-top:18px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.stat{background:white;color:var(--text);border-radius:18px;padding:18px;box-shadow:0 10px 25px rgba(0,0,0,.18);border-top:5px solid var(--purple)}
+.stat-value{font-size:34px;font-weight:900}.stat-label{margin-top:6px;color:var(--muted);font-size:13px}
+.layout{margin-top:18px;display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:start}
+.panel{background:white;color:var(--text);border-radius:20px;padding:18px;box-shadow:0 12px 30px rgba(0,0,0,.18)}
+.panel+.panel{margin-top:18px}.teams{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.team{border:2px solid transparent;border-radius:16px;padding:14px;background:#f8fafc;cursor:pointer}
+.team:hover{border-color:var(--blue)}.team.selected{border-color:var(--purple);background:#f5f3ff}
+.team-top{display:flex;align-items:center;gap:12px}.team-logo{width:46px;height:46px;object-fit:contain}
+.team-name{font-weight:900;font-size:15px}.team-code{margin-top:4px;display:inline-block;background:#dbeafe;color:#1d4ed8;padding:3px 8px;border-radius:999px;font-size:11px;font-weight:900}
+.meta{margin-top:8px;color:var(--muted);font-size:12px;line-height:1.45}
+.pill{display:inline-block;padding:4px 9px;border-radius:999px;font-size:11px;font-weight:900;margin-top:6px}
+.warn{background:var(--yellow-bg);color:var(--yellow)}
+.csv-row{padding:12px;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;background:#f8fafc;border-left:6px solid var(--yellow)}
+.empty{color:var(--muted);font-style:italic}
+@media(max-width:1050px){.stats,.layout{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="container">
 
+<div class="top-nav">
+  <a class="nav-card" href="../../">Sports Hub</a>
+  <a class="nav-card" href="../../leagues/nfl/">Football</a>
+  <a class="nav-card active" href="./">Basketball</a>
+  <a class="nav-card" href="../../leagues/mlb/">Baseball</a>
+  <a class="nav-card" href="../../leagues/nhl/">Ice Hockey</a>
+  <a class="nav-card" href="../../leagues/wnba/">WNBA</a>
+</div>
+
+<h1>NBA Roster Monitor</h1>
+<div class="subtitle">Basketball roster monitoring dashboard. NBA data connection will be added next.</div>
+
+<div class="controls">
+  <button onclick="loadDashboard()">Refresh dashboard</button>
+  <button class="secondary" onclick="exportCsv()">Export CSV Check</button>
+  <select id="teamSelect" onchange="selectTeam(this.value)"></select>
+  <input id="searchBox" placeholder="Search player..." oninput="renderSelectedTeam()" />
+</div>
+
+<div id="status" class="status">NBA page loaded. Data source not connected yet.</div>
+
+<div class="stats">
+  <div class="stat"><div class="stat-value">30</div><div class="stat-label">NBA teams</div></div>
+  <div class="stat"><div class="stat-value">0</div><div class="stat-label">Teams connected</div></div>
+  <div class="stat"><div class="stat-value">0</div><div class="stat-label">Source issues</div></div>
+  <div class="stat"><div class="stat-value">0</div><div class="stat-label">Logged changes</div></div>
+</div>
+
+<div class="layout">
+  <div>
+    <div class="panel">
+      <h2>NBA CSV Roster Check</h2>
+      <div class="meta">Upload CSV with columns: <b>Name</b>, <b>Team name</b>, <b>Position</b>, <b>Status</b>. Other columns are ignored.</div><br>
+      <input type="file" id="csvFile" accept=".csv" />
+      <button onclick="runCsvCheck()">Run CSV Check</button>
+      <div id="csvResults" class="meta" style="margin-top:14px;">No CSV checked yet.</div>
+    </div>
+
+    <div class="panel">
+      <h2>NBA Teams</h2>
+      <div id="teams" class="teams"></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2 id="selectedTitle">Selected Team</h2>
+    <div id="selectedTeam">Select a team. Player roster data will appear here once NBA source is connected.</div>
+  </div>
+</div>
+
+</div>
+
+<script>
+const TEAMS=[
+{code:"ATL",name:"Atlanta Hawks",logo:"https://a.espncdn.com/i/teamlogos/nba/500/atl.png"},
+{code:"BOS",name:"Boston Celtics",logo:"https://a.espncdn.com/i/teamlogos/nba/500/bos.png"},
+{code:"BKN",name:"Brooklyn Nets",logo:"https://a.espncdn.com/i/teamlogos/nba/500/bkn.png"},
+{code:"CHA",name:"Charlotte Hornets",logo:"https://a.espncdn.com/i/teamlogos/nba/500/cha.png"},
+{code:"CHI",name:"Chicago Bulls",logo:"https://a.espncdn.com/i/teamlogos/nba/500/chi.png"},
+{code:"CLE",name:"Cleveland Cavaliers",logo:"https://a.espncdn.com/i/teamlogos/nba/500/cle.png"},
+{code:"DAL",name:"Dallas Mavericks",logo:"https://a.espncdn.com/i/teamlogos/nba/500/dal.png"},
+{code:"DEN",name:"Denver Nuggets",logo:"https://a.espncdn.com/i/teamlogos/nba/500/den.png"},
+{code:"DET",name:"Detroit Pistons",logo:"https://a.espncdn.com/i/teamlogos/nba/500/det.png"},
+{code:"GSW",name:"Golden State Warriors",logo:"https://a.espncdn.com/i/teamlogos/nba/500/gs.png"},
+{code:"HOU",name:"Houston Rockets",logo:"https://a.espncdn.com/i/teamlogos/nba/500/hou.png"},
+{code:"IND",name:"Indiana Pacers",logo:"https://a.espncdn.com/i/teamlogos/nba/500/ind.png"},
+{code:"LAC",name:"LA Clippers",logo:"https://a.espncdn.com/i/teamlogos/nba/500/lac.png"},
+{code:"LAL",name:"Los Angeles Lakers",logo:"https://a.espncdn.com/i/teamlogos/nba/500/lal.png"},
+{code:"MEM",name:"Memphis Grizzlies",logo:"https://a.espncdn.com/i/teamlogos/nba/500/mem.png"},
+{code:"MIA",name:"Miami Heat",logo:"https://a.espncdn.com/i/teamlogos/nba/500/mia.png"},
+{code:"MIL",name:"Milwaukee Bucks",logo:"https://a.espncdn.com/i/teamlogos/nba/500/mil.png"},
+{code:"MIN",name:"Minnesota Timberwolves",logo:"https://a.espncdn.com/i/teamlogos/nba/500/min.png"},
+{code:"NOP",name:"New Orleans Pelicans",logo:"https://a.espncdn.com/i/teamlogos/nba/500/no.png"},
+{code:"NYK",name:"New York Knicks",logo:"https://a.espncdn.com/i/teamlogos/nba/500/ny.png"},
+{code:"OKC",name:"Oklahoma City Thunder",logo:"https://a.espncdn.com/i/teamlogos/nba/500/okc.png"},
+{code:"ORL",name:"Orlando Magic",logo:"https://a.espncdn.com/i/teamlogos/nba/500/orl.png"},
+{code:"PHI",name:"Philadelphia 76ers",logo:"https://a.espncdn.com/i/teamlogos/nba/500/phi.png"},
+{code:"PHX",name:"Phoenix Suns",logo:"https://a.espncdn.com/i/teamlogos/nba/500/phx.png"},
+{code:"POR",name:"Portland Trail Blazers",logo:"https://a.espncdn.com/i/teamlogos/nba/500/por.png"},
+{code:"SAC",name:"Sacramento Kings",logo:"https://a.espncdn.com/i/teamlogos/nba/500/sac.png"},
+{code:"SAS",name:"San Antonio Spurs",logo:"https://a.espncdn.com/i/teamlogos/nba/500/sa.png"},
+{code:"TOR",name:"Toronto Raptors",logo:"https://a.espncdn.com/i/teamlogos/nba/500/tor.png"},
+{code:"UTA",name:"Utah Jazz",logo:"https://a.espncdn.com/i/teamlogos/nba/500/utah.png"},
+{code:"WAS",name:"Washington Wizards",logo:"https://a.espncdn.com/i/teamlogos/nba/500/wsh.png"}
+];
+
+let selectedCode="BOS";
+
+function loadDashboard(){renderTeamOptions();renderTeams();renderSelectedTeam();document.getElementById("status").textContent="NBA dashboard ready. Roster source is not connected yet."}
+function renderTeamOptions(){document.getElementById("teamSelect").innerHTML=TEAMS.map(t=>`<option value="${t.code}">${t.name}</option>`).join("");document.getElementById("teamSelect").value=selectedCode}
+function selectTeam(code){selectedCode=code;document.getElementById("teamSelect").value=code;renderTeams();renderSelectedTeam()}
+function renderTeams(){document.getElementById("teams").innerHTML=TEAMS.map(t=>`<div class="team ${selectedCode===t.code?"selected":""}" onclick="selectTeam('${t.code}')"><div class="team-top"><img src="${t.logo}" class="team-logo"><div><div class="team-name">${t.name}</div><div class="team-code">${t.code}</div></div></div><div class="meta">Players: source not connected</div><div class="meta">Last checked: not available</div><div class="pill warn">NBA source pending</div></div>`).join("")}
+function renderSelectedTeam(){const team=TEAMS.find(t=>t.code===selectedCode);document.getElementById("selectedTitle").innerHTML=`<img src="${team.logo}" class="team-logo" style="vertical-align:middle;margin-right:10px;">${team.name}`;document.getElementById("selectedTeam").innerHTML=`<div class="meta">Team code: ${team.code}</div><div class="meta">Data status: NBA roster source not connected yet.</div><hr><h3>Roster</h3><div class="empty">Player roster will appear here after we add the NBA backend checker.</div><hr><h3>Team History</h3><div class="empty">No NBA roster changes logged yet.</div>`}
+function norm(v){return String(v||"").replace(/\s*\([^)]*\)\s*/g,"").toLowerCase().replace(/[^a-z0-9]/g,"")}
+function parseCsv(text){const rows=[];let row=[],field="",quotes=false;for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];if(c=='"'&&quotes&&n=='"'){field+='"';i++}else if(c=='"'){quotes=!quotes}else if(c==","&&!quotes){row.push(field);field=""}else if((c=="\n"||c=="\r")&&!quotes){if(field||row.length){row.push(field);rows.push(row);row=[];field=""}if(c=="\r"&&n=="\n")i++}else field+=c}if(field||row.length){row.push(field);rows.push(row)}return rows}
+function teamCodeFromCsv(value){const s=norm(value);const found=TEAMS.find(t=>norm(t.code)===s||norm(t.name)===s);return found?found.code:selectedCode}
+function runCsvCheck(){const file=document.getElementById("csvFile").files[0];if(!file){document.getElementById("csvResults").innerHTML="Please upload a CSV first.";return}const reader=new FileReader();reader.onload=()=>compareCsv(reader.result);reader.readAsText(file)}
+function compareCsv(text){const rows=parseCsv(text);if(rows.length<2){document.getElementById("csvResults").innerHTML="CSV has no data.";return}const headers=rows[0].map(h=>h.trim().toLowerCase());const idx={name:headers.indexOf("name"),team:headers.indexOf("team name"),position:headers.indexOf("position"),status:headers.indexOf("status")};if(idx.name<0){document.getElementById("csvResults").innerHTML="CSV must have a Name column.";return}let total=0;const rowsHtml=[];rows.slice(1).forEach(r=>{const raw=(r[idx.name]||"").trim();if(!raw)return;const clean=raw.replace(/\s*\([^)]*\)\s*/g,"").trim();const code=teamCodeFromCsv(idx.team>=0?(r[idx.team]||"").trim():"");const pos=idx.position>=0?(r[idx.position]||"").trim():"";const status=idx.status>=0?(r[idx.status]||"").trim():"";total++;rowsHtml.push(`<div class="csv-row"><b>${clean}</b> | ${code}<div class="meta">CSV position: ${pos||"-"} | CSV status: ${status||"-"}</div><div class="meta">NBA official roster comparison will activate after source connection.</div></div>`)});document.getElementById("csvResults").innerHTML=`<b>NBA CSV Preview</b><div class="meta">Rows read: ${total} | Official NBA comparison: pending backend source</div><br>${rowsHtml.join("")||`<div class="empty">No usable rows found.</div>`}`}
+function exportCsv(){const csv='status,message\n"pending","NBA official roster source is not connected yet"';const blob=new Blob([csv],{type:"text/csv"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="nba-roster-check-preview.csv";a.click();URL.revokeObjectURL(url)}
+loadDashboard();
+</script>
+</body>
+</html>
