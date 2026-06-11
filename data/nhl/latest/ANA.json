@@ -1,0 +1,233 @@
+{
+  "code": "ANA",
+  "team": "Anaheim Ducks",
+  "source": "NHL Web API",
+  "url": "https://api-web.nhle.com/v1/roster/ANA/current",
+  "checkedAt": "2026-06-11T11:15:56.580095+00:00",
+  "players": [
+    {
+      "name": "Alex Killorn",
+      "position": "L",
+      "number": "17",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Beckett Sennecke",
+      "position": "R",
+      "number": "45",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Chris Kreider",
+      "position": "L",
+      "number": "20",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Cutter Gauthier",
+      "position": "L",
+      "number": "61",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Damian Clara",
+      "position": "G",
+      "number": "68",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Drew Helleson",
+      "position": "D",
+      "number": "14",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Frank Vatrano",
+      "position": "R",
+      "number": "77",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ian Moore",
+      "position": "D",
+      "number": "3",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jackson LaCombe",
+      "position": "D",
+      "number": "2",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jacob Trouba",
+      "position": "D",
+      "number": "65",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jansen Harkins",
+      "position": "C",
+      "number": "24",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jeffrey Viel",
+      "position": "L",
+      "number": "28",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "John Carlson",
+      "position": "D",
+      "number": "74",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Leo Carlsson",
+      "position": "C",
+      "number": "91",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Lukas Dostal",
+      "position": "G",
+      "number": "1",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Mason McTavish",
+      "position": "C",
+      "number": "23",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Mikael Granlund",
+      "position": "C",
+      "number": "64",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Nathan Gaucher",
+      "position": "C",
+      "number": "41",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Nico Myatovic",
+      "position": "L",
+      "number": "48",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Noah Warren",
+      "position": "D",
+      "number": "47",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Olen Zellweger",
+      "position": "D",
+      "number": "51",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Pavel Mintyukov",
+      "position": "D",
+      "number": "98",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Petr Mrazek",
+      "position": "G",
+      "number": "34",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Radko Gudas",
+      "position": "D",
+      "number": "7",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ross Johnston",
+      "position": "L",
+      "number": "44",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ryan Poehling",
+      "position": "C",
+      "number": "25",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Stian Solberg",
+      "position": "D",
+      "number": "50",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Tim Washe",
+      "position": "C",
+      "number": "42",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Troy Terry",
+      "position": "R",
+      "number": "19",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Tyson Hinds",
+      "position": "D",
+      "number": "60",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ville Husso",
+      "position": "G",
+      "number": "33",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Vyacheslav Buteyets",
+      "position": "G",
+      "number": "32",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    }
+  ]
+}
