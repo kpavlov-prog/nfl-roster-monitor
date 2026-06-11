@@ -1,1 +1,41 @@
+name: NHL Roster Check
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 8 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  check-nhl-rosters:
+    runs-on: ubuntu-latest
+
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run NHL roster checker
+        run: |
+          python scripts/check_nhl_rosters.py
+
+      - name: Commit NHL data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/nhl logs/nhl
+          git diff --cached --quiet || git commit -m "Update NHL roster data"
+          git push
