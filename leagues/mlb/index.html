@@ -7,656 +7,478 @@
 
 <style>
 :root{
-  --bg:#081226;
-  --card:#ffffff;
-  --text:#111827;
-  --muted:#64748b;
-  --blue:#2563eb;
-  --purple:#7c3aed;
-  --green:#16a34a;
-  --green-bg:#dcfce7;
-  --yellow:#d97706;
-  --yellow-bg:#fef3c7;
-  --red:#dc2626;
-  --red-bg:#fee2e2;
-  --line:#e5e7eb;
+  --bg:#081226;--text:#111827;--muted:#64748b;--blue:#2563eb;--purple:#7c3aed;
+  --green:#16a34a;--green-bg:#dcfce7;--yellow:#d97706;--yellow-bg:#fef3c7;
+  --red:#dc2626;--red-bg:#fee2e2;--line:#e5e7eb;
 }
-
 *{box-sizing:border-box}
-
-body{
-  margin:0;
-  font-family:Arial,sans-serif;
-  background:
-    radial-gradient(circle at top left,rgba(37,99,235,.28),transparent 32%),
-    radial-gradient(circle at top right,rgba(124,58,237,.22),transparent 28%),
-    var(--bg);
-  color:white;
-  min-height:100vh;
-}
-
-.container{
-  max-width:1500px;
-  margin:0 auto;
-  padding:28px 24px 40px;
-}
-
-.top-nav{
-  display:flex;
-  gap:12px;
-  flex-wrap:wrap;
-  margin-bottom:22px;
-}
-
-.nav-card{
-  color:white;
-  text-decoration:none;
-  background:rgba(255,255,255,.1);
-  border:1px solid rgba(255,255,255,.14);
-  padding:10px 14px;
-  border-radius:14px;
-  font-weight:800;
-}
-
-.nav-card.active{
-  background:linear-gradient(135deg,var(--blue),var(--purple));
-}
-
-h1{
-  margin:0;
-  font-size:42px;
-  letter-spacing:-.04em;
-}
-
-.subtitle{
-  margin-top:8px;
-  color:#cbd5e1;
-}
-
-.controls{
-  margin-top:24px;
-  display:flex;
-  gap:12px;
-  flex-wrap:wrap;
-  background:rgba(255,255,255,.08);
-  padding:14px;
-  border-radius:18px;
-}
-
-button,input,select{
-  padding:11px 14px;
-  border-radius:12px;
-  border:none;
-  font-size:14px;
-}
-
-button{
-  background:linear-gradient(135deg,var(--blue),var(--purple));
-  color:white;
-  font-weight:800;
-  cursor:pointer;
-}
-
-button.secondary{
-  background:#334155;
-}
-
-.status{
-  margin-top:14px;
-  color:#dbeafe;
-  font-size:14px;
-}
-
-.stats{
-  margin-top:18px;
-  display:grid;
-  grid-template-columns:repeat(4,1fr);
-  gap:14px;
-}
-
-.stat{
-  background:white;
-  color:var(--text);
-  border-radius:18px;
-  padding:18px;
-  box-shadow:0 10px 25px rgba(0,0,0,.18);
-  border-top:5px solid var(--purple);
-}
-
-.stat-value{
-  font-size:34px;
-  font-weight:900;
-}
-
-.stat-label{
-  margin-top:6px;
-  color:var(--muted);
-  font-size:13px;
-}
-
-.layout{
-  margin-top:18px;
-  display:grid;
-  grid-template-columns:1.1fr .9fr;
-  gap:18px;
-  align-items:start;
-}
-
-.panel{
-  background:white;
-  color:var(--text);
-  border-radius:20px;
-  padding:18px;
-  box-shadow:0 12px 30px rgba(0,0,0,.18);
-}
-
-.panel + .panel{
-  margin-top:18px;
-}
-
-.panel h2{
-  margin-top:0;
-}
-
-.teams{
-  display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(230px,1fr));
-  gap:12px;
-}
-
-.team{
-  border:2px solid transparent;
-  border-radius:16px;
-  padding:14px;
-  background:#f8fafc;
-  cursor:pointer;
-}
-
-.team:hover{
-  border-color:var(--blue);
-}
-
-.team.selected{
-  border-color:var(--purple);
-  background:#f5f3ff;
-}
-
-.team-top{
-  display:flex;
-  align-items:center;
-  gap:12px;
-}
-
-.team-logo{
-  width:46px;
-  height:46px;
-  object-fit:contain;
-}
-
-.team-name{
-  font-weight:900;
-  font-size:15px;
-}
-
-.team-code{
-  margin-top:4px;
-  display:inline-block;
-  background:#dbeafe;
-  color:#1d4ed8;
-  padding:3px 8px;
-  border-radius:999px;
-  font-size:11px;
-  font-weight:900;
-}
-
-.meta{
-  margin-top:8px;
-  color:var(--muted);
-  font-size:12px;
-  line-height:1.45;
-}
-
-.pill{
-  display:inline-block;
-  padding:4px 9px;
-  border-radius:999px;
-  font-size:11px;
-  font-weight:900;
-  margin-top:6px;
-}
-
-.ok{
-  background:var(--green-bg);
-  color:var(--green);
-}
-
-.warn{
-  background:var(--yellow-bg);
-  color:var(--yellow);
-}
-
-.error{
-  background:var(--red-bg);
-  color:var(--red);
-}
-
-.csv-row{
-  padding:12px;
-  border:1px solid var(--line);
-  border-radius:14px;
-  margin-bottom:10px;
-  background:#f8fafc;
-}
-
-.csv-found{
-  border-left:6px solid var(--green);
-}
-
-.csv-missing{
-  border-left:6px solid var(--red);
-}
-
-.csv-warning{
-  border-left:6px solid var(--yellow);
-}
-
-.empty{
-  color:var(--muted);
-  font-style:italic;
-}
-
-@media(max-width:1050px){
-  .stats,.layout{
-    grid-template-columns:1fr;
-  }
-}
+body{margin:0;font-family:Arial,sans-serif;background:radial-gradient(circle at top left,rgba(37,99,235,.28),transparent 32%),radial-gradient(circle at top right,rgba(124,58,237,.22),transparent 28%),var(--bg);color:white;min-height:100vh}
+.container{max-width:1500px;margin:0 auto;padding:28px 24px 40px}
+.top-nav{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.nav-card{color:white;text-decoration:none;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.14);padding:10px 14px;border-radius:14px;font-weight:800}
+.nav-card.active{background:linear-gradient(135deg,var(--blue),var(--purple))}
+h1{margin:0;font-size:42px}.subtitle{margin-top:8px;color:#cbd5e1}
+.controls{margin-top:24px;display:flex;gap:12px;flex-wrap:wrap;background:rgba(255,255,255,.08);padding:14px;border-radius:18px}
+button,input,select{padding:11px 14px;border-radius:12px;border:none;font-size:14px}
+button{background:linear-gradient(135deg,var(--blue),var(--purple));color:white;font-weight:800;cursor:pointer}
+button.secondary{background:#334155}
+.status{margin-top:14px;color:#dbeafe;font-size:14px}
+.stats{margin-top:18px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.stat{background:white;color:var(--text);border-radius:18px;padding:18px;box-shadow:0 10px 25px rgba(0,0,0,.18);border-top:5px solid var(--purple)}
+.stat-value{font-size:34px;font-weight:900}.stat-label{margin-top:6px;color:var(--muted);font-size:13px}
+.layout{margin-top:18px;display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:start}
+.panel{background:white;color:var(--text);border-radius:20px;padding:18px;box-shadow:0 12px 30px rgba(0,0,0,.18)}
+.panel+.panel{margin-top:18px}.teams{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.team{border:2px solid transparent;border-radius:16px;padding:14px;background:#f8fafc;cursor:pointer}
+.team:hover{border-color:var(--blue)}.team.selected{border-color:var(--purple);background:#f5f3ff}
+.team.has-change{border-color:var(--yellow)}
+.team-top{display:flex;align-items:center;gap:12px}.team-logo{width:46px;height:46px;object-fit:contain}
+.team-name{font-weight:900;font-size:15px}.team-code{margin-top:4px;display:inline-block;background:#dbeafe;color:#1d4ed8;padding:3px 8px;border-radius:999px;font-size:11px;font-weight:900}
+.meta{margin-top:8px;color:var(--muted);font-size:12px;line-height:1.45}
+.pill{display:inline-block;padding:4px 9px;border-radius:999px;font-size:11px;font-weight:900;margin-top:6px}
+.ok{background:var(--green-bg);color:var(--green)}.warn{background:var(--yellow-bg);color:var(--yellow)}.error{background:var(--red-bg);color:var(--red)}
+.player{padding:10px 0;border-bottom:1px solid var(--line)}
+.player-name{font-weight:800}.position{display:inline-block;margin-left:8px;background:#ede9fe;color:var(--purple);padding:2px 7px;border-radius:7px;font-size:12px;font-weight:900}
+.status-pill{display:inline-block;margin-left:6px;padding:2px 7px;border-radius:7px;font-size:12px;font-weight:900;background:var(--green-bg);color:var(--green)}
+.csv-row,.change-item{padding:12px;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;background:#f8fafc}
+.csv-found{border-left:6px solid var(--green)}.csv-missing{border-left:6px solid var(--red)}.csv-warning{border-left:6px solid var(--yellow)}
+.empty{color:var(--muted);font-style:italic}
+@media(max-width:1050px){.stats,.layout{grid-template-columns:1fr}}
 </style>
 </head>
 
 <body>
-
 <div class="container">
 
-  <div class="top-nav">
-    <a class="nav-card" href="../../">Sports Hub</a>
-    <a class="nav-card" href="../../leagues/nfl/">Football</a>
-    <a class="nav-card" href="../../leagues/nba/">Basketball</a>
-    <a class="nav-card active" href="./">Baseball</a>
-    <a class="nav-card" href="../../leagues/nhl/">Ice Hockey</a>
-  </div>
+<div class="top-nav">
+  <a class="nav-card" href="../../">Sports Hub</a>
+  <a class="nav-card" href="../../leagues/nfl/">Football</a>
+  <a class="nav-card" href="../../leagues/nba/">Basketball</a>
+  <a class="nav-card active" href="./">Baseball</a>
+  <a class="nav-card" href="../../leagues/nhl/">Ice Hockey</a>
+  <a class="nav-card" href="../../leagues/wnba/">WNBA</a>
+</div>
 
-  <h1>MLB Roster Monitor</h1>
+<h1>MLB Roster Monitor</h1>
+<div class="subtitle">Official MLB roster monitoring dashboard powered by GitHub Actions. Times shown in GMT.</div>
 
-  <div class="subtitle">
-    Baseball roster monitoring dashboard. MLB data connection will be added next.
-  </div>
+<div class="controls">
+  <button onclick="loadDashboard()">Refresh dashboard</button>
+  <button class="secondary" onclick="exportCsv()">Export changes CSV</button>
+  <select id="teamSelect" onchange="selectTeam(this.value)"></select>
+  <input id="searchBox" placeholder="Search player..." oninput="renderSelectedTeam()" />
+</div>
 
-  <div class="controls">
-    <button onclick="loadDashboard()">Refresh dashboard</button>
-    <button class="secondary" onclick="exportCsv()">Export CSV Check</button>
+<div id="status" class="status">Loading MLB dashboard...</div>
 
-    <select id="teamSelect" onchange="selectTeam(this.value)">
-    </select>
+<div class="stats">
+  <div class="stat"><div id="teamsChecked" class="stat-value">-</div><div class="stat-label">Teams checked</div></div>
+  <div class="stat"><div id="teamsOk" class="stat-value">-</div><div class="stat-label">Teams OK</div></div>
+  <div class="stat"><div id="teamsErrored" class="stat-value">-</div><div class="stat-label">Teams errored</div></div>
+  <div class="stat"><div id="totalChanges" class="stat-value">-</div><div class="stat-label">Logged changes</div></div>
+</div>
 
-    <input
-      id="searchBox"
-      placeholder="Search player..."
-      oninput="renderSelectedTeam()"
-    />
-  </div>
-
-  <div id="status" class="status">
-    MLB page loaded. Data source not connected yet.
-  </div>
-
-  <div class="stats">
-    <div class="stat">
-      <div id="teamsChecked" class="stat-value">30</div>
-      <div class="stat-label">MLB teams</div>
-    </div>
-
-    <div class="stat">
-      <div id="teamsOk" class="stat-value">0</div>
-      <div class="stat-label">Teams connected</div>
-    </div>
-
-    <div class="stat">
-      <div id="teamsErrored" class="stat-value">0</div>
-      <div class="stat-label">Source issues</div>
-    </div>
-
-    <div class="stat">
-      <div id="totalChanges" class="stat-value">0</div>
-      <div class="stat-label">Logged changes</div>
-    </div>
-  </div>
-
-  <div class="layout">
-
-    <div>
-
-      <div class="panel">
-        <h2>MLB CSV Roster Check</h2>
-
-        <div class="meta">
-          Upload CSV with columns:
-          <b>Name</b>, <b>Team name</b>, <b>Position</b>, <b>Status</b>.
-          Other columns are ignored.
-        </div>
-
-        <br>
-
-        <input type="file" id="csvFile" accept=".csv" />
-        <button onclick="runCsvCheck()">Run CSV Check</button>
-
-        <div id="csvResults" class="meta" style="margin-top:14px;">
-          No CSV checked yet.
-        </div>
-      </div>
-
-      <div class="panel">
-        <h2>MLB Teams</h2>
-        <div id="teams" class="teams"></div>
-      </div>
-
+<div class="layout">
+  <div>
+    <div class="panel">
+      <h2>Latest MLB Changes</h2>
+      <div id="latestChanges" class="empty">No MLB changes logged yet.</div>
     </div>
 
     <div class="panel">
-      <h2 id="selectedTitle">Selected Team</h2>
-      <div id="selectedTeam">
-        Select a team. Player roster data will appear here once MLB source is connected.
+      <h2>MLB CSV Roster Check</h2>
+      <div class="meta">
+        Upload CSV with columns: <b>Name</b>, <b>Team name</b>, <b>Position</b>, <b>Status</b>.
+        Other columns are ignored.
       </div>
+      <br>
+      <input type="file" id="csvFile" accept=".csv" />
+      <button onclick="runCsvCheck()">Run CSV Check</button>
+      <div id="csvResults" class="meta" style="margin-top:14px;">No CSV checked yet.</div>
     </div>
 
+    <div class="panel">
+      <h2>MLB Teams</h2>
+      <div id="teams" class="teams"></div>
+    </div>
   </div>
+
+  <div class="panel">
+    <h2 id="selectedTitle">Selected Team</h2>
+    <div id="selectedTeam">Select a team.</div>
+  </div>
+</div>
 
 </div>
 
 <script>
-const TEAMS = [
-  {code:"ARI", name:"Arizona Diamondbacks", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/ari.png"},
-  {code:"ATL", name:"Atlanta Braves", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/atl.png"},
-  {code:"BAL", name:"Baltimore Orioles", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/bal.png"},
-  {code:"BOS", name:"Boston Red Sox", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/bos.png"},
-  {code:"CHC", name:"Chicago Cubs", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/chc.png"},
-  {code:"CHW", name:"Chicago White Sox", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/chw.png"},
-  {code:"CIN", name:"Cincinnati Reds", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/cin.png"},
-  {code:"CLE", name:"Cleveland Guardians", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/cle.png"},
-  {code:"COL", name:"Colorado Rockies", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/col.png"},
-  {code:"DET", name:"Detroit Tigers", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/det.png"},
-  {code:"HOU", name:"Houston Astros", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/hou.png"},
-  {code:"KC", name:"Kansas City Royals", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/kc.png"},
-  {code:"LAA", name:"Los Angeles Angels", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/laa.png"},
-  {code:"LAD", name:"Los Angeles Dodgers", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/lad.png"},
-  {code:"MIA", name:"Miami Marlins", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/mia.png"},
-  {code:"MIL", name:"Milwaukee Brewers", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/mil.png"},
-  {code:"MIN", name:"Minnesota Twins", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/min.png"},
-  {code:"NYM", name:"New York Mets", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/nym.png"},
-  {code:"NYY", name:"New York Yankees", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/nyy.png"},
-  {code:"ATH", name:"Athletics", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/ath.png"},
-  {code:"PHI", name:"Philadelphia Phillies", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/phi.png"},
-  {code:"PIT", name:"Pittsburgh Pirates", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/pit.png"},
-  {code:"SD", name:"San Diego Padres", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/sd.png"},
-  {code:"SF", name:"San Francisco Giants", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/sf.png"},
-  {code:"SEA", name:"Seattle Mariners", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/sea.png"},
-  {code:"STL", name:"St. Louis Cardinals", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/stl.png"},
-  {code:"TB", name:"Tampa Bay Rays", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/tb.png"},
-  {code:"TEX", name:"Texas Rangers", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/tex.png"},
-  {code:"TOR", name:"Toronto Blue Jays", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/tor.png"},
-  {code:"WSH", name:"Washington Nationals", logo:"https://a.espncdn.com/i/teamlogos/mlb/500/wsh.png"}
-];
+const LOGOS={
+ARI:"https://a.espncdn.com/i/teamlogos/mlb/500/ari.png",ATL:"https://a.espncdn.com/i/teamlogos/mlb/500/atl.png",BAL:"https://a.espncdn.com/i/teamlogos/mlb/500/bal.png",BOS:"https://a.espncdn.com/i/teamlogos/mlb/500/bos.png",CHC:"https://a.espncdn.com/i/teamlogos/mlb/500/chc.png",CHW:"https://a.espncdn.com/i/teamlogos/mlb/500/chw.png",CIN:"https://a.espncdn.com/i/teamlogos/mlb/500/cin.png",CLE:"https://a.espncdn.com/i/teamlogos/mlb/500/cle.png",COL:"https://a.espncdn.com/i/teamlogos/mlb/500/col.png",DET:"https://a.espncdn.com/i/teamlogos/mlb/500/det.png",HOU:"https://a.espncdn.com/i/teamlogos/mlb/500/hou.png",KC:"https://a.espncdn.com/i/teamlogos/mlb/500/kc.png",LAA:"https://a.espncdn.com/i/teamlogos/mlb/500/laa.png",LAD:"https://a.espncdn.com/i/teamlogos/mlb/500/lad.png",MIA:"https://a.espncdn.com/i/teamlogos/mlb/500/mia.png",MIL:"https://a.espncdn.com/i/teamlogos/mlb/500/mil.png",MIN:"https://a.espncdn.com/i/teamlogos/mlb/500/min.png",NYM:"https://a.espncdn.com/i/teamlogos/mlb/500/nym.png",NYY:"https://a.espncdn.com/i/teamlogos/mlb/500/nyy.png",ATH:"https://a.espncdn.com/i/teamlogos/mlb/500/ath.png",PHI:"https://a.espncdn.com/i/teamlogos/mlb/500/phi.png",PIT:"https://a.espncdn.com/i/teamlogos/mlb/500/pit.png",SD:"https://a.espncdn.com/i/teamlogos/mlb/500/sd.png",SF:"https://a.espncdn.com/i/teamlogos/mlb/500/sf.png",SEA:"https://a.espncdn.com/i/teamlogos/mlb/500/sea.png",STL:"https://a.espncdn.com/i/teamlogos/mlb/500/stl.png",TB:"https://a.espncdn.com/i/teamlogos/mlb/500/tb.png",TEX:"https://a.espncdn.com/i/teamlogos/mlb/500/tex.png",TOR:"https://a.espncdn.com/i/teamlogos/mlb/500/tor.png",WSH:"https://a.espncdn.com/i/teamlogos/mlb/500/wsh.png"
+};
 
-let selectedCode = "NYY";
-let csvLastResults = [];
+let summary={},statusRows=[],rosters={},allChanges=[],selectedCode="NYY";
 
-function loadDashboard(){
-  renderTeamOptions();
-  renderTeams();
-  renderSelectedTeam();
-  document.getElementById("status").textContent =
-    "MLB dashboard ready. Roster source is not connected yet.";
+async function fetchJson(path){
+  const res=await fetch(path+"?v="+Date.now());
+  if(!res.ok)throw new Error(path+" failed");
+  return await res.json();
 }
 
-function renderTeamOptions(){
-  document.getElementById("teamSelect").innerHTML =
-    TEAMS.map(t => `
-      <option value="${t.code}">
-        ${t.name}
-      </option>
-    `).join("");
-
-  document.getElementById("teamSelect").value = selectedCode;
-}
-
-function selectTeam(code){
-  selectedCode = code;
-  document.getElementById("teamSelect").value = code;
-  renderTeams();
-  renderSelectedTeam();
-}
-
-function renderTeams(){
-  document.getElementById("teams").innerHTML =
-    TEAMS.map(t => `
-      <div
-        class="team ${selectedCode === t.code ? "selected" : ""}"
-        onclick="selectTeam('${t.code}')"
-      >
-        <div class="team-top">
-          <img src="${t.logo}" class="team-logo">
-          <div>
-            <div class="team-name">${t.name}</div>
-            <div class="team-code">${t.code}</div>
-          </div>
-        </div>
-
-        <div class="meta">Players: source not connected</div>
-        <div class="meta">Last checked: not available</div>
-
-        <div class="pill warn">
-          MLB source pending
-        </div>
-      </div>
-    `).join("");
-}
-
-function renderSelectedTeam(){
-  const team = TEAMS.find(t => t.code === selectedCode);
-
-  document.getElementById("selectedTitle").innerHTML =
-    `
-      <img
-        src="${team.logo}"
-        class="team-logo"
-        style="vertical-align:middle;margin-right:10px;"
-      >
-      ${team.name}
-    `;
-
-  document.getElementById("selectedTeam").innerHTML =
-    `
-      <div class="meta">
-        Team code: ${team.code}
-      </div>
-
-      <div class="meta">
-        Data status: MLB roster source not connected yet.
-      </div>
-
-      <hr>
-
-      <h3>Roster</h3>
-
-      <div class="empty">
-        Player roster will appear here after we add the MLB backend checker.
-      </div>
-
-      <hr>
-
-      <h3>Team History</h3>
-
-      <div class="empty">
-        No MLB roster changes logged yet.
-      </div>
-    `;
+function gmt(value){
+  if(!value)return"-";
+  return new Date(value).toLocaleString("en-GB",{timeZone:"UTC",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit"})+" GMT";
 }
 
 function norm(v){
-  return String(v || "")
-    .replace(/\s*\([^)]*\)\s*/g, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]/g, "");
+  return String(v||"").replace(/\s*\([^)]*\)\s*/g,"").toLowerCase().replace(/[^a-z0-9]/g,"");
+}
+
+function normStatus(v){
+  const s=norm(v);
+  if(["a","active","act"].includes(s))return"a";
+  if(["il","injuredlist","injured"].includes(s))return"il";
+  return s;
+}
+
+async function loadDashboard(){
+  try{
+    document.getElementById("status").textContent="Loading MLB dashboard...";
+
+    summary=await fetchJson("../../data/mlb/summary.json");
+    statusRows=await fetchJson("../../data/mlb/status.json");
+
+    try{
+      allChanges=await fetchJson("../../logs/mlb/all_changes.json");
+    }catch(e){
+      allChanges=[];
+    }
+
+    rosters={};
+
+    for(const row of statusRows){
+      try{
+        rosters[row.teamCode]=await fetchJson(`../../data/mlb/latest/${row.teamCode}.json`);
+      }catch(e){
+        rosters[row.teamCode]={players:[],errors:[e.message]};
+      }
+    }
+
+    renderSummary();
+    renderTeamOptions();
+    renderChanges();
+    renderTeams();
+    renderSelectedTeam();
+
+    document.getElementById("status").textContent="Last update: "+gmt(summary.lastRunFinished);
+  }catch(e){
+    document.getElementById("status").textContent="MLB dashboard error: "+e.message;
+  }
+}
+
+function renderSummary(){
+  document.getElementById("teamsChecked").textContent=summary.teamsChecked||0;
+  document.getElementById("teamsOk").textContent=summary.teamsOk||0;
+  document.getElementById("teamsErrored").textContent=summary.teamsErrored||0;
+  document.getElementById("totalChanges").textContent=allChanges.length||0;
+}
+
+function renderTeamOptions(){
+  document.getElementById("teamSelect").innerHTML=statusRows.map(r=>`<option value="${r.teamCode}">${r.teamName}</option>`).join("");
+  document.getElementById("teamSelect").value=selectedCode;
+}
+
+function selectTeam(code){
+  selectedCode=code;
+  document.getElementById("teamSelect").value=code;
+  renderTeams();
+  renderSelectedTeam();
+}
+
+function renderChanges(){
+  const box=document.getElementById("latestChanges");
+
+  if(!allChanges.length){
+    box.innerHTML=`<div class="empty">No MLB roster changes logged yet.</div>`;
+    return;
+  }
+
+  box.innerHTML=allChanges.slice(0,20).map(c=>`
+    <div class="change-item">
+      <b>${c.teamName||c.teamCode}: ${c.playerName}</b>
+      <div class="meta">${c.type} | ${c.oldValue||"-"} → ${c.newValue||"-"}</div>
+      <div class="meta">${gmt(c.timestamp)} | ${String(c.severity||"low").toUpperCase()}</div>
+    </div>
+  `).join("");
+}
+
+function renderTeams(){
+  document.getElementById("teams").innerHTML=statusRows.map(r=>{
+    const roster=rosters[r.teamCode]||{players:[]};
+    const hasError=!!r.lastError;
+    const hasChange=(r.lastChangeCount||0)>0;
+
+    return `
+      <div class="team ${selectedCode===r.teamCode?"selected":""} ${hasChange?"has-change":""}" onclick="selectTeam('${r.teamCode}')">
+        <div class="team-top">
+          <img src="${LOGOS[r.teamCode]||""}" class="team-logo">
+          <div>
+            <div class="team-name">${r.teamName}</div>
+            <div class="team-code">${r.teamCode}</div>
+          </div>
+        </div>
+        <div class="meta">Players: ${(roster.players||[]).length}</div>
+        <div class="meta">Checked: ${gmt(r.checkedAt)}</div>
+        <div class="meta">Last run changes: ${r.lastChangeCount||0}</div>
+        <div class="pill ${hasError?"error":hasChange?"warn":"ok"}">${hasError?"Source issue":hasChange?"Changes found":"Official OK"}</div>
+      </div>
+    `;
+  }).join("");
+}
+
+function statusLabel(status){
+  if(status==="A")return"ACTIVE";
+  return status||"-";
+}
+
+function renderSelectedTeam(){
+  const roster=rosters[selectedCode];
+
+  if(!roster){
+    document.getElementById("selectedTeam").innerHTML="Select a team.";
+    return;
+  }
+
+  const q=document.getElementById("searchBox").value.trim().toLowerCase();
+
+  const players=(roster.players||[]).filter(p=>
+    !q || String(p.name||"").toLowerCase().includes(q)
+  );
+
+  document.getElementById("selectedTitle").innerHTML=`
+    <img src="${LOGOS[selectedCode]||""}" class="team-logo" style="vertical-align:middle;margin-right:10px;">
+    ${roster.team||selectedCode}
+  `;
+
+  document.getElementById("selectedTeam").innerHTML=`
+    <div class="meta">Source: ${roster.source||"MLB Stats API"}</div>
+    <div class="meta">Roster type: ${roster.rosterType||"active"}</div>
+    <div class="meta">Players shown: ${players.length}</div>
+    <div class="meta">Last checked: ${gmt(roster.checkedAt)}</div>
+    <hr>
+    <h3>Roster</h3>
+    ${
+      players.length
+      ? players.map(p=>`
+        <div class="player">
+          <span class="player-name">${p.name}</span>
+          <span class="position">#${p.number||"-"}</span>
+          <span class="position">${p.position||"?"}</span>
+          <span class="status-pill">${statusLabel(p.status)}</span>
+        </div>
+      `).join("")
+      : `<div class="empty">No players found.</div>`
+    }
+  `;
 }
 
 function parseCsv(text){
-  const rows = [];
-  let row = [];
-  let field = "";
-  let quotes = false;
-
+  const rows=[];let row=[],field="",quotes=false;
   for(let i=0;i<text.length;i++){
-    const c = text[i];
-    const n = text[i+1];
-
-    if(c === '"' && quotes && n === '"'){
-      field += '"';
-      i++;
-    } else if(c === '"'){
-      quotes = !quotes;
-    } else if(c === "," && !quotes){
-      row.push(field);
-      field = "";
-    } else if((c === "\n" || c === "\r") && !quotes){
-      if(field || row.length){
-        row.push(field);
-        rows.push(row);
-        row = [];
-        field = "";
-      }
-      if(c === "\r" && n === "\n") i++;
-    } else {
-      field += c;
-    }
+    const c=text[i],n=text[i+1];
+    if(c=='"'&&quotes&&n=='"'){field+='"';i++}
+    else if(c=='"'){quotes=!quotes}
+    else if(c==","&&!quotes){row.push(field);field=""}
+    else if((c=="\n"||c=="\r")&&!quotes){
+      if(field||row.length){row.push(field);rows.push(row);row=[];field=""}
+      if(c=="\r"&&n=="\n")i++;
+    }else field+=c;
   }
-
-  if(field || row.length){
-    row.push(field);
-    rows.push(row);
-  }
-
+  if(field||row.length){row.push(field);rows.push(row)}
   return rows;
 }
 
 function teamCodeFromCsv(value){
-  const s = norm(value);
-  const found = TEAMS.find(t =>
-    norm(t.code) === s ||
-    norm(t.name) === s
-  );
-
-  return found ? found.code : selectedCode;
+  const s=norm(value);
+  const found=statusRows.find(r=>norm(r.teamCode)===s||norm(r.teamName)===s);
+  return found?found.teamCode:selectedCode;
 }
 
 function runCsvCheck(){
-  const file = document.getElementById("csvFile").files[0];
+  const file=document.getElementById("csvFile").files[0];
 
   if(!file){
-    document.getElementById("csvResults").innerHTML =
-      "Please upload a CSV first.";
+    document.getElementById("csvResults").innerHTML="Please upload a CSV first.";
     return;
   }
 
-  const reader = new FileReader();
-
-  reader.onload = () => compareCsv(reader.result);
-
+  const reader=new FileReader();
+  reader.onload=()=>compareCsv(reader.result);
   reader.readAsText(file);
 }
 
 function compareCsv(text){
-  const rows = parseCsv(text);
+  const rows=parseCsv(text);
 
-  if(rows.length < 2){
-    document.getElementById("csvResults").innerHTML =
-      "CSV has no data.";
+  if(rows.length<2){
+    document.getElementById("csvResults").innerHTML="CSV has no data.";
     return;
   }
 
-  const headers = rows[0].map(h => h.trim().toLowerCase());
+  const headers=rows[0].map(h=>h.trim().toLowerCase());
 
-  const idx = {
-    name: headers.indexOf("name"),
-    team: headers.indexOf("team name"),
-    position: headers.indexOf("position"),
-    status: headers.indexOf("status")
+  const idx={
+    name:headers.indexOf("name"),
+    team:headers.indexOf("team name"),
+    position:headers.indexOf("position"),
+    status:headers.indexOf("status")
   };
 
-  if(idx.name < 0){
-    document.getElementById("csvResults").innerHTML =
-      "CSV must have a Name column.";
+  if(idx.name<0){
+    document.getElementById("csvResults").innerHTML="CSV must have a Name column.";
     return;
   }
 
-  const rowsHtml = [];
-  let total = 0;
+  const csvByTeam={};
+  const missingOfficialRows=[];
+  const missingCsvRows=[];
+  const mismatchRows=[];
+  const foundRows=[];
 
-  rows.slice(1).forEach(r => {
-    const rawName = (r[idx.name] || "").trim();
+  let found=0,missingOfficial=0,missingCsv=0,mismatch=0;
 
-    if(!rawName) return;
+  rows.slice(1).forEach(r=>{
+    const rawName=(r[idx.name]||"").trim();
+    if(!rawName)return;
 
-    const cleanName = rawName.replace(/\s*\([^)]*\)\s*/g, "").trim();
-    const teamValue = idx.team >= 0 ? (r[idx.team] || "").trim() : "";
-    const code = teamCodeFromCsv(teamValue);
-    const position = idx.position >= 0 ? (r[idx.position] || "").trim() : "";
-    const status = idx.status >= 0 ? (r[idx.status] || "").trim() : "";
+    const cleanName=rawName.replace(/\s*\([^)]*\)\s*/g,"").trim();
+    const teamVal=idx.team>=0?(r[idx.team]||"").trim():"";
+    const code=teamCodeFromCsv(teamVal);
+    const csvPos=idx.position>=0?(r[idx.position]||"").trim():"";
+    const csvStatus=idx.status>=0?(r[idx.status]||"").trim():"";
 
-    total++;
+    if(!csvByTeam[code])csvByTeam[code]=[];
 
-    rowsHtml.push(`
-      <div class="csv-row csv-warning">
-        <b>${cleanName}</b> | ${code}
-        <div class="meta">
-          CSV position: ${position || "-"}
-          |
-          CSV status: ${status || "-"}
-        </div>
-        <div class="meta">
-          MLB official roster comparison will activate after source connection.
-        </div>
-      </div>
-    `);
+    csvByTeam[code].push({
+      name:cleanName,
+      rawName,
+      position:csvPos,
+      status:csvStatus
+    });
   });
 
-  csvLastResults = rowsHtml;
+  Object.keys(csvByTeam).forEach(code=>{
+    const roster=rosters[code]||{players:[]};
+    const officialPlayers=roster.players||[];
+    const csvPlayers=csvByTeam[code];
 
-  document.getElementById("csvResults").innerHTML =
-    `
-      <b>MLB CSV Preview</b>
+    const officialMap=new Map(officialPlayers.map(p=>[norm(p.name),p]));
+    const csvMap=new Map(csvPlayers.map(p=>[norm(p.name),p]));
 
-      <div class="meta">
-        Rows read: ${total}
-        |
-        Official MLB comparison: pending backend source
-      </div>
+    csvPlayers.forEach(csvPlayer=>{
+      const official=officialMap.get(norm(csvPlayer.name));
 
-      <br>
+      if(!official){
+        missingOfficial++;
+        missingOfficialRows.push(`
+          <div class="csv-row csv-missing">
+            <b>Missing from official roster:</b> ${csvPlayer.rawName} | ${code}
+            <div class="meta">This player is in your CSV but was not found on the official MLB roster.</div>
+          </div>
+        `);
+        return;
+      }
 
-      ${rowsHtml.join("") || `<div class="empty">No usable rows found.</div>`}
-    `;
+      const issues=[];
+
+      if(csvPlayer.position&&norm(csvPlayer.position)!==norm(official.position)){
+        issues.push(`Position CSV ${csvPlayer.position} vs Official ${official.position}`);
+      }
+
+      if(csvPlayer.status&&normStatus(csvPlayer.status)!==normStatus(official.status)){
+        issues.push(`Status CSV ${csvPlayer.status} vs Official ${statusLabel(official.status)}`);
+      }
+
+      if(issues.length){
+        mismatch++;
+        mismatchRows.push(`
+          <div class="csv-row csv-warning">
+            <b>Mismatch:</b> ${csvPlayer.rawName} | ${code}
+            <div class="meta">${issues.join(" | ")}</div>
+          </div>
+        `);
+      }else{
+        found++;
+        foundRows.push(`
+          <div class="csv-row csv-found">
+            <b>Found in both:</b> ${csvPlayer.rawName} | ${code}
+            <div class="meta">Official: ${official.position} | ${statusLabel(official.status)}</div>
+          </div>
+        `);
+      }
+    });
+
+    officialPlayers.forEach(official=>{
+      if(!csvMap.has(norm(official.name))){
+        missingCsv++;
+        missingCsvRows.push(`
+          <div class="csv-row csv-warning">
+            <b>Missing from CSV:</b> ${official.name} | ${code}
+            <div class="meta">Official: #${official.number||"-"} | ${official.position} | ${statusLabel(official.status)}</div>
+          </div>
+        `);
+      }
+    });
+  });
+
+  document.getElementById("csvResults").innerHTML=`
+    <b>MLB CSV Reconciliation Summary</b>
+    <div class="meta">
+      Found in both: ${found}
+      |
+      CSV players missing from official roster: ${missingOfficial}
+      |
+      Official players missing from CSV: ${missingCsv}
+      |
+      Position/status mismatches: ${mismatch}
+    </div>
+    <br>
+
+    <h3>Needs Review: In CSV but missing from official roster</h3>
+    ${missingOfficialRows.join("")||`<div class="empty">None.</div>`}
+
+    <h3>Needs Review: On official roster but missing from CSV</h3>
+    ${missingCsvRows.join("")||`<div class="empty">None.</div>`}
+
+    <h3>Position / Status Mismatches</h3>
+    ${mismatchRows.join("")||`<div class="empty">None.</div>`}
+
+    <h3>Found in both</h3>
+    ${foundRows.join("")||`<div class="empty">None.</div>`}
+  `;
 }
 
 function exportCsv(){
-  const csv =
-    "status,message\n" +
-    `"pending","MLB official roster source is not connected yet"`;
+  const rows=[["timestamp_gmt","teamCode","teamName","severity","type","playerName","position","oldValue","newValue"]];
 
-  const blob = new Blob([csv], {type:"text/csv"});
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
+  allChanges.forEach(c=>rows.push([
+    gmt(c.timestamp),
+    c.teamCode||"",
+    c.teamName||"",
+    c.severity||"",
+    c.type||"",
+    c.playerName||"",
+    c.position||"",
+    c.oldValue||"",
+    c.newValue||""
+  ]));
 
-  a.href = url;
-  a.download = "mlb-roster-check-preview.csv";
+  const csv=rows.map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(",")).join("\n");
+  const blob=new Blob([csv],{type:"text/csv"});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement("a");
+
+  a.href=url;
+  a.download="mlb-roster-changes.csv";
   a.click();
 
   URL.revokeObjectURL(url);
