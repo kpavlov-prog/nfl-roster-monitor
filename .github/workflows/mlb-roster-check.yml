@@ -1,1 +1,41 @@
+name: MLB Roster Check
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 8 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  check-mlb-rosters:
+    runs-on: ubuntu-latest
+
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run MLB roster checker
+        run: |
+          python scripts/check_mlb_rosters.py
+
+      - name: Commit MLB data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/mlb logs/mlb
+          git diff --cached --quiet || git commit -m "Update MLB roster data"
+          git push
