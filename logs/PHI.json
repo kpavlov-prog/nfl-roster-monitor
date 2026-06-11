@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-06-11T09:17:56.710947+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "number changed",
+    "playerName": "Eli Stowers",
+    "position": "TE",
+    "oldValue": "76",
+    "newValue": "87",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-11T09:17:56.710959+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "number changed",
+    "playerName": "Elijah Mitchell",
+    "position": "RB",
+    "oldValue": "70",
+    "newValue": "38",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-11T09:17:56.710975+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "added",
+    "playerName": "Mike Jordan",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-11T09:17:56.710986+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "removed",
+    "playerName": "Chandler Martin",
+    "position": "LB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-11T09:17:56.710992+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "removed",
+    "playerName": "Isiah King",
+    "position": "LB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-09T17:14:11.736285+00:00",
     "teamCode": "PHI",
     "teamName": "Philadelphia Eagles",

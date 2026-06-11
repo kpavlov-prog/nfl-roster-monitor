@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-06-11T09:17:33.123972+00:00",
+    "teamCode": "LV",
+    "teamName": "Las Vegas Raiders",
+    "type": "number changed",
+    "playerName": "Benito Jones",
+    "position": "DT",
+    "oldValue": "73",
+    "newValue": "94",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-11T09:17:33.123985+00:00",
+    "teamCode": "LV",
+    "teamName": "Las Vegas Raiders",
+    "type": "added",
+    "playerName": "Brandon Johnson",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-11T09:17:33.123993+00:00",
+    "teamCode": "LV",
+    "teamName": "Las Vegas Raiders",
+    "type": "number changed",
+    "playerName": "Cameron McGrone",
+    "position": "LB",
+    "oldValue": "73",
+    "newValue": "57",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-11T09:17:33.124000+00:00",
+    "teamCode": "LV",
+    "teamName": "Las Vegas Raiders",
+    "type": "status changed",
+    "playerName": "Corey Rucker",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-06-11T09:17:33.124008+00:00",
+    "teamCode": "LV",
+    "teamName": "Las Vegas Raiders",
+    "type": "number changed",
+    "playerName": "Eric Stokes",
+    "position": "CB",
+    "oldValue": "72",
+    "newValue": "5",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-06-03T20:28:40.344209+00:00",
     "teamCode": "LV",
     "teamName": "Las Vegas Raiders",
