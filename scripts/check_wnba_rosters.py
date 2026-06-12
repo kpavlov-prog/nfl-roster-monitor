@@ -16,7 +16,7 @@ LOGS = ROOT / "logs" / "wnba"
 TEAMS = [
     {"code": "ATL", "name": "Atlanta Dream"},
     {"code": "CHI", "name": "Chicago Sky"},
-    {"code": "CONN", "name": "Connecticut Sun"},
+    {"code": "CON", "name": "Connecticut Sun"},
     {"code": "DAL", "name": "Dallas Wings"},
     {"code": "GS", "name": "Golden State Valkyries"},
     {"code": "IND", "name": "Indiana Fever"},
