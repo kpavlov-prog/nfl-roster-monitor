@@ -416,7 +416,7 @@ function compareCsv(text){
 
       const issues=[];
 
-      if(csvPlayer.position&&norm(csvPlayer.position)!==norm(official.position)){
+      if(csvPlayer.position&&normPosition(csvPlayer.position)!==normPosition(official.position)){
         issues.push(`Position CSV ${csvPlayer.position} vs Official ${official.position}`);
       }
 
