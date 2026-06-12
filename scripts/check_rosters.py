@@ -8,10 +8,10 @@ import requests
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "data"
+DATA = ROOT / "data" / "nfl"
 LATEST = DATA / "latest"
 STATE = DATA / "state"
-LOGS = ROOT / "logs"
+LOGS = ROOT / "logs" / "nfl"
 
 TEAMS = [
     ("ARI", "Arizona Cardinals", "arizona-cardinals"),
