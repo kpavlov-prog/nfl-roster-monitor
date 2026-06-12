@@ -1,1 +1,44 @@
+name: WNBA Roster Check
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 9 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  check-wnba-rosters:
+    runs-on: ubuntu-latest
+
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run WNBA roster checker
+        run: |
+          python scripts/check_wnba_rosters.py
+
+      - name: Commit WNBA data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/wnba logs/wnba
+
+          git diff --cached --quiet || git commit -m "Update WNBA roster data"
+
+          git push
