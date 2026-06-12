@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-06-11T09:23:39.708357+00:00",
+  "checkedAt": "2026-06-12T17:42:45.856627+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -71,6 +71,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Daniel Duarte",
+      "position": "P",
+      "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "David Peterson",
       "position": "P",
       "number": "23",
@@ -116,13 +123,6 @@
       "name": "Jared Young",
       "position": "1B",
       "number": "29",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jonathan Pintaro",
-      "position": "P",
-      "number": "91",
       "status": "A",
       "source": "MLB Stats API"
     },

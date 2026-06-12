@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-06-11T09:23:32.736799+00:00",
+  "checkedAt": "2026-06-12T17:42:38.485109+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -71,13 +71,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Derek Hill",
-      "position": "RF",
-      "number": "25",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Drew Romo",
       "position": "C",
       "number": "36",
@@ -95,6 +88,13 @@
       "name": "Erick Fedde",
       "position": "P",
       "number": "47",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Everson Pereira",
+      "position": "RF",
+      "number": "28",
       "status": "A",
       "source": "MLB Stats API"
     },

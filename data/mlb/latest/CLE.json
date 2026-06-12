@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active",
-  "checkedAt": "2026-06-11T09:23:33.906844+00:00",
+  "checkedAt": "2026-06-12T17:42:39.721724+00:00",
   "players": [
     {
       "name": "Angel Martínez",
@@ -39,13 +39,6 @@
       "name": "Chase DeLauter",
       "position": "RF",
       "number": "24",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Codi Heuer",
-      "position": "P",
-      "number": "50",
       "status": "A",
       "source": "MLB Stats API"
     },

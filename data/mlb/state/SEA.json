@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=active",
-  "checkedAt": "2026-06-11T09:23:43.736084+00:00",
+  "checkedAt": "2026-06-12T17:42:50.144870+00:00",
   "players": [
     {
       "name": "Alex Hoppe",
@@ -46,13 +46,6 @@
       "name": "Colt Emerson",
       "position": "3B",
       "number": "4",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Domingo Gonzalez",
-      "position": "P",
-      "number": "46",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -137,6 +130,13 @@
       "name": "Luke Raley",
       "position": "RF",
       "number": "20",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Michael Rucker",
+      "position": "P",
+      "number": "38",
       "status": "A",
       "source": "MLB Stats API"
     },

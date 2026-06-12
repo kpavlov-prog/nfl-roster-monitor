@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-06-11T09:23:45.456271+00:00",
+  "checkedAt": "2026-06-12T17:42:51.980587+00:00",
   "players": [
     {
       "name": "Brandon Nimmo",
@@ -92,13 +92,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jalen Beeks",
-      "position": "P",
-      "number": "68",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Joc Pederson",
       "position": "DH",
       "number": "3",
@@ -130,6 +123,13 @@
       "name": "Kyle Higashioka",
       "position": "C",
       "number": "11",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Luis Curvelo",
+      "position": "P",
+      "number": "57",
       "status": "A",
       "source": "MLB Stats API"
     },

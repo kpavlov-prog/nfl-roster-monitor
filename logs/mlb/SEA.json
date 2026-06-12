@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-06-12T17:42:50.145869+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Mariners",
+    "type": "added",
+    "playerName": "Michael Rucker",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-12T17:42:50.145876+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Mariners",
+    "type": "removed",
+    "playerName": "Domingo Gonzalez",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  }
+]

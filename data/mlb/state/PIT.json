@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-06-11T09:23:42.022353+00:00",
+  "checkedAt": "2026-06-12T17:42:48.298458+00:00",
   "players": [
     {
       "name": "Billy Cook",
@@ -57,13 +57,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Davis Wendzel",
-      "position": "3B",
-      "number": "53",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Dennis Santana",
       "position": "P",
       "number": "60",
@@ -74,6 +67,13 @@
       "name": "Endy Rodríguez",
       "position": "C",
       "number": "13",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Esmerlyn Valdez",
+      "position": "OF",
+      "number": "55",
       "status": "A",
       "source": "MLB Stats API"
     },
