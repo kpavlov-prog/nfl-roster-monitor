@@ -138,7 +138,27 @@ function norm(v){
     .toLowerCase()
     .replace(/[^a-z0-9]/g, "");
 }
+function normPosition(v){
+  const s = norm(v);
 
+  if(["pitcher","p"].includes(s)) return "pitcher";
+
+  if([
+    "hitter","bat","batter",
+    "c","catcher",
+    "1b","firstbase",
+    "2b","secondbase",
+    "3b","thirdbase",
+    "ss","shortstop",
+    "lf","leftfield",
+    "cf","centerfield",
+    "rf","rightfield",
+    "of","outfield"
+  ].includes(s)) return "hitter";
+
+  return s;
+}
+  
 function normStatus(v){
   const s=norm(v);
   if(["a","active","act"].includes(s))return"a";
