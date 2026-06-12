@@ -1,1 +1,44 @@
+name: NBA Roster Check
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 8 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  check-nba-rosters:
+    runs-on: ubuntu-latest
+
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run NBA roster checker
+        run: |
+          python scripts/check_nba_rosters.py
+
+      - name: Commit NBA data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/nba logs/nba
+
+          git diff --cached --quiet || git commit -m "Update NBA roster data"
+
+          git push
