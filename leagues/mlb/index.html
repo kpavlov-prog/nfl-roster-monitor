@@ -130,7 +130,13 @@ function gmt(value){
 }
 
 function norm(v){
-  return String(v||"").replace(/\s*\([^)]*\)\s*/g,"").toLowerCase().replace(/[^a-z0-9]/g,"");
+  return String(v || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\s*\([^)]*\)\s*/g, "")
+    .replace(/\b(jr|sr|ii|iii|iv|v)\b\.?/gi, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "");
 }
 
 function normStatus(v){
