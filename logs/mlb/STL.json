@@ -1,0 +1,50 @@
+[
+  {
+    "timestamp": "2026-06-13T15:15:28.058302+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "added",
+    "playerName": "Blaze Jordan",
+    "position": "1B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-13T15:15:28.058313+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "added",
+    "playerName": "Chris Roycroft",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-13T15:15:28.058325+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "removed",
+    "playerName": "Hunter Dobbins",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-13T15:15:28.058328+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "removed",
+    "playerName": "Nolan Gorman",
+    "position": "3B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  }
+]

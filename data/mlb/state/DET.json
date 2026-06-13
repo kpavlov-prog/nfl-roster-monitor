@@ -5,22 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=active",
-  "checkedAt": "2026-06-12T17:42:40.950518+00:00",
+  "checkedAt": "2026-06-13T15:15:18.718275+00:00",
   "players": [
-    {
-      "name": "Beau Brieske",
-      "position": "P",
-      "number": "4",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brenan Hanifee",
-      "position": "P",
-      "number": "75",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Colt Keith",
       "position": "3B",
@@ -78,6 +64,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jacob Waguespack",
+      "position": "P",
+      "number": "58",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jahmai Jones",
       "position": "DH",
       "number": "18",
@@ -92,9 +85,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "James Outman",
+      "position": "CF",
+      "number": "43",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Keider Montero",
       "position": "P",
       "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kenley Jansen",
+      "position": "P",
+      "number": "74",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,13 +186,6 @@
       "name": "Zach McKinstry",
       "position": "2B",
       "number": "39",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Zack Short",
-      "position": "SS",
-      "number": "15",
       "status": "A",
       "source": "MLB Stats API"
     }

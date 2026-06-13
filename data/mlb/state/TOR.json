@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-06-12T17:42:52.593358+00:00",
+  "checkedAt": "2026-06-13T15:15:29.789205+00:00",
   "players": [
+    {
+      "name": "Alejandro Kirk",
+      "position": "C",
+      "number": "30",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Andrés Giménez",
       "position": "SS",
@@ -36,9 +43,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Daulton Varsho",
-      "position": "CF",
-      "number": "5",
+      "name": "Davis Schneider",
+      "position": "LF",
+      "number": "36",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -158,13 +165,6 @@
       "name": "Trey Yesavage",
       "position": "P",
       "number": "39",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tyler Heineman",
-      "position": "C",
-      "number": "55",
       "status": "A",
       "source": "MLB Stats API"
     },

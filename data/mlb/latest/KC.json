@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/118/roster?rosterType=active",
-  "checkedAt": "2026-06-12T17:42:42.165921+00:00",
+  "checkedAt": "2026-06-13T15:15:19.914003+00:00",
   "players": [
     {
       "name": "Alex Lange",
@@ -39,6 +39,13 @@
       "name": "Daniel Lynch IV",
       "position": "P",
       "number": "41",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Eli Morgan",
+      "position": "P",
+      "number": "34",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,13 +151,6 @@
       "name": "Salvador Perez",
       "position": "C",
       "number": "13",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Seth Lugo",
-      "position": "P",
-      "number": "67",
       "status": "A",
       "source": "MLB Stats API"
     },

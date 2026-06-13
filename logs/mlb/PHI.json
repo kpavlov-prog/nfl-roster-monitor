@@ -1,0 +1,50 @@
+[
+  {
+    "timestamp": "2026-06-13T15:15:25.160229+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "added",
+    "playerName": "Derek Hill",
+    "position": "RF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-13T15:15:25.160238+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "added",
+    "playerName": "Gabriel Rincones Jr.",
+    "position": "RF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-13T15:15:25.160247+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "removed",
+    "playerName": "Adolis García",
+    "position": "RF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-13T15:15:25.160250+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "removed",
+    "playerName": "Steward Berroa",
+    "position": "RF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  }
+]

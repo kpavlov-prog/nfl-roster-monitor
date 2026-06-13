@@ -5,19 +5,12 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-06-12T17:42:47.079089+00:00",
+  "checkedAt": "2026-06-13T15:15:24.552761+00:00",
   "players": [
     {
       "name": "Alika Williams",
       "position": "SS",
       "number": "12",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brent Rooker",
-      "position": "DH",
-      "number": "25",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -74,6 +67,13 @@
       "name": "Jack Perkins",
       "position": "P",
       "number": "50",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jacob Wilson",
+      "position": "SS",
+      "number": "5",
       "status": "A",
       "source": "MLB Stats API"
     },

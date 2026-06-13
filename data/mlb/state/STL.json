@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=active",
-  "checkedAt": "2026-06-12T17:42:50.765787+00:00",
+  "checkedAt": "2026-06-13T15:15:28.057343+00:00",
   "players": [
     {
       "name": "Alec Burleson",
@@ -22,9 +22,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Blaze Jordan",
+      "position": "1B",
+      "number": "33",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Bryan Torres",
       "position": "LF",
       "number": "39",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Chris Roycroft",
+      "position": "P",
+      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -46,13 +60,6 @@
       "name": "Gordon Graceffo",
       "position": "P",
       "number": "44",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Hunter Dobbins",
-      "position": "P",
-      "number": "40",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -158,13 +165,6 @@
       "name": "Nelson Velázquez",
       "position": "OF",
       "number": "38",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Nolan Gorman",
-      "position": "3B",
-      "number": "16",
       "status": "A",
       "source": "MLB Stats API"
     },

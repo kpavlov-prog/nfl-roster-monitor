@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-06-12T17:42:35.993151+00:00",
+  "checkedAt": "2026-06-13T15:15:14.076080+00:00",
   "players": [
+    {
+      "name": "Anthony Molina",
+      "position": "P",
+      "number": "61",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Austin Riley",
       "position": "3B",
@@ -179,13 +186,6 @@
       "name": "Sandy León",
       "position": "C",
       "number": "9",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Spencer Strider",
-      "position": "P",
-      "number": "99",
       "status": "A",
       "source": "MLB Stats API"
     }

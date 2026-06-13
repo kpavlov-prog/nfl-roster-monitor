@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=active",
-  "checkedAt": "2026-06-12T17:42:48.908756+00:00",
+  "checkedAt": "2026-06-13T15:15:26.332314+00:00",
   "players": [
     {
       "name": "Adrian Morejon",
@@ -18,13 +18,6 @@
       "name": "Bradgley Rodriguez",
       "position": "P",
       "number": "72",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Bryce Johnson",
-      "position": "RF",
-      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -142,7 +135,7 @@
     },
     {
       "name": "Samad Taylor",
-      "position": "2B",
+      "position": "LF",
       "number": "0",
       "status": "A",
       "source": "MLB Stats API"
@@ -179,6 +172,13 @@
       "name": "Will Wagner",
       "position": "3B",
       "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Xander Bogaerts",
+      "position": "SS",
+      "number": "2",
       "status": "A",
       "source": "MLB Stats API"
     },

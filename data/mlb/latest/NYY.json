@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=active",
-  "checkedAt": "2026-06-12T17:42:46.463985+00:00",
+  "checkedAt": "2026-06-13T15:15:23.965137+00:00",
   "players": [
     {
       "name": "Ali Sánchez",
@@ -106,6 +106,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jasson Domínguez",
+      "position": "LF",
+      "number": "24",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jazz Chisholm Jr.",
       "position": "2B",
       "number": "13",
@@ -172,13 +179,6 @@
       "name": "Tim Hill",
       "position": "P",
       "number": "41",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Trent Grisham",
-      "position": "CF",
-      "number": "12",
       "status": "A",
       "source": "MLB Stats API"
     },

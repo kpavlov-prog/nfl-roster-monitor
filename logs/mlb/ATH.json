@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-06-13T15:15:24.554122+00:00",
+    "teamCode": "ATH",
+    "teamName": "Athletics",
+    "type": "added",
+    "playerName": "Jacob Wilson",
+    "position": "SS",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-13T15:15:24.554136+00:00",
+    "teamCode": "ATH",
+    "teamName": "Athletics",
+    "type": "removed",
+    "playerName": "Brent Rooker",
+    "position": "DH",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  }
+]
