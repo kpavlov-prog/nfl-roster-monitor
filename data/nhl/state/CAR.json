@@ -3,12 +3,19 @@
   "team": "Carolina Hurricanes",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/CAR/current",
-  "checkedAt": "2026-06-11T11:43:14.611062+00:00",
+  "checkedAt": "2026-06-13T15:17:53.330239+00:00",
   "players": [
     {
       "name": "Alexander Nikishin",
       "position": "D",
       "number": "21",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Amir Miftakhov",
+      "position": "G",
+      "number": "35",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
