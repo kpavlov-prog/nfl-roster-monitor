@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active",
-  "checkedAt": "2026-06-13T15:15:17.560477+00:00",
+  "checkedAt": "2026-06-14T15:27:41.268629+00:00",
   "players": [
     {
       "name": "Angel Martínez",
@@ -71,6 +71,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Gabriel Arias",
+      "position": "SS",
+      "number": "13",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Gavin Williams",
       "position": "P",
       "number": "32",
@@ -88,13 +95,6 @@
       "name": "Joey Cantillo",
       "position": "P",
       "number": "54",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "José Ramírez",
-      "position": "3B",
-      "number": "11",
       "status": "A",
       "source": "MLB Stats API"
     },

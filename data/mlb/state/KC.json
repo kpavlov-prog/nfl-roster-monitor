@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/118/roster?rosterType=active",
-  "checkedAt": "2026-06-13T15:15:19.914003+00:00",
+  "checkedAt": "2026-06-14T15:27:43.496647+00:00",
   "players": [
     {
       "name": "Alex Lange",
@@ -60,6 +60,13 @@
       "name": "Jac Caglianone",
       "position": "RF",
       "number": "14",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "John Rave",
+      "position": "RF",
+      "number": "16",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,13 +186,6 @@
       "name": "Tyler Tolbert",
       "position": "2B",
       "number": "2",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Vinnie Pasquantino",
-      "position": "1B",
-      "number": "9",
       "status": "A",
       "source": "MLB Stats API"
     }

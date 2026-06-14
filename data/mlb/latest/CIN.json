@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=active",
-  "checkedAt": "2026-06-13T15:15:16.962728+00:00",
+  "checkedAt": "2026-06-14T15:27:40.713640+00:00",
   "players": [
     {
       "name": "Andrew Abbott",
@@ -92,6 +92,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jose Trevino",
+      "position": "C",
+      "number": "35",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Matt McLain",
       "position": "2B",
       "number": "9",
@@ -116,13 +123,6 @@
       "name": "Noelvi Marte",
       "position": "RF",
       "number": "4",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "P.J. Higgins",
-      "position": "C",
-      "number": "65",
       "status": "A",
       "source": "MLB Stats API"
     },

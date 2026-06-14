@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-14T15:27:41.823863+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Rockies",
+    "type": "added",
+    "playerName": "Eiberson Castellano",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-14T15:27:41.823878+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Rockies",
+    "type": "removed",
+    "playerName": "Jeff Criswell",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-13T15:15:18.134015+00:00",
     "teamCode": "COL",
     "teamName": "Colorado Rockies",
