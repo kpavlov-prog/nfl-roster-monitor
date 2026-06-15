@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/118/roster?rosterType=active",
-  "checkedAt": "2026-06-14T15:27:43.496647+00:00",
+  "checkedAt": "2026-06-15T20:36:47.906140+00:00",
   "players": [
     {
       "name": "Alex Lange",
@@ -39,13 +39,6 @@
       "name": "Daniel Lynch IV",
       "position": "P",
       "number": "41",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Eli Morgan",
-      "position": "P",
-      "number": "34",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -137,6 +130,13 @@
       "name": "Michael Wacha",
       "position": "P",
       "number": "52",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Mitch Spence",
+      "position": "P",
+      "number": "54",
       "status": "A",
       "source": "MLB Stats API"
     },

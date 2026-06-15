@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-06-14T15:27:52.369450+00:00",
+  "checkedAt": "2026-06-15T20:36:57.603828+00:00",
   "players": [
+    {
+      "name": "Alejandro Osuna",
+      "position": "LF",
+      "number": "19",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Brandon Nimmo",
       "position": "RF",
@@ -137,13 +144,6 @@
       "name": "MacKenzie Gore",
       "position": "P",
       "number": "1",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Michael Helman",
-      "position": "CF",
-      "number": "23",
       "status": "A",
       "source": "MLB Stats API"
     },

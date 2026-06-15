@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-15T20:36:47.309144+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Astros",
+    "type": "added",
+    "playerName": "Jayden Murray",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-15T20:36:47.309154+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Astros",
+    "type": "removed",
+    "playerName": "Alimber Santa",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-13T15:15:19.317009+00:00",
     "teamCode": "HOU",
     "teamName": "Houston Astros",

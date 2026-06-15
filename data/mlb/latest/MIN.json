@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/142/roster?rosterType=active",
-  "checkedAt": "2026-06-14T15:27:46.276044+00:00",
+  "checkedAt": "2026-06-15T20:36:50.915724+00:00",
   "players": [
     {
       "name": "Alex Jackson",
@@ -99,6 +99,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Kyler Fedko",
+      "position": "LF",
+      "number": "80",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Luke Keaschall",
       "position": "2B",
       "number": "15",
@@ -109,13 +116,6 @@
       "name": "Mike Paredes",
       "position": "P",
       "number": "53",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Orlando Arcia",
-      "position": "SS",
-      "number": "11",
       "status": "A",
       "source": "MLB Stats API"
     },

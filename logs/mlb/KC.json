@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-15T20:36:47.907058+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Royals",
+    "type": "added",
+    "playerName": "Mitch Spence",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-15T20:36:47.907066+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Royals",
+    "type": "removed",
+    "playerName": "Eli Morgan",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-14T15:27:43.497635+00:00",
     "teamCode": "KC",
     "teamName": "Kansas City Royals",

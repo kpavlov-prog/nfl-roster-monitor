@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-06-15T20:36:50.916614+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "added",
+    "playerName": "Kyler Fedko",
+    "position": "LF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-15T20:36:50.916625+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "removed",
+    "playerName": "Orlando Arcia",
+    "position": "SS",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  }
+]
