@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2026-06-16T20:00:26.860913+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Steelers",
+    "type": "added",
+    "playerName": "Levi Wentz",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-16T20:00:26.860935+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Steelers",
+    "type": "removed",
+    "playerName": "Aidan Laros",
+    "position": "P",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-16T20:00:26.860943+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Steelers",
+    "type": "removed",
+    "playerName": "Daylan Carnell",
+    "position": "LB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  }
+]
