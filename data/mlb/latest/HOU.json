@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=active",
-  "checkedAt": "2026-06-15T20:36:47.308202+00:00",
+  "checkedAt": "2026-06-16T20:18:29.038223+00:00",
   "players": [
     {
       "name": "AJ Blubaugh",
@@ -57,16 +57,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Collin Price",
-      "position": "C",
-      "number": "37",
+      "name": "Enyel De Los Santos",
+      "position": "P",
+      "number": "65",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Enyel De Los Santos",
+      "name": "Hunter Brown",
       "position": "P",
-      "number": "65",
+      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -81,13 +81,6 @@
       "name": "Jake Meyers",
       "position": "CF",
       "number": "6",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jayden Murray",
-      "position": "P",
-      "number": "70",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,6 +172,13 @@
       "name": "Taylor Trammell",
       "position": "CF",
       "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yainer Diaz",
+      "position": "C",
+      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     },

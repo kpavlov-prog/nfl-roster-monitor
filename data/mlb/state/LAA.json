@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=active",
-  "checkedAt": "2026-06-15T20:36:48.515394+00:00",
+  "checkedAt": "2026-06-16T20:18:30.105860+00:00",
   "players": [
     {
       "name": "Brent Suter",
       "position": "P",
       "number": "37",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brett Kerry",
+      "position": "P",
+      "number": "71",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -23,7 +30,7 @@
     },
     {
       "name": "Denzer Guzman",
-      "position": "SS",
+      "position": "3B",
       "number": "23",
       "status": "A",
       "source": "MLB Stats API"
@@ -32,20 +39,6 @@
       "name": "Donovan Walton",
       "position": "3B",
       "number": "35",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Drew Pomeranz",
-      "position": "P",
-      "number": "13",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Grayson Rodriguez",
-      "position": "P",
-      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -60,6 +53,13 @@
       "name": "Jose Siri",
       "position": "LF",
       "number": "28",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "José Fermin",
+      "position": "P",
+      "number": "65",
       "status": "A",
       "source": "MLB Stats API"
     },

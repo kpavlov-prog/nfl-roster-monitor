@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-06-15T20:36:51.512626+00:00",
+  "checkedAt": "2026-06-16T20:18:32.782816+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -113,16 +113,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jonathan Pintaro",
-      "position": "P",
-      "number": "91",
+      "name": "Juan Soto",
+      "position": "LF",
+      "number": "22",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Juan Soto",
-      "position": "LF",
-      "number": "22",
+      "name": "Kodai Senga",
+      "position": "P",
+      "number": "34",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,13 +179,6 @@
       "name": "Tobias Myers",
       "position": "P",
       "number": "32",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Vidal Bruján",
-      "position": "SS",
-      "number": "2",
       "status": "A",
       "source": "MLB Stats API"
     }

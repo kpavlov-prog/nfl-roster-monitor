@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-06-16T20:18:27.972587+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Rockies",
+    "type": "position changed",
+    "playerName": "Cole Carrigg",
+    "position": "CF",
+    "oldValue": "OF",
+    "newValue": "CF",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-16T20:18:27.972606+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Rockies",
+    "type": "added",
+    "playerName": "Victor Vodnik",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-16T20:18:27.972613+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Rockies",
+    "type": "removed",
+    "playerName": "Eiberson Castellano",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-15T20:36:46.098581+00:00",
     "teamCode": "COL",
     "teamName": "Colorado Rockies",

@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-06-16T20:18:35.447453+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "position changed",
+    "playerName": "Jase Bowen",
+    "position": "RF",
+    "oldValue": "CF",
+    "newValue": "RF",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-16T20:18:35.447460+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "added",
+    "playerName": "Kyle Hart",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-16T20:18:35.447469+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "removed",
+    "playerName": "Mason Miller",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-15T20:36:54.605799+00:00",
     "teamCode": "SD",
     "teamName": "San Diego Padres",

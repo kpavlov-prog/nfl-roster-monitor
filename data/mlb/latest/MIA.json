@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-06-15T20:36:49.721444+00:00",
+  "checkedAt": "2026-06-16T20:18:31.175740+00:00",
   "players": [
     {
       "name": "Anthony Bender",
@@ -39,6 +39,13 @@
       "name": "Connor Norby",
       "position": "1B",
       "number": "1",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Dax Fulton",
+      "position": "P",
+      "number": "90",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,13 +179,6 @@
       "name": "Tyler Zuber",
       "position": "P",
       "number": "55",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "William Kempner",
-      "position": "P",
-      "number": "71",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=active",
-  "checkedAt": "2026-06-15T20:36:42.488384+00:00",
+  "checkedAt": "2026-06-16T20:18:24.729289+00:00",
   "players": [
     {
       "name": "Adley Rutschman",
@@ -25,13 +25,6 @@
       "name": "Andrew Kittredge",
       "position": "P",
       "number": "39",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Anthony Nunez",
-      "position": "P",
-      "number": "66",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -123,6 +116,13 @@
       "name": "Rico Garcia",
       "position": "P",
       "number": "50",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ryan Helsley",
+      "position": "P",
+      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     },

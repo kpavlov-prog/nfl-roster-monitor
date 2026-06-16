@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-06-15T20:36:57.603828+00:00",
+  "checkedAt": "2026-06-16T20:18:38.118272+00:00",
   "players": [
     {
       "name": "Alejandro Osuna",
@@ -39,13 +39,6 @@
       "name": "Cole Winn",
       "position": "P",
       "number": "60",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Corey Seager",
-      "position": "SS",
-      "number": "5",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -116,6 +109,13 @@
       "name": "Josh Jung",
       "position": "3B",
       "number": "6",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Josh Smith",
+      "position": "2B",
+      "number": "8",
       "status": "A",
       "source": "MLB Stats API"
     },

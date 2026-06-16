@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-06-15T20:36:41.872742+00:00",
+  "checkedAt": "2026-06-16T20:18:24.193039+00:00",
   "players": [
     {
       "name": "Anthony Molina",
@@ -18,13 +18,6 @@
       "name": "Austin Riley",
       "position": "3B",
       "number": "27",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Austin Wynns",
-      "position": "C",
-      "number": "16",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -53,6 +46,13 @@
       "name": "Dominic Smith",
       "position": "DH",
       "number": "8",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Drake Baldwin",
+      "position": "C",
+      "number": "30",
       "status": "A",
       "source": "MLB Stats API"
     },
