@@ -3,7 +3,7 @@
   "team": "Toronto Maple Leafs",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/TOR/current",
-  "checkedAt": "2026-06-13T15:18:08.605742+00:00",
+  "checkedAt": "2026-06-16T20:20:07.885697+00:00",
   "players": [
     {
       "name": "Anthony Stolarz",
@@ -51,6 +51,13 @@
       "name": "Dakota Joshua",
       "position": "C",
       "number": "81",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Emil Andrae",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -128,6 +135,13 @@
       "name": "Philippe Myers",
       "position": "D",
       "number": "51",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Samuel Ersson",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
