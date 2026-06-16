@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-06-16T20:22:28.846537+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Wings",
+    "type": "added",
+    "playerName": "Sug Sutton",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-16T20:22:28.846545+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Wings",
+    "type": "removed",
+    "playerName": "JJ Quinerly",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  }
+]

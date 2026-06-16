@@ -3,7 +3,7 @@
   "team": "Dallas Wings",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/DAL/roster",
-  "checkedAt": "2026-06-14T15:29:47.137135+00:00",
+  "checkedAt": "2026-06-16T20:22:28.845699+00:00",
   "players": [
     {
       "name": "Alanna Smith",
@@ -55,13 +55,6 @@
       "source": "ESPN WNBA API"
     },
     {
-      "name": "JJ Quinerly",
-      "position": "G",
-      "number": "11",
-      "status": "ACTIVE",
-      "source": "ESPN WNBA API"
-    },
-    {
       "name": "Jessica Shepard",
       "position": "F",
       "number": "32",
@@ -93,6 +86,13 @@
       "name": "Paige Bueckers",
       "position": "G",
       "number": "5",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Sug Sutton",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     }
