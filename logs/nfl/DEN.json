@@ -1,0 +1,50 @@
+[
+  {
+    "timestamp": "2026-06-17T18:00:27.074980+00:00",
+    "teamCode": "DEN",
+    "teamName": "Denver Broncos",
+    "type": "added",
+    "playerName": "Hakeem Butler",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-17T18:00:27.075006+00:00",
+    "teamCode": "DEN",
+    "teamName": "Denver Broncos",
+    "type": "added",
+    "playerName": "Sean Fresch",
+    "position": "DB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-17T18:00:27.075017+00:00",
+    "teamCode": "DEN",
+    "teamName": "Denver Broncos",
+    "type": "removed",
+    "playerName": "Mike Woods",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-17T18:00:27.075024+00:00",
+    "teamCode": "DEN",
+    "teamName": "Denver Broncos",
+    "type": "removed",
+    "playerName": "Paul Manning",
+    "position": "CB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  }
+]

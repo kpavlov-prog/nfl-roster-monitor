@@ -3,7 +3,7 @@
   "team": "Denver Broncos",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/denver-broncos/roster",
-  "checkedAt": "2026-06-16T19:59:37.580882+00:00",
+  "checkedAt": "2026-06-17T18:00:27.074670+00:00",
   "players": [
     {
       "name": "Adam Prentice",
@@ -201,6 +201,14 @@
       "name": "Gavin Ortega",
       "position": "OT",
       "number": "68",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Hakeem Butler",
+      "position": "WR",
+      "number": "77",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -486,14 +494,6 @@
       "source": "NFL.com"
     },
     {
-      "name": "Mike Woods",
-      "position": "WR",
-      "number": "30",
-      "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
       "name": "Mitchell Fraboni",
       "position": "LS",
       "number": "48",
@@ -545,14 +545,6 @@
       "name": "Pat Surtain II",
       "position": "CB",
       "number": "2",
-      "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Paul Manning",
-      "position": "CB",
-      "number": "37",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -617,6 +609,14 @@
       "name": "Sam Ehlinger",
       "position": "QB",
       "number": "4",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Sean Fresch",
+      "position": "DB",
+      "number": "69",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
