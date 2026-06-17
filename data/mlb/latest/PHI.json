@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/143/roster?rosterType=active",
-  "checkedAt": "2026-06-16T20:18:34.381511+00:00",
+  "checkedAt": "2026-06-17T18:02:39.930827+00:00",
   "players": [
     {
       "name": "Aaron Nola",
@@ -25,13 +25,6 @@
       "name": "Andrew Painter",
       "position": "P",
       "number": "24",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brad Keller",
-      "position": "P",
-      "number": "40",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,6 +137,13 @@
       "name": "Kyle Schwarber",
       "position": "DH",
       "number": "12",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Max Lazar",
+      "position": "P",
+      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=active",
-  "checkedAt": "2026-06-16T20:18:28.505469+00:00",
+  "checkedAt": "2026-06-17T18:02:33.791552+00:00",
   "players": [
+    {
+      "name": "Casey Mize",
+      "position": "P",
+      "number": "12",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Colt Keith",
       "position": "3B",
@@ -46,13 +53,6 @@
       "name": "Framber Valdez",
       "position": "P",
       "number": "59",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Gleyber Torres",
-      "position": "2B",
-      "number": "25",
       "status": "A",
       "source": "MLB Stats API"
     },

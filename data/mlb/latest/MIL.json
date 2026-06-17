@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=active",
-  "checkedAt": "2026-06-16T20:18:31.710598+00:00",
+  "checkedAt": "2026-06-17T18:02:37.148704+00:00",
   "players": [
     {
       "name": "Aaron Ashby",
@@ -60,6 +60,13 @@
       "name": "Christian Yelich",
       "position": "DH",
       "number": "22",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cooper Pratt",
+      "position": "SS",
+      "number": "12",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,13 +151,6 @@
       "name": "Kyle Harrison",
       "position": "P",
       "number": "52",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Luis Rengifo",
-      "position": "3B",
-      "number": "13",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-06-16T20:18:30.642215+00:00",
+  "checkedAt": "2026-06-17T18:02:36.028020+00:00",
   "players": [
     {
       "name": "Alex Call",
@@ -155,13 +155,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Santiago Espinal",
-      "position": "3B",
-      "number": "21",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Shohei Ohtani",
       "position": "TWP",
       "number": "17",
@@ -172,6 +165,13 @@
       "name": "Tanner Scott",
       "position": "P",
       "number": "66",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tommy Edman",
+      "position": "2B",
+      "number": "25",
       "status": "A",
       "source": "MLB Stats API"
     },

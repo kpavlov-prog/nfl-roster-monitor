@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active",
-  "checkedAt": "2026-06-16T20:18:27.435993+00:00",
+  "checkedAt": "2026-06-17T18:02:32.665540+00:00",
   "players": [
-    {
-      "name": "Angel Martínez",
-      "position": "LF",
-      "number": "1",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Austin Hedges",
       "position": "C",
@@ -123,6 +116,13 @@
       "name": "Patrick Bailey",
       "position": "C",
       "number": "16",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Petey Halpin",
+      "position": "CF",
+      "number": "0",
       "status": "A",
       "source": "MLB Stats API"
     },

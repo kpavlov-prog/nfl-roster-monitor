@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=active",
-  "checkedAt": "2026-06-16T20:18:35.446588+00:00",
+  "checkedAt": "2026-06-17T18:02:41.048621+00:00",
   "players": [
     {
       "name": "Adrian Morejon",
@@ -127,13 +127,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Ron Marinaccio",
-      "position": "P",
-      "number": "97",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Samad Taylor",
       "position": "LF",
       "number": "0",
@@ -170,7 +163,7 @@
     },
     {
       "name": "Will Wagner",
-      "position": "3B",
+      "position": "DH",
       "number": "7",
       "status": "A",
       "source": "MLB Stats API"

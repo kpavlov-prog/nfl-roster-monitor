@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=active",
-  "checkedAt": "2026-06-16T20:18:36.517489+00:00",
+  "checkedAt": "2026-06-17T18:02:42.149889+00:00",
   "players": [
     {
       "name": "Alex Hoppe",
@@ -36,6 +36,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Cal Raleigh",
+      "position": "C",
+      "number": "29",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Cole Young",
       "position": "2B",
       "number": "2",
@@ -46,6 +53,13 @@
       "name": "Colt Emerson",
       "position": "3B",
       "number": "4",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Curtis Washington Jr.",
+      "position": "CF",
+      "number": "0",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -85,9 +99,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jhonny Pereda",
-      "position": "C",
-      "number": "5",
+      "name": "J.P. Crawford",
+      "position": "SS",
+      "number": "3",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -158,13 +172,6 @@
       "name": "Nick Davila",
       "position": "P",
       "number": "82",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Randy Arozarena",
-      "position": "LF",
-      "number": "56",
       "status": "A",
       "source": "MLB Stats API"
     },
