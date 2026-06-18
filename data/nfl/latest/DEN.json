@@ -3,7 +3,7 @@
   "team": "Denver Broncos",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/denver-broncos/roster",
-  "checkedAt": "2026-06-17T18:00:27.074670+00:00",
+  "checkedAt": "2026-06-18T18:16:20.957809+00:00",
   "players": [
     {
       "name": "Adam Prentice",
@@ -490,6 +490,14 @@
       "position": "OT",
       "number": "69",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Mike Woods",
+      "position": "WR",
+      "number": "73",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
