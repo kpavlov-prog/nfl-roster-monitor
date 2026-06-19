@@ -362,40 +362,94 @@ function compareCsv(text){
     return;
   }
 
-  let total=0;
-  const rowsHtml=[];
+  const csvByTeam={};
+  const missingOfficialRows=[];
+  const missingCsvRows=[];
+  const foundRows=[];
+
+  let found=0;
+  let missingOfficial=0;
+  let missingCsv=0;
 
   rows.slice(1).forEach(r=>{
-    const raw=(r[idx.name]||"").trim();
-    if(!raw)return;
+    const rawName=(r[idx.name]||"").trim();
+    if(!rawName)return;
 
-    const clean=raw.replace(/\s*\([^)]*\)\s*/g,"").trim();
-    const code=teamCodeFromCsv(idx.team>=0?(r[idx.team]||"").trim():"");
-    const pos=idx.position>=0?(r[idx.position]||"").trim():"";
-    const status=idx.status>=0?(r[idx.status]||"").trim():"";
+    const cleanName=rawName.replace(/\s*\([^)]*\)\s*/g,"").trim();
+    const teamVal=idx.team>=0?(r[idx.team]||"").trim():"";
+    const code=teamCodeFromCsv(teamVal);
 
-    total++;
+    if(!csvByTeam[code])csvByTeam[code]=[];
 
-    rowsHtml.push(`
-      <div class="csv-row">
-        <b>${clean}</b> | ${code}
-        <div class="meta">
-          CSV position: ${pos||"-"} | CSV status: ${status||"-"}
+    csvByTeam[code].push({
+      name:cleanName,
+      rawName
+    });
+  });
+
+  Object.keys(csvByTeam).forEach(code=>{
+    const roster=rosters[code]||{players:[]};
+    const officialPlayers=roster.players||[];
+    const csvPlayers=csvByTeam[code];
+
+    const officialMap=new Map(officialPlayers.map(p=>[norm(p.name),p]));
+    const csvMap=new Map(csvPlayers.map(p=>[norm(p.name),p]));
+
+    csvPlayers.forEach(csvPlayer=>{
+      const official=officialMap.get(norm(csvPlayer.name));
+
+      if(!official){
+        missingOfficial++;
+        missingOfficialRows.push(`
+          <div class="csv-row csv-missing">
+            <b>Missing from official roster:</b> ${csvPlayer.rawName} | ${code}
+            <div class="meta">This player is in your CSV but was not found on the official WNBA roster.</div>
+          </div>
+        `);
+        return;
+      }
+
+      found++;
+      foundRows.push(`
+        <div class="csv-row csv-found">
+          <b>Found in both:</b> ${csvPlayer.rawName} | ${code}
+          <div class="meta">Official roster match: ${official.name}</div>
         </div>
-        <div class="meta">
-          WNBA official roster comparison will activate after source connection.
-        </div>
-      </div>
-    `);
+      `);
+    });
+
+    officialPlayers.forEach(official=>{
+      if(!csvMap.has(norm(official.name))){
+        missingCsv++;
+        missingCsvRows.push(`
+          <div class="csv-row csv-warning">
+            <b>Missing from CSV:</b> ${official.name} | ${code}
+            <div class="meta">Official: #${official.number||"-"} | ${official.position||"-"} | ${official.status||"ACTIVE"}</div>
+          </div>
+        `);
+      }
+    });
   });
 
   document.getElementById("csvResults").innerHTML=`
-    <b>WNBA CSV Preview</b>
+    <b>WNBA CSV Reconciliation Summary</b>
     <div class="meta">
-      Rows read: ${total} | Official WNBA comparison: pending backend source
+      Found in both: ${found}
+      |
+      CSV players missing from official roster: ${missingOfficial}
+      |
+      Official players missing from CSV: ${missingCsv}
     </div>
     <br>
-    ${rowsHtml.join("")||`<div class="empty">No usable rows found.</div>`}
+
+    <h3>Needs Review: In CSV but missing from official roster</h3>
+    ${missingOfficialRows.join("")||`<div class="empty">None.</div>`}
+
+    <h3>Needs Review: On official roster but missing from CSV</h3>
+    ${missingCsvRows.join("")||`<div class="empty">None.</div>`}
+
+    <h3>Found in both</h3>
+    ${foundRows.join("")||`<div class="empty">None.</div>`}
   `;
 }
 
