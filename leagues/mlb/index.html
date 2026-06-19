@@ -358,7 +358,29 @@ function renderSelectedTeam(){
     }
   `;
 }
+function toggleHistory(){
+  const box=document.getElementById("teamHistoryBox");
+  if(!box)return;
+  box.style.display=box.style.display==="none"?"block":"none";
+}
 
+function renderSelectedTeamHistory(){
+  const box=document.getElementById("teamHistoryBox");
+  if(!box)return;
+
+  if(!teamHistory.length){
+    box.innerHTML=`<div class="empty">No MLB history for this team yet.</div>`;
+    return;
+  }
+
+  box.innerHTML=teamHistory.slice(0,50).map(c=>`
+    <div class="change-item">
+      <b>${c.playerName}</b>
+      <div class="meta">${c.type} | ${c.oldValue||"-"} → ${c.newValue||"-"}</div>
+      <div class="meta">${gmt(c.timestamp)} | ${String(c.severity||"low").toUpperCase()}</div>
+    </div>
+  `).join("");
+}
 function parseCsv(text){
   const rows=[];let row=[],field="",quotes=false;
   for(let i=0;i<text.length;i++){
