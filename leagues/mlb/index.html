@@ -255,19 +255,29 @@ function selectTeam(code){
 
 function renderChanges(){
   const box=document.getElementById("latestChanges");
+  const checked=new Set(checkedChanges());
 
-  if(!allChanges.length){
-    box.innerHTML=`<div class="empty">No MLB roster changes logged yet.</div>`;
+  const visible=allChanges.filter(c=>!checked.has(changeId(c)));
+
+  document.getElementById("totalChanges").textContent=visible.length||0;
+
+  if(!visible.length){
+    box.innerHTML=`<div class="empty">No unchecked MLB roster changes.</div>`;
     return;
   }
 
-  box.innerHTML=allChanges.slice(0,20).map(c=>`
-    <div class="change-item">
-      <b>${c.teamName||c.teamCode}: ${c.playerName}</b>
-      <div class="meta">${c.type} | ${c.oldValue||"-"} → ${c.newValue||"-"}</div>
-      <div class="meta">${gmt(c.timestamp)} | ${String(c.severity||"low").toUpperCase()}</div>
-    </div>
-  `).join("");
+  box.innerHTML=visible.slice(0,20).map(c=>{
+    const id=changeId(c);
+    return `
+      <div class="change-item">
+        <b>${c.teamName||c.teamCode}: ${c.playerName}</b>
+        <div class="meta">${c.type} | ${c.oldValue||"-"} → ${c.newValue||"-"}</div>
+        <div class="meta">${gmt(c.timestamp)} | ${String(c.severity||"low").toUpperCase()}</div>
+        <br>
+        <button class="secondary" onclick="markChangeChecked('${id.replace(/'/g,"\\'")}')">Checked</button>
+      </div>
+    `;
+  }).join("");
 }
 
 function renderTeams(){
