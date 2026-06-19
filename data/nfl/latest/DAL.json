@@ -3,7 +3,7 @@
   "team": "Dallas Cowboys",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/dallas-cowboys/roster",
-  "checkedAt": "2026-06-18T18:16:18.283506+00:00",
+  "checkedAt": "2026-06-19T17:03:20.096317+00:00",
   "players": [
     {
       "name": "Adedayo Odeleye",
@@ -25,6 +25,14 @@
       "name": "Alijah Clark",
       "position": "DB",
       "number": "38",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Ameer Speed",
+      "position": "DB",
+      "number": "75",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -86,6 +94,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Chris Glaser",
+      "position": "G",
+      "number": "76",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Cobie Durant",
       "position": "CB",
       "number": "2",
@@ -99,14 +115,6 @@
       "number": "56",
       "status": "ACT",
       "important": false,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Corey Ballentine",
-      "position": "DB",
-      "number": "36",
-      "status": "ACT",
-      "important": true,
       "source": "NFL.com"
     },
     {
@@ -171,6 +179,14 @@
       "number": "53",
       "status": "ACT",
       "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Denzel Mims",
+      "position": "WR",
+      "number": "75",
+      "status": "ACT",
+      "important": true,
       "source": "NFL.com"
     },
     {
@@ -449,7 +465,7 @@
       "name": "Matt Hennessy",
       "position": "C",
       "number": "72",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -529,14 +545,6 @@
       "name": "Reddy Steward",
       "position": "DB",
       "number": "27",
-      "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Romello Brinson",
-      "position": "WR",
-      "number": "84",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
