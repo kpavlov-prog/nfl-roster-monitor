@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-06-17T18:02:39.365752+00:00",
+  "checkedAt": "2026-06-19T15:15:46.651614+00:00",
   "players": [
+    {
+      "name": "Aaron Civale",
+      "position": "P",
+      "number": "45",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Alika Williams",
       "position": "SS",
@@ -123,13 +130,6 @@
       "name": "Luis Medina",
       "position": "P",
       "number": "46",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Luis Morales",
-      "position": "P",
-      "number": "19",
       "status": "A",
       "source": "MLB Stats API"
     },

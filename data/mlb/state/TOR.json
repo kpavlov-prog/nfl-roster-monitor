@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-06-17T18:02:44.410312+00:00",
+  "checkedAt": "2026-06-19T15:15:51.853983+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -32,6 +32,13 @@
       "name": "Braydon Fisher",
       "position": "P",
       "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Chad Dallas",
+      "position": "P",
+      "number": "37",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -109,13 +116,6 @@
       "name": "Mason Fluharty",
       "position": "P",
       "number": "68",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Max Scherzer",
-      "position": "P",
-      "number": "31",
       "status": "A",
       "source": "MLB Stats API"
     },

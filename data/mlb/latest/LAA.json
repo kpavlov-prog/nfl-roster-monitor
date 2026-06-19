@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=active",
-  "checkedAt": "2026-06-17T18:02:35.473902+00:00",
+  "checkedAt": "2026-06-19T15:15:42.644412+00:00",
   "players": [
     {
       "name": "Brent Suter",
@@ -15,16 +15,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Brett Kerry",
+      "name": "Chase Silseth",
       "position": "P",
-      "number": "71",
+      "number": "63",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Chase Silseth",
-      "position": "P",
-      "number": "63",
+      "name": "Christian Moore",
+      "position": "2B",
+      "number": "4",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -85,20 +85,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Logan Porter",
-      "position": "C",
-      "number": "33",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Mike Trout",
-      "position": "CF",
-      "number": "27",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Mitch Farris",
       "position": "P",
       "number": "70",
@@ -134,6 +120,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Ryan Johnson",
+      "position": "P",
+      "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Ryan Zeferjahn",
       "position": "P",
       "number": "56",
@@ -158,6 +151,13 @@
       "name": "Samy Natera Jr.",
       "position": "P",
       "number": "52",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tyler Heineman",
+      "position": "C",
+      "number": "31",
       "status": "A",
       "source": "MLB Stats API"
     },

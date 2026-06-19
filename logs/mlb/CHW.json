@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-19T15:15:38.602388+00:00",
+    "teamCode": "CHW",
+    "teamName": "Chicago White Sox",
+    "type": "added",
+    "playerName": "Junior Perez",
+    "position": "CF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-19T15:15:38.602399+00:00",
+    "teamCode": "CHW",
+    "teamName": "Chicago White Sox",
+    "type": "removed",
+    "playerName": "Everson Pereira",
+    "position": "RF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-16T20:18:26.346160+00:00",
     "teamCode": "CHW",
     "teamName": "Chicago White Sox",

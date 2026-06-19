@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-06-19T15:15:42.645462+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "added",
+    "playerName": "Christian Moore",
+    "position": "2B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-19T15:15:42.645474+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "added",
+    "playerName": "Ryan Johnson",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-19T15:15:42.645478+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "added",
+    "playerName": "Tyler Heineman",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-19T15:15:42.645482+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "removed",
+    "playerName": "Brett Kerry",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-19T15:15:42.645485+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "removed",
+    "playerName": "Logan Porter",
+    "position": "C",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-19T15:15:42.645487+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "removed",
+    "playerName": "Mike Trout",
+    "position": "CF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-17T18:02:35.474966+00:00",
     "teamCode": "LAA",
     "teamName": "Los Angeles Angels",

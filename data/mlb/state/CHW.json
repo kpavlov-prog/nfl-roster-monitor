@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-06-17T18:02:31.555542+00:00",
+  "checkedAt": "2026-06-19T15:15:38.601341+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -92,13 +92,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Everson Pereira",
-      "position": "RF",
-      "number": "28",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Grant Taylor",
       "position": "P",
       "number": "31",
@@ -116,6 +109,13 @@
       "name": "Joe Rock",
       "position": "P",
       "number": "46",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Junior Perez",
+      "position": "CF",
+      "number": "37",
       "status": "A",
       "source": "MLB Stats API"
     },

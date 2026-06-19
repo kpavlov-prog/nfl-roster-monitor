@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-19T15:15:49.541798+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Mariners",
+    "type": "added",
+    "playerName": "Connor Joe",
+    "position": "RF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-19T15:15:49.541811+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Mariners",
+    "type": "removed",
+    "playerName": "Curtis Washington Jr.",
+    "position": "CF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-17T18:02:42.150811+00:00",
     "teamCode": "SEA",
     "teamName": "Seattle Mariners",

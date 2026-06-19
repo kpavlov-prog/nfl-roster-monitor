@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/143/roster?rosterType=active",
-  "checkedAt": "2026-06-17T18:02:39.930827+00:00",
+  "checkedAt": "2026-06-19T15:15:47.231135+00:00",
   "players": [
     {
       "name": "Aaron Nola",
@@ -22,13 +22,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Andrew Painter",
-      "position": "P",
-      "number": "24",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Brandon Marsh",
       "position": "LF",
       "number": "16",
@@ -39,6 +32,13 @@
       "name": "Bryce Harper",
       "position": "1B",
       "number": "3",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Bryse Wilson",
+      "position": "P",
+      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -162,9 +162,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Tanner Banks",
+      "name": "Seth Johnson",
       "position": "P",
-      "number": "58",
+      "number": "51",
       "status": "A",
       "source": "MLB Stats API"
     },

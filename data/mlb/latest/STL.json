@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=active",
-  "checkedAt": "2026-06-17T18:02:42.707784+00:00",
+  "checkedAt": "2026-06-19T15:15:50.117616+00:00",
   "players": [
     {
       "name": "Alec Burleson",
@@ -32,13 +32,6 @@
       "name": "Bryan Torres",
       "position": "LF",
       "number": "39",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Chris Roycroft",
-      "position": "P",
-      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,6 +137,13 @@
       "name": "Matthew Liberatore",
       "position": "P",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Max Rajcic",
+      "position": "P",
+      "number": "71",
       "status": "A",
       "source": "MLB Stats API"
     },

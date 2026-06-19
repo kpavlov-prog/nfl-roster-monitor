@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-06-19T15:15:36.286752+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Braves",
+    "type": "added",
+    "playerName": "Carlos Carrasco",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-19T15:15:36.286762+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Braves",
+    "type": "added",
+    "playerName": "Joey Bart",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-19T15:15:36.286770+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Braves",
+    "type": "removed",
+    "playerName": "Anthony Molina",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-19T15:15:36.286774+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Braves",
+    "type": "removed",
+    "playerName": "Sandy León",
+    "position": "C",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-16T20:18:24.193810+00:00",
     "teamCode": "ATL",
     "teamName": "Atlanta Braves",

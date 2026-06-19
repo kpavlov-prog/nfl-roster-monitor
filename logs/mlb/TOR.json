@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-19T15:15:51.854708+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "added",
+    "playerName": "Chad Dallas",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-19T15:15:51.854722+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "removed",
+    "playerName": "Max Scherzer",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-13T15:15:29.790102+00:00",
     "teamCode": "TOR",
     "teamName": "Toronto Blue Jays",
