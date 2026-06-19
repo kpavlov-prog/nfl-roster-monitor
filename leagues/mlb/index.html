@@ -16,7 +16,7 @@ body{margin:0;font-family:Arial,sans-serif;background:radial-gradient(circle at 
 .container{max-width:1500px;margin:0 auto;padding:28px 24px 40px}
 .top-nav{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
 .nav-card{color:white;text-decoration:none;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.14);padding:10px 14px;border-radius:14px;font-weight:800}
-.nav-card.active{background:linear-gradient(135deg,var(--blue),var(--purple))}
+.nav-card.active{background:linear-gradient(135deg,var(--blue),var(--purple));}
 h1{margin:0;font-size:42px}.subtitle{margin-top:8px;color:#cbd5e1}
 .controls{margin-top:24px;display:flex;gap:12px;flex-wrap:wrap;background:rgba(255,255,255,.08);padding:14px;border-radius:18px}
 button,input,select{padding:11px 14px;border-radius:12px;border:none;font-size:14px}
@@ -28,10 +28,10 @@ button.secondary{background:#334155}
 .stat-value{font-size:34px;font-weight:900}.stat-label{margin-top:6px;color:var(--muted);font-size:13px}
 .layout{margin-top:18px;display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:start}
 .panel{background:white;color:var(--text);border-radius:20px;padding:18px;box-shadow:0 12px 30px rgba(0,0,0,.18)}
-.panel+.panel{margin-top:18px}.teams{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.panel+.panel{margin-top:18px}
+.teams{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
 .team{border:2px solid transparent;border-radius:16px;padding:14px;background:#f8fafc;cursor:pointer}
-.team:hover{border-color:var(--blue)}.team.selected{border-color:var(--purple);background:#f5f3ff}
-.team.has-change{border-color:var(--yellow)}
+.team:hover{border-color:var(--blue)}.team.selected{border-color:var(--purple);background:#f5f3ff}.team.has-change{border-color:var(--yellow)}
 .team-top{display:flex;align-items:center;gap:12px}.team-logo{width:46px;height:46px;object-fit:contain}
 .team-name{font-weight:900;font-size:15px}.team-code{margin-top:4px;display:inline-block;background:#dbeafe;color:#1d4ed8;padding:3px 8px;border-radius:999px;font-size:11px;font-weight:900}
 .meta{margin-top:8px;color:var(--muted);font-size:12px;line-height:1.45}
@@ -43,6 +43,8 @@ button.secondary{background:#334155}
 .csv-row,.change-item{padding:12px;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;background:#f8fafc}
 .csv-found{border-left:6px solid var(--green)}.csv-missing{border-left:6px solid var(--red)}.csv-warning{border-left:6px solid var(--yellow)}
 .empty{color:var(--muted);font-style:italic}
+.history-title{cursor:pointer;background:#f1f5f9;border-radius:12px;padding:10px 12px;margin-top:14px}
+.small-btn{padding:7px 10px;font-size:12px;border-radius:9px}
 @media(max-width:1050px){.stats,.layout{grid-template-columns:1fr}}
 </style>
 </head>
@@ -65,6 +67,8 @@ button.secondary{background:#334155}
 <div class="controls">
   <button onclick="loadDashboard()">Refresh dashboard</button>
   <button class="secondary" onclick="exportCsv()">Export changes CSV</button>
+  <button class="secondary" onclick="clearAllChanges()">Clear All Changes</button>
+  <button class="secondary" onclick="resetCheckedChanges()">Reset checked items</button>
   <select id="teamSelect" onchange="selectTeam(this.value)"></select>
   <input id="searchBox" placeholder="Search player..." oninput="renderSelectedTeam()" />
 </div>
@@ -75,7 +79,7 @@ button.secondary{background:#334155}
   <div class="stat"><div id="teamsChecked" class="stat-value">-</div><div class="stat-label">Teams checked</div></div>
   <div class="stat"><div id="teamsOk" class="stat-value">-</div><div class="stat-label">Teams OK</div></div>
   <div class="stat"><div id="teamsErrored" class="stat-value">-</div><div class="stat-label">Teams errored</div></div>
-  <div class="stat"><div id="totalChanges" class="stat-value">-</div><div class="stat-label">Logged changes</div></div>
+  <div class="stat"><div id="totalChanges" class="stat-value">-</div><div class="stat-label">Unchecked changes</div></div>
 </div>
 
 <div class="layout">
@@ -116,7 +120,7 @@ const LOGOS={
 ARI:"https://a.espncdn.com/i/teamlogos/mlb/500/ari.png",ATL:"https://a.espncdn.com/i/teamlogos/mlb/500/atl.png",BAL:"https://a.espncdn.com/i/teamlogos/mlb/500/bal.png",BOS:"https://a.espncdn.com/i/teamlogos/mlb/500/bos.png",CHC:"https://a.espncdn.com/i/teamlogos/mlb/500/chc.png",CHW:"https://a.espncdn.com/i/teamlogos/mlb/500/chw.png",CIN:"https://a.espncdn.com/i/teamlogos/mlb/500/cin.png",CLE:"https://a.espncdn.com/i/teamlogos/mlb/500/cle.png",COL:"https://a.espncdn.com/i/teamlogos/mlb/500/col.png",DET:"https://a.espncdn.com/i/teamlogos/mlb/500/det.png",HOU:"https://a.espncdn.com/i/teamlogos/mlb/500/hou.png",KC:"https://a.espncdn.com/i/teamlogos/mlb/500/kc.png",LAA:"https://a.espncdn.com/i/teamlogos/mlb/500/laa.png",LAD:"https://a.espncdn.com/i/teamlogos/mlb/500/lad.png",MIA:"https://a.espncdn.com/i/teamlogos/mlb/500/mia.png",MIL:"https://a.espncdn.com/i/teamlogos/mlb/500/mil.png",MIN:"https://a.espncdn.com/i/teamlogos/mlb/500/min.png",NYM:"https://a.espncdn.com/i/teamlogos/mlb/500/nym.png",NYY:"https://a.espncdn.com/i/teamlogos/mlb/500/nyy.png",ATH:"https://a.espncdn.com/i/teamlogos/mlb/500/ath.png",PHI:"https://a.espncdn.com/i/teamlogos/mlb/500/phi.png",PIT:"https://a.espncdn.com/i/teamlogos/mlb/500/pit.png",SD:"https://a.espncdn.com/i/teamlogos/mlb/500/sd.png",SF:"https://a.espncdn.com/i/teamlogos/mlb/500/sf.png",SEA:"https://a.espncdn.com/i/teamlogos/mlb/500/sea.png",STL:"https://a.espncdn.com/i/teamlogos/mlb/500/stl.png",TB:"https://a.espncdn.com/i/teamlogos/mlb/500/tb.png",TEX:"https://a.espncdn.com/i/teamlogos/mlb/500/tex.png",TOR:"https://a.espncdn.com/i/teamlogos/mlb/500/tor.png",WSH:"https://a.espncdn.com/i/teamlogos/mlb/500/wsh.png"
 };
 
-let summary={},statusRows=[],rosters={},allChanges=[],selectedCode="NYY",teamHistory=[];
+let summary={},statusRows=[],rosters={},allChanges=[],visibleChanges=[],teamHistory=[],selectedCode="NYY";
 const CHECKED_KEY="mlb_checked_changes";
 
 async function fetchJson(path){
@@ -131,51 +135,25 @@ function gmt(value){
 }
 
 function norm(v){
-  function changeId(c){
-    return [
-    c.timestamp||"",
-    c.teamCode||"",
-    c.type||"",
-    c.playerName||"",
-    c.oldValue||"",
-    c.newValue||""
-    ].join("|");
-  }
-
-  function checkedChanges(){
-    return JSON.parse(localStorage.getItem(CHECKED_KEY)||"[]");
-  }
-  
-  function saveCheckedChanges(items){
-    localStorage.setItem(CHECKED_KEY,JSON.stringify(items));
-  }
-  
-  function markChangeChecked(id){
-    const checked=new Set(checkedChanges());
-    checked.add(id);
-    saveCheckedChanges([...checked]);
-    renderChanges();
-  }
-  
-    function clearAllChanges(){
-      const checked=new Set(checkedChanges());
-      allChanges.forEach(c=>checked.add(changeId(c)));
-      saveCheckedChanges([...checked]);
-      renderChanges();
-  }
-  return String(v || "")
+  return String(v||"")
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/\s*\([^)]*\)\s*/g, "")
-    .replace(/\b(jr|sr|ii|iii|iv|v)\b\.?/gi, "")
+    .replace(/[\u0300-\u036f]/g,"")
+    .replace(/\s*\([^)]*\)\s*/g,"")
+    .replace(/\b(jr|sr|ii|iii|iv|v)\b\.?/gi,"")
     .toLowerCase()
-    .replace(/[^a-z0-9]/g, "");
+    .replace(/[^a-z0-9]/g,"");
 }
+
+function normStatus(v){
+  const s=norm(v);
+  if(["a","active","act"].includes(s))return"a";
+  if(["il","injuredlist","injured"].includes(s))return"il";
+  return s;
+}
+
 function normPosition(v){
-  const s = norm(v);
-
-  if(["pitcher","p"].includes(s)) return "pitcher";
-
+  const s=norm(v);
+  if(["pitcher","p"].includes(s))return"pitcher";
   if([
     "hitter","bat","batter",
     "c","catcher",
@@ -187,16 +165,48 @@ function normPosition(v){
     "cf","centerfield",
     "rf","rightfield",
     "of","outfield"
-  ].includes(s)) return "hitter";
-
+  ].includes(s))return"hitter";
   return s;
 }
-  
-function normStatus(v){
-  const s=norm(v);
-  if(["a","active","act"].includes(s))return"a";
-  if(["il","injuredlist","injured"].includes(s))return"il";
-  return s;
+
+function changeId(c){
+  return [
+    c.timestamp||"",
+    c.teamCode||"",
+    c.type||"",
+    c.playerName||"",
+    c.oldValue||"",
+    c.newValue||""
+  ].join("|");
+}
+
+function checkedChanges(){
+  return JSON.parse(localStorage.getItem(CHECKED_KEY)||"[]");
+}
+
+function saveCheckedChanges(items){
+  localStorage.setItem(CHECKED_KEY,JSON.stringify(items));
+}
+
+function markVisibleChangeChecked(index){
+  const c=visibleChanges[index];
+  if(!c)return;
+  const checked=new Set(checkedChanges());
+  checked.add(changeId(c));
+  saveCheckedChanges([...checked]);
+  renderChanges();
+}
+
+function clearAllChanges(){
+  const checked=new Set(checkedChanges());
+  allChanges.forEach(c=>checked.add(changeId(c)));
+  saveCheckedChanges([...checked]);
+  renderChanges();
+}
+
+function resetCheckedChanges(){
+  localStorage.removeItem(CHECKED_KEY);
+  renderChanges();
 }
 
 async function loadDashboard(){
@@ -238,7 +248,6 @@ function renderSummary(){
   document.getElementById("teamsChecked").textContent=summary.teamsChecked||0;
   document.getElementById("teamsOk").textContent=summary.teamsOk||0;
   document.getElementById("teamsErrored").textContent=summary.teamsErrored||0;
-  document.getElementById("totalChanges").textContent=allChanges.length||0;
 }
 
 function renderTeamOptions(){
@@ -257,27 +266,23 @@ function renderChanges(){
   const box=document.getElementById("latestChanges");
   const checked=new Set(checkedChanges());
 
-  const visible=allChanges.filter(c=>!checked.has(changeId(c)));
+  visibleChanges=allChanges.filter(c=>!checked.has(changeId(c)));
+  document.getElementById("totalChanges").textContent=visibleChanges.length||0;
 
-  document.getElementById("totalChanges").textContent=visible.length||0;
-
-  if(!visible.length){
+  if(!visibleChanges.length){
     box.innerHTML=`<div class="empty">No unchecked MLB roster changes.</div>`;
     return;
   }
 
-  box.innerHTML=visible.slice(0,20).map(c=>{
-    const id=changeId(c);
-    return `
-      <div class="change-item">
-        <b>${c.teamName||c.teamCode}: ${c.playerName}</b>
-        <div class="meta">${c.type} | ${c.oldValue||"-"} → ${c.newValue||"-"}</div>
-        <div class="meta">${gmt(c.timestamp)} | ${String(c.severity||"low").toUpperCase()}</div>
-        <br>
-        <button class="secondary" onclick="markChangeChecked('${id.replace(/'/g,"\\'")}')">Checked</button>
-      </div>
-    `;
-  }).join("");
+  box.innerHTML=visibleChanges.slice(0,20).map((c,index)=>`
+    <div class="change-item">
+      <b>${c.teamName||c.teamCode}: ${c.playerName}</b>
+      <div class="meta">${c.type} | ${c.oldValue||"-"} → ${c.newValue||"-"}</div>
+      <div class="meta">${gmt(c.timestamp)} | ${String(c.severity||"low").toUpperCase()}</div>
+      <br>
+      <button class="secondary small-btn" onclick="markVisibleChangeChecked(${index})">Checked</button>
+    </div>
+  `).join("");
 }
 
 function renderTeams(){
@@ -310,15 +315,6 @@ function statusLabel(status){
 }
 
 function renderSelectedTeam(){
-  fetchJson(`../../logs/mlb/${selectedCode}.json`)
-  .then(items=>{
-    teamHistory=items||[];
-    renderSelectedTeamHistory();
-  })
-  .catch(()=>{
-    teamHistory=[];
-    renderSelectedTeamHistory();
-  });
   const roster=rosters[selectedCode];
 
   if(!roster){
@@ -356,8 +352,27 @@ function renderSelectedTeam(){
       `).join("")
       : `<div class="empty">No players found.</div>`
     }
+
+    <hr>
+    <h3 class="history-title" onclick="toggleHistory()">▼ Show Team History</h3>
+    <div id="teamHistoryBox" style="display:none;" class="empty">Loading history...</div>
   `;
+
+  loadTeamHistory();
 }
+
+function loadTeamHistory(){
+  fetchJson(`../../logs/mlb/${selectedCode}.json`)
+    .then(items=>{
+      teamHistory=items||[];
+      renderSelectedTeamHistory();
+    })
+    .catch(()=>{
+      teamHistory=[];
+      renderSelectedTeamHistory();
+    });
+}
+
 function toggleHistory(){
   const box=document.getElementById("teamHistoryBox");
   if(!box)return;
@@ -381,6 +396,7 @@ function renderSelectedTeamHistory(){
     </div>
   `).join("");
 }
+
 function parseCsv(text){
   const rows=[];let row=[],field="",quotes=false;
   for(let i=0;i<text.length;i++){
