@@ -3,7 +3,7 @@
   "team": "Toronto Maple Leafs",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/TOR/current",
-  "checkedAt": "2026-06-18T18:18:02.073723+00:00",
+  "checkedAt": "2026-06-19T17:06:12.512470+00:00",
   "players": [
     {
       "name": "Anthony Stolarz",
@@ -51,6 +51,13 @@
       "name": "Dakota Joshua",
       "position": "C",
       "number": "81",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Darren Raddysh",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
