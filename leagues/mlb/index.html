@@ -131,6 +131,38 @@ function gmt(value){
 }
 
 function norm(v){
+  function changeId(c){
+  return [
+    c.timestamp||"",
+    c.teamCode||"",
+    c.type||"",
+    c.playerName||"",
+    c.oldValue||"",
+    c.newValue||""
+  ].join("|");
+}
+
+function checkedChanges(){
+  return JSON.parse(localStorage.getItem(CHECKED_KEY)||"[]");
+}
+
+function saveCheckedChanges(items){
+  localStorage.setItem(CHECKED_KEY,JSON.stringify(items));
+}
+
+function markChangeChecked(id){
+  const checked=new Set(checkedChanges());
+  checked.add(id);
+  saveCheckedChanges([...checked]);
+  renderChanges();
+}
+
+function clearAllChanges(){
+  const checked=new Set(checkedChanges());
+  allChanges.forEach(c=>checked.add(changeId(c)));
+  saveCheckedChanges([...checked]);
+  renderChanges();
+}
   return String(v || "")
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
