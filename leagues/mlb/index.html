@@ -310,6 +310,15 @@ function statusLabel(status){
 }
 
 function renderSelectedTeam(){
+  fetchJson(`../../logs/mlb/${selectedCode}.json`)
+  .then(items=>{
+    teamHistory=items||[];
+    renderSelectedTeamHistory();
+  })
+  .catch(()=>{
+    teamHistory=[];
+    renderSelectedTeamHistory();
+  });
   const roster=rosters[selectedCode];
 
   if(!roster){
