@@ -403,33 +403,15 @@ function compareCsv(text){
         return;
       }
 
-      const issues=[];
-
-      if(csvPlayer.position&&norm(csvPlayer.position)!==norm(official.position)){
-        issues.push(`Position CSV ${csvPlayer.position} vs Official ${official.position}`);
-      }
-
-      if(csvPlayer.status&&normStatus(csvPlayer.status)!==normStatus(official.status)){
-        issues.push(`Status CSV ${csvPlayer.status} vs Official ${official.status}`);
-      }
-
-      if(issues.length){
-        mismatch++;
-        mismatchRows.push(`
-          <div class="csv-row csv-warning">
-            <b>Mismatch:</b> ${csvPlayer.rawName} | ${code}
-            <div class="meta">${issues.join(" | ")}</div>
-          </div>
-        `);
-      }else{
-        found++;
-        foundRows.push(`
-          <div class="csv-row csv-found">
-            <b>Found in both:</b> ${csvPlayer.rawName} | ${code}
-            <div class="meta">Official: ${official.position} | ${official.status}</div>
-          </div>
-        `);
-      }
+     found++;
+foundRows.push(`
+  <div class="csv-row csv-found">
+    <b>Found in both:</b> ${csvPlayer.rawName} | ${code}
+    <div class="meta">
+      Official roster match: ${official.name}
+    </div>
+  </div>
+`);
     });
 
     officialPlayers.forEach(official=>{
@@ -454,7 +436,6 @@ function compareCsv(text){
       |
       Official players missing from CSV: ${missingCsv}
       |
-      Position/status mismatches: ${mismatch}
     </div>
     <br>
 
@@ -463,9 +444,7 @@ function compareCsv(text){
 
     <h3>Needs Review: On official roster but missing from CSV</h3>
     ${missingCsvRows.join("")||`<div class="empty">None.</div>`}
-
-    <h3>Position / Status Mismatches</h3>
-    ${mismatchRows.join("")||`<div class="empty">None.</div>`}
+    
 
     <h3>Found in both</h3>
     ${foundRows.join("")||`<div class="empty">None.</div>`}
