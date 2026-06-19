@@ -4,8 +4,13 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>NBA Roster Monitor</title>
+
 <style>
-:root{--bg:#081226;--text:#111827;--muted:#64748b;--blue:#2563eb;--purple:#7c3aed;--green:#16a34a;--green-bg:#dcfce7;--yellow:#d97706;--yellow-bg:#fef3c7;--red:#dc2626;--red-bg:#fee2e2;--line:#e5e7eb}
+:root{
+  --bg:#081226;--text:#111827;--muted:#64748b;--blue:#2563eb;--purple:#7c3aed;
+  --green:#16a34a;--green-bg:#dcfce7;--yellow:#d97706;--yellow-bg:#fef3c7;
+  --red:#dc2626;--red-bg:#fee2e2;--line:#e5e7eb;
+}
 *{box-sizing:border-box}
 body{margin:0;font-family:Arial,sans-serif;background:radial-gradient(circle at top left,rgba(37,99,235,.28),transparent 32%),radial-gradient(circle at top right,rgba(124,58,237,.22),transparent 28%),var(--bg);color:white;min-height:100vh}
 .container{max-width:1500px;margin:0 auto;padding:28px 24px 40px}
@@ -16,13 +21,15 @@ h1{margin:0;font-size:42px}.subtitle{margin-top:8px;color:#cbd5e1}
 .controls{margin-top:24px;display:flex;gap:12px;flex-wrap:wrap;background:rgba(255,255,255,.08);padding:14px;border-radius:18px}
 button,input,select{padding:11px 14px;border-radius:12px;border:none;font-size:14px}
 button{background:linear-gradient(135deg,var(--blue),var(--purple));color:white;font-weight:800;cursor:pointer}
-button.secondary{background:#334155}.status{margin-top:14px;color:#dbeafe;font-size:14px}
+button.secondary{background:#334155}
+.status{margin-top:14px;color:#dbeafe;font-size:14px}
 .stats{margin-top:18px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
 .stat{background:white;color:var(--text);border-radius:18px;padding:18px;box-shadow:0 10px 25px rgba(0,0,0,.18);border-top:5px solid var(--purple)}
 .stat-value{font-size:34px;font-weight:900}.stat-label{margin-top:6px;color:var(--muted);font-size:13px}
 .layout{margin-top:18px;display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:start}
 .panel{background:white;color:var(--text);border-radius:20px;padding:18px;box-shadow:0 12px 30px rgba(0,0,0,.18)}
-.panel+.panel{margin-top:18px}.teams{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.panel+.panel{margin-top:18px}
+.teams{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
 .team{border:2px solid transparent;border-radius:16px;padding:14px;background:#f8fafc;cursor:pointer}
 .team:hover{border-color:var(--blue)}.team.selected{border-color:var(--purple);background:#f5f3ff}.team.has-change{border-color:var(--yellow)}
 .team-top{display:flex;align-items:center;gap:12px}.team-logo{width:46px;height:46px;object-fit:contain}
@@ -36,6 +43,8 @@ button.secondary{background:#334155}.status{margin-top:14px;color:#dbeafe;font-s
 .csv-row,.change-item{padding:12px;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;background:#f8fafc}
 .csv-found{border-left:6px solid var(--green)}.csv-missing{border-left:6px solid var(--red)}.csv-warning{border-left:6px solid var(--yellow)}
 .empty{color:var(--muted);font-style:italic}
+.history-title{cursor:pointer;background:#f1f5f9;border-radius:12px;padding:10px 12px;margin-top:14px}
+.small-btn{padding:7px 10px;font-size:12px;border-radius:9px}
 @media(max-width:1050px){.stats,.layout{grid-template-columns:1fr}}
 </style>
 </head>
@@ -46,7 +55,7 @@ button.secondary{background:#334155}.status{margin-top:14px;color:#dbeafe;font-s
 <div class="top-nav">
   <a class="nav-card" href="../../">Sports Hub</a>
   <a class="nav-card" href="../../leagues/nfl/">Football</a>
-  <a class="nav-card active" href="./">Basketball</a>
+  <a class="nav-card active" href="./">NBA</a>
   <a class="nav-card" href="../../leagues/wnba/">WNBA</a>
   <a class="nav-card" href="../../leagues/mlb/">Baseball</a>
   <a class="nav-card" href="../../leagues/nhl/">Ice Hockey</a>
@@ -58,6 +67,8 @@ button.secondary{background:#334155}.status{margin-top:14px;color:#dbeafe;font-s
 <div class="controls">
   <button onclick="loadDashboard()">Refresh dashboard</button>
   <button class="secondary" onclick="exportCsv()">Export changes CSV</button>
+  <button class="secondary" onclick="clearAllChanges()">Clear All Changes</button>
+  <button class="secondary" onclick="resetCheckedChanges()">Reset checked items</button>
   <select id="teamSelect" onchange="selectTeam(this.value)"></select>
   <input id="searchBox" placeholder="Search player..." oninput="renderSelectedTeam()" />
 </div>
@@ -68,7 +79,7 @@ button.secondary{background:#334155}.status{margin-top:14px;color:#dbeafe;font-s
   <div class="stat"><div id="teamsChecked" class="stat-value">-</div><div class="stat-label">Teams checked</div></div>
   <div class="stat"><div id="teamsOk" class="stat-value">-</div><div class="stat-label">Teams OK</div></div>
   <div class="stat"><div id="teamsErrored" class="stat-value">-</div><div class="stat-label">Teams errored</div></div>
-  <div class="stat"><div id="totalChanges" class="stat-value">-</div><div class="stat-label">Logged changes</div></div>
+  <div class="stat"><div id="totalChanges" class="stat-value">-</div><div class="stat-label">Unchecked changes</div></div>
 </div>
 
 <div class="layout">
@@ -82,7 +93,7 @@ button.secondary{background:#334155}.status{margin-top:14px;color:#dbeafe;font-s
       <h2>NBA CSV Roster Check</h2>
       <div class="meta">
         Upload CSV with columns: <b>Name</b>, <b>Team name</b>, <b>Position</b>, <b>Status</b>.
-        Other columns are ignored.
+        Position/status are ignored for basketball matching.
       </div>
       <br>
       <input type="file" id="csvFile" accept=".csv" />
@@ -138,7 +149,8 @@ UTAH:"https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
 WSH:"https://a.espncdn.com/i/teamlogos/nba/500/wsh.png"
 };
 
-let summary={},statusRows=[],rosters={},allChanges=[],selectedCode="BOS";
+let summary={},statusRows=[],rosters={},allChanges=[],visibleChanges=[],teamHistory=[],selectedCode="BOS";
+const CHECKED_KEY="nba_checked_changes";
 
 async function fetchJson(path){
   const res=await fetch(path+"?v="+Date.now());
@@ -152,13 +164,53 @@ function gmt(value){
 }
 
 function norm(v){
-  return String(v||"").replace(/\s*\([^)]*\)\s*/g,"").toLowerCase().replace(/[^a-z0-9]/g,"");
+  return String(v||"")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g,"")
+    .replace(/\s*\([^)]*\)\s*/g,"")
+    .replace(/\b(jr|sr|ii|iii|iv|v)\b\.?/gi,"")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g,"");
 }
 
-function normStatus(v){
-  const s=norm(v);
-  if(["active","act","a"].includes(s))return"active";
-  return s;
+function changeId(c){
+  return [
+    c.timestamp||"",
+    c.teamCode||"",
+    c.type||"",
+    c.playerName||"",
+    c.oldValue||"",
+    c.newValue||""
+  ].join("|");
+}
+
+function checkedChanges(){
+  return JSON.parse(localStorage.getItem(CHECKED_KEY)||"[]");
+}
+
+function saveCheckedChanges(items){
+  localStorage.setItem(CHECKED_KEY,JSON.stringify(items));
+}
+
+function markVisibleChangeChecked(index){
+  const c=visibleChanges[index];
+  if(!c)return;
+  const checked=new Set(checkedChanges());
+  checked.add(changeId(c));
+  saveCheckedChanges([...checked]);
+  renderChanges();
+}
+
+function clearAllChanges(){
+  const checked=new Set(checkedChanges());
+  allChanges.forEach(c=>checked.add(changeId(c)));
+  saveCheckedChanges([...checked]);
+  renderChanges();
+}
+
+function resetCheckedChanges(){
+  localStorage.removeItem(CHECKED_KEY);
+  renderChanges();
 }
 
 async function loadDashboard(){
@@ -200,7 +252,6 @@ function renderSummary(){
   document.getElementById("teamsChecked").textContent=summary.teamsChecked||0;
   document.getElementById("teamsOk").textContent=summary.teamsOk||0;
   document.getElementById("teamsErrored").textContent=summary.teamsErrored||0;
-  document.getElementById("totalChanges").textContent=allChanges.length||0;
 }
 
 function renderTeamOptions(){
@@ -217,17 +268,23 @@ function selectTeam(code){
 
 function renderChanges(){
   const box=document.getElementById("latestChanges");
+  const checked=new Set(checkedChanges());
 
-  if(!allChanges.length){
-    box.innerHTML=`<div class="empty">No NBA roster changes logged yet.</div>`;
+  visibleChanges=allChanges.filter(c=>!checked.has(changeId(c)));
+  document.getElementById("totalChanges").textContent=visibleChanges.length||0;
+
+  if(!visibleChanges.length){
+    box.innerHTML=`<div class="empty">No unchecked NBA roster changes.</div>`;
     return;
   }
 
-  box.innerHTML=allChanges.slice(0,20).map(c=>`
+  box.innerHTML=visibleChanges.slice(0,20).map((c,index)=>`
     <div class="change-item">
       <b>${c.teamName||c.teamCode}: ${c.playerName}</b>
       <div class="meta">${c.type} | ${c.oldValue||"-"} → ${c.newValue||"-"}</div>
       <div class="meta">${gmt(c.timestamp)} | ${String(c.severity||"low").toUpperCase()}</div>
+      <br>
+      <button class="secondary small-btn" onclick="markVisibleChangeChecked(${index})">Checked</button>
     </div>
   `).join("");
 }
@@ -293,7 +350,49 @@ function renderSelectedTeam(){
       `).join("")
       : `<div class="empty">No players found.</div>`
     }
+
+    <hr>
+    <h3 class="history-title" onclick="toggleHistory()">▼ Show Team History</h3>
+    <div id="teamHistoryBox" style="display:none;" class="empty">Loading history...</div>
   `;
+
+  loadTeamHistory();
+}
+
+function loadTeamHistory(){
+  fetchJson(`../../logs/nba/${selectedCode}.json`)
+    .then(items=>{
+      teamHistory=items||[];
+      renderSelectedTeamHistory();
+    })
+    .catch(()=>{
+      teamHistory=[];
+      renderSelectedTeamHistory();
+    });
+}
+
+function toggleHistory(){
+  const box=document.getElementById("teamHistoryBox");
+  if(!box)return;
+  box.style.display=box.style.display==="none"?"block":"none";
+}
+
+function renderSelectedTeamHistory(){
+  const box=document.getElementById("teamHistoryBox");
+  if(!box)return;
+
+  if(!teamHistory.length){
+    box.innerHTML=`<div class="empty">No NBA history for this team yet.</div>`;
+    return;
+  }
+
+  box.innerHTML=teamHistory.slice(0,50).map(c=>`
+    <div class="change-item">
+      <b>${c.playerName}</b>
+      <div class="meta">${c.type} | ${c.oldValue||"-"} → ${c.newValue||"-"}</div>
+      <div class="meta">${gmt(c.timestamp)} | ${String(c.severity||"low").toUpperCase()}</div>
+    </div>
+  `).join("");
 }
 
 function parseCsv(text){
@@ -343,9 +442,7 @@ function compareCsv(text){
 
   const idx={
     name:headers.indexOf("name"),
-    team:headers.indexOf("team name"),
-    position:headers.indexOf("position"),
-    status:headers.indexOf("status")
+    team:headers.indexOf("team name")
   };
 
   if(idx.name<0){
@@ -356,10 +453,11 @@ function compareCsv(text){
   const csvByTeam={};
   const missingOfficialRows=[];
   const missingCsvRows=[];
-  const mismatchRows=[];
   const foundRows=[];
 
-  let found=0,missingOfficial=0,missingCsv=0,mismatch=0;
+  let found=0;
+  let missingOfficial=0;
+  let missingCsv=0;
 
   rows.slice(1).forEach(r=>{
     const rawName=(r[idx.name]||"").trim();
@@ -368,16 +466,12 @@ function compareCsv(text){
     const cleanName=rawName.replace(/\s*\([^)]*\)\s*/g,"").trim();
     const teamVal=idx.team>=0?(r[idx.team]||"").trim():"";
     const code=teamCodeFromCsv(teamVal);
-    const csvPos=idx.position>=0?(r[idx.position]||"").trim():"";
-    const csvStatus=idx.status>=0?(r[idx.status]||"").trim():"";
 
     if(!csvByTeam[code])csvByTeam[code]=[];
 
     csvByTeam[code].push({
       name:cleanName,
-      rawName,
-      position:csvPos,
-      status:csvStatus
+      rawName
     });
   });
 
@@ -403,15 +497,13 @@ function compareCsv(text){
         return;
       }
 
-     found++;
-foundRows.push(`
-  <div class="csv-row csv-found">
-    <b>Found in both:</b> ${csvPlayer.rawName} | ${code}
-    <div class="meta">
-      Official roster match: ${official.name}
-    </div>
-  </div>
-`);
+      found++;
+      foundRows.push(`
+        <div class="csv-row csv-found">
+          <b>Found in both:</b> ${csvPlayer.rawName} | ${code}
+          <div class="meta">Official roster match: ${official.name}</div>
+        </div>
+      `);
     });
 
     officialPlayers.forEach(official=>{
@@ -420,7 +512,7 @@ foundRows.push(`
         missingCsvRows.push(`
           <div class="csv-row csv-warning">
             <b>Missing from CSV:</b> ${official.name} | ${code}
-            <div class="meta">Official: #${official.number||"-"} | ${official.position} | ${official.status}</div>
+            <div class="meta">Official: #${official.number||"-"} | ${official.position||"-"} | ${official.status||"ACTIVE"}</div>
           </div>
         `);
       }
@@ -435,7 +527,6 @@ foundRows.push(`
       CSV players missing from official roster: ${missingOfficial}
       |
       Official players missing from CSV: ${missingCsv}
-      |
     </div>
     <br>
 
@@ -444,7 +535,6 @@ foundRows.push(`
 
     <h3>Needs Review: On official roster but missing from CSV</h3>
     ${missingCsvRows.join("")||`<div class="empty">None.</div>`}
-    
 
     <h3>Found in both</h3>
     ${foundRows.join("")||`<div class="empty">None.</div>`}
