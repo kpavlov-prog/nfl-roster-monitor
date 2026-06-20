@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/139/roster?rosterType=active",
-  "checkedAt": "2026-06-19T17:08:49.108223+00:00",
+  "checkedAt": "2026-06-20T15:22:04.263147+00:00",
   "players": [
-    {
-      "name": "Austin Slater",
-      "position": "RF",
-      "number": "20",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Ben Williamson",
       "position": "2B",
@@ -109,6 +102,13 @@
       "name": "Jonathan Aranda",
       "position": "1B",
       "number": "8",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jonny DeLuca",
+      "position": "RF",
+      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     },

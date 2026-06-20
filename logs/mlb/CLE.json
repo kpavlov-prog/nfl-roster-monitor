@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-20T15:21:54.084957+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Guardians",
+    "type": "added",
+    "playerName": "Erik Sabrowski",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-20T15:21:54.084972+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Guardians",
+    "type": "removed",
+    "playerName": "Will Dion",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-19T15:15:39.758027+00:00",
     "teamCode": "CLE",
     "teamName": "Cleveland Guardians",

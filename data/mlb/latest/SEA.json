@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=active",
-  "checkedAt": "2026-06-19T17:08:47.916992+00:00",
+  "checkedAt": "2026-06-20T15:22:03.187660+00:00",
   "players": [
     {
       "name": "Alex Hoppe",
@@ -155,13 +155,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Miles Mastrobuoni",
-      "position": "3B",
-      "number": "21",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Mitch Garver",
       "position": "C",
       "number": "18",
@@ -186,6 +179,13 @@
       "name": "Victor Robles",
       "position": "RF",
       "number": "10",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Weston Wilson",
+      "position": "3B",
+      "number": "31",
       "status": "A",
       "source": "MLB Stats API"
     }

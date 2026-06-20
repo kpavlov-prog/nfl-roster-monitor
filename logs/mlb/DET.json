@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-20T15:21:55.168369+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Tigers",
+    "type": "added",
+    "playerName": "Trei Cruz",
+    "position": "CF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-20T15:21:55.168384+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Tigers",
+    "type": "removed",
+    "playerName": "Wenceel Pérez",
+    "position": "RF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-17T18:02:33.792744+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Tigers",

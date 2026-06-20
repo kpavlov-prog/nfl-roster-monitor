@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=active",
-  "checkedAt": "2026-06-19T17:08:39.089298+00:00",
+  "checkedAt": "2026-06-20T15:21:55.167561+00:00",
   "players": [
     {
       "name": "Casey Mize",
@@ -155,6 +155,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Trei Cruz",
+      "position": "CF",
+      "number": "40",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Troy Melton",
       "position": "P",
       "number": "52",
@@ -165,13 +172,6 @@
       "name": "Tyler Holton",
       "position": "P",
       "number": "87",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Wenceel Pérez",
-      "position": "RF",
-      "number": "46",
       "status": "A",
       "source": "MLB Stats API"
     },

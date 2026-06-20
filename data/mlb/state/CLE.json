@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active",
-  "checkedAt": "2026-06-19T17:08:37.884740+00:00",
+  "checkedAt": "2026-06-20T15:21:54.084049+00:00",
   "players": [
     {
       "name": "Austin Hedges",
@@ -53,6 +53,13 @@
       "name": "David Fry",
       "position": "RF",
       "number": "6",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Erik Sabrowski",
+      "position": "P",
+      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,13 +186,6 @@
       "name": "Travis Bazzana",
       "position": "2B",
       "number": "37",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Will Dion",
-      "position": "P",
-      "number": "98",
       "status": "A",
       "source": "MLB Stats API"
     }

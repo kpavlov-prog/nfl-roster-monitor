@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/118/roster?rosterType=active",
-  "checkedAt": "2026-06-19T17:08:40.258528+00:00",
+  "checkedAt": "2026-06-20T15:21:56.242192+00:00",
   "players": [
     {
       "name": "Alex Lange",
@@ -113,13 +113,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Mason Black",
-      "position": "P",
-      "number": "47",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Matt Strahm",
       "position": "P",
       "number": "25",
@@ -158,6 +151,13 @@
       "name": "Salvador Perez",
       "position": "C",
       "number": "13",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Seth Lugo",
+      "position": "P",
+      "number": "67",
       "status": "A",
       "source": "MLB Stats API"
     },

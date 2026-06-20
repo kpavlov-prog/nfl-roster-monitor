@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-06-20T15:22:02.117847+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "added",
+    "playerName": "Mason Miller",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-20T15:22:02.117856+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "added",
+    "playerName": "Ron Marinaccio",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-20T15:22:02.117862+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "removed",
+    "playerName": "Bradgley Rodriguez",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-17T18:02:41.049600+00:00",
     "teamCode": "SD",
     "teamName": "San Diego Padres",
