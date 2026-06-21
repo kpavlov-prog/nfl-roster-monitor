@@ -90,13 +90,28 @@ def fetch_roster(team):
 
     players = []
 
-    for athlete in data.get("athletes", []):
+    raw_athletes = data.get("athletes", [])
+    players = []
+
+    for item in raw_athletes:
+        athlete = item.get("athlete") if isinstance(item, dict) and "athlete" in item else item
+    
+        if not isinstance(athlete, dict):
+            continue
+    
         position = athlete.get("position") or {}
+    
+        if isinstance(position, str):
+            position_value = position
+        elif isinstance(position, dict):
+            position_value = position.get("abbreviation", "")
+        else:
+            position_value = ""
 
         players.append({
-            "name": athlete.get("displayName") or athlete.get("fullName") or "",
-            "position": position.get("abbreviation", ""),
-            "number": str(athlete.get("jersey") or ""),
+            "name": athlete.get("displayName") or athlete.get("fullName") or athlete.get("name") or "",
+            "position": position_value,
+            "number": str(athlete.get("jersey") or athlete.get("number") or ""),
             "status": "ACTIVE",
             "source": "ESPN College Football API",
         })
