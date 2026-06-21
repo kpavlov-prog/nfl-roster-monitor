@@ -14,7 +14,7 @@ LATEST = DATA / "latest"
 STATE = DATA / "state"
 LOGS = ROOT / "logs" / "ncaaf"
 
-TEAMS_PAGE_URL = "https://www.espn.com/college-football/teams"
+TEAMS_URL = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams?limit=500"
 
 
 def now_iso():
@@ -45,44 +45,46 @@ def save_json(path, data):
 
 
 def fetch_teams():
-    headers = {
-        "User-Agent": "Mozilla/5.0"
-    }
-
-    response = requests.get(TEAMS_PAGE_URL, headers=headers, timeout=30)
+    response = requests.get(TEAMS_URL, timeout=30)
     response.raise_for_status()
-
-    html = response.text
-
-    pattern = re.compile(
-        r'href="https://www\.espn\.com/college-football/team/_/id/(\d+)/([^"]+)".*?<h2[^>]*>(.*?)</h2>',
-        re.DOTALL
-    )
+    data = response.json()
 
     teams = []
 
-    for team_id, slug, raw_name in pattern.findall(html):
-        name = re.sub(r"<.*?>", "", raw_name).strip()
+    for sport in data.get("sports", []):
+        for league in sport.get("leagues", []):
+            for item in league.get("teams", []):
+                team = item.get("team", {})
 
-        if not name:
-            continue
+                team_id = team.get("id")
+                name = team.get("displayName") or team.get("name")
+                abbreviation = (
+                    team.get("abbreviation")
+                    or team.get("shortDisplayName")
+                    or team.get("slug")
+                    or team_id
+                )
 
-        code = safe_code(slug)
+                if not team_id or not name:
+                    continue
 
-        teams.append({
-            "id": str(team_id),
-            "code": code,
-            "name": name,
-            "logo": f"https://a.espncdn.com/i/teamlogos/ncaa/500/{team_id}.png",
-        })
+                logo = ""
+                logos = team.get("logos") or []
+                if logos and isinstance(logos, list):
+                    logo = logos[0].get("href", "")
+
+                teams.append({
+                    "id": str(team_id),
+                    "code": safe_code(abbreviation),
+                    "name": name,
+                    "logo": logo or f"https://a.espncdn.com/i/teamlogos/ncaa/500/{team_id}.png",
+                })
 
     unique = {}
     for team in teams:
         unique[team["id"]] = team
 
-    teams = sorted(unique.values(), key=lambda t: t["name"])
-
-    return teams
+    return sorted(unique.values(), key=lambda t: t["name"])
 
 
 def roster_url(team_id):
@@ -94,16 +96,13 @@ def roster_url(team_id):
 
 def fetch_roster(team):
     url = roster_url(team["id"])
-
     response = requests.get(url, timeout=30)
     response.raise_for_status()
-
     data = response.json()
 
-    raw_athletes = data.get("athletes", [])
     players = []
 
-    for item in raw_athletes:
+    for item in data.get("athletes", []):
         athlete = item.get("athlete") if isinstance(item, dict) and "athlete" in item else item
 
         if not isinstance(athlete, dict):
@@ -118,8 +117,18 @@ def fetch_roster(team):
         else:
             position_value = ""
 
+        name = (
+            athlete.get("displayName")
+            or athlete.get("fullName")
+            or athlete.get("name")
+            or ""
+        )
+
+        if not name:
+            continue
+
         players.append({
-            "name": athlete.get("displayName") or athlete.get("fullName") or athlete.get("name") or "",
+            "name": name,
             "position": position_value,
             "number": str(athlete.get("jersey") or athlete.get("number") or ""),
             "status": "ACTIVE",
@@ -225,7 +234,7 @@ def run():
     statuses = []
     all_changes = []
 
-    print(f"Discovered {len(teams)} NCAAF teams from ESPN teams page")
+    print(f"Discovered {len(teams)} NCAAF teams from ESPN")
 
     for team in teams:
         code = team["code"]
