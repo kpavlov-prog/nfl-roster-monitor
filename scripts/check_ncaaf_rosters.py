@@ -14,7 +14,7 @@ LATEST = DATA / "latest"
 STATE = DATA / "state"
 LOGS = ROOT / "logs" / "ncaaf"
 
-TEAMS_URL = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams"
+TEAMS_PAGE_URL = "https://www.espn.com/college-football/teams"
 
 
 def now_iso():
@@ -45,33 +45,43 @@ def save_json(path, data):
 
 
 def fetch_teams():
-    response = requests.get(TEAMS_URL, timeout=30)
+    headers = {
+        "User-Agent": "Mozilla/5.0"
+    }
+
+    response = requests.get(TEAMS_PAGE_URL, headers=headers, timeout=30)
     response.raise_for_status()
-    data = response.json()
+
+    html = response.text
+
+    pattern = re.compile(
+        r'href="https://www\.espn\.com/college-football/team/_/id/(\d+)/([^"]+)".*?<h2[^>]*>(.*?)</h2>',
+        re.DOTALL
+    )
 
     teams = []
 
-    for sport in data.get("sports", []):
-        for league in sport.get("leagues", []):
-            for item in league.get("teams", []):
-                team = item.get("team", {})
-                team_id = team.get("id")
-                name = team.get("displayName") or team.get("name")
-                abbreviation = team.get("abbreviation") or team.get("shortDisplayName") or team_id
+    for team_id, slug, raw_name in pattern.findall(html):
+        name = re.sub(r"<.*?>", "", raw_name).strip()
 
-                if not team_id or not name:
-                    continue
+        if not name:
+            continue
 
-                code = safe_code(abbreviation)
+        code = safe_code(slug)
 
-                teams.append({
-                    "id": str(team_id),
-                    "code": code,
-                    "name": name,
-                    "logo": (team.get("logos") or [{}])[0].get("href", ""),
-                })
+        teams.append({
+            "id": str(team_id),
+            "code": code,
+            "name": name,
+            "logo": f"https://a.espncdn.com/i/teamlogos/ncaa/500/{team_id}.png",
+        })
 
-    teams = sorted(teams, key=lambda t: t["name"])
+    unique = {}
+    for team in teams:
+        unique[team["id"]] = team
+
+    teams = sorted(unique.values(), key=lambda t: t["name"])
+
     return teams
 
 
@@ -84,23 +94,23 @@ def roster_url(team_id):
 
 def fetch_roster(team):
     url = roster_url(team["id"])
+
     response = requests.get(url, timeout=30)
     response.raise_for_status()
-    data = response.json()
 
-    players = []
+    data = response.json()
 
     raw_athletes = data.get("athletes", [])
     players = []
 
     for item in raw_athletes:
         athlete = item.get("athlete") if isinstance(item, dict) and "athlete" in item else item
-    
+
         if not isinstance(athlete, dict):
             continue
-    
+
         position = athlete.get("position") or {}
-    
+
         if isinstance(position, str):
             position_value = position
         elif isinstance(position, dict):
@@ -124,6 +134,7 @@ def fetch_roster(team):
         "code": team["code"],
         "team": team_name,
         "teamId": team["id"],
+        "logo": team.get("logo", ""),
         "source": "ESPN College Football API",
         "url": url,
         "checkedAt": now_iso(),
@@ -214,7 +225,7 @@ def run():
     statuses = []
     all_changes = []
 
-    print(f"Discovered {len(teams)} NCAAF teams from ESPN")
+    print(f"Discovered {len(teams)} NCAAF teams from ESPN teams page")
 
     for team in teams:
         code = team["code"]
@@ -238,6 +249,7 @@ def run():
                 "teamCode": code,
                 "teamName": current_roster["team"],
                 "teamId": team["id"],
+                "logo": team.get("logo", ""),
                 "checkedAt": current_roster["checkedAt"],
                 "playerCount": len(current_roster["players"]),
                 "lastChangeCount": len(changes),
@@ -252,6 +264,7 @@ def run():
                 "teamCode": code,
                 "teamName": team["name"],
                 "teamId": team["id"],
+                "logo": team.get("logo", ""),
                 "checkedAt": now_iso(),
                 "playerCount": 0,
                 "lastChangeCount": 0,
