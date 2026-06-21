@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-06-20T15:21:53.008616+00:00",
+  "checkedAt": "2026-06-21T15:29:40.835814+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -113,6 +113,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jordan Hicks",
+      "position": "P",
+      "number": "44",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Junior Perez",
       "position": "CF",
       "number": "37",
@@ -179,13 +186,6 @@
       "name": "Tristan Peters",
       "position": "CF",
       "number": "29",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tyler Davis",
-      "position": "P",
-      "number": "63",
       "status": "A",
       "source": "MLB Stats API"
     }

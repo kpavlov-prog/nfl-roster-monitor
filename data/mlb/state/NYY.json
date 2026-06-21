@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=active",
-  "checkedAt": "2026-06-20T15:21:59.982650+00:00",
+  "checkedAt": "2026-06-21T15:29:47.785362+00:00",
   "players": [
     {
       "name": "Ali Sánchez",
@@ -25,6 +25,13 @@
       "name": "Anthony Volpe",
       "position": "SS",
       "number": "11",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Austin Wells",
+      "position": "C",
+      "number": "28",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -78,6 +85,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Elmer Rodríguez",
+      "position": "P",
+      "number": "71",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Fernando Cruz",
       "position": "P",
       "number": "63",
@@ -88,20 +102,6 @@
       "name": "Gerrit Cole",
       "position": "P",
       "number": "45",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "J.C. Escarra",
-      "position": "C",
-      "number": "25",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jake Bird",
-      "position": "P",
-      "number": "59",
       "status": "A",
       "source": "MLB Stats API"
     },

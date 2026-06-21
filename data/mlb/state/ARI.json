@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-06-20T15:21:50.319147+00:00",
+  "checkedAt": "2026-06-21T15:29:38.150548+00:00",
   "players": [
     {
       "name": "Adrian Del Castillo",
@@ -71,13 +71,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jordan Lawlar",
-      "position": "LF",
-      "number": "10",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jorge Barrosa",
       "position": "CF",
       "number": "1",
@@ -127,13 +120,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Michael Soroka",
-      "position": "P",
-      "number": "34",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Nolan Arenado",
       "position": "3B",
       "number": "28",
@@ -155,6 +141,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Philip Abner",
+      "position": "P",
+      "number": "50",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Ryan Thompson",
       "position": "P",
       "number": "81",
@@ -165,6 +158,13 @@
       "name": "Taylor Clarke",
       "position": "P",
       "number": "45",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tim Tawa",
+      "position": "LF",
+      "number": "13",
       "status": "A",
       "source": "MLB Stats API"
     },

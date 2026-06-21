@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-06-20T15:21:51.927233+00:00",
+  "checkedAt": "2026-06-21T15:29:39.763904+00:00",
   "players": [
     {
       "name": "Andruw Monasterio",
       "position": "SS",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Anthony Seigler",
+      "position": "2B",
+      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -74,13 +81,6 @@
       "name": "Greg Weissert",
       "position": "P",
       "number": "57",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Isiah Kiner-Falefa",
-      "position": "2B",
-      "number": "2",
       "status": "A",
       "source": "MLB Stats API"
     },
