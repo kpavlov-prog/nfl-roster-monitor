@@ -3,7 +3,7 @@
   "team": "Los Angeles Sparks",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/LA/roster",
-  "checkedAt": "2026-06-19T17:26:44.994223+00:00",
+  "checkedAt": "2026-06-21T15:30:56.908732+00:00",
   "players": [
     {
       "name": "Ariel Atkins",
@@ -69,6 +69,13 @@
       "source": "ESPN WNBA API"
     },
     {
+      "name": "Kiana Williams",
+      "position": "G",
+      "number": "23",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
       "name": "Laura Ziegler",
       "position": "F",
       "number": "4",
@@ -86,13 +93,6 @@
       "name": "Rae Burrell",
       "position": "G",
       "number": "12",
-      "status": "ACTIVE",
-      "source": "ESPN WNBA API"
-    },
-    {
-      "name": "Sania Feagin",
-      "position": "F",
-      "number": "20",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },

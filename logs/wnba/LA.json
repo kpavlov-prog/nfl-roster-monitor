@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-06-21T15:30:56.909827+00:00",
+    "teamCode": "LA",
+    "teamName": "Los Angeles Sparks",
+    "type": "added",
+    "playerName": "Kiana Williams",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-21T15:30:56.909838+00:00",
+    "teamCode": "LA",
+    "teamName": "Los Angeles Sparks",
+    "type": "removed",
+    "playerName": "Sania Feagin",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  }
+]
