@@ -1,5 +1,5 @@
-
 import json
+import re
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -14,18 +14,7 @@ LATEST = DATA / "latest"
 STATE = DATA / "state"
 LOGS = ROOT / "logs" / "ncaaf"
 
-TEAMS = [
-    {"code": "ALA", "name": "Alabama Crimson Tide"},
-    {"code": "UGA", "name": "Georgia Bulldogs"},
-    {"code": "OSU", "name": "Ohio State Buckeyes"},
-    {"code": "MICH", "name": "Michigan Wolverines"},
-    {"code": "TEX", "name": "Texas Longhorns"},
-    {"code": "ORE", "name": "Oregon Ducks"},
-    {"code": "ND", "name": "Notre Dame Fighting Irish"},
-    {"code": "LSU", "name": "LSU Tigers"},
-    {"code": "CLEM", "name": "Clemson Tigers"},
-    {"code": "USC", "name": "USC Trojans"},
-]
+TEAMS_URL = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams"
 
 
 def now_iso():
@@ -38,6 +27,12 @@ def ensure_dirs():
     LOGS.mkdir(parents=True, exist_ok=True)
 
 
+def safe_code(value):
+    value = str(value or "").upper()
+    value = re.sub(r"[^A-Z0-9]+", "_", value)
+    return value.strip("_")
+
+
 def load_json(path):
     if not path.exists():
         return None
@@ -46,31 +41,56 @@ def load_json(path):
 
 def save_json(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(
-        json.dumps(data, indent=2, ensure_ascii=False),
-        encoding="utf-8",
-    )
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
-def roster_url(team_code):
+def fetch_teams():
+    response = requests.get(TEAMS_URL, timeout=30)
+    response.raise_for_status()
+    data = response.json()
+
+    teams = []
+
+    for sport in data.get("sports", []):
+        for league in sport.get("leagues", []):
+            for item in league.get("teams", []):
+                team = item.get("team", {})
+                team_id = team.get("id")
+                name = team.get("displayName") or team.get("name")
+                abbreviation = team.get("abbreviation") or team.get("shortDisplayName") or team_id
+
+                if not team_id or not name:
+                    continue
+
+                code = safe_code(abbreviation)
+
+                teams.append({
+                    "id": str(team_id),
+                    "code": code,
+                    "name": name,
+                    "logo": (team.get("logos") or [{}])[0].get("href", ""),
+                })
+
+    teams = sorted(teams, key=lambda t: t["name"])
+    return teams
+
+
+def roster_url(team_id):
     return (
         "https://site.api.espn.com/apis/site/v2/sports/"
-        f"football/college-football/teams/{team_code}/roster"
+        f"football/college-football/teams/{team_id}/roster"
     )
 
 
 def fetch_roster(team):
-    url = roster_url(team["code"])
-
-    response = requests.get(url, timeout=25)
+    url = roster_url(team["id"])
+    response = requests.get(url, timeout=30)
     response.raise_for_status()
-
     data = response.json()
 
-    athletes = data.get("athletes", [])
     players = []
 
-    for athlete in athletes:
+    for athlete in data.get("athletes", []):
         position = athlete.get("position") or {}
 
         players.append({
@@ -83,14 +103,12 @@ def fetch_roster(team):
 
     players = sorted(players, key=lambda p: p["name"])
 
-    team_name = (
-        data.get("team", {}).get("displayName")
-        or team["name"]
-    )
+    team_name = data.get("team", {}).get("displayName") or team["name"]
 
     return {
         "code": team["code"],
         "team": team_name,
+        "teamId": team["id"],
         "source": "ESPN College Football API",
         "url": url,
         "checkedAt": now_iso(),
@@ -138,61 +156,21 @@ def diff_rosters(old_roster, new_roster):
         old_player = old_players.get(key)
 
         if old_player is None:
-            changes.append(
-                make_change(
-                    new_roster,
-                    "added",
-                    new_player,
-                    "",
-                    new_player.get("status", ""),
-                )
-            )
+            changes.append(make_change(new_roster, "added", new_player, "", new_player.get("status", "")))
             continue
 
         if old_player.get("status", "") != new_player.get("status", ""):
-            changes.append(
-                make_change(
-                    new_roster,
-                    "status changed",
-                    new_player,
-                    old_player.get("status", ""),
-                    new_player.get("status", ""),
-                )
-            )
+            changes.append(make_change(new_roster, "status changed", new_player, old_player.get("status", ""), new_player.get("status", "")))
 
         if old_player.get("position", "") != new_player.get("position", ""):
-            changes.append(
-                make_change(
-                    new_roster,
-                    "position changed",
-                    new_player,
-                    old_player.get("position", ""),
-                    new_player.get("position", ""),
-                )
-            )
+            changes.append(make_change(new_roster, "position changed", new_player, old_player.get("position", ""), new_player.get("position", "")))
 
         if old_player.get("number", "") != new_player.get("number", ""):
-            changes.append(
-                make_change(
-                    new_roster,
-                    "number changed",
-                    new_player,
-                    old_player.get("number", ""),
-                    new_player.get("number", ""),
-                )
-            )
+            changes.append(make_change(new_roster, "number changed", new_player, old_player.get("number", ""), new_player.get("number", "")))
 
     for key, old_player in old_players.items():
         if key not in new_players:
-            changes.append(
-                make_change(
-                    old_roster,
-                    "removed",
-                    old_player,
-                    old_player.get("status", ""),
-                    "",
-                )
-            )
+            changes.append(make_change(old_roster, "removed", old_player, old_player.get("status", ""), ""))
 
     return changes
 
@@ -216,10 +194,14 @@ def append_all_log(changes):
 def run():
     ensure_dirs()
 
+    teams = fetch_teams()
+
     statuses = []
     all_changes = []
 
-    for team in TEAMS:
+    print(f"Discovered {len(teams)} NCAAF teams from ESPN")
+
+    for team in teams:
         code = team["code"]
 
         try:
@@ -240,6 +222,7 @@ def run():
             statuses.append({
                 "teamCode": code,
                 "teamName": current_roster["team"],
+                "teamId": team["id"],
                 "checkedAt": current_roster["checkedAt"],
                 "playerCount": len(current_roster["players"]),
                 "lastChangeCount": len(changes),
@@ -253,6 +236,7 @@ def run():
             statuses.append({
                 "teamCode": code,
                 "teamName": team["name"],
+                "teamId": team["id"],
                 "checkedAt": now_iso(),
                 "playerCount": 0,
                 "lastChangeCount": 0,
@@ -262,13 +246,13 @@ def run():
 
             print(f"{code}: ERROR {error}")
 
-        time.sleep(0.5)
+        time.sleep(0.25)
 
     append_all_log(all_changes)
 
     summary = {
         "lastRunFinished": now_iso(),
-        "teamsChecked": len(TEAMS),
+        "teamsChecked": len(teams),
         "teamsOk": sum(1 for item in statuses if not item["lastError"]),
         "teamsErrored": sum(1 for item in statuses if item["lastError"]),
         "totalChanges": len(all_changes),
