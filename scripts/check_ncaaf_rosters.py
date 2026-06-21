@@ -14,7 +14,7 @@ LATEST = DATA / "latest"
 STATE = DATA / "state"
 LOGS = ROOT / "logs" / "ncaaf"
 
-TEAMS_URL = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams?limit=500"
+TEAMS_URL = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams?groups=80&limit=500"
 
 
 def now_iso():
@@ -42,6 +42,25 @@ def load_json(path):
 def save_json(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+def cleanup_old_files(valid_codes):
+    valid_files = {f"{code}.json" for code in valid_codes}
+
+    for folder in [LATEST, STATE]:
+        if not folder.exists():
+            continue
+
+        for path in folder.glob("*.json"):
+            if path.name not in valid_files:
+                path.unlink()
+
+    if LOGS.exists():
+        for path in LOGS.glob("*.json"):
+            if path.name == "all_changes.json":
+                continue
+            if path.name not in valid_files:
+                path.unlink()
 
 
 def fetch_teams():
@@ -230,11 +249,13 @@ def run():
     ensure_dirs()
 
     teams = fetch_teams()
+    valid_codes = {team["code"] for team in teams}
+    cleanup_old_files(valid_codes)
 
     statuses = []
     all_changes = []
 
-    print(f"Discovered {len(teams)} NCAAF teams from ESPN")
+    print(f"Discovered {len(teams)} FBS NCAAF teams from ESPN")
 
     for team in teams:
         code = team["code"]
