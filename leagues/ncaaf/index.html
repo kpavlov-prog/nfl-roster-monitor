@@ -4,10 +4,583 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>NCAAF Roster Monitor</title>
+
+<style>
+:root{
+  --bg:#081226;--text:#111827;--muted:#64748b;--blue:#2563eb;--purple:#7c3aed;
+  --green:#16a34a;--green-bg:#dcfce7;--yellow:#d97706;--yellow-bg:#fef3c7;
+  --red:#dc2626;--red-bg:#fee2e2;--line:#e5e7eb;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:radial-gradient(circle at top left,rgba(37,99,235,.28),transparent 32%),radial-gradient(circle at top right,rgba(124,58,237,.22),transparent 28%),var(--bg);color:white;min-height:100vh}
+.container{max-width:1500px;margin:0 auto;padding:28px 24px 40px}
+.top-nav{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.nav-card{color:white;text-decoration:none;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.14);padding:10px 14px;border-radius:14px;font-weight:800}
+.nav-card.active{background:linear-gradient(135deg,var(--blue),var(--purple));}
+h1{margin:0;font-size:42px}.subtitle{margin-top:8px;color:#cbd5e1}
+.controls{margin-top:24px;display:flex;gap:12px;flex-wrap:wrap;background:rgba(255,255,255,.08);padding:14px;border-radius:18px}
+button,input,select{padding:11px 14px;border-radius:12px;border:none;font-size:14px}
+button{background:linear-gradient(135deg,var(--blue),var(--purple));color:white;font-weight:800;cursor:pointer}
+button.secondary{background:#334155}
+.status{margin-top:14px;color:#dbeafe;font-size:14px}
+.stats{margin-top:18px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.stat{background:white;color:var(--text);border-radius:18px;padding:18px;box-shadow:0 10px 25px rgba(0,0,0,.18);border-top:5px solid var(--purple)}
+.stat-value{font-size:34px;font-weight:900}.stat-label{margin-top:6px;color:var(--muted);font-size:13px}
+.layout{margin-top:18px;display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:start}
+.panel{background:white;color:var(--text);border-radius:20px;padding:18px;box-shadow:0 12px 30px rgba(0,0,0,.18)}
+.panel+.panel{margin-top:18px}
+.teams{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.team{border:2px solid transparent;border-radius:16px;padding:14px;background:#f8fafc;cursor:pointer}
+.team:hover{border-color:var(--blue)}.team.selected{border-color:var(--purple);background:#f5f3ff}.team.has-change{border-color:var(--yellow)}
+.team-top{display:flex;align-items:center;gap:12px}.team-logo{width:46px;height:46px;object-fit:contain}
+.team-name{font-weight:900;font-size:15px}.team-code{margin-top:4px;display:inline-block;background:#dbeafe;color:#1d4ed8;padding:3px 8px;border-radius:999px;font-size:11px;font-weight:900}
+.meta{margin-top:8px;color:var(--muted);font-size:12px;line-height:1.45}
+.pill{display:inline-block;padding:4px 9px;border-radius:999px;font-size:11px;font-weight:900;margin-top:6px}
+.ok{background:var(--green-bg);color:var(--green)}.warn{background:var(--yellow-bg);color:var(--yellow)}.error{background:var(--red-bg);color:var(--red)}
+.player{padding:10px 0;border-bottom:1px solid var(--line)}
+.player-name{font-weight:800}.position{display:inline-block;margin-left:8px;background:#ede9fe;color:var(--purple);padding:2px 7px;border-radius:7px;font-size:12px;font-weight:900}
+.status-pill{display:inline-block;margin-left:6px;padding:2px 7px;border-radius:7px;font-size:12px;font-weight:900;background:var(--green-bg);color:var(--green)}
+.csv-row,.change-item{padding:12px;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;background:#f8fafc}
+.csv-found{border-left:6px solid var(--green)}.csv-missing{border-left:6px solid var(--red)}.csv-warning{border-left:6px solid var(--yellow)}
+.empty{color:var(--muted);font-style:italic}
+.history-title{cursor:pointer;background:#f1f5f9;border-radius:12px;padding:10px 12px;margin-top:14px}
+.small-btn{padding:7px 10px;font-size:12px;border-radius:9px}
+@media(max-width:1050px){.stats,.layout{grid-template-columns:1fr}}
+</style>
 </head>
+
 <body>
+<div class="container">
+
+<div class="top-nav">
+  <a class="nav-card" href="../../">Sports Hub</a>
+  <a class="nav-card" href="../../leagues/nfl/">NFL</a>
+  <a class="nav-card active" href="./">College Football</a>
+  <a class="nav-card" href="../../leagues/nba/">NBA</a>
+  <a class="nav-card" href="../../leagues/wnba/">WNBA</a>
+  <a class="nav-card" href="../../leagues/mlb/">Baseball</a>
+  <a class="nav-card" href="../../leagues/nhl/">Ice Hockey</a>
+</div>
+
 <h1>NCAAF Roster Monitor</h1>
-<p>College Football roster monitor coming next.</p>
-<p><a href="../../">Back to Sports Hub</a></p>
+<div class="subtitle">College football roster monitoring dashboard powered by ESPN College Football API and GitHub Actions. Times shown in GMT.</div>
+
+<div class="controls">
+  <button onclick="loadDashboard()">Refresh dashboard</button>
+  <button class="secondary" onclick="exportCsv()">Export changes CSV</button>
+  <button class="secondary" onclick="clearAllChanges()">Clear All Changes</button>
+  <button class="secondary" onclick="resetCheckedChanges()">Reset checked items</button>
+  <select id="teamSelect" onchange="selectTeam(this.value)"></select>
+  <input id="searchBox" placeholder="Search player..." oninput="renderSelectedTeam()" />
+</div>
+
+<div id="status" class="status">Loading NCAAF dashboard...</div>
+
+<div class="stats">
+  <div class="stat"><div id="teamsChecked" class="stat-value">-</div><div class="stat-label">Teams checked</div></div>
+  <div class="stat"><div id="teamsOk" class="stat-value">-</div><div class="stat-label">Teams OK</div></div>
+  <div class="stat"><div id="teamsErrored" class="stat-value">-</div><div class="stat-label">Teams errored</div></div>
+  <div class="stat"><div id="totalChanges" class="stat-value">-</div><div class="stat-label">Unchecked changes</div></div>
+</div>
+
+<div class="layout">
+  <div>
+    <div class="panel">
+      <h2>Latest NCAAF Changes</h2>
+      <div id="latestChanges" class="empty">No NCAAF changes logged yet.</div>
+    </div>
+
+    <div class="panel">
+      <h2>NCAAF CSV Roster Check</h2>
+      <div class="meta">
+        Upload CSV with columns: <b>Name</b>, <b>Team name</b>, <b>Position</b>, <b>Status</b>.
+        Other columns are ignored.
+      </div>
+      <br>
+      <input type="file" id="csvFile" accept=".csv" />
+      <button onclick="runCsvCheck()">Run CSV Check</button>
+      <div id="csvResults" class="meta" style="margin-top:14px;">No CSV checked yet.</div>
+    </div>
+
+    <div class="panel">
+      <h2>NCAAF Teams</h2>
+      <div id="teams" class="teams"></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2 id="selectedTitle">Selected Team</h2>
+    <div id="selectedTeam">Select a team.</div>
+  </div>
+</div>
+
+</div>
+
+<script>
+let summary={},statusRows=[],rosters={},allChanges=[],visibleChanges=[],teamHistory=[],selectedCode="ALA";
+const CHECKED_KEY="ncaaf_checked_changes";
+
+async function fetchJson(path){
+  const res=await fetch(path+"?v="+Date.now());
+  if(!res.ok)throw new Error(path+" failed");
+  return await res.json();
+}
+
+function gmt(value){
+  if(!value)return"-";
+  return new Date(value).toLocaleString("en-GB",{timeZone:"UTC",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit"})+" GMT";
+}
+
+function norm(v){
+  return String(v||"")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g,"")
+    .replace(/\s*\([^)]*\)\s*/g,"")
+    .replace(/\b(jr|sr|ii|iii|iv|v)\b\.?/gi,"")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g,"");
+}
+
+function normStatus(v){
+  const s=norm(v);
+  if(["active","act","a"].includes(s))return"active";
+  return s;
+}
+
+function changeId(c){
+  return [
+    c.timestamp||"",
+    c.teamCode||"",
+    c.type||"",
+    c.playerName||"",
+    c.oldValue||"",
+    c.newValue||""
+  ].join("|");
+}
+
+function checkedChanges(){
+  return JSON.parse(localStorage.getItem(CHECKED_KEY)||"[]");
+}
+
+function saveCheckedChanges(items){
+  localStorage.setItem(CHECKED_KEY,JSON.stringify(items));
+}
+
+function markVisibleChangeChecked(index){
+  const c=visibleChanges[index];
+  if(!c)return;
+  const checked=new Set(checkedChanges());
+  checked.add(changeId(c));
+  saveCheckedChanges([...checked]);
+  renderChanges();
+}
+
+function clearAllChanges(){
+  const checked=new Set(checkedChanges());
+  allChanges.forEach(c=>checked.add(changeId(c)));
+  saveCheckedChanges([...checked]);
+  renderChanges();
+}
+
+function resetCheckedChanges(){
+  localStorage.removeItem(CHECKED_KEY);
+  renderChanges();
+}
+
+async function loadDashboard(){
+  try{
+    document.getElementById("status").textContent="Loading NCAAF dashboard...";
+
+    summary=await fetchJson("../../data/ncaaf/summary.json");
+    statusRows=await fetchJson("../../data/ncaaf/status.json");
+
+    try{
+      allChanges=await fetchJson("../../logs/ncaaf/all_changes.json");
+    }catch(e){
+      allChanges=[];
+    }
+
+    rosters={};
+
+    for(const row of statusRows){
+      try{
+        rosters[row.teamCode]=await fetchJson(`../../data/ncaaf/latest/${row.teamCode}.json`);
+      }catch(e){
+        rosters[row.teamCode]={players:[],errors:[e.message]};
+      }
+    }
+
+    renderSummary();
+    renderTeamOptions();
+    renderChanges();
+    renderTeams();
+    renderSelectedTeam();
+
+    document.getElementById("status").textContent="Last update: "+gmt(summary.lastRunFinished);
+  }catch(e){
+    document.getElementById("status").textContent="NCAAF dashboard error: "+e.message;
+  }
+}
+
+function renderSummary(){
+  document.getElementById("teamsChecked").textContent=summary.teamsChecked||0;
+  document.getElementById("teamsOk").textContent=summary.teamsOk||0;
+  document.getElementById("teamsErrored").textContent=summary.teamsErrored||0;
+}
+
+function renderTeamOptions(){
+  document.getElementById("teamSelect").innerHTML=statusRows.map(r=>`<option value="${r.teamCode}">${r.teamName}</option>`).join("");
+  if(!statusRows.find(r=>r.teamCode===selectedCode) && statusRows.length){
+    selectedCode=statusRows[0].teamCode;
+  }
+  document.getElementById("teamSelect").value=selectedCode;
+}
+
+function selectTeam(code){
+  selectedCode=code;
+  document.getElementById("teamSelect").value=code;
+  renderTeams();
+  renderSelectedTeam();
+}
+
+function renderChanges(){
+  const box=document.getElementById("latestChanges");
+  const checked=new Set(checkedChanges());
+
+  visibleChanges=allChanges.filter(c=>!checked.has(changeId(c)));
+  document.getElementById("totalChanges").textContent=visibleChanges.length||0;
+
+  if(!visibleChanges.length){
+    box.innerHTML=`<div class="empty">No unchecked NCAAF roster changes.</div>`;
+    return;
+  }
+
+  box.innerHTML=visibleChanges.slice(0,30).map((c,index)=>`
+    <div class="change-item">
+      <b>${c.teamName||c.teamCode}: ${c.playerName}</b>
+      <div class="meta">${c.type} | ${c.oldValue||"-"} → ${c.newValue||"-"}</div>
+      <div class="meta">${gmt(c.timestamp)} | ${String(c.severity||"low").toUpperCase()}</div>
+      <br>
+      <button class="secondary small-btn" onclick="markVisibleChangeChecked(${index})">Checked</button>
+    </div>
+  `).join("");
+}
+
+function renderTeams(){
+  document.getElementById("teams").innerHTML=statusRows.map(r=>{
+    const roster=rosters[r.teamCode]||{players:[]};
+    const hasError=!!r.lastError;
+    const hasChange=(r.lastChangeCount||0)>0;
+    const logo=r.logo || roster.logo || "";
+
+    return `
+      <div class="team ${selectedCode===r.teamCode?"selected":""} ${hasChange?"has-change":""}" onclick="selectTeam('${r.teamCode}')">
+        <div class="team-top">
+          <img src="${logo}" class="team-logo">
+          <div>
+            <div class="team-name">${r.teamName}</div>
+            <div class="team-code">${r.teamCode}</div>
+          </div>
+        </div>
+        <div class="meta">Players: ${(roster.players||[]).length}</div>
+        <div class="meta">Checked: ${gmt(r.checkedAt)}</div>
+        <div class="meta">Last run changes: ${r.lastChangeCount||0}</div>
+        <div class="pill ${hasError?"error":hasChange?"warn":"ok"}">${hasError?"Source issue":hasChange?"Changes found":"Official OK"}</div>
+      </div>
+    `;
+  }).join("");
+}
+
+function renderSelectedTeam(){
+  const roster=rosters[selectedCode];
+
+  if(!roster){
+    document.getElementById("selectedTeam").innerHTML="Select a team.";
+    return;
+  }
+
+  const q=document.getElementById("searchBox").value.trim().toLowerCase();
+
+  const players=(roster.players||[]).filter(p=>
+    !q || String(p.name||"").toLowerCase().includes(q)
+  );
+
+  const row=statusRows.find(r=>r.teamCode===selectedCode)||{};
+  const logo=roster.logo||row.logo||"";
+
+  document.getElementById("selectedTitle").innerHTML=`
+    <img src="${logo}" class="team-logo" style="vertical-align:middle;margin-right:10px;">
+    ${roster.team||selectedCode}
+  `;
+
+  document.getElementById("selectedTeam").innerHTML=`
+    <div class="meta">Source: ${roster.source||"ESPN College Football API"}</div>
+    <div class="meta">Players shown: ${players.length}</div>
+    <div class="meta">Last checked: ${gmt(roster.checkedAt)}</div>
+    <hr>
+    <h3>Roster</h3>
+    ${
+      players.length
+      ? players.map(p=>`
+        <div class="player">
+          <span class="player-name">${p.name}</span>
+          <span class="position">#${p.number||"-"}</span>
+          <span class="position">${p.position||"?"}</span>
+          <span class="status-pill">${p.status||"ACTIVE"}</span>
+        </div>
+      `).join("")
+      : `<div class="empty">No players found.</div>`
+    }
+
+    <hr>
+    <h3 class="history-title" onclick="toggleHistory()">▼ Show Team History</h3>
+    <div id="teamHistoryBox" style="display:none;" class="empty">Loading history...</div>
+  `;
+
+  loadTeamHistory();
+}
+
+function loadTeamHistory(){
+  fetchJson(`../../logs/ncaaf/${selectedCode}.json`)
+    .then(items=>{
+      teamHistory=items||[];
+      renderSelectedTeamHistory();
+    })
+    .catch(()=>{
+      teamHistory=[];
+      renderSelectedTeamHistory();
+    });
+}
+
+function toggleHistory(){
+  const box=document.getElementById("teamHistoryBox");
+  if(!box)return;
+  box.style.display=box.style.display==="none"?"block":"none";
+}
+
+function renderSelectedTeamHistory(){
+  const box=document.getElementById("teamHistoryBox");
+  if(!box)return;
+
+  if(!teamHistory.length){
+    box.innerHTML=`<div class="empty">No NCAAF history for this team yet.</div>`;
+    return;
+  }
+
+  box.innerHTML=teamHistory.slice(0,80).map(c=>`
+    <div class="change-item">
+      <b>${c.playerName}</b>
+      <div class="meta">${c.type} | ${c.oldValue||"-"} → ${c.newValue||"-"}</div>
+      <div class="meta">${gmt(c.timestamp)} | ${String(c.severity||"low").toUpperCase()}</div>
+    </div>
+  `).join("");
+}
+
+function parseCsv(text){
+  const rows=[];let row=[],field="",quotes=false;
+  for(let i=0;i<text.length;i++){
+    const c=text[i],n=text[i+1];
+    if(c=='"'&&quotes&&n=='"'){field+='"';i++}
+    else if(c=='"'){quotes=!quotes}
+    else if(c==","&&!quotes){row.push(field);field=""}
+    else if((c=="\n"||c=="\r")&&!quotes){
+      if(field||row.length){row.push(field);rows.push(row);row=[];field=""}
+      if(c=="\r"&&n=="\n")i++;
+    }else field+=c;
+  }
+  if(field||row.length){row.push(field);rows.push(row)}
+  return rows;
+}
+
+function teamCodeFromCsv(value){
+  const s=norm(value);
+  const found=statusRows.find(r=>norm(r.teamCode)===s||norm(r.teamName)===s);
+  return found?found.teamCode:selectedCode;
+}
+
+function runCsvCheck(){
+  const file=document.getElementById("csvFile").files[0];
+
+  if(!file){
+    document.getElementById("csvResults").innerHTML="Please upload a CSV first.";
+    return;
+  }
+
+  const reader=new FileReader();
+  reader.onload=()=>compareCsv(reader.result);
+  reader.readAsText(file);
+}
+
+function compareCsv(text){
+  const rows=parseCsv(text);
+
+  if(rows.length<2){
+    document.getElementById("csvResults").innerHTML="CSV has no data.";
+    return;
+  }
+
+  const headers=rows[0].map(h=>h.trim().toLowerCase());
+
+  const idx={
+    name:headers.indexOf("name"),
+    team:headers.indexOf("team name"),
+    position:headers.indexOf("position"),
+    status:headers.indexOf("status")
+  };
+
+  if(idx.name<0){
+    document.getElementById("csvResults").innerHTML="CSV must have a Name column.";
+    return;
+  }
+
+  const csvByTeam={};
+  const missingOfficialRows=[];
+  const missingCsvRows=[];
+  const mismatchRows=[];
+  const foundRows=[];
+
+  let found=0,missingOfficial=0,missingCsv=0,mismatch=0;
+
+  rows.slice(1).forEach(r=>{
+    const rawName=(r[idx.name]||"").trim();
+    if(!rawName)return;
+
+    const cleanName=rawName.replace(/\s*\([^)]*\)\s*/g,"").trim();
+    const teamVal=idx.team>=0?(r[idx.team]||"").trim():"";
+    const code=teamCodeFromCsv(teamVal);
+    const csvPos=idx.position>=0?(r[idx.position]||"").trim():"";
+    const csvStatus=idx.status>=0?(r[idx.status]||"").trim():"";
+
+    if(!csvByTeam[code])csvByTeam[code]=[];
+
+    csvByTeam[code].push({
+      name:cleanName,
+      rawName,
+      position:csvPos,
+      status:csvStatus
+    });
+  });
+
+  Object.keys(csvByTeam).forEach(code=>{
+    const roster=rosters[code]||{players:[]};
+    const officialPlayers=roster.players||[];
+    const csvPlayers=csvByTeam[code];
+
+    const officialMap=new Map(officialPlayers.map(p=>[norm(p.name),p]));
+    const csvMap=new Map(csvPlayers.map(p=>[norm(p.name),p]));
+
+    csvPlayers.forEach(csvPlayer=>{
+      const official=officialMap.get(norm(csvPlayer.name));
+
+      if(!official){
+        missingOfficial++;
+        missingOfficialRows.push(`
+          <div class="csv-row csv-missing">
+            <b>Missing from official roster:</b> ${csvPlayer.rawName} | ${code}
+            <div class="meta">This player is in your CSV but was not found on the ESPN NCAAF roster.</div>
+          </div>
+        `);
+        return;
+      }
+
+      const issues=[];
+
+      if(csvPlayer.position&&norm(csvPlayer.position)!==norm(official.position)){
+        issues.push(`Position CSV ${csvPlayer.position} vs Official ${official.position}`);
+      }
+
+      if(csvPlayer.status&&normStatus(csvPlayer.status)!==normStatus(official.status)){
+        issues.push(`Status CSV ${csvPlayer.status} vs Official ${official.status}`);
+      }
+
+      if(issues.length){
+        mismatch++;
+        mismatchRows.push(`
+          <div class="csv-row csv-warning">
+            <b>Mismatch:</b> ${csvPlayer.rawName} | ${code}
+            <div class="meta">${issues.join(" | ")}</div>
+          </div>
+        `);
+      }else{
+        found++;
+        foundRows.push(`
+          <div class="csv-row csv-found">
+            <b>Found in both:</b> ${csvPlayer.rawName} | ${code}
+            <div class="meta">Official: ${official.position} | ${official.status}</div>
+          </div>
+        `);
+      }
+    });
+
+    officialPlayers.forEach(official=>{
+      if(!csvMap.has(norm(official.name))){
+        missingCsv++;
+        missingCsvRows.push(`
+          <div class="csv-row csv-warning">
+            <b>Missing from CSV:</b> ${official.name} | ${code}
+            <div class="meta">Official: #${official.number||"-"} | ${official.position} | ${official.status}</div>
+          </div>
+        `);
+      }
+    });
+  });
+
+  document.getElementById("csvResults").innerHTML=`
+    <b>NCAAF CSV Reconciliation Summary</b>
+    <div class="meta">
+      Found in both: ${found}
+      |
+      CSV players missing from official roster: ${missingOfficial}
+      |
+      Official players missing from CSV: ${missingCsv}
+      |
+      Position/status mismatches: ${mismatch}
+    </div>
+    <br>
+
+    <h3>Needs Review: In CSV but missing from official roster</h3>
+    ${missingOfficialRows.join("")||`<div class="empty">None.</div>`}
+
+    <h3>Needs Review: On official roster but missing from CSV</h3>
+    ${missingCsvRows.join("")||`<div class="empty">None.</div>`}
+
+    <h3>Position / Status Mismatches</h3>
+    ${mismatchRows.join("")||`<div class="empty">None.</div>`}
+
+    <h3>Found in both</h3>
+    ${foundRows.join("")||`<div class="empty">None.</div>`}
+  `;
+}
+
+function exportCsv(){
+  const rows=[["timestamp_gmt","teamCode","teamName","severity","type","playerName","position","oldValue","newValue"]];
+
+  allChanges.forEach(c=>rows.push([
+    gmt(c.timestamp),
+    c.teamCode||"",
+    c.teamName||"",
+    c.severity||"",
+    c.type||"",
+    c.playerName||"",
+    c.position||"",
+    c.oldValue||"",
+    c.newValue||""
+  ]));
+
+  const csv=rows.map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(",")).join("\n");
+  const blob=new Blob([csv],{type:"text/csv"});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement("a");
+
+  a.href=url;
+  a.download="ncaaf-roster-changes.csv";
+  a.click();
+
+  URL.revokeObjectURL(url);
+}
+
+loadDashboard();
+</script>
+
 </body>
 </html>
