@@ -14,7 +14,18 @@ LATEST = DATA / "latest"
 STATE = DATA / "state"
 LOGS = ROOT / "logs" / "ncaaf"
 
-TEAMS_PAGE_URL = "https://www.espn.com/college-football/teams/_/group/80"
+TEAMS_URL = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams?limit=500"
+
+FBS_TEAM_CODES = {
+    "AF","AKR","ALA","APP","ARIZ","ARK","ARST","ARMY","ASU","AUB","BALL","BAY","BC","BGSU","BOIS","BUFF","BYU",
+    "CAL","CCU","CHAR","CIN","CLEM","CLT","CMU","COLO","CONN","CSU","DUKE","ECU","EMU","FAU","FIU","FLA","FLST",
+    "FRES","GASO","GAST","GT","HAW","HOU","IU","ILL","IOWA","ISU","JMU","KAN","KENT","KSU","KU","LIB","LT","LOU",
+    "LSU","MAR","MD","MEM","MIA","M-OH","MICH","MINN","MISS","MIZ","MSST","MTU","NAVY","NCST","NEB","NEV","NIU",
+    "NMST","NMSU","NORTH","NU","NW","ODU","OHIO","OKLA","OKST","ORE","ORST","PITT","PSU","PUR","RICE","RUTG",
+    "SAM","SDSU","SJSU","SMU","SOAL","SOFL","STAN","SYR","TCU","TEM","TENN","TEX","TLSA","TOL","TROY","TTU",
+    "TULN","UAB","UCF","UCLA","UGA","ULL","ULM","UMASS","UNC","UNLV","UNT","USC","USF","USM","UTAH","UTEP",
+    "UTSA","UVA","VAN","VT","WAKE","WASH","WIS","WKU","WMU","WVU","WYO"
+}
 
 
 def now_iso():
@@ -44,41 +55,6 @@ def save_json(path, data):
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
-def fetch_teams():
-    headers = {"User-Agent": "Mozilla/5.0"}
-    response = requests.get(TEAMS_PAGE_URL, headers=headers, timeout=30)
-    response.raise_for_status()
-
-    html = response.text
-
-    matches = re.findall(
-        r'/college-football/team/_/id/(\d+)/([^"?#]+)',
-        html
-    )
-
-    unique = {}
-
-    for team_id, slug in matches:
-        code = safe_code(slug)
-
-        if not team_id or not code:
-            continue
-
-        unique[str(team_id)] = {
-            "id": str(team_id),
-            "code": code,
-            "name": slug.replace("-", " ").title(),
-            "logo": f"https://a.espncdn.com/i/teamlogos/ncaa/500/{team_id}.png",
-        }
-
-    teams = sorted(unique.values(), key=lambda t: t["name"])
-
-    if not teams:
-        raise RuntimeError("No FBS teams found from ESPN group 80 page.")
-
-    return teams
-
-
 def cleanup_old_files(valid_codes):
     valid_files = {f"{code}.json" for code in valid_codes}
 
@@ -98,11 +74,54 @@ def cleanup_old_files(valid_codes):
     all_changes_path = LOGS / "all_changes.json"
     if all_changes_path.exists():
         existing = load_json(all_changes_path) or []
-        filtered = [
-            item for item in existing
-            if item.get("teamCode") in valid_codes
-        ]
+        filtered = [item for item in existing if item.get("teamCode") in valid_codes]
         save_json(all_changes_path, filtered)
+
+
+def fetch_teams():
+    response = requests.get(TEAMS_URL, timeout=30)
+    response.raise_for_status()
+    data = response.json()
+
+    teams = []
+
+    for sport in data.get("sports", []):
+        for league in sport.get("leagues", []):
+            for item in league.get("teams", []):
+                team = item.get("team", {})
+
+                team_id = team.get("id")
+                name = team.get("displayName") or team.get("name")
+                abbreviation = (
+                    team.get("abbreviation")
+                    or team.get("shortDisplayName")
+                    or team.get("slug")
+                    or team_id
+                )
+
+                if not team_id or not name:
+                    continue
+
+                code = safe_code(abbreviation)
+
+                if code not in FBS_TEAM_CODES:
+                    continue
+
+                logos = team.get("logos") or []
+                logo = logos[0].get("href", "") if logos and isinstance(logos, list) else ""
+
+                teams.append({
+                    "id": str(team_id),
+                    "code": code,
+                    "name": name,
+                    "logo": logo or f"https://a.espncdn.com/i/teamlogos/ncaa/500/{team_id}.png",
+                })
+
+    unique = {}
+    for team in teams:
+        unique[team["id"]] = team
+
+    return sorted(unique.values(), key=lambda t: t["name"])
 
 
 def roster_url(team_id):
@@ -112,26 +131,24 @@ def roster_url(team_id):
     )
 
 
-def fetch_roster(team):
-    url = roster_url(team["id"])
-    response = requests.get(url, timeout=30)
-    response.raise_for_status()
-
-    data = response.json()
+def extract_players(data):
     players = []
 
-    for item in data.get("athletes", []):
-        athlete = item.get("athlete") if isinstance(item, dict) and "athlete" in item else item
-
+    def add_player(athlete, fallback_position=""):
         if not isinstance(athlete, dict):
-            continue
+            return
 
-        position = athlete.get("position") or {}
+        position = athlete.get("position") or fallback_position or ""
 
         if isinstance(position, str):
             position_value = position
         elif isinstance(position, dict):
-            position_value = position.get("abbreviation", "")
+            position_value = (
+                position.get("abbreviation")
+                or position.get("displayName")
+                or position.get("name")
+                or ""
+            )
         else:
             position_value = ""
 
@@ -139,11 +156,12 @@ def fetch_roster(team):
             athlete.get("displayName")
             or athlete.get("fullName")
             or athlete.get("name")
+            or athlete.get("shortName")
             or ""
         )
 
         if not name:
-            continue
+            return
 
         players.append({
             "name": name,
@@ -153,7 +171,38 @@ def fetch_roster(team):
             "source": "ESPN College Football API",
         })
 
-    players = sorted(players, key=lambda p: p["name"])
+    for item in data.get("athletes", []):
+        if isinstance(item, dict) and "items" in item:
+            fallback_position = item.get("position") or item.get("name") or item.get("displayName") or ""
+            for athlete in item.get("items", []):
+                add_player(athlete, fallback_position)
+        elif isinstance(item, dict) and "athlete" in item:
+            add_player(item.get("athlete"))
+        else:
+            add_player(item)
+
+    for group in data.get("groups", []):
+        fallback_position = group.get("position") or group.get("name") or group.get("displayName") or ""
+        for athlete in group.get("athletes", []):
+            add_player(athlete, fallback_position)
+        for athlete in group.get("items", []):
+            add_player(athlete, fallback_position)
+
+    seen = {}
+    for player in players:
+        key = player["name"].lower()
+        seen[key] = player
+
+    return sorted(seen.values(), key=lambda p: p["name"])
+
+
+def fetch_roster(team):
+    url = roster_url(team["id"])
+    response = requests.get(url, timeout=30)
+    response.raise_for_status()
+    data = response.json()
+
+    players = extract_players(data)
 
     team_name = data.get("team", {}).get("displayName") or team["name"]
 
@@ -254,7 +303,7 @@ def run():
     statuses = []
     all_changes = []
 
-    print(f"Discovered {len(teams)} FBS NCAAF teams from ESPN group 80 page")
+    print(f"Discovered {len(teams)} FBS NCAAF teams from ESPN")
 
     for team in teams:
         code = team["code"]
