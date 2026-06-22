@@ -4,8 +4,8 @@
   "teamId": "295",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
   "source": "ESPN College Football API",
-  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/295/roster",
-  "checkedAt": "2026-06-22T12:43:36.665657+00:00",
+  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/295/roster?limit=100&page=1",
+  "checkedAt": "2026-06-22T14:19:31.629065+00:00",
   "players": [
     {
       "name": "AJ Ashworth",
@@ -109,6 +109,13 @@
       "name": "Chris Forbes",
       "position": "DL",
       "number": "90",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Chris Warren",
+      "position": "TE",
+      "number": "80",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -249,6 +256,13 @@
       "name": "Idrissa Kamara",
       "position": "DL",
       "number": "53",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Ja'Cory Thomas",
+      "position": "WR",
+      "number": "6",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -407,6 +421,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Justin Watts",
+      "position": "CB",
+      "number": "26",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Kainan Miller",
       "position": "OL",
       "number": "67",
@@ -428,6 +449,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Keshawn Thomas",
+      "position": "LB",
+      "number": "1",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Koa Naotala",
       "position": "LB",
       "number": "10",
@@ -442,9 +470,23 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Kris Trinidad",
+      "position": "DE",
+      "number": "43",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "LaDarius Adams II",
       "position": "LB",
       "number": "35",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Langston Williams",
+      "position": "CB",
+      "number": "20",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -484,9 +526,37 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Lucas Struck",
+      "position": "S",
+      "number": "19",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Maarten Woudsma",
+      "position": "OL",
+      "number": "55",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Marco Tyson",
+      "position": "S",
+      "number": "14",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Mario Easterly",
       "position": "S",
       "number": "3",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Mario Thompson",
+      "position": "LB",
+      "number": "0",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -540,6 +610,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Nickendre Stiger",
+      "position": "S",
+      "number": "2",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Owen Barry-Wilson",
       "position": "S",
       "number": "32",
@@ -550,6 +627,13 @@
       "name": "Quinn Henicle",
       "position": "QB",
       "number": "10",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Ricardo Williams Jr.",
+      "position": "DL",
+      "number": "94",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -578,6 +662,13 @@
       "name": "Ryan Ramey",
       "position": "S",
       "number": "7",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Ryan Thomas",
+      "position": "WR",
+      "number": "83",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

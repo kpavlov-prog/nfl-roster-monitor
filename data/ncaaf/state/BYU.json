@@ -4,8 +4,8 @@
   "teamId": "252",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
   "source": "ESPN College Football API",
-  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/252/roster",
-  "checkedAt": "2026-06-22T12:43:17.379677+00:00",
+  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/252/roster?limit=100&page=1",
+  "checkedAt": "2026-06-22T14:09:30.118169+00:00",
   "players": [
     {
       "name": "Ace Kaufusi",
@@ -25,6 +25,13 @@
       "name": "Andrew Gentry",
       "position": "OL",
       "number": "75",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Andrew Williams",
+      "position": "OL",
+      "number": "68",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -172,6 +179,13 @@
       "name": "Ethan Thomason",
       "position": "OL",
       "number": "78",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Ethan Wood",
+      "position": "TE",
+      "number": "24",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -351,6 +365,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Kendal Wall",
+      "position": "DT",
+      "number": "46",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Kevin Doe",
       "position": "CB",
       "number": "31",
@@ -382,6 +403,13 @@
       "name": "LJ Martin",
       "position": "RB",
       "number": "4",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Lamason Waller III",
+      "position": "WR",
+      "number": "15",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -505,6 +533,20 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Payton VanSteenkiste",
+      "position": "S",
+      "number": "24",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Pierson Watson",
+      "position": "LB",
+      "number": "23",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Preston Rex",
       "position": "RB",
       "number": "12",
@@ -529,6 +571,13 @@
       "name": "Rowan Reay",
       "position": "WR",
       "number": "29",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Sam Vander Haar",
+      "position": "P",
+      "number": "35",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -704,6 +753,13 @@
       "name": "Weylin Lapuaho",
       "position": "G",
       "number": "61",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Will Zundel",
+      "position": "TE",
+      "number": "32",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     }

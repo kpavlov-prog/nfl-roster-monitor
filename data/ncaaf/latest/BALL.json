@@ -4,8 +4,8 @@
   "teamId": "2050",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
   "source": "ESPN College Football API",
-  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2050/roster",
-  "checkedAt": "2026-06-22T12:43:17.701485+00:00",
+  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2050/roster?limit=100&page=1",
+  "checkedAt": "2026-06-22T14:09:40.779489+00:00",
   "players": [
     {
       "name": "Aaron Roberts",
@@ -53,6 +53,13 @@
       "name": "Ashton Nawrocki",
       "position": "DE",
       "number": "97",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Ashton Whitner",
+      "position": "DB",
+      "number": "7",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -109,6 +116,13 @@
       "name": "Brody Boehm",
       "position": "PK",
       "number": "38",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "CJ Zeltwanger",
+      "position": "OL",
+      "number": "76",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -365,6 +379,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Jackson Wiegold",
+      "position": "LB",
+      "number": "18",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Jahmad Harmon",
       "position": "DB",
       "number": "10",
@@ -470,6 +491,20 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Khalel Wright",
+      "position": "QB",
+      "number": "13",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Khristian Zachary",
+      "position": "DT",
+      "number": "74",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Kiael Kelly",
       "position": "QB",
       "number": "1",
@@ -540,6 +575,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Micah Wing",
+      "position": "LB",
+      "number": "9",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Michael Gravely Jr.",
       "position": "DB",
       "number": "2",
@@ -557,6 +599,13 @@
       "name": "Michael Varon",
       "position": "OL",
       "number": "55",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Mikeah Webster",
+      "position": "LB",
+      "number": "25",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -690,6 +739,13 @@
       "name": "Walter Taylor III",
       "position": "QB",
       "number": "7",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Willizhuan Yates",
+      "position": "DB",
+      "number": "20",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

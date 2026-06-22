@@ -4,8 +4,8 @@
   "teamId": "30",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
   "source": "ESPN College Football API",
-  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/30/roster",
-  "checkedAt": "2026-06-22T12:43:43.931197+00:00",
+  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/30/roster?limit=100&page=1",
+  "checkedAt": "2026-06-22T14:23:29.946745+00:00",
   "players": [
     {
       "name": "AJ Tuitele",
@@ -207,6 +207,13 @@
       "name": "Devin McDonough",
       "position": "LS",
       "number": "47",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Donovan Wood",
+      "position": "WR",
+      "number": "83",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -421,6 +428,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Josiah Zamora",
+      "position": "WR",
+      "number": "44",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Justin Tauanuu",
       "position": "OL",
       "number": "74",
@@ -568,6 +582,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Riley Wormley",
+      "position": "RB",
+      "number": "27",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Roman Marchetti",
       "position": "LB",
       "number": "57",
@@ -613,6 +634,13 @@
       "name": "Seneca Moore",
       "position": "QB",
       "number": "40",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Seth Zamora",
+      "position": "WR",
+      "number": "82",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -704,6 +732,13 @@
       "name": "William Weisberg",
       "position": "P",
       "number": "93",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Zacharyus Williams",
+      "position": "WR",
+      "number": "0",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     }

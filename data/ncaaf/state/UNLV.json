@@ -4,8 +4,8 @@
   "teamId": "2439",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
   "source": "ESPN College Football API",
-  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2439/roster",
-  "checkedAt": "2026-06-22T12:43:43.609180+00:00",
+  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2439/roster?limit=100&page=1",
+  "checkedAt": "2026-06-22T14:23:18.893655+00:00",
   "players": [
     {
       "name": "Ace Robinson",
@@ -414,9 +414,30 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Joshua Tuchek",
+      "position": "DB",
+      "number": "21",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Justin Flowe",
       "position": "LB",
       "number": "20",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Kal-El Togafau",
+      "position": "DL",
+      "number": "49",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Kamran Williams",
+      "position": "RB",
+      "number": "23",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -480,6 +501,13 @@
       "name": "Landen Thomas",
       "position": "DL",
       "number": "18",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Laterrance Welch",
+      "position": "DB",
+      "number": "0",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -603,6 +631,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Ramon Villela",
+      "position": "PK",
+      "number": "32",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Rashawn Jackson",
       "position": "WR",
       "number": "82",
@@ -610,9 +645,23 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Reid Williams",
+      "position": "OL",
+      "number": "64",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Rogerick Ray",
       "position": "RB",
       "number": "25",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Sam Wolfenden",
+      "position": "LS",
+      "number": "52",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

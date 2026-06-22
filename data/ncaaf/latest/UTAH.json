@@ -4,8 +4,8 @@
   "teamId": "254",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
   "source": "ESPN College Football API",
-  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/254/roster",
-  "checkedAt": "2026-06-22T12:43:44.252602+00:00",
+  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/254/roster?limit=100&page=1",
+  "checkedAt": "2026-06-22T14:23:40.782955+00:00",
   "players": [
     {
       "name": "Alex Cloward",
@@ -22,6 +22,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Aliki Vimahi",
+      "position": "DT",
+      "number": "95",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Anthony Hernandez",
       "position": "LB",
       "number": "28",
@@ -32,6 +39,13 @@
       "name": "Ashton Olevao",
       "position": "S",
       "number": "34",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Brendan Zurbrugg",
+      "position": "QB",
+      "number": "14",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -106,9 +120,30 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Creed Whittemore",
+      "position": "WR",
+      "number": "80",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Cyrus Polu",
       "position": "LB",
       "number": "35",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Daidren Zipperer",
+      "position": "WR",
+      "number": "6",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Dallas Vakalahi",
+      "position": "DT",
+      "number": "98",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -214,6 +249,13 @@
       "name": "Hunter Andrews",
       "position": "TE",
       "number": "10",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Isaac Wilson",
+      "position": "QB",
+      "number": "11",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -519,6 +561,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Nate Tilmon",
+      "position": "S",
+      "number": "21",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Nick Hallock",
       "position": "OL",
       "number": "77",
@@ -704,6 +753,13 @@
       "name": "Wayshawn Parker",
       "position": "RB",
       "number": "1",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Zereoue Williams",
+      "position": "OL",
+      "number": "76",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     }

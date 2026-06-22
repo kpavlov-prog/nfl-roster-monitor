@@ -4,8 +4,8 @@
   "teamId": "249",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
   "source": "ESPN College Football API",
-  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/249/roster",
-  "checkedAt": "2026-06-22T12:43:35.044825+00:00",
+  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/249/roster?limit=100&page=1",
+  "checkedAt": "2026-06-22T14:18:46.783456+00:00",
   "players": [
     {
       "name": "AJ Brown",
@@ -71,6 +71,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Brandon Young Jr.",
+      "position": "TE",
+      "number": "87",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Brayden Knox",
       "position": "DL",
       "number": "42",
@@ -116,6 +123,13 @@
       "name": "Bryce Garza",
       "position": "S",
       "number": "20",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Caden Yates",
+      "position": "LS",
+      "number": "50",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -239,6 +253,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Ethan Wesloski",
+      "position": "LB",
+      "number": "32",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Evan Jackson",
       "position": "S",
       "number": "3",
@@ -326,6 +347,13 @@
       "name": "Jayden Becks",
       "position": "RB",
       "number": "5",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Jayden Williams",
+      "position": "DL",
+      "number": "94",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -582,9 +610,23 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Shane Whitter",
+      "position": "LB",
+      "number": "7",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Simeon Evans",
       "position": "WR",
       "number": "3",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Tay Yanta II",
+      "position": "OL",
+      "number": "70",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -620,6 +662,20 @@
       "name": "Tom von Grote",
       "position": "QB",
       "number": "16",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Tramell Windham",
+      "position": "CB",
+      "number": "39",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Tre Williams III",
+      "position": "TE",
+      "number": "6",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -694,8 +750,22 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Wyatt Young",
+      "position": "WR",
+      "number": "10",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Xzavior Kautai",
       "position": "LB",
+      "number": "31",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Zachary Yang",
+      "position": "WR",
       "number": "31",
       "status": "ACTIVE",
       "source": "ESPN College Football API"

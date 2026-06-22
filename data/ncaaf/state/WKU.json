@@ -4,8 +4,8 @@
   "teamId": "98",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/98.png",
   "source": "ESPN College Football API",
-  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/98/roster",
-  "checkedAt": "2026-06-22T12:43:46.559241+00:00",
+  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/98/roster?limit=100&page=1",
+  "checkedAt": "2026-06-22T14:24:58.756661+00:00",
   "players": [
     {
       "name": "Adrion Boyd",
@@ -435,6 +435,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Justin Wolf",
+      "position": "TE",
+      "number": "15",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "K.D. Hutchinson",
       "position": "WR",
       "number": "2",
@@ -452,6 +459,13 @@
       "name": "Karsten Upchurch",
       "position": "OL",
       "number": "74",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Kelby Williams",
+      "position": "WR",
+      "number": "13",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -494,6 +508,20 @@
       "name": "Koron Hayward",
       "position": "LB",
       "number": "34",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "La'Vell Wright",
+      "position": "RB",
+      "number": "11",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Lataj Wright",
+      "position": "DB",
+      "number": "24",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

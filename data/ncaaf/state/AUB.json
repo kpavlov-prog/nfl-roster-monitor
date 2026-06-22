@@ -4,8 +4,8 @@
   "teamId": "2",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
   "source": "ESPN College Football API",
-  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2/roster",
-  "checkedAt": "2026-06-22T12:43:17.055507+00:00",
+  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2/roster?limit=100&page=1",
+  "checkedAt": "2026-06-22T14:09:19.360116+00:00",
   "players": [
     {
       "name": "A'mon Lane-Ganus",
@@ -74,6 +74,13 @@
       "name": "Benton Cantey",
       "position": "LS",
       "number": "64",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Blake Woodby",
+      "position": "CB",
+      "number": "12",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -239,6 +246,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Devin Williams",
+      "position": "CB",
+      "number": "27",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Donovan Starr",
       "position": "CB",
       "number": "22",
@@ -284,6 +298,13 @@
       "name": "Eric Singleton Jr.",
       "position": "WR",
       "number": "1",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Eric Winters",
+      "position": "S",
+      "number": "25",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -592,6 +613,13 @@
       "name": "Reed Hughes",
       "position": "LS",
       "number": "44",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Robert Woodyard Jr.",
+      "position": "LB",
+      "number": "0",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

@@ -4,8 +4,8 @@
   "teamId": "2132",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
   "source": "ESPN College Football API",
-  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2132/roster",
-  "checkedAt": "2026-06-22T12:43:20.302203+00:00",
+  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2132/roster?limit=100&page=1",
+  "checkedAt": "2026-06-22T14:11:07.111149+00:00",
   "players": [
     {
       "name": "Aiden Pastoriza",
@@ -158,6 +158,13 @@
       "name": "Deondre Buford",
       "position": "OL",
       "number": "56",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Devyn Zahursky",
+      "position": "TE",
+      "number": "83",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

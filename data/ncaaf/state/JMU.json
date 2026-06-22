@@ -4,8 +4,8 @@
   "teamId": "256",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
   "source": "ESPN College Football API",
-  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/256/roster",
-  "checkedAt": "2026-06-22T12:43:27.568684+00:00",
+  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/256/roster?limit=100&page=1",
+  "checkedAt": "2026-06-22T14:15:01.844382+00:00",
   "players": [
     {
       "name": "Aiden Gobaira",
@@ -36,6 +36,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Andrew VanSlyke",
+      "position": "P",
+      "number": "96",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Arrion Concepcion",
       "position": "WR",
       "number": "16",
@@ -53,6 +60,13 @@
       "name": "Blake Kendall",
       "position": "QB",
       "number": "15",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Braeden Wisloski",
+      "position": "WR",
+      "number": "10",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -134,6 +148,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Cole Webster",
+      "position": "DL",
+      "number": "99",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Cristiano Rosa",
       "position": "PK",
       "number": "95",
@@ -183,6 +204,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Dylan Williams",
+      "position": "WR",
+      "number": "88",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Ethan Gurela",
       "position": "TE",
       "number": "86",
@@ -193,6 +221,13 @@
       "name": "Evan Bushong",
       "position": "OL",
       "number": "73",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Gannon Weathersby",
+      "position": "LB",
+      "number": "3",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -407,6 +442,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Josh Toner",
+      "position": "OL",
+      "number": "72",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Joshua Prince",
       "position": "S",
       "number": "35",
@@ -445,6 +487,13 @@
       "name": "Kells Bush",
       "position": "DL",
       "number": "88",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Ken Willis",
+      "position": "S",
+      "number": "23",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -603,6 +652,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Sahir West",
+      "position": "DL",
+      "number": "15",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Sani Reed",
       "position": "OL",
       "number": "74",
@@ -655,6 +711,13 @@
       "name": "Trent Hendrick",
       "position": "LB",
       "number": "5",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Trent Wilson",
+      "position": "OL",
+      "number": "68",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

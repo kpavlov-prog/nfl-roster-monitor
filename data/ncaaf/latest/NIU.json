@@ -4,8 +4,8 @@
   "teamId": "2459",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
   "source": "ESPN College Football API",
-  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2459/roster",
-  "checkedAt": "2026-06-22T12:43:35.367205+00:00",
+  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2459/roster?limit=100&page=1",
+  "checkedAt": "2026-06-22T14:18:58.096183+00:00",
   "players": [
     {
       "name": "Abiathar Curry",
@@ -32,6 +32,20 @@
       "name": "Alvin Gulley Jr.",
       "position": "DT",
       "number": "0",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Amari Washington",
+      "position": "DT",
+      "number": "99",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Amari Williams",
+      "position": "DB",
+      "number": "38",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -85,6 +99,20 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Broderick Windham",
+      "position": "S",
+      "number": "24",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "CJ Wade",
+      "position": "DE",
+      "number": "46",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Caleb Haack",
       "position": "TE",
       "number": "82",
@@ -102,6 +130,13 @@
       "name": "Charles Brooks III",
       "position": "DE",
       "number": "53",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Chavon Wright",
+      "position": "RB",
+      "number": "10",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -130,6 +165,13 @@
       "name": "Danny Cronin",
       "position": "LB",
       "number": "19",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Danny Vuckovic",
+      "position": "P",
+      "number": "90",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -288,6 +330,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Jacob Welch",
+      "position": "OL",
+      "number": "78",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Jake Appleget",
       "position": "TE",
       "number": "80",
@@ -312,6 +361,13 @@
       "name": "Jalen Macon",
       "position": "QB",
       "number": "14",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Jalonnie Williams",
+      "position": "DE",
+      "number": "11",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -596,6 +652,20 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Romelo Walker",
+      "position": "DB",
+      "number": "29",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Romelo Ware",
+      "position": "RB",
+      "number": "11",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Ross Liegel",
       "position": "OL",
       "number": "58",
@@ -606,6 +676,13 @@
       "name": "Ross Pedro",
       "position": "LS",
       "number": "44",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Roy Williams",
+      "position": "EDGE",
+      "number": "97",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -676,6 +753,13 @@
       "name": "Tristan Hunter",
       "position": "LB",
       "number": "35",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Triston White",
+      "position": "RB",
+      "number": "34",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

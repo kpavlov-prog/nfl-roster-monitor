@@ -4,8 +4,8 @@
   "teamId": "2229",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
   "source": "ESPN College Football API",
-  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2229/roster",
-  "checkedAt": "2026-06-22T12:43:23.629427+00:00",
+  "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2229/roster?limit=100&page=1",
+  "checkedAt": "2026-06-22T14:12:52.818844+00:00",
   "players": [
     {
       "name": "Aaron Armitage",
@@ -239,6 +239,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Jackson Verdugo",
+      "position": "TE",
+      "number": "88",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Jaheim Buchanon",
       "position": "OL",
       "number": "59",
@@ -358,6 +365,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Justin Wood",
+      "position": "LS",
+      "number": "47",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Kani Smith",
       "position": "DL",
       "number": "42",
@@ -375,6 +389,13 @@
       "name": "Kelvin Reyes",
       "position": "DB",
       "number": "37",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Kenny Williams",
+      "position": "WR",
+      "number": "14",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -505,6 +526,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Nick Watson",
+      "position": "DL",
+      "number": "92",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Noah Fernandez",
       "position": "OL",
       "number": "60",
@@ -529,6 +557,13 @@
       "name": "Orlando Syph-Timmons",
       "position": "LB",
       "number": "40",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Ormond Wallace",
+      "position": "DB",
+      "number": "10",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -564,6 +599,13 @@
       "name": "Robert Czeremcha",
       "position": "PK",
       "number": "48",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Robert Williams",
+      "position": "DL",
+      "number": "43",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -659,6 +701,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Trey Wilhoit",
+      "position": "P",
+      "number": "6",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Tyderick Brown",
       "position": "DB",
       "number": "15",
@@ -697,6 +746,13 @@
       "name": "Xion Chapman",
       "position": "DL",
       "number": "90",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Zachary Waters",
+      "position": "QB",
+      "number": "17",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
