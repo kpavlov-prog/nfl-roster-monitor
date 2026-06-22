@@ -489,25 +489,25 @@ function compareCsv(text){
       const official=officialMap.get(norm(csvPlayer.name));
 
       if(!official){
-  missingOfficial++;
-
-  const mayBeTruncated = officialPlayers.length >= 100;
-
-  missingOfficialRows.push(`
-    <div class="csv-row ${mayBeTruncated ? "csv-warning" : "csv-missing"}">
-      <b>${mayBeTruncated ? "Needs verification" : "Missing from official roster"}:</b> ${csvPlayer.rawName} | ${code}
-      <div class="meta">
-        ${
-          mayBeTruncated
-          ? "ESPN returned exactly 100 players for this team, so the roster may be truncated. This player was not found in the returned ESPN roster, but may still be on the full school roster."
-          : "This player is in your CSV but was not found on the ESPN NCAAF roster."
-        }
-      </div>
-    </div>
-  `);
-
-  return;
-}
+        missingOfficial++;
+      
+        const mayBeTruncated = officialPlayers.length >= 100;
+      
+        missingOfficialRows.push(`
+          <div class="csv-row ${mayBeTruncated ? "csv-warning" : "csv-missing"}">
+            <b>${mayBeTruncated ? "Needs verification" : "Missing from official roster"}:</b> ${csvPlayer.rawName} | ${code}
+            <div class="meta">
+              ${
+                mayBeTruncated
+                ? "ESPN returned exactly 100 players for this team, so the roster may be truncated. This player was not found in the returned ESPN roster, but may still be on the full school roster."
+                : "This player is in your CSV but was not found on the ESPN NCAAF roster."
+              }
+            </div>
+          </div>
+        `);
+      
+        return;
+      }
 
       const issues=[];
 
