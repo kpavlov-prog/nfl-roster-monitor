@@ -197,44 +197,13 @@ def extract_players(data):
 
 
 def fetch_roster(team):
-all_players = []
-last_data = None
-
-for page in range(1, 6):
-    url = roster_url(team["id"], page)
-    response = requests.get(url, timeout=30)
-    response.raise_for_status()
-
-    data = response.json()
-    last_data = data
-
-    page_players = extract_players(data)
-
-    if not page_players:
-        break
-
-    all_players.extend(page_players)
-
-    if len(page_players) < 100:
-        break
-
-players_by_name = {}
-for player in all_players:
-    players_by_name[player["name"].lower()] = player
-
-players = sorted(players_by_name.values(), key=lambda p: p["name"])
-
-data = last_data or {}
-
-team_name = data.get("team", {}).get("displayName") or team["name"]
-
-def fetch_roster(team):
 
     all_players = []
     last_data = None
 
     for page in range(1, 6):
         url = roster_url(team["id"], page)
+
         response = requests.get(url, timeout=30)
         response.raise_for_status()
 
