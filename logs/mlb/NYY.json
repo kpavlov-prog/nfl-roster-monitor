@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-22T20:14:27.378719+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "added",
+    "playerName": "Yerry De los Santos",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-22T20:14:27.378728+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "removed",
+    "playerName": "Elmer Rodríguez",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-21T15:29:47.786101+00:00",
     "teamCode": "NYY",
     "teamName": "New York Yankees",

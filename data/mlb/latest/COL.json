@@ -5,19 +5,12 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=active",
-  "checkedAt": "2026-06-21T15:29:42.440381+00:00",
+  "checkedAt": "2026-06-22T20:14:21.928680+00:00",
   "players": [
     {
       "name": "Antonio Senzatela",
       "position": "P",
       "number": "49",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Blas Castaño",
-      "position": "P",
-      "number": "63",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -88,6 +81,13 @@
       "name": "Jimmy Herget",
       "position": "P",
       "number": "44",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "John Brebbia",
+      "position": "P",
+      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },

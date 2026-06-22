@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-22T20:14:21.929534+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Rockies",
+    "type": "added",
+    "playerName": "John Brebbia",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-22T20:14:21.929547+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Rockies",
+    "type": "removed",
+    "playerName": "Blas Castaño",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-19T15:15:40.335141+00:00",
     "teamCode": "COL",
     "teamName": "Colorado Rockies",

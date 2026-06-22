@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-06-21T15:29:53.124444+00:00",
+  "checkedAt": "2026-06-22T20:14:32.770030+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -113,6 +113,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Luis Urías",
+      "position": "SS",
+      "number": "48",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Mason Fluharty",
       "position": "P",
       "number": "68",
@@ -179,13 +186,6 @@
       "name": "Vladimir Guerrero Jr.",
       "position": "1B",
       "number": "27",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Yohendrick Piñango",
-      "position": "LF",
-      "number": "24",
       "status": "A",
       "source": "MLB Stats API"
     }

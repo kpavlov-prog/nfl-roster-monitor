@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-06-21T15:29:52.590800+00:00",
+  "checkedAt": "2026-06-22T20:14:32.228370+00:00",
   "players": [
     {
       "name": "Alejandro Osuna",
@@ -57,13 +57,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jack Leiter",
-      "position": "P",
-      "number": "22",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jacob Latz",
       "position": "P",
       "number": "67",
@@ -109,6 +102,13 @@
       "name": "Joe Ross",
       "position": "P",
       "number": "41",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jose Corniell",
+      "position": "P",
+      "number": "59",
       "status": "A",
       "source": "MLB Stats API"
     },

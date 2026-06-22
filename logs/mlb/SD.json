@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-22T20:14:29.532543+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "added",
+    "playerName": "Miguel Andujar",
+    "position": "DH",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-22T20:14:29.532555+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "removed",
+    "playerName": "Nick Solak",
+    "position": "1B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-20T15:22:02.117847+00:00",
     "teamCode": "SD",
     "teamName": "San Diego Padres",

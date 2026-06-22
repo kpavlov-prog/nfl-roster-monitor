@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=active",
-  "checkedAt": "2026-06-21T15:29:41.370449+00:00",
+  "checkedAt": "2026-06-22T20:14:20.857348+00:00",
   "players": [
     {
       "name": "Andrew Abbott",
@@ -57,13 +57,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Chris Paddack",
-      "position": "P",
-      "number": "56",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Dane Myers",
       "position": "CF",
       "number": "17",
@@ -99,6 +92,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Julian Garcia",
+      "position": "P",
+      "number": "57",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Matt McLain",
       "position": "2B",
       "number": "9",
@@ -123,6 +123,13 @@
       "name": "Noelvi Marte",
       "position": "RF",
       "number": "4",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Pierce Johnson",
+      "position": "P",
+      "number": "52",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,13 +186,6 @@
       "name": "Will Benson",
       "position": "RF",
       "number": "30",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Zach Maxwell",
-      "position": "P",
-      "number": "78",
       "status": "A",
       "source": "MLB Stats API"
     }

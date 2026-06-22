@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=active",
-  "checkedAt": "2026-06-21T15:29:46.182770+00:00",
+  "checkedAt": "2026-06-22T20:14:25.749571+00:00",
   "players": [
     {
       "name": "Aaron Ashby",
@@ -39,6 +39,13 @@
       "name": "Brandon Sproat",
       "position": "P",
       "number": "23",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brandon Woodruff",
+      "position": "P",
+      "number": "53",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -81,13 +88,6 @@
       "name": "David Hamilton",
       "position": "SS",
       "number": "6",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Drew Rom",
-      "position": "P",
-      "number": "38",
       "status": "A",
       "source": "MLB Stats API"
     },

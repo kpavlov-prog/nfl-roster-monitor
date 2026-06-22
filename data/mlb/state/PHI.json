@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/143/roster?rosterType=active",
-  "checkedAt": "2026-06-21T15:29:48.859280+00:00",
+  "checkedAt": "2026-06-22T20:14:28.460752+00:00",
   "players": [
     {
       "name": "Aaron Nola",
       "position": "P",
       "number": "27",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Alan Rangel",
+      "position": "P",
+      "number": "57",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -32,13 +39,6 @@
       "name": "Bryce Harper",
       "position": "1B",
       "number": "3",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Bryse Wilson",
-      "position": "P",
-      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -134,16 +134,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Kyle Schwarber",
-      "position": "DH",
-      "number": "12",
+      "name": "Kyle Backhus",
+      "position": "P",
+      "number": "19",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Max Lazar",
-      "position": "P",
-      "number": "60",
+      "name": "Kyle Schwarber",
+      "position": "DH",
+      "number": "12",
       "status": "A",
       "source": "MLB Stats API"
     },

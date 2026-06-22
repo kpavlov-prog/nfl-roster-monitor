@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-06-21T15:29:38.150548+00:00",
+  "checkedAt": "2026-06-22T20:14:17.576286+00:00",
   "players": [
     {
       "name": "Adrian Del Castillo",
@@ -78,6 +78,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jose Cabrera",
+      "position": "P",
+      "number": "53",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Juan Morillo",
       "position": "P",
       "number": "62",
@@ -95,6 +102,13 @@
       "name": "Kevin Ginkel",
       "position": "P",
       "number": "37",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kohl Drake",
+      "position": "P",
+      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -141,13 +155,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Philip Abner",
-      "position": "P",
-      "number": "50",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Ryan Thompson",
       "position": "P",
       "number": "81",
@@ -172,13 +179,6 @@
       "name": "Tommy Troy",
       "position": "LF",
       "number": "9",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Yilber Díaz",
-      "position": "P",
-      "number": "30",
       "status": "A",
       "source": "MLB Stats API"
     },
