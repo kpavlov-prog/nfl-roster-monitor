@@ -300,7 +300,13 @@ def fetch_site_roster(team):
 
 
 def fetch_roster(team):
-    site_players, site_data = fetch_site_roster(team)
+    site_players = []
+    site_data = {}
+
+    try:
+        site_players, site_data = fetch_site_roster(team)
+    except Exception as error:
+        print(f"{team['code']}: site roster failed: {error}")
 
     core_players = []
 
