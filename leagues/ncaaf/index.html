@@ -463,6 +463,7 @@ function compareCsv(text){
     const cleanName=rawName.replace(/\s*\([^)]*\)\s*/g,"").trim();
     const teamVal=idx.team>=0?(r[idx.team]||"").trim():"";
     const code=teamCodeFromCsv(teamVal);
+    console.log("CSV team match:", teamVal, "=>", code);
     const csvPos=idx.position>=0?(r[idx.position]||"").trim():"";
     const csvStatus=idx.status>=0?(r[idx.status]||"").trim():"";
 
