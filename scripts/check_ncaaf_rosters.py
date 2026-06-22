@@ -226,6 +226,43 @@ players = sorted(players_by_name.values(), key=lambda p: p["name"])
 
 data = last_data or {}
 
+team_name = data.get("team", {}).get("displayName") or team["name"]
+
+def fetch_roster(team):
+
+    all_players = []
+    last_data = None
+
+    for page in range(1, 6):
+        url = roster_url(team["id"], page)
+        response = requests.get(url, timeout=30)
+        response.raise_for_status()
+
+        data = response.json()
+        last_data = data
+
+        page_players = extract_players(data)
+
+        if not page_players:
+            break
+
+        all_players.extend(page_players)
+
+        if len(page_players) < 100:
+            break
+
+    players_by_name = {}
+
+    for player in all_players:
+        players_by_name[player["name"].lower()] = player
+
+    players = sorted(
+        players_by_name.values(),
+        key=lambda p: p["name"]
+    )
+
+    data = last_data or {}
+
     team_name = data.get("team", {}).get("displayName") or team["name"]
 
     return {
@@ -234,36 +271,9 @@ data = last_data or {}
         "teamId": team["id"],
         "logo": team.get("logo", ""),
         "source": "ESPN College Football API",
-        "url": url,
+        "url": roster_url(team["id"]),
         "checkedAt": now_iso(),
         "players": players,
-    }
-
-
-def player_map(roster):
-    return {
-        player["name"].lower(): player
-        for player in roster.get("players", [])
-    }
-
-
-def make_change(roster, change_type, player, old_value="", new_value=""):
-    severity = "low"
-
-    if change_type in ["removed", "status changed"]:
-        severity = "medium"
-
-    return {
-        "timestamp": now_iso(),
-        "teamCode": roster["code"],
-        "teamName": roster["team"],
-        "type": change_type,
-        "playerName": player.get("name", ""),
-        "position": player.get("position", ""),
-        "oldValue": old_value or "",
-        "newValue": new_value or "",
-        "source": "ESPN College Football API",
-        "severity": severity,
     }
 
 
