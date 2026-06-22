@@ -394,7 +394,22 @@ function parseCsv(text){
 
 function teamCodeFromCsv(value){
   const s=norm(value);
-  const found=statusRows.find(r=>norm(r.teamCode)===s||norm(r.teamName)===s);
+
+  const aliases={
+    airforce:"AF",
+    airforcefalcons:"AF",
+    airforceacademy:"AF",
+    afa:"AF"
+  };
+
+  if(aliases[s])return aliases[s];
+
+  const found=statusRows.find(r=>
+    norm(r.teamCode)===s ||
+    norm(r.teamName)===s ||
+    norm(String(r.teamName||"").replace(/falcons|crimson tide|bulldogs|tigers|wildcats|cardinals|bearcats|cougars|eagles|panthers|warriors|knights|rebels|rams|owls|bears|broncos|mountaineers|huskies|spartans|wolverines|buckeyes|longhorns|aggies|seminoles|hurricanes|volunteers|commodores|razorbacks|gamecocks|gators|yellow jackets|blue devils|orange|wolfpack|tar heels/gi,"").trim())===s
+  );
+
   return found?found.teamCode:selectedCode;
 }
 
