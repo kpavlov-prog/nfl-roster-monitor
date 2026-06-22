@@ -124,10 +124,10 @@ def fetch_teams():
     return sorted(unique.values(), key=lambda t: t["name"])
 
 
-def roster_url(team_id):
+def roster_url(team_id, page=1):
     return (
         "https://site.api.espn.com/apis/site/v2/sports/"
-        f"football/college-football/teams/{team_id}/roster?limit=300"
+        f"football/college-football/teams/{team_id}/roster?limit=100&page={page}"
     )
 
 
