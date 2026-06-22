@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-06-22T20:15:05.280224+00:00",
+    "teamCode": "FLA",
+    "teamName": "Florida Panthers",
+    "type": "added",
+    "playerName": "Brady Tkachuk",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-22T20:15:05.280240+00:00",
+    "teamCode": "FLA",
+    "teamName": "Florida Panthers",
+    "type": "removed",
+    "playerName": "Mackie Samoskevich",
+    "position": "R",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  }
+]

@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-06-22T20:15:05.280224+00:00",
+    "teamCode": "FLA",
+    "teamName": "Florida Panthers",
+    "type": "added",
+    "playerName": "Brady Tkachuk",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-22T20:15:05.280240+00:00",
+    "teamCode": "FLA",
+    "teamName": "Florida Panthers",
+    "type": "removed",
+    "playerName": "Mackie Samoskevich",
+    "position": "R",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-22T20:15:10.553786+00:00",
+    "teamCode": "OTT",
+    "teamName": "Ottawa Senators",
+    "type": "removed",
+    "playerName": "Brady Tkachuk",
+    "position": "L",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-22T20:15:12.700962+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Kraken",
+    "type": "added",
+    "playerName": "Mackie Samoskevich",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-22T20:15:14.829200+00:00",
+    "teamCode": "TBL",
+    "teamName": "Tampa Bay Lightning",
+    "type": "removed",
+    "playerName": "Darren Raddysh",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-19T17:06:12.513590+00:00",
     "teamCode": "TOR",
     "teamName": "Toronto Maple Leafs",
