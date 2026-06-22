@@ -127,7 +127,7 @@ def fetch_teams():
 def roster_url(team_id):
     return (
         "https://site.api.espn.com/apis/site/v2/sports/"
-        f"football/college-football/teams/{team_id}/roster"
+        f"football/college-football/teams/{team_id}/roster?limit=300"
     )
 
 
