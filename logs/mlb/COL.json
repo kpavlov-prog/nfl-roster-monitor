@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-06-23T17:07:51.523548+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Rockies",
+    "type": "position changed",
+    "playerName": "Braxton Fulford",
+    "position": "DH",
+    "oldValue": "C",
+    "newValue": "DH",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-23T17:07:51.523560+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Rockies",
+    "type": "added",
+    "playerName": "Mickey Moniak",
+    "position": "LF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-23T17:07:51.523568+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Rockies",
+    "type": "removed",
+    "playerName": "Sterlin Thompson",
+    "position": "RF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-22T20:14:21.929534+00:00",
     "teamCode": "COL",
     "teamName": "Colorado Rockies",

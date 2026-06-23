@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=active",
-  "checkedAt": "2026-06-22T20:14:24.117041+00:00",
+  "checkedAt": "2026-06-23T17:07:53.690785+00:00",
   "players": [
     {
       "name": "Brent Suter",
@@ -50,6 +50,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jorge Soler",
+      "position": "DH",
+      "number": "12",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jose Siri",
       "position": "LF",
       "number": "28",
@@ -88,13 +95,6 @@
       "name": "Mitch Farris",
       "position": "P",
       "number": "70",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Nick Madrigal",
-      "position": "3B",
-      "number": "17",
       "status": "A",
       "source": "MLB Stats API"
     },

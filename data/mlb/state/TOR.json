@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-06-22T20:14:32.770030+00:00",
+  "checkedAt": "2026-06-23T17:08:02.256961+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -99,13 +99,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Lazaro Estrada",
-      "position": "P",
-      "number": "60",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Louis Varland",
       "position": "P",
       "number": "77",
@@ -144,6 +137,13 @@
       "name": "Patrick Corbin",
       "position": "P",
       "number": "46",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Shane Bieber",
+      "position": "P",
+      "number": "57",
       "status": "A",
       "source": "MLB Stats API"
     },
