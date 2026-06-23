@@ -3,7 +3,7 @@
   "team": "Dallas Wings",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/DAL/roster",
-  "checkedAt": "2026-06-22T20:18:10.862298+00:00",
+  "checkedAt": "2026-06-23T17:21:34.787269+00:00",
   "players": [
     {
       "name": "Alanna Smith",
@@ -51,6 +51,13 @@
       "name": "Costanza Verona",
       "position": "G",
       "number": "6",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Haley Jones",
+      "position": "G",
+      "number": "30",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },

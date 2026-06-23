@@ -3,7 +3,7 @@
   "team": "Phoenix Mercury",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/PHX/roster",
-  "checkedAt": "2026-06-22T20:18:15.731808+00:00",
+  "checkedAt": "2026-06-23T17:21:38.882159+00:00",
   "players": [
     {
       "name": "Alyssa Thomas",
@@ -86,6 +86,13 @@
       "name": "Sami Whitcomb",
       "position": "G",
       "number": "33",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Shay Ciezki",
+      "position": "G",
+      "number": "5",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },
