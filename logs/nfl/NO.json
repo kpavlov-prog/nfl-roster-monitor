@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-06-23T17:03:54.895879+00:00",
+    "teamCode": "NO",
+    "teamName": "New Orleans Saints",
+    "type": "added",
+    "playerName": "Jalen Cropper",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-23T17:03:54.895902+00:00",
+    "teamCode": "NO",
+    "teamName": "New Orleans Saints",
+    "type": "removed",
+    "playerName": "Damien Alford",
+    "position": "WR",
+    "oldValue": "RES",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-06-23T17:03:54.895908+00:00",
+    "teamCode": "NO",
+    "teamName": "New Orleans Saints",
+    "type": "removed",
+    "playerName": "Jalen Moreno-Cropper",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-19T17:04:02.267733+00:00",
     "teamCode": "NO",
     "teamName": "New Orleans Saints",
