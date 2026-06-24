@@ -3,7 +3,7 @@
   "team": "Chicago Blackhawks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/CHI/current",
-  "checkedAt": "2026-06-22T20:15:01.391023+00:00",
+  "checkedAt": "2026-06-24T16:37:56.514156+00:00",
   "players": [
     {
       "name": "Alex Vlasic",
@@ -48,6 +48,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Bowen Byram",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Connor Bedard",
       "position": "C",
       "number": "98",
@@ -83,6 +90,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Jordan Greenway",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Kevin Korchinski",
       "position": "D",
       "number": "14",
@@ -93,13 +107,6 @@
       "name": "Landon Slaggert",
       "position": "L",
       "number": "84",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Louis Crevier",
-      "position": "D",
-      "number": "46",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

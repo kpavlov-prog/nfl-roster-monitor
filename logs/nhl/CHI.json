@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2026-06-24T16:37:56.515312+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Blackhawks",
+    "type": "added",
+    "playerName": "Bowen Byram",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-24T16:37:56.515323+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Blackhawks",
+    "type": "added",
+    "playerName": "Jordan Greenway",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-24T16:37:56.515331+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Blackhawks",
+    "type": "removed",
+    "playerName": "Louis Crevier",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  }
+]

@@ -3,7 +3,7 @@
   "team": "St. Louis Blues",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/STL/current",
-  "checkedAt": "2026-06-22T20:15:14.078268+00:00",
+  "checkedAt": "2026-06-24T16:38:08.540538+00:00",
   "players": [
     {
       "name": "Alexey Toropchenko",
@@ -23,6 +23,13 @@
       "name": "Colton Parayko",
       "position": "D",
       "number": "55",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Connor McMichael",
+      "position": "L",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -86,13 +93,6 @@
       "name": "Jordan Binnington",
       "position": "G",
       "number": "50",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Jordan Kyrou",
-      "position": "R",
-      "number": "25",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

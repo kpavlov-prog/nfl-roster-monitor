@@ -3,7 +3,7 @@
   "team": "San Jose Sharks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/SJS/current",
-  "checkedAt": "2026-06-22T20:15:13.499683+00:00",
+  "checkedAt": "2026-06-24T16:38:07.851029+00:00",
   "players": [
     {
       "name": "Adam Gaudette",
@@ -156,13 +156,6 @@
       "name": "Will Smith",
       "position": "C",
       "number": "2",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "William Eklund",
-      "position": "L",
-      "number": "72",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
