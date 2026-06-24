@@ -3,7 +3,7 @@
   "team": "Atlanta Hawks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/ATL/roster",
-  "checkedAt": "2026-06-22T20:16:24.299309+00:00",
+  "checkedAt": "2026-06-24T16:38:46.661394+00:00",
   "players": [
     {
       "name": "Asa Newell",
@@ -97,6 +97,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Kingston Flemings",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Mouhamed Gueye",
       "position": "F",
       "number": "18",
@@ -135,6 +142,13 @@
       "name": "Zaccharie Risacher",
       "position": "F",
       "number": "10",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Zuby Ejiofor",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }

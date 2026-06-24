@@ -1,0 +1,74 @@
+[
+  {
+    "timestamp": "2026-06-24T16:38:55.518858+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Heat",
+    "type": "added",
+    "playerName": "Bobby Portis",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-24T16:38:55.518866+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Heat",
+    "type": "added",
+    "playerName": "Giannis Antetokounmpo",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-24T16:38:55.518873+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Heat",
+    "type": "removed",
+    "playerName": "Jaime Jaquez Jr.",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-24T16:38:55.518875+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Heat",
+    "type": "removed",
+    "playerName": "Kasparas Jakucionis",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-24T16:38:55.518877+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Heat",
+    "type": "removed",
+    "playerName": "Kel'el Ware",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-24T16:38:55.518880+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Heat",
+    "type": "removed",
+    "playerName": "Tyler Herro",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  }
+]

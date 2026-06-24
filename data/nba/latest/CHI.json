@@ -3,7 +3,7 @@
   "team": "Chicago Bulls",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/CHI/roster",
-  "checkedAt": "2026-06-22T20:16:27.017923+00:00",
+  "checkedAt": "2026-06-24T16:38:49.076087+00:00",
   "players": [
     {
       "name": "Anfernee Simons",
@@ -13,9 +13,23 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Caleb Wilson",
+      "position": "F",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Collin Sexton",
       "position": "G",
       "number": "2",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Dailyn Swain",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -79,6 +93,13 @@
       "name": "Mouhamadou Gueye",
       "position": "F",
       "number": "16",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Nic Claxton",
+      "position": "C",
+      "number": "33",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

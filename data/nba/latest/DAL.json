@@ -3,7 +3,7 @@
   "team": "Dallas Mavericks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/DAL/roster",
-  "checkedAt": "2026-06-22T20:16:28.168225+00:00",
+  "checkedAt": "2026-06-24T16:38:50.226680+00:00",
   "players": [
     {
       "name": "AJ Johnson",
@@ -97,6 +97,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Morez Johnson Jr.",
+      "position": "F",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Moussa Cisse",
       "position": "C",
       "number": "30",
@@ -121,6 +128,13 @@
       "name": "Ryan Nembhard",
       "position": "G",
       "number": "9",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Sergio de Larrea",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

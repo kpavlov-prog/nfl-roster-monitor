@@ -3,7 +3,7 @@
   "team": "Charlotte Hornets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/CHA/roster",
-  "checkedAt": "2026-06-22T20:16:26.429701+00:00",
+  "checkedAt": "2026-06-24T16:38:48.434444+00:00",
   "players": [
     {
       "name": "Antonio Reeves",
@@ -20,6 +20,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Christian Anderson",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Coby White",
       "position": "G",
       "number": "3",
@@ -30,6 +37,13 @@
       "name": "Grant Williams",
       "position": "F",
       "number": "2",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Hannes Steinbach",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

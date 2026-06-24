@@ -3,7 +3,7 @@
   "team": "Miami Heat",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIA/roster",
-  "checkedAt": "2026-06-22T20:16:33.522302+00:00",
+  "checkedAt": "2026-06-24T16:38:55.517750+00:00",
   "players": [
     {
       "name": "Andrew Wiggins",
@@ -16,6 +16,13 @@
       "name": "Bam Adebayo",
       "position": "C",
       "number": "13",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Bobby Portis",
+      "position": "F",
+      "number": "9",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -34,30 +41,16 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Giannis Antetokounmpo",
+      "position": "F",
+      "number": "34",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Jahmir Young",
       "position": "G",
       "number": "17",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Jaime Jaquez Jr.",
-      "position": "F",
-      "number": "11",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Kasparas Jakucionis",
-      "position": "G",
-      "number": "25",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Kel'el Ware",
-      "position": "C",
-      "number": "7",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -107,13 +100,6 @@
       "name": "Trevor Keels",
       "position": "G",
       "number": "8",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Tyler Herro",
-      "position": "G",
-      "number": "14",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

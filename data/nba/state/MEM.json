@@ -3,7 +3,7 @@
   "team": "Memphis Grizzlies",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MEM/roster",
-  "checkedAt": "2026-06-22T20:16:32.870924+00:00",
+  "checkedAt": "2026-06-24T16:38:54.962872+00:00",
   "players": [
     {
       "name": "Adama Bal",
@@ -16,6 +16,13 @@
       "name": "Cam Spencer",
       "position": "G",
       "number": "24",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Cameron Boozer",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -65,6 +72,13 @@
       "name": "Jaylen Wells",
       "position": "F",
       "number": "0",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Karim Lopez",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

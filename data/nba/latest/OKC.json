@@ -3,12 +3,19 @@
   "team": "Oklahoma City Thunder",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/OKC/roster",
-  "checkedAt": "2026-06-22T20:16:36.407040+00:00",
+  "checkedAt": "2026-06-24T16:38:58.374499+00:00",
   "players": [
     {
       "name": "Aaron Wiggins",
       "position": "G",
       "number": "21",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Aday Mara",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -23,6 +30,13 @@
       "name": "Alex Caruso",
       "position": "G",
       "number": "9",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Bennett Stirtz",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

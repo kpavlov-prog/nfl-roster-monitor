@@ -3,12 +3,26 @@
   "team": "Sacramento Kings",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/SAC/roster",
-  "checkedAt": "2026-06-22T20:16:39.379308+00:00",
+  "checkedAt": "2026-06-24T16:39:01.250260+00:00",
   "players": [
+    {
+      "name": "Alex Karaban",
+      "position": "F",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
     {
       "name": "Daeqwon Plowden",
       "position": "G",
       "number": "29",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Darius Acuff Jr.",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

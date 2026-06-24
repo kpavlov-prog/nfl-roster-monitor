@@ -3,7 +3,7 @@
   "team": "Milwaukee Bucks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIL/roster",
-  "checkedAt": "2026-06-22T20:16:34.092264+00:00",
+  "checkedAt": "2026-06-24T16:38:56.091460+00:00",
   "players": [
     {
       "name": "AJ Green",
@@ -27,9 +27,9 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Bobby Portis",
-      "position": "F",
-      "number": "9",
+      "name": "Brayden Burries",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -55,9 +55,9 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Giannis Antetokounmpo",
+      "name": "Jaime Jaquez Jr.",
       "position": "F",
-      "number": "34",
+      "number": "11",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -65,6 +65,20 @@
       "name": "Jericho Sims",
       "position": "C",
       "number": "00",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Kasparas Jakucionis",
+      "position": "G",
+      "number": "25",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Kel'el Ware",
+      "position": "C",
+      "number": "7",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -86,6 +100,13 @@
       "name": "Myles Turner",
       "position": "C",
       "number": "3",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Nate Ament",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -121,6 +142,13 @@
       "name": "Thanasis Antetokounmpo",
       "position": "F",
       "number": "43",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Tyler Herro",
+      "position": "G",
+      "number": "14",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }

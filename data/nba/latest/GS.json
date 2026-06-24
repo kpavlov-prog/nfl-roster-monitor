@@ -3,7 +3,7 @@
   "team": "Golden State Warriors",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/GS/roster",
-  "checkedAt": "2026-06-22T20:16:30.003271+00:00",
+  "checkedAt": "2026-06-24T16:38:52.018824+00:00",
   "players": [
     {
       "name": "Al Horford",
@@ -135,6 +135,13 @@
       "name": "Will Richard",
       "position": "G",
       "number": "3",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Yaxel Lendeborg",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }

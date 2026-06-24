@@ -3,7 +3,7 @@
   "team": "Philadelphia 76ers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/PHI/roster",
-  "checkedAt": "2026-06-22T20:16:37.594544+00:00",
+  "checkedAt": "2026-06-24T16:38:59.520785+00:00",
   "players": [
     {
       "name": "Adem Bona",
@@ -72,6 +72,13 @@
       "name": "Kyle Lowry",
       "position": "G",
       "number": "7",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Labaron Philon Jr.",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

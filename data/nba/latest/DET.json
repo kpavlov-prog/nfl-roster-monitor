@@ -3,7 +3,7 @@
   "team": "Detroit Pistons",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/DET/roster",
-  "checkedAt": "2026-06-22T20:16:29.419943+00:00",
+  "checkedAt": "2026-06-24T16:38:51.449323+00:00",
   "players": [
     {
       "name": "Ausar Thompson",
@@ -44,6 +44,13 @@
       "name": "Duncan Robinson",
       "position": "F",
       "number": "55",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Ebuka Okorie",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

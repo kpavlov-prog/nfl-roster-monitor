@@ -3,7 +3,7 @@
   "team": "San Antonio Spurs",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/SA/roster",
-  "checkedAt": "2026-06-22T20:16:39.953218+00:00",
+  "checkedAt": "2026-06-24T16:39:01.833458+00:00",
   "players": [
     {
       "name": "Bismack Biyombo",
@@ -69,6 +69,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Jayden Quaintance",
+      "position": "F",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Jordan McLaughlin",
       "position": "G",
       "number": "0",
@@ -121,6 +128,13 @@
       "name": "Stephon Castle",
       "position": "G",
       "number": "5",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Tarris Reed Jr.",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

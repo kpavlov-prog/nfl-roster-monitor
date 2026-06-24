@@ -3,7 +3,7 @@
   "team": "LA Clippers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/LAC/roster",
-  "checkedAt": "2026-06-22T20:16:31.727236+00:00",
+  "checkedAt": "2026-06-24T16:38:53.825890+00:00",
   "players": [
     {
       "name": "Bennedict Mathurin",
@@ -79,6 +79,13 @@
       "name": "Kawhi Leonard",
       "position": "F",
       "number": "2",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Keaton Wagler",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
