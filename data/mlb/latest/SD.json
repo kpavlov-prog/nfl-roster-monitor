@@ -5,19 +5,12 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=active",
-  "checkedAt": "2026-06-23T17:07:59.011677+00:00",
+  "checkedAt": "2026-06-24T16:36:37.153541+00:00",
   "players": [
     {
       "name": "Adrian Morejon",
       "position": "P",
       "number": "50",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Blake Hunt",
-      "position": "C",
-      "number": "26",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -36,6 +29,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Freddy Fermin",
+      "position": "C",
+      "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Gavin Sheets",
       "position": "1B",
       "number": "30",
@@ -46,6 +46,13 @@
       "name": "Griffin Canning",
       "position": "P",
       "number": "17",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "JP Sears",
+      "position": "P",
+      "number": "38",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -74,13 +81,6 @@
       "name": "Kyle Hart",
       "position": "P",
       "number": "68",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Lucas Giolito",
-      "position": "P",
-      "number": "55",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/112/roster?rosterType=active",
-  "checkedAt": "2026-06-23T17:07:49.390994+00:00",
+  "checkedAt": "2026-06-24T16:36:26.170873+00:00",
   "players": [
     {
       "name": "Alex Bregman",
@@ -64,13 +64,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Gavin Hollowell",
-      "position": "P",
-      "number": "46",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Hoby Milner",
       "position": "P",
       "number": "41",
@@ -95,6 +88,13 @@
       "name": "Javier Assad",
       "position": "P",
       "number": "72",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jayden Murray",
+      "position": "P",
+      "number": "70",
       "status": "A",
       "source": "MLB Stats API"
     },

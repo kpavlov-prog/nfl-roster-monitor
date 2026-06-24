@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-24T16:36:34.183516+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "position changed",
+    "playerName": "Bo Bichette",
+    "position": "SS",
+    "oldValue": "3B",
+    "newValue": "SS",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-24T16:36:34.183524+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "added",
+    "playerName": "Jonathan Pintaro",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-06-17T18:02:38.256974+00:00",
     "teamCode": "NYM",
     "teamName": "New York Mets",
