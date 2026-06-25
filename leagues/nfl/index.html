@@ -318,6 +318,10 @@ function compareCsv(text){
 
   document.getElementById("csvResults").innerHTML=`
     <b>CSV Reconciliation Summary</b>
+    <br><br>
+    <button onclick='downloadMissingOfficialCsv(${JSON.stringify(missingOfficialExport)})'>
+      Export CSV Missing from Official Roster
+    </button>
     <div class="meta">
       Found in both: ${found}
       |
