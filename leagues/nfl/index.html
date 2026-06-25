@@ -255,16 +255,24 @@ function compareCsv(text){
     csvPlayers.forEach(csvPlayer=>{
       const official=officialMap.get(norm(csvPlayer.name));
 
-      if(!official){
-        missingOfficial++;
-        missingOfficialRows.push(`
-          <div class="csv-row csv-missing">
-            <b>Missing from official roster:</b> ${csvPlayer.rawName} | ${code}
-            <div class="meta">This player is in your CSV but was not found on the official NFL roster.</div>
-          </div>
-        `);
-        return;
-      }
+       if(!official){
+          missingOfficial++;
+        
+          missingOfficialExport.push({
+            name: csvPlayer.rawName,
+            teamCode: code,
+            position: csvPlayer.position || "",
+            status: csvPlayer.status || ""
+          });
+  
+          missingOfficialRows.push(`
+            <div class="csv-row csv-missing">
+              <b>Missing from official roster:</b> ${csvPlayer.rawName} | ${code}
+              <div class="meta">This player is in your CSV but was not found on the official NFL roster.</div>
+            </div>
+          `);
+          return;
+        }
 
       const issues=[];
 
