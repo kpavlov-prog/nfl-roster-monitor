@@ -489,98 +489,174 @@ function compareCsv(text){
     const officialMap=new Map(officialPlayers.map(p=>[norm(p.name),p]));
     const csvMap=new Map(csvPlayers.map(p=>[norm(p.name),p]));
 
-    csvPlayers.forEach(csvPlayer=>{
-      const official=officialMap.get(norm(csvPlayer.name));
+csvPlayers.forEach(csvPlayer=>{
+  const official=officialMap.get(norm(csvPlayer.name));
 
-      if(!official){
-        missingOfficial++;
-      
-        const mayBeTruncated = officialPlayers.length >= 100;
-      
-        missingOfficialRows.push(`
-          <div class="csv-row ${mayBeTruncated ? "csv-warning" : "csv-missing"}">
-            <b>${mayBeTruncated ? "Needs verification" : "Missing from official roster"}:</b> ${csvPlayer.rawName} | ${code}
-            <div class="meta">
-              ${
-                mayBeTruncated
-                ? "ESPN returned exactly 100 players for this team, so the roster may be truncated. This player was not found in the returned ESPN roster, but may still be on the full school roster."
-                : "This player is in your CSV but was not found on the ESPN NCAAF roster."
-              }
-            </div>
-          </div>
-        `);
-      
-        return;
-      }
+  if(!official){
+    missingOfficial++;
 
-      const issues=[];
+    const mayBeTruncated = officialPlayers.length >= 100;
 
-      if(csvPlayer.position&&norm(csvPlayer.position)!==norm(official.position)){
-        issues.push(`Position CSV ${csvPlayer.position} vs Official ${official.position}`);
-      }
+    const row={
+      result:mayBeTruncated ? "needs_verification_not_found_in_returned_espn_roster" : "missing_from_official",
+      name:csvPlayer.rawName,
+      teamCode:code,
+      csvPosition:csvPlayer.position||"",
+      officialPosition:"",
+      csvStatus:csvPlayer.status||"",
+      officialStatus:"",
+      note:mayBeTruncated
+        ? "Roster may be truncated or incomplete from ESPN returned data."
+        : "Player was not found on the ESPN NCAAF roster."
+    };
 
-      if(csvPlayer.status&&normStatus(csvPlayer.status)!==normStatus(official.status)){
-        issues.push(`Status CSV ${csvPlayer.status} vs Official ${official.status}`);
-      }
+    missingOfficialExport.push(row);
+    fullReportExport.push(row);
 
-      if(issues.length){
-        mismatch++;
-        mismatchRows.push(`
-          <div class="csv-row csv-warning">
-            <b>Mismatch:</b> ${csvPlayer.rawName} | ${code}
-            <div class="meta">${issues.join(" | ")}</div>
-          </div>
-        `);
-      }else{
-        found++;
-        foundRows.push(`
-          <div class="csv-row csv-found">
-            <b>Found in both:</b> ${csvPlayer.rawName} | ${code}
-            <div class="meta">Official: ${official.position} | ${official.status}</div>
-          </div>
-        `);
-      }
-    });
+    missingOfficialRows.push(`
+      <div class="csv-row ${mayBeTruncated ? "csv-warning" : "csv-missing"}">
+        <b>${mayBeTruncated ? "Needs verification" : "Missing from official roster"}:</b> ${csvPlayer.rawName} | ${code}
+        <div class="meta">
+          ${
+            mayBeTruncated
+            ? "ESPN returned 100+ players for this team, so verify against the full school/ESPN source. This player was not found in the returned roster."
+            : "This player is in your CSV but was not found on the ESPN NCAAF roster."
+          }
+        </div>
+      </div>
+    `);
 
-    officialPlayers.forEach(official=>{
-      if(!csvMap.has(norm(official.name))){
-        missingCsv++;
-        missingCsvRows.push(`
-          <div class="csv-row csv-warning">
-            <b>Missing from CSV:</b> ${official.name} | ${code}
-            <div class="meta">Official: #${official.number||"-"} | ${official.position} | ${official.status}</div>
-          </div>
-        `);
-      }
-    });
-  });
+    return;
+  }
 
-  document.getElementById("csvResults").innerHTML=`
-    <b>NCAAF CSV Reconciliation Summary</b>
-    <div class="meta">
-      Found in both: ${found}
-      |
-      CSV players not found in returned ESPN roster: ${missingOfficial}
-      |
-      Official players missing from CSV: ${missingCsv}
-      |
-      Position/status mismatches: ${mismatch}
-    </div>
-    <br>
+  const issues=[];
 
-    <h3>Needs Review: In CSV but missing from official roster</h3>
-    ${missingOfficialRows.join("")||`<div class="empty">None.</div>`}
+  if(csvPlayer.position&&norm(csvPlayer.position)!==norm(official.position)){
+    issues.push(`Position CSV ${csvPlayer.position} vs Official ${official.position}`);
+  }
 
-    <h3>Needs Review: On official roster but missing from CSV</h3>
-    ${missingCsvRows.join("")||`<div class="empty">None.</div>`}
+  if(csvPlayer.status&&normStatus(csvPlayer.status)!==normStatus(official.status)){
+    issues.push(`Status CSV ${csvPlayer.status} vs Official ${official.status}`);
+  }
 
-    <h3>Position / Status Mismatches</h3>
-    ${mismatchRows.join("")||`<div class="empty">None.</div>`}
+  if(issues.length){
+    mismatch++;
 
-    <h3>Found in both</h3>
-    ${foundRows.join("")||`<div class="empty">None.</div>`}
-  `;
-}
+    const row={
+      result:"position_or_status_mismatch",
+      name:csvPlayer.rawName,
+      teamCode:code,
+      csvPosition:csvPlayer.position||"",
+      officialPosition:official.position||"",
+      csvStatus:csvPlayer.status||"",
+      officialStatus:official.status||"",
+      note:issues.join(" | ")
+    };
+
+    mismatchExport.push(row);
+    fullReportExport.push(row);
+
+    mismatchRows.push(`
+      <div class="csv-row csv-warning">
+        <b>Mismatch:</b> ${csvPlayer.rawName} | ${code}
+        <div class="meta">${issues.join(" | ")}</div>
+      </div>
+    `);
+  }else{
+    found++;
+
+    const row={
+      result:"found_in_both",
+      name:csvPlayer.rawName,
+      teamCode:code,
+      csvPosition:csvPlayer.position||"",
+      officialPosition:official.position||"",
+      csvStatus:csvPlayer.status||"",
+      officialStatus:official.status||"",
+      note:""
+    };
+
+    fullReportExport.push(row);
+
+    foundRows.push(`
+      <div class="csv-row csv-found">
+        <b>Found in both:</b> ${csvPlayer.rawName} | ${code}
+        <div class="meta">Official: ${official.position} | ${official.status}</div>
+      </div>
+    `);
+  }
+});
+
+officialPlayers.forEach(official=>{
+  if(!csvMap.has(norm(official.name))){
+    missingCsv++;
+
+    const row={
+      result:"missing_from_csv",
+      name:official.name||"",
+      teamCode:code,
+      csvPosition:"",
+      officialPosition:official.position||"",
+      csvStatus:"",
+      officialStatus:official.status||"",
+      note:`Official: #${official.number||"-"}`
+    };
+
+    missingCsvExport.push(row);
+    fullReportExport.push(row);
+
+    missingCsvRows.push(`
+      <div class="csv-row csv-warning">
+        <b>Missing from CSV:</b> ${official.name} | ${code}
+        <div class="meta">Official: #${official.number||"-"} | ${official.position} | ${official.status}</div>
+      </div>
+    `);
+  }
+});
+});
+
+document.getElementById("csvResults").innerHTML=`
+  <b>NCAAF CSV Reconciliation Summary</b>
+
+  <div class="meta" style="margin-top:8px;">
+    Found in both: ${found}
+    |
+    CSV players not found in returned ESPN roster: ${missingOfficial}
+    |
+    Official players missing from CSV: ${missingCsv}
+    |
+    Position/status mismatches: ${mismatch}
+  </div>
+
+  <div class="filter-row" style="margin-top:12px;">
+    <button onclick="downloadCsvReport('ncaaf-missing-from-official.csv', window.missingOfficialExport)">
+      Export Missing from Official
+    </button>
+    <button onclick="downloadCsvReport('ncaaf-missing-from-csv.csv', window.missingCsvExport)">
+      Export Missing from CSV
+    </button>
+    <button onclick="downloadCsvReport('ncaaf-position-status-mismatches.csv', window.mismatchExport)">
+      Export Mismatches
+    </button>
+    <button onclick="downloadCsvReport('ncaaf-full-csv-report.csv', window.fullReportExport)">
+      Export Full Report
+    </button>
+  </div>
+
+  <br>
+
+  <h3>Needs Review: In CSV but missing from returned ESPN roster</h3>
+  ${missingOfficialRows.join("")||`<div class="empty">None.</div>`}
+
+  <h3>Needs Review: On official roster but missing from CSV</h3>
+  ${missingCsvRows.join("")||`<div class="empty">None.</div>`}
+
+  <h3>Position / Status Mismatches</h3>
+  ${mismatchRows.join("")||`<div class="empty">None.</div>`}
+
+  <h3>Found in both</h3>
+  ${foundRows.join("")||`<div class="empty">None.</div>`}
+`;
 
 function exportCsv(){
   const rows=[["timestamp_gmt","teamCode","teamName","severity","type","playerName","position","oldValue","newValue"]];
