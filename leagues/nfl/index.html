@@ -215,138 +215,199 @@ function compareCsv(text){
     return;
   }
 
-  const csvByTeam={};
-  const missingOfficialRows=[];
-  const missingOfficialExport=[];
-  const missingCsvRows=[];
-  const mismatchRows=[];
-  const foundRows=[];
+const csvByTeam={};
+const missingOfficialRows=[];
+const missingOfficialExport=[];
+const missingCsvRows=[];
+const missingCsvExport=[];
+const mismatchRows=[];
+const mismatchExport=[];
+const foundRows=[];
+const fullReportExport=[];
 
-  let found=0,missingOfficial=0,missingCsv=0,mismatch=0;
+let found=0,missingOfficial=0,missingCsv=0,mismatch=0;
 
-  rows.slice(1).forEach(r=>{
-    const rawName=(r[idx.name]||"").trim();
-    if(!rawName)return;
+rows.slice(1).forEach(r=>{
+  const rawName=(r[idx.name]||"").trim();
+  if(!rawName)return;
 
-    const cleanName=rawName.replace(/\s*\([^)]*\)\s*/g,"").trim();
-    const teamVal=idx.team>=0?(r[idx.team]||"").trim():"";
-    const code=teamCodeFromCsv(teamVal);
-    const csvPos=idx.position>=0?(r[idx.position]||"").trim():"";
-    const csvStatus=idx.status>=0?(r[idx.status]||"").trim():"";
+  const cleanName=rawName.replace(/\s*\([^)]*\)\s*/g,"").trim();
+  const teamVal=idx.team>=0?(r[idx.team]||"").trim():"";
+  const code=teamCodeFromCsv(teamVal);
+  const csvPos=idx.position>=0?(r[idx.position]||"").trim():"";
+  const csvStatus=idx.status>=0?(r[idx.status]||"").trim():"";
 
-    if(!csvByTeam[code])csvByTeam[code]=[];
+  if(!csvByTeam[code])csvByTeam[code]=[];
 
-    csvByTeam[code].push({
-      name:cleanName,
-      rawName:rawName,
-      position:csvPos,
-      status:csvStatus
-    });
+  csvByTeam[code].push({
+    name:cleanName,
+    rawName:rawName,
+    position:csvPos,
+    status:csvStatus
+  });
+});
+
+Object.keys(csvByTeam).forEach(code=>{
+  const roster=rosters[code]||{players:[]};
+  const officialPlayers=roster.players||[];
+  const csvPlayers=csvByTeam[code];
+
+  const officialMap=new Map(officialPlayers.map(p=>[norm(p.name),p]));
+  const csvMap=new Map(csvPlayers.map(p=>[norm(p.name),p]));
+
+  csvPlayers.forEach(csvPlayer=>{
+    const official=officialMap.get(norm(csvPlayer.name));
+
+    if(!official){
+      missingOfficial++;
+
+      const row={
+        result:"missing_from_official",
+        name:csvPlayer.rawName,
+        teamCode:code,
+        csvPosition:csvPlayer.position||"",
+        officialPosition:"",
+        csvStatus:csvPlayer.status||"",
+        officialStatus:""
+      };
+
+      missingOfficialExport.push(row);
+      fullReportExport.push(row);
+
+      missingOfficialRows.push(`
+        <div class="csv-row csv-missing">
+          <b>Missing from official roster:</b> ${csvPlayer.rawName} | ${code}
+          <div class="meta">This player is in your CSV but was not found on the official NFL roster.</div>
+        </div>
+      `);
+      return;
+    }
+
+    const issues=[];
+
+    if(csvPlayer.position&&norm(csvPlayer.position)!==norm(official.position)){
+      issues.push(`Position CSV ${csvPlayer.position} vs Official ${official.position}`);
+    }
+
+    if(csvPlayer.status&&normStatus(csvPlayer.status)!==normStatus(official.status)){
+      issues.push(`Status CSV ${csvPlayer.status} vs Official ${official.status}`);
+    }
+
+    if(issues.length){
+      mismatch++;
+
+      const row={
+        result:"position_or_status_mismatch",
+        name:csvPlayer.rawName,
+        teamCode:code,
+        csvPosition:csvPlayer.position||"",
+        officialPosition:official.position||"",
+        csvStatus:csvPlayer.status||"",
+        officialStatus:official.status||""
+      };
+
+      mismatchExport.push(row);
+      fullReportExport.push(row);
+
+      mismatchRows.push(`
+        <div class="csv-row csv-warning">
+          <b>Mismatch:</b> ${csvPlayer.rawName} | ${code}
+          <div class="meta">${issues.join(" | ")}</div>
+        </div>
+      `);
+    }else{
+      found++;
+
+      const row={
+        result:"found_in_both",
+        name:csvPlayer.rawName,
+        teamCode:code,
+        csvPosition:csvPlayer.position||"",
+        officialPosition:official.position||"",
+        csvStatus:csvPlayer.status||"",
+        officialStatus:official.status||""
+      };
+
+      fullReportExport.push(row);
+
+      foundRows.push(`
+        <div class="csv-row csv-found">
+          <b>Found in both:</b> ${csvPlayer.rawName} | ${code}
+          <div class="meta">Official: ${official.position} | ${official.status}</div>
+        </div>
+      `);
+    }
   });
 
-  Object.keys(csvByTeam).forEach(code=>{
-    const roster=rosters[code]||{players:[]};
-    const officialPlayers=roster.players||[];
-    const csvPlayers=csvByTeam[code];
+  officialPlayers.forEach(official=>{
+    if(!csvMap.has(norm(official.name))){
+      missingCsv++;
 
-    const officialMap=new Map(officialPlayers.map(p=>[norm(p.name),p]));
-    const csvMap=new Map(csvPlayers.map(p=>[norm(p.name),p]));
+      const row={
+        result:"missing_from_csv",
+        name:official.name||"",
+        teamCode:code,
+        csvPosition:"",
+        officialPosition:official.position||"",
+        csvStatus:"",
+        officialStatus:official.status||""
+      };
 
-    csvPlayers.forEach(csvPlayer=>{
-      const official=officialMap.get(norm(csvPlayer.name));
+      missingCsvExport.push(row);
+      fullReportExport.push(row);
 
-       if(!official){
-          missingOfficial++;
-        
-          missingOfficialExport.push({
-            name: csvPlayer.rawName,
-            teamCode: code,
-            position: csvPlayer.position || "",
-            status: csvPlayer.status || ""
-          });
-  
-          missingOfficialRows.push(`
-            <div class="csv-row csv-missing">
-              <b>Missing from official roster:</b> ${csvPlayer.rawName} | ${code}
-              <div class="meta">This player is in your CSV but was not found on the official NFL roster.</div>
-            </div>
-          `);
-          return;
-        }
-
-      const issues=[];
-
-      if(csvPlayer.position&&norm(csvPlayer.position)!==norm(official.position)){
-        issues.push(`Position CSV ${csvPlayer.position} vs Official ${official.position}`);
-      }
-
-      if(csvPlayer.status&&normStatus(csvPlayer.status)!==normStatus(official.status)){
-        issues.push(`Status CSV ${csvPlayer.status} vs Official ${official.status}`);
-      }
-
-      if(issues.length){
-        mismatch++;
-        mismatchRows.push(`
-          <div class="csv-row csv-warning">
-            <b>Mismatch:</b> ${csvPlayer.rawName} | ${code}
-            <div class="meta">${issues.join(" | ")}</div>
-          </div>
-        `);
-      }else{
-        found++;
-        foundRows.push(`
-          <div class="csv-row csv-found">
-            <b>Found in both:</b> ${csvPlayer.rawName} | ${code}
-            <div class="meta">Official: ${official.position} | ${official.status}</div>
-          </div>
-        `);
-      }
-    });
-
-    officialPlayers.forEach(official=>{
-      if(!csvMap.has(norm(official.name))){
-        missingCsv++;
-        missingCsvRows.push(`
-          <div class="csv-row csv-warning">
-            <b>Missing from CSV:</b> ${official.name} | ${code}
-            <div class="meta">This player exists on the official NFL roster but is not in your CSV. Official: ${official.position} | ${official.status}</div>
-          </div>
-        `);
-      }
-    });
+      missingCsvRows.push(`
+        <div class="csv-row csv-warning">
+          <b>Missing from CSV:</b> ${official.name} | ${code}
+          <div class="meta">This player exists on the official NFL roster but is not in your CSV. Official: ${official.position} | ${official.status}</div>
+        </div>
+      `);
+    }
   });
+});
 
-  document.getElementById("csvResults").innerHTML=`
-    <b>CSV Reconciliation Summary</b>
-    <br><br>
-    <button onclick='downloadMissingOfficialCsv(${JSON.stringify(missingOfficialExport)})'>
-      Export CSV Missing from Official Roster
+document.getElementById("csvResults").innerHTML=`
+  <b>CSV Reconciliation Summary</b>
+
+  <div class="meta" style="margin-top:8px;">
+    Found in both: ${found}
+    |
+    CSV players missing from official roster: ${missingOfficial}
+    |
+    Official players missing from CSV: ${missingCsv}
+    |
+    Position/status mismatches: ${mismatch}
+  </div>
+
+  <div class="filter-row" style="margin-top:12px;">
+    <button onclick='downloadCsvReport("nfl-missing-from-official.csv", ${JSON.stringify(missingOfficialExport)})'>
+      Export Missing from Official
     </button>
-    <div class="meta">
-      Found in both: ${found}
-      |
-      CSV players missing from official roster: ${missingOfficial}
-      |
-      Official players missing from CSV: ${missingCsv}
-      |
-      Position/status mismatches: ${mismatch}
-    </div>
+    <button onclick='downloadCsvReport("nfl-missing-from-csv.csv", ${JSON.stringify(missingCsvExport)})'>
+      Export Missing from CSV
+    </button>
+    <button onclick='downloadCsvReport("nfl-position-status-mismatches.csv", ${JSON.stringify(mismatchExport)})'>
+      Export Mismatches
+    </button>
+    <button onclick='downloadCsvReport("nfl-full-csv-report.csv", ${JSON.stringify(fullReportExport)})'>
+      Export Full Report
+    </button>
+  </div>
 
-    <br>
+  <br>
 
-    <h3>Needs Review: In CSV but missing from official roster</h3>
-    ${missingOfficialRows.join("")||`<div class="empty">None.</div>`}
+  <h3>Needs Review: In CSV but missing from official roster</h3>
+  ${missingOfficialRows.join("")||`<div class="empty">None.</div>`}
 
-    <h3>Needs Review: On official roster but missing from CSV</h3>
-    ${missingCsvRows.join("")||`<div class="empty">None.</div>`}
+  <h3>Needs Review: On official roster but missing from CSV</h3>
+  ${missingCsvRows.join("")||`<div class="empty">None.</div>`}
 
-    <h3>Position / Status Mismatches</h3>
-    ${mismatchRows.join("")||`<div class="empty">None.</div>`}
+  <h3>Position / Status Mismatches</h3>
+  ${mismatchRows.join("")||`<div class="empty">None.</div>`}
 
-    <h3>Found in both</h3>
-    ${foundRows.join("")||`<div class="empty">None.</div>`}
-  `;
-}
+  <h3>Found in both</h3>
+  ${foundRows.join("")||`<div class="empty">None.</div>`}
+`;
 
 function exportCsv(){const rows=[["timestamp_gmt","teamCode","teamName","severity","type","playerName","position","oldValue","newValue"]];allChanges.forEach(c=>rows.push([gmt(c.timestamp),c.teamCode||"",c.teamName||"",c.severity||"",c.type||"",c.playerName||"",c.position||"",c.oldValue||"",c.newValue||""]));const csv=rows.map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(",")).join("\n");const blob=new Blob([csv],{type:"text/csv"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="nfl-roster-changes.csv";a.click();URL.revokeObjectURL(url)}
 function downloadMissingOfficialCsv(items){
