@@ -657,7 +657,7 @@ document.getElementById("csvResults").innerHTML=`
   <h3>Found in both</h3>
   ${foundRows.join("")||`<div class="empty">None.</div>`}
 `;
-
+}
 function exportCsv(){
   const rows=[["timestamp_gmt","teamCode","teamName","severity","type","playerName","position","oldValue","newValue"]];
 
