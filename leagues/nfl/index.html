@@ -43,6 +43,30 @@ input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbea
 .history-item{padding:10px 0;border-bottom:1px solid var(--line)}.history-main{font-weight:800}.history-time{color:var(--muted);font-size:12px;margin-top:4px}
 .empty{color:var(--muted);font-style:italic}.csv-found{border-left:6px solid var(--green)}.csv-missing{border-left:6px solid var(--red)}.csv-warning{border-left:6px solid var(--yellow)}
 @media(max-width:1150px){.stats,.layout,.two-col{grid-template-columns:1fr}}
+.top-nav{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-bottom:18px;
+}
+
+.nav-card{
+  color:white;
+  text-decoration:none;
+  background:rgba(255,255,255,.10);
+  border:1px solid rgba(255,255,255,.14);
+  padding:10px 14px;
+  border-radius:14px;
+  font-weight:800;
+}
+
+.nav-card:hover{
+  background:rgba(255,255,255,.18);
+}
+
+.nav-card.active{
+  background:linear-gradient(135deg,#2563eb,#7c3aed);
+}
 </style>
 </head>
 
