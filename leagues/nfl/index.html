@@ -158,6 +158,32 @@ h1{
   h1{font-size:40px}
   .grid{grid-template-columns:1fr}
 }
+.top-nav{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-bottom:22px;
+}
+
+.nav-card{
+  color:white;
+  text-decoration:none;
+  background:rgba(255,255,255,.10);
+  border:1px solid rgba(255,255,255,.14);
+  padding:10px 14px;
+  border-radius:14px;
+  font-weight:800;
+  transition:.2s;
+}
+
+.nav-card:hover{
+  background:rgba(255,255,255,.18);
+}
+
+.nav-card.active{
+  background:linear-gradient(135deg,#2563eb,#7c3aed);
+}
+  
 </style>
 </head>
 
