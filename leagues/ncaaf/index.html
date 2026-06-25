@@ -450,9 +450,13 @@ function compareCsv(text){
 
   const csvByTeam={};
   const missingOfficialRows=[];
+  const missingOfficialExport=window.missingOfficialExport=[];
   const missingCsvRows=[];
+  const missingCsvExport=window.missingCsvExport=[];
   const mismatchRows=[];
+  const mismatchExport=window.mismatchExport=[];
   const foundRows=[];
+  const fullReportExport=window.fullReportExport=[];
 
   let found=0,missingOfficial=0,missingCsv=0,mismatch=0;
 
