@@ -217,14 +217,14 @@ function compareCsv(text){
 
 const csvByTeam={};
 const missingOfficialRows=[];
-const missingOfficialExport=[];
+const missingOfficialExport=window.missingOfficialExport=[];
 const missingCsvRows=[];
-const missingCsvExport=[];
+const missingCsvExport=window.missingCsvExport=[];
 const mismatchRows=[];
-const mismatchExport=[];
+const mismatchExport=window.mismatchExport=[];
 const foundRows=[];
-const fullReportExport=[];
-
+const fullReportExport=window.fullReportExport=[];
+  
 let found=0,missingOfficial=0,missingCsv=0,mismatch=0;
 
 rows.slice(1).forEach(r=>{
@@ -380,16 +380,19 @@ document.getElementById("csvResults").innerHTML=`
   </div>
 
   <div class="filter-row" style="margin-top:12px;">
-    <button onclick='downloadCsvReport("nfl-missing-from-official.csv", ${JSON.stringify(missingOfficialExport)})'>
+    <button onclick="downloadCsvReport('nfl-missing-from-official.csv', window.missingOfficialExport)">
       Export Missing from Official
     </button>
-    <button onclick='downloadCsvReport("nfl-missing-from-csv.csv", ${JSON.stringify(missingCsvExport)})'>
+    
+    <button onclick="downloadCsvReport('nfl-missing-from-csv.csv', window.missingCsvExport)">
       Export Missing from CSV
     </button>
-    <button onclick='downloadCsvReport("nfl-position-status-mismatches.csv", ${JSON.stringify(mismatchExport)})'>
+    
+    <button onclick="downloadCsvReport('nfl-position-status-mismatches.csv', window.mismatchExport)">
       Export Mismatches
     </button>
-    <button onclick='downloadCsvReport("nfl-full-csv-report.csv", ${JSON.stringify(fullReportExport)})'>
+    
+    <button onclick="downloadCsvReport('nfl-full-csv-report.csv', window.fullReportExport)">
       Export Full Report
     </button>
   </div>
