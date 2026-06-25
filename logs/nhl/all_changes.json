@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-06-25T16:41:15.455798+00:00",
+    "teamCode": "BUF",
+    "teamName": "Buffalo Sabres",
+    "type": "added",
+    "playerName": "David Kampf",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-25T16:41:18.412927+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Avalanche",
+    "type": "added",
+    "playerName": "Fedor Svechkov",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-25T16:41:22.086838+00:00",
+    "teamCode": "FLA",
+    "teamName": "Florida Panthers",
+    "type": "added",
+    "playerName": "Garnet Hathaway",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-25T16:41:24.834923+00:00",
+    "teamCode": "NSH",
+    "teamName": "Nashville Predators",
+    "type": "added",
+    "playerName": "Jack Drury",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-25T16:41:35.641386+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Capitals",
+    "type": "added",
+    "playerName": "Alex Tuch",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-25T16:41:35.641403+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Capitals",
+    "type": "removed",
+    "playerName": "Connor McMichael",
+    "position": "L",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-24T16:37:54.684225+00:00",
     "teamCode": "BUF",
     "teamName": "Buffalo Sabres",

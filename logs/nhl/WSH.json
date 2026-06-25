@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-25T16:41:35.641386+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Capitals",
+    "type": "added",
+    "playerName": "Alex Tuch",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-25T16:41:35.641403+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Capitals",
+    "type": "removed",
+    "playerName": "Connor McMichael",
+    "position": "L",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-24T16:38:12.203773+00:00",
     "teamCode": "WSH",
     "teamName": "Washington Capitals",

@@ -3,12 +3,19 @@
   "team": "Washington Capitals",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/WSH/current",
-  "checkedAt": "2026-06-24T16:38:12.202479+00:00",
+  "checkedAt": "2026-06-25T16:41:35.640414+00:00",
   "players": [
     {
       "name": "Alex Ovechkin",
       "position": "L",
       "number": "8",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Alex Tuch",
+      "position": "R",
+      "number": "89",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -51,13 +58,6 @@
       "name": "Cole Hutson",
       "position": "D",
       "number": "44",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Connor McMichael",
-      "position": "L",
-      "number": "24",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

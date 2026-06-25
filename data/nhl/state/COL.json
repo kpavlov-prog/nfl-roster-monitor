@@ -3,7 +3,7 @@
   "team": "Colorado Avalanche",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/COL/current",
-  "checkedAt": "2026-06-24T16:37:57.116324+00:00",
+  "checkedAt": "2026-06-25T16:41:18.411855+00:00",
   "players": [
     {
       "name": "Alex Gagne",
@@ -51,6 +51,13 @@
       "name": "Devon Toews",
       "position": "D",
       "number": "7",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Fedor Svechkov",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
