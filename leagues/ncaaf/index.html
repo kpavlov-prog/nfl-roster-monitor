@@ -684,7 +684,43 @@ function exportCsv(){
 
   URL.revokeObjectURL(url);
 }
+function downloadCsvReport(filename, items){
+  if(!items || !items.length){
+    alert("No rows to export.");
+    return;
+  }
 
+  const rows=[
+    ["result","name","teamCode","csvPosition","officialPosition","csvStatus","officialStatus","note"]
+  ];
+
+  items.forEach(p=>{
+    rows.push([
+      p.result||"",
+      p.name||"",
+      p.teamCode||"",
+      p.csvPosition||"",
+      p.officialPosition||"",
+      p.csvStatus||"",
+      p.officialStatus||"",
+      p.note||""
+    ]);
+  });
+
+  const csv=rows
+    .map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(","))
+    .join("\n");
+
+  const blob=new Blob([csv],{type:"text/csv"});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement("a");
+
+  a.href=url;
+  a.download=filename;
+  a.click();
+
+  URL.revokeObjectURL(url);
+}
 loadDashboard();
 </script>
 
