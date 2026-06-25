@@ -3,7 +3,7 @@
   "team": "Golden State Warriors",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/GS/roster",
-  "checkedAt": "2026-06-24T16:38:52.018824+00:00",
+  "checkedAt": "2026-06-25T17:00:36.465329+00:00",
   "players": [
     {
       "name": "Al Horford",
@@ -72,6 +72,13 @@
       "name": "LJ Cryer",
       "position": "G",
       "number": "18",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Lajae Jones",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

@@ -3,7 +3,7 @@
   "team": "New York Knicks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/NY/roster",
-  "checkedAt": "2026-06-24T16:38:57.796588+00:00",
+  "checkedAt": "2026-06-25T17:00:42.418463+00:00",
   "players": [
     {
       "name": "Ariel Hukporti",
@@ -16,6 +16,13 @@
       "name": "Dillon Jones",
       "position": "F",
       "number": "1",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Jack Kayil",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -128,6 +135,13 @@
       "name": "Tyler Kolek",
       "position": "G",
       "number": "13",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Tyler Nickel",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }

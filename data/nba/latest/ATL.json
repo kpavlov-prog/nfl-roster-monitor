@@ -3,7 +3,7 @@
   "team": "Atlanta Hawks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/ATL/roster",
-  "checkedAt": "2026-06-24T16:38:46.661394+00:00",
+  "checkedAt": "2026-06-25T17:00:31.325122+00:00",
   "players": [
     {
       "name": "Asa Newell",
@@ -58,6 +58,13 @@
       "name": "Gabe Vincent",
       "position": "G",
       "number": "4",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Henri Veesaar",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

@@ -3,7 +3,7 @@
   "team": "Dallas Mavericks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/DAL/roster",
-  "checkedAt": "2026-06-24T16:38:50.226680+00:00",
+  "checkedAt": "2026-06-25T17:00:34.743892+00:00",
   "players": [
     {
       "name": "AJ Johnson",
@@ -139,9 +139,23 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Tobi Lawal",
+      "position": "F",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Tyler Smith",
       "position": "F",
       "number": "23",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Vsevolod Ishchenko",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }

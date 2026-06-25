@@ -3,7 +3,7 @@
   "team": "San Antonio Spurs",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/SA/roster",
-  "checkedAt": "2026-06-24T16:39:01.833458+00:00",
+  "checkedAt": "2026-06-25T17:00:46.438211+00:00",
   "players": [
     {
       "name": "Bismack Biyombo",
@@ -69,6 +69,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Ja'Kobi Gillespie",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Jayden Quaintance",
       "position": "F",
       "number": "",
@@ -114,6 +121,13 @@
       "name": "Luke Kornet",
       "position": "C",
       "number": "7",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Maliq Brown",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

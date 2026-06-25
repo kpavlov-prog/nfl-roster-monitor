@@ -3,7 +3,7 @@
   "team": "Toronto Raptors",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/TOR/roster",
-  "checkedAt": "2026-06-24T16:39:02.406747+00:00",
+  "checkedAt": "2026-06-25T17:00:47.003209+00:00",
   "players": [
     {
       "name": "A.J. Lawson",
@@ -72,6 +72,13 @@
       "name": "Ja'Kobe Walter",
       "position": "G",
       "number": "14",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Jaden Bradley",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

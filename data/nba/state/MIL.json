@@ -3,7 +3,7 @@
   "team": "Milwaukee Bucks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIL/roster",
-  "checkedAt": "2026-06-24T16:38:56.091460+00:00",
+  "checkedAt": "2026-06-25T17:00:40.738032+00:00",
   "players": [
     {
       "name": "AJ Green",
@@ -93,6 +93,13 @@
       "name": "Kyle Kuzma",
       "position": "F",
       "number": "18",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Malique Lewis",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

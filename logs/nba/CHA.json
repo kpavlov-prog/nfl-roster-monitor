@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-06-25T17:00:33.020959+00:00",
+    "teamCode": "CHA",
+    "teamName": "Charlotte Hornets",
+    "type": "added",
+    "playerName": "Naz Reid",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-25T17:00:33.020971+00:00",
+    "teamCode": "CHA",
+    "teamName": "Charlotte Hornets",
+    "type": "removed",
+    "playerName": "Josh Green",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-25T17:00:33.020975+00:00",
+    "teamCode": "CHA",
+    "teamName": "Charlotte Hornets",
+    "type": "removed",
+    "playerName": "LaMelo Ball",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-24T16:38:48.435484+00:00",
     "teamCode": "CHA",
     "teamName": "Charlotte Hornets",

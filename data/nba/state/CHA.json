@@ -3,7 +3,7 @@
   "team": "Charlotte Hornets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/CHA/roster",
-  "checkedAt": "2026-06-24T16:38:48.434444+00:00",
+  "checkedAt": "2026-06-25T17:00:33.020039+00:00",
   "players": [
     {
       "name": "Antonio Reeves",
@@ -48,23 +48,9 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Josh Green",
-      "position": "G",
-      "number": "10",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Kon Knueppel",
       "position": "G",
       "number": "7",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "LaMelo Ball",
-      "position": "G",
-      "number": "1",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -86,6 +72,13 @@
       "name": "Moussa Diabate",
       "position": "F",
       "number": "14",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Naz Reid",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

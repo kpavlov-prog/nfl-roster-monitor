@@ -3,7 +3,7 @@
   "team": "Houston Rockets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/HOU/roster",
-  "checkedAt": "2026-06-24T16:38:52.588302+00:00",
+  "checkedAt": "2026-06-25T17:00:37.061771+00:00",
   "players": [
     {
       "name": "Aaron Holiday",
@@ -23,6 +23,13 @@
       "name": "Amen Thompson",
       "position": "G",
       "number": "1",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Bruce Thornton",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

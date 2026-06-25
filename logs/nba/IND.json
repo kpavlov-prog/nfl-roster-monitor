@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-06-25T17:00:37.903314+00:00",
+    "teamCode": "IND",
+    "teamName": "Indiana Pacers",
+    "type": "added",
+    "playerName": "Braden Smith",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-25T17:00:37.903326+00:00",
+    "teamCode": "IND",
+    "teamName": "Indiana Pacers",
+    "type": "removed",
+    "playerName": "Kam Jones",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  }
+]

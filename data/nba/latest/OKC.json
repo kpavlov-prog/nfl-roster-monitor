@@ -3,7 +3,7 @@
   "team": "Oklahoma City Thunder",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/OKC/roster",
-  "checkedAt": "2026-06-24T16:38:58.374499+00:00",
+  "checkedAt": "2026-06-25T17:00:42.987456+00:00",
   "players": [
     {
       "name": "Aaron Wiggins",
@@ -104,6 +104,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Josh Dix",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Kenrich Williams",
       "position": "G",
       "number": "34",
@@ -121,6 +128,13 @@
       "name": "Nikola Topic",
       "position": "G",
       "number": "44",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Otega Oweh",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

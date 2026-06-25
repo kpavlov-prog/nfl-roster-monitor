@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-25T17:00:35.907140+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Pistons",
+    "type": "added",
+    "playerName": "Ugonna Onyenso",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-25T17:00:35.907149+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Pistons",
+    "type": "removed",
+    "playerName": "Isaiah Stewart",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-24T16:38:51.450309+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Pistons",

@@ -3,8 +3,15 @@
   "team": "LA Clippers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/LAC/roster",
-  "checkedAt": "2026-06-24T16:38:53.825890+00:00",
+  "checkedAt": "2026-06-25T17:00:38.455882+00:00",
   "players": [
+    {
+      "name": "Baba Miller",
+      "position": "F",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
     {
       "name": "Bennedict Mathurin",
       "position": "G",
@@ -100,6 +107,20 @@
       "name": "Kris Dunn",
       "position": "G",
       "number": "8",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Narcisse Ngoy",
+      "position": "F",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Nick Martinelli",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

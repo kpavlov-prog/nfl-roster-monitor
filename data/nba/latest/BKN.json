@@ -3,7 +3,7 @@
   "team": "Brooklyn Nets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/BKN/roster",
-  "checkedAt": "2026-06-24T16:38:47.867243+00:00",
+  "checkedAt": "2026-06-25T17:00:32.457051+00:00",
   "players": [
     {
       "name": "Ben Saraf",
@@ -135,6 +135,13 @@
       "name": "Trevon Scott",
       "position": "F",
       "number": "13",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Tyler Bilodeau",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

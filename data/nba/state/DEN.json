@@ -3,7 +3,7 @@
   "team": "Denver Nuggets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/DEN/roster",
-  "checkedAt": "2026-06-24T16:38:50.870492+00:00",
+  "checkedAt": "2026-06-25T17:00:35.338542+00:00",
   "players": [
     {
       "name": "Aaron Gordon",
@@ -16,6 +16,13 @@
       "name": "Bruce Brown",
       "position": "G",
       "number": "11",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Bryce Hopkins",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -114,6 +121,13 @@
       "name": "Tim Hardaway Jr.",
       "position": "G",
       "number": "10",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Trevon Brazile",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

@@ -3,7 +3,7 @@
   "team": "Chicago Bulls",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/CHI/roster",
-  "checkedAt": "2026-06-24T16:38:49.076087+00:00",
+  "checkedAt": "2026-06-25T17:00:33.576055+00:00",
   "players": [
     {
       "name": "Anfernee Simons",
@@ -29,7 +29,7 @@
     {
       "name": "Dailyn Swain",
       "position": "G",
-      "number": "",
+      "number": "5",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -58,6 +58,13 @@
       "name": "Josh Giddey",
       "position": "G",
       "number": "3",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Kam Jones",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

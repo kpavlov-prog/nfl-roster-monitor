@@ -3,8 +3,15 @@
   "team": "Los Angeles Lakers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/LAL/roster",
-  "checkedAt": "2026-06-24T16:38:54.402268+00:00",
+  "checkedAt": "2026-06-25T17:00:39.016877+00:00",
   "players": [
+    {
+      "name": "AK Okereke",
+      "position": "F",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
     {
       "name": "Adou Thiero",
       "position": "F",

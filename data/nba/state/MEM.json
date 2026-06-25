@@ -3,7 +3,7 @@
   "team": "Memphis Grizzlies",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MEM/roster",
-  "checkedAt": "2026-06-24T16:38:54.962872+00:00",
+  "checkedAt": "2026-06-25T17:00:39.607416+00:00",
   "players": [
     {
       "name": "Adama Bal",
@@ -44,6 +44,13 @@
       "name": "GG Jackson",
       "position": "F",
       "number": "45",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Isaiah Stewart",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -107,6 +114,13 @@
       "name": "Rayan Rupert",
       "position": "G",
       "number": "21",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Richie Saunders",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
