@@ -107,15 +107,8 @@ def fetch_teams():
                     continue
 
                 code = safe_code(abbreviation)
-
-                if name not in FBS_TEAM_NAMES:
-                    if any(word in name for word in [
-                    "State", "University", "College", "Tech", "A&M",
-                    "Oregon", "Washington", "Delaware", "Dakota",
-                    "Missouri", "Kennesaw", "Jacksonville"
-                    ]):
-                        print(f"FILTERED OUT: {name} | code={code} | id={team_id}")
                 
+                if name not in FBS_TEAM_NAMES:
                     continue
                 
                 logos = team.get("logos") or []
