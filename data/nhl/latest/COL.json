@@ -3,15 +3,8 @@
   "team": "Colorado Avalanche",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/COL/current",
-  "checkedAt": "2026-06-25T16:41:18.411855+00:00",
+  "checkedAt": "2026-06-26T16:30:53.265765+00:00",
   "players": [
-    {
-      "name": "Alex Gagne",
-      "position": "D",
-      "number": "45",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
     {
       "name": "Artturi Lehkonen",
       "position": "L",
@@ -65,27 +58,6 @@
       "name": "Gabriel Landeskog",
       "position": "L",
       "number": "92",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Isak Posch",
-      "position": "G",
-      "number": "35",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Jack Ahcan",
-      "position": "D",
-      "number": "15",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Jack Drury",
-      "position": "C",
-      "number": "18",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -170,13 +142,6 @@
       "name": "Scott Wedgewood",
       "position": "G",
       "number": "41",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Valeri Nichushkin",
-      "position": "R",
-      "number": "13",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

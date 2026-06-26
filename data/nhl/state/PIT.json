@@ -3,7 +3,7 @@
   "team": "Pittsburgh Penguins",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/PIT/current",
-  "checkedAt": "2026-06-25T16:41:29.150182+00:00",
+  "checkedAt": "2026-06-26T16:31:05.594792+00:00",
   "players": [
     {
       "name": "Anthony Mantha",
@@ -86,6 +86,13 @@
       "name": "Filip Hallander",
       "position": "C",
       "number": "11",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Hendrix Lapierre",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

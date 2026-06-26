@@ -3,7 +3,7 @@
   "team": "Los Angeles Kings",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/LAK/current",
-  "checkedAt": "2026-06-25T16:41:22.791268+00:00",
+  "checkedAt": "2026-06-26T16:30:57.960405+00:00",
   "players": [
     {
       "name": "Adrian Kempe",
@@ -93,13 +93,6 @@
       "name": "Jacob Moverare",
       "position": "D",
       "number": "43",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Jared Wright",
-      "position": "R",
-      "number": "53",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
