@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-26T16:29:01.610371+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Steelers",
+    "type": "added",
+    "playerName": "Ahmari Harvey",
+    "position": "DB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-26T16:29:01.610412+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Steelers",
+    "type": "removed",
+    "playerName": "KJ Henry",
+    "position": "LB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-18T18:17:07.840448+00:00",
     "teamCode": "PIT",
     "teamName": "Pittsburgh Steelers",
