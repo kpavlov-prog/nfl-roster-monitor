@@ -108,9 +108,7 @@ def fetch_teams():
 
                 code = safe_code(abbreviation)
 
-                if code not in FBS_TEAM_CODES:
-                    continue
-
+                
                 logos = team.get("logos") or []
                 logo = logos[0].get("href", "") if logos and isinstance(logos, list) else ""
 
