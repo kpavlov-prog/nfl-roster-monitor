@@ -109,17 +109,7 @@ def fetch_teams():
                 if len(teams) < 5:
                     print("DEBUG TEAM ITEM:")
                     print(json.dumps(item, indent=2)[:3000])
-                groups = team.get("groups") or item.get("groups") or []
-                conference_names = set()
-                
-                for group in groups:
-                    if isinstance(group, dict):
-                        name = group.get("name") or group.get("displayName") or group.get("shortName")
-                        if name:
-                            conference_names.add(name)
-                
-                if conference_names and not conference_names.intersection(FBS_CONFERENCE_NAMES):
-                    continue
+               
                 team_id = team.get("id")
                 name = team.get("displayName") or team.get("name")
                 abbreviation = (
