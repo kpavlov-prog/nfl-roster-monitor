@@ -15,22 +15,18 @@ STATE = DATA / "state"
 LOGS = ROOT / "logs" / "ncaaf"
 
 TEAMS_URL = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams?limit=500"
-FBS_TEAM_CODES = {
-    "AF","AKR","ALA","APP","ARIZ","ARK","ARST","ARMY","ASU","AUB",
-    "BALL","BAY","BC","BGSU","BOIS","BUFF","BYU","CAL","CCU","CHAR",
-    "CIN","CLEM","CLT","CMU","COLO","CONN","CSU","DEL","DUKE","ECU",
-    "EMU","FAU","FIU","FLA","FLST","FSU","FRES","GASO","GAST","GT",
-    "HAW","HOU","IU","ILL","IOWA","ISU","JAXST","JVST","KENN","KSU",
-    "KAN","KU","KENT","UK","LIB","LT","LOU","LSU","MAR","MD","MEM",
-    "MIA","M-OH","MICH","MINN","MISS","MIZ","MOST","MSST","MTU",
-    "NAVY","NCST","NDSU","NEB","NEV","NIU","NM","NMST","NMSU","ND",
-    "NORTH","NU","NW","ODU","OHIO","OKLA","OKST","ORE","ORST","PITT",
-    "PSU","PUR","RICE","RUTG","SAC","SACST","SAM","SC","SDSU","SJSU",
-    "SMU","SOAL","SOFL","STAN","SYR","TA&M","TAMU","TCU","TEM","TENN",
-    "TEX","TLSA","TOL","TROY","TTU","TULN","TXST","UAB","UCF","UCLA",
-    "UGA","ULL","ULM","UMASS","UNC","UNLV","UNT","USC","USF","USM",
-    "UTAH","UTEP","UTSA","USU","UVA","VAN","VT","WAKE","WASH","WIS",
-    "WKU","WMU","WSU","WVU","WYO"
+FBS_TEAM_NAMES = {
+    "Boston College Eagles","California Golden Bears","Clemson Tigers","Duke Blue Devils","Florida State Seminoles","Georgia Tech Yellow Jackets","Louisville Cardinals","Miami Hurricanes","NC State Wolfpack","North Carolina Tar Heels","Pittsburgh Panthers","SMU Mustangs","Stanford Cardinal","Syracuse Orange","Virginia Cavaliers","Virginia Tech Hokies","Wake Forest Demon Deacons",
+    "Army Black Knights","Charlotte 49ers","East Carolina Pirates","Florida Atlantic Owls","Memphis Tigers","Navy Midshipmen","North Texas Mean Green","Rice Owls","South Florida Bulls","Temple Owls","Tulane Green Wave","Tulsa Golden Hurricane","UAB Blazers","UTSA Roadrunners",
+    "Arizona State Sun Devils","Arizona Wildcats","BYU Cougars","Baylor Bears","Cincinnati Bearcats","Colorado Buffaloes","Houston Cougars","Iowa State Cyclones","Kansas Jayhawks","Kansas State Wildcats","Oklahoma State Cowboys","TCU Horned Frogs","Texas Tech Red Raiders","UCF Knights","Utah Utes","West Virginia Mountaineers",
+    "Illinois Fighting Illini","Indiana Hoosiers","Iowa Hawkeyes","Maryland Terrapins","Michigan State Spartans","Michigan Wolverines","Minnesota Golden Gophers","Nebraska Cornhuskers","Northwestern Wildcats","Ohio State Buckeyes","Oregon Ducks","Penn State Nittany Lions","Purdue Boilermakers","Rutgers Scarlet Knights","UCLA Bruins","USC Trojans","Washington Huskies","Wisconsin Badgers",
+    "Delaware Blue Hens","Florida International Panthers","Jacksonville State Gamecocks","Kennesaw State Owls","Liberty Flames","Louisiana Tech Bulldogs","Middle Tennessee Blue Raiders","Missouri State Bears","New Mexico State Aggies","Sam Houston Bearkats","Western Kentucky Hilltoppers",
+    "Notre Dame Fighting Irish","UConn Huskies",
+    "Akron Zips","Ball State Cardinals","Bowling Green Falcons","Buffalo Bulls","Central Michigan Chippewas","Eastern Michigan Eagles","Kent State Golden Flashes","Massachusetts Minutemen","Miami (OH) RedHawks","Ohio Bobcats","Sacramento State Hornets","Toledo Rockets","Western Michigan Broncos",
+    "Air Force Falcons","Hawai'i Rainbow Warriors","Nevada Wolf Pack","New Mexico Lobos","North Dakota State Bison","Northern Illinois Huskies","San José State Spartans","UNLV Rebels","UTEP Miners","Wyoming Cowboys",
+    "Boise State Broncos","Colorado State Rams","Fresno State Bulldogs","Oregon State Beavers","San Diego State Aztecs","Texas State Bobcats","Utah State Aggies","Washington State Cougars",
+    "Alabama Crimson Tide","Arkansas Razorbacks","Auburn Tigers","Florida Gators","Georgia Bulldogs","Kentucky Wildcats","LSU Tigers","Mississippi State Bulldogs","Missouri Tigers","Oklahoma Sooners","Ole Miss Rebels","South Carolina Gamecocks","Tennessee Volunteers","Texas A&M Aggies","Texas Longhorns","Vanderbilt Commodores",
+    "App State Mountaineers","Arkansas State Red Wolves","Coastal Carolina Chanticleers","Georgia Southern Eagles","Georgia State Panthers","James Madison Dukes","Louisiana Ragin' Cajuns","Marshall Thundering Herd","Old Dominion Monarchs","South Alabama Jaguars","Southern Miss Golden Eagles","Troy Trojans","UL Monroe Warhawks"
 }
 def now_iso():
     return datetime.now(timezone.utc).isoformat()
@@ -112,7 +108,7 @@ def fetch_teams():
 
                 code = safe_code(abbreviation)
                 print(f"DISCOVERED TEAM: {code} | {name} | id={team_id}")
-                if code not in FBS_TEAM_CODES:
+                if name not in FBS_TEAM_NAMES:
                     continue
                 logos = team.get("logos") or []
                 logo = logos[0].get("href", "") if logos and isinstance(logos, list) else ""
