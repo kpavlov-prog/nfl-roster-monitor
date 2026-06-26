@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-26T16:29:56.657911+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "added",
+    "playerName": "Jack Brannigan",
+    "position": "SS",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-26T16:29:56.657926+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "removed",
+    "playerName": "Spencer Horwitz",
+    "position": "1B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-19T15:15:47.810850+00:00",
     "teamCode": "PIT",
     "teamName": "Pittsburgh Pirates",

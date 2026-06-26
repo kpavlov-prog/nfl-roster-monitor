@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=active",
-  "checkedAt": "2026-06-24T16:36:29.860405+00:00",
+  "checkedAt": "2026-06-26T16:29:50.461884+00:00",
   "players": [
     {
       "name": "AJ Blubaugh",
@@ -18,6 +18,13 @@
       "name": "Brice Matthews",
       "position": "CF",
       "number": "0",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Bryan Abreu",
+      "position": "P",
+      "number": "52",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -109,13 +116,6 @@
       "name": "Kai-Wei Teng",
       "position": "P",
       "number": "17",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Logan VanWey",
-      "position": "P",
-      "number": "64",
       "status": "A",
       "source": "MLB Stats API"
     },

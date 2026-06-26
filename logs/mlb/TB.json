@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-26T16:29:59.485527+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Rays",
+    "type": "added",
+    "playerName": "Michael Grove",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-26T16:29:59.485540+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Rays",
+    "type": "removed",
+    "playerName": "Steven Matz",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-20T15:22:04.263964+00:00",
     "teamCode": "TB",
     "teamName": "Tampa Bay Rays",

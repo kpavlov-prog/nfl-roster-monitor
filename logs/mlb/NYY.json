@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-06-26T16:29:54.968084+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "added",
+    "playerName": "Ali Sánchez",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-26T16:29:54.968101+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "added",
+    "playerName": "Oswaldo Cabrera",
+    "position": "3B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-26T16:29:54.968110+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "removed",
+    "playerName": "J.C. Escarra",
+    "position": "C",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-26T16:29:54.968114+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "removed",
+    "playerName": "Ryan McMahon",
+    "position": "3B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-23T17:07:56.887659+00:00",
     "teamCode": "NYY",
     "teamName": "New York Yankees",

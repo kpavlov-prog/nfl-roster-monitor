@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-26T16:29:57.786683+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "added",
+    "playerName": "Tyler Mahle",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-26T16:29:57.786697+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "removed",
+    "playerName": "Tristan Beck",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-24T16:36:37.748679+00:00",
     "teamCode": "SF",
     "teamName": "San Francisco Giants",

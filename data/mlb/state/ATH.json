@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-06-24T16:36:35.365792+00:00",
+  "checkedAt": "2026-06-26T16:29:55.535754+00:00",
   "players": [
     {
       "name": "Aaron Civale",
       "position": "P",
       "number": "45",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Alika Williams",
+      "position": "SS",
+      "number": "12",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,13 +186,6 @@
       "name": "Tyler Soderstrom",
       "position": "LF",
       "number": "21",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Zack Gelof",
-      "position": "3B",
-      "number": "20",
       "status": "A",
       "source": "MLB Stats API"
     }

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-26T16:29:47.633800+00:00",
+    "teamCode": "CHW",
+    "teamName": "Chicago White Sox",
+    "type": "added",
+    "playerName": "David Sandlin",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-26T16:29:47.633816+00:00",
+    "teamCode": "CHW",
+    "teamName": "Chicago White Sox",
+    "type": "removed",
+    "playerName": "Joe Rock",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-22T20:14:20.306413+00:00",
     "teamCode": "CHW",
     "teamName": "Chicago White Sox",

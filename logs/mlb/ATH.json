@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-26T16:29:55.536853+00:00",
+    "teamCode": "ATH",
+    "teamName": "Athletics",
+    "type": "added",
+    "playerName": "Alika Williams",
+    "position": "SS",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-26T16:29:55.536873+00:00",
+    "teamCode": "ATH",
+    "teamName": "Athletics",
+    "type": "removed",
+    "playerName": "Zack Gelof",
+    "position": "3B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-22T20:14:27.918411+00:00",
     "teamCode": "ATH",
     "teamName": "Athletics",

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-26T16:29:49.898949+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Tigers",
+    "type": "added",
+    "playerName": "Hao-Yu Lee",
+    "position": "2B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-26T16:29:49.898966+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Tigers",
+    "type": "removed",
+    "playerName": "Hao-Yu  Lee",
+    "position": "2B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-24T16:36:29.246468+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Tigers",

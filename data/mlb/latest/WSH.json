@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-06-24T16:36:41.385732+00:00",
+  "checkedAt": "2026-06-26T16:30:01.202024+00:00",
   "players": [
     {
       "name": "Andrew Alvarez",
@@ -120,6 +120,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Justin Lawrence",
+      "position": "P",
+      "number": "44",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Keibert Ruiz",
       "position": "C",
       "number": "20",
@@ -165,13 +172,6 @@
       "name": "PJ Poulin",
       "position": "P",
       "number": "50",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Paxton Schultz",
-      "position": "P",
-      "number": "75",
       "status": "A",
       "source": "MLB Stats API"
     },

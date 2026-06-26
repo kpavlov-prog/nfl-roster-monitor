@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-06-24T16:36:23.759146+00:00",
+  "checkedAt": "2026-06-26T16:29:44.815433+00:00",
   "players": [
     {
       "name": "Adrian Del Castillo",
@@ -85,6 +85,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Juan Burgos",
+      "position": "P",
+      "number": "52",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Juan Morillo",
       "position": "P",
       "number": "62",
@@ -106,13 +113,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Kohl Drake",
-      "position": "P",
-      "number": "58",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Lourdes Gurriel Jr.",
       "position": "LF",
       "number": "12",
@@ -123,6 +123,13 @@
       "name": "LuJames Groover",
       "position": "1B",
       "number": "16",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Max Kepler",
+      "position": "LF",
+      "number": "22",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,13 +172,6 @@
       "name": "Taylor Clarke",
       "position": "P",
       "number": "45",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tim Tawa",
-      "position": "LF",
-      "number": "13",
       "status": "A",
       "source": "MLB Stats API"
     },

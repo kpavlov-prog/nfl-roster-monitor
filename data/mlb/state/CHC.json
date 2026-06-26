@@ -5,19 +5,12 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/112/roster?rosterType=active",
-  "checkedAt": "2026-06-24T16:36:26.170873+00:00",
+  "checkedAt": "2026-06-26T16:29:47.074121+00:00",
   "players": [
     {
       "name": "Alex Bregman",
       "position": "3B",
       "number": "3",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Ben Brown",
-      "position": "P",
-      "number": "32",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -46,13 +39,6 @@
       "name": "Dansby Swanson",
       "position": "SS",
       "number": "7",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Edward Cabrera",
-      "position": "P",
-      "number": "30",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -109,6 +95,13 @@
       "name": "Matt Shaw",
       "position": "RF",
       "number": "6",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Matthew Boyd",
+      "position": "P",
+      "number": "16",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -186,6 +179,13 @@
       "name": "Trent Thornton",
       "position": "P",
       "number": "49",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Vince Velasquez",
+      "position": "P",
+      "number": "56",
       "status": "A",
       "source": "MLB Stats API"
     }

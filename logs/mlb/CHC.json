@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-06-26T16:29:47.075160+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "added",
+    "playerName": "Matthew Boyd",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-26T16:29:47.075172+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "added",
+    "playerName": "Vince Velasquez",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-26T16:29:47.075177+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "removed",
+    "playerName": "Ben Brown",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-26T16:29:47.075180+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "removed",
+    "playerName": "Edward Cabrera",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-24T16:36:26.171949+00:00",
     "teamCode": "CHC",
     "teamName": "Chicago Cubs",
