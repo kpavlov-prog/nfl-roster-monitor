@@ -98,7 +98,8 @@ def cleanup_old_files(valid_codes):
 
 def fetch_teams():
     data = get_json(TEAMS_URL)
-
+    if code not in FBS_TEAM_CODES:
+        continue
     teams = []
     
     for sport in data.get("sports", []):
