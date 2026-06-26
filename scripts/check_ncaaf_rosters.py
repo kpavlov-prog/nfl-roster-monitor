@@ -18,19 +18,20 @@ TEAMS_URL = "https://site.api.espn.com/apis/site/v2/sports/football/college-foot
 FBS_TEAM_CODES = {
     "AF","AKR","ALA","APP","ARIZ","ARK","ARST","ARMY","ASU","AUB",
     "BALL","BAY","BC","BGSU","BOIS","BUFF","BYU","CAL","CCU","CHAR",
-    "CIN","CLEM","CLT","CMU","COLO","CONN","CSU","DUKE","ECU","EMU",
-    "FAU","FIU","FLA","FLST","FRES","GASO","GAST","GT","HAW","HOU",
-    "IU","ILL","IOWA","ISU","JMU","KAN","KENT","KSU","KU","LIB",
-    "LT","LOU","LSU","MAR","MD","MEM","MIA","M-OH","MICH","MINN",
-    "MISS","MIZ","MSST","MTU","NAVY","NCST","NEB","NEV","NIU","NMST",
-    "NMSU","NORTH","NU","NW","ODU","OHIO","OKLA","OKST","ORE","ORST",
-    "PITT","PSU","PUR","RICE","RUTG","SAM","SDSU","SJSU","SMU","SOAL",
-    "SOFL","STAN","SYR","TCU","TEM","TENN","TEX","TLSA","TOL","TROY",
-    "TTU","TULN","UAB","UCF","UCLA","UGA","ULL","ULM","UMASS","UNC",
-    "UNLV","UNT","USC","USF","USM","UTAH","UTEP","UTSA","UVA","VAN",
-    "VT","WAKE","WASH","WIS","WKU","WMU","WVU","WYO"
+    "CIN","CLEM","CLT","CMU","COLO","CONN","CSU","DEL","DUKE","ECU",
+    "EMU","FAU","FIU","FLA","FLST","FSU","FRES","GASO","GAST","GT",
+    "HAW","HOU","IU","ILL","IOWA","ISU","JAXST","JVST","KENN","KSU",
+    "KAN","KU","KENT","UK","LIB","LT","LOU","LSU","MAR","MD","MEM",
+    "MIA","M-OH","MICH","MINN","MISS","MIZ","MOST","MSST","MTU",
+    "NAVY","NCST","NDSU","NEB","NEV","NIU","NM","NMST","NMSU","ND",
+    "NORTH","NU","NW","ODU","OHIO","OKLA","OKST","ORE","ORST","PITT",
+    "PSU","PUR","RICE","RUTG","SAC","SACST","SAM","SC","SDSU","SJSU",
+    "SMU","SOAL","SOFL","STAN","SYR","TA&M","TAMU","TCU","TEM","TENN",
+    "TEX","TLSA","TOL","TROY","TTU","TULN","TXST","UAB","UCF","UCLA",
+    "UGA","ULL","ULM","UMASS","UNC","UNLV","UNT","USC","USF","USM",
+    "UTAH","UTEP","UTSA","USU","UVA","VAN","VT","WAKE","WASH","WIS",
+    "WKU","WMU","WSU","WVU","WYO"
 }
-
 def now_iso():
     return datetime.now(timezone.utc).isoformat()
 
