@@ -15,7 +15,19 @@ STATE = DATA / "state"
 LOGS = ROOT / "logs" / "ncaaf"
 
 TEAMS_URL = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams?limit=500"
-
+FBS_CONFERENCE_NAMES = {
+    "ACC",
+    "American Athletic Conference",
+    "Big Ten",
+    "Big 12",
+    "Conference USA",
+    "FBS Independents",
+    "Mid-American Conference",
+    "Mountain West",
+    "Pac-12",
+    "Southeastern Conference",
+    "Sun Belt",
+}
 FBS_TEAM_CODES = {
     "AF","AKR","ALA","APP","ARIZ","ARK","ARST","ARMY","ASU","AUB","BALL","BAY","BC","BGSU","BOIS","BUFF","BYU",
     "CAL","CCU","CHAR","CIN","CLEM","CLT","CMU","COLO","CONN","CSU","DUKE","ECU","EMU","FAU","FIU","FLA","FLST",
@@ -88,12 +100,22 @@ def fetch_teams():
     data = get_json(TEAMS_URL)
 
     teams = []
-
+    
     for sport in data.get("sports", []):
         for league in sport.get("leagues", []):
             for item in league.get("teams", []):
                 team = item.get("team", {})
-
+                groups = team.get("groups") or item.get("groups") or []
+                conference_names = set()
+                
+                for group in groups:
+                    if isinstance(group, dict):
+                        name = group.get("name") or group.get("displayName") or group.get("shortName")
+                        if name:
+                            conference_names.add(name)
+                
+                if conference_names and not conference_names.intersection(FBS_CONFERENCE_NAMES):
+                    continue
                 team_id = team.get("id")
                 name = team.get("displayName") or team.get("name")
                 abbreviation = (
