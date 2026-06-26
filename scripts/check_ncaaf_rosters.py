@@ -111,7 +111,7 @@ def fetch_teams():
                     continue
 
                 code = safe_code(abbreviation)
-
+                print(f"DISCOVERED TEAM: {code} | {name} | id={team_id}")
                 if code not in FBS_TEAM_CODES:
                     continue
                 logos = team.get("logos") or []
