@@ -107,9 +107,11 @@ def fetch_teams():
                     continue
 
                 code = safe_code(abbreviation)
-                print(f"DISCOVERED TEAM: {code} | {name} | id={team_id}")
+
                 if name not in FBS_TEAM_NAMES:
+                    print(f"FILTERED OUT: {name} | code={code} | id={team_id}")
                     continue
+                
                 logos = team.get("logos") or []
                 logo = logos[0].get("href", "") if logos and isinstance(logos, list) else ""
 
