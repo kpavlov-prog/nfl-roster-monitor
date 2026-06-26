@@ -105,6 +105,9 @@ def fetch_teams():
         for league in sport.get("leagues", []):
             for item in league.get("teams", []):
                 team = item.get("team", {})
+                if len(teams) < 5:
+                    print("DEBUG TEAM ITEM:")
+                    print(json.dumps(item, indent=2)[:3000])
                 groups = team.get("groups") or item.get("groups") or []
                 conference_names = set()
                 
