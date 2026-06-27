@@ -3,12 +3,19 @@
   "team": "Anaheim Ducks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/ANA/current",
-  "checkedAt": "2026-06-26T16:30:48.071238+00:00",
+  "checkedAt": "2026-06-27T10:32:01.292981+00:00",
   "players": [
     {
       "name": "Alex Killorn",
       "position": "L",
       "number": "17",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Anton Wahlberg",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -104,13 +111,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Mason McTavish",
-      "position": "C",
-      "number": "23",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Mikael Granlund",
       "position": "C",
       "number": "64",
@@ -135,13 +135,6 @@
       "name": "Noah Warren",
       "position": "D",
       "number": "47",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Olen Zellweger",
-      "position": "D",
-      "number": "51",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

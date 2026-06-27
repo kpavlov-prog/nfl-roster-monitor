@@ -3,7 +3,7 @@
   "team": "New York Rangers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/NYR/current",
-  "checkedAt": "2026-06-26T16:31:03.021735+00:00",
+  "checkedAt": "2026-06-27T10:32:13.186562+00:00",
   "players": [
     {
       "name": "Adam Edstrom",
@@ -128,6 +128,13 @@
       "name": "Noah Laba",
       "position": "C",
       "number": "42",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Pavel Dorofeyev",
+      "position": "L",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

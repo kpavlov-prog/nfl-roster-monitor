@@ -3,8 +3,15 @@
   "team": "Ottawa Senators",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/OTT/current",
-  "checkedAt": "2026-06-26T16:31:03.870939+00:00",
+  "checkedAt": "2026-06-27T10:32:13.757643+00:00",
   "players": [
+    {
+      "name": "Andre Burakovsky",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
     {
       "name": "Artem Zub",
       "position": "D",
@@ -177,6 +184,13 @@
       "name": "Ridly Greig",
       "position": "C",
       "number": "71",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Samuel Ersson",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

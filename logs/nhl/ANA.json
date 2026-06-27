@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-06-27T10:32:01.294226+00:00",
+    "teamCode": "ANA",
+    "teamName": "Anaheim Ducks",
+    "type": "added",
+    "playerName": "Anton Wahlberg",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-27T10:32:01.294247+00:00",
+    "teamCode": "ANA",
+    "teamName": "Anaheim Ducks",
+    "type": "removed",
+    "playerName": "Mason McTavish",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-27T10:32:01.294251+00:00",
+    "teamCode": "ANA",
+    "teamName": "Anaheim Ducks",
+    "type": "removed",
+    "playerName": "Olen Zellweger",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-26T16:30:48.072098+00:00",
     "teamCode": "ANA",
     "teamName": "Anaheim Ducks",

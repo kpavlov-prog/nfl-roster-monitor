@@ -3,7 +3,7 @@
   "team": "Boston Bruins",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/BOS/current",
-  "checkedAt": "2026-06-26T16:30:48.911224+00:00",
+  "checkedAt": "2026-06-27T10:32:01.998758+00:00",
   "players": [
     {
       "name": "Alex Steeves",
@@ -65,6 +65,13 @@
       "name": "Henri Jokiharju",
       "position": "D",
       "number": "20",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "JJ Peterka",
+      "position": "R",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

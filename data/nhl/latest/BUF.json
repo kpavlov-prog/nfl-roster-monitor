@@ -3,19 +3,12 @@
   "team": "Buffalo Sabres",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/BUF/current",
-  "checkedAt": "2026-06-26T16:30:49.817331+00:00",
+  "checkedAt": "2026-06-27T10:32:02.655053+00:00",
   "players": [
     {
       "name": "Alex Lyon",
       "position": "G",
       "number": "34",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Anton Wahlberg",
-      "position": "C",
-      "number": "92",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -142,6 +135,13 @@
       "name": "Noah Ostlund",
       "position": "C",
       "number": "86",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Olen Zellweger",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
