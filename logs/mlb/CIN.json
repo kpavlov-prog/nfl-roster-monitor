@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-27T10:23:32.549611+00:00",
+    "teamCode": "CIN",
+    "teamName": "Cincinnati Reds",
+    "type": "added",
+    "playerName": "Zach McCambley",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-27T10:23:32.549621+00:00",
+    "teamCode": "CIN",
+    "teamName": "Cincinnati Reds",
+    "type": "removed",
+    "playerName": "Tony Santillan",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-24T16:36:27.405195+00:00",
     "teamCode": "CIN",
     "teamName": "Cincinnati Reds",

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-27T10:23:29.876520+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Braves",
+    "type": "added",
+    "playerName": "Hurston Waldrep",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-27T10:23:29.876535+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Braves",
+    "type": "removed",
+    "playerName": "Robert Suarez",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-26T16:29:45.378401+00:00",
     "teamCode": "ATL",
     "teamName": "Atlanta Braves",

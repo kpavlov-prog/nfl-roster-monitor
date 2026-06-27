@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/112/roster?rosterType=active",
-  "checkedAt": "2026-06-26T16:29:47.074121+00:00",
+  "checkedAt": "2026-06-27T10:23:31.477570+00:00",
   "players": [
     {
       "name": "Alex Bregman",
@@ -39,6 +39,13 @@
       "name": "Dansby Swanson",
       "position": "SS",
       "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "David Peterson",
+      "position": "P",
+      "number": "19",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,13 +151,6 @@
       "name": "Pete Crow-Armstrong",
       "position": "CF",
       "number": "4",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Phil Maton",
-      "position": "P",
-      "number": "88",
       "status": "A",
       "source": "MLB Stats API"
     },

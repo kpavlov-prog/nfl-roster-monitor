@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-06-26T16:29:45.377405+00:00",
+  "checkedAt": "2026-06-27T10:23:29.875535+00:00",
   "players": [
     {
       "name": "Austin Riley",
@@ -81,6 +81,13 @@
       "name": "Ha-Seong Kim",
       "position": "SS",
       "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Hurston Waldrep",
+      "position": "P",
+      "number": "64",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,13 +172,6 @@
       "name": "Reynaldo López",
       "position": "P",
       "number": "40",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Robert Suarez",
-      "position": "P",
-      "number": "75",
       "status": "A",
       "source": "MLB Stats API"
     },

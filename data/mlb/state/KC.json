@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/118/roster?rosterType=active",
-  "checkedAt": "2026-06-26T16:29:51.025517+00:00",
+  "checkedAt": "2026-06-27T10:23:35.228601+00:00",
   "players": [
     {
       "name": "Alex Lange",
@@ -134,6 +134,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Mitch Spence",
+      "position": "P",
+      "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Nick Loftin",
       "position": "2B",
       "number": "12",
@@ -165,13 +172,6 @@
       "name": "Starling Marte",
       "position": "RF",
       "number": "0",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Stephen Kolek",
-      "position": "P",
-      "number": "32",
       "status": "A",
       "source": "MLB Stats API"
     },

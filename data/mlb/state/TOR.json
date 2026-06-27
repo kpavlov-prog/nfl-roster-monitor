@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-06-26T16:30:00.641113+00:00",
+  "checkedAt": "2026-06-27T10:23:44.325991+00:00",
   "players": [
+    {
+      "name": "Adam Macko",
+      "position": "P",
+      "number": "64",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Alejandro Kirk",
       "position": "C",
@@ -144,13 +151,6 @@
       "name": "Shane Bieber",
       "position": "P",
       "number": "57",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Simeon Woods Richardson",
-      "position": "P",
-      "number": "10",
       "status": "A",
       "source": "MLB Stats API"
     },

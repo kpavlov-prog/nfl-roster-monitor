@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-27T10:23:35.229389+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Royals",
+    "type": "added",
+    "playerName": "Mitch Spence",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-27T10:23:35.229400+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Royals",
+    "type": "removed",
+    "playerName": "Stephen Kolek",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-24T16:36:30.452716+00:00",
     "teamCode": "KC",
     "teamName": "Kansas City Royals",

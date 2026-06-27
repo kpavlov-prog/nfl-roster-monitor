@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-27T10:23:40.582274+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "added",
+    "playerName": "Konnor Griffin",
+    "position": "SS",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-27T10:23:40.582285+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "removed",
+    "playerName": "Jack Brannigan",
+    "position": "SS",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-26T16:29:56.657911+00:00",
     "teamCode": "PIT",
     "teamName": "Pittsburgh Pirates",

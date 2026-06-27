@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-27T10:23:44.326706+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "added",
+    "playerName": "Adam Macko",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-27T10:23:44.326722+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "removed",
+    "playerName": "Simeon Woods Richardson",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-23T17:08:02.258129+00:00",
     "teamCode": "TOR",
     "teamName": "Toronto Blue Jays",

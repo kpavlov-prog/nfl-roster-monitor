@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active",
-  "checkedAt": "2026-06-26T16:29:48.765541+00:00",
+  "checkedAt": "2026-06-27T10:23:33.083767+00:00",
   "players": [
     {
       "name": "Austin Hedges",
@@ -32,6 +32,13 @@
       "name": "Colin Holderman",
       "position": "P",
       "number": "35",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cooper Ingle",
+      "position": "C",
+      "number": "30",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -158,13 +165,6 @@
       "name": "Steven Kwan",
       "position": "CF",
       "number": "38",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Stuart Fairchild",
-      "position": "RF",
-      "number": "17",
       "status": "A",
       "source": "MLB Stats API"
     },

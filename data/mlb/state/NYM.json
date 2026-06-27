@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-06-26T16:29:54.405391+00:00",
+  "checkedAt": "2026-06-27T10:23:38.438842+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -60,13 +60,6 @@
       "name": "Cionel Pérez",
       "position": "P",
       "number": "52",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Daniel Duarte",
-      "position": "P",
-      "number": "54",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -148,13 +141,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "MJ Melendez",
-      "position": "DH",
-      "number": "1",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Mark Vientos",
       "position": "1B",
       "number": "27",
@@ -186,6 +172,20 @@
       "name": "Tobias Myers",
       "position": "P",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tyrone Taylor",
+      "position": "CF",
+      "number": "28",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Zach Thornton",
+      "position": "P",
+      "number": "49",
       "status": "A",
       "source": "MLB Stats API"
     }

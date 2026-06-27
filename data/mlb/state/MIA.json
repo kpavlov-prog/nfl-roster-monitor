@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-06-26T16:29:52.716285+00:00",
+  "checkedAt": "2026-06-27T10:23:36.836286+00:00",
   "players": [
     {
       "name": "Anthony Bender",
@@ -46,6 +46,13 @@
       "name": "Eury Pérez",
       "position": "P",
       "number": "39",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Graham Pauley",
+      "position": "3B",
+      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     },
