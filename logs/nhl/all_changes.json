@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-06-28T10:39:00.425754+00:00",
+    "teamCode": "ANA",
+    "teamName": "Anaheim Ducks",
+    "type": "removed",
+    "playerName": "John Carlson",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-28T10:39:02.882727+00:00",
+    "teamCode": "CAR",
+    "teamName": "Carolina Hurricanes",
+    "type": "added",
+    "playerName": "John Carlson",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-28T10:39:09.247944+00:00",
+    "teamCode": "NSH",
+    "teamName": "Nashville Predators",
+    "type": "added",
+    "playerName": "Adam Edstrom",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-28T10:39:10.984394+00:00",
+    "teamCode": "NYR",
+    "teamName": "New York Rangers",
+    "type": "removed",
+    "playerName": "Adam Edstrom",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-28T10:39:14.444506+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Blues",
+    "type": "added",
+    "playerName": "Brandon Carlo",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-28T10:39:15.856388+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Maple Leafs",
+    "type": "removed",
+    "playerName": "Brandon Carlo",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-27T10:32:01.294226+00:00",
     "teamCode": "ANA",
     "teamName": "Anaheim Ducks",

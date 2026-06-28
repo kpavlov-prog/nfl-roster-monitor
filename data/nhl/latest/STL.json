@@ -3,12 +3,19 @@
   "team": "St. Louis Blues",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/STL/current",
-  "checkedAt": "2026-06-27T10:32:17.262608+00:00",
+  "checkedAt": "2026-06-28T10:39:14.443563+00:00",
   "players": [
     {
       "name": "Alexey Toropchenko",
       "position": "R",
       "number": "13",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Brandon Carlo",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
