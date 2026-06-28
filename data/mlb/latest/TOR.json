@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-06-27T10:23:44.325991+00:00",
+  "checkedAt": "2026-06-28T10:34:40.824764+00:00",
   "players": [
     {
       "name": "Adam Macko",
@@ -50,13 +50,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Davis Schneider",
-      "position": "LF",
-      "number": "36",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Dylan Cease",
       "position": "P",
       "number": "84",
@@ -81,13 +74,6 @@
       "name": "Jeff Hoffman",
       "position": "P",
       "number": "23",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jesús Sánchez",
-      "position": "RF",
-      "number": "12",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -148,6 +134,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Sean Keys",
+      "position": "3B",
+      "number": "20",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Shane Bieber",
       "position": "P",
       "number": "57",
@@ -186,6 +179,13 @@
       "name": "Vladimir Guerrero Jr.",
       "position": "1B",
       "number": "27",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yohendrick Piñango",
+      "position": "LF",
+      "number": "24",
       "status": "A",
       "source": "MLB Stats API"
     }

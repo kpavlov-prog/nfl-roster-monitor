@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-06-27T10:23:38.438842+00:00",
+  "checkedAt": "2026-06-28T10:34:34.699323+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -53,6 +53,13 @@
       "name": "Carson Benge",
       "position": "RF",
       "number": "3",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Christian Scott",
+      "position": "P",
+      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,13 +186,6 @@
       "name": "Tyrone Taylor",
       "position": "CF",
       "number": "28",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Zach Thornton",
-      "position": "P",
-      "number": "49",
       "status": "A",
       "source": "MLB Stats API"
     }
