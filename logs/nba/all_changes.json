@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-06-29T12:50:01.566074+00:00",
+    "teamCode": "CHA",
+    "teamName": "Charlotte Hornets",
+    "type": "added",
+    "playerName": "Grayson Allen",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-29T12:50:01.566084+00:00",
+    "teamCode": "CHA",
+    "teamName": "Charlotte Hornets",
+    "type": "added",
+    "playerName": "Royce O'Neale",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-29T12:50:01.566090+00:00",
+    "teamCode": "CHA",
+    "teamName": "Charlotte Hornets",
+    "type": "removed",
+    "playerName": "Miles Bridges",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-29T12:50:13.293016+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Suns",
+    "type": "added",
+    "playerName": "Miles Bridges",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-29T12:50:13.293026+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Suns",
+    "type": "removed",
+    "playerName": "Grayson Allen",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-29T12:50:13.293030+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Suns",
+    "type": "removed",
+    "playerName": "Royce O'Neale",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-28T10:54:48.733212+00:00",
     "teamCode": "ORL",
     "teamName": "Orlando Magic",

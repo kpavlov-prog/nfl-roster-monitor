@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-06-29T12:50:13.293016+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Suns",
+    "type": "added",
+    "playerName": "Miles Bridges",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-29T12:50:13.293026+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Suns",
+    "type": "removed",
+    "playerName": "Grayson Allen",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-29T12:50:13.293030+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Suns",
+    "type": "removed",
+    "playerName": "Royce O'Neale",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-24T16:39:00.115230+00:00",
     "teamCode": "PHX",
     "teamName": "Phoenix Suns",
