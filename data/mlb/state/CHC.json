@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/112/roster?rosterType=active",
-  "checkedAt": "2026-06-28T10:34:27.470490+00:00",
+  "checkedAt": "2026-06-29T12:42:05.987469+00:00",
   "players": [
     {
       "name": "Alex Bregman",
@@ -81,6 +81,13 @@
       "name": "Javier Assad",
       "position": "P",
       "number": "72",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jordan Wicks",
+      "position": "P",
+      "number": "36",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,13 +186,6 @@
       "name": "Tyler Ferguson",
       "position": "P",
       "number": "64",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Vince Velasquez",
-      "position": "P",
-      "number": "56",
       "status": "A",
       "source": "MLB Stats API"
     }

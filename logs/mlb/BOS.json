@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-29T12:42:05.350707+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "added",
+    "playerName": "Romy Gonzalez",
+    "position": "1B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-29T12:42:05.350722+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "removed",
+    "playerName": "Mickey Gasper",
+    "position": "C",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-27T10:23:30.942907+00:00",
     "teamCode": "BOS",
     "teamName": "Boston Red Sox",

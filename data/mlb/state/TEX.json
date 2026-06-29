@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-06-28T10:34:40.261170+00:00",
+  "checkedAt": "2026-06-29T12:42:20.375774+00:00",
   "players": [
     {
       "name": "Alejandro Osuna",
@@ -46,6 +46,13 @@
       "name": "Elias Díaz",
       "position": "C",
       "number": "35",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Evan Carter",
+      "position": "CF",
+      "number": "32",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,13 +186,6 @@
       "name": "Winston Santos",
       "position": "P",
       "number": "84",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Wyatt Langford",
-      "position": "LF",
-      "number": "36",
       "status": "A",
       "source": "MLB Stats API"
     }

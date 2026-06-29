@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=active",
-  "checkedAt": "2026-06-28T10:34:30.806044+00:00",
+  "checkedAt": "2026-06-29T12:42:09.774352+00:00",
   "players": [
     {
       "name": "AJ Blubaugh",
@@ -109,6 +109,13 @@
       "name": "Josh Hader",
       "position": "P",
       "number": "71",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Miguel Ullola",
+      "position": "P",
+      "number": "66",
       "status": "A",
       "source": "MLB Stats API"
     },

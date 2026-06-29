@@ -5,19 +5,12 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=active",
-  "checkedAt": "2026-06-28T10:34:28.589925+00:00",
+  "checkedAt": "2026-06-29T12:42:07.261791+00:00",
   "players": [
     {
       "name": "Andrew Abbott",
       "position": "P",
       "number": "41",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Blake Dunn",
-      "position": "CF",
-      "number": "59",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,6 +158,13 @@
       "name": "Spencer Steer",
       "position": "LF",
       "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "TJ Friedl",
+      "position": "CF",
+      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=active",
-  "checkedAt": "2026-06-28T10:34:26.350258+00:00",
+  "checkedAt": "2026-06-29T12:42:04.710811+00:00",
   "players": [
+    {
+      "name": "Adley Rutschman",
+      "position": "C",
+      "number": "35",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Albert Suárez",
       "position": "P",
@@ -57,6 +64,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Dylan Beavers",
+      "position": "RF",
+      "number": "12",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Grant Wolfram",
       "position": "P",
       "number": "48",
@@ -74,13 +88,6 @@
       "name": "Jackson Holliday",
       "position": "2B",
       "number": "7",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jeremiah Jackson",
-      "position": "2B",
-      "number": "82",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -123,13 +130,6 @@
       "name": "Ryan Helsley",
       "position": "P",
       "number": "21",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Sam Huff",
-      "position": "C",
-      "number": "31",
       "status": "A",
       "source": "MLB Stats API"
     },
