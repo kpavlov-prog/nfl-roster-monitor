@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-06-30T11:34:16.963171+00:00",
+    "teamCode": "MEM",
+    "teamName": "Memphis Grizzlies",
+    "type": "added",
+    "playerName": "Jerami Grant",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-30T11:34:16.963180+00:00",
+    "teamCode": "MEM",
+    "teamName": "Memphis Grizzlies",
+    "type": "added",
+    "playerName": "Kris Murray",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-30T11:34:16.963187+00:00",
+    "teamCode": "MEM",
+    "teamName": "Memphis Grizzlies",
+    "type": "removed",
+    "playerName": "Ja Morant",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-25T17:00:39.608464+00:00",
     "teamCode": "MEM",
     "teamName": "Memphis Grizzlies",

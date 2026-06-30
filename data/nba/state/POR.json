@@ -3,7 +3,7 @@
   "team": "Portland Trail Blazers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/POR/roster",
-  "checkedAt": "2026-06-29T12:50:13.906140+00:00",
+  "checkedAt": "2026-06-30T11:34:22.656627+00:00",
   "players": [
     {
       "name": "Blake Wesley",
@@ -48,6 +48,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Ja Morant",
+      "position": "G",
+      "number": "12",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Jayson Kent",
       "position": "G",
       "number": "29",
@@ -55,23 +62,9 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Jerami Grant",
-      "position": "F",
-      "number": "9",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Jrue Holiday",
       "position": "G",
       "number": "5",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Kris Murray",
-      "position": "F",
-      "number": "24",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

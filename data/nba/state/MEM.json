@@ -3,7 +3,7 @@
   "team": "Memphis Grizzlies",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MEM/roster",
-  "checkedAt": "2026-06-29T12:50:08.069960+00:00",
+  "checkedAt": "2026-06-30T11:34:16.962095+00:00",
   "players": [
     {
       "name": "Adama Bal",
@@ -55,13 +55,6 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Ja Morant",
-      "position": "G",
-      "number": "12",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Jahmai Mashack",
       "position": "G",
       "number": "21",
@@ -83,6 +76,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Jerami Grant",
+      "position": "F",
+      "number": "9",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Karim Lopez",
       "position": "F",
       "number": "",
@@ -93,6 +93,13 @@
       "name": "Kentavious Caldwell-Pope",
       "position": "G",
       "number": "3",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Kris Murray",
+      "position": "F",
+      "number": "24",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
