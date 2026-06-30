@@ -3,7 +3,7 @@
   "team": "Toronto Tempo",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/TOR/roster",
-  "checkedAt": "2026-06-29T13:08:53.970697+00:00",
+  "checkedAt": "2026-06-30T11:46:04.703095+00:00",
   "players": [
     {
       "name": "Brittney Sykes",
@@ -65,6 +65,13 @@
       "name": "Nyara Sabally",
       "position": "F",
       "number": "8",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Ornella Bankole",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },

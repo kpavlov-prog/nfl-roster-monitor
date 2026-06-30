@@ -3,7 +3,7 @@
   "team": "Atlanta Dream",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/ATL/roster",
-  "checkedAt": "2026-06-29T13:08:46.328528+00:00",
+  "checkedAt": "2026-06-30T11:45:55.015192+00:00",
   "players": [
     {
       "name": "Aaliyah Nye",
@@ -51,6 +51,13 @@
       "name": "Isobel Borlase",
       "position": "G",
       "number": "20",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Jaylyn Sherrod",
+      "position": "G",
+      "number": "00",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },
