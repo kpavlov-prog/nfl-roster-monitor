@@ -3,15 +3,8 @@
   "team": "Florida Panthers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/FLA/current",
-  "checkedAt": "2026-06-29T12:45:45.617289+00:00",
+  "checkedAt": "2026-06-30T11:26:34.951750+00:00",
   "players": [
-    {
-      "name": "A.J. Greer",
-      "position": "L",
-      "number": "10",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
     {
       "name": "Aaron Ekblad",
       "position": "D",
@@ -149,6 +142,13 @@
       "name": "Niko Mikkola",
       "position": "D",
       "number": "77",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Radko Gudas",
+      "position": "D",
+      "number": "7",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

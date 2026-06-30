@@ -3,7 +3,7 @@
   "team": "Nashville Predators",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/NSH/current",
-  "checkedAt": "2026-06-29T12:45:48.144915+00:00",
+  "checkedAt": "2026-06-30T11:26:37.219445+00:00",
   "players": [
     {
       "name": "Adam Edstrom",
@@ -107,6 +107,13 @@
       "name": "Nicolas Hague",
       "position": "D",
       "number": "41",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Nils Hoglander",
+      "position": "L",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

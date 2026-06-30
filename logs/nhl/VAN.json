@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-06-30T11:26:44.529518+00:00",
+    "teamCode": "VAN",
+    "teamName": "Vancouver Canucks",
+    "type": "added",
+    "playerName": "Brendan Gallagher",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-30T11:26:44.529532+00:00",
+    "teamCode": "VAN",
+    "teamName": "Vancouver Canucks",
+    "type": "removed",
+    "playerName": "Nils Hoglander",
+    "position": "L",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  }
+]

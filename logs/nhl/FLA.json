@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-30T11:26:34.952510+00:00",
+    "teamCode": "FLA",
+    "teamName": "Florida Panthers",
+    "type": "added",
+    "playerName": "Radko Gudas",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-30T11:26:34.952520+00:00",
+    "teamCode": "FLA",
+    "teamName": "Florida Panthers",
+    "type": "removed",
+    "playerName": "A.J. Greer",
+    "position": "L",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-25T16:41:22.086838+00:00",
     "teamCode": "FLA",
     "teamName": "Florida Panthers",

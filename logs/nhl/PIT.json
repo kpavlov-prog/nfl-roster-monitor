@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-06-30T11:26:40.585184+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Penguins",
+    "type": "added",
+    "playerName": "David Gustafsson",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-30T11:26:40.585199+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Penguins",
+    "type": "removed",
+    "playerName": "Jack St. Ivany",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-26T16:31:05.595695+00:00",
     "teamCode": "PIT",
     "teamName": "Pittsburgh Penguins",

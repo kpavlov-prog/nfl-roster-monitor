@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-06-30T11:26:36.653222+00:00",
+    "teamCode": "MTL",
+    "teamName": "Montreal Canadiens",
+    "type": "added",
+    "playerName": "Maksymilian Szuber",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-06-30T11:26:36.653233+00:00",
+    "teamCode": "MTL",
+    "teamName": "Montreal Canadiens",
+    "type": "removed",
+    "playerName": "Brendan Gallagher",
+    "position": "R",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  }
+]
