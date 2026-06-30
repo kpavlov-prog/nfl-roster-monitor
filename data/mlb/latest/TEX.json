@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-06-29T12:42:20.375774+00:00",
+  "checkedAt": "2026-06-30T11:21:34.743116+00:00",
   "players": [
     {
       "name": "Alejandro Osuna",
@@ -25,6 +25,20 @@
       "name": "Cal Quantrill",
       "position": "P",
       "number": "44",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cameron Cauley",
+      "position": "SS",
+      "number": "27",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Chris Paddack",
+      "position": "P",
+      "number": "40",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -92,23 +106,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jarred Kelenic",
-      "position": "RF",
-      "number": "25",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Joc Pederson",
       "position": "DH",
       "number": "3",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Joe Ross",
-      "position": "P",
-      "number": "41",
       "status": "A",
       "source": "MLB Stats API"
     },

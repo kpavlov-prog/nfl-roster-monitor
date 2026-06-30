@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-06-29T12:42:15.383601+00:00",
+  "checkedAt": "2026-06-30T11:21:30.451159+00:00",
   "players": [
     {
       "name": "Aaron Civale",
@@ -32,6 +32,13 @@
       "name": "Colby Thomas",
       "position": "RF",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Darell Hernaiz",
+      "position": "SS",
+      "number": "2",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -85,13 +92,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jacob Wilson",
-      "position": "SS",
-      "number": "5",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jeff McNeil",
       "position": "2B",
       "number": "22",
@@ -120,9 +120,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "José Suarez",
-      "position": "P",
-      "number": "54",
+      "name": "Joshua Kuroda-Grauer",
+      "position": "SS",
+      "number": "44",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -130,6 +130,13 @@
       "name": "Justin Sterner",
       "position": "P",
       "number": "60",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kade Morris",
+      "position": "P",
+      "number": "67",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,13 +186,6 @@
       "name": "Shea Langeliers",
       "position": "C",
       "number": "23",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tyler Soderstrom",
-      "position": "LF",
-      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     }

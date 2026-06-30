@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-06-29T12:42:21.620604+00:00",
+  "checkedAt": "2026-06-30T11:21:35.812413+00:00",
   "players": [
     {
       "name": "Andrew Alvarez",
@@ -39,6 +39,13 @@
       "name": "Cade Cavalli",
       "position": "P",
       "number": "24",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Carson Palmquist",
+      "position": "P",
+      "number": "51",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -141,13 +148,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Mitchell Parker",
-      "position": "P",
-      "number": "70",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Nasim Nuñez",
       "position": "2B",
       "number": "26",
@@ -169,9 +169,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Richard Lovelady",
+      "name": "Riley Cornelio",
       "position": "P",
-      "number": "55",
+      "number": "74",
       "status": "A",
       "source": "MLB Stats API"
     },
