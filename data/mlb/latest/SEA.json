@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=active",
-  "checkedAt": "2026-06-30T11:21:33.134687+00:00",
+  "checkedAt": "2026-07-01T11:33:11.439240+00:00",
   "players": [
     {
       "name": "Andrés Muñoz",
@@ -43,6 +43,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Cole Wilcox",
+      "position": "P",
+      "number": "43",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Cole Young",
       "position": "2B",
       "number": "2",
@@ -51,7 +58,7 @@
     },
     {
       "name": "Colt Emerson",
-      "position": "3B",
+      "position": "SS",
       "number": "4",
       "status": "A",
       "source": "MLB Stats API"
@@ -102,13 +109,6 @@
       "name": "Josh Naylor",
       "position": "1B",
       "number": "12",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Josh Simpson",
-      "position": "P",
-      "number": "37",
       "status": "A",
       "source": "MLB Stats API"
     },

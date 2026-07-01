@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-06-30T11:21:34.743116+00:00",
+  "checkedAt": "2026-07-01T11:33:13.057607+00:00",
   "players": [
     {
       "name": "Alejandro Osuna",
@@ -29,16 +29,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Cameron Cauley",
+      "name": "Cam Cauley",
       "position": "SS",
       "number": "27",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Chris Paddack",
-      "position": "P",
-      "number": "40",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -74,6 +67,13 @@
       "name": "Ezequiel Duran",
       "position": "SS",
       "number": "20",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Gavin Collyer",
+      "position": "P",
+      "number": "65",
       "status": "A",
       "source": "MLB Stats API"
     },

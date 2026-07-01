@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-01T11:33:05.956148+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Marlins",
+    "type": "added",
+    "playerName": "Liam Hicks",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-01T11:33:05.956163+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Marlins",
+    "type": "added",
+    "playerName": "Zach Brzykcy",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-01T11:33:05.956167+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Marlins",
+    "type": "removed",
+    "playerName": "Anthony Bender",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-01T11:33:05.956171+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Marlins",
+    "type": "removed",
+    "playerName": "Graham Pauley",
+    "position": "3B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-27T10:23:36.837119+00:00",
     "teamCode": "MIA",
     "teamName": "Miami Marlins",

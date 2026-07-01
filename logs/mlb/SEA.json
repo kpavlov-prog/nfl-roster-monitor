@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-01T11:33:11.440077+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Mariners",
+    "type": "added",
+    "playerName": "Cole Wilcox",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-01T11:33:11.440087+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Mariners",
+    "type": "position changed",
+    "playerName": "Colt Emerson",
+    "position": "SS",
+    "oldValue": "3B",
+    "newValue": "SS",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-01T11:33:11.440102+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Mariners",
+    "type": "removed",
+    "playerName": "Josh Simpson",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-30T11:21:33.135850+00:00",
     "teamCode": "SEA",
     "teamName": "Seattle Mariners",
