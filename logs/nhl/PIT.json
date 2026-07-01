@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-01T11:37:58.700292+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Penguins",
+    "type": "added",
+    "playerName": "Kaedan Korczak",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-01T11:37:58.700301+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Penguins",
+    "type": "removed",
+    "playerName": "Parker Wotherspoon",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-30T11:26:40.585184+00:00",
     "teamCode": "PIT",
     "teamName": "Pittsburgh Penguins",

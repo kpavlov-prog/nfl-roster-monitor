@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-01T11:37:55.194384+00:00",
+    "teamCode": "NJD",
+    "teamName": "New Jersey Devils",
+    "type": "added",
+    "playerName": "Evan Rodrigues",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-01T11:37:55.194391+00:00",
+    "teamCode": "NJD",
+    "teamName": "New Jersey Devils",
+    "type": "added",
+    "playerName": "Jesper Boqvist",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-01T11:37:55.194397+00:00",
+    "teamCode": "NJD",
+    "teamName": "New Jersey Devils",
+    "type": "removed",
+    "playerName": "Jacob Markstrom",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-26T16:31:01.328843+00:00",
     "teamCode": "NJD",
     "teamName": "New Jersey Devils",

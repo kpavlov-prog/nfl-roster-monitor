@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-01T11:38:05.061221+00:00",
+    "teamCode": "VGK",
+    "teamName": "Vegas Golden Knights",
+    "type": "added",
+    "playerName": "Parker Wotherspoon",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-01T11:38:05.061229+00:00",
+    "teamCode": "VGK",
+    "teamName": "Vegas Golden Knights",
+    "type": "removed",
+    "playerName": "Akira Schmid",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-01T11:38:05.061233+00:00",
+    "teamCode": "VGK",
+    "teamName": "Vegas Golden Knights",
+    "type": "removed",
+    "playerName": "Kaedan Korczak",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-27T10:32:20.841073+00:00",
     "teamCode": "VGK",
     "teamName": "Vegas Golden Knights",
