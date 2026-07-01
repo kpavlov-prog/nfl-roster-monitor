@@ -3,7 +3,7 @@
   "team": "Brooklyn Nets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/BKN/roster",
-  "checkedAt": "2026-06-30T11:34:10.354553+00:00",
+  "checkedAt": "2026-07-01T11:45:37.607796+00:00",
   "players": [
     {
       "name": "Ben Saraf",
@@ -79,6 +79,13 @@
       "name": "Julius Randle",
       "position": "F",
       "number": "30",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Keon Ellis",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

@@ -3,12 +3,19 @@
   "team": "Portland Trail Blazers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/POR/roster",
-  "checkedAt": "2026-06-30T11:34:22.656627+00:00",
+  "checkedAt": "2026-07-01T11:45:51.410603+00:00",
   "players": [
     {
       "name": "Blake Wesley",
       "position": "G",
       "number": "1",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Branden Carlson",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

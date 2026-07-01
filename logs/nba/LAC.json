@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-01T11:45:43.724230+00:00",
+    "teamCode": "LAC",
+    "teamName": "LA Clippers",
+    "type": "added",
+    "playerName": "Brandon Ingram",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-01T11:45:43.724239+00:00",
+    "teamCode": "LAC",
+    "teamName": "LA Clippers",
+    "type": "added",
+    "playerName": "Gradey Dick",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-01T11:45:43.724247+00:00",
+    "teamCode": "LAC",
+    "teamName": "LA Clippers",
+    "type": "removed",
+    "playerName": "Bogdan Bogdanovic",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-01T11:45:43.724250+00:00",
+    "teamCode": "LAC",
+    "teamName": "LA Clippers",
+    "type": "removed",
+    "playerName": "Kawhi Leonard",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-30T11:34:15.860233+00:00",
     "teamCode": "LAC",
     "teamName": "LA Clippers",

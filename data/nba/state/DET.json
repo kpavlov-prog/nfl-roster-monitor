@@ -3,7 +3,7 @@
   "team": "Detroit Pistons",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/DET/roster",
-  "checkedAt": "2026-06-30T11:34:13.674461+00:00",
+  "checkedAt": "2026-07-01T11:45:41.282414+00:00",
   "players": [
     {
       "name": "Ausar Thompson",
@@ -58,6 +58,13 @@
       "name": "Isaac Jones",
       "position": "C",
       "number": "3",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Isaiah Joe",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

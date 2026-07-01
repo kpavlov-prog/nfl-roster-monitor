@@ -3,7 +3,7 @@
   "team": "Miami Heat",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIA/roster",
-  "checkedAt": "2026-06-30T11:34:17.590383+00:00",
+  "checkedAt": "2026-07-01T11:45:45.539025+00:00",
   "players": [
     {
       "name": "Andrew Wiggins",
@@ -100,6 +100,13 @@
       "name": "Simone Fontecchio",
       "position": "F",
       "number": "0",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Tim Hardaway Jr.",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
