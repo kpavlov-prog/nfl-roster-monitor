@@ -3,7 +3,7 @@
   "team": "Boston Celtics",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/BOS/roster",
-  "checkedAt": "2026-07-01T11:45:37.002853+00:00",
+  "checkedAt": "2026-07-02T11:20:53.784268+00:00",
   "players": [
     {
       "name": "Amari Williams",
@@ -55,13 +55,6 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Jaylen Brown",
-      "position": "G",
-      "number": "7",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Jayson Tatum",
       "position": "F",
       "number": "0",
@@ -97,6 +90,20 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Mike Conley",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Mitchell Robinson",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Neemias Queta",
       "position": "C",
       "number": "88",
@@ -104,9 +111,9 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Nikola Vucevic",
-      "position": "C",
-      "number": "4",
+      "name": "Paul George",
+      "position": "F",
+      "number": "8",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

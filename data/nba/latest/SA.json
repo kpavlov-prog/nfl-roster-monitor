@@ -3,7 +3,7 @@
   "team": "San Antonio Spurs",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/SA/roster",
-  "checkedAt": "2026-07-01T11:45:52.664442+00:00",
+  "checkedAt": "2026-07-02T11:21:08.620762+00:00",
   "players": [
     {
       "name": "Bismack Biyombo",
@@ -148,6 +148,13 @@
     {
       "name": "Tarris Reed Jr.",
       "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Tobias Harris",
+      "position": "F",
       "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"

@@ -3,7 +3,7 @@
   "team": "Indiana Pacers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/IND/roster",
-  "checkedAt": "2026-07-01T11:45:43.109992+00:00",
+  "checkedAt": "2026-07-02T11:20:59.697268+00:00",
   "players": [
     {
       "name": "Aaron Nesmith",
@@ -72,6 +72,13 @@
       "name": "Johnny Furphy",
       "position": "G",
       "number": "12",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Kelly Oubre Jr.",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

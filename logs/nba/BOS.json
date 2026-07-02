@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-07-02T11:20:53.785186+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Celtics",
+    "type": "added",
+    "playerName": "Mike Conley",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-02T11:20:53.785193+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Celtics",
+    "type": "added",
+    "playerName": "Mitchell Robinson",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-02T11:20:53.785197+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Celtics",
+    "type": "added",
+    "playerName": "Paul George",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-02T11:20:53.785202+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Celtics",
+    "type": "removed",
+    "playerName": "Jaylen Brown",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-02T11:20:53.785205+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Celtics",
+    "type": "removed",
+    "playerName": "Nikola Vucevic",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-25T17:00:31.883966+00:00",
     "teamCode": "BOS",
     "teamName": "Boston Celtics",

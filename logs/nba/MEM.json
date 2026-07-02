@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-02T11:21:01.543915+00:00",
+    "teamCode": "MEM",
+    "teamName": "Memphis Grizzlies",
+    "type": "added",
+    "playerName": "AJ Johnson",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-02T11:21:01.543931+00:00",
+    "teamCode": "MEM",
+    "teamName": "Memphis Grizzlies",
+    "type": "removed",
+    "playerName": "Santi Aldama",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-30T11:34:16.963171+00:00",
     "teamCode": "MEM",
     "teamName": "Memphis Grizzlies",

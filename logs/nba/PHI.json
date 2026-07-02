@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-07-02T11:21:06.210633+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia 76ers",
+    "type": "added",
+    "playerName": "Ariel Hukporti",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-02T11:21:06.210643+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia 76ers",
+    "type": "added",
+    "playerName": "Jaylen Brown",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-02T11:21:06.210651+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia 76ers",
+    "type": "removed",
+    "playerName": "Kelly Oubre Jr.",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-02T11:21:06.210654+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia 76ers",
+    "type": "removed",
+    "playerName": "Paul George",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-02T11:21:06.210656+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia 76ers",
+    "type": "removed",
+    "playerName": "Quentin Grimes",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-01T11:45:50.209314+00:00",
     "teamCode": "PHI",
     "teamName": "Philadelphia 76ers",

@@ -3,8 +3,15 @@
   "team": "Memphis Grizzlies",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MEM/roster",
-  "checkedAt": "2026-07-01T11:45:44.935957+00:00",
+  "checkedAt": "2026-07-02T11:21:01.542814+00:00",
   "players": [
+    {
+      "name": "AJ Johnson",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
     {
       "name": "Adama Bal",
       "position": "G",
@@ -128,13 +135,6 @@
       "name": "Richie Saunders",
       "position": "G",
       "number": "",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Santi Aldama",
-      "position": "F",
-      "number": "7",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

@@ -3,7 +3,7 @@
   "team": "Los Angeles Lakers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/LAL/roster",
-  "checkedAt": "2026-07-01T11:45:44.321326+00:00",
+  "checkedAt": "2026-07-02T11:21:00.971764+00:00",
   "players": [
     {
       "name": "AK Okereke",
@@ -44,6 +44,13 @@
       "name": "Chris Manon",
       "position": "G",
       "number": "30",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Collin Sexton",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -97,13 +104,6 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Marcus Smart",
-      "position": "G",
-      "number": "36",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Maxi Kleber",
       "position": "F",
       "number": "14",
@@ -118,9 +118,30 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Quentin Grimes",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Rui Hachimura",
       "position": "F",
       "number": "28",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Sandro Mamukelashvili",
+      "position": "F",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Walker Kessler",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }

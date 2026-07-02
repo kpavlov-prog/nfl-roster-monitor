@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-02T11:20:55.653566+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bulls",
+    "type": "added",
+    "playerName": "Norman Powell",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-02T11:20:55.653577+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bulls",
+    "type": "removed",
+    "playerName": "Collin Sexton",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-02T11:20:55.653581+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bulls",
+    "type": "removed",
+    "playerName": "Yuki Kawamura",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-01T11:45:38.786775+00:00",
     "teamCode": "CHI",
     "teamName": "Chicago Bulls",

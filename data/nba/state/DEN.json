@@ -3,7 +3,7 @@
   "team": "Denver Nuggets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/DEN/roster",
-  "checkedAt": "2026-07-01T11:45:40.674924+00:00",
+  "checkedAt": "2026-07-02T11:20:57.415291+00:00",
   "players": [
     {
       "name": "Aaron Gordon",
@@ -93,6 +93,13 @@
       "name": "KJ Simpson",
       "position": "G",
       "number": "25",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Marvin Bagley III",
+      "position": "F",
+      "number": "35",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

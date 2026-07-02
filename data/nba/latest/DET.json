@@ -3,7 +3,7 @@
   "team": "Detroit Pistons",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/DET/roster",
-  "checkedAt": "2026-07-01T11:45:41.282414+00:00",
+  "checkedAt": "2026-07-02T11:20:57.989061+00:00",
   "players": [
     {
       "name": "Ausar Thompson",
@@ -83,6 +83,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "John Collins",
+      "position": "F",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Kevin Huerter",
       "position": "G",
       "number": "27",
@@ -107,13 +114,6 @@
       "name": "Ronald Holland II",
       "position": "F",
       "number": "5",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Tobias Harris",
-      "position": "F",
-      "number": "12",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

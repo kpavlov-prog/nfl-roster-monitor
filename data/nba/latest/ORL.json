@@ -3,7 +3,7 @@
   "team": "Orlando Magic",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/ORL/roster",
-  "checkedAt": "2026-07-01T11:45:49.608248+00:00",
+  "checkedAt": "2026-07-02T11:21:05.641003+00:00",
   "players": [
     {
       "name": "Alex Morales",
@@ -90,9 +90,16 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Moritz Wagner",
+      "name": "Jonathan Isaac",
       "position": "F",
-      "number": "21",
+      "number": "1",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Nikola Vucevic",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

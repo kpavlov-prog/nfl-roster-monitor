@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-02T11:20:57.990105+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Pistons",
+    "type": "added",
+    "playerName": "John Collins",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-02T11:20:57.990116+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Pistons",
+    "type": "removed",
+    "playerName": "Tobias Harris",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-01T11:45:41.283244+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Pistons",

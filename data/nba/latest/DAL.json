@@ -3,15 +3,8 @@
   "team": "Dallas Mavericks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/DAL/roster",
-  "checkedAt": "2026-07-01T11:45:40.069348+00:00",
+  "checkedAt": "2026-07-02T11:20:56.844477+00:00",
   "players": [
-    {
-      "name": "AJ Johnson",
-      "position": "G",
-      "number": "8",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
     {
       "name": "Brandon Williams",
       "position": "G",
@@ -83,13 +76,6 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Marvin Bagley III",
-      "position": "F",
-      "number": "35",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Max Christie",
       "position": "G",
       "number": "00",
@@ -128,6 +114,13 @@
       "name": "Ryan Nembhard",
       "position": "G",
       "number": "9",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Santi Aldama",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
