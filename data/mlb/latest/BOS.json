@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-07-01T11:33:00.024210+00:00",
+  "checkedAt": "2026-07-02T10:51:03.674795+00:00",
   "players": [
+    {
+      "name": "Alec Gamboa",
+      "position": "P",
+      "number": "68",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Andruw Monasterio",
       "position": "SS",
@@ -50,13 +57,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Connelly Early",
-      "position": "P",
-      "number": "71",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Connor Wong",
       "position": "C",
       "number": "12",
@@ -95,6 +95,13 @@
       "name": "Jarren Duran",
       "position": "LF",
       "number": "16",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jovani Morán",
+      "position": "P",
+      "number": "47",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -151,13 +158,6 @@
       "name": "Sonny Gray",
       "position": "P",
       "number": "54",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tommy Kahnle",
-      "position": "P",
-      "number": "46",
       "status": "A",
       "source": "MLB Stats API"
     },

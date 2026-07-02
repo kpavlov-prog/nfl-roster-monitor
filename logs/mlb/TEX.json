@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-02T10:51:18.455180+00:00",
+    "teamCode": "TEX",
+    "teamName": "Texas Rangers",
+    "type": "added",
+    "playerName": "Josh Smith",
+    "position": "2B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-02T10:51:18.455189+00:00",
+    "teamCode": "TEX",
+    "teamName": "Texas Rangers",
+    "type": "number changed",
+    "playerName": "Winston Santos",
+    "position": "P",
+    "oldValue": "84",
+    "newValue": "47",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-02T10:51:18.455193+00:00",
+    "teamCode": "TEX",
+    "teamName": "Texas Rangers",
+    "type": "removed",
+    "playerName": "Corey Seager",
+    "position": "SS",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-01T11:33:13.058420+00:00",
     "teamCode": "TEX",
     "teamName": "Texas Rangers",

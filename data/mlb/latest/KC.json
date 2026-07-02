@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/118/roster?rosterType=active",
-  "checkedAt": "2026-07-01T11:33:04.325873+00:00",
+  "checkedAt": "2026-07-02T10:51:08.769506+00:00",
   "players": [
     {
       "name": "Alex Lange",
@@ -36,23 +36,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Connor Seabold",
-      "position": "P",
-      "number": "43",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Daniel Lynch IV",
       "position": "P",
       "number": "41",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Eric Cerantola",
-      "position": "P",
-      "number": "61",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -81,6 +67,13 @@
       "name": "John Schreiber",
       "position": "P",
       "number": "46",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jose Cuas",
+      "position": "P",
+      "number": "74",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -142,7 +135,7 @@
     },
     {
       "name": "Nick Loftin",
-      "position": "2B",
+      "position": "3B",
       "number": "12",
       "status": "A",
       "source": "MLB Stats API"
@@ -151,6 +144,13 @@
       "name": "Noah Cameron",
       "position": "P",
       "number": "65",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Randy Dobnak",
+      "position": "P",
+      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     },

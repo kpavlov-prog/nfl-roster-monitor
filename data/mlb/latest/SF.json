@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-07-01T11:33:10.905584+00:00",
+  "checkedAt": "2026-07-02T10:51:16.085034+00:00",
   "players": [
     {
       "name": "Adrian Houser",
@@ -32,6 +32,13 @@
       "name": "Casey Schmitt",
       "position": "LF",
       "number": "10",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Christian Koss",
+      "position": "2B",
+      "number": "50",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -116,13 +123,6 @@
       "name": "Luis Arraez",
       "position": "2B",
       "number": "1",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Matt Chapman",
-      "position": "3B",
-      "number": "26",
       "status": "A",
       "source": "MLB Stats API"
     },

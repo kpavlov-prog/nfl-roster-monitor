@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=active",
-  "checkedAt": "2026-07-01T11:33:02.719317+00:00",
+  "checkedAt": "2026-07-02T10:51:06.829785+00:00",
   "players": [
     {
       "name": "Antonio Senzatela",
@@ -57,6 +57,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Gabriel Hughes",
+      "position": "P",
+      "number": "43",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Hunter Goodman",
       "position": "C",
       "number": "15",
@@ -74,13 +81,6 @@
       "name": "Jimmy Herget",
       "position": "P",
       "number": "44",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "John Brebbia",
-      "position": "P",
-      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },
