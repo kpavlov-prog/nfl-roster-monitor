@@ -3,7 +3,7 @@
   "team": "Seattle Kraken",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/SEA/current",
-  "checkedAt": "2026-07-01T11:37:59.398955+00:00",
+  "checkedAt": "2026-07-02T11:06:15.346002+00:00",
   "players": [
     {
       "name": "Adam Larsson",
@@ -55,30 +55,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Eeli Tolvanen",
-      "position": "R",
-      "number": "20",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Frederick Gaudreau",
       "position": "C",
       "number": "89",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Jaden Schwartz",
-      "position": "L",
-      "number": "17",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Jamie Oleksiak",
-      "position": "D",
-      "number": "24",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -121,13 +100,6 @@
       "name": "Mackie Samoskevich",
       "position": "R",
       "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Matt Murray",
-      "position": "G",
-      "number": "30",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

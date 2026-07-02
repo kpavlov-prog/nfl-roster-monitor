@@ -3,15 +3,8 @@
   "team": "Minnesota Wild",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/MIN/current",
-  "checkedAt": "2026-07-01T11:37:53.010342+00:00",
+  "checkedAt": "2026-07-02T11:06:09.444115+00:00",
   "players": [
-    {
-      "name": "Ben Jones",
-      "position": "C",
-      "number": "39",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
     {
       "name": "Bobby Brink",
       "position": "R",
@@ -23,13 +16,6 @@
       "name": "Brock Faber",
       "position": "D",
       "number": "7",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Cal Petersen",
-      "position": "G",
-      "number": "40",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -97,13 +83,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Jeff Petry",
-      "position": "D",
-      "number": "2",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Jesper Wallstedt",
       "position": "G",
       "number": "30",
@@ -139,20 +118,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Marcus Johansson",
-      "position": "L",
-      "number": "90",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Mats Zuccarello",
-      "position": "R",
-      "number": "36",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Matt Boldy",
       "position": "L",
       "number": "12",
@@ -174,23 +139,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Nick Foligno",
-      "position": "L",
-      "number": "71",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Nico Sturm",
       "position": "C",
       "number": "78",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Nicolas Aube-Kubel",
-      "position": "R",
-      "number": "16",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -209,13 +160,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Robby Fabbri",
-      "position": "C",
-      "number": "21",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Ryan Hartman",
       "position": "R",
       "number": "38",
@@ -230,23 +174,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Vladimir Tarasenko",
-      "position": "R",
-      "number": "91",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Yakov Trenin",
       "position": "C",
       "number": "13",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Zach Bogosian",
-      "position": "D",
-      "number": "24",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

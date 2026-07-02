@@ -3,7 +3,7 @@
   "team": "Vancouver Canucks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/VAN/current",
-  "checkedAt": "2026-07-01T11:38:04.246398+00:00",
+  "checkedAt": "2026-07-02T11:06:20.256229+00:00",
   "players": [
     {
       "name": "Aatu Räty",
@@ -27,20 +27,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Curtis Douglas",
-      "position": "C",
-      "number": "42",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Derek Forbort",
-      "position": "D",
-      "number": "27",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Drew O'Connor",
       "position": "L",
       "number": "18",
@@ -58,13 +44,6 @@
       "name": "Elias Pettersson",
       "position": "D",
       "number": "25",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Evander Kane",
-      "position": "L",
-      "number": "91",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -135,27 +114,6 @@
       "name": "Nikita Tolopilo",
       "position": "G",
       "number": "60",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Nils Aman",
-      "position": "C",
-      "number": "88",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Pierre-Olivier Joseph",
-      "position": "D",
-      "number": "7",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Teddy Blueger",
-      "position": "C",
-      "number": "53",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

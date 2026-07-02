@@ -3,7 +3,7 @@
   "team": "Detroit Red Wings",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/DET/current",
-  "checkedAt": "2026-07-01T11:37:49.933305+00:00",
+  "checkedAt": "2026-07-02T11:06:06.485559+00:00",
   "players": [
     {
       "name": "Albert Johansson",
@@ -34,20 +34,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Cam Talbot",
-      "position": "G",
-      "number": "39",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "David Perron",
-      "position": "L",
-      "number": "57",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Dylan Larkin",
       "position": "C",
       "number": "71",
@@ -72,13 +58,6 @@
       "name": "Jacob Bernard-Docker",
       "position": "D",
       "number": "25",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "James van Riemsdyk",
-      "position": "L",
-      "number": "21",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -132,23 +111,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Patrick Kane",
-      "position": "R",
-      "number": "88",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Simon Edvinsson",
       "position": "D",
       "number": "77",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Travis Hamonic",
-      "position": "D",
-      "number": "52",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

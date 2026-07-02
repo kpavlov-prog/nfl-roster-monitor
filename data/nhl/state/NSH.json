@@ -3,7 +3,7 @@
   "team": "Nashville Predators",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/NSH/current",
-  "checkedAt": "2026-07-01T11:37:54.498921+00:00",
+  "checkedAt": "2026-07-02T11:06:11.023839+00:00",
   "players": [
     {
       "name": "Adam Edstrom",
@@ -34,16 +34,16 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Erik Haula",
+      "name": "Filip Forsberg",
       "position": "L",
-      "number": "56",
+      "number": "9",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
     {
-      "name": "Filip Forsberg",
-      "position": "L",
-      "number": "9",
+      "name": "Ilya Lyubushkin",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -149,13 +149,6 @@
       "name": "Steven Stamkos",
       "position": "C",
       "number": "91",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Tyson Jost",
-      "position": "C",
-      "number": "17",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

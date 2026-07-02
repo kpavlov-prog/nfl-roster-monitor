@@ -3,15 +3,8 @@
   "team": "Pittsburgh Penguins",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/PIT/current",
-  "checkedAt": "2026-07-01T11:37:58.699297+00:00",
+  "checkedAt": "2026-07-02T11:06:14.491176+00:00",
   "players": [
-    {
-      "name": "Anthony Mantha",
-      "position": "R",
-      "number": "39",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
     {
       "name": "Arturs Silovs",
       "position": "G",
@@ -37,13 +30,6 @@
       "name": "Bryan Rust",
       "position": "R",
       "number": "17",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Connor Clifton",
-      "position": "D",
-      "number": "75",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -132,23 +118,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Kevin Hayes",
-      "position": "R",
-      "number": "13",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Kris Letang",
       "position": "D",
       "number": "58",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Noel Acciari",
-      "position": "C",
-      "number": "55",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -167,13 +139,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Ryan Shea",
-      "position": "D",
-      "number": "5",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Samuel Girard",
       "position": "D",
       "number": "49",
@@ -184,13 +149,6 @@
       "name": "Sidney Crosby",
       "position": "C",
       "number": "87",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Stuart Skinner",
-      "position": "G",
-      "number": "74",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

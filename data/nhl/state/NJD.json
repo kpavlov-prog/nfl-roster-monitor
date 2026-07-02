@@ -3,7 +3,7 @@
   "team": "New Jersey Devils",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/NJD/current",
-  "checkedAt": "2026-07-01T11:37:55.193403+00:00",
+  "checkedAt": "2026-07-02T11:06:11.589445+00:00",
   "players": [
     {
       "name": "Arseny Gritsyuk",
@@ -55,13 +55,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Dennis Cholowski",
-      "position": "D",
-      "number": "44",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Dougie Hamilton",
       "position": "D",
       "number": "7",
@@ -72,13 +65,6 @@
       "name": "Evan Rodrigues",
       "position": "C",
       "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Evgenii Dadonov",
-      "position": "L",
-      "number": "33",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -146,13 +132,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Paul Cotter",
-      "position": "L",
-      "number": "47",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Stefan Noesen",
       "position": "R",
       "number": "11",
@@ -163,13 +142,6 @@
       "name": "Timo Meier",
       "position": "R",
       "number": "28",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Zack MacEwen",
-      "position": "R",
-      "number": "15",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

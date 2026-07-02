@@ -3,7 +3,7 @@
   "team": "St. Louis Blues",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/STL/current",
-  "checkedAt": "2026-07-01T11:38:00.993901+00:00",
+  "checkedAt": "2026-07-02T11:06:16.995480+00:00",
   "players": [
     {
       "name": "Alexey Toropchenko",
@@ -83,13 +83,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Jonatan Berggren",
-      "position": "R",
-      "number": "29",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Jonathan Drouin",
       "position": "L",
       "number": "92",
@@ -100,13 +93,6 @@
       "name": "Jordan Binnington",
       "position": "G",
       "number": "50",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Justin Holl",
-      "position": "D",
-      "number": "4",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -125,23 +111,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Matthew Kessel",
-      "position": "D",
-      "number": "51",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Nathan Walker",
       "position": "L",
       "number": "26",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Oskar Sundqvist",
-      "position": "C",
-      "number": "70",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

@@ -3,22 +3,8 @@
   "team": "Dallas Stars",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/DAL/current",
-  "checkedAt": "2026-07-01T11:37:49.227271+00:00",
+  "checkedAt": "2026-07-02T11:06:05.666964+00:00",
   "players": [
-    {
-      "name": "Adam Erne",
-      "position": "L",
-      "number": "73",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Alexander Petrovic",
-      "position": "D",
-      "number": "28",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
     {
       "name": "Arttu Hyry",
       "position": "R",
@@ -48,23 +34,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Ilya Lyubushkin",
-      "position": "D",
-      "number": "46",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Jake Oettinger",
       "position": "G",
       "number": "29",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Jamie Benn",
-      "position": "L",
-      "number": "14",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -104,20 +76,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Mavrik Bourque",
-      "position": "C",
-      "number": "22",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Michael Bunting",
-      "position": "L",
-      "number": "58",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Mikko Rantanen",
       "position": "R",
       "number": "96",
@@ -128,13 +86,6 @@
       "name": "Miro Heiskanen",
       "position": "D",
       "number": "4",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Nathan Bastian",
-      "position": "R",
-      "number": "11",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

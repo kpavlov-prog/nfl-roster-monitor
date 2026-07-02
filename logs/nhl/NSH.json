@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-02T11:06:11.024634+00:00",
+    "teamCode": "NSH",
+    "teamName": "Nashville Predators",
+    "type": "added",
+    "playerName": "Ilya Lyubushkin",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-02T11:06:11.024646+00:00",
+    "teamCode": "NSH",
+    "teamName": "Nashville Predators",
+    "type": "removed",
+    "playerName": "Erik Haula",
+    "position": "L",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-02T11:06:11.024650+00:00",
+    "teamCode": "NSH",
+    "teamName": "Nashville Predators",
+    "type": "removed",
+    "playerName": "Tyson Jost",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-30T11:26:37.220175+00:00",
     "teamCode": "NSH",
     "teamName": "Nashville Predators",

@@ -3,7 +3,7 @@
   "team": "Winnipeg Jets",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/WPG/current",
-  "checkedAt": "2026-07-01T11:38:06.635932+00:00",
+  "checkedAt": "2026-07-02T11:06:22.765967+00:00",
   "players": [
     {
       "name": "Adam Lowry",
@@ -34,13 +34,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Colin Miller",
-      "position": "D",
-      "number": "6",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Connor Hellebuyck",
       "position": "G",
       "number": "37",
@@ -62,23 +55,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Eric Comrie",
-      "position": "G",
-      "number": "1",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Gabriel Vilardi",
       "position": "C",
       "number": "13",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Gustav Nyquist",
-      "position": "R",
-      "number": "14",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -97,23 +76,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Jacob Bryson",
-      "position": "D",
-      "number": "78",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "John St. Ivany",
       "position": "D",
       "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Jonathan Toews",
-      "position": "C",
-      "number": "19",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -163,13 +128,6 @@
       "name": "Nino Niederreiter",
       "position": "R",
       "number": "62",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Ville Heinola",
-      "position": "D",
-      "number": "34",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

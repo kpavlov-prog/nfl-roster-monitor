@@ -3,7 +3,7 @@
   "team": "Florida Panthers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/FLA/current",
-  "checkedAt": "2026-07-01T11:37:51.598598+00:00",
+  "checkedAt": "2026-07-02T11:06:08.021965+00:00",
   "players": [
     {
       "name": "Aaron Ekblad",
@@ -62,30 +62,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Cole Schwindt",
-      "position": "C",
-      "number": "79",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Daniil Tarasov",
-      "position": "G",
-      "number": "40",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Dmitry Kulikov",
       "position": "D",
       "number": "7",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Donovan Sebrango",
-      "position": "D",
-      "number": "6",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -125,13 +104,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Luke Kunin",
-      "position": "C",
-      "number": "71",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Matthew Tkachuk",
       "position": "L",
       "number": "19",
@@ -142,13 +114,6 @@
       "name": "Niko Mikkola",
       "position": "D",
       "number": "77",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Radko Gudas",
-      "position": "D",
-      "number": "7",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -167,13 +132,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Sergei Bobrovsky",
-      "position": "G",
-      "number": "72",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Seth Jones",
       "position": "D",
       "number": "3",
@@ -181,23 +139,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Tomas Nosek",
-      "position": "L",
-      "number": "92",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Uvis Balinskis",
       "position": "D",
       "number": "26",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Vinnie Hinostroza",
-      "position": "C",
-      "number": "24",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

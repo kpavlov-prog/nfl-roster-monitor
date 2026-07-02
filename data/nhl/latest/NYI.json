@@ -3,15 +3,8 @@
   "team": "New York Islanders",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/NYI/current",
-  "checkedAt": "2026-07-01T11:37:55.893237+00:00",
+  "checkedAt": "2026-07-02T11:06:12.156741+00:00",
   "players": [
-    {
-      "name": "Adam Boqvist",
-      "position": "D",
-      "number": "34",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
     {
       "name": "Adam Pelech",
       "position": "D",
@@ -23,13 +16,6 @@
       "name": "Alexander Romanov",
       "position": "D",
       "number": "28",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Anders Lee",
-      "position": "L",
-      "number": "27",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -55,23 +41,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Carson Soucy",
-      "position": "D",
-      "number": "4",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Casey Cizikas",
       "position": "C",
       "number": "53",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "David Rittich",
-      "position": "G",
-      "number": "33",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -111,13 +83,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Marc Gatcomb",
-      "position": "C",
-      "number": "16",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Mathew Barzal",
       "position": "C",
       "number": "13",
@@ -128,13 +93,6 @@
       "name": "Matthew Schaefer",
       "position": "D",
       "number": "48",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Max Shabanov",
-      "position": "R",
-      "number": "49",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
