@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-03T10:50:04.961874+00:00",
+    "teamCode": "TEX",
+    "teamName": "Texas Rangers",
+    "type": "added",
+    "playerName": "Ben Peoples",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-03T10:50:04.961890+00:00",
+    "teamCode": "TEX",
+    "teamName": "Texas Rangers",
+    "type": "removed",
+    "playerName": "Winston Santos",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-02T10:51:18.455180+00:00",
     "teamCode": "TEX",
     "teamName": "Texas Rangers",

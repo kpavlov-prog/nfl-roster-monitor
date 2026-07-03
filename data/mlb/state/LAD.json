@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-07-02T10:51:09.954084+00:00",
+  "checkedAt": "2026-07-03T10:49:57.364372+00:00",
   "players": [
     {
       "name": "Alex Call",
@@ -39,13 +39,6 @@
       "name": "Brock Stewart",
       "position": "P",
       "number": "41",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Charlie Barnes",
-      "position": "P",
-      "number": "57",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -141,6 +134,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Paul Gervase",
+      "position": "P",
+      "number": "65",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Roki Sasaki",
       "position": "P",
       "number": "11",
@@ -170,7 +170,7 @@
     },
     {
       "name": "Tommy Edman",
-      "position": "2B",
+      "position": "LF",
       "number": "25",
       "status": "A",
       "source": "MLB Stats API"

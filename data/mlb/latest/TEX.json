@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-07-02T10:51:18.454286+00:00",
+  "checkedAt": "2026-07-03T10:50:04.961063+00:00",
   "players": [
     {
       "name": "Alejandro Osuna",
       "position": "LF",
       "number": "19",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ben Peoples",
+      "position": "P",
+      "number": "70",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,13 +186,6 @@
       "name": "Tyler Alexander",
       "position": "P",
       "number": "13",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Winston Santos",
-      "position": "P",
-      "number": "47",
       "status": "A",
       "source": "MLB Stats API"
     }
