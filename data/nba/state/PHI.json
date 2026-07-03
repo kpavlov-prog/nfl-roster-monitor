@@ -3,7 +3,7 @@
   "team": "Philadelphia 76ers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/PHI/roster",
-  "checkedAt": "2026-07-02T11:21:06.209305+00:00",
+  "checkedAt": "2026-07-03T11:18:22.917095+00:00",
   "players": [
     {
       "name": "Adem Bona",
@@ -16,6 +16,13 @@
       "name": "Andre Drummond",
       "position": "C",
       "number": "1",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Anfernee Simons",
+      "position": "G",
+      "number": "22",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

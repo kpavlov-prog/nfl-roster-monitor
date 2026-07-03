@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-03T11:18:25.770422+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Raptors",
+    "type": "number changed",
+    "playerName": "Collin Murray-Boyles",
+    "position": "F",
+    "oldValue": "12",
+    "newValue": "30",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-03T11:18:25.770432+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Raptors",
+    "type": "added",
+    "playerName": "Kyle Anderson",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-07-02T11:21:09.247877+00:00",
     "teamCode": "TOR",
     "teamName": "Toronto Raptors",

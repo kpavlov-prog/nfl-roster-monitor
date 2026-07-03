@@ -3,7 +3,7 @@
   "team": "Phoenix Suns",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/PHX/roster",
-  "checkedAt": "2026-07-02T11:21:06.781146+00:00",
+  "checkedAt": "2026-07-03T11:18:23.503716+00:00",
   "players": [
     {
       "name": "Amir Coffey",
@@ -121,6 +121,13 @@
       "name": "Oso Ighodaro",
       "position": "F",
       "number": "11",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Pat Spencer",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
