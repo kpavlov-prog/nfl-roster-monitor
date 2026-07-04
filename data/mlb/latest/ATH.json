@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-07-03T10:50:00.611723+00:00",
+  "checkedAt": "2026-07-04T10:25:18.070299+00:00",
   "players": [
     {
       "name": "Aaron Civale",
@@ -53,13 +53,6 @@
       "name": "Gage Jump",
       "position": "P",
       "number": "61",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Geoff Hartlieb",
-      "position": "P",
-      "number": "31",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -158,6 +151,13 @@
       "name": "Luis Medina",
       "position": "P",
       "number": "46",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Mark Leiter Jr.",
+      "position": "P",
+      "number": "38",
       "status": "A",
       "source": "MLB Stats API"
     },

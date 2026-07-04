@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=active",
-  "checkedAt": "2026-07-03T10:49:51.470307+00:00",
+  "checkedAt": "2026-07-04T10:25:08.230246+00:00",
   "players": [
     {
       "name": "Adley Rutschman",
@@ -29,6 +29,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Anthony Nunez",
+      "position": "P",
+      "number": "66",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Blaze Alexander",
       "position": "3B",
       "number": "23",
@@ -46,13 +53,6 @@
       "name": "Cameron Weston",
       "position": "P",
       "number": "80",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Chadwick Tromp",
-      "position": "C",
-      "number": "41",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -106,6 +106,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jeremiah Jackson",
+      "position": "2B",
+      "number": "82",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Kyle Bradish",
       "position": "P",
       "number": "38",
@@ -130,13 +137,6 @@
       "name": "Rico Garcia",
       "position": "P",
       "number": "50",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Ryan Helsley",
-      "position": "P",
-      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     },

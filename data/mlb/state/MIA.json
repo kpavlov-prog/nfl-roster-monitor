@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-07-03T10:49:57.898449+00:00",
+  "checkedAt": "2026-07-04T10:25:15.174255+00:00",
   "players": [
     {
       "name": "Brian Navarreto",
@@ -148,13 +148,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Ryan Gusto",
-      "position": "P",
-      "number": "65",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Sandy Alcantara",
       "position": "P",
       "number": "22",
@@ -172,6 +165,13 @@
       "name": "Tyler Zuber",
       "position": "P",
       "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "William Kempner",
+      "position": "P",
+      "number": "71",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-04T10:25:21.549446+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "added",
+    "playerName": "Ryne Stanek",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-04T10:25:21.549454+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "removed",
+    "playerName": "Gordon Graceffo",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-01T11:33:11.973839+00:00",
     "teamCode": "STL",
     "teamName": "St. Louis Cardinals",

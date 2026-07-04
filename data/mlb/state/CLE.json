@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active",
-  "checkedAt": "2026-07-03T10:49:54.150302+00:00",
+  "checkedAt": "2026-07-04T10:25:11.117374+00:00",
   "players": [
     {
       "name": "Austin Hedges",
@@ -50,13 +50,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Daniel Espino",
-      "position": "P",
-      "number": "41",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Daniel Schneemann",
       "position": "CF",
       "number": "10",
@@ -74,6 +67,13 @@
       "name": "Erik Sabrowski",
       "position": "P",
       "number": "62",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Franco Aleman",
+      "position": "P",
+      "number": "55",
       "status": "A",
       "source": "MLB Stats API"
     },
