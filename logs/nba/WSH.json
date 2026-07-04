@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-04T10:44:01.538973+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Wizards",
+    "type": "added",
+    "playerName": "Deandre Ayton",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-04T10:44:01.538985+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Wizards",
+    "type": "removed",
+    "playerName": "Jaden Hardy",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-06-25T17:00:48.137645+00:00",
     "teamCode": "WSH",
     "teamName": "Washington Wizards",

@@ -3,7 +3,7 @@
   "team": "Charlotte Hornets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/CHA/roster",
-  "checkedAt": "2026-07-03T11:18:12.092497+00:00",
+  "checkedAt": "2026-07-04T10:43:46.613572+00:00",
   "players": [
     {
       "name": "Antonio Reeves",
@@ -30,6 +30,13 @@
       "name": "Coby White",
       "position": "G",
       "number": "3",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Dorian Finney-Smith",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

@@ -3,8 +3,15 @@
   "team": "New York Knicks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/NY/roster",
-  "checkedAt": "2026-07-03T11:18:21.152486+00:00",
+  "checkedAt": "2026-07-04T10:43:55.688088+00:00",
   "players": [
+    {
+      "name": "Andre Drummond",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
     {
       "name": "Dillon Jones",
       "position": "F",

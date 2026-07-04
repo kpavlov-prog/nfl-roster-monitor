@@ -3,19 +3,12 @@
   "team": "Philadelphia 76ers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/PHI/roster",
-  "checkedAt": "2026-07-03T11:18:22.917095+00:00",
+  "checkedAt": "2026-07-04T10:43:57.426384+00:00",
   "players": [
     {
       "name": "Adem Bona",
       "position": "C",
       "number": "30",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Andre Drummond",
-      "position": "C",
-      "number": "1",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -107,6 +100,13 @@
       "name": "MarJon Beauchamp",
       "position": "F",
       "number": "16",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Rayan Rupert",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
