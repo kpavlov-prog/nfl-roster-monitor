@@ -3,7 +3,7 @@
   "team": "Milwaukee Bucks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIL/roster",
-  "checkedAt": "2026-07-04T10:43:54.018071+00:00",
+  "checkedAt": "2026-07-05T10:53:45.049066+00:00",
   "players": [
     {
       "name": "AJ Green",
@@ -65,6 +65,13 @@
       "name": "Jericho Sims",
       "position": "C",
       "number": "00",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Kam Jones",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

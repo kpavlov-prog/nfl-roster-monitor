@@ -3,7 +3,7 @@
   "team": "Utah Jazz",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/UTAH/roster",
-  "checkedAt": "2026-07-04T10:44:00.953431+00:00",
+  "checkedAt": "2026-07-05T10:53:53.193187+00:00",
   "players": [
     {
       "name": "Ace Bailey",
@@ -149,6 +149,13 @@
       "name": "Svi Mykhailiuk",
       "position": "G",
       "number": "10",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Trey Alexander",
+      "position": "G",
+      "number": "23",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }
