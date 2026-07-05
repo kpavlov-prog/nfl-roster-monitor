@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-05T10:27:54.870729+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "added",
+    "playerName": "Hunter Stratton",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-05T10:27:54.870739+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "position changed",
+    "playerName": "Jake Mangum",
+    "position": "CF",
+    "oldValue": "LF",
+    "newValue": "CF",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-05T10:27:54.870747+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "removed",
+    "playerName": "Evan Sisk",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-02T10:51:14.876441+00:00",
     "teamCode": "PIT",
     "teamName": "Pittsburgh Pirates",

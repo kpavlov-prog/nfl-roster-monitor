@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-05T10:27:53.639867+00:00",
+    "teamCode": "ATH",
+    "teamName": "Athletics",
+    "type": "added",
+    "playerName": "Brian Serven",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-05T10:27:53.639882+00:00",
+    "teamCode": "ATH",
+    "teamName": "Athletics",
+    "type": "added",
+    "playerName": "Zack Gelof",
+    "position": "3B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-05T10:27:53.639886+00:00",
+    "teamCode": "ATH",
+    "teamName": "Athletics",
+    "type": "removed",
+    "playerName": "Darell Hernaiz",
+    "position": "SS",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-05T10:27:53.639889+00:00",
+    "teamCode": "ATH",
+    "teamName": "Athletics",
+    "type": "removed",
+    "playerName": "Joey Meneses",
+    "position": "1B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-04T10:25:18.071463+00:00",
     "teamCode": "ATH",
     "teamName": "Athletics",

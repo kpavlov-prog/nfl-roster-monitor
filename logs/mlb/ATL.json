@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-07-05T10:27:42.611319+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Braves",
+    "type": "added",
+    "playerName": "JR Ritchie",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-05T10:27:42.611329+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Braves",
+    "type": "added",
+    "playerName": "Kyle Farmer",
+    "position": "DH",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-05T10:27:42.611334+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Braves",
+    "type": "position changed",
+    "playerName": "Mauricio Dubón",
+    "position": "LF",
+    "oldValue": "SS",
+    "newValue": "LF",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-05T10:27:42.611339+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Braves",
+    "type": "removed",
+    "playerName": "Anthony Molina",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-05T10:27:42.611343+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Braves",
+    "type": "removed",
+    "playerName": "Ha-Seong Kim",
+    "position": "SS",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-04T10:25:07.653068+00:00",
     "teamCode": "ATL",
     "teamName": "Atlanta Braves",

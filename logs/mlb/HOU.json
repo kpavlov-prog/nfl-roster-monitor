@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-05T10:27:48.139158+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Astros",
+    "type": "added",
+    "playerName": "LaMonte Wade Jr.",
+    "position": "1B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-05T10:27:48.139170+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Astros",
+    "type": "added",
+    "playerName": "Zach Dezenzo",
+    "position": "LF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-05T10:27:48.139174+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Astros",
+    "type": "removed",
+    "playerName": "Jake Meyers",
+    "position": "CF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-05T10:27:48.139177+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Astros",
+    "type": "removed",
+    "playerName": "Joey Loperfido",
+    "position": "LF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-04T10:25:12.855893+00:00",
     "teamCode": "HOU",
     "teamName": "Houston Astros",

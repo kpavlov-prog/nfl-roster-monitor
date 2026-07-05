@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-07-04T10:25:14.583692+00:00",
+  "checkedAt": "2026-07-05T10:27:49.964592+00:00",
   "players": [
     {
       "name": "Alex Call",
@@ -43,13 +43,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Chuckie Robinson",
-      "position": "C",
-      "number": "52",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Dalton Rushing",
       "position": "C",
       "number": "68",
@@ -60,6 +53,13 @@
       "name": "Edgardo Henriquez",
       "position": "P",
       "number": "60",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Eliezer Alfonzo",
+      "position": "C",
+      "number": "64",
       "status": "A",
       "source": "MLB Stats API"
     },

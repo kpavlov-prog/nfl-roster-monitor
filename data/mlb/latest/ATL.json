@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-07-04T10:25:07.651955+00:00",
+  "checkedAt": "2026-07-05T10:27:42.610061+00:00",
   "players": [
-    {
-      "name": "Anthony Molina",
-      "position": "P",
-      "number": "61",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Austin Riley",
       "position": "3B",
@@ -92,16 +85,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Ha-Seong Kim",
-      "position": "SS",
-      "number": "7",
+      "name": "Hurston Waldrep",
+      "position": "P",
+      "number": "64",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Hurston Waldrep",
+      "name": "JR Ritchie",
       "position": "P",
-      "number": "64",
+      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -127,6 +120,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Kyle Farmer",
+      "position": "DH",
+      "number": "15",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Martín Pérez",
       "position": "P",
       "number": "33",
@@ -142,7 +142,7 @@
     },
     {
       "name": "Mauricio Dubón",
-      "position": "SS",
+      "position": "LF",
       "number": "14",
       "status": "A",
       "source": "MLB Stats API"

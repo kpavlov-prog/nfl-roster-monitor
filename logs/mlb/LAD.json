@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-05T10:27:49.965784+00:00",
+    "teamCode": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "type": "added",
+    "playerName": "Eliezer Alfonzo",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-05T10:27:49.965797+00:00",
+    "teamCode": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "type": "removed",
+    "playerName": "Chuckie Robinson",
+    "position": "C",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-03T10:49:57.365146+00:00",
     "teamCode": "LAD",
     "teamName": "Los Angeles Dodgers",

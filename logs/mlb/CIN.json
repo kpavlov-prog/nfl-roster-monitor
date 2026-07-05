@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-05T10:27:45.695042+00:00",
+    "teamCode": "CIN",
+    "teamName": "Cincinnati Reds",
+    "type": "added",
+    "playerName": "Hunter Greene",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-05T10:27:45.695055+00:00",
+    "teamCode": "CIN",
+    "teamName": "Cincinnati Reds",
+    "type": "removed",
+    "playerName": "Chase Petty",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-01T11:33:01.636930+00:00",
     "teamCode": "CIN",
     "teamName": "Cincinnati Reds",

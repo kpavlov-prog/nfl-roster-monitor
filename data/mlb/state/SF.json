@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-07-04T10:25:20.395472+00:00",
+  "checkedAt": "2026-07-05T10:27:56.079835+00:00",
   "players": [
     {
       "name": "Adrian Houser",
@@ -127,13 +127,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Matt Gage",
-      "position": "P",
-      "number": "93",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Rafael Devers",
       "position": "1B",
       "number": "16",
@@ -158,6 +151,13 @@
       "name": "Sam Hentges",
       "position": "P",
       "number": "31",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Spencer Bivens",
+      "position": "P",
+      "number": "76",
       "status": "A",
       "source": "MLB Stats API"
     },

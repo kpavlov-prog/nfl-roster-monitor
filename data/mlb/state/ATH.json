@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-07-04T10:25:18.070299+00:00",
+  "checkedAt": "2026-07-05T10:27:53.638645+00:00",
   "players": [
     {
       "name": "Aaron Civale",
@@ -22,6 +22,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Brian Serven",
+      "position": "C",
+      "number": "10",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Carlos Cortes",
       "position": "RF",
       "number": "26",
@@ -32,13 +39,6 @@
       "name": "Colby Thomas",
       "position": "RF",
       "number": "32",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Darell Hernaiz",
-      "position": "SS",
-      "number": "2",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -95,13 +95,6 @@
       "name": "Jeffrey Springs",
       "position": "P",
       "number": "59",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Joey Meneses",
-      "position": "1B",
-      "number": "13",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -186,6 +179,13 @@
       "name": "Shea Langeliers",
       "position": "C",
       "number": "23",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Zack Gelof",
+      "position": "3B",
+      "number": "20",
       "status": "A",
       "source": "MLB Stats API"
     }
