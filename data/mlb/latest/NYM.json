@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-07-05T10:27:52.424049+00:00",
+  "checkedAt": "2026-07-06T12:15:22.016761+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -106,6 +106,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Guillo Zuñiga",
+      "position": "P",
+      "number": "46",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Huascar Brazobán",
       "position": "P",
       "number": "43",
@@ -116,13 +123,6 @@
       "name": "Jared Young",
       "position": "1B",
       "number": "29",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Joey Gerber",
-      "position": "P",
-      "number": "56",
       "status": "A",
       "source": "MLB Stats API"
     },

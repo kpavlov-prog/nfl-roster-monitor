@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-06T12:15:20.947229+00:00",
+    "teamCode": "MIL",
+    "teamName": "Milwaukee Brewers",
+    "type": "added",
+    "playerName": "Drew Rom",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-06T12:15:20.947241+00:00",
+    "teamCode": "MIL",
+    "teamName": "Milwaukee Brewers",
+    "type": "removed",
+    "playerName": "Brandon Woodruff",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-05T10:27:51.215735+00:00",
     "teamCode": "MIL",
     "teamName": "Milwaukee Brewers",
