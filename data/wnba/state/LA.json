@@ -3,8 +3,15 @@
   "team": "Los Angeles Sparks",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/LA/roster",
-  "checkedAt": "2026-07-05T11:05:22.239110+00:00",
+  "checkedAt": "2026-07-06T12:50:04.326136+00:00",
   "players": [
+    {
+      "name": "Alissa Pili",
+      "position": "F",
+      "number": "24",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
     {
       "name": "Ariel Atkins",
       "position": "G",
@@ -72,13 +79,6 @@
       "name": "Kiana Williams",
       "position": "G",
       "number": "23",
-      "status": "ACTIVE",
-      "source": "ESPN WNBA API"
-    },
-    {
-      "name": "Laura Ziegler",
-      "position": "F",
-      "number": "4",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },
