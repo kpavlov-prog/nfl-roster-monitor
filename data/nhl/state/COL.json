@@ -3,7 +3,7 @@
   "team": "Colorado Avalanche",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/COL/current",
-  "checkedAt": "2026-07-06T12:23:03.975982+00:00",
+  "checkedAt": "2026-07-07T11:23:59.199205+00:00",
   "players": [
     {
       "name": "Artturi Lehkonen",
@@ -62,6 +62,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Jaden Schwartz",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Josh Manson",
       "position": "D",
       "number": "42",
@@ -111,6 +118,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Noah Juulsen",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Parker Kelly",
       "position": "C",
       "number": "17",
@@ -128,6 +142,13 @@
       "name": "Scott Wedgewood",
       "position": "G",
       "number": "41",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Vinnie Hinostroza",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

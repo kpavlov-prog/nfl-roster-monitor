@@ -3,7 +3,7 @@
   "team": "Boston Bruins",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/BOS/current",
-  "checkedAt": "2026-07-06T12:23:00.422062+00:00",
+  "checkedAt": "2026-07-07T11:23:55.749144+00:00",
   "players": [
     {
       "name": "Alex Steeves",
@@ -23,6 +23,13 @@
       "name": "Charlie McAvoy",
       "position": "D",
       "number": "73",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Connor Clifton",
+      "position": "D",
+      "number": "75",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -90,9 +97,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Joonas Korpisalo",
-      "position": "G",
-      "number": "70",
+      "name": "Jordan Harris",
+      "position": "D",
+      "number": "43",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -156,6 +163,13 @@
       "name": "Tanner Jeannot",
       "position": "L",
       "number": "84",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Will Borgen",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

@@ -3,7 +3,7 @@
   "team": "Vancouver Canucks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/VAN/current",
-  "checkedAt": "2026-07-06T12:23:19.577496+00:00",
+  "checkedAt": "2026-07-07T11:24:17.177299+00:00",
   "players": [
     {
       "name": "Aatu Räty",
@@ -69,6 +69,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Jamie Oleksiak",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Kevin Lankinen",
       "position": "G",
       "number": "32",
@@ -90,16 +97,16 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Marco Rossi",
-      "position": "C",
-      "number": "93",
+      "name": "Luke Schenn",
+      "position": "D",
+      "number": "2",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
     {
-      "name": "Marcus Pettersson",
-      "position": "D",
-      "number": "29",
+      "name": "Marco Rossi",
+      "position": "C",
+      "number": "93",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -114,6 +121,13 @@
       "name": "Nikita Tolopilo",
       "position": "G",
       "number": "60",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Paul Cotter",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

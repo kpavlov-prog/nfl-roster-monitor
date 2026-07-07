@@ -3,7 +3,7 @@
   "team": "Ottawa Senators",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/OTT/current",
-  "checkedAt": "2026-07-06T12:23:13.133892+00:00",
+  "checkedAt": "2026-07-07T11:24:09.780615+00:00",
   "players": [
     {
       "name": "Andre Burakovsky",
@@ -128,6 +128,13 @@
       "name": "Ridly Greig",
       "position": "C",
       "number": "71",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Samuel Ersson",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

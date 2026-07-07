@@ -3,7 +3,7 @@
   "team": "Toronto Maple Leafs",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/TOR/current",
-  "checkedAt": "2026-07-06T12:23:18.123293+00:00",
+  "checkedAt": "2026-07-07T11:24:15.529001+00:00",
   "players": [
     {
       "name": "Anthony Stolarz",
@@ -27,9 +27,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Brandon Duhaime",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Chris Tanev",
       "position": "D",
       "number": "8",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Colton Sissons",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -50,6 +64,13 @@
     {
       "name": "Emil Andrae",
       "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jack Roslovic",
+      "position": "C",
       "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
@@ -97,6 +118,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Nick Paul",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Oliver Ekman-Larsson",
       "position": "D",
       "number": "95",
@@ -111,9 +139,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Sergei Bobrovsky",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Steven Lorentz",
       "position": "C",
       "number": "18",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Teddy Blueger",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -128,6 +170,13 @@
       "name": "William Nylander",
       "position": "R",
       "number": "88",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Zack MacEwen",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

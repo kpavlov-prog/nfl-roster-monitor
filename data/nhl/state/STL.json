@@ -3,7 +3,7 @@
   "team": "St. Louis Blues",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/STL/current",
-  "checkedAt": "2026-07-06T12:23:16.693544+00:00",
+  "checkedAt": "2026-07-07T11:24:13.918058+00:00",
   "players": [
     {
       "name": "Alexey Toropchenko",
@@ -83,9 +83,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Jonathan Drouin",
-      "position": "L",
-      "number": "92",
+      "name": "Jonatan Berggren",
+      "position": "R",
+      "number": "29",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -142,6 +142,13 @@
       "name": "Robert Thomas",
       "position": "C",
       "number": "18",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ross Johnston",
+      "position": "L",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

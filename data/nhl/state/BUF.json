@@ -3,7 +3,7 @@
   "team": "Buffalo Sabres",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/BUF/current",
-  "checkedAt": "2026-07-06T12:23:01.116268+00:00",
+  "checkedAt": "2026-07-07T11:23:56.467270+00:00",
   "players": [
     {
       "name": "Alex Lyon",
@@ -27,6 +27,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Conor Sheary",
+      "position": "L",
+      "number": "43",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Conor Timmins",
       "position": "D",
       "number": "21",
@@ -34,9 +41,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Devon Levi",
-      "position": "G",
-      "number": "27",
+      "name": "Dennis Gilbert",
+      "position": "D",
+      "number": "8",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -92,6 +99,13 @@
     {
       "name": "Louis Crevier",
       "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Matt Villalta",
+      "position": "G",
       "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"

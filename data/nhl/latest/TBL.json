@@ -3,7 +3,7 @@
   "team": "Tampa Bay Lightning",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/TBL/current",
-  "checkedAt": "2026-07-06T12:23:17.417712+00:00",
+  "checkedAt": "2026-07-07T11:24:14.723049+00:00",
   "players": [
     {
       "name": "Andrei Vasilevskiy",
@@ -76,6 +76,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Ilya Mikheyev",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "J.J. Moser",
       "position": "D",
       "number": "90",
@@ -90,6 +97,27 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Jansen Harkins",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jeffrey Viel",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "John Carlson",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Jonas Johansson",
       "position": "G",
       "number": "31",
@@ -100,13 +128,6 @@
       "name": "Max Crozier",
       "position": "D",
       "number": "24",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Nick Paul",
-      "position": "L",
-      "number": "20",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

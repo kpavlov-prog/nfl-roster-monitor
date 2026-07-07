@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-07-07T11:24:14.724151+00:00",
+    "teamCode": "TBL",
+    "teamName": "Tampa Bay Lightning",
+    "type": "added",
+    "playerName": "Ilya Mikheyev",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:24:14.724159+00:00",
+    "teamCode": "TBL",
+    "teamName": "Tampa Bay Lightning",
+    "type": "added",
+    "playerName": "Jansen Harkins",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:24:14.724163+00:00",
+    "teamCode": "TBL",
+    "teamName": "Tampa Bay Lightning",
+    "type": "added",
+    "playerName": "Jeffrey Viel",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:24:14.724165+00:00",
+    "teamCode": "TBL",
+    "teamName": "Tampa Bay Lightning",
+    "type": "added",
+    "playerName": "John Carlson",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:24:14.724171+00:00",
+    "teamCode": "TBL",
+    "teamName": "Tampa Bay Lightning",
+    "type": "removed",
+    "playerName": "Nick Paul",
+    "position": "L",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-02T11:06:17.838423+00:00",
     "teamCode": "TBL",
     "teamName": "Tampa Bay Lightning",

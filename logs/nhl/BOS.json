@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-07T11:23:55.750202+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Bruins",
+    "type": "added",
+    "playerName": "Connor Clifton",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:23:55.750212+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Bruins",
+    "type": "added",
+    "playerName": "Jordan Harris",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:23:55.750218+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Bruins",
+    "type": "added",
+    "playerName": "Will Borgen",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:23:55.750223+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Bruins",
+    "type": "removed",
+    "playerName": "Joonas Korpisalo",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-02T11:06:00.044022+00:00",
     "teamCode": "BOS",
     "teamName": "Boston Bruins",

@@ -3,8 +3,22 @@
   "team": "Utah Mammoth",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/UTA/current",
-  "checkedAt": "2026-07-06T12:23:18.844637+00:00",
+  "checkedAt": "2026-07-07T11:24:16.336273+00:00",
   "players": [
+    {
+      "name": "Anders Lee",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Andrew Peeke",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
     {
       "name": "Barrett Hayton",
       "position": "C",
@@ -97,6 +111,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Kevin Stenlund",
+      "position": "C",
+      "number": "82",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Lawson Crouse",
       "position": "L",
       "number": "67",
@@ -167,9 +188,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Sean Durzi",
-      "position": "D",
-      "number": "50",
+      "name": "Vincent Trocheck",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

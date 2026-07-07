@@ -3,7 +3,7 @@
   "team": "Edmonton Oilers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/EDM/current",
-  "checkedAt": "2026-07-06T12:23:06.919709+00:00",
+  "checkedAt": "2026-07-07T11:24:02.391191+00:00",
   "players": [
     {
       "name": "Colton Dach",
@@ -27,9 +27,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Darnell Nurse",
-      "position": "D",
-      "number": "25",
+      "name": "Devon Levi",
+      "position": "G",
+      "number": "27",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -37,6 +37,13 @@
       "name": "Evan Bouchard",
       "position": "D",
       "number": "2",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Frederik Andersen",
+      "position": "G",
+      "number": "30",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -62,9 +69,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Kasperi Kapanen",
+      "position": "R",
+      "number": "42",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Leon Draisaitl",
       "position": "C",
       "number": "29",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Mathieu Joseph",
+      "position": "R",
+      "number": "21",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -90,6 +111,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Max Jones",
+      "position": "L",
+      "number": "46",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Ryan Nugent-Hopkins",
       "position": "C",
       "number": "93",
@@ -97,9 +125,16 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Spencer Stastney",
+      "name": "Ryan Shea",
       "position": "D",
-      "number": "24",
+      "number": "6",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Shakir Mukhamadullin",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

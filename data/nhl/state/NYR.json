@@ -3,7 +3,7 @@
   "team": "New York Rangers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/NYR/current",
-  "checkedAt": "2026-07-06T12:23:12.431106+00:00",
+  "checkedAt": "2026-07-07T11:24:08.961743+00:00",
   "players": [
     {
       "name": "Adam Fox",
@@ -30,6 +30,13 @@
       "name": "Braden Schneider",
       "position": "D",
       "number": "4",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Dennis Cholowski",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -76,6 +83,27 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Joe Veleno",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Joonas Korpisalo",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Marcus Pettersson",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Matt Rempe",
       "position": "C",
       "number": "73",
@@ -104,8 +132,22 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Oliver Bjorkstrand",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Pavel Dorofeyev",
       "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Sean Durzi",
+      "position": "D",
       "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
@@ -139,23 +181,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Vincent Trocheck",
-      "position": "C",
-      "number": "16",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Vladislav Gavrikov",
       "position": "D",
       "number": "44",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Will Borgen",
-      "position": "D",
-      "number": "17",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

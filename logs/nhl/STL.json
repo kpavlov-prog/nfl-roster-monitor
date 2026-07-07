@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-07T11:24:13.919184+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Blues",
+    "type": "added",
+    "playerName": "Jonatan Berggren",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:24:13.919195+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Blues",
+    "type": "added",
+    "playerName": "Ross Johnston",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:24:13.919199+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Blues",
+    "type": "removed",
+    "playerName": "Jonathan Drouin",
+    "position": "L",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-02T11:06:16.996532+00:00",
     "teamCode": "STL",
     "teamName": "St. Louis Blues",

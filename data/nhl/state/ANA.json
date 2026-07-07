@@ -3,7 +3,7 @@
   "team": "Anaheim Ducks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/ANA/current",
-  "checkedAt": "2026-07-06T12:22:59.701246+00:00",
+  "checkedAt": "2026-07-07T11:23:55.034557+00:00",
   "players": [
     {
       "name": "A.J. Greer",
@@ -76,6 +76,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Jeff Malott",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Leo Carlsson",
       "position": "C",
       "number": "91",
@@ -100,6 +107,13 @@
       "name": "Nathan Gaucher",
       "position": "C",
       "number": "41",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Nick Jensen",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

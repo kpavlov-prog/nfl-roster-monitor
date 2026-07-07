@@ -3,7 +3,7 @@
   "team": "Calgary Flames",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/CGY/current",
-  "checkedAt": "2026-07-06T12:23:01.829307+00:00",
+  "checkedAt": "2026-07-07T11:23:57.190051+00:00",
   "players": [
     {
       "name": "Abram Wiebe",
@@ -27,9 +27,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Blake Coleman",
-      "position": "L",
-      "number": "20",
+      "name": "Ben Jones",
+      "position": "C",
+      "number": "64",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -65,6 +65,13 @@
       "name": "Hunter Brzustewicz",
       "position": "D",
       "number": "48",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jake Middleton",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -135,13 +142,6 @@
       "name": "Morgan Frost",
       "position": "C",
       "number": "16",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Olli Maatta",
-      "position": "D",
-      "number": "3",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-07-07T11:24:04.765444+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "added",
+    "playerName": "Blake Coleman",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:24:04.765456+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "added",
+    "playerName": "Maksim Shabanov",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:24:04.765460+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "added",
+    "playerName": "Nick Foligno",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:24:04.765463+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "added",
+    "playerName": "Olli Maatta",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:24:04.765467+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "added",
+    "playerName": "Zach Bogosian",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:24:04.765470+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "removed",
+    "playerName": "Jake Middleton",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-02T11:06:09.444849+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Wild",

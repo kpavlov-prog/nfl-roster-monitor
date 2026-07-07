@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-07T11:23:56.468451+00:00",
+    "teamCode": "BUF",
+    "teamName": "Buffalo Sabres",
+    "type": "added",
+    "playerName": "Conor Sheary",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:23:56.468460+00:00",
+    "teamCode": "BUF",
+    "teamName": "Buffalo Sabres",
+    "type": "added",
+    "playerName": "Dennis Gilbert",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:23:56.468466+00:00",
+    "teamCode": "BUF",
+    "teamName": "Buffalo Sabres",
+    "type": "added",
+    "playerName": "Matt Villalta",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:23:56.468474+00:00",
+    "teamCode": "BUF",
+    "teamName": "Buffalo Sabres",
+    "type": "removed",
+    "playerName": "Devon Levi",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-02T11:06:00.915848+00:00",
     "teamCode": "BUF",
     "teamName": "Buffalo Sabres",

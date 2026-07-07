@@ -3,8 +3,15 @@
   "team": "Minnesota Wild",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/MIN/current",
-  "checkedAt": "2026-07-06T12:23:08.927690+00:00",
+  "checkedAt": "2026-07-07T11:24:04.764349+00:00",
   "players": [
+    {
+      "name": "Blake Coleman",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
     {
       "name": "Bobby Brink",
       "position": "R",
@@ -69,13 +76,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Jake Middleton",
-      "position": "D",
-      "number": "5",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Jared Spurgeon",
       "position": "D",
       "number": "46",
@@ -111,6 +111,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Maksim Shabanov",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Marcus Foligno",
       "position": "L",
       "number": "17",
@@ -139,9 +146,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Nick Foligno",
+      "position": "L",
+      "number": "71",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Nico Sturm",
       "position": "C",
       "number": "78",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Olli Maatta",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -177,6 +198,13 @@
       "name": "Yakov Trenin",
       "position": "C",
       "number": "13",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Zach Bogosian",
+      "position": "D",
+      "number": "24",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

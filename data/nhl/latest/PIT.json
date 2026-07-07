@@ -3,8 +3,15 @@
   "team": "Pittsburgh Penguins",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/PIT/current",
-  "checkedAt": "2026-07-06T12:23:14.571362+00:00",
+  "checkedAt": "2026-07-07T11:24:11.426265+00:00",
   "players": [
+    {
+      "name": "Andrei Kuzmenko",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
     {
       "name": "Arturs Silovs",
       "position": "G",
@@ -43,6 +50,13 @@
     {
       "name": "David Gustafsson",
       "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Declan Carlile",
+      "position": "D",
       "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
@@ -125,6 +139,20 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Nicholas Robertson",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Oliver Okuliar",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Rickard Rakell",
       "position": "R",
       "number": "67",
@@ -156,6 +184,13 @@
       "name": "Tommy Novak",
       "position": "C",
       "number": "18",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Trevor van Riemsdyk",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

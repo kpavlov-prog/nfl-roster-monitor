@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-07T11:23:57.191152+00:00",
+    "teamCode": "CGY",
+    "teamName": "Calgary Flames",
+    "type": "added",
+    "playerName": "Ben Jones",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:23:57.191162+00:00",
+    "teamCode": "CGY",
+    "teamName": "Calgary Flames",
+    "type": "added",
+    "playerName": "Jake Middleton",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:23:57.191171+00:00",
+    "teamCode": "CGY",
+    "teamName": "Calgary Flames",
+    "type": "removed",
+    "playerName": "Blake Coleman",
+    "position": "L",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-07T11:23:57.191175+00:00",
+    "teamCode": "CGY",
+    "teamName": "Calgary Flames",
+    "type": "removed",
+    "playerName": "Olli Maatta",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-02T11:06:01.751686+00:00",
     "teamCode": "CGY",
     "teamName": "Calgary Flames",
