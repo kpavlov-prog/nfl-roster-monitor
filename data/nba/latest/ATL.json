@@ -3,8 +3,15 @@
   "team": "Atlanta Hawks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/ATL/roster",
-  "checkedAt": "2026-07-06T12:28:47.244139+00:00",
+  "checkedAt": "2026-07-07T11:32:01.120136+00:00",
   "players": [
+    {
+      "name": "Aaron Wiggins",
+      "position": "G",
+      "number": "21",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
     {
       "name": "Asa Newell",
       "position": "F",
