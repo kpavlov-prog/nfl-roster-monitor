@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-07T11:19:11.057569+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "added",
+    "playerName": "George Springer",
+    "position": "DH",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:19:11.057586+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "removed",
+    "playerName": "Braydon Fisher",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-02T10:51:19.093060+00:00",
     "teamCode": "TOR",
     "teamName": "Toronto Blue Jays",

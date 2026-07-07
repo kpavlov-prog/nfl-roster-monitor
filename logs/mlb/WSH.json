@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-07T11:19:11.590776+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Nationals",
+    "type": "added",
+    "playerName": "Cole Henry",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:19:11.590790+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Nationals",
+    "type": "removed",
+    "playerName": "Cade Cavalli",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-07T11:19:11.590794+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Nationals",
+    "type": "removed",
+    "playerName": "Eddy Yean",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-06T12:15:28.428765+00:00",
     "teamCode": "WSH",
     "teamName": "Washington Nationals",

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-07-06T12:15:13.454310+00:00",
+  "checkedAt": "2026-07-07T11:18:56.645129+00:00",
   "players": [
     {
       "name": "Austin Riley",
@@ -18,13 +18,6 @@
       "name": "Bryce Elder",
       "position": "P",
       "number": "55",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Carlos Carrasco",
-      "position": "P",
-      "number": "59",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -78,13 +71,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Eli White",
-      "position": "RF",
-      "number": "36",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Grant Holmes",
       "position": "P",
       "number": "66",
@@ -95,6 +81,13 @@
       "name": "Hurston Waldrep",
       "position": "P",
       "number": "64",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "JR Ritchie",
+      "position": "P",
+      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -120,16 +113,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Kyle Farmer",
-      "position": "DH",
-      "number": "15",
+      "name": "José Azócar",
+      "position": "RF",
+      "number": "38",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Martín Pérez",
-      "position": "P",
-      "number": "33",
+      "name": "Kyle Farmer",
+      "position": "DH",
+      "number": "15",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -158,6 +151,13 @@
       "name": "Mike Yastrzemski",
       "position": "LF",
       "number": "18",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Owen Murphy",
+      "position": "P",
+      "number": "73",
       "status": "A",
       "source": "MLB Stats API"
     },

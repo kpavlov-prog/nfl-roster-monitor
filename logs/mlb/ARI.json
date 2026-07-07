@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-07T11:18:56.109702+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "added",
+    "playerName": "James McCann",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T11:18:56.109717+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "removed",
+    "playerName": "Adrian Del Castillo",
+    "position": "DH",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-06T12:15:12.921327+00:00",
     "teamCode": "ARI",
     "teamName": "Arizona Diamondbacks",

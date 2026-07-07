@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-07-06T12:15:27.894252+00:00",
+  "checkedAt": "2026-07-07T11:19:11.056365+00:00",
   "players": [
     {
       "name": "Adam Macko",
@@ -36,13 +36,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Braydon Fisher",
-      "position": "P",
-      "number": "63",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Daulton Varsho",
       "position": "CF",
       "number": "5",
@@ -60,6 +53,13 @@
       "name": "Ernie Clement",
       "position": "2B",
       "number": "22",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "George Springer",
+      "position": "DH",
+      "number": "4",
       "status": "A",
       "source": "MLB Stats API"
     },

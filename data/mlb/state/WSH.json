@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-07-06T12:15:28.427950+00:00",
+  "checkedAt": "2026-07-07T11:19:11.589948+00:00",
   "players": [
     {
       "name": "Andrew Alvarez",
@@ -36,13 +36,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Cade Cavalli",
-      "position": "P",
-      "number": "24",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Carson Palmquist",
       "position": "P",
       "number": "51",
@@ -53,6 +46,13 @@
       "name": "Clayton Beeter",
       "position": "P",
       "number": "39",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cole Henry",
+      "position": "P",
+      "number": "99",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -81,13 +81,6 @@
       "name": "Dylan Crews",
       "position": "RF",
       "number": "3",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Eddy Yean",
-      "position": "P",
-      "number": "46",
       "status": "A",
       "source": "MLB Stats API"
     },
