@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2026-07-07T10:48:06.165511+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Texans",
+    "type": "number changed",
+    "playerName": "Derrick Graham",
+    "position": "OT",
+    "oldValue": "76",
+    "newValue": "73",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-07T10:48:06.165541+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Texans",
+    "type": "removed",
+    "playerName": "Ajani Carter",
+    "position": "DB",
+    "oldValue": "RES",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-07-07T10:48:06.165552+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Texans",
+    "type": "removed",
+    "playerName": "Xavier Thomas",
+    "position": "LB",
+    "oldValue": "RES",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "high"
+  }
+]
