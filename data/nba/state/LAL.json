@@ -3,7 +3,7 @@
   "team": "Los Angeles Lakers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/LAL/roster",
-  "checkedAt": "2026-07-07T11:32:10.388243+00:00",
+  "checkedAt": "2026-07-08T10:50:17.548394+00:00",
   "players": [
     {
       "name": "AK Okereke",
@@ -86,6 +86,13 @@
       "name": "Jarred Vanderbilt",
       "position": "F",
       "number": "2",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Kevon Looney",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

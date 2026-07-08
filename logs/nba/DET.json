@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-08T10:50:14.367154+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Pistons",
+    "type": "added",
+    "playerName": "Gary Harris",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-08T10:50:14.367165+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Pistons",
+    "type": "added",
+    "playerName": "Taurean Prince",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-08T10:50:14.367170+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Pistons",
+    "type": "removed",
+    "playerName": "Caris LeVert",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-02T11:20:57.990105+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Pistons",

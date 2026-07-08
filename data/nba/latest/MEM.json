@@ -3,7 +3,7 @@
   "team": "Memphis Grizzlies",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MEM/roster",
-  "checkedAt": "2026-07-07T11:32:11.130801+00:00",
+  "checkedAt": "2026-07-08T10:50:18.154459+00:00",
   "players": [
     {
       "name": "AJ Johnson",
@@ -37,6 +37,13 @@
       "name": "Cedric Coward",
       "position": "F",
       "number": "23",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "D'Angelo Russell",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

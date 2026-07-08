@@ -3,19 +3,12 @@
   "team": "Milwaukee Bucks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIL/roster",
-  "checkedAt": "2026-07-07T11:32:12.492048+00:00",
+  "checkedAt": "2026-07-08T10:50:19.363063+00:00",
   "players": [
     {
       "name": "AJ Green",
       "position": "G",
       "number": "20",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Alex Antetokounmpo",
-      "position": "F",
-      "number": "29",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -34,16 +27,16 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Cormac Ryan",
+      "name": "Caris LeVert",
       "position": "G",
-      "number": "30",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
-      "name": "Gary Harris",
+      "name": "Cormac Ryan",
       "position": "G",
-      "number": "11",
+      "number": "30",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -135,20 +128,6 @@
       "name": "Ryan Rollins",
       "position": "G",
       "number": "13",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Taurean Prince",
-      "position": "F",
-      "number": "12",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Thanasis Antetokounmpo",
-      "position": "F",
-      "number": "43",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

@@ -3,7 +3,7 @@
   "team": "Washington Wizards",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/WSH/roster",
-  "checkedAt": "2026-07-07T11:32:21.785226+00:00",
+  "checkedAt": "2026-07-08T10:50:27.522389+00:00",
   "players": [
     {
       "name": "AJ Dybantsa",
@@ -55,13 +55,6 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "D'Angelo Russell",
-      "position": "G",
-      "number": "5",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Deandre Ayton",
       "position": "C",
       "number": "",
@@ -93,6 +86,13 @@
       "name": "Justin Champagnie",
       "position": "F",
       "number": "9",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Khris Middleton",
+      "position": "F",
+      "number": "22",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
