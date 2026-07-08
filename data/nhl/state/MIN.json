@@ -3,12 +3,12 @@
   "team": "Minnesota Wild",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/MIN/current",
-  "checkedAt": "2026-07-07T11:24:04.764349+00:00",
+  "checkedAt": "2026-07-08T10:34:53.151294+00:00",
   "players": [
     {
       "name": "Blake Coleman",
-      "position": "C",
-      "number": "",
+      "position": "L",
+      "number": "20",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -23,6 +23,13 @@
       "name": "Brock Faber",
       "position": "D",
       "number": "7",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Calvin Pickard",
+      "position": "G",
+      "number": "31",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -113,7 +120,7 @@
     {
       "name": "Maksim Shabanov",
       "position": "R",
-      "number": "",
+      "number": "49",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -162,7 +169,7 @@
     {
       "name": "Olli Maatta",
       "position": "D",
-      "number": "",
+      "number": "3",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

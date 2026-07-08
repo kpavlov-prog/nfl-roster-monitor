@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-08T10:34:52.593329+00:00",
+    "teamCode": "LAK",
+    "teamName": "Los Angeles Kings",
+    "type": "number changed",
+    "playerName": "Corey Perry",
+    "position": "R",
+    "oldValue": "10",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-08T10:34:52.593337+00:00",
+    "teamCode": "LAK",
+    "teamName": "Los Angeles Kings",
+    "type": "added",
+    "playerName": "Erik Gustafsson",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-07-07T11:24:04.050689+00:00",
     "teamCode": "LAK",
     "teamName": "Los Angeles Kings",

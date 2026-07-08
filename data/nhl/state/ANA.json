@@ -3,7 +3,7 @@
   "team": "Anaheim Ducks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/ANA/current",
-  "checkedAt": "2026-07-07T11:23:55.034557+00:00",
+  "checkedAt": "2026-07-08T10:34:44.824781+00:00",
   "players": [
     {
       "name": "A.J. Greer",
@@ -37,6 +37,13 @@
       "name": "Chris Kreider",
       "position": "L",
       "number": "20",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Corey Schueneman",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -76,8 +83,36 @@
       "source": "NHL Web API"
     },
     {
+      "name": "James Hamblin",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Jeff Malott",
       "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jett Woo",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Judd Caulfield",
+      "position": "R",
+      "number": "75",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Laurent Brossoit",
+      "position": "G",
       "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
@@ -153,6 +188,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Travis Mitchell",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Troy Terry",
       "position": "R",
       "number": "19",
@@ -170,13 +212,6 @@
       "name": "Ville Husso",
       "position": "G",
       "number": "33",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Vyacheslav Buteyets",
-      "position": "G",
-      "number": "32",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

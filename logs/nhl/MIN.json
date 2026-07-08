@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-07-08T10:34:53.152262+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "position changed",
+    "playerName": "Blake Coleman",
+    "position": "L",
+    "oldValue": "C",
+    "newValue": "L",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-08T10:34:53.152271+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "number changed",
+    "playerName": "Blake Coleman",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "20",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-08T10:34:53.152276+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "added",
+    "playerName": "Calvin Pickard",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-08T10:34:53.152282+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "number changed",
+    "playerName": "Maksim Shabanov",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "49",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-08T10:34:53.152287+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "number changed",
+    "playerName": "Olli Maatta",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "3",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-07-07T11:24:04.765444+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Wild",
