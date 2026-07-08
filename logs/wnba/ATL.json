@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-08T11:06:46.570009+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Dream",
+    "type": "added",
+    "playerName": "Shatori Walker-Kimbrough",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-08T11:06:46.570019+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Dream",
+    "type": "removed",
+    "playerName": "Indya Nivar",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-03T11:34:04.987733+00:00",
     "teamCode": "ATL",
     "teamName": "Atlanta Dream",

@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-07-08T11:06:49.922639+00:00",
+    "teamCode": "LV",
+    "teamName": "Las Vegas Aces",
+    "type": "added",
+    "playerName": "Justine Pissott",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-08T11:06:49.922650+00:00",
+    "teamCode": "LV",
+    "teamName": "Las Vegas Aces",
+    "type": "removed",
+    "playerName": "Chennedy Carter",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  }
+]
