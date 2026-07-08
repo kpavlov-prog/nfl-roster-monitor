@@ -3,7 +3,7 @@
   "team": "New York Giants",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-york-giants/roster",
-  "checkedAt": "2026-07-07T10:48:37.700133+00:00",
+  "checkedAt": "2026-07-08T10:09:54.654326+00:00",
   "players": [
     {
       "name": "Aaron Stinnie",
@@ -129,6 +129,14 @@
       "name": "Bryan Hudson",
       "position": "C",
       "number": "60",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "C.J. Ravenell",
+      "position": "C",
+      "number": "77",
       "status": "ACT",
       "important": false,
       "source": "NFL.com"
@@ -569,14 +577,6 @@
       "name": "Paulson Adebo",
       "position": "CB",
       "number": "21",
-      "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Rico Payton",
-      "position": "CB",
-      "number": "36",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

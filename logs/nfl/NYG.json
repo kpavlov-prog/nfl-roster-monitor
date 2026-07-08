@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-07-08T10:09:54.654617+00:00",
+    "teamCode": "NYG",
+    "teamName": "New York Giants",
+    "type": "added",
+    "playerName": "C.J. Ravenell",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-08T10:09:54.654760+00:00",
+    "teamCode": "NYG",
+    "teamName": "New York Giants",
+    "type": "removed",
+    "playerName": "Rico Payton",
+    "position": "CB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  }
+]

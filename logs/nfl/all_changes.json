@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-07-08T10:09:54.654617+00:00",
+    "teamCode": "NYG",
+    "teamName": "New York Giants",
+    "type": "added",
+    "playerName": "C.J. Ravenell",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-08T10:09:54.654760+00:00",
+    "teamCode": "NYG",
+    "teamName": "New York Giants",
+    "type": "removed",
+    "playerName": "Rico Payton",
+    "position": "CB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-08T10:10:04.527918+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco 49ers",
+    "type": "status changed",
+    "playerName": "Gracen Halton",
+    "position": "DT",
+    "oldValue": "UDF",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-08T10:10:04.527943+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco 49ers",
+    "type": "status changed",
+    "playerName": "Romello Height",
+    "position": "DE",
+    "oldValue": "UDF",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-08T10:10:13.059498+00:00",
+    "teamCode": "TEN",
+    "teamName": "Tennessee Titans",
+    "type": "removed",
+    "playerName": "C.J. Ravenell",
+    "position": "C",
+    "oldValue": "RES",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-07-07T10:47:33.959146+00:00",
     "teamCode": "ARI",
     "teamName": "Arizona Cardinals",
