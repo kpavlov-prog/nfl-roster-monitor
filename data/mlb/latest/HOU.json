@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=active",
-  "checkedAt": "2026-07-07T11:19:01.457185+00:00",
+  "checkedAt": "2026-07-08T10:30:20.421306+00:00",
   "players": [
     {
       "name": "AJ Blubaugh",
       "position": "P",
       "number": "69",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Alimber Santa",
+      "position": "P",
+      "number": "72",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -109,13 +116,6 @@
       "name": "LaMonte Wade Jr.",
       "position": "1B",
       "number": "31",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Mike Burrows",
-      "position": "P",
-      "number": "50",
       "status": "A",
       "source": "MLB Stats API"
     },

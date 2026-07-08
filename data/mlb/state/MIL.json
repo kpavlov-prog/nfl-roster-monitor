@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=active",
-  "checkedAt": "2026-07-07T11:19:04.122783+00:00",
+  "checkedAt": "2026-07-08T10:30:23.089410+00:00",
   "players": [
     {
       "name": "Aaron Ashby",
@@ -25,13 +25,6 @@
       "name": "Andrew Vaughn",
       "position": "1B",
       "number": "28",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Blake Perkins",
-      "position": "CF",
-      "number": "16",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -78,13 +71,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "David Hamilton",
-      "position": "3B",
-      "number": "6",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Drew Rom",
       "position": "P",
       "number": "38",
@@ -116,6 +102,13 @@
       "name": "Grant Anderson",
       "position": "P",
       "number": "56",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Greg Jones",
+      "position": "LF",
+      "number": "14",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -158,6 +151,20 @@
       "name": "Kyle Harrison",
       "position": "P",
       "number": "52",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Luis Lara",
+      "position": "CF",
+      "number": "18",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Robert Gasser",
+      "position": "P",
+      "number": "54",
       "status": "A",
       "source": "MLB Stats API"
     },

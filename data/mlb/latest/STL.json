@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=active",
-  "checkedAt": "2026-07-07T11:19:09.451823+00:00",
+  "checkedAt": "2026-07-08T10:30:28.410375+00:00",
   "players": [
     {
       "name": "Alec Burleson",
@@ -57,6 +57,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Hunter Dobbins",
+      "position": "P",
+      "number": "40",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Iván Herrera",
       "position": "DH",
       "number": "48",
@@ -67,6 +74,13 @@
       "name": "JJ Wetherholt",
       "position": "2B",
       "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jared Shuster",
+      "position": "P",
+      "number": "68",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,13 +186,6 @@
       "name": "Riley O'Brien",
       "position": "P",
       "number": "61",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Ryan Fernandez",
-      "position": "P",
-      "number": "64",
       "status": "A",
       "source": "MLB Stats API"
     },

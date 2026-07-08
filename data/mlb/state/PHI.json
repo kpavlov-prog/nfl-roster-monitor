@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/143/roster?rosterType=active",
-  "checkedAt": "2026-07-07T11:19:06.787326+00:00",
+  "checkedAt": "2026-07-08T10:30:25.752310+00:00",
   "players": [
     {
       "name": "Aaron Nola",
@@ -120,13 +120,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Kyle Backhus",
-      "position": "P",
-      "number": "19",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Kyle Schwarber",
       "position": "DH",
       "number": "12",
@@ -137,6 +130,13 @@
       "name": "Lou Trivino III",
       "position": "P",
       "number": "22",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Max Lazar",
+      "position": "P",
+      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },

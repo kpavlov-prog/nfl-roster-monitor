@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-07-07T11:19:11.056365+00:00",
+  "checkedAt": "2026-07-08T10:30:30.005069+00:00",
   "players": [
     {
       "name": "Adam Macko",
@@ -32,6 +32,13 @@
       "name": "Brandon Valenzuela",
       "position": "C",
       "number": "59",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Chad Dallas",
+      "position": "P",
+      "number": "37",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,13 +186,6 @@
       "name": "Vladimir Guerrero Jr.",
       "position": "1B",
       "number": "27",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Yohendrick Piñango",
-      "position": "LF",
-      "number": "24",
       "status": "A",
       "source": "MLB Stats API"
     }

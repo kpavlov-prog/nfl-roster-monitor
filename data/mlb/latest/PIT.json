@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-07-07T11:19:07.319107+00:00",
+  "checkedAt": "2026-07-08T10:30:26.283415+00:00",
   "players": [
     {
       "name": "Billy Cook",
@@ -106,6 +106,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jack Brannigan",
+      "position": "SS",
+      "number": "76",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jake Mangum",
       "position": "CF",
       "number": "28",
@@ -123,13 +130,6 @@
       "name": "Jared Triolo",
       "position": "SS",
       "number": "19",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Konnor Griffin",
-      "position": "SS",
-      "number": "6",
       "status": "A",
       "source": "MLB Stats API"
     },

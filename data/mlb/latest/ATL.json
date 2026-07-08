@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-07-07T11:18:56.645129+00:00",
+  "checkedAt": "2026-07-08T10:30:15.618703+00:00",
   "players": [
     {
       "name": "Austin Riley",
@@ -25,6 +25,13 @@
       "name": "Chris Sale",
       "position": "P",
       "number": "51",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Connor Thomas",
+      "position": "P",
+      "number": "65",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -92,6 +99,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "James Karinchak",
+      "position": "P",
+      "number": "00",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jim Jarvis",
       "position": "SS",
       "number": "74",
@@ -155,13 +169,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Owen Murphy",
-      "position": "P",
-      "number": "73",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Ozzie Albies",
       "position": "2B",
       "number": "1",
@@ -179,13 +186,6 @@
       "name": "Reynaldo López",
       "position": "P",
       "number": "40",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tyler Kinley",
-      "position": "P",
-      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     }
