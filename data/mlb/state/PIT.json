@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-07-08T10:30:26.283415+00:00",
+  "checkedAt": "2026-07-09T11:25:16.030241+00:00",
   "players": [
     {
       "name": "Billy Cook",
@@ -60,13 +60,6 @@
       "name": "Dennis Santana",
       "position": "P",
       "number": "60",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Endy Rodríguez",
-      "position": "C",
-      "number": "13",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,6 +158,13 @@
       "name": "Paul Skenes",
       "position": "P",
       "number": "30",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Rafael Flores Jr.",
+      "position": "C",
+      "number": "43",
       "status": "A",
       "source": "MLB Stats API"
     },

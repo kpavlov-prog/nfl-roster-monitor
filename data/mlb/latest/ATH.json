@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-07-08T10:30:25.218616+00:00",
+  "checkedAt": "2026-07-09T11:25:14.840862+00:00",
   "players": [
     {
       "name": "Aaron Civale",
@@ -162,13 +162,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Max Muncy",
-      "position": "3B",
-      "number": "3",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Nick Kurtz",
       "position": "1B",
       "number": "16",
@@ -179,6 +172,13 @@
       "name": "Shea Langeliers",
       "position": "C",
       "number": "23",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tyler Soderstrom",
+      "position": "LF",
+      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     },

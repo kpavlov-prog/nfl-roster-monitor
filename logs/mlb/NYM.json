@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-07-09T11:25:13.653805+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "position changed",
+    "playerName": "Jorge Polanco",
+    "position": "DH",
+    "oldValue": "1B",
+    "newValue": "DH",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-09T11:25:13.653815+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "added",
+    "playerName": "Tobias Myers",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-09T11:25:13.653819+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "added",
+    "playerName": "Xzavion Curry",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-09T11:25:13.653822+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "removed",
+    "playerName": "Austin Warren",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-09T11:25:13.653825+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "removed",
+    "playerName": "Matt Seelinger",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-08T10:30:24.155410+00:00",
     "teamCode": "NYM",
     "teamName": "New York Mets",

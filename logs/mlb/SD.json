@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-09T11:25:16.646111+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "added",
+    "playerName": "Luis Rengifo",
+    "position": "3B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-09T11:25:16.646125+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "removed",
+    "playerName": "Samad Taylor",
+    "position": "LF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-08T10:30:26.815535+00:00",
     "teamCode": "SD",
     "teamName": "San Diego Padres",

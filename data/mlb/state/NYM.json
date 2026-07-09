@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-07-08T10:30:24.154285+00:00",
+  "checkedAt": "2026-07-09T11:25:13.652719+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -18,13 +18,6 @@
       "name": "A.J. Minter",
       "position": "P",
       "number": "33",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Austin Warren",
-      "position": "P",
-      "number": "44",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -121,7 +114,7 @@
     },
     {
       "name": "Jorge Polanco",
-      "position": "1B",
+      "position": "DH",
       "number": "11",
       "status": "A",
       "source": "MLB Stats API"
@@ -162,13 +155,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Matt Seelinger",
-      "position": "P",
-      "number": "73",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Nolan McLean",
       "position": "P",
       "number": "26",
@@ -183,9 +169,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Tobias Myers",
+      "position": "P",
+      "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Tyrone Taylor",
       "position": "CF",
       "number": "28",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Xzavion Curry",
+      "position": "P",
+      "number": "53",
       "status": "A",
       "source": "MLB Stats API"
     }

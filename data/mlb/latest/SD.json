@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=active",
-  "checkedAt": "2026-07-08T10:30:26.814672+00:00",
+  "checkedAt": "2026-07-09T11:25:16.644922+00:00",
   "players": [
     {
       "name": "Adrian Morejon",
@@ -99,6 +99,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Luis Rengifo",
+      "position": "3B",
+      "number": "21",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Manny Machado",
       "position": "3B",
       "number": "13",
@@ -137,13 +144,6 @@
       "name": "Ron Marinaccio",
       "position": "P",
       "number": "97",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Samad Taylor",
-      "position": "LF",
-      "number": "0",
       "status": "A",
       "source": "MLB Stats API"
     },
