@@ -3,7 +3,7 @@
   "team": "Dallas Mavericks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/DAL/roster",
-  "checkedAt": "2026-07-08T10:50:13.110599+00:00",
+  "checkedAt": "2026-07-09T11:37:00.575532+00:00",
   "players": [
     {
       "name": "Brandon Williams",
@@ -69,6 +69,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Marcus Sasser",
+      "position": "G",
+      "number": "25",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Max Christie",
       "position": "G",
       "number": "00",
@@ -92,7 +99,7 @@
     {
       "name": "Naji Marshall",
       "position": "F",
-      "number": "13",
+      "number": "3",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-09T11:36:58.284028+00:00",
+    "teamCode": "BKN",
+    "teamName": "Brooklyn Nets",
+    "type": "number changed",
+    "playerName": "Nolan Traore",
+    "position": "G",
+    "oldValue": "88",
+    "newValue": "13",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-09T11:36:58.284038+00:00",
+    "teamCode": "BKN",
+    "teamName": "Brooklyn Nets",
+    "type": "removed",
+    "playerName": "Ochai Agbaji",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-09T11:36:58.284041+00:00",
+    "teamCode": "BKN",
+    "teamName": "Brooklyn Nets",
+    "type": "removed",
+    "playerName": "Trevon Scott",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-05T10:53:36.073827+00:00",
     "teamCode": "BKN",
     "teamName": "Brooklyn Nets",

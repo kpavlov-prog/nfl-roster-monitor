@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-09T11:37:00.576271+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Mavericks",
+    "type": "added",
+    "playerName": "Marcus Sasser",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-09T11:37:00.576280+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Mavericks",
+    "type": "number changed",
+    "playerName": "Naji Marshall",
+    "position": "F",
+    "oldValue": "13",
+    "newValue": "3",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-07-08T10:50:13.111707+00:00",
     "teamCode": "DAL",
     "teamName": "Dallas Mavericks",
