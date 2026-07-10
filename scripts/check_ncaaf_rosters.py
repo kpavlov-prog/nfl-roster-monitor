@@ -26,7 +26,14 @@ FBS_TEAM_NAMES = {
     "Air Force Falcons","Hawai'i Rainbow Warriors","Nevada Wolf Pack","New Mexico Lobos","North Dakota State Bison","Northern Illinois Huskies","San José State Spartans","UNLV Rebels","UTEP Miners","Wyoming Cowboys",
     "Boise State Broncos","Colorado State Rams","Fresno State Bulldogs","Oregon State Beavers","San Diego State Aztecs","Texas State Bobcats","Utah State Aggies","Washington State Cougars",
     "Alabama Crimson Tide","Arkansas Razorbacks","Auburn Tigers","Florida Gators","Georgia Bulldogs","Kentucky Wildcats","LSU Tigers","Mississippi State Bulldogs","Missouri Tigers","Oklahoma Sooners","Ole Miss Rebels","South Carolina Gamecocks","Tennessee Volunteers","Texas A&M Aggies","Texas Longhorns","Vanderbilt Commodores",
-    "App State Mountaineers","Arkansas State Red Wolves","Coastal Carolina Chanticleers","Georgia Southern Eagles","Georgia State Panthers","James Madison Dukes","Louisiana Ragin' Cajuns","Marshall Thundering Herd","Old Dominion Monarchs","South Alabama Jaguars","Southern Miss Golden Eagles","Troy Trojans","UL Monroe Warhawks"
+    "App State Mountaineers","Arkansas State Red Wolves","Coastal Carolina Chanticleers","Georgia Southern Eagles","Georgia State Panthers","James Madison Dukes","Louisiana Ragin' Cajuns","Marshall Thundering Herd","Old Dominion Monarchs","South Alabama Jaguars","Southern Miss Golden Eagles","Troy Trojans","UL Monroe Warhawks","Tulane Green Wave",
+    "SMU Mustangs",
+    "Sam Houston Bearkats",
+    "UTEP Miners",
+    "UTSA Roadrunners",
+    "USC Trojans",
+    "Massachusetts Minutemen",
+    "UMass Minutemen",
 }
 def now_iso():
     return datetime.now(timezone.utc).isoformat()
