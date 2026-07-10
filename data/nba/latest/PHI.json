@@ -3,7 +3,7 @@
   "team": "Philadelphia 76ers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/PHI/roster",
-  "checkedAt": "2026-07-09T11:37:09.816020+00:00",
+  "checkedAt": "2026-07-10T11:35:20.498054+00:00",
   "players": [
     {
       "name": "Adem Bona",
@@ -55,6 +55,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Duke Miles",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Jabari Walker",
       "position": "F",
       "number": "33",
@@ -86,13 +93,6 @@
       "name": "Justin Edwards",
       "position": "F",
       "number": "11",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Kyle Lowry",
-      "position": "G",
-      "number": "7",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

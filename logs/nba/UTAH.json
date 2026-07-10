@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-10T11:35:24.015721+00:00",
+    "teamCode": "UTAH",
+    "teamName": "Utah Jazz",
+    "type": "added",
+    "playerName": "Mo Bamba",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:35:24.015729+00:00",
+    "teamCode": "UTAH",
+    "teamName": "Utah Jazz",
+    "type": "added",
+    "playerName": "Tamar Bates",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:35:24.015733+00:00",
+    "teamCode": "UTAH",
+    "teamName": "Utah Jazz",
+    "type": "removed",
+    "playerName": "Elijah Harkless",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-07T11:32:21.031906+00:00",
     "teamCode": "UTAH",
     "teamName": "Utah Jazz",

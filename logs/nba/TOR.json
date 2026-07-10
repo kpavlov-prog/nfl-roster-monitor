@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-10T11:35:23.382211+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Raptors",
+    "type": "added",
+    "playerName": "Brandon Ingram",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:35:23.382220+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Raptors",
+    "type": "added",
+    "playerName": "Gradey Dick",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:35:23.382224+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Raptors",
+    "type": "added",
+    "playerName": "Nate Bittle",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:35:23.382229+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Raptors",
+    "type": "removed",
+    "playerName": "Kawhi Leonard",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-03T11:18:25.770422+00:00",
     "teamCode": "TOR",
     "teamName": "Toronto Raptors",

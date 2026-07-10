@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-07-10T11:35:14.688164+00:00",
+    "teamCode": "LAC",
+    "teamName": "LA Clippers",
+    "type": "number changed",
+    "playerName": "Cam Christie",
+    "position": "G",
+    "oldValue": "12",
+    "newValue": "24",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:35:14.688173+00:00",
+    "teamCode": "LAC",
+    "teamName": "LA Clippers",
+    "type": "added",
+    "playerName": "Kawhi Leonard",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:35:14.688180+00:00",
+    "teamCode": "LAC",
+    "teamName": "LA Clippers",
+    "type": "removed",
+    "playerName": "Brandon Ingram",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-10T11:35:14.688183+00:00",
+    "teamCode": "LAC",
+    "teamName": "LA Clippers",
+    "type": "removed",
+    "playerName": "Gradey Dick",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-10T11:35:14.688185+00:00",
+    "teamCode": "LAC",
+    "teamName": "LA Clippers",
+    "type": "removed",
+    "playerName": "Norchad Omier",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-08T10:50:16.947030+00:00",
     "teamCode": "LAC",
     "teamName": "LA Clippers",

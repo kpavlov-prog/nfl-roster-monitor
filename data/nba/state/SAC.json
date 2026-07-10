@@ -3,8 +3,15 @@
   "team": "Sacramento Kings",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/SAC/roster",
-  "checkedAt": "2026-07-09T11:37:11.535045+00:00",
+  "checkedAt": "2026-07-10T11:35:22.214489+00:00",
   "players": [
+    {
+      "name": "Adam Flagler",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
     {
       "name": "Alex Karaban",
       "position": "F",
@@ -72,6 +79,13 @@
       "name": "Isaiah Stevens",
       "position": "G",
       "number": "24",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Jonathan Mogbo",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

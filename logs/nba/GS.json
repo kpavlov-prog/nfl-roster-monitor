@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-10T11:35:12.926197+00:00",
+    "teamCode": "GS",
+    "teamName": "Golden State Warriors",
+    "type": "added",
+    "playerName": "Charles Bassey",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:35:12.926210+00:00",
+    "teamCode": "GS",
+    "teamName": "Golden State Warriors",
+    "type": "removed",
+    "playerName": "Omer Yurtseven",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-10T11:35:12.926213+00:00",
+    "teamCode": "GS",
+    "teamName": "Golden State Warriors",
+    "type": "removed",
+    "playerName": "Quinten Post",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-08T10:50:14.993129+00:00",
     "teamCode": "GS",
     "teamName": "Golden State Warriors",

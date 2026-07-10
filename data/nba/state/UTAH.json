@@ -3,7 +3,7 @@
   "team": "Utah Jazz",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/UTAH/roster",
-  "checkedAt": "2026-07-09T11:37:13.268203+00:00",
+  "checkedAt": "2026-07-10T11:35:24.014582+00:00",
   "players": [
     {
       "name": "Ace Bailey",
@@ -44,13 +44,6 @@
       "name": "Darryn Peterson",
       "position": "G",
       "number": "",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Elijah Harkless",
-      "position": "G",
-      "number": "16",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -132,6 +125,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Mo Bamba",
+      "position": "C",
+      "number": "11",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Oscar Tshiebwe",
       "position": "C",
       "number": "34",
@@ -142,6 +142,13 @@
       "name": "Svi Mykhailiuk",
       "position": "G",
       "number": "10",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Tamar Bates",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

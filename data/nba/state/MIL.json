@@ -3,7 +3,7 @@
   "team": "Milwaukee Bucks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIL/roster",
-  "checkedAt": "2026-07-09T11:37:06.349150+00:00",
+  "checkedAt": "2026-07-10T11:35:17.060015+00:00",
   "players": [
     {
       "name": "AJ Green",
@@ -16,6 +16,13 @@
       "name": "Andre Jackson Jr.",
       "position": "G",
       "number": "44",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Bogoljub Markovic",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -121,6 +128,13 @@
       "name": "Ousmane Dieng",
       "position": "F",
       "number": "21",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Pete Nance",
+      "position": "F",
+      "number": "35",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

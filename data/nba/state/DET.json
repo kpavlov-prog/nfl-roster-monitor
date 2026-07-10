@@ -3,7 +3,7 @@
   "team": "Detroit Pistons",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/DET/roster",
-  "checkedAt": "2026-07-09T11:37:01.722281+00:00",
+  "checkedAt": "2026-07-10T11:35:12.346415+00:00",
   "players": [
     {
       "name": "Ausar Thompson",
@@ -42,6 +42,13 @@
     },
     {
       "name": "Ebuka Okorie",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Elijah Harkless",
       "position": "G",
       "number": "",
       "status": "ACTIVE",

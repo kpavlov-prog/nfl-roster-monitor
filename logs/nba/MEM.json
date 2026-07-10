@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-10T11:35:15.884611+00:00",
+    "teamCode": "MEM",
+    "teamName": "Memphis Grizzlies",
+    "type": "added",
+    "playerName": "Quinten Post",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:35:15.884621+00:00",
+    "teamCode": "MEM",
+    "teamName": "Memphis Grizzlies",
+    "type": "removed",
+    "playerName": "Adama Bal",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-10T11:35:15.884625+00:00",
+    "teamCode": "MEM",
+    "teamName": "Memphis Grizzlies",
+    "type": "removed",
+    "playerName": "Dariq Whitehead",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-10T11:35:15.884628+00:00",
+    "teamCode": "MEM",
+    "teamName": "Memphis Grizzlies",
+    "type": "removed",
+    "playerName": "Lucas Williamson",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-08T10:50:18.155429+00:00",
     "teamCode": "MEM",
     "teamName": "Memphis Grizzlies",
