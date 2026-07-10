@@ -3,7 +3,7 @@
   "team": "Atlanta Dream",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/ATL/roster",
-  "checkedAt": "2026-07-09T12:10:34.325354+00:00",
+  "checkedAt": "2026-07-10T11:53:31.515470+00:00",
   "players": [
     {
       "name": "Aaliyah Nye",
@@ -16,13 +16,6 @@
       "name": "Allisha Gray",
       "position": "G",
       "number": "15",
-      "status": "ACTIVE",
-      "source": "ESPN WNBA API"
-    },
-    {
-      "name": "Amy Okonkwo",
-      "position": "F",
-      "number": "1",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },
@@ -41,6 +34,13 @@
       "source": "ESPN WNBA API"
     },
     {
+      "name": "Indya Nivar",
+      "position": "G",
+      "number": "21",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
       "name": "Isobel Borlase",
       "position": "G",
       "number": "20",
@@ -50,7 +50,7 @@
     {
       "name": "Jaylyn Sherrod",
       "position": "G",
-      "number": "0",
+      "number": "4",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },
@@ -85,7 +85,7 @@
     {
       "name": "Shatori Walker-Kimbrough",
       "position": "G",
-      "number": "32",
+      "number": "33",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },

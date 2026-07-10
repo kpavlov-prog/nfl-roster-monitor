@@ -3,7 +3,7 @@
   "team": "Phoenix Mercury",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/PHX/roster",
-  "checkedAt": "2026-07-09T12:10:40.416388+00:00",
+  "checkedAt": "2026-07-10T11:53:37.325464+00:00",
   "players": [
     {
       "name": "Alyssa Thomas",
@@ -43,7 +43,7 @@
     {
       "name": "Lexi Held",
       "position": "G",
-      "number": "12",
+      "number": "10",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },
@@ -72,6 +72,13 @@
       "name": "Noemie Brochant",
       "position": "F",
       "number": "1",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Quionche Carter",
+      "position": "G",
+      "number": "20",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },

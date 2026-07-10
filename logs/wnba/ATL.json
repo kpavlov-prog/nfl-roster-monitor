@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-10T11:53:31.517208+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Dream",
+    "type": "added",
+    "playerName": "Indya Nivar",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:53:31.517225+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Dream",
+    "type": "number changed",
+    "playerName": "Jaylyn Sherrod",
+    "position": "G",
+    "oldValue": "0",
+    "newValue": "4",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:53:31.517235+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Dream",
+    "type": "number changed",
+    "playerName": "Shatori Walker-Kimbrough",
+    "position": "G",
+    "oldValue": "32",
+    "newValue": "33",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:53:31.517240+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Dream",
+    "type": "removed",
+    "playerName": "Amy Okonkwo",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-08T11:06:46.570009+00:00",
     "teamCode": "ATL",
     "teamName": "Atlanta Dream",

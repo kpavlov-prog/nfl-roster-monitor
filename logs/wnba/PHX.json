@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-10T11:53:37.327230+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Mercury",
+    "type": "number changed",
+    "playerName": "Lexi Held",
+    "position": "G",
+    "oldValue": "12",
+    "newValue": "10",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:53:37.327245+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Mercury",
+    "type": "added",
+    "playerName": "Quionche Carter",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-07-08T11:06:52.191879+00:00",
     "teamCode": "PHX",
     "teamName": "Phoenix Mercury",
