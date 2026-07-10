@@ -92,41 +92,28 @@ def cleanup_old_files(valid_codes):
 
 
 def fetch_teams():
-    data = get_json(TEAMS_URL)
-    
+    teams_data = load_json(FBS_TEAMS_FILE)
+
+    if not teams_data:
+        raise RuntimeError("Missing or empty data/ncaaf/fbs_teams.json")
+
     teams = []
-    
-    for sport in data.get("sports", []):
-        for league in sport.get("leagues", []):
-            for item in league.get("teams", []):
-                team = item.get("team", {})
-               
-                team_id = team.get("id")
-                name = team.get("displayName") or team.get("name")
-                abbreviation = (
-                    team.get("abbreviation")
-                    or team.get("shortDisplayName")
-                    or team.get("slug")
-                    or team_id
-                )
 
-                if not team_id or not name:
-                    continue
+    for team in teams_data:
+        team_id = str(team.get("id", "")).strip()
+        code = safe_code(team.get("code", ""))
+        name = str(team.get("name", "")).strip()
+        logo = str(team.get("logo", "")).strip()
 
-                code = safe_code(abbreviation)
-                
-                if name not in FBS_TEAM_NAMES:
-                    continue
-                
-                logos = team.get("logos") or []
-                logo = logos[0].get("href", "") if logos and isinstance(logos, list) else ""
+        if not team_id or not code or not name:
+            continue
 
-                teams.append({
-                    "id": str(team_id),
-                    "code": code,
-                    "name": name,
-                    "logo": logo or f"https://a.espncdn.com/i/teamlogos/ncaa/500/{team_id}.png",
-                })
+        teams.append({
+            "id": team_id,
+            "code": code,
+            "name": name,
+            "logo": logo or f"https://a.espncdn.com/i/teamlogos/ncaa/500/{team_id}.png",
+        })
 
     unique = {}
     for team in teams:
