@@ -35,6 +35,8 @@ FBS_TEAM_NAMES = {
     "Massachusetts Minutemen",
     "UMass Minutemen",
 }
+FBS_TEAMS_FILE = DATA / "fbs_teams.json"
+
 def now_iso():
     return datetime.now(timezone.utc).isoformat()
 
