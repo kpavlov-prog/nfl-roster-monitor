@@ -27,6 +27,8 @@ jobs:
       - name: Install dependencies
         run: |
           pip install requests
+      - name: Build FBS master list
+        run: python scripts/build_ncaaf_fbs_master.py
   
       - name: Run NCAAF roster checker
         run: |
