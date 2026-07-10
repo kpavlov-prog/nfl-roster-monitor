@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-10T11:19:01.579841+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Guardians",
+    "type": "added",
+    "playerName": "Codi Heuer",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:19:01.579852+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Guardians",
+    "type": "added",
+    "playerName": "Petey Halpin",
+    "position": "CF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:19:01.579858+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Guardians",
+    "type": "removed",
+    "playerName": "Cooper Ingle",
+    "position": "C",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-10T11:19:01.579861+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Guardians",
+    "type": "removed",
+    "playerName": "Tim Herrin",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-04T10:25:11.118488+00:00",
     "teamCode": "CLE",
     "teamName": "Cleveland Guardians",

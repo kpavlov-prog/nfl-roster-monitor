@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-07-09T11:25:05.174536+00:00",
+  "checkedAt": "2026-07-10T11:18:59.227451+00:00",
   "players": [
     {
       "name": "Andruw Monasterio",
@@ -25,6 +25,13 @@
       "name": "Aroldis Chapman",
       "position": "P",
       "number": "44",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brett Harris",
+      "position": "3B",
+      "number": "25",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -113,6 +120,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Nate Eaton",
+      "position": "OF",
+      "number": "18",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Patrick Sandoval",
       "position": "P",
       "number": "43",
@@ -123,13 +137,6 @@
       "name": "Payton Tolle",
       "position": "P",
       "number": "70",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Ranger Suarez",
-      "position": "P",
-      "number": "55",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,13 +172,6 @@
       "name": "Tyron Guerrero",
       "position": "P",
       "number": "41",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Willson Contreras",
-      "position": "1B",
-      "number": "40",
       "status": "A",
       "source": "MLB Stats API"
     },

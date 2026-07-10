@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-10T11:18:58.036920+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Braves",
+    "type": "added",
+    "playerName": "Eli White",
+    "position": "RF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:18:58.036934+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Braves",
+    "type": "removed",
+    "playerName": "José Azócar",
+    "position": "RF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-09T11:25:03.984694+00:00",
     "teamCode": "ATL",
     "teamName": "Atlanta Braves",

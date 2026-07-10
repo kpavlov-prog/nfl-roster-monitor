@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-07-09T11:25:06.380277+00:00",
+  "checkedAt": "2026-07-10T11:19:00.400990+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -121,7 +121,7 @@
     },
     {
       "name": "Luisangel Acuña",
-      "position": "CF",
+      "position": "SS",
       "number": "0",
       "status": "A",
       "source": "MLB Stats API"
@@ -176,16 +176,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Trevor Richards",
-      "position": "P",
-      "number": "43",
+      "name": "Tristan Peters",
+      "position": "CF",
+      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Tristan Peters",
-      "position": "CF",
-      "number": "29",
+      "name": "Tyler Davis",
+      "position": "P",
+      "number": "63",
       "status": "A",
       "source": "MLB Stats API"
     }

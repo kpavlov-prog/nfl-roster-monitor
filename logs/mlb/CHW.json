@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-10T11:19:00.402081+00:00",
+    "teamCode": "CHW",
+    "teamName": "Chicago White Sox",
+    "type": "position changed",
+    "playerName": "Luisangel Acuña",
+    "position": "SS",
+    "oldValue": "CF",
+    "newValue": "SS",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:19:00.402091+00:00",
+    "teamCode": "CHW",
+    "teamName": "Chicago White Sox",
+    "type": "added",
+    "playerName": "Tyler Davis",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:19:00.402096+00:00",
+    "teamCode": "CHW",
+    "teamName": "Chicago White Sox",
+    "type": "removed",
+    "playerName": "Trevor Richards",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-02T10:51:04.967777+00:00",
     "teamCode": "CHW",
     "teamName": "Chicago White Sox",

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-10T11:19:13.600486+00:00",
+    "teamCode": "TEX",
+    "teamName": "Texas Rangers",
+    "type": "added",
+    "playerName": "Wyatt Langford",
+    "position": "LF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:19:13.600495+00:00",
+    "teamCode": "TEX",
+    "teamName": "Texas Rangers",
+    "type": "removed",
+    "playerName": "Josh Smith",
+    "position": "2B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-05T10:27:58.529782+00:00",
     "teamCode": "TEX",
     "teamName": "Texas Rangers",

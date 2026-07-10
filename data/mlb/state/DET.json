@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=active",
-  "checkedAt": "2026-07-09T11:25:08.793631+00:00",
+  "checkedAt": "2026-07-10T11:19:02.774288+00:00",
   "players": [
     {
       "name": "Beau Brieske",
@@ -57,6 +57,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Eduardo Valencia",
+      "position": "C",
+      "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Framber Valdez",
       "position": "P",
       "number": "59",
@@ -81,13 +88,6 @@
       "name": "Jacob Waguespack",
       "position": "P",
       "number": "58",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jahmai Jones",
-      "position": "DH",
-      "number": "18",
       "status": "A",
       "source": "MLB Stats API"
     },

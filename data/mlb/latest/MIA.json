@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-07-09T11:25:11.867170+00:00",
+  "checkedAt": "2026-07-10T11:19:05.751677+00:00",
   "players": [
     {
       "name": "Brian Navarreto",
@@ -64,6 +64,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Janson Junk",
+      "position": "P",
+      "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Javier Sanoja",
       "position": "3B",
       "number": "8",
@@ -74,13 +81,6 @@
       "name": "Joe Mack",
       "position": "C",
       "number": "80",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "John King",
-      "position": "P",
-      "number": "47",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -134,16 +134,23 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Owen Caissie",
-      "position": "RF",
-      "number": "17",
+      "name": "Pete Fairbanks",
+      "position": "P",
+      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Pete Fairbanks",
+      "name": "Rece Hinds",
+      "position": "RF",
+      "number": "40",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ryan Gusto",
       "position": "P",
-      "number": "29",
+      "number": "65",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,13 +186,6 @@
       "name": "Xavier Edwards",
       "position": "2B",
       "number": "9",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Zach Brzykcy",
-      "position": "P",
-      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     }

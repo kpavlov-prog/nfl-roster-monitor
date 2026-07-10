@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-07-09T11:25:13.652719+00:00",
+  "checkedAt": "2026-07-10T11:19:07.560539+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -60,6 +60,13 @@
       "name": "Cionel Pérez",
       "position": "P",
       "number": "52",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Dan Hammer",
+      "position": "P",
+      "number": "81",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,13 +172,6 @@
       "name": "Sean Manaea",
       "position": "P",
       "number": "59",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tobias Myers",
-      "position": "P",
-      "number": "32",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active",
-  "checkedAt": "2026-07-09T11:25:07.587758+00:00",
+  "checkedAt": "2026-07-10T11:19:01.578789+00:00",
   "players": [
     {
       "name": "Austin Hedges",
@@ -36,16 +36,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Colin Holderman",
+      "name": "Codi Heuer",
       "position": "P",
-      "number": "35",
+      "number": "50",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Cooper Ingle",
-      "position": "C",
-      "number": "30",
+      "name": "Colin Holderman",
+      "position": "P",
+      "number": "35",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -141,6 +141,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Petey Halpin",
+      "position": "CF",
+      "number": "0",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Rhys Hoskins",
       "position": "1B",
       "number": "8",
@@ -172,13 +179,6 @@
       "name": "Tanner Bibee",
       "position": "P",
       "number": "28",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tim Herrin",
-      "position": "P",
-      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-10T11:19:06.967108+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "added",
+    "playerName": "Bailey Ober",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:19:06.967116+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "added",
+    "playerName": "Kendry Rojas",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-10T11:19:06.967125+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "removed",
+    "playerName": "Connor Prielipp",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-10T11:19:06.967128+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "removed",
+    "playerName": "Kyler Fedko",
+    "position": "LF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-09T11:25:13.056359+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Twins",

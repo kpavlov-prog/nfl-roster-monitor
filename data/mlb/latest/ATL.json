@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-07-09T11:25:03.983578+00:00",
+  "checkedAt": "2026-07-10T11:18:58.035794+00:00",
   "players": [
     {
       "name": "Austin Riley",
@@ -71,6 +71,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Eli White",
+      "position": "RF",
+      "number": "36",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Grant Holmes",
       "position": "P",
       "number": "66",
@@ -116,13 +123,6 @@
       "name": "Jorge Mateo",
       "position": "SS",
       "number": "2",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "José Azócar",
-      "position": "RF",
-      "number": "38",
       "status": "A",
       "source": "MLB Stats API"
     },

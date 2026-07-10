@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-07-09T11:25:20.847123+00:00",
+  "checkedAt": "2026-07-10T11:19:14.784746+00:00",
   "players": [
     {
       "name": "Andrew Alvarez",
@@ -18,13 +18,6 @@
       "name": "Andrés Chaparro",
       "position": "1B",
       "number": "87",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brad Lord",
-      "position": "P",
-      "number": "41",
       "status": "A",
       "source": "MLB Stats API"
     },
