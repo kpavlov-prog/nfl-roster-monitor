@@ -3,7 +3,7 @@
   "team": "Pittsburgh Penguins",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/PIT/current",
-  "checkedAt": "2026-07-08T10:34:58.157704+00:00",
+  "checkedAt": "2026-07-11T09:57:06.947145+00:00",
   "players": [
     {
       "name": "Andrei Kuzmenko",
@@ -48,13 +48,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "David Gustafsson",
-      "position": "C",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Declan Carlile",
       "position": "D",
       "number": "",
@@ -90,30 +83,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Filip Hallander",
-      "position": "C",
-      "number": "11",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Hendrix Lapierre",
       "position": "C",
       "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Ilya Solovyov",
-      "position": "D",
-      "number": "7",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Jake Livanavage",
-      "position": "D",
-      "number": "57",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -146,13 +118,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Oliver Okuliar",
-      "position": "L",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Rickard Rakell",
       "position": "R",
       "number": "67",
@@ -174,6 +139,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Sergei Murashov",
+      "position": "G",
+      "number": "1",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Sidney Crosby",
       "position": "C",
       "number": "87",
@@ -191,13 +163,6 @@
       "name": "Trevor van Riemsdyk",
       "position": "D",
       "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Ville Koivunen",
-      "position": "R",
-      "number": "41",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }
