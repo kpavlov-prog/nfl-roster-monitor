@@ -3,7 +3,7 @@
   "team": "Minnesota Lynx",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/MIN/roster",
-  "checkedAt": "2026-07-10T11:53:36.136969+00:00",
+  "checkedAt": "2026-07-11T10:16:43.690483+00:00",
   "players": [
     {
       "name": "Anastasiia Olairi Kosu",
@@ -51,6 +51,13 @@
       "name": "Kayla McBride",
       "position": "G",
       "number": "21",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Liatu King",
+      "position": "F",
+      "number": "2",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },
