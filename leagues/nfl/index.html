@@ -195,7 +195,11 @@ function renderChangePanels(){
       : `<div class="empty">No unchecked important changes.</div>`;
 
   const recent = changes.filter(isLast24);
-
+  document.getElementById("last24Changes").innerHTML =
+    recent.length
+      ? recent.map(changeHtml).join("")
+      : `<div class="empty">No unchecked changes in the last 24 hours.</div>`;
+}
 function teamChanges(code){return allChanges.filter(c=>c.teamCode===code)}
 function teamUnchecked(code){return visibleChanges().filter(c=>c.teamCode===code)}
 function renderTeams(){document.getElementById("teams").innerHTML=statusRows.map(r=>{const roster=rosters[r.teamCode]||{},errors=roster.errors||[],changes=teamChanges(r.teamCode),unchecked=teamUnchecked(r.teamCode),recent=changes[0],important=unchecked.some(isImportant);return`<div class="team ${selectedCode===r.teamCode?'selected':''} ${unchecked.length?'has-change':''} ${important?'has-important':''}" onclick="selectTeam('${r.teamCode}')"><div class="team-top"><img src="${LOGOS[r.teamCode]}" class="team-logo"><div><div class="team-name">${r.teamName}</div><div class="team-code">${r.teamCode}</div></div></div><div class="meta">Players: ${(roster.players||[]).length}</div><div class="meta">Checked: ${gmt(r.checkedAt)}</div><div class="meta">Last movement: ${recent?timeAgo(recent.timestamp):'none logged'}</div><div class="meta">Unchecked changes: ${unchecked.length}</div><div class="pill ${errors.length?'error':important?'danger':unchecked.length?'warn':'ok'}">${errors.length?'Source issue':important?'Important unchecked':unchecked.length?'Needs review':'Official OK'}</div></div>`}).join("")}
