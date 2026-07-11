@@ -413,6 +413,20 @@ def run():
     ensure_dirs()
 
     teams = fetch_teams()
+    ids = {}
+    names = {}
+
+    for t in teams:
+        if t["id"] in ids:
+            print(f"DUPLICATE ID: {t['id']} -> {ids[t['id']]} AND {t['name']}")
+        ids[t["id"]] = t["name"]
+
+        if t["name"] in names:
+            print(f"DUPLICATE NAME: {t['name']}")
+        names[t["name"]] = t["id"]
+
+    print(f"UNIQUE IDS: {len(ids)}")
+    print(f"UNIQUE NAMES: {len(names)}")
     valid_codes = {team["code"] for team in teams}
     cleanup_old_files(valid_codes)
 
