@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-07-10T11:19:11.142589+00:00",
+  "checkedAt": "2026-07-11T09:48:17.977175+00:00",
   "players": [
     {
       "name": "Adrian Houser",
@@ -25,13 +25,6 @@
       "name": "Caleb Kilian",
       "position": "P",
       "number": "45",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Carson Whisenhunt",
-      "position": "P",
-      "number": "88",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -85,6 +78,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Grant McCray",
+      "position": "CF",
+      "number": "58",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Heliot Ramos",
       "position": "LF",
       "number": "17",
@@ -109,6 +109,13 @@
       "name": "Jung Hoo Lee",
       "position": "RF",
       "number": "51",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Keaton Winn",
+      "position": "P",
+      "number": "67",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,13 +179,6 @@
       "name": "Tyler Mahle",
       "position": "P",
       "number": "54",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Victor Bericoto",
-      "position": "RF",
-      "number": "78",
       "status": "A",
       "source": "MLB Stats API"
     },

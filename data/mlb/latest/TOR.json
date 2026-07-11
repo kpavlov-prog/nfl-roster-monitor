@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-07-10T11:19:14.204987+00:00",
+  "checkedAt": "2026-07-11T09:48:21.040529+00:00",
   "players": [
     {
       "name": "Adam Macko",
@@ -32,6 +32,13 @@
       "name": "Brandon Valenzuela",
       "position": "C",
       "number": "59",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Braydon Fisher",
+      "position": "P",
+      "number": "63",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -158,13 +165,6 @@
       "name": "Spencer Miles",
       "position": "P",
       "number": "62",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tommy Nance",
-      "position": "P",
-      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     },

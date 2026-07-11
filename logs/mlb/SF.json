@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-11T09:48:17.978225+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "added",
+    "playerName": "Grant McCray",
+    "position": "CF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-11T09:48:17.978233+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "added",
+    "playerName": "Keaton Winn",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-11T09:48:17.978239+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "removed",
+    "playerName": "Carson Whisenhunt",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-11T09:48:17.978243+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "removed",
+    "playerName": "Victor Bericoto",
+    "position": "RF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-10T11:19:11.143744+00:00",
     "teamCode": "SF",
     "teamName": "San Francisco Giants",

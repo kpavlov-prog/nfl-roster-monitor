@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-11T09:48:03.821105+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "added",
+    "playerName": "Ryan Waldschmidt",
+    "position": "CF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-11T09:48:03.821115+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "removed",
+    "playerName": "Pavin Smith",
+    "position": "1B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-10T11:18:57.420403+00:00",
     "teamCode": "ARI",
     "teamName": "Arizona Diamondbacks",

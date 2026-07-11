@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-07-10T11:19:14.784746+00:00",
+  "checkedAt": "2026-07-11T09:48:21.655665+00:00",
   "players": [
     {
       "name": "Andrew Alvarez",
@@ -165,6 +165,13 @@
       "name": "Riley Cornelio",
       "position": "P",
       "number": "74",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tom Cosgrove",
+      "position": "P",
+      "number": "34",
       "status": "A",
       "source": "MLB Stats API"
     },

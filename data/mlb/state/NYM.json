@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-07-10T11:19:07.560539+00:00",
+  "checkedAt": "2026-07-11T09:48:14.290632+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -60,13 +60,6 @@
       "name": "Cionel Pérez",
       "position": "P",
       "number": "52",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Dan Hammer",
-      "position": "P",
-      "number": "81",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -155,13 +148,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Mark Vientos",
-      "position": "1B",
-      "number": "27",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Nolan McLean",
       "position": "P",
       "number": "26",
@@ -176,6 +162,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Tobias Myers",
+      "position": "P",
+      "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Tyrone Taylor",
       "position": "CF",
       "number": "28",
@@ -186,6 +179,13 @@
       "name": "Xzavion Curry",
       "position": "P",
       "number": "53",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Zack Short",
+      "position": "SS",
+      "number": "40",
       "status": "A",
       "source": "MLB Stats API"
     }

@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-11T09:48:14.291595+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "added",
+    "playerName": "Tobias Myers",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-11T09:48:14.291603+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "added",
+    "playerName": "Zack Short",
+    "position": "SS",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-11T09:48:14.291608+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "removed",
+    "playerName": "Dan Hammer",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-11T09:48:14.291611+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "removed",
+    "playerName": "Mark Vientos",
+    "position": "1B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-10T11:19:07.561763+00:00",
     "teamCode": "NYM",
     "teamName": "New York Mets",

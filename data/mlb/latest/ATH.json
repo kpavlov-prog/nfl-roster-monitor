@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-07-10T11:19:08.758598+00:00",
+  "checkedAt": "2026-07-11T09:48:15.517097+00:00",
   "players": [
     {
       "name": "Aaron Civale",
@@ -106,6 +106,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Joey Meneses",
+      "position": "1B",
+      "number": "13",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jonah Heim",
       "position": "C",
       "number": "15",
@@ -179,13 +186,6 @@
       "name": "Tyler Soderstrom",
       "position": "LF",
       "number": "21",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Zack Gelof",
-      "position": "3B",
-      "number": "20",
       "status": "A",
       "source": "MLB Stats API"
     }

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-07-10T11:19:00.400990+00:00",
+  "checkedAt": "2026-07-11T09:48:06.902320+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -25,13 +25,6 @@
       "name": "Braden Montgomery",
       "position": "RF",
       "number": "24",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brandon Eisert",
-      "position": "P",
-      "number": "53",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -92,13 +85,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jacob Gonzalez",
-      "position": "1B",
-      "number": "7",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jordan Hicks",
       "position": "P",
       "number": "44",
@@ -130,6 +116,13 @@
       "name": "Miguel Vargas",
       "position": "3B",
       "number": "20",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Munetaka Murakami",
+      "position": "1B",
+      "number": "5",
       "status": "A",
       "source": "MLB Stats API"
     },

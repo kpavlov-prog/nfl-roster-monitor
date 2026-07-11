@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=active",
-  "checkedAt": "2026-07-10T11:19:04.550709+00:00",
+  "checkedAt": "2026-07-11T09:48:11.214797+00:00",
   "players": [
     {
       "name": "Brent Suter",
@@ -25,6 +25,13 @@
       "name": "Denzer Guzman",
       "position": "3B",
       "number": "23",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Grayson Rodriguez",
+      "position": "P",
+      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,13 +151,6 @@
       "name": "Samy Natera Jr.",
       "position": "P",
       "number": "52",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tayler Saucedo",
-      "position": "P",
-      "number": "55",
       "status": "A",
       "source": "MLB Stats API"
     },

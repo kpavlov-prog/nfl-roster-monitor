@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-07-10T11:19:09.922085+00:00",
+  "checkedAt": "2026-07-11T09:48:16.742076+00:00",
   "players": [
+    {
+      "name": "Antwone Kelly",
+      "position": "P",
+      "number": "62",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Billy Cook",
       "position": "RF",
@@ -43,13 +50,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Cam Sanders",
-      "position": "P",
-      "number": "64",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Carmen Mlodzinski",
       "position": "P",
       "number": "50",
@@ -81,13 +81,6 @@
       "name": "Henry Davis",
       "position": "C",
       "number": "32",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Hunter Stratton",
-      "position": "P",
-      "number": "61",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,6 +165,13 @@
       "name": "Ryan O'Hearn",
       "position": "RF",
       "number": "29",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Thomas Harrington",
+      "position": "P",
+      "number": "53",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=active",
-  "checkedAt": "2026-07-10T11:19:06.363012+00:00",
+  "checkedAt": "2026-07-11T09:48:13.060215+00:00",
   "players": [
     {
       "name": "Aaron Ashby",
@@ -43,6 +43,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Bryse Wilson",
+      "position": "P",
+      "number": "41",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Chad Patrick",
       "position": "P",
       "number": "39",
@@ -67,13 +74,6 @@
       "name": "Craig Yoho",
       "position": "P",
       "number": "48",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Drew Rom",
-      "position": "P",
-      "number": "38",
       "status": "A",
       "source": "MLB Stats API"
     },

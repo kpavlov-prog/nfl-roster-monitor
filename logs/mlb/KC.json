@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-11T09:48:10.602757+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Royals",
+    "type": "added",
+    "playerName": "Eli Morgan",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-11T09:48:10.602771+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Royals",
+    "type": "added",
+    "playerName": "Vinnie Pasquantino",
+    "position": "1B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-11T09:48:10.602775+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Royals",
+    "type": "removed",
+    "playerName": "Jose Cuas",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-11T09:48:10.602778+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Royals",
+    "type": "removed",
+    "playerName": "Kameron Misner",
+    "position": "CF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-05T10:27:48.774643+00:00",
     "teamCode": "KC",
     "teamName": "Kansas City Royals",

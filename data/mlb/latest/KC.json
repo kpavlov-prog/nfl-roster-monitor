@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/118/roster?rosterType=active",
-  "checkedAt": "2026-07-10T11:19:03.970465+00:00",
+  "checkedAt": "2026-07-11T09:48:10.601681+00:00",
   "players": [
     {
       "name": "Alex Lange",
@@ -43,6 +43,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Eli Morgan",
+      "position": "P",
+      "number": "34",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Isaac Collins",
       "position": "LF",
       "number": "1",
@@ -64,23 +71,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jose Cuas",
-      "position": "P",
-      "number": "74",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Josh Rojas",
       "position": "3B",
       "number": "40",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Kameron Misner",
-      "position": "CF",
-      "number": "26",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -186,6 +179,13 @@
       "name": "Tyler Tolbert",
       "position": "2B",
       "number": "2",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Vinnie Pasquantino",
+      "position": "1B",
+      "number": "9",
       "status": "A",
       "source": "MLB Stats API"
     }

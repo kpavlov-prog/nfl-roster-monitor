@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=active",
-  "checkedAt": "2026-07-10T11:19:03.376401+00:00",
+  "checkedAt": "2026-07-11T09:48:09.988914+00:00",
   "players": [
     {
       "name": "AJ Blubaugh",
@@ -18,13 +18,6 @@
       "name": "Alimber Santa",
       "position": "P",
       "number": "72",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Braden Shewmake",
-      "position": "SS",
-      "number": "28",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -95,6 +88,13 @@
       "name": "Isaac Paredes",
       "position": "3B",
       "number": "15",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jeremy Peña",
+      "position": "SS",
+      "number": "3",
       "status": "A",
       "source": "MLB Stats API"
     },

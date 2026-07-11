@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-11T09:48:16.743188+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "added",
+    "playerName": "Antwone Kelly",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-11T09:48:16.743203+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "added",
+    "playerName": "Thomas Harrington",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-11T09:48:16.743208+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "removed",
+    "playerName": "Cam Sanders",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-11T09:48:16.743211+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "removed",
+    "playerName": "Hunter Stratton",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-09T11:25:16.031248+00:00",
     "teamCode": "PIT",
     "teamName": "Pittsburgh Pirates",
