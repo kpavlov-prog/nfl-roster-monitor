@@ -278,7 +278,7 @@ function renderChanges(){
     return;
   }
 
-  box.innerHTML=visibleChanges.slice(0,20).map((c,index)=>`
+  box.innerHTML=visibleChanges.map((c,index)=>`
     <div class="change-item">
       <b>${c.teamName||c.teamCode}: ${c.playerName}</b>
       <div class="meta">${c.type} | ${c.oldValue||"-"} → ${c.newValue||"-"}</div>
