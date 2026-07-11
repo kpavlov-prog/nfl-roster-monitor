@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-07-11T10:06:08.031627+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Celtics",
+    "type": "number changed",
+    "playerName": "Chris Cenac Jr.",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "12",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-11T10:06:08.607411+00:00",
+    "teamCode": "BKN",
+    "teamName": "Brooklyn Nets",
+    "type": "removed",
+    "playerName": "Malachi Smith",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-11T10:06:09.184184+00:00",
+    "teamCode": "CHA",
+    "teamName": "Charlotte Hornets",
+    "type": "added",
+    "playerName": "Mouhamadou Gueye",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-11T10:06:09.758946+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bulls",
+    "type": "removed",
+    "playerName": "Mouhamadou Gueye",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-11T10:06:10.904668+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Mavericks",
+    "type": "added",
+    "playerName": "Tarik Biberovic",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-11T10:06:21.526929+00:00",
+    "teamCode": "POR",
+    "teamName": "Portland Trail Blazers",
+    "type": "added",
+    "playerName": "Micah Potter",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-07-10T11:35:08.174217+00:00",
     "teamCode": "BOS",
     "teamName": "Boston Celtics",

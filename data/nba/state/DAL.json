@@ -3,7 +3,7 @@
   "team": "Dallas Mavericks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/DAL/roster",
-  "checkedAt": "2026-07-10T11:35:11.193697+00:00",
+  "checkedAt": "2026-07-11T10:06:10.903785+00:00",
   "players": [
     {
       "name": "Brandon Williams",
@@ -128,6 +128,13 @@
       "name": "Sergio de Larrea",
       "position": "F",
       "number": "55",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Tarik Biberovic",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
