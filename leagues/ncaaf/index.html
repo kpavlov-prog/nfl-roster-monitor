@@ -290,6 +290,18 @@ function renderTeams(){
     `;
   }).join("");
 }
+function positionRank(pos){
+  const order={
+    QB:1,RB:2,FB:3,WR:4,TE:5,
+    OL:6,OT:6,OG:6,C:6,
+    DL:7,DE:7,DT:7,
+    LB:8,ILB:8,OLB:8,
+    DB:9,CB:9,S:9,SAF:9,
+    PK:10,K:10,P:11,LS:12
+  };
+
+  return order[String(pos||"").toUpperCase()] || 99;
+}
 
 function renderSelectedTeam(){
   const roster=rosters[selectedCode];
@@ -300,13 +312,27 @@ function renderSelectedTeam(){
   }
 
   const q=document.getElementById("searchBox").value.trim().toLowerCase();
+  const selectedPosition=document.getElementById("positionFilter")?.value || "ALL";
 
-  const players=(roster.players||[]).filter(p=>
-    !q || String(p.name||"").toLowerCase().includes(q)
-  );
+  let players=(roster.players||[]).filter(p=>{
+    const matchesSearch=!q || String(p.name||"").toLowerCase().includes(q);
+    const matchesPosition=selectedPosition==="ALL" || String(p.position||"").toUpperCase()===selectedPosition;
+    return matchesSearch && matchesPosition;
+  });
+
+  players=players.sort((a,b)=>{
+    const rankDiff=positionRank(a.position)-positionRank(b.position);
+    if(rankDiff!==0)return rankDiff;
+    return String(a.name||"").localeCompare(String(b.name||""));
+  });
 
   const row=statusRows.find(r=>r.teamCode===selectedCode)||{};
   const logo=roster.logo||row.logo||"";
+
+  const positions=[...new Set((roster.players||[])
+    .map(p=>String(p.position||"").toUpperCase())
+    .filter(Boolean)
+  )].sort((a,b)=>positionRank(a)-positionRank(b)||a.localeCompare(b));
 
   document.getElementById("selectedTitle").innerHTML=`
     <img src="${logo}" class="team-logo" style="vertical-align:middle;margin-right:10px;">
@@ -317,6 +343,16 @@ function renderSelectedTeam(){
     <div class="meta">Source: ${roster.source||"ESPN College Football API"}</div>
     <div class="meta">Players shown: ${players.length}</div>
     <div class="meta">Last checked: ${gmt(roster.checkedAt)}</div>
+
+    <div class="filter-row">
+      <select id="positionFilter" onchange="renderSelectedTeam()">
+        <option value="ALL">All positions</option>
+        ${positions.map(pos=>`
+          <option value="${pos}" ${selectedPosition===pos?"selected":""}>${pos}</option>
+        `).join("")}
+      </select>
+    </div>
+
     <hr>
     <h3>Roster</h3>
     ${
