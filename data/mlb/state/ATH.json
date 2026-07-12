@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-07-11T09:48:15.517097+00:00",
+  "checkedAt": "2026-07-12T10:00:42.469281+00:00",
   "players": [
     {
       "name": "Aaron Civale",
@@ -18,6 +18,13 @@
       "name": "Alika Williams",
       "position": "SS",
       "number": "12",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brian Serven",
+      "position": "C",
+      "number": "10",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,13 +172,6 @@
       "name": "Mason Barnett",
       "position": "P",
       "number": "63",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Nick Kurtz",
-      "position": "1B",
-      "number": "16",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/142/roster?rosterType=active",
-  "checkedAt": "2026-07-11T09:48:13.672652+00:00",
+  "checkedAt": "2026-07-12T10:00:40.870963+00:00",
   "players": [
     {
       "name": "Alan Roden",
@@ -46,13 +46,6 @@
       "name": "Brooks Lee",
       "position": "SS",
       "number": "22",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Eric Orze",
-      "position": "P",
-      "number": "19",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -137,6 +130,13 @@
       "name": "Taylor Rogers",
       "position": "P",
       "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tommy Nance",
+      "position": "P",
+      "number": "35",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-07-11T09:48:05.678707+00:00",
+  "checkedAt": "2026-07-12T10:00:33.945519+00:00",
   "players": [
     {
       "name": "Andruw Monasterio",
@@ -25,13 +25,6 @@
       "name": "Aroldis Chapman",
       "position": "P",
       "number": "44",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brett Harris",
-      "position": "3B",
-      "number": "25",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -67,6 +60,13 @@
       "name": "Danny Coulombe",
       "position": "P",
       "number": "67",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Eduardo Rivera",
+      "position": "P",
+      "number": "99",
       "status": "A",
       "source": "MLB Stats API"
     },

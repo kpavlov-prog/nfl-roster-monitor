@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-07-11T09:48:16.742076+00:00",
+  "checkedAt": "2026-07-12T10:00:43.560809+00:00",
   "players": [
     {
       "name": "Antwone Kelly",
@@ -18,6 +18,13 @@
       "name": "Billy Cook",
       "position": "RF",
       "number": "25",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brandon Eisert",
+      "position": "P",
+      "number": "14",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -92,9 +99,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jack Brannigan",
-      "position": "SS",
-      "number": "76",
+      "name": "Jacob Gonzalez",
+      "position": "1B",
+      "number": "26",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -148,6 +155,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Noah Murdock",
+      "position": "P",
+      "number": "58",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Paul Skenes",
       "position": "P",
       "number": "30",
@@ -165,13 +179,6 @@
       "name": "Ryan O'Hearn",
       "position": "RF",
       "number": "29",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Thomas Harrington",
-      "position": "P",
-      "number": "53",
       "status": "A",
       "source": "MLB Stats API"
     },
