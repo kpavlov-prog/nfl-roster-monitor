@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=active",
-  "checkedAt": "2026-07-12T10:00:40.336659+00:00",
+  "checkedAt": "2026-07-13T11:28:21.559037+00:00",
   "players": [
     {
       "name": "Aaron Ashby",
@@ -25,6 +25,13 @@
       "name": "Andrew Vaughn",
       "position": "1B",
       "number": "28",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Braden Shewmake",
+      "position": "SS",
+      "number": "13",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -85,13 +92,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Garrett Stallings",
-      "position": "P",
-      "number": "31",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Gary Sánchez",
       "position": "C",
       "number": "99",
@@ -102,13 +102,6 @@
       "name": "Grant Anderson",
       "position": "P",
       "number": "56",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Greg Jones",
-      "position": "LF",
-      "number": "14",
       "status": "A",
       "source": "MLB Stats API"
     },

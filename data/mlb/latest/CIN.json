@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=active",
-  "checkedAt": "2026-07-12T10:00:35.547821+00:00",
+  "checkedAt": "2026-07-13T11:28:16.753541+00:00",
   "players": [
     {
       "name": "Andrew Abbott",
@@ -39,6 +39,13 @@
       "name": "Chase Burns",
       "position": "P",
       "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Chase Petty",
+      "position": "P",
+      "number": "61",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -116,13 +123,6 @@
       "name": "Nathaniel Lowe",
       "position": "DH",
       "number": "31",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Nick Lodolo",
-      "position": "P",
-      "number": "40",
       "status": "A",
       "source": "MLB Stats API"
     },
