@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-14T10:26:32.472608+00:00",
+    "teamCode": "UTAH",
+    "teamName": "Utah Jazz",
+    "type": "number changed",
+    "playerName": "Darryn Peterson",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "22",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-14T10:26:32.472618+00:00",
+    "teamCode": "UTAH",
+    "teamName": "Utah Jazz",
+    "type": "removed",
+    "playerName": "Hayden Gray",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-14T10:26:32.472621+00:00",
+    "teamCode": "UTAH",
+    "teamName": "Utah Jazz",
+    "type": "removed",
+    "playerName": "Kevin Love",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-10T11:35:24.015721+00:00",
     "teamCode": "UTAH",
     "teamName": "Utah Jazz",

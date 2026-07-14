@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-14T10:26:25.213469+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Timberwolves",
+    "type": "added",
+    "playerName": "Trey Lyles",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-14T10:26:25.213476+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Timberwolves",
+    "type": "removed",
+    "playerName": "Joe Ingles",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-03T11:18:20.047141+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Timberwolves",

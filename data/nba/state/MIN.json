@@ -3,7 +3,7 @@
   "team": "Minnesota Timberwolves",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIN/roster",
-  "checkedAt": "2026-07-13T11:44:34.523439+00:00",
+  "checkedAt": "2026-07-14T10:26:25.212481+00:00",
   "players": [
     {
       "name": "Anthony Edwards",
@@ -69,13 +69,6 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Joe Ingles",
-      "position": "F",
-      "number": "7",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Josh Green",
       "position": "G",
       "number": "",
@@ -119,6 +112,13 @@
     },
     {
       "name": "Trey Kaufman-Renn",
+      "position": "F",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Trey Lyles",
       "position": "F",
       "number": "",
       "status": "ACTIVE",
