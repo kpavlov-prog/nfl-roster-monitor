@@ -3,7 +3,7 @@
   "team": "New York Giants",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-york-giants/roster",
-  "checkedAt": "2026-07-13T10:52:25.938919+00:00",
+  "checkedAt": "2026-07-14T09:49:32.062493+00:00",
   "players": [
     {
       "name": "Aaron Stinnie",
@@ -578,6 +578,14 @@
       "position": "CB",
       "number": "21",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Rico Payton",
+      "position": "CB",
+      "number": "36",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
