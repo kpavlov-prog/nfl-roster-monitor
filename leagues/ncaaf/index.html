@@ -4,7 +4,34 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>NCAAF Roster Monitor</title>
+.filter-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin:16px 0;
+}
 
+.position-filter{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    padding:6px 12px;
+    border-radius:20px;
+    background:#eef2ff;
+    border:1px solid #c7d2fe;
+    cursor:pointer;
+    font-weight:600;
+    user-select:none;
+    transition:.2s;
+}
+
+.position-filter:hover{
+    background:#dbeafe;
+}
+
+.position-filter input{
+    cursor:pointer;
+}
 <style>
 :root{
   --bg:#081226;--text:#111827;--muted:#64748b;--blue:#2563eb;--purple:#7c3aed;
