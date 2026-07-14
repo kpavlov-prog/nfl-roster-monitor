@@ -351,14 +351,22 @@ function renderSelectedTeam(){
     <div class="meta">Players shown: ${players.length}</div>
     <div class="meta">Last checked: ${gmt(roster.checkedAt)}</div>
 
-    <div class="filter-row">
-      <select id="positionFilter" onchange="renderSelectedTeam()">
-        <option value="ALL">All positions</option>
-        ${positions.map(pos=>`
-          <option value="${pos}" ${selectedPosition===pos?"selected":""}>${pos}</option>
-        `).join("")}
-      </select>
-    </div>
+  <div class="filter-row">
+  
+    ${positions.map(pos=>`
+      <label class="position-filter">
+        <input
+          type="checkbox"
+          class="positionCheck"
+          value="${pos}"
+          ${selectedPositions.includes(pos) ? "checked" : ""}
+          onchange="renderSelectedTeam()"
+        >
+        ${pos}
+      </label>
+    `).join("")}
+  
+  </div>
 
     <hr>
     <h3>Roster</h3>
