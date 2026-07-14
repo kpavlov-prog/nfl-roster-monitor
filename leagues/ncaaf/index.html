@@ -312,11 +312,18 @@ function renderSelectedTeam(){
   }
 
   const q=document.getElementById("searchBox").value.trim().toLowerCase();
-  const selectedPosition=document.getElementById("positionFilter")?.value || "ALL";
-
+  const selectedPositions=[...document.querySelectorAll(".positionCheck:checked")]
+    .map(c=>c.value);
+  
   let players=(roster.players||[]).filter(p=>{
-    const matchesSearch=!q || String(p.name||"").toLowerCase().includes(q);
-    const matchesPosition=selectedPosition==="ALL" || String(p.position||"").toUpperCase()===selectedPosition;
+  
+    const matchesSearch =
+      !q || String(p.name||"").toLowerCase().includes(q);
+  
+    const matchesPosition =
+      selectedPositions.length===0 ||
+      selectedPositions.includes(String(p.position||"").toUpperCase());
+  
     return matchesSearch && matchesPosition;
   });
 
