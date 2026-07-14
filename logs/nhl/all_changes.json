@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-14T10:15:34.424295+00:00",
+    "teamCode": "SJS",
+    "teamName": "San Jose Sharks",
+    "type": "number changed",
+    "playerName": "Eric Comrie",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "1",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-14T10:15:34.424303+00:00",
+    "teamCode": "SJS",
+    "teamName": "San Jose Sharks",
+    "type": "number changed",
+    "playerName": "Jacob Trouba",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "65",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-07-12T10:06:51.911036+00:00",
     "teamCode": "STL",
     "teamName": "St. Louis Blues",
