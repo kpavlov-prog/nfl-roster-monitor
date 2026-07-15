@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-07-14T10:10:17.763714+00:00",
+  "checkedAt": "2026-07-15T10:15:17.087842+00:00",
   "players": [
     {
       "name": "Andruw Monasterio",
@@ -85,6 +85,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jahmai Jones",
+      "position": "OF",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jake Bennett",
       "position": "P",
       "number": "64",
@@ -116,13 +123,6 @@
       "name": "Masataka Yoshida",
       "position": "DH",
       "number": "7",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Nate Eaton",
-      "position": "OF",
-      "number": "18",
       "status": "A",
       "source": "MLB Stats API"
     },
