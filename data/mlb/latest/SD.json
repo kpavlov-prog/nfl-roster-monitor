@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=active",
-  "checkedAt": "2026-07-15T10:15:28.535340+00:00",
+  "checkedAt": "2026-07-16T10:20:51.448598+00:00",
   "players": [
     {
       "name": "Adrian Morejon",
@@ -74,6 +74,13 @@
       "name": "Jase Bowen",
       "position": "RF",
       "number": "4",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jhony Brito",
+      "position": "P",
+      "number": "76",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,13 +172,6 @@
       "name": "Walker Buehler",
       "position": "P",
       "number": "10",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Wandy Peralta",
-      "position": "P",
-      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },

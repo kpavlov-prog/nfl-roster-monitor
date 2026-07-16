@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-07-15T10:15:32.714394+00:00",
+  "checkedAt": "2026-07-16T10:20:55.717970+00:00",
   "players": [
     {
       "name": "Abimelec Ortiz",
@@ -71,13 +71,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Drew Millas",
-      "position": "C",
-      "number": "14",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Dylan Crews",
       "position": "RF",
       "number": "3",
@@ -137,6 +130,13 @@
       "name": "Luis García Jr.",
       "position": "1B",
       "number": "2",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Max Kranick",
+      "position": "P",
+      "number": "35",
       "status": "A",
       "source": "MLB Stats API"
     },

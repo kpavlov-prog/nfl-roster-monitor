@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-07-15T10:15:26.754424+00:00",
+  "checkedAt": "2026-07-16T10:20:49.620863+00:00",
   "players": [
-    {
-      "name": "Aaron Civale",
-      "position": "P",
-      "number": "45",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Alika Williams",
       "position": "SS",
@@ -22,9 +15,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Brian Serven",
-      "position": "C",
-      "number": "10",
+      "name": "Brady Basso",
+      "position": "P",
+      "number": "66",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -39,6 +32,13 @@
       "name": "Colby Thomas",
       "position": "RF",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Donovan Walton",
+      "position": "3B",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -113,13 +113,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Joey Meneses",
-      "position": "1B",
-      "number": "13",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jonah Heim",
       "position": "C",
       "number": "15",
@@ -169,13 +162,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Mason Barnett",
-      "position": "P",
-      "number": "63",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Shea Langeliers",
       "position": "C",
       "number": "23",
@@ -186,6 +172,13 @@
       "name": "Tyler Soderstrom",
       "position": "LF",
       "number": "21",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yunior Tur",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     }
