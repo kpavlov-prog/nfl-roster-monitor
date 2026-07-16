@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-16T09:59:09.483389+00:00",
+    "teamCode": "BUF",
+    "teamName": "Buffalo Bills",
+    "type": "added",
+    "playerName": "Da'Metrius Weatherspoon",
+    "position": "OT",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-16T09:59:09.483541+00:00",
+    "teamCode": "BUF",
+    "teamName": "Buffalo Bills",
+    "type": "removed",
+    "playerName": "De'Metrius Weatherspoon",
+    "position": "OT",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-16T09:59:12.495143+00:00",
+    "teamCode": "CAR",
+    "teamName": "Carolina Panthers",
+    "type": "removed",
+    "playerName": "Will Grier",
+    "position": "QB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-07-15T09:52:34.278983+00:00",
     "teamCode": "BUF",
     "teamName": "Buffalo Bills",
