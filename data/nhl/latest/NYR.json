@@ -3,7 +3,7 @@
   "team": "New York Rangers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/NYR/current",
-  "checkedAt": "2026-07-15T10:19:52.382541+00:00",
+  "checkedAt": "2026-07-16T10:25:37.389409+00:00",
   "players": [
     {
       "name": "Adam Fox",
@@ -30,13 +30,6 @@
       "name": "Braden Schneider",
       "position": "D",
       "number": "4",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Dennis Cholowski",
-      "position": "D",
-      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -71,7 +64,7 @@
     {
       "name": "J.T. Miller",
       "position": "C",
-      "number": "8",
+      "number": "10",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -85,21 +78,21 @@
     {
       "name": "Joe Veleno",
       "position": "C",
-      "number": "",
+      "number": "90",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
     {
       "name": "Joonas Korpisalo",
       "position": "G",
-      "number": "",
+      "number": "70",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
     {
       "name": "Marcus Pettersson",
       "position": "D",
-      "number": "",
+      "number": "26",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -134,21 +127,21 @@
     {
       "name": "Oliver Bjorkstrand",
       "position": "R",
-      "number": "",
+      "number": "28",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
     {
       "name": "Pavel Dorofeyev",
-      "position": "L",
-      "number": "",
+      "position": "R",
+      "number": "16",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
     {
       "name": "Sean Durzi",
       "position": "D",
-      "number": "",
+      "number": "5",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
