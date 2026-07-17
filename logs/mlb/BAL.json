@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-17T10:11:34.425342+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Orioles",
+    "type": "added",
+    "playerName": "Christian Encarnacion-Strand",
+    "position": "1B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-17T10:11:34.425355+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Orioles",
+    "type": "removed",
+    "playerName": "Blaze Alexander",
+    "position": "3B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-14T10:10:17.229917+00:00",
     "teamCode": "BAL",
     "teamName": "Baltimore Orioles",

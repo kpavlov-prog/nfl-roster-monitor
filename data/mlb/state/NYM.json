@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-07-16T10:20:48.383775+00:00",
+  "checkedAt": "2026-07-17T10:11:43.813475+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -148,6 +148,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Marcus Semien",
+      "position": "2B",
+      "number": "10",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Nolan McLean",
       "position": "P",
       "number": "26",
@@ -179,13 +186,6 @@
       "name": "Zach Thornton",
       "position": "P",
       "number": "49",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Zack Short",
-      "position": "SS",
-      "number": "40",
       "status": "A",
       "source": "MLB Stats API"
     }

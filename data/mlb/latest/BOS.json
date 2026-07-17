@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-07-16T10:20:39.402122+00:00",
+  "checkedAt": "2026-07-17T10:11:35.049841+00:00",
   "players": [
     {
       "name": "Andruw Monasterio",
@@ -81,13 +81,6 @@
       "name": "Greg Weissert",
       "position": "P",
       "number": "57",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jahmai Jones",
-      "position": "OF",
-      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
