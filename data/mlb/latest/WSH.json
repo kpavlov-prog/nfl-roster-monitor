@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-07-17T10:11:51.264280+00:00",
+  "checkedAt": "2026-07-18T09:44:35.393592+00:00",
   "players": [
-    {
-      "name": "Abimelec Ortiz",
-      "position": "1B",
-      "number": "81",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Andrew Alvarez",
       "position": "P",
@@ -81,6 +74,13 @@
       "name": "Foster Griffin",
       "position": "P",
       "number": "22",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Harry Ford",
+      "position": "C",
+      "number": "17",
       "status": "A",
       "source": "MLB Stats API"
     },

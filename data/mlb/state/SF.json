@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-07-17T10:11:47.529966+00:00",
+  "checkedAt": "2026-07-18T09:44:32.196704+00:00",
   "players": [
     {
       "name": "Adrian Houser",
@@ -43,6 +43,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Daniel Susac",
+      "position": "C",
+      "number": "6",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Drew Cavanaugh",
       "position": "C",
       "number": "61",
@@ -60,13 +67,6 @@
       "name": "Dylan Smith",
       "position": "P",
       "number": "66",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Eric Haase",
-      "position": "C",
-      "number": "18",
       "status": "A",
       "source": "MLB Stats API"
     },

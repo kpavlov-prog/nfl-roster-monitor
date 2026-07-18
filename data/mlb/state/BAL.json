@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=active",
-  "checkedAt": "2026-07-17T10:11:34.424448+00:00",
+  "checkedAt": "2026-07-18T09:44:21.004656+00:00",
   "players": [
     {
       "name": "Adley Rutschman",
@@ -39,6 +39,13 @@
       "name": "Brandon Young",
       "position": "P",
       "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cam Sanders",
+      "position": "P",
+      "number": "73",
       "status": "A",
       "source": "MLB Stats API"
     },

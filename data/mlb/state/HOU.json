@@ -5,19 +5,12 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=active",
-  "checkedAt": "2026-07-17T10:11:39.430096+00:00",
+  "checkedAt": "2026-07-18T09:44:25.274238+00:00",
   "players": [
     {
       "name": "AJ Blubaugh",
       "position": "P",
       "number": "69",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brice Matthews",
-      "position": "CF",
-      "number": "0",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -106,9 +99,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Kai-Wei Teng",
+      "position": "P",
+      "number": "17",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "LaMonte Wade Jr.",
       "position": "LF",
       "number": "31",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Lucas Spence",
+      "position": "OF",
+      "number": "28",
       "status": "A",
       "source": "MLB Stats API"
     },
