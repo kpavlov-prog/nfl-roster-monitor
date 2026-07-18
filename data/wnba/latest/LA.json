@@ -3,7 +3,7 @@
   "team": "Los Angeles Sparks",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/LA/roster",
-  "checkedAt": "2026-07-17T10:48:53.729822+00:00",
+  "checkedAt": "2026-07-18T10:19:47.247359+00:00",
   "players": [
     {
       "name": "Alissa Pili",
@@ -93,6 +93,13 @@
       "name": "Rae Burrell",
       "position": "G",
       "number": "12",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Tonie Morgan",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     }
