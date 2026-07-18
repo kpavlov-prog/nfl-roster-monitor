@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-18T09:16:31.910011+00:00",
+    "teamCode": "CAR",
+    "teamName": "Carolina Panthers",
+    "type": "added",
+    "playerName": "Brady Christensen",
+    "position": "OT",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-18T09:16:55.485101+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Texans",
+    "type": "status changed",
+    "playerName": "Febechi Nwaiwu",
+    "position": "G",
+    "oldValue": "UDF",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-18T09:17:20.059818+00:00",
+    "teamCode": "NE",
+    "teamName": "New England Patriots",
+    "type": "removed",
+    "playerName": "Travis Shaw",
+    "position": "DT",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-18T09:17:35.112174+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco 49ers",
+    "type": "removed",
+    "playerName": "Zach Thomas",
+    "position": "OT",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-16T09:59:09.483389+00:00",
     "teamCode": "BUF",
     "teamName": "Buffalo Bills",
