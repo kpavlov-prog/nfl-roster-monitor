@@ -3,7 +3,7 @@
   "team": "Vancouver Canucks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/VAN/current",
-  "checkedAt": "2026-07-17T10:17:37.526219+00:00",
+  "checkedAt": "2026-07-18T09:55:10.396660+00:00",
   "players": [
     {
       "name": "Aatu Räty",
@@ -15,7 +15,7 @@
     {
       "name": "Brendan Gallagher",
       "position": "R",
-      "number": "",
+      "number": "7",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -71,7 +71,7 @@
     {
       "name": "Jamie Oleksiak",
       "position": "D",
-      "number": "",
+      "number": "4",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -126,8 +126,8 @@
     },
     {
       "name": "Paul Cotter",
-      "position": "C",
-      "number": "",
+      "position": "L",
+      "number": "47",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
