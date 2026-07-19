@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-19T10:02:02.451668+00:00",
+    "teamCode": "ATH",
+    "teamName": "Athletics",
+    "type": "added",
+    "playerName": "Geoff Hartlieb",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-19T10:02:02.451679+00:00",
+    "teamCode": "ATH",
+    "teamName": "Athletics",
+    "type": "position changed",
+    "playerName": "Joshua Kuroda-Grauer",
+    "position": "3B",
+    "oldValue": "SS",
+    "newValue": "3B",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-19T10:02:02.451686+00:00",
+    "teamCode": "ATH",
+    "teamName": "Athletics",
+    "type": "removed",
+    "playerName": "Justin Sterner",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-18T09:44:30.063962+00:00",
     "teamCode": "ATH",
     "teamName": "Athletics",

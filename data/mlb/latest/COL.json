@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=active",
-  "checkedAt": "2026-07-18T09:44:24.212278+00:00",
+  "checkedAt": "2026-07-19T10:01:55.788736+00:00",
   "players": [
     {
       "name": "Antonio Senzatela",
@@ -78,13 +78,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jeff Criswell",
-      "position": "P",
-      "number": "46",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jimmy Herget",
       "position": "P",
       "number": "44",
@@ -151,6 +144,13 @@
       "name": "Tanner Gordon",
       "position": "P",
       "number": "29",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tomoyuki Sugano",
+      "position": "P",
+      "number": "11",
       "status": "A",
       "source": "MLB Stats API"
     },

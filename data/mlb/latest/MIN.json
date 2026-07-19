@@ -5,11 +5,11 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/142/roster?rosterType=active",
-  "checkedAt": "2026-07-18T09:44:28.470035+00:00",
+  "checkedAt": "2026-07-19T10:02:00.659824+00:00",
   "players": [
     {
       "name": "Alan Roden",
-      "position": "LF",
+      "position": "RF",
       "number": "18",
       "status": "A",
       "source": "MLB Stats API"
@@ -114,7 +114,7 @@
     },
     {
       "name": "Ryan Kreidler",
-      "position": "CF",
+      "position": "SS",
       "number": "5",
       "status": "A",
       "source": "MLB Stats API"

@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-07-18T09:44:34.861816+00:00",
+  "checkedAt": "2026-07-19T10:02:07.872520+00:00",
   "players": [
-    {
-      "name": "Adam Macko",
-      "position": "P",
-      "number": "64",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Alejandro Kirk",
       "position": "C",
@@ -43,9 +36,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "CJ Van Eyk",
+      "name": "Brendon Little",
       "position": "P",
-      "number": "58",
+      "number": "54",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -102,6 +95,13 @@
       "name": "Kevin Gausman",
       "position": "P",
       "number": "34",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Lazaro Estrada",
+      "position": "P",
+      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },

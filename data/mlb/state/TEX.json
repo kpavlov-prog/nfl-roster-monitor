@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-07-18T09:44:34.330665+00:00",
+  "checkedAt": "2026-07-19T10:02:07.267513+00:00",
   "players": [
     {
       "name": "Alejandro Osuna",
@@ -57,13 +57,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Emiliano Teodo",
-      "position": "P",
-      "number": "56",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Evan Carter",
       "position": "CF",
       "number": "32",
@@ -74,13 +67,6 @@
       "name": "Ezequiel Duran",
       "position": "SS",
       "number": "20",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Gavin Collyer",
-      "position": "P",
-      "number": "65",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -106,9 +92,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jakob Junis",
+      "position": "P",
+      "number": "16",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Joc Pederson",
       "position": "DH",
       "number": "3",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jose Corniell",
+      "position": "P",
+      "number": "59",
       "status": "A",
       "source": "MLB Stats API"
     },

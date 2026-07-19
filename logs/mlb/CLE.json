@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-19T10:01:55.159250+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Guardians",
+    "type": "position changed",
+    "playerName": "Gabriel Arias",
+    "position": "3B",
+    "oldValue": "SS",
+    "newValue": "3B",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-19T10:01:55.159261+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Guardians",
+    "type": "added",
+    "playerName": "Logan Allen",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-19T10:01:55.159267+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Guardians",
+    "type": "added",
+    "playerName": "Will Dion",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-19T10:01:55.159270+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Guardians",
+    "type": "removed",
+    "playerName": "Codi Heuer",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-10T11:19:01.579841+00:00",
     "teamCode": "CLE",
     "teamName": "Cleveland Guardians",

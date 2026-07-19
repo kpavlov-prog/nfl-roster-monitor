@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-19T10:01:50.899729+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "added",
+    "playerName": "Adrian Del Castillo",
+    "position": "DH",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-19T10:01:50.899750+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "removed",
+    "playerName": "Lourdes Gurriel Jr.",
+    "position": "LF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-18T09:44:19.937629+00:00",
     "teamCode": "ARI",
     "teamName": "Arizona Diamondbacks",

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active",
-  "checkedAt": "2026-07-18T09:44:23.680798+00:00",
+  "checkedAt": "2026-07-19T10:01:55.158243+00:00",
   "players": [
     {
       "name": "Austin Hedges",
@@ -32,13 +32,6 @@
       "name": "Chase DeLauter",
       "position": "RF",
       "number": "24",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Codi Heuer",
-      "position": "P",
-      "number": "50",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -79,7 +72,7 @@
     },
     {
       "name": "Gabriel Arias",
-      "position": "SS",
+      "position": "3B",
       "number": "13",
       "status": "A",
       "source": "MLB Stats API"
@@ -116,6 +109,13 @@
       "name": "Kyle Manzardo",
       "position": "1B",
       "number": "9",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Logan Allen",
+      "position": "P",
+      "number": "26",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -186,6 +186,13 @@
       "name": "Travis Bazzana",
       "position": "2B",
       "number": "37",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Will Dion",
+      "position": "P",
+      "number": "98",
       "status": "A",
       "source": "MLB Stats API"
     }

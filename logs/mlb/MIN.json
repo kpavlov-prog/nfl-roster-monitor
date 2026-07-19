@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-19T10:02:00.660742+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "position changed",
+    "playerName": "Alan Roden",
+    "position": "RF",
+    "oldValue": "LF",
+    "newValue": "RF",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-19T10:02:00.660754+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "position changed",
+    "playerName": "Ryan Kreidler",
+    "position": "SS",
+    "oldValue": "CF",
+    "newValue": "SS",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-07-12T10:00:40.871795+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Twins",

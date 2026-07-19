@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-19T10:01:56.409182+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Tigers",
+    "type": "position changed",
+    "playerName": "Ben Malgeri",
+    "position": "RF",
+    "oldValue": "CF",
+    "newValue": "RF",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-19T10:01:56.409192+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Tigers",
+    "type": "added",
+    "playerName": "Framber Valdez",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-19T10:01:56.409201+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Tigers",
+    "type": "removed",
+    "playerName": "Beau Brieske",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-18T09:44:24.744388+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Tigers",
