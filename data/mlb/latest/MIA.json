@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-07-19T10:01:59.421968+00:00",
+  "checkedAt": "2026-07-20T11:12:27.620074+00:00",
   "players": [
     {
       "name": "Brian Navarreto",
@@ -46,6 +46,13 @@
       "name": "Eury Pérez",
       "position": "P",
       "number": "39",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Graham Pauley",
+      "position": "3B",
+      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,13 +151,6 @@
       "name": "Pete Fairbanks",
       "position": "P",
       "number": "29",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Rece Hinds",
-      "position": "RF",
-      "number": "40",
       "status": "A",
       "source": "MLB Stats API"
     },

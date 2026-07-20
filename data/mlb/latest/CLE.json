@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active",
-  "checkedAt": "2026-07-19T10:01:55.158243+00:00",
+  "checkedAt": "2026-07-20T11:12:23.606427+00:00",
   "players": [
     {
       "name": "Austin Hedges",
@@ -109,13 +109,6 @@
       "name": "Kyle Manzardo",
       "position": "1B",
       "number": "9",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Logan Allen",
-      "position": "P",
-      "number": "26",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-20T11:12:36.292100+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Nationals",
+    "type": "added",
+    "playerName": "Matt Krook",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-20T11:12:36.292111+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Nationals",
+    "type": "removed",
+    "playerName": "PJ Poulin",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-18T09:44:35.394468+00:00",
     "teamCode": "WSH",
     "teamName": "Washington Nationals",

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-20T11:12:20.146439+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Braves",
+    "type": "added",
+    "playerName": "Elieser Hernández",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-20T11:12:20.146453+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Braves",
+    "type": "removed",
+    "playerName": "Owen Murphy",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-12T10:00:32.878565+00:00",
     "teamCode": "ATL",
     "teamName": "Atlanta Braves",

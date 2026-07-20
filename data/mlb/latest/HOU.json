@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=active",
-  "checkedAt": "2026-07-19T10:01:57.023127+00:00",
+  "checkedAt": "2026-07-20T11:12:25.345104+00:00",
   "players": [
     {
       "name": "AJ Blubaugh",
@@ -120,13 +120,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Nate Pearson",
-      "position": "P",
-      "number": "55",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Nick Allen",
       "position": "SS",
       "number": "20",
@@ -137,6 +130,13 @@
       "name": "Peter Lambert",
       "position": "P",
       "number": "38",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Raynel Delgado",
+      "position": "2B",
+      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },

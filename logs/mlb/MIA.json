@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-20T11:12:27.621302+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Marlins",
+    "type": "added",
+    "playerName": "Graham Pauley",
+    "position": "3B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-20T11:12:27.621318+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Marlins",
+    "type": "removed",
+    "playerName": "Rece Hinds",
+    "position": "RF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-13T11:28:21.026785+00:00",
     "teamCode": "MIA",
     "teamName": "Miami Marlins",
