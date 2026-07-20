@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-07-20T11:29:01.983337+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Hawks",
+    "type": "added",
+    "playerName": "Luguentz Dort",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-20T11:29:01.983346+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Hawks",
+    "type": "added",
+    "playerName": "Ryan Nembhard",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-20T11:29:01.983351+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Hawks",
+    "type": "removed",
+    "playerName": "Zaccharie Risacher",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-20T11:29:05.493145+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Mavericks",
+    "type": "added",
+    "playerName": "Zaccharie Risacher",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-20T11:29:05.493154+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Mavericks",
+    "type": "removed",
+    "playerName": "Ryan Nembhard",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-20T11:29:13.782707+00:00",
+    "teamCode": "OKC",
+    "teamName": "Oklahoma City Thunder",
+    "type": "removed",
+    "playerName": "Luguentz Dort",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-14T10:26:14.512314+00:00",
     "teamCode": "ATL",
     "teamName": "Atlanta Hawks",

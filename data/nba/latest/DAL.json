@@ -3,7 +3,7 @@
   "team": "Dallas Mavericks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/DAL/roster",
-  "checkedAt": "2026-07-19T10:15:56.555689+00:00",
+  "checkedAt": "2026-07-20T11:29:05.492026+00:00",
   "players": [
     {
       "name": "Caleb Martin",
@@ -97,13 +97,6 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Ryan Nembhard",
-      "position": "G",
-      "number": "9",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Santi Aldama",
       "position": "F",
       "number": "",
@@ -142,6 +135,13 @@
       "name": "Vsevolod Ishchenko",
       "position": "G",
       "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Zaccharie Risacher",
+      "position": "F",
+      "number": "10",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }
