@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=active",
-  "checkedAt": "2026-07-20T11:12:20.709125+00:00",
+  "checkedAt": "2026-07-21T10:33:16.005549+00:00",
   "players": [
-    {
-      "name": "Adley Rutschman",
-      "position": "C",
-      "number": "35",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Albert Suárez",
       "position": "P",
@@ -39,6 +32,13 @@
       "name": "Brandon Young",
       "position": "P",
       "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Chadwick Tromp",
+      "position": "C",
+      "number": "41",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-21T10:33:20.052683+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Tigers",
+    "type": "added",
+    "playerName": "Gleyber Torres",
+    "position": "2B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-21T10:33:20.052697+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Tigers",
+    "type": "removed",
+    "playerName": "Eduardo Valencia",
+    "position": "C",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-19T10:01:56.409182+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Tigers",

@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/112/roster?rosterType=active",
-  "checkedAt": "2026-07-20T11:12:21.882691+00:00",
+  "checkedAt": "2026-07-21T10:33:17.163312+00:00",
   "players": [
+    {
+      "name": "Aaron Civale",
+      "position": "P",
+      "number": "38",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Alex Bregman",
       "position": "3B",
@@ -50,13 +57,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Drew Pomeranz",
-      "position": "P",
-      "number": "47",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Gavin Hollowell",
       "position": "P",
       "number": "46",
@@ -74,6 +74,13 @@
       "name": "Jacob Webb",
       "position": "P",
       "number": "71",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jameson Taillon",
+      "position": "P",
+      "number": "50",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,13 +151,6 @@
       "name": "Pete Crow-Armstrong",
       "position": "CF",
       "number": "4",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Phil Maton",
-      "position": "P",
-      "number": "88",
       "status": "A",
       "source": "MLB Stats API"
     },

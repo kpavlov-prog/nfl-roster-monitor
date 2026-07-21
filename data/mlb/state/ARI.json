@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-07-20T11:12:19.571079+00:00",
+  "checkedAt": "2026-07-21T10:33:14.843611+00:00",
   "players": [
     {
       "name": "Adrian Del Castillo",
@@ -92,6 +92,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Juan Burgos",
+      "position": "P",
+      "number": "52",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Juan Morillo",
       "position": "P",
       "number": "62",
@@ -144,13 +151,6 @@
       "name": "Paul Sewald",
       "position": "P",
       "number": "38",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Philip Abner",
-      "position": "P",
-      "number": "50",
       "status": "A",
       "source": "MLB Stats API"
     },

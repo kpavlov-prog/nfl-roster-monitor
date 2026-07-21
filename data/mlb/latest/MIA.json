@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-07-20T11:12:27.620074+00:00",
+  "checkedAt": "2026-07-21T10:33:22.944301+00:00",
   "players": [
     {
       "name": "Brian Navarreto",
@@ -127,13 +127,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Max Meyer",
-      "position": "P",
-      "number": "23",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Michael Petersen",
       "position": "P",
       "number": "49",
@@ -186,6 +179,13 @@
       "name": "Xavier Edwards",
       "position": "2B",
       "number": "9",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Zach Brzykcy",
+      "position": "P",
+      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     }

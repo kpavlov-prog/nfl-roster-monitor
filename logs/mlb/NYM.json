@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-21T10:33:24.669304+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "added",
+    "playerName": "Luis Robert Jr.",
+    "position": "CF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-21T10:33:24.669315+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "removed",
+    "playerName": "Eric Wagaman",
+    "position": "1B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-20T11:12:29.370596+00:00",
     "teamCode": "NYM",
     "teamName": "New York Mets",
