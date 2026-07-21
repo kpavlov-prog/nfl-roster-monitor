@@ -3,7 +3,7 @@
   "team": "Dallas Mavericks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/DAL/roster",
-  "checkedAt": "2026-07-20T11:29:05.492026+00:00",
+  "checkedAt": "2026-07-21T10:51:20.476345+00:00",
   "players": [
     {
       "name": "Caleb Martin",
@@ -30,6 +30,13 @@
       "name": "Dereck Lively II",
       "position": "C",
       "number": "2",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Jett Howard",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -121,13 +128,6 @@
       "name": "Tobi Lawal",
       "position": "F",
       "number": "",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Tyler Smith",
-      "position": "F",
-      "number": "23",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

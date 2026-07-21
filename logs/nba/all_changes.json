@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-21T10:51:20.477607+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Mavericks",
+    "type": "added",
+    "playerName": "Jett Howard",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-21T10:51:20.477622+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Mavericks",
+    "type": "removed",
+    "playerName": "Tyler Smith",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-21T10:51:21.226351+00:00",
+    "teamCode": "DEN",
+    "teamName": "Denver Nuggets",
+    "type": "added",
+    "playerName": "Alpha Diallo",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-21T10:51:24.221715+00:00",
+    "teamCode": "IND",
+    "teamName": "Indiana Pacers",
+    "type": "removed",
+    "playerName": "Taelon Peter",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-20T11:29:01.983337+00:00",
     "teamCode": "ATL",
     "teamName": "Atlanta Hawks",
