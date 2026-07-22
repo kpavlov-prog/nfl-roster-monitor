@@ -3,7 +3,7 @@
   "team": "Chicago Blackhawks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/CHI/current",
-  "checkedAt": "2026-07-21T10:37:47.677591+00:00",
+  "checkedAt": "2026-07-22T10:37:49.485579+00:00",
   "players": [
     {
       "name": "Alex Vlasic",
@@ -43,14 +43,14 @@
     {
       "name": "Bowen Byram",
       "position": "D",
-      "number": "",
+      "number": "24",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
     {
       "name": "Cole Smith",
-      "position": "L",
-      "number": "",
+      "position": "R",
+      "number": "22",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -85,14 +85,14 @@
     {
       "name": "Ian Cole",
       "position": "D",
-      "number": "",
+      "number": "28",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
     {
       "name": "Jordan Greenway",
       "position": "L",
-      "number": "",
+      "number": "12",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -141,7 +141,7 @@
     {
       "name": "Sacha Boisvert",
       "position": "C",
-      "number": "12",
+      "number": "90",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
