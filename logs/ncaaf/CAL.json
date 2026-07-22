@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-22T11:21:50.221158+00:00",
+    "teamCode": "CAL",
+    "teamName": "California Golden Bears",
+    "type": "added",
+    "playerName": "Jimothy Lewis Jr.",
+    "position": "OL",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-22T11:21:50.221194+00:00",
+    "teamCode": "CAL",
+    "teamName": "California Golden Bears",
+    "type": "removed",
+    "playerName": "Jimothy LewisJr.",
+    "position": "OL",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-16T11:16:15.096543+00:00",
     "teamCode": "CAL",
     "teamName": "California Golden Bears",

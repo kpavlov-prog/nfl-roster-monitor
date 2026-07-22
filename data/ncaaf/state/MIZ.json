@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/142/roster?limit=100&page=1",
-  "checkedAt": "2026-07-21T11:25:00.437033+00:00",
+  "checkedAt": "2026-07-22T11:26:06.495946+00:00",
   "players": [
     {
       "name": "Adam Molitor",
@@ -22,8 +22,15 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Ahmod Billins",
+      "position": "DB",
+      "number": "35",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Aidan Dubbert",
-      "position": "DE",
+      "position": "EDGE",
       "number": "96",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -36,9 +43,9 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Beau Pribula",
+      "name": "Austin Simmons",
       "position": "QB",
-      "number": "9",
+      "number": "13",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -50,30 +57,23 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Brady Hultman",
+      "name": "Bobby Washington",
       "position": "LB",
+      "number": "16",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Brady Hultman",
+      "position": "RB",
       "number": "26",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
-      "name": "Bralen Henderson",
-      "position": "DT",
-      "number": "81",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Brandon Solis",
+      "name": "Braylon Ellison",
       "position": "OL",
-      "number": "78",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Brendon Haygood",
-      "position": "RB",
-      "number": "16",
+      "number": "69",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -87,7 +87,7 @@
     {
       "name": "Brett Le Blanc",
       "position": "LS",
-      "number": "51",
+      "number": "49",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -106,6 +106,27 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Brody Jones",
+      "position": "S",
+      "number": "32",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Brunno Reus",
+      "position": "PK",
+      "number": "40",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Brysen Wessell",
+      "position": "OL",
+      "number": "65",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "CJ Bass III",
       "position": "S",
       "number": "30",
@@ -113,23 +134,37 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Caleb Flagg",
-      "position": "S",
-      "number": "4",
+      "name": "CJ May",
+      "position": "EDGE",
+      "number": "97",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Caleb Goodie",
+      "position": "WR",
+      "number": "2",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
       "name": "Cameron Keys",
       "position": "CB",
-      "number": "29",
+      "number": "20",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
-      "name": "Cameron Pitts",
-      "position": "WR",
-      "number": "39",
+      "name": "Carter Stewart",
+      "position": "S",
+      "number": "30",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Cavan Tuley",
+      "position": "EDGE",
+      "number": "55",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -141,6 +176,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Cayden Lee",
+      "position": "WR",
+      "number": "19",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Chace Missouri",
       "position": "OL",
       "number": "63",
@@ -148,16 +190,16 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Connor Tollison",
-      "position": "C",
-      "number": "55",
+      "name": "Chris Graves Jr.",
+      "position": "CB",
+      "number": "1",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
-      "name": "Connor Weselman",
-      "position": "P",
-      "number": "45",
+      "name": "Colin Sorensen",
+      "position": "OL",
+      "number": "72",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -169,36 +211,22 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "DJ Jones",
+      "position": "OL",
+      "number": "78",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "DaMarion Fowlkes",
       "position": "WR",
-      "number": "11",
+      "number": "3",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
       "name": "Daeden Hopkins",
-      "position": "DE",
-      "number": "93",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Dakotah Terrell",
-      "position": "TE",
-      "number": "85",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Damon Wilson II",
-      "position": "DE",
-      "number": "8",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Daniel Blood",
-      "position": "WR",
+      "position": "EDGE",
       "number": "10",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -206,14 +234,35 @@
     {
       "name": "Dante McClellan",
       "position": "LB",
-      "number": "22",
+      "number": "9",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
       "name": "Darris Smith",
-      "position": "DE",
-      "number": "3",
+      "position": "EDGE",
+      "number": "19",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Demarcus Johnson",
+      "position": "EDGE",
+      "number": "52",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Derrick McBride II",
+      "position": "WR",
+      "number": "33",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Devyon Hill-Lomax",
+      "position": "WR",
+      "number": "12",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -232,6 +281,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Donta Simpson",
+      "position": "DT",
+      "number": "8",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Elias Williams",
       "position": "DT",
       "number": "91",
@@ -239,16 +295,9 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Essien Smith",
-      "position": "QB",
-      "number": "18",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Garrett Flesner",
-      "position": "LB",
-      "number": "49",
+      "name": "Elijah Dotson",
+      "position": "S",
+      "number": "22",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -256,6 +305,13 @@
       "name": "Gavin Hoffman",
       "position": "TE",
       "number": "88",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Gavin Sidwar",
+      "position": "QB",
+      "number": "7",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -274,23 +330,37 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Henry Fenuku",
-      "position": "OL",
-      "number": "54",
+      "name": "Isaac Jensen",
+      "position": "TE",
+      "number": "18",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
-      "name": "Henry McDermott",
-      "position": "OL",
-      "number": "65",
+      "name": "JJ Bush",
+      "position": "LB",
+      "number": "33",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "JaDon Blair",
+      "position": "S",
+      "number": "18",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Jabari Brady",
+      "position": "WR",
+      "number": "11",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
       "name": "Jack Lange",
       "position": "OL",
-      "number": "76",
+      "number": "75",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -309,6 +379,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Jaden Jones",
+      "position": "EDGE",
+      "number": "13",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Jadon Frick",
       "position": "DT",
       "number": "99",
@@ -316,9 +393,9 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Jalen Catalon",
-      "position": "S",
-      "number": "6",
+      "name": "Jahlil Florence",
+      "position": "CB",
+      "number": "21",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -337,13 +414,6 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "James Madison II",
-      "position": "WR",
-      "number": "4",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
       "name": "Jason Dowell",
       "position": "DT",
       "number": "92",
@@ -358,9 +428,9 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Javion Hilson",
-      "position": "DE",
-      "number": "16",
+      "name": "Jaxson Gates",
+      "position": "CB",
+      "number": "26",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -372,23 +442,23 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Jaylen Early",
-      "position": "OL",
-      "number": "50",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Jayven Richardson",
-      "position": "OL",
-      "number": "75",
+      "name": "Jayden McGregory",
+      "position": "S",
+      "number": "28",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
       "name": "Jeremiah Beasley",
       "position": "LB",
-      "number": "18",
+      "number": "6",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Jocques Felix",
+      "position": "DT",
+      "number": "93",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -407,13 +477,6 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Johnny Williams IV",
-      "position": "OL",
-      "number": "60",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
       "name": "Jordon Harris",
       "position": "TE",
       "number": "86",
@@ -421,9 +484,9 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Joshua Manning",
-      "position": "WR",
-      "number": "0",
+      "name": "Josh Atkins",
+      "position": "OL",
+      "number": "54",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -435,37 +498,51 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Justin Bodford",
-      "position": "DT",
-      "number": "55",
+      "name": "Kamauryn Morgan",
+      "position": "EDGE",
+      "number": "29",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
-      "name": "Kameron Eleby",
-      "position": "QB",
+      "name": "Karsten Fiene",
+      "position": "WR",
+      "number": "82",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Keenan Harris",
+      "position": "LB",
+      "number": "38",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Kenric Lanier II",
+      "position": "WR",
       "number": "17",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
-      "name": "Keiton Jones",
+      "name": "Kensley Louidor-Faustin",
+      "position": "S",
+      "number": "7",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Khalief Canty Jr.",
       "position": "OL",
-      "number": "68",
+      "number": "58",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
       "name": "Langden Kitchen",
-      "position": "DE",
+      "position": "EDGE",
       "number": "11",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Logan Muckey",
-      "position": "WR",
-      "number": "82",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -477,6 +554,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Luke Work",
+      "position": "OL",
+      "number": "51",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Maddux Hermestroff",
       "position": "S",
       "number": "32",
@@ -484,30 +568,37 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Malae Fonoti",
+      "position": "RB",
+      "number": "21",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Malik Bryant",
+      "position": "EDGE",
+      "number": "12",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Mark Hensley",
+      "position": "DT",
+      "number": "57",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Mark Shenouda",
+      "position": "P",
+      "number": "34",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Marquis Gracial",
       "position": "DT",
-      "number": "33",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Marquis Johnson",
-      "position": "WR",
-      "number": "2",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Marquise Davis",
-      "position": "RB",
-      "number": "7",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Marvin Burks Jr.",
-      "position": "S",
-      "number": "1",
+      "number": "3",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -519,9 +610,16 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Mose Phillips III",
-      "position": "S",
-      "number": "3",
+      "name": "Max Warner",
+      "position": "RB",
+      "number": "22",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Naeshaun Montgomery",
+      "position": "WR",
+      "number": "0",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -535,7 +633,7 @@
     {
       "name": "Nicholas Rodriguez",
       "position": "LB",
-      "number": "20",
+      "number": "5",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -543,6 +641,13 @@
       "name": "Nick DeLoach Jr.",
       "position": "CB",
       "number": "24",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Nick Evers",
+      "position": "QB",
+      "number": "10",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -555,22 +660,22 @@
     },
     {
       "name": "Oliver Robbins",
-      "position": "KR",
+      "position": "PK",
       "number": "48",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
-      "name": "Rico Merriweather",
-      "position": "S",
-      "number": "41",
+      "name": "Preston Hatfield",
+      "position": "RB",
+      "number": "28",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
-      "name": "Robert Meyer",
-      "position": "PK",
-      "number": "88",
+      "name": "Robert Woodyard Jr.",
+      "position": "LB",
+      "number": "0",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -578,20 +683,6 @@
       "name": "Ryan Jostes",
       "position": "OL",
       "number": "71",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Ryder Goodwin",
-      "position": "KR",
-      "number": "97",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Sam Horn",
-      "position": "QB",
-      "number": "21",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -617,37 +708,23 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Shamar McNeil",
-      "position": "CB",
-      "number": "26",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
       "name": "Shaun Terry II",
       "position": "WR",
-      "number": "8",
+      "number": "4",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
-      "name": "Sterling Webb",
+      "name": "Sione Laulea",
+      "position": "CB",
+      "number": "2",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Tajh Overton",
       "position": "DT",
-      "number": "10",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Tavorus Jones",
-      "position": "RB",
-      "number": "22",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Tommy Lock",
-      "position": "QB",
-      "number": "15",
+      "number": "90",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -661,7 +738,14 @@
     {
       "name": "Trajen Greco",
       "position": "S",
-      "number": "3",
+      "number": "4",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Trashundon Neal",
+      "position": "CB",
+      "number": "29",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -673,23 +757,30 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Triston Newson",
-      "position": "LB",
-      "number": "14",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Vince Brown II",
-      "position": "TE",
-      "number": "12",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
       "name": "Whit Hafer",
       "position": "OL",
       "number": "74",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Will Kemna",
+      "position": "OL",
+      "number": "55",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Xai'Shaun Edwards",
+      "position": "RB",
+      "number": "24",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Zach Owens",
+      "position": "OL",
+      "number": "52",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     }

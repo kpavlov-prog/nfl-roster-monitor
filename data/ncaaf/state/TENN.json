@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2633/roster?limit=100&page=1",
-  "checkedAt": "2026-07-21T11:27:50.620339+00:00",
+  "checkedAt": "2026-07-22T11:29:21.269035+00:00",
   "players": [
     {
       "name": "Amari Jefferson",
@@ -295,13 +295,6 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Jack Van Dorselaer",
-      "position": "TE",
-      "number": "3",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
       "name": "Jack-Henry Jakobik",
       "position": "WR",
       "number": "29",
@@ -396,13 +389,6 @@
       "name": "Jordan Burns",
       "position": "LB",
       "number": "11",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Jordan Ross",
-      "position": "DL",
-      "number": "29",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -655,13 +641,6 @@
       "name": "Wendell Moe Jr.",
       "position": "OL",
       "number": "75",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "William Satterwhite",
-      "position": "OL",
-      "number": "50",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     }

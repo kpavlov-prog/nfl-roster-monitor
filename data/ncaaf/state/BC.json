@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/103/roster?limit=100&page=1",
-  "checkedAt": "2026-07-21T11:20:51.748434+00:00",
+  "checkedAt": "2026-07-22T11:21:35.867019+00:00",
   "players": [
     {
       "name": "Alex DeGrieck",
@@ -540,6 +540,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Lawrence Iyalekhue",
+      "position": "OL",
+      "number": "73",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Luca Lombardo",
       "position": "PK",
       "number": "99",
@@ -557,6 +564,13 @@
       "name": "Makai Byerson",
       "position": "DL",
       "number": "91",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Marc Antunes Jr.",
+      "position": "OL",
+      "number": "74",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
