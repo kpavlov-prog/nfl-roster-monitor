@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-22T10:17:11.252548+00:00",
+    "teamCode": "IND",
+    "teamName": "Indianapolis Colts",
+    "type": "position changed",
+    "playerName": "Ben Nikkel",
+    "position": "WR",
+    "oldValue": "DB",
+    "newValue": "WR",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-22T10:17:11.252561+00:00",
+    "teamCode": "IND",
+    "teamName": "Indianapolis Colts",
+    "type": "added",
+    "playerName": "Blake Grupe",
+    "position": "K",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-07T10:48:10.024451+00:00",
     "teamCode": "IND",
     "teamName": "Indianapolis Colts",
