@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-07-21T10:33:22.363796+00:00",
+  "checkedAt": "2026-07-22T10:34:04.776477+00:00",
   "players": [
     {
       "name": "Alex Call",
@@ -39,6 +39,13 @@
       "name": "Brock Stewart",
       "position": "P",
       "number": "41",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Charlie Barnes",
+      "position": "P",
+      "number": "57",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -109,13 +116,6 @@
       "name": "Kyle Tucker",
       "position": "RF",
       "number": "23",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Landon Knack",
-      "position": "P",
-      "number": "96",
       "status": "A",
       "source": "MLB Stats API"
     },

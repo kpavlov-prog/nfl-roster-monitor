@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/142/roster?rosterType=active",
-  "checkedAt": "2026-07-21T10:33:24.091148+00:00",
+  "checkedAt": "2026-07-22T10:34:06.549827+00:00",
   "players": [
     {
       "name": "Alan Roden",
@@ -53,6 +53,13 @@
       "name": "Byron Buxton",
       "position": "CF",
       "number": "25",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jack Anderson",
+      "position": "P",
+      "number": "30",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,13 +172,6 @@
       "name": "Victor Caratini",
       "position": "C",
       "number": "37",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Woo-Suk Go",
-      "position": "P",
-      "number": "1",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-07-21T10:33:30.391606+00:00",
+  "checkedAt": "2026-07-22T10:34:13.040910+00:00",
   "players": [
     {
       "name": "Alejandro Osuna",
       "position": "LF",
       "number": "19",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Austin Wynns",
+      "position": "C",
+      "number": "38",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -106,13 +113,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jose Corniell",
-      "position": "P",
-      "number": "59",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Josh Jung",
       "position": "3B",
       "number": "6",
@@ -134,16 +134,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Kyle Higashioka",
-      "position": "C",
-      "number": "11",
+      "name": "MacKenzie Gore",
+      "position": "P",
+      "number": "1",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "MacKenzie Gore",
+      "name": "Marco Gonzales",
       "position": "P",
-      "number": "1",
+      "number": "50",
       "status": "A",
       "source": "MLB Stats API"
     },

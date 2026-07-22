@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-07-21T10:33:31.513407+00:00",
+  "checkedAt": "2026-07-22T10:34:14.209493+00:00",
   "players": [
     {
       "name": "Andrew Alvarez",
@@ -71,6 +71,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Eddy Yean",
+      "position": "P",
+      "number": "46",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Foster Griffin",
       "position": "P",
       "number": "22",
@@ -113,13 +120,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Justin Lawrence",
-      "position": "P",
-      "number": "44",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Keibert Ruiz",
       "position": "C",
       "number": "20",
@@ -144,6 +144,13 @@
       "name": "Max Kranick",
       "position": "P",
       "number": "35",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Miles Mikolas",
+      "position": "P",
+      "number": "36",
       "status": "A",
       "source": "MLB Stats API"
     },

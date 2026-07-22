@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-07-21T10:33:24.668173+00:00",
+  "checkedAt": "2026-07-22T10:34:07.129362+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -23,7 +23,7 @@
     },
     {
       "name": "Bo Bichette",
-      "position": "SS",
+      "position": "3B",
       "number": "19",
       "status": "A",
       "source": "MLB Stats API"
@@ -60,6 +60,13 @@
       "name": "Cionel Pérez",
       "position": "P",
       "number": "52",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Daniel Duarte",
+      "position": "P",
+      "number": "54",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,13 +179,6 @@
       "name": "Tyrone Taylor",
       "position": "CF",
       "number": "28",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Xzavion Curry",
-      "position": "P",
-      "number": "53",
       "status": "A",
       "source": "MLB Stats API"
     },

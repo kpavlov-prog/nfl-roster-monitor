@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-22T10:34:07.130234+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "position changed",
+    "playerName": "Bo Bichette",
+    "position": "3B",
+    "oldValue": "SS",
+    "newValue": "3B",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-22T10:34:07.130242+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "added",
+    "playerName": "Daniel Duarte",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-22T10:34:07.130249+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "removed",
+    "playerName": "Xzavion Curry",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-21T10:33:24.669304+00:00",
     "teamCode": "NYM",
     "teamName": "New York Mets",

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-07-21T10:33:14.843611+00:00",
+  "checkedAt": "2026-07-22T10:33:57.027166+00:00",
   "players": [
     {
       "name": "Adrian Del Castillo",
@@ -36,13 +36,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Drey Jameson",
-      "position": "P",
-      "number": "99",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Eduardo Rodriguez",
       "position": "P",
       "number": "57",
@@ -60,6 +53,13 @@
       "name": "Geraldo Perdomo",
       "position": "SS",
       "number": "2",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Gerardo Carrillo",
+      "position": "P",
+      "number": "68",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -92,13 +92,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Juan Burgos",
-      "position": "P",
-      "number": "52",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Juan Morillo",
       "position": "P",
       "number": "62",
@@ -116,6 +109,13 @@
       "name": "Kevin Ginkel",
       "position": "P",
       "number": "37",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kohl Drake",
+      "position": "P",
+      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },

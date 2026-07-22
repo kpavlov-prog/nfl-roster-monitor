@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-07-21T10:33:17.734249+00:00",
+  "checkedAt": "2026-07-22T10:34:00.066031+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -71,6 +71,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Edgar Quero",
+      "position": "C",
+      "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Erick Fedde",
       "position": "P",
       "number": "47",
@@ -95,13 +102,6 @@
       "name": "Junior Perez",
       "position": "CF",
       "number": "37",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Kyle Teel",
-      "position": "C",
-      "number": "8",
       "status": "A",
       "source": "MLB Stats API"
     },
