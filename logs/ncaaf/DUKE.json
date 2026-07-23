@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-23T11:22:17.984877+00:00",
+    "teamCode": "DUKE",
+    "teamName": "Duke Blue Devils",
+    "type": "added",
+    "playerName": "Dakota Quinonez",
+    "position": "DT",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-23T11:22:17.984947+00:00",
+    "teamCode": "DUKE",
+    "teamName": "Duke Blue Devils",
+    "type": "removed",
+    "playerName": "Dakota Quiñonez",
+    "position": "DT",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-22T11:22:39.375614+00:00",
     "teamCode": "DUKE",
     "teamName": "Duke Blue Devils",
