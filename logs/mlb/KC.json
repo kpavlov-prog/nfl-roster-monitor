@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-23T10:34:29.652692+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Royals",
+    "type": "added",
+    "playerName": "Andrew Velazquez",
+    "position": "SS",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-23T10:34:29.652706+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Royals",
+    "type": "position changed",
+    "playerName": "Tyler Tolbert",
+    "position": "SS",
+    "oldValue": "2B",
+    "newValue": "SS",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-23T10:34:29.652710+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Royals",
+    "type": "removed",
+    "playerName": "Bobby Witt Jr.",
+    "position": "SS",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-11T09:48:10.602757+00:00",
     "teamCode": "KC",
     "teamName": "Kansas City Royals",

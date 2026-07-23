@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=active",
-  "checkedAt": "2026-07-22T10:33:58.245076+00:00",
+  "checkedAt": "2026-07-23T10:34:24.803903+00:00",
   "players": [
     {
       "name": "Albert Suárez",
@@ -106,6 +106,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Johnathan Rodríguez",
+      "position": "RF",
+      "number": "62",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Kyle Bradish",
       "position": "P",
       "number": "38",
@@ -137,13 +144,6 @@
       "name": "Sam Huff",
       "position": "C",
       "number": "31",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Samuel Basallo",
-      "position": "C",
-      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },

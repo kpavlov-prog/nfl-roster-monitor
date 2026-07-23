@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-07-22T10:34:13.628679+00:00",
+  "checkedAt": "2026-07-23T10:34:38.752063+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -39,6 +39,13 @@
       "name": "Brendon Little",
       "position": "P",
       "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "CJ Van Eyk",
+      "position": "P",
+      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -78,13 +85,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jonatan Clase",
-      "position": "LF",
-      "number": "8",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Kazuma Okamoto",
       "position": "3B",
       "number": "7",
@@ -95,13 +95,6 @@
       "name": "Kevin Gausman",
       "position": "P",
       "number": "34",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Lazaro Estrada",
-      "position": "P",
-      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -186,6 +179,13 @@
       "name": "Vladimir Guerrero Jr.",
       "position": "1B",
       "number": "27",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yohendrick Piñango",
+      "position": "LF",
+      "number": "24",
       "status": "A",
       "source": "MLB Stats API"
     }

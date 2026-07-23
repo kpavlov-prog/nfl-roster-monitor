@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/118/roster?rosterType=active",
-  "checkedAt": "2026-07-22T10:34:03.608236+00:00",
+  "checkedAt": "2026-07-23T10:34:29.651857+00:00",
   "players": [
     {
       "name": "Alex Lange",
@@ -15,16 +15,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Beck Way",
-      "position": "P",
-      "number": "44",
+      "name": "Andrew Velazquez",
+      "position": "SS",
+      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Bobby Witt Jr.",
-      "position": "SS",
-      "number": "7",
+      "name": "Beck Way",
+      "position": "P",
+      "number": "44",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -177,7 +177,7 @@
     },
     {
       "name": "Tyler Tolbert",
-      "position": "2B",
+      "position": "SS",
       "number": "2",
       "status": "A",
       "source": "MLB Stats API"

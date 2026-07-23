@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-07-22T10:33:57.630753+00:00",
+  "checkedAt": "2026-07-23T10:34:24.260736+00:00",
   "players": [
     {
       "name": "Austin Riley",
@@ -99,13 +99,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "JR Ritchie",
-      "position": "P",
-      "number": "60",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jim Jarvis",
       "position": "SS",
       "number": "74",
@@ -123,6 +116,13 @@
       "name": "Jorge Mateo",
       "position": "SS",
       "number": "2",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Martín Pérez",
+      "position": "P",
+      "number": "33",
       "status": "A",
       "source": "MLB Stats API"
     },
