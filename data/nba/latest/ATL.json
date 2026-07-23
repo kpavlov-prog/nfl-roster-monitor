@@ -3,7 +3,7 @@
   "team": "Atlanta Hawks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/ATL/roster",
-  "checkedAt": "2026-07-22T10:52:48.211407+00:00",
+  "checkedAt": "2026-07-23T10:52:30.400739+00:00",
   "players": [
     {
       "name": "Aaron Wiggins",
@@ -72,6 +72,13 @@
       "name": "Jalen Johnson",
       "position": "F",
       "number": "1",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Jalen Wilson",
+      "position": "F",
+      "number": "22",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
