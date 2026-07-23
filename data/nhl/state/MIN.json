@@ -3,7 +3,7 @@
   "team": "Minnesota Wild",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/MIN/current",
-  "checkedAt": "2026-07-22T10:37:55.310124+00:00",
+  "checkedAt": "2026-07-23T10:38:53.030014+00:00",
   "players": [
     {
       "name": "Blake Coleman",
@@ -118,13 +118,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Maksim Shabanov",
-      "position": "R",
-      "number": "49",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Marcus Foligno",
       "position": "L",
       "number": "17",
@@ -142,6 +135,13 @@
       "name": "Matt Kiersted",
       "position": "D",
       "number": "26",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Maxim Shabanov",
+      "position": "R",
+      "number": "49",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

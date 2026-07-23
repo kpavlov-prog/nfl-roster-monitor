@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-23T10:39:05.582532+00:00",
+    "teamCode": "WPG",
+    "teamName": "Winnipeg Jets",
+    "type": "added",
+    "playerName": "Jack St. Ivany",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-23T10:39:05.582543+00:00",
+    "teamCode": "WPG",
+    "teamName": "Winnipeg Jets",
+    "type": "removed",
+    "playerName": "John St. Ivany",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-08T10:35:05.066254+00:00",
     "teamCode": "WPG",
     "teamName": "Winnipeg Jets",
