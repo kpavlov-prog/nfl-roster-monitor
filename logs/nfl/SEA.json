@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2026-07-24T10:09:57.806104+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Seahawks",
+    "type": "added",
+    "playerName": "Brandon Johnson DB ACT",
+    "position": "DB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-24T10:09:57.806117+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Seahawks",
+    "type": "number changed",
+    "playerName": "Charles Cross",
+    "position": "OT",
+    "oldValue": "5",
+    "newValue": "67",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-24T10:09:57.806142+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Seahawks",
+    "type": "removed",
+    "playerName": "Harrison Bryant",
+    "position": "TE",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  }
+]

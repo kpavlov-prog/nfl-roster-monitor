@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-24T10:09:37.020577+00:00",
+    "teamCode": "NE",
+    "teamName": "New England Patriots",
+    "type": "added",
+    "playerName": "Mitch Van Vooren TE",
+    "position": "TE",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-24T10:09:37.020590+00:00",
+    "teamCode": "NE",
+    "teamName": "New England Patriots",
+    "type": "added",
+    "playerName": "Riley Wilson",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-24T10:09:37.020598+00:00",
+    "teamCode": "NE",
+    "teamName": "New England Patriots",
+    "type": "removed",
+    "playerName": "Brock Lampe",
+    "position": "RB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-22T10:17:32.860889+00:00",
     "teamCode": "NE",
     "teamName": "New England Patriots",

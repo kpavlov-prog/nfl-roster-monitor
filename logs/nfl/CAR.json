@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-24T10:08:45.405579+00:00",
+    "teamCode": "CAR",
+    "teamName": "Carolina Panthers",
+    "type": "number changed",
+    "playerName": "Brady Christensen",
+    "position": "OT",
+    "oldValue": "78",
+    "newValue": "70",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-24T10:08:45.405605+00:00",
+    "teamCode": "CAR",
+    "teamName": "Carolina Panthers",
+    "type": "position changed",
+    "playerName": "Isaiah Smith",
+    "position": "DE",
+    "oldValue": "LB",
+    "newValue": "DE",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-24T10:08:45.405617+00:00",
+    "teamCode": "CAR",
+    "teamName": "Carolina Panthers",
+    "type": "number changed",
+    "playerName": "Maema Njongmeta",
+    "position": "LB",
+    "oldValue": "40",
+    "newValue": "45",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-24T10:08:45.405633+00:00",
+    "teamCode": "CAR",
+    "teamName": "Carolina Panthers",
+    "type": "removed",
+    "playerName": "Jaylon Guilbeau",
+    "position": "CB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-18T09:16:31.910011+00:00",
     "teamCode": "CAR",
     "teamName": "Carolina Panthers",

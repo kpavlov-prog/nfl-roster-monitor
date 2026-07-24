@@ -3,7 +3,7 @@
   "team": "Arizona Cardinals",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/arizona-cardinals/roster",
-  "checkedAt": "2026-07-23T10:12:28.030094+00:00",
+  "checkedAt": "2026-07-24T10:08:33.680566+00:00",
   "players": [
     {
       "name": "Andrew Billings",
@@ -81,7 +81,7 @@
       "name": "Carson Beck",
       "position": "QB",
       "number": "19",
-      "status": "UDF",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -131,6 +131,14 @@
       "number": "37",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Coziah Izzard",
+      "position": "DT",
+      "number": "75",
+      "status": "ACT",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -417,7 +425,7 @@
       "name": "Kaleb Proctor",
       "position": "DT",
       "number": "94",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
