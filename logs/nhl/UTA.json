@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-24T10:33:01.958022+00:00",
+    "teamCode": "UTA",
+    "teamName": "Utah Mammoth",
+    "type": "position changed",
+    "playerName": "Anders Lee",
+    "position": "L",
+    "oldValue": "C",
+    "newValue": "L",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-24T10:33:01.958030+00:00",
+    "teamCode": "UTA",
+    "teamName": "Utah Mammoth",
+    "type": "number changed",
+    "playerName": "Anders Lee",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "72",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-24T10:33:01.958041+00:00",
+    "teamCode": "UTA",
+    "teamName": "Utah Mammoth",
+    "type": "number changed",
+    "playerName": "Vincent Trocheck",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "16",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-07-07T11:24:16.337417+00:00",
     "teamCode": "UTA",
     "teamName": "Utah Mammoth",

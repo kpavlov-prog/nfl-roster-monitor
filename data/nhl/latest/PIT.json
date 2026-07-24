@@ -3,12 +3,12 @@
   "team": "Pittsburgh Penguins",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/PIT/current",
-  "checkedAt": "2026-07-23T10:38:58.606844+00:00",
+  "checkedAt": "2026-07-24T10:32:58.255585+00:00",
   "players": [
     {
       "name": "Andrei Kuzmenko",
       "position": "L",
-      "number": "",
+      "number": "10",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -50,7 +50,7 @@
     {
       "name": "Declan Carlile",
       "position": "D",
-      "number": "",
+      "number": "72",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -85,7 +85,7 @@
     {
       "name": "Hendrix Lapierre",
       "position": "C",
-      "number": "",
+      "number": "22",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -99,7 +99,7 @@
     {
       "name": "Kaedan Korczak",
       "position": "D",
-      "number": "",
+      "number": "6",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -113,7 +113,7 @@
     {
       "name": "Nicholas Robertson",
       "position": "L",
-      "number": "",
+      "number": "14",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -162,7 +162,7 @@
     {
       "name": "Trevor van Riemsdyk",
       "position": "D",
-      "number": "",
+      "number": "57",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }
