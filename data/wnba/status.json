@@ -2,7 +2,7 @@
   {
     "teamCode": "ATL",
     "teamName": "Atlanta Dream",
-    "checkedAt": "2026-07-23T11:12:06.656462+00:00",
+    "checkedAt": "2026-07-24T11:04:41.120013+00:00",
     "playerCount": 14,
     "lastChangeCount": 0,
     "lastError": "",
@@ -11,7 +11,7 @@
   {
     "teamCode": "CHI",
     "teamName": "Chicago Sky",
-    "checkedAt": "2026-07-23T11:12:07.226312+00:00",
+    "checkedAt": "2026-07-24T11:05:01.674259+00:00",
     "playerCount": 15,
     "lastChangeCount": 0,
     "lastError": "",
@@ -20,7 +20,7 @@
   {
     "teamCode": "CON",
     "teamName": "Connecticut Sun",
-    "checkedAt": "2026-07-23T11:12:07.862034+00:00",
+    "checkedAt": "2026-07-24T11:05:22.422375+00:00",
     "playerCount": 14,
     "lastChangeCount": 0,
     "lastError": "",
@@ -29,7 +29,7 @@
   {
     "teamCode": "DAL",
     "teamName": "Dallas Wings",
-    "checkedAt": "2026-07-23T11:12:08.538732+00:00",
+    "checkedAt": "2026-07-24T11:05:42.989512+00:00",
     "playerCount": 14,
     "lastChangeCount": 0,
     "lastError": "",
@@ -38,7 +38,7 @@
   {
     "teamCode": "GS",
     "teamName": "Golden State Valkyries",
-    "checkedAt": "2026-07-23T11:12:09.104539+00:00",
+    "checkedAt": "2026-07-24T11:06:03.540175+00:00",
     "playerCount": 15,
     "lastChangeCount": 0,
     "lastError": "",
@@ -47,7 +47,7 @@
   {
     "teamCode": "IND",
     "teamName": "Indiana Fever",
-    "checkedAt": "2026-07-23T11:12:09.678055+00:00",
+    "checkedAt": "2026-07-24T11:06:24.105628+00:00",
     "playerCount": 13,
     "lastChangeCount": 0,
     "lastError": "",
@@ -56,16 +56,16 @@
   {
     "teamCode": "LV",
     "teamName": "Las Vegas Aces",
-    "checkedAt": "2026-07-23T11:12:10.510323+00:00",
-    "playerCount": 14,
+    "checkedAt": "2026-07-24T11:06:49.661638+00:00",
+    "playerCount": 0,
     "lastChangeCount": 0,
-    "lastError": "",
+    "lastError": "HTTPSConnectionPool(host='site.api.espn.com', port=443): Read timed out. (read timeout=25)",
     "source": "ESPN WNBA API"
   },
   {
     "teamCode": "LA",
     "teamName": "Los Angeles Sparks",
-    "checkedAt": "2026-07-23T11:12:11.135035+00:00",
+    "checkedAt": "2026-07-24T11:07:10.206269+00:00",
     "playerCount": 14,
     "lastChangeCount": 0,
     "lastError": "",
@@ -74,7 +74,7 @@
   {
     "teamCode": "MIN",
     "teamName": "Minnesota Lynx",
-    "checkedAt": "2026-07-23T11:12:11.703526+00:00",
+    "checkedAt": "2026-07-24T11:07:30.753337+00:00",
     "playerCount": 13,
     "lastChangeCount": 0,
     "lastError": "",
@@ -83,34 +83,34 @@
   {
     "teamCode": "NY",
     "teamName": "New York Liberty",
-    "checkedAt": "2026-07-23T11:12:12.273723+00:00",
-    "playerCount": 14,
+    "checkedAt": "2026-07-24T11:07:56.308549+00:00",
+    "playerCount": 0,
     "lastChangeCount": 0,
-    "lastError": "",
+    "lastError": "HTTPSConnectionPool(host='site.api.espn.com', port=443): Read timed out. (read timeout=25)",
     "source": "ESPN WNBA API"
   },
   {
     "teamCode": "PHX",
     "teamName": "Phoenix Mercury",
-    "checkedAt": "2026-07-23T11:12:12.835110+00:00",
-    "playerCount": 14,
+    "checkedAt": "2026-07-24T11:08:21.850748+00:00",
+    "playerCount": 0,
     "lastChangeCount": 0,
-    "lastError": "",
+    "lastError": "HTTPSConnectionPool(host='site.api.espn.com', port=443): Read timed out. (read timeout=25)",
     "source": "ESPN WNBA API"
   },
   {
     "teamCode": "POR",
     "teamName": "Portland Fire",
-    "checkedAt": "2026-07-23T11:12:13.616689+00:00",
+    "checkedAt": "2026-07-24T11:08:42.409698+00:00",
     "playerCount": 14,
-    "lastChangeCount": 2,
+    "lastChangeCount": 0,
     "lastError": "",
     "source": "ESPN WNBA API"
   },
   {
     "teamCode": "SEA",
     "teamName": "Seattle Storm",
-    "checkedAt": "2026-07-23T11:12:14.186219+00:00",
+    "checkedAt": "2026-07-24T11:09:03.102928+00:00",
     "playerCount": 13,
     "lastChangeCount": 0,
     "lastError": "",
@@ -119,16 +119,16 @@
   {
     "teamCode": "TOR",
     "teamName": "Toronto Tempo",
-    "checkedAt": "2026-07-23T11:12:14.787725+00:00",
-    "playerCount": 14,
-    "lastChangeCount": 0,
+    "checkedAt": "2026-07-24T11:09:24.063063+00:00",
+    "playerCount": 13,
+    "lastChangeCount": 1,
     "lastError": "",
     "source": "ESPN WNBA API"
   },
   {
     "teamCode": "WSH",
     "teamName": "Washington Mystics",
-    "checkedAt": "2026-07-23T11:12:15.357408+00:00",
+    "checkedAt": "2026-07-24T11:09:29.661977+00:00",
     "playerCount": 13,
     "lastChangeCount": 0,
     "lastError": "",
