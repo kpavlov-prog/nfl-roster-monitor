@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-24T10:28:19.996151+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "added",
+    "playerName": "Adam Macko",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-24T10:28:19.996161+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "added",
+    "playerName": "Davis Schneider",
+    "position": "LF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-24T10:28:19.996170+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "removed",
+    "playerName": "Patrick Corbin",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-24T10:28:19.996172+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "removed",
+    "playerName": "Sean Keys",
+    "position": "DH",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-23T10:34:38.752855+00:00",
     "teamCode": "TOR",
     "teamName": "Toronto Blue Jays",

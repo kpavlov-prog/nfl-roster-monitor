@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-07-23T10:34:31.252558+00:00",
+  "checkedAt": "2026-07-24T10:28:12.542669+00:00",
   "players": [
     {
       "name": "Brian Navarreto",
@@ -99,6 +99,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "John King",
+      "position": "P",
+      "number": "47",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Kyle Stowers",
       "position": "LF",
       "number": "28",
@@ -179,13 +186,6 @@
       "name": "Xavier Edwards",
       "position": "2B",
       "number": "9",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Zach Brzykcy",
-      "position": "P",
-      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     }
