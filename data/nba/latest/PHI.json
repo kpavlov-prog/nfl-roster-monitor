@@ -3,7 +3,7 @@
   "team": "Philadelphia 76ers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/PHI/roster",
-  "checkedAt": "2026-07-24T10:49:23.221318+00:00",
+  "checkedAt": "2026-07-25T10:16:45.883351+00:00",
   "players": [
     {
       "name": "Adem Bona",
@@ -104,6 +104,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "LeBron James",
+      "position": "F",
+      "number": "23",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Rayan Rupert",
       "position": "G",
       "number": "12",
@@ -114,13 +121,6 @@
       "name": "Trendon Watford",
       "position": "F",
       "number": "12",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Tyrese Martin",
-      "position": "G",
-      "number": "23",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
