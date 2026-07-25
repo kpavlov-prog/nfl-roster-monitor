@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active",
-  "checkedAt": "2026-07-24T10:28:08.810623+00:00",
+  "checkedAt": "2026-07-25T09:59:40.362833+00:00",
   "players": [
+    {
+      "name": "Angel Martínez",
+      "position": "LF",
+      "number": "1",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Austin Hedges",
       "position": "C",
@@ -39,13 +46,6 @@
       "name": "Colin Holderman",
       "position": "P",
       "number": "35",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Daniel Schneemann",
-      "position": "CF",
-      "number": "10",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -176,16 +176,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Travis Bazzana",
-      "position": "2B",
-      "number": "37",
+      "name": "Tim Herrin",
+      "position": "P",
+      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Will Dion",
-      "position": "P",
-      "number": "98",
+      "name": "Travis Bazzana",
+      "position": "2B",
+      "number": "37",
       "status": "A",
       "source": "MLB Stats API"
     }

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=active",
-  "checkedAt": "2026-07-24T10:28:06.144745+00:00",
+  "checkedAt": "2026-07-25T09:59:37.579229+00:00",
   "players": [
     {
       "name": "Albert Suárez",
@@ -102,6 +102,13 @@
       "name": "Jeremiah Jackson",
       "position": "2B",
       "number": "82",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Josh Walker",
+      "position": "P",
+      "number": "61",
       "status": "A",
       "source": "MLB Stats API"
     },
