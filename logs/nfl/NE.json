@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-25T09:30:19.142618+00:00",
+    "teamCode": "NE",
+    "teamName": "New England Patriots",
+    "type": "added",
+    "playerName": "Jeremiah Franklin",
+    "position": "TE",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-25T09:30:19.142636+00:00",
+    "teamCode": "NE",
+    "teamName": "New England Patriots",
+    "type": "removed",
+    "playerName": "Jimmy Kibble",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-24T10:09:37.020577+00:00",
     "teamCode": "NE",
     "teamName": "New England Patriots",

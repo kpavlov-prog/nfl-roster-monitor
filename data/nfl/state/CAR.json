@@ -3,7 +3,7 @@
   "team": "Carolina Panthers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/carolina-panthers/roster",
-  "checkedAt": "2026-07-24T10:08:45.405236+00:00",
+  "checkedAt": "2026-07-25T09:29:29.741633+00:00",
   "players": [
     {
       "name": "AJ Dillon",
@@ -94,6 +94,22 @@
       "source": "NFL.com"
     },
     {
+      "name": "Caden Prieskorn",
+      "position": "TE",
+      "number": "77",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Cam Gill",
+      "position": "LB",
+      "number": "75",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Cam Jackson",
       "position": "DT",
       "number": "99",
@@ -177,6 +193,14 @@
       "name": "David Moore",
       "position": "WR",
       "number": "83",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Derrell Bailey",
+      "position": "OT",
+      "number": "78",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -358,25 +382,9 @@
       "source": "NFL.com"
     },
     {
-      "name": "Joshua Gray",
-      "position": "G",
-      "number": "67",
-      "status": "ACT",
-      "important": false,
-      "source": "NFL.com"
-    },
-    {
       "name": "Kenny Pickett",
       "position": "QB",
       "number": "12",
-      "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Kobe Prentice",
-      "position": "WR",
-      "number": "39",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -473,7 +481,7 @@
       "name": "Nic Scourton",
       "position": "LB",
       "number": "11",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -545,6 +553,14 @@
       "name": "Ryan Fitzgerald",
       "position": "K",
       "number": "10",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Ryan Hayes",
+      "position": "OT",
+      "number": "78",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

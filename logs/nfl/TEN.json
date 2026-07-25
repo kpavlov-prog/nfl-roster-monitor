@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-25T09:30:42.687012+00:00",
+    "teamCode": "TEN",
+    "teamName": "Tennessee Titans",
+    "type": "added",
+    "playerName": "Zach Thomas",
+    "position": "OT",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-25T09:30:42.687023+00:00",
+    "teamCode": "TEN",
+    "teamName": "Tennessee Titans",
+    "type": "removed",
+    "playerName": "Ryan Hayes",
+    "position": "OT",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-23T10:13:49.834968+00:00",
     "teamCode": "TEN",
     "teamName": "Tennessee Titans",

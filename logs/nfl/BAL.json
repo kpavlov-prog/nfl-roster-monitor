@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-25T09:29:22.259288+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Ravens",
+    "type": "added",
+    "playerName": "Ethan Pocic",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-25T09:29:22.259381+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Ravens",
+    "type": "removed",
+    "playerName": "Diego Pavia",
+    "position": "QB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-07-23T10:12:33.772648+00:00",
     "teamCode": "BAL",
     "teamName": "Baltimore Ravens",

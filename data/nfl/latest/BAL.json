@@ -3,7 +3,7 @@
   "team": "Baltimore Ravens",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/baltimore-ravens/roster",
-  "checkedAt": "2026-07-24T10:08:38.989017+00:00",
+  "checkedAt": "2026-07-25T09:29:22.259040+00:00",
   "players": [
     {
       "name": "Aaron Graves",
@@ -182,14 +182,6 @@
       "source": "NFL.com"
     },
     {
-      "name": "Diego Pavia",
-      "position": "QB",
-      "number": "17",
-      "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
       "name": "Diego Pounds",
       "position": "OT",
       "number": "61",
@@ -257,6 +249,14 @@
       "name": "Ethan Burke",
       "position": "LB",
       "number": "45",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Ethan Pocic",
+      "position": "C",
+      "number": "78",
       "status": "ACT",
       "important": false,
       "source": "NFL.com"
