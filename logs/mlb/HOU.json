@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-26T10:12:49.740800+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Astros",
+    "type": "added",
+    "playerName": "Bryan King",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-26T10:12:49.740815+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Astros",
+    "type": "removed",
+    "playerName": "Spencer Arrighetti",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-23T10:34:29.111444+00:00",
     "teamCode": "HOU",
     "teamName": "Houston Astros",

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/139/roster?rosterType=active",
-  "checkedAt": "2026-07-25T09:59:50.862486+00:00",
+  "checkedAt": "2026-07-26T10:12:58.552285+00:00",
   "players": [
     {
       "name": "Ben Williamson",
@@ -46,13 +46,6 @@
       "name": "Chandler Simpson",
       "position": "LF",
       "number": "14",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Chris Roycroft",
-      "position": "P",
-      "number": "56",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,6 +158,13 @@
       "name": "Shane McClanahan",
       "position": "P",
       "number": "18",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Steven Matz",
+      "position": "P",
+      "number": "32",
       "status": "A",
       "source": "MLB Stats API"
     },

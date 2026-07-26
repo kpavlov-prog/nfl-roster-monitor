@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active",
-  "checkedAt": "2026-07-25T09:59:40.362833+00:00",
+  "checkedAt": "2026-07-26T10:12:48.077586+00:00",
   "players": [
     {
       "name": "Angel Martínez",
@@ -148,13 +148,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Shawn Armstrong",
-      "position": "P",
-      "number": "43",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Slade Cecconi",
       "position": "P",
       "number": "44",
@@ -186,6 +179,13 @@
       "name": "Travis Bazzana",
       "position": "2B",
       "number": "37",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Will Dion",
+      "position": "P",
+      "number": "98",
       "status": "A",
       "source": "MLB Stats API"
     }

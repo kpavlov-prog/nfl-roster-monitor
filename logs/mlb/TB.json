@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-26T10:12:58.553157+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Rays",
+    "type": "added",
+    "playerName": "Steven Matz",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-26T10:12:58.553168+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Rays",
+    "type": "removed",
+    "playerName": "Chris Roycroft",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-19T10:02:06.688510+00:00",
     "teamCode": "TB",
     "teamName": "Tampa Bay Rays",

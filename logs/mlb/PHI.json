@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-07-26T10:12:55.252851+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "added",
+    "playerName": "Brian Keller",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-26T10:12:55.252860+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "position changed",
+    "playerName": "Edmundo Sosa",
+    "position": "LF",
+    "oldValue": "2B",
+    "newValue": "LF",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-26T10:12:55.252865+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "added",
+    "playerName": "Kyle Backhus",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-26T10:12:55.252870+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "removed",
+    "playerName": "Alex McFarlane",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-26T10:12:55.252874+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "removed",
+    "playerName": "Max Lazar",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-25T09:59:47.562654+00:00",
     "teamCode": "PHI",
     "teamName": "Philadelphia Phillies",
