@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/97/roster?limit=100&page=1",
-  "checkedAt": "2026-07-26T10:57:44.201767+00:00",
+  "checkedAt": "2026-07-27T12:48:21.003407+00:00",
   "players": [
     {
       "name": "AJ Green",
@@ -74,6 +74,20 @@
       "name": "Blake Ruffin",
       "position": "DB",
       "number": "29",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Bode Shoaps",
+      "position": "PK",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Brady Ballart",
+      "position": "LB",
+      "number": "34",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -449,6 +463,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Kris Brunson",
+      "position": "DB",
+      "number": "33",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Kris Hughes",
       "position": "WR",
       "number": "14",
@@ -585,6 +606,13 @@
       "name": "Ryan Zimmerman",
       "position": "QB",
       "number": "17",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Sam Dawson",
+      "position": "DL",
+      "number": "98",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

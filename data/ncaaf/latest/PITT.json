@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/221/roster?limit=100&page=1",
-  "checkedAt": "2026-07-26T11:00:07.741904+00:00",
+  "checkedAt": "2026-07-27T12:55:39.644175+00:00",
   "players": [
     {
       "name": "Abe Ibrahim",
@@ -484,6 +484,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Kanye Thompson",
+      "position": "DB",
+      "number": "23",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Keith Gouveia",
       "position": "OL",
       "number": "66",
@@ -529,6 +536,13 @@
       "name": "Malik Knight",
       "position": "WR",
       "number": "18",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Marcus Jennings",
+      "position": "LB",
+      "number": "34",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

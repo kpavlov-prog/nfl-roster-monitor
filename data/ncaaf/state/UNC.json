@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/153/roster?limit=100&page=1",
-  "checkedAt": "2026-07-26T10:59:05.926927+00:00",
+  "checkedAt": "2026-07-27T12:52:04.011916+00:00",
   "players": [
     {
       "name": "Adam Mccann-Gibbs",
@@ -400,6 +400,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Jaziel Hart",
+      "position": "DB",
+      "number": "30",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Jelani Thurman",
       "position": "TE",
       "number": "45",
@@ -501,6 +508,13 @@
       "name": "Kaleb Jackson",
       "position": "RB",
       "number": "5",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Keeyun Chapman",
+      "position": "WR",
+      "number": "82",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -624,6 +638,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Roman Wazni",
+      "position": "LS",
+      "number": "40",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Rowan Byrne",
       "position": "OL",
       "number": "52",
@@ -739,6 +760,13 @@
       "name": "Zavion Griffin-Haynes",
       "position": "DL",
       "number": "29",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Zion Smith",
+      "position": "OL",
+      "number": "65",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     }
