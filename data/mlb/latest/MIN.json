@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/142/roster?rosterType=active",
-  "checkedAt": "2026-07-26T10:12:53.036708+00:00",
+  "checkedAt": "2026-07-27T11:38:27.968079+00:00",
   "players": [
     {
       "name": "Alan Roden",
@@ -57,9 +57,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jack Anderson",
+      "name": "Cole Sands",
       "position": "P",
-      "number": "30",
+      "number": "44",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Connor Prielipp",
+      "position": "P",
+      "number": "61",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -102,13 +109,6 @@
       "name": "Luke Keaschall",
       "position": "2B",
       "number": "15",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Mike Paredes",
-      "position": "P",
-      "number": "53",
       "status": "A",
       "source": "MLB Stats API"
     },

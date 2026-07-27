@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-07-26T10:12:46.976484+00:00",
+  "checkedAt": "2026-07-27T11:38:21.902383+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -95,13 +95,6 @@
       "name": "Jordan Hicks",
       "position": "P",
       "number": "44",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Junior Perez",
-      "position": "CF",
-      "number": "37",
       "status": "A",
       "source": "MLB Stats API"
     },

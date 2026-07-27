@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=active",
-  "checkedAt": "2026-07-26T10:12:54.149607+00:00",
+  "checkedAt": "2026-07-27T11:38:29.048925+00:00",
   "players": [
     {
       "name": "Ali Sánchez",
@@ -67,13 +67,6 @@
       "name": "Camilo Doval",
       "position": "P",
       "number": "75",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Cody Bellinger",
-      "position": "LF",
-      "number": "35",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,6 +158,13 @@
       "name": "Ryan Yarbrough",
       "position": "P",
       "number": "33",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Spencer Jones",
+      "position": "CF",
+      "number": "78",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-07-26T10:13:00.205604+00:00",
+  "checkedAt": "2026-07-27T11:38:34.941798+00:00",
   "players": [
     {
       "name": "Andrew Alvarez",
@@ -18,6 +18,13 @@
       "name": "Andrés Chaparro",
       "position": "1B",
       "number": "87",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brady House",
+      "position": "3B",
+      "number": "12",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -46,13 +53,6 @@
       "name": "Clayton Beeter",
       "position": "P",
       "number": "39",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Curtis Mead",
-      "position": "3B",
-      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     },

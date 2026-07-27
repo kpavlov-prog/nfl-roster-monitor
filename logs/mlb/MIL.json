@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-27T11:38:27.426374+00:00",
+    "teamCode": "MIL",
+    "teamName": "Milwaukee Brewers",
+    "type": "added",
+    "playerName": "Garrett Stallings",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-27T11:38:27.426387+00:00",
+    "teamCode": "MIL",
+    "teamName": "Milwaukee Brewers",
+    "type": "removed",
+    "playerName": "Lance McCullers Jr.",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-26T10:12:52.484913+00:00",
     "teamCode": "MIL",
     "teamName": "Milwaukee Brewers",

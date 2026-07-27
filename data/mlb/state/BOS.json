@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-07-26T10:12:45.876768+00:00",
+  "checkedAt": "2026-07-27T11:38:20.822758+00:00",
   "players": [
-    {
-      "name": "Alec Gamboa",
-      "position": "P",
-      "number": "68",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Andruw Monasterio",
       "position": "SS",
@@ -67,6 +60,13 @@
       "name": "Connor Wong",
       "position": "C",
       "number": "12",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Curtis Mead",
+      "position": "3B",
+      "number": "25",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -141,6 +141,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Ranger Suarez",
+      "position": "P",
+      "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Romy Gonzalez",
       "position": "DH",
       "number": "23",
@@ -158,13 +165,6 @@
       "name": "Sonny Gray",
       "position": "P",
       "number": "54",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tsung-Che Cheng",
-      "position": "SS",
-      "number": "39",
       "status": "A",
       "source": "MLB Stats API"
     },
