@@ -3,7 +3,7 @@
   "team": "Portland Trail Blazers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/POR/roster",
-  "checkedAt": "2026-07-26T10:23:50.665737+00:00",
+  "checkedAt": "2026-07-27T11:59:29.411019+00:00",
   "players": [
     {
       "name": "Branden Carlson",
@@ -51,6 +51,13 @@
       "name": "Jayson Kent",
       "position": "G",
       "number": "29",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "John Tonje",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

@@ -3,7 +3,7 @@
   "team": "Philadelphia 76ers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/PHI/roster",
-  "checkedAt": "2026-07-26T10:23:49.270277+00:00",
+  "checkedAt": "2026-07-27T11:59:28.274475+00:00",
   "players": [
     {
       "name": "Adem Bona",
@@ -30,13 +30,6 @@
       "name": "Caleb Love",
       "position": "G",
       "number": "9",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Dalen Terry",
-      "position": "F",
-      "number": "14",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -93,6 +86,13 @@
       "name": "Justin Edwards",
       "position": "F",
       "number": "11",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Kentavious Caldwell-Pope",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

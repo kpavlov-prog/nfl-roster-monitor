@@ -3,7 +3,7 @@
   "team": "Cleveland Cavaliers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/CLE/roster",
-  "checkedAt": "2026-07-26T10:23:38.812837+00:00",
+  "checkedAt": "2026-07-27T11:59:18.361255+00:00",
   "players": [
     {
       "name": "Craig Porter Jr.",
@@ -58,6 +58,13 @@
       "name": "Jaylon Tyson",
       "position": "G",
       "number": "20",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Mario Hezonja",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

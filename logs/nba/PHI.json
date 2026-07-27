@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-27T11:59:28.275721+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia 76ers",
+    "type": "added",
+    "playerName": "Kentavious Caldwell-Pope",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-27T11:59:28.275733+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia 76ers",
+    "type": "removed",
+    "playerName": "Dalen Terry",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-25T10:16:45.884613+00:00",
     "teamCode": "PHI",
     "teamName": "Philadelphia 76ers",
