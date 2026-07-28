@@ -3,12 +3,12 @@
   "team": "Anaheim Ducks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/ANA/current",
-  "checkedAt": "2026-07-27T11:50:01.155857+00:00",
+  "checkedAt": "2026-07-28T10:57:12.914639+00:00",
   "players": [
     {
       "name": "A.J. Greer",
       "position": "L",
-      "number": "",
+      "number": "18",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -22,7 +22,7 @@
     {
       "name": "Anton Wahlberg",
       "position": "C",
-      "number": "",
+      "number": "24",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -43,7 +43,7 @@
     {
       "name": "Corey Schueneman",
       "position": "D",
-      "number": "",
+      "number": "26",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -85,35 +85,35 @@
     {
       "name": "James Hamblin",
       "position": "L",
-      "number": "",
+      "number": "38",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
     {
       "name": "Jeff Malott",
       "position": "L",
-      "number": "",
+      "number": "39",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
     {
       "name": "Jett Woo",
       "position": "D",
-      "number": "",
+      "number": "37",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
     {
       "name": "Judd Caulfield",
       "position": "R",
-      "number": "75",
+      "number": "28",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
     {
       "name": "Laurent Brossoit",
       "position": "G",
-      "number": "",
+      "number": "31",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -128,6 +128,13 @@
       "name": "Lukas Dostal",
       "position": "G",
       "number": "1",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Marcus Nordmark",
+      "position": "L",
+      "number": "43",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -148,7 +155,7 @@
     {
       "name": "Nick Jensen",
       "position": "D",
-      "number": "",
+      "number": "4",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -156,6 +163,13 @@
       "name": "Nico Myatovic",
       "position": "L",
       "number": "48",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Nikita Klepov",
+      "position": "R",
+      "number": "40",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -174,9 +188,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Roger McQueen",
+      "position": "C",
+      "number": "95",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Ryan Poehling",
       "position": "C",
       "number": "25",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Sam Colangelo",
+      "position": "R",
+      "number": "12",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -190,7 +218,7 @@
     {
       "name": "Travis Mitchell",
       "position": "D",
-      "number": "",
+      "number": "34",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -204,7 +232,7 @@
     {
       "name": "Tyson Hinds",
       "position": "D",
-      "number": "60",
+      "number": "55",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -212,6 +240,13 @@
       "name": "Ville Husso",
       "position": "G",
       "number": "33",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Vyacheslav Buteyets",
+      "position": "G",
+      "number": "32",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }
