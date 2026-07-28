@@ -3,7 +3,7 @@
   "team": "Phoenix Mercury",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/PHX/roster",
-  "checkedAt": "2026-07-27T12:25:24.429391+00:00",
+  "checkedAt": "2026-07-28T11:19:42.627239+00:00",
   "players": [
     {
       "name": "Alyssa Thomas",
@@ -34,6 +34,13 @@
       "source": "ESPN WNBA API"
     },
     {
+      "name": "Kara Dunn",
+      "position": "G",
+      "number": "12",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
       "name": "Kyara Linskens",
       "position": "C",
       "number": "31",
@@ -44,6 +51,13 @@
       "name": "Lexi Held",
       "position": "G",
       "number": "10",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Marta Suarez",
+      "position": "F",
+      "number": "77",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },
@@ -65,13 +79,6 @@
       "name": "Noemie Brochant",
       "position": "F",
       "number": "1",
-      "status": "ACTIVE",
-      "source": "ESPN WNBA API"
-    },
-    {
-      "name": "Quionche Carter",
-      "position": "G",
-      "number": "20",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },

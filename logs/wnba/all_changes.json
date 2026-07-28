@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-07-28T11:19:41.349788+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Lynx",
+    "type": "added",
+    "playerName": "Eliska Hamzova",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-28T11:19:42.628027+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Mercury",
+    "type": "added",
+    "playerName": "Kara Dunn",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-28T11:19:42.628035+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Mercury",
+    "type": "added",
+    "playerName": "Marta Suarez",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-28T11:19:42.628039+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Mercury",
+    "type": "removed",
+    "playerName": "Quionche Carter",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-25T10:35:23.087512+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Lynx",
