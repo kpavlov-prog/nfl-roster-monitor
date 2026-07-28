@@ -3,7 +3,7 @@
   "team": "Los Angeles Lakers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/LAL/roster",
-  "checkedAt": "2026-07-27T11:59:23.015275+00:00",
+  "checkedAt": "2026-07-28T11:03:26.601133+00:00",
   "players": [
     {
       "name": "AK Okereke",
@@ -93,6 +93,13 @@
       "name": "Luka Doncic",
       "position": "G",
       "number": "77",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Matisse Thybulle",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
