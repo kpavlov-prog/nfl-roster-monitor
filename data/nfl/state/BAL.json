@@ -3,7 +3,7 @@
   "team": "Baltimore Ravens",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/baltimore-ravens/roster",
-  "checkedAt": "2026-07-27T11:11:32.284938+00:00",
+  "checkedAt": "2026-07-28T10:26:29.002836+00:00",
   "players": [
     {
       "name": "Aaron Graves",
@@ -113,6 +113,14 @@
       "name": "Chidobe Awuzie",
       "position": "CB",
       "number": "3",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Chris Moore",
+      "position": "WR",
+      "number": "73",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -278,19 +286,19 @@
       "source": "NFL.com"
     },
     {
+      "name": "Hakeem Adeniji",
+      "position": "G",
+      "number": "76",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Ja'Kobi Lane",
       "position": "WR",
       "number": "6",
       "status": "ACT",
       "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Jared Penning",
-      "position": "G",
-      "number": "68",
-      "status": "ACT",
-      "important": false,
       "source": "NFL.com"
     },
     {
@@ -403,14 +411,6 @@
       "number": "47",
       "status": "ACT",
       "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Luke Elzinga",
-      "position": "P",
-      "number": "31",
-      "status": "ACT",
-      "important": false,
       "source": "NFL.com"
     },
     {

@@ -3,7 +3,7 @@
   "team": "New England Patriots",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-england-patriots/roster",
-  "checkedAt": "2026-07-27T11:12:20.685216+00:00",
+  "checkedAt": "2026-07-28T10:27:46.450096+00:00",
   "players": [
     {
       "name": "A.J. Brown",
@@ -257,7 +257,7 @@
       "name": "Gabe Jacas",
       "position": "LB",
       "number": "50",
-      "status": "UDF",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },
@@ -345,7 +345,7 @@
       "name": "Jeremiah Webb",
       "position": "WR",
       "number": "29",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -355,6 +355,14 @@
       "number": "42",
       "status": "ACT",
       "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Jimmy Kibble",
+      "position": "WR",
+      "number": "73",
+      "status": "RES",
+      "important": true,
       "source": "NFL.com"
     },
     {
@@ -441,6 +449,14 @@
       "name": "Kindle Vildor",
       "position": "CB",
       "number": "28",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Kobe Prentice",
+      "position": "WR",
+      "number": "70",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -641,14 +657,6 @@
       "name": "Romeo Doubs",
       "position": "WR",
       "number": "87",
-      "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Sebastian Gutierrez",
-      "position": "OT",
-      "number": "61",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
