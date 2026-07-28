@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-28T10:44:53.234206+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Nationals",
+    "type": "added",
+    "playerName": "Paxton Schultz",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-28T10:44:53.234216+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Nationals",
+    "type": "removed",
+    "playerName": "Matt Krook",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-27T11:38:34.942672+00:00",
     "teamCode": "WSH",
     "teamName": "Washington Nationals",

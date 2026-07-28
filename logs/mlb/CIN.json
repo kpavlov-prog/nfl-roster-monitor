@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-28T10:44:39.044365+00:00",
+    "teamCode": "CIN",
+    "teamName": "Cincinnati Reds",
+    "type": "added",
+    "playerName": "Ivan Johnson",
+    "position": "2B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-28T10:44:39.044378+00:00",
+    "teamCode": "CIN",
+    "teamName": "Cincinnati Reds",
+    "type": "removed",
+    "playerName": "Spencer Steer",
+    "position": "1B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-18T09:44:23.133206+00:00",
     "teamCode": "CIN",
     "teamName": "Cincinnati Reds",

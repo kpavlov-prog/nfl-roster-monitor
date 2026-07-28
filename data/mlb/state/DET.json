@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=active",
-  "checkedAt": "2026-07-27T11:38:24.047505+00:00",
+  "checkedAt": "2026-07-28T10:44:40.897621+00:00",
   "players": [
     {
       "name": "Ben Malgeri",
@@ -53,6 +53,13 @@
       "name": "Drew Sommers",
       "position": "P",
       "number": "51",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Eduardo Valencia",
+      "position": "C",
+      "number": "32",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -109,13 +116,6 @@
       "name": "Kenley Jansen",
       "position": "P",
       "number": "74",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Kerry Carpenter",
-      "position": "RF",
-      "number": "30",
       "status": "A",
       "source": "MLB Stats API"
     },

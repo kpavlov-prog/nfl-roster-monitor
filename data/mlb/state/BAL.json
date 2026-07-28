@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=active",
-  "checkedAt": "2026-07-27T11:38:20.284854+00:00",
+  "checkedAt": "2026-07-28T10:44:36.580523+00:00",
   "players": [
     {
       "name": "Albert Suárez",
@@ -141,13 +141,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Sam Huff",
-      "position": "C",
-      "number": "31",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Shane Baz",
       "position": "P",
       "number": "34",
@@ -186,6 +179,13 @@
       "name": "Yennier Cano",
       "position": "P",
       "number": "78",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yohel Pozo",
+      "position": "C",
+      "number": "79",
       "status": "A",
       "source": "MLB Stats API"
     }

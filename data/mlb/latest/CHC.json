@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/112/roster?rosterType=active",
-  "checkedAt": "2026-07-27T11:38:21.364268+00:00",
+  "checkedAt": "2026-07-28T10:44:37.815584+00:00",
   "players": [
     {
       "name": "Aaron Civale",
@@ -18,6 +18,13 @@
       "name": "Alex Bregman",
       "position": "3B",
       "number": "3",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Andrew Wantz",
+      "position": "P",
+      "number": "61",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -81,13 +88,6 @@
       "name": "James Triantos",
       "position": "2B",
       "number": "5",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jameson Taillon",
-      "position": "P",
-      "number": "50",
       "status": "A",
       "source": "MLB Stats API"
     },

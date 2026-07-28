@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-07-27T11:38:29.584518+00:00",
+  "checkedAt": "2026-07-28T10:44:47.106557+00:00",
   "players": [
     {
       "name": "Alika Williams",
@@ -165,6 +165,13 @@
       "name": "Nick Kurtz",
       "position": "1B",
       "number": "16",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Scott Blewett",
+      "position": "P",
+      "number": "49",
       "status": "A",
       "source": "MLB Stats API"
     },

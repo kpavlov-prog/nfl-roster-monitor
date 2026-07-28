@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-07-27T11:38:30.660671+00:00",
+  "checkedAt": "2026-07-28T10:44:48.359346+00:00",
   "players": [
     {
       "name": "Billy Cook",
@@ -53,6 +53,13 @@
       "name": "Carmen Mlodzinski",
       "position": "P",
       "number": "50",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Endy Rodríguez",
+      "position": "C",
+      "number": "13",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -158,13 +165,6 @@
       "name": "Ryan O'Hearn",
       "position": "RF",
       "number": "29",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Shawn Ross",
-      "position": "C",
-      "number": "73",
       "status": "A",
       "source": "MLB Stats API"
     },
