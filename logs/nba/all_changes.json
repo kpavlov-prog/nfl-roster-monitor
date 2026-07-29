@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-29T11:10:05.782024+00:00",
+    "teamCode": "LAC",
+    "teamName": "LA Clippers",
+    "type": "added",
+    "playerName": "Johni Broome",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-29T11:10:13.954851+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia 76ers",
+    "type": "removed",
+    "playerName": "Johni Broome",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-28T11:03:26.601932+00:00",
     "teamCode": "LAL",
     "teamName": "Los Angeles Lakers",
