@@ -32,6 +32,59 @@
 .position-filter input{
     cursor:pointer;
 }
+.bulk-toolbar{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin:14px 0;
+}
+
+.bulk-toolbar input{
+  flex:1;
+  min-width:220px;
+  border:1px solid var(--line);
+}
+
+.bulk-team-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+  gap:10px;
+  margin-top:14px;
+  max-height:420px;
+  overflow-y:auto;
+  padding-right:6px;
+}
+
+.bulk-team-option{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:11px 12px;
+  background:#f8fafc;
+  border:1px solid var(--line);
+  border-radius:12px;
+  cursor:pointer;
+  font-weight:700;
+}
+
+.bulk-team-option:hover{
+  border-color:var(--blue);
+  background:#eff6ff;
+}
+
+.bulk-team-option input{
+  width:18px;
+  height:18px;
+  cursor:pointer;
+}
+
+.bulk-summary{
+  margin:14px 0;
+  padding:12px;
+  background:#eef2ff;
+  border-radius:12px;
+  font-weight:800;
+}
 <style>
 :root{
   --bg:#081226;--text:#111827;--muted:#64748b;--blue:#2563eb;--purple:#7c3aed;
@@ -128,7 +181,39 @@ button.secondary{background:#334155}
       <button onclick="runCsvCheck()">Run CSV Check</button>
       <div id="csvResults" class="meta" style="margin-top:14px;">No CSV checked yet.</div>
     </div>
+    <div class="panel">
+  <h2>Bulk Team Export</h2>
 
+  <div class="meta">
+    Select multiple teams and download their combined player rosters in one CSV file.
+  </div>
+
+  <div class="bulk-toolbar">
+    <input
+      id="bulkTeamSearch"
+      placeholder="Search teams..."
+      oninput="renderBulkTeams()"
+    />
+
+    <button onclick="selectAllBulkTeams()">Select All</button>
+
+    <button class="secondary" onclick="clearBulkTeams()">
+      Clear Selection
+    </button>
+  </div>
+
+  <div id="bulkSummary" class="bulk-summary">
+    Selected teams: 0 | Selected players: 0
+  </div>
+
+  <div id="bulkTeams" class="bulk-team-grid"></div>
+
+  <br>
+
+  <button onclick="exportBulkRosterCsv()">
+    Export Selected Teams CSV
+  </button>
+</div>
     <div class="panel">
       <h2>NCAAF Teams</h2>
       <div id="teams" class="teams"></div>
@@ -145,6 +230,7 @@ button.secondary{background:#334155}
 
 <script>
 let summary={},statusRows=[],rosters={},allChanges=[],visibleChanges=[],teamHistory=[],selectedCode="ALA";
+let bulkSelectedTeams=new Set();
 const CHECKED_KEY="ncaaf_checked_changes";
 
 async function fetchJson(path){
@@ -242,6 +328,7 @@ async function loadDashboard(){
     renderChanges();
     renderTeams();
     renderSelectedTeam();
+    renderBulkTeams();
 
     document.getElementById("status").textContent="Last update: "+gmt(summary.lastRunFinished);
   }catch(e){
@@ -796,6 +883,152 @@ function downloadCsvReport(filename, items){
   a.href=url;
   a.download=filename;
   a.click();
+
+  URL.revokeObjectURL(url);
+}
+function renderBulkTeams(){
+  const box=document.getElementById("bulkTeams");
+  if(!box)return;
+
+  const search=String(
+    document.getElementById("bulkTeamSearch")?.value||""
+  ).trim().toLowerCase();
+
+  const filteredTeams=statusRows.filter(team=>{
+    return (
+      String(team.teamName||"").toLowerCase().includes(search) ||
+      String(team.teamCode||"").toLowerCase().includes(search)
+    );
+  });
+
+  box.innerHTML=filteredTeams.map(team=>`
+    <label class="bulk-team-option">
+      <input
+        type="checkbox"
+        value="${team.teamCode}"
+        ${bulkSelectedTeams.has(team.teamCode) ? "checked" : ""}
+        onchange="toggleBulkTeam('${team.teamCode}', this.checked)"
+      >
+      <span>
+        ${team.teamName}
+        <span class="team-code">${team.teamCode}</span>
+      </span>
+    </label>
+  `).join("");
+
+  updateBulkSummary();
+}
+
+function toggleBulkTeam(code,isChecked){
+  if(isChecked){
+    bulkSelectedTeams.add(code);
+  }else{
+    bulkSelectedTeams.delete(code);
+  }
+
+  updateBulkSummary();
+}
+
+function selectAllBulkTeams(){
+  statusRows.forEach(team=>{
+    bulkSelectedTeams.add(team.teamCode);
+  });
+
+  renderBulkTeams();
+}
+
+function clearBulkTeams(){
+  bulkSelectedTeams.clear();
+  renderBulkTeams();
+}
+
+function updateBulkSummary(){
+  let playerCount=0;
+
+  bulkSelectedTeams.forEach(code=>{
+    const roster=rosters[code];
+    playerCount+=(roster?.players||[]).length;
+  });
+
+  const summaryBox=document.getElementById("bulkSummary");
+
+  if(summaryBox){
+    summaryBox.textContent=
+      `Selected teams: ${bulkSelectedTeams.size} | Selected players: ${playerCount}`;
+  }
+}
+
+function exportBulkRosterCsv(){
+  if(!bulkSelectedTeams.size){
+    alert("Please select at least one team.");
+    return;
+  }
+
+  const rows=[
+    [
+      "team",
+      "teamCode",
+      "playerName",
+      "number",
+      "position",
+      "status",
+      "lastCheckedGMT"
+    ]
+  ];
+
+  const selectedCodes=[...bulkSelectedTeams].sort((a,b)=>{
+    const teamA=statusRows.find(team=>team.teamCode===a);
+    const teamB=statusRows.find(team=>team.teamCode===b);
+
+    return String(teamA?.teamName||a)
+      .localeCompare(String(teamB?.teamName||b));
+  });
+
+  selectedCodes.forEach(code=>{
+    const roster=rosters[code]||{players:[]};
+    const team=statusRows.find(item=>item.teamCode===code)||{};
+
+    const players=[...(roster.players||[])].sort((a,b)=>{
+      const rankDifference=
+        positionRank(a.position)-positionRank(b.position);
+
+      if(rankDifference!==0)return rankDifference;
+
+      return String(a.name||"")
+        .localeCompare(String(b.name||""));
+    });
+
+    players.forEach(player=>{
+      rows.push([
+        roster.team||team.teamName||code,
+        code,
+        player.name||"",
+        player.number||"",
+        player.position||"",
+        player.status||"ACTIVE",
+        gmt(roster.checkedAt||team.checkedAt)
+      ]);
+    });
+  });
+
+  const csv=rows
+    .map(row=>
+      row.map(value=>
+        `"${String(value??"").replace(/"/g,'""')}"`
+      ).join(",")
+    )
+    .join("\n");
+
+  const blob=new Blob([csv],{
+    type:"text/csv;charset=utf-8;"
+  });
+
+  const url=URL.createObjectURL(blob);
+  const link=document.createElement("a");
+
+  link.href=url;
+  link.download=`ncaaf-${bulkSelectedTeams.size}-teams-rosters.csv`;
+  link.click();
 
   URL.revokeObjectURL(url);
 }
