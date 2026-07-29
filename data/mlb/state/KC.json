@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/118/roster?rosterType=active",
-  "checkedAt": "2026-07-28T10:44:42.148176+00:00",
+  "checkedAt": "2026-07-29T10:48:31.329098+00:00",
   "players": [
     {
       "name": "Alex Lange",
@@ -22,13 +22,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Beck Way",
-      "position": "P",
-      "number": "44",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Carter Jensen",
       "position": "C",
       "number": "22",
@@ -39,6 +32,13 @@
       "name": "Daniel Lynch IV",
       "position": "P",
       "number": "41",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Easton McGee",
+      "position": "P",
+      "number": "51",
       "status": "A",
       "source": "MLB Stats API"
     },

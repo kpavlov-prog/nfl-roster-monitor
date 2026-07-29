@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-29T10:48:39.625831+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "added",
+    "playerName": "Peter Strzelecki",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-29T10:48:39.625838+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "removed",
+    "playerName": "Hunter Dobbins",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-23T10:34:37.153521+00:00",
     "teamCode": "STL",
     "teamName": "St. Louis Cardinals",

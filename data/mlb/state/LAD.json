@@ -5,19 +5,12 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-07-28T10:44:43.373974+00:00",
+  "checkedAt": "2026-07-29T10:48:32.431575+00:00",
   "players": [
     {
       "name": "Alex Call",
       "position": "LF",
       "number": "12",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Alex Freeland",
-      "position": "2B",
-      "number": "76",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -74,6 +67,13 @@
       "name": "Emmet Sheehan",
       "position": "P",
       "number": "80",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Enrique Hernández",
+      "position": "1B",
+      "number": "8",
       "status": "A",
       "source": "MLB Stats API"
     },

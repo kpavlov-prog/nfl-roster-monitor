@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=active",
-  "checkedAt": "2026-07-28T10:44:50.185662+00:00",
+  "checkedAt": "2026-07-29T10:48:38.998071+00:00",
   "players": [
     {
       "name": "Alex Hoppe",
@@ -32,13 +32,6 @@
       "name": "Bryce Miller",
       "position": "P",
       "number": "50",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Buddy Kennedy",
-      "position": "1B",
-      "number": "39",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,6 +165,13 @@
       "name": "Randy Arozarena",
       "position": "LF",
       "number": "56",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Rob Refsnyder",
+      "position": "DH",
+      "number": "30",
       "status": "A",
       "source": "MLB Stats API"
     },
