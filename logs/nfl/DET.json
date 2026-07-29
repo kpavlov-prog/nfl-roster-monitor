@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-29T10:32:01.200820+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "added",
+    "playerName": "Troy Reeder",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-29T10:32:01.200837+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "removed",
+    "playerName": "Jay Tufele",
+    "position": "DT",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-23T10:12:57.361748+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Lions",

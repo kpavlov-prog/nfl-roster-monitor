@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-29T10:32:55.061306+00:00",
+    "teamCode": "WAS",
+    "teamName": "Washington Commanders",
+    "type": "added",
+    "playerName": "Rasul Douglas",
+    "position": "CB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-29T10:32:55.061345+00:00",
+    "teamCode": "WAS",
+    "teamName": "Washington Commanders",
+    "type": "removed",
+    "playerName": "Nick Bellore",
+    "position": "LB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-23T10:13:52.888928+00:00",
     "teamCode": "WAS",
     "teamName": "Washington Commanders",

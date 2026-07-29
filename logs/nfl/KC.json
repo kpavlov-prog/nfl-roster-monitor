@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-29T10:32:12.137619+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Chiefs",
+    "type": "status changed",
+    "playerName": "Ethan Downs",
+    "position": "LB",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-29T10:32:12.137638+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Chiefs",
+    "type": "status changed",
+    "playerName": "John Michael Gyllenborg",
+    "position": "TE",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-07-24T10:09:18.407668+00:00",
     "teamCode": "KC",
     "teamName": "Kansas City Chiefs",

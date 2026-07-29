@@ -3,7 +3,7 @@
   "team": "Miami Dolphins",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/miami-dolphins/roster",
-  "checkedAt": "2026-07-28T10:27:40.394864+00:00",
+  "checkedAt": "2026-07-29T10:32:22.221111+00:00",
   "players": [
     {
       "name": "A.J. Green",
@@ -153,6 +153,14 @@
       "name": "Chris Johnson",
       "position": "CB",
       "number": "3",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Clelin Ferrell",
+      "position": "DE",
+      "number": "76",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -379,14 +387,6 @@
       "number": "74",
       "status": "ACT",
       "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Kahlil Saunders",
-      "position": "DT",
-      "number": "98",
-      "status": "ACT",
-      "important": false,
       "source": "NFL.com"
     },
     {
