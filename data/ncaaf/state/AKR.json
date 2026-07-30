@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2006/roster?limit=100&page=1",
-  "checkedAt": "2026-07-29T11:34:26.359145+00:00",
+  "checkedAt": "2026-07-30T11:21:25.524261+00:00",
   "players": [
     {
       "name": "AJ George",
@@ -225,13 +225,6 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Delvin Morris",
-      "position": "OL",
-      "number": "57",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
       "name": "Devin Reeves",
       "position": "LB",
       "number": "45",
@@ -270,13 +263,6 @@
       "name": "Elijah Davis",
       "position": "DL",
       "number": "57",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Elijah Reed",
-      "position": "DB",
-      "number": "11",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -536,13 +522,6 @@
       "name": "Max Mobley",
       "position": "OL",
       "number": "62",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Max Whisner",
-      "position": "TE",
-      "number": "87",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
