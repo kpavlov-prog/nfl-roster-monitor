@@ -3,7 +3,7 @@
   "team": "Houston Texans",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/houston-texans/roster",
-  "checkedAt": "2026-07-29T10:32:05.373445+00:00",
+  "checkedAt": "2026-07-30T10:15:14.691955+00:00",
   "players": [
     {
       "name": "Aiden Fisher",
@@ -113,6 +113,14 @@
       "name": "Collin Wright",
       "position": "CB",
       "number": "37",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "DJ Turner",
+      "position": "WR",
+      "number": "69",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -497,14 +505,6 @@
       "name": "Logan Hall",
       "position": "DE",
       "number": "90",
-      "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Louis Hansen",
-      "position": "TE",
-      "number": "47",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

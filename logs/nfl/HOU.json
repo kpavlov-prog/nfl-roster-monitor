@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-30T10:15:14.692251+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Texans",
+    "type": "added",
+    "playerName": "DJ Turner",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-30T10:15:14.692301+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Texans",
+    "type": "removed",
+    "playerName": "Louis Hansen",
+    "position": "TE",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-23T10:13:02.582657+00:00",
     "teamCode": "HOU",
     "teamName": "Houston Texans",

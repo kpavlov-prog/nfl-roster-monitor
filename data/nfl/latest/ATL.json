@@ -3,7 +3,7 @@
   "team": "Atlanta Falcons",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/atlanta-falcons/roster",
-  "checkedAt": "2026-07-29T10:31:17.312684+00:00",
+  "checkedAt": "2026-07-30T10:14:23.124768+00:00",
   "players": [
     {
       "name": "A.J. Terrell",
@@ -209,6 +209,14 @@
       "name": "Cobee Bryant",
       "position": "CB",
       "number": "37",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Cooper Rush",
+      "position": "QB",
+      "number": "75",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -642,14 +650,6 @@
       "position": "OT",
       "number": "77",
       "status": "PUP",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Trevor Siemian",
-      "position": "QB",
-      "number": "13",
-      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
