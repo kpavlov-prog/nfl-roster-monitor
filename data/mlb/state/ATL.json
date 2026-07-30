@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-07-29T10:48:25.533368+00:00",
+  "checkedAt": "2026-07-30T10:33:39.786856+00:00",
   "players": [
     {
       "name": "Austin Riley",
@@ -25,13 +25,6 @@
       "name": "Chris Sale",
       "position": "P",
       "number": "51",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Connor Thomas",
-      "position": "P",
-      "number": "65",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -81,6 +74,13 @@
       "name": "Eli White",
       "position": "RF",
       "number": "36",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Elieser Hernández",
+      "position": "P",
+      "number": "57",
       "status": "A",
       "source": "MLB Stats API"
     },

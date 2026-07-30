@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-07-29T10:48:41.986269+00:00",
+  "checkedAt": "2026-07-30T10:33:56.949797+00:00",
   "players": [
     {
       "name": "Andrés Chaparro",
@@ -74,13 +74,6 @@
       "name": "Foster Griffin",
       "position": "P",
       "number": "22",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Gus Varland",
-      "position": "P",
-      "number": "47",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -162,13 +155,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Paxton Schultz",
-      "position": "P",
-      "number": "75",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Riley Cornelio",
       "position": "P",
       "number": "74",
@@ -179,6 +165,13 @@
       "name": "Tom Cosgrove",
       "position": "P",
       "number": "34",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Trevor Williams",
+      "position": "P",
+      "number": "32",
       "status": "A",
       "source": "MLB Stats API"
     },

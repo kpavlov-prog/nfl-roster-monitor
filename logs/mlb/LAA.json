@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-30T10:33:46.567848+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "added",
+    "playerName": "Travis d'Arnaud",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-30T10:33:46.567857+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "removed",
+    "playerName": "Chase Silseth",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-30T10:33:46.567861+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "removed",
+    "playerName": "Logan O'Hoppe",
+    "position": "C",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-11T09:48:11.215866+00:00",
     "teamCode": "LAA",
     "teamName": "Los Angeles Angels",

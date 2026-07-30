@@ -5,19 +5,12 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-07-29T10:48:37.218668+00:00",
+  "checkedAt": "2026-07-30T10:33:52.078784+00:00",
   "players": [
     {
       "name": "Billy Cook",
       "position": "CF",
       "number": "25",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brandon Eisert",
-      "position": "P",
-      "number": "14",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -85,9 +78,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Isaac Mattson",
+      "name": "Hunter Barco",
       "position": "P",
-      "number": "72",
+      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -120,6 +113,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jhostynxon Garcia",
+      "position": "RF",
+      "number": "34",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Marcell Ozuna",
       "position": "DH",
       "number": "24",
@@ -148,6 +148,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Noah Murdock",
+      "position": "P",
+      "number": "58",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Paul Skenes",
       "position": "P",
       "number": "30",
@@ -165,13 +172,6 @@
       "name": "Ryan O'Hearn",
       "position": "RF",
       "number": "29",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tyler Callihan",
-      "position": "LF",
-      "number": "37",
       "status": "A",
       "source": "MLB Stats API"
     },

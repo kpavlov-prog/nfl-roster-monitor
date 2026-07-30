@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-07-29T10:48:26.709734+00:00",
+  "checkedAt": "2026-07-30T10:33:41.028916+00:00",
   "players": [
     {
       "name": "Andruw Monasterio",
@@ -64,13 +64,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Curtis Mead",
-      "position": "3B",
-      "number": "25",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Garrett Whitlock",
       "position": "P",
       "number": "22",
@@ -123,6 +116,13 @@
       "name": "Masataka Yoshida",
       "position": "DH",
       "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Nick Sogard",
+      "position": "3B",
+      "number": "20",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,19 +5,12 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=active",
-  "checkedAt": "2026-07-29T10:48:31.857328+00:00",
+  "checkedAt": "2026-07-30T10:33:46.566725+00:00",
   "players": [
     {
       "name": "Brent Suter",
       "position": "P",
       "number": "37",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Chase Silseth",
-      "position": "P",
-      "number": "63",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -85,13 +78,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Logan O'Hoppe",
-      "position": "C",
-      "number": "14",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Mike Trout",
       "position": "CF",
       "number": "27",
@@ -151,6 +137,13 @@
       "name": "Samy Natera Jr.",
       "position": "P",
       "number": "52",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Travis d'Arnaud",
+      "position": "C",
+      "number": "25",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-07-29T10:48:32.431575+00:00",
+  "checkedAt": "2026-07-30T10:33:47.185306+00:00",
   "players": [
     {
       "name": "Alex Call",
@@ -36,13 +36,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Charlie Barnes",
-      "position": "P",
-      "number": "57",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Dalton Rushing",
       "position": "C",
       "number": "68",
@@ -53,6 +46,13 @@
       "name": "Edgardo Henriquez",
       "position": "P",
       "number": "60",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Edwin Díaz",
+      "position": "P",
+      "number": "3",
       "status": "A",
       "source": "MLB Stats API"
     },

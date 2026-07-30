@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-30T10:33:56.339496+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "added",
+    "playerName": "Chad Dallas",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-30T10:33:56.339511+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "removed",
+    "playerName": "CJ Van Eyk",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-28T10:44:52.631636+00:00",
     "teamCode": "TOR",
     "teamName": "Toronto Blue Jays",

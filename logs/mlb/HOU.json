@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-30T10:33:45.343445+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Astros",
+    "type": "added",
+    "playerName": "Hayden Wesneski",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-30T10:33:45.343459+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Astros",
+    "type": "removed",
+    "playerName": "Miguel Ullola",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-27T11:38:24.582833+00:00",
     "teamCode": "HOU",
     "teamName": "Houston Astros",
