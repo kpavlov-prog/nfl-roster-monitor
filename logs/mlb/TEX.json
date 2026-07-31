@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-31T10:50:27.744795+00:00",
+    "teamCode": "TEX",
+    "teamName": "Texas Rangers",
+    "type": "added",
+    "playerName": "Winston Santos",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-31T10:50:27.744803+00:00",
+    "teamCode": "TEX",
+    "teamName": "Texas Rangers",
+    "type": "removed",
+    "playerName": "Jakob Junis",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-26T10:12:59.104486+00:00",
     "teamCode": "TEX",
     "teamName": "Texas Rangers",

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-07-30T10:33:55.729841+00:00",
+  "checkedAt": "2026-07-31T10:50:27.744162+00:00",
   "players": [
     {
       "name": "Alejandro Osuna",
@@ -99,13 +99,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jakob Junis",
-      "position": "P",
-      "number": "16",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Joc Pederson",
       "position": "DH",
       "number": "3",
@@ -179,6 +172,13 @@
       "name": "Tyler Alexander",
       "position": "P",
       "number": "13",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Winston Santos",
+      "position": "P",
+      "number": "47",
       "status": "A",
       "source": "MLB Stats API"
     },

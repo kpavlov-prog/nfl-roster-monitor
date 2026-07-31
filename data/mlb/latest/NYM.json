@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-07-30T10:33:49.654052+00:00",
+  "checkedAt": "2026-07-31T10:50:21.980683+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -116,13 +116,6 @@
       "name": "Jared Young",
       "position": "1B",
       "number": "29",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jonathan Pintaro",
-      "position": "P",
-      "number": "91",
       "status": "A",
       "source": "MLB Stats API"
     },
