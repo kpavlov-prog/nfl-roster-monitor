@@ -3,7 +3,7 @@
   "team": "Carolina Panthers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/carolina-panthers/roster",
-  "checkedAt": "2026-07-30T10:14:42.269763+00:00",
+  "checkedAt": "2026-07-31T10:29:54.402319+00:00",
   "players": [
     {
       "name": "AJ Dillon",
@@ -249,6 +249,14 @@
       "name": "Feleipe Franks",
       "position": "TE",
       "number": "81",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Gabriel Benyard",
+      "position": "WR",
+      "number": "70",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -505,14 +513,6 @@
       "name": "Nick Samac",
       "position": "C",
       "number": "60",
-      "status": "ACT",
-      "important": false,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Parker Petersen",
-      "position": "DT",
-      "number": "69",
       "status": "ACT",
       "important": false,
       "source": "NFL.com"

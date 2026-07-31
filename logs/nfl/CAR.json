@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-31T10:29:54.402672+00:00",
+    "teamCode": "CAR",
+    "teamName": "Carolina Panthers",
+    "type": "added",
+    "playerName": "Gabriel Benyard",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-31T10:29:54.402703+00:00",
+    "teamCode": "CAR",
+    "teamName": "Carolina Panthers",
+    "type": "removed",
+    "playerName": "Parker Petersen",
+    "position": "DT",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-30T10:14:42.270077+00:00",
     "teamCode": "CAR",
     "teamName": "Carolina Panthers",

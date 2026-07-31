@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-31T10:30:54.761724+00:00",
+    "teamCode": "NYG",
+    "teamName": "New York Giants",
+    "type": "added",
+    "playerName": "Anfernee Orji",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-31T10:30:54.761775+00:00",
+    "teamCode": "NYG",
+    "teamName": "New York Giants",
+    "type": "removed",
+    "playerName": "Ben Barten",
+    "position": "DT",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-30T10:15:42.266228+00:00",
     "teamCode": "NYG",
     "teamName": "New York Giants",

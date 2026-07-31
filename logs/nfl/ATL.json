@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-07-31T10:29:35.190105+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Falcons",
+    "type": "added",
+    "playerName": "Josh Woods",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-07-31T10:29:35.190246+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Falcons",
+    "type": "removed",
+    "playerName": "Ross Blacklock",
+    "position": "DT",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-30T10:14:23.125105+00:00",
     "teamCode": "ATL",
     "teamName": "Atlanta Falcons",
