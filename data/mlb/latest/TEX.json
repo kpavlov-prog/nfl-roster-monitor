@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-07-31T10:50:27.744162+00:00",
+  "checkedAt": "2026-08-01T10:09:30.597724+00:00",
   "players": [
     {
       "name": "Alejandro Osuna",
@@ -50,9 +50,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Chase Silseth",
+      "position": "P",
+      "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Cole Winn",
       "position": "P",
       "number": "60",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Corey Seager",
+      "position": "SS",
+      "number": "5",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -106,13 +120,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Josh Smith",
-      "position": "2B",
-      "number": "8",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Justin Foscue",
       "position": "2B",
       "number": "14",
@@ -127,16 +134,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "MacKenzie Gore",
+      "name": "Luis Curvelo",
       "position": "P",
-      "number": "1",
+      "number": "57",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Marco Gonzales",
+      "name": "MacKenzie Gore",
       "position": "P",
-      "number": "50",
+      "number": "1",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,13 +179,6 @@
       "name": "Tyler Alexander",
       "position": "P",
       "number": "13",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Winston Santos",
-      "position": "P",
-      "number": "47",
       "status": "A",
       "source": "MLB Stats API"
     },

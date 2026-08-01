@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=active",
-  "checkedAt": "2026-07-31T10:50:13.210315+00:00",
+  "checkedAt": "2026-08-01T10:09:17.183432+00:00",
   "players": [
     {
       "name": "Albert Suárez",
@@ -36,13 +36,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Chadwick Tromp",
-      "position": "C",
-      "number": "41",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Christian Encarnacion-Strand",
       "position": "3B",
       "number": "32",
@@ -60,13 +53,6 @@
       "name": "Colton Cowser",
       "position": "CF",
       "number": "17",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Dean Kremer",
-      "position": "P",
-      "number": "64",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -95,6 +81,13 @@
       "name": "Jackson Holliday",
       "position": "2B",
       "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jake Rogers",
+      "position": "C",
+      "number": "27",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-07-31T10:50:28.317854+00:00",
+  "checkedAt": "2026-08-01T10:09:31.130132+00:00",
   "players": [
-    {
-      "name": "Adam Macko",
-      "position": "P",
-      "number": "64",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Alejandro Kirk",
       "position": "C",
@@ -32,6 +25,13 @@
       "name": "Brandon Valenzuela",
       "position": "C",
       "number": "59",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Braydon Fisher",
+      "position": "P",
+      "number": "63",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -88,6 +88,13 @@
       "name": "Jeff Hoffman",
       "position": "P",
       "number": "23",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jesús Sánchez",
+      "position": "RF",
+      "number": "12",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,13 +186,6 @@
       "name": "Vladimir Guerrero Jr.",
       "position": "1B",
       "number": "27",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Yohendrick Piñango",
-      "position": "LF",
-      "number": "24",
       "status": "A",
       "source": "MLB Stats API"
     }

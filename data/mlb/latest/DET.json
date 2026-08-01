@@ -5,19 +5,12 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=active",
-  "checkedAt": "2026-07-31T10:50:17.327686+00:00",
+  "checkedAt": "2026-08-01T10:09:20.934267+00:00",
   "players": [
     {
       "name": "Ben Malgeri",
       "position": "RF",
       "number": "53",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brenan Hanifee",
-      "position": "P",
-      "number": "75",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -60,6 +53,13 @@
       "name": "Eduardo Valencia",
       "position": "C",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Enmanuel De Jesus",
+      "position": "P",
+      "number": "37",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -134,9 +134,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Matt Vierling",
+      "name": "Max Clark",
       "position": "CF",
-      "number": "8",
+      "number": "15",
       "status": "A",
       "source": "MLB Stats API"
     },

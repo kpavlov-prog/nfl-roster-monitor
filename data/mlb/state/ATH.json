@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-07-31T10:50:23.115766+00:00",
+  "checkedAt": "2026-08-01T10:09:26.281192+00:00",
   "players": [
     {
       "name": "Alika Williams",
@@ -32,13 +32,6 @@
       "name": "Carlos Cortes",
       "position": "RF",
       "number": "26",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Colby Thomas",
-      "position": "RF",
-      "number": "32",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -123,6 +116,13 @@
       "name": "Jonah Heim",
       "position": "C",
       "number": "15",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jonathan Ornelas",
+      "position": "SS",
+      "number": "11",
       "status": "A",
       "source": "MLB Stats API"
     },
