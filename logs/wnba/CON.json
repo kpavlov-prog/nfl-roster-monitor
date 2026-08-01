@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-08-01T10:42:08.904890+00:00",
+    "teamCode": "CON",
+    "teamName": "Connecticut Sun",
+    "type": "added",
+    "playerName": "Maria Kliundikova",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-01T10:42:08.904902+00:00",
+    "teamCode": "CON",
+    "teamName": "Connecticut Sun",
+    "type": "removed",
+    "playerName": "Aneesah Morrow",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  }
+]

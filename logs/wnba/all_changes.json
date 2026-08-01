@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-08-01T10:42:08.904890+00:00",
+    "teamCode": "CON",
+    "teamName": "Connecticut Sun",
+    "type": "added",
+    "playerName": "Maria Kliundikova",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-01T10:42:08.904902+00:00",
+    "teamCode": "CON",
+    "teamName": "Connecticut Sun",
+    "type": "removed",
+    "playerName": "Aneesah Morrow",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-01T10:42:10.739322+00:00",
+    "teamCode": "IND",
+    "teamName": "Indiana Fever",
+    "type": "added",
+    "playerName": "Ugonne Onyiah",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-01T10:42:15.395270+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Tempo",
+    "type": "added",
+    "playerName": "Aneesah Morrow",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-01T10:42:15.395287+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Tempo",
+    "type": "removed",
+    "playerName": "Tima Pouye",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-28T11:19:41.349788+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Lynx",

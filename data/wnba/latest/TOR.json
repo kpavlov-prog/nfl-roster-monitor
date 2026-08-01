@@ -3,8 +3,15 @@
   "team": "Toronto Tempo",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/TOR/roster",
-  "checkedAt": "2026-07-31T11:30:29.978178+00:00",
+  "checkedAt": "2026-08-01T10:42:15.393835+00:00",
   "players": [
+    {
+      "name": "Aneesah Morrow",
+      "position": "F",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
     {
       "name": "Brittney Sykes",
       "position": "G",
@@ -86,13 +93,6 @@
       "name": "Teonni Key",
       "position": "F",
       "number": "7",
-      "status": "ACTIVE",
-      "source": "ESPN WNBA API"
-    },
-    {
-      "name": "Tima Pouye",
-      "position": "G",
-      "number": "32",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     }

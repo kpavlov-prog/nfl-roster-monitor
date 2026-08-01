@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-01T10:42:15.395270+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Tempo",
+    "type": "added",
+    "playerName": "Aneesah Morrow",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-01T10:42:15.395287+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Tempo",
+    "type": "removed",
+    "playerName": "Tima Pouye",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-24T11:09:24.064253+00:00",
     "teamCode": "TOR",
     "teamName": "Toronto Tempo",
