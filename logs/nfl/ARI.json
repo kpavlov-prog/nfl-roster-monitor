@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-01T09:50:40.622265+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Cardinals",
+    "type": "status changed",
+    "playerName": "Jaden Davis",
+    "position": "DB",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-08-01T09:50:40.622393+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Cardinals",
+    "type": "added",
+    "playerName": "Quinton Newsome",
+    "position": "CB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-07-24T10:08:33.680879+00:00",
     "teamCode": "ARI",
     "teamName": "Arizona Cardinals",
