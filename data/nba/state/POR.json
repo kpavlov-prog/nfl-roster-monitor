@@ -3,7 +3,7 @@
   "team": "Portland Trail Blazers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/POR/roster",
-  "checkedAt": "2026-08-01T10:22:39.153063+00:00",
+  "checkedAt": "2026-08-02T10:21:10.972372+00:00",
   "players": [
     {
       "name": "Branden Carlson",
@@ -51,6 +51,13 @@
       "name": "Jayson Kent",
       "position": "G",
       "number": "29",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Jeremy Sochan",
+      "position": "F",
+      "number": "20",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
