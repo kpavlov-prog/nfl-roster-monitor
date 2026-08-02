@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-08-01T10:09:30.597724+00:00",
+  "checkedAt": "2026-08-02T10:07:23.695598+00:00",
   "players": [
     {
       "name": "Alejandro Osuna",
@@ -134,13 +134,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Luis Curvelo",
-      "position": "P",
-      "number": "57",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "MacKenzie Gore",
       "position": "P",
       "number": "1",
@@ -158,6 +151,13 @@
       "name": "Nicky Lopez",
       "position": "2B",
       "number": "33",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Nolan Kingham",
+      "position": "P",
+      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },

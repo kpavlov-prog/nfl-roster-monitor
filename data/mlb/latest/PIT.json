@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-08-01T10:09:27.358425+00:00",
+  "checkedAt": "2026-08-02T10:07:20.429965+00:00",
   "players": [
-    {
-      "name": "Antwone Kelly",
-      "position": "P",
-      "number": "62",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Billy Cook",
       "position": "CF",
@@ -81,6 +74,13 @@
       "name": "Henry Davis",
       "position": "C",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Isaac Mattson",
+      "position": "P",
+      "number": "72",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -162,16 +162,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Ron Marinaccio",
-      "position": "P",
-      "number": "97",
+      "name": "Rafael Flores Jr.",
+      "position": "C",
+      "number": "43",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Ryan O'Hearn",
-      "position": "RF",
-      "number": "29",
+      "name": "Ron Marinaccio",
+      "position": "P",
+      "number": "97",
       "status": "A",
       "source": "MLB Stats API"
     },

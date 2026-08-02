@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-08-01T10:09:23.073466+00:00",
+  "checkedAt": "2026-08-02T10:07:16.096055+00:00",
   "players": [
     {
       "name": "Alex Call",
@@ -25,13 +25,6 @@
       "name": "Andy Pages",
       "position": "CF",
       "number": "44",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Cole Irvin",
-      "position": "P",
-      "number": "38",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -113,6 +106,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Kyle Hurt",
+      "position": "P",
+      "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Kyle Tucker",
       "position": "RF",
       "number": "23",
@@ -176,9 +176,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Will Klein",
+      "name": "Wyatt Mills",
       "position": "P",
-      "number": "61",
+      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },

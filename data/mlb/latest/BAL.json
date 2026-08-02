@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=active",
-  "checkedAt": "2026-08-01T10:09:17.183432+00:00",
+  "checkedAt": "2026-08-02T10:07:10.094872+00:00",
   "players": [
     {
       "name": "Albert Suárez",
@@ -165,6 +165,13 @@
       "name": "Tyler Wells",
       "position": "P",
       "number": "68",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yaramil Hiraldo",
+      "position": "P",
+      "number": "76",
       "status": "A",
       "source": "MLB Stats API"
     },

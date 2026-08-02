@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-08-01T10:09:26.281192+00:00",
+  "checkedAt": "2026-08-02T10:07:19.356065+00:00",
   "players": [
     {
       "name": "Alika Williams",
       "position": "SS",
       "number": "12",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ben Bowden",
+      "position": "P",
+      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,13 +151,6 @@
       "name": "Luis Medina",
       "position": "P",
       "number": "46",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Luis Morales",
-      "position": "P",
-      "number": "19",
       "status": "A",
       "source": "MLB Stats API"
     },

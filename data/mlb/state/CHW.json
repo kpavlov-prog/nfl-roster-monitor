@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-08-01T10:09:18.787563+00:00",
+  "checkedAt": "2026-08-02T10:07:11.734424+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -106,6 +106,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Luis Castillo",
+      "position": "P",
+      "number": "58",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Luisangel Acuña",
       "position": "SS",
       "number": "0",
@@ -158,13 +165,6 @@
       "name": "Sean Newcomb",
       "position": "P",
       "number": "15",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Seranthony Domínguez",
-      "position": "P",
-      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },

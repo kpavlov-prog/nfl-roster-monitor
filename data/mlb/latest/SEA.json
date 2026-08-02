@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=active",
-  "checkedAt": "2026-08-01T10:09:28.959220+00:00",
+  "checkedAt": "2026-08-02T10:07:22.080108+00:00",
   "players": [
     {
       "name": "Alex Hoppe",
@@ -134,20 +134,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Luis Castillo",
-      "position": "P",
-      "number": "58",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Luke Raley",
-      "position": "RF",
-      "number": "20",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Michael Rucker",
       "position": "P",
       "number": "38",
@@ -172,6 +158,20 @@
       "name": "Rob Refsnyder",
       "position": "DH",
       "number": "30",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Seranthony Domínguez",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Stuart Fairchild",
+      "position": "CF",
+      "number": "17",
       "status": "A",
       "source": "MLB Stats API"
     },
