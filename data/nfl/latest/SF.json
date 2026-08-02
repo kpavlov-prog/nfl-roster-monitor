@@ -3,7 +3,7 @@
   "team": "San Francisco 49ers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/san-francisco-49ers/roster",
-  "checkedAt": "2026-08-01T09:52:16.727277+00:00",
+  "checkedAt": "2026-08-02T09:50:35.516024+00:00",
   "players": [
     {
       "name": "Adrian Martinez",
@@ -169,6 +169,14 @@
       "name": "De'Zhaun Stribling",
       "position": "WR",
       "number": "15",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Deebo Samuel Sr.",
+      "position": "WR",
+      "number": "72",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -593,7 +601,7 @@
       "name": "Ricky Pearsall",
       "position": "WR",
       "number": "1",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -649,7 +657,7 @@
       "name": "Tanner McLachlan",
       "position": "TE",
       "number": "77",
-      "status": "LISTED",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
