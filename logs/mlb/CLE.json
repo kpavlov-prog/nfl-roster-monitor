@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-03T11:43:15.819446+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Guardians",
+    "type": "added",
+    "playerName": "Craig Yoho",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-03T11:43:15.819462+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Guardians",
+    "type": "removed",
+    "playerName": "Will Dion",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-31T10:50:16.123386+00:00",
     "teamCode": "CLE",
     "teamName": "Cleveland Guardians",

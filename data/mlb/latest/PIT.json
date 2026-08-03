@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-08-02T10:07:20.429965+00:00",
+  "checkedAt": "2026-08-03T11:43:24.347396+00:00",
   "players": [
-    {
-      "name": "Billy Cook",
-      "position": "CF",
-      "number": "25",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Brandon Lowe",
       "position": "2B",
@@ -39,6 +32,13 @@
       "name": "Bubba Chandler",
       "position": "P",
       "number": "36",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Camilo Doval",
+      "position": "P",
+      "number": "75",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -74,13 +74,6 @@
       "name": "Henry Davis",
       "position": "C",
       "number": "32",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Isaac Mattson",
-      "position": "P",
-      "number": "72",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,6 +165,13 @@
       "name": "Ron Marinaccio",
       "position": "P",
       "number": "97",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Spencer Horwitz",
+      "position": "1B",
+      "number": "2",
       "status": "A",
       "source": "MLB Stats API"
     },

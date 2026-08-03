@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/118/roster?rosterType=active",
-  "checkedAt": "2026-08-02T10:07:15.013584+00:00",
+  "checkedAt": "2026-08-03T11:43:18.224104+00:00",
   "players": [
+    {
+      "name": "Aaron Bummer",
+      "position": "P",
+      "number": "36",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Alex Lange",
       "position": "P",
@@ -78,16 +85,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Lucas Erceg",
-      "position": "P",
-      "number": "60",
+      "name": "Kyle Isbel",
+      "position": "CF",
+      "number": "28",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Luinder Avila",
+      "name": "Lucas Erceg",
       "position": "P",
-      "number": "58",
+      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=active",
-  "checkedAt": "2026-08-02T10:07:13.916559+00:00",
+  "checkedAt": "2026-08-03T11:43:17.029210+00:00",
   "players": [
     {
       "name": "Ben Malgeri",
       "position": "RF",
       "number": "53",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brenan Hanifee",
+      "position": "P",
+      "number": "75",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -151,13 +158,6 @@
       "name": "Spencer Torkelson",
       "position": "1B",
       "number": "20",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tarik Skubal",
-      "position": "P",
-      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=active",
-  "checkedAt": "2026-08-02T10:07:22.080108+00:00",
+  "checkedAt": "2026-08-03T11:43:26.173291+00:00",
   "players": [
     {
       "name": "Alex Hoppe",
@@ -106,6 +106,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Josh Simpson",
+      "position": "P",
+      "number": "37",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "José A. Ferrer",
       "position": "P",
       "number": "45",
@@ -158,13 +165,6 @@
       "name": "Rob Refsnyder",
       "position": "DH",
       "number": "30",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Seranthony Domínguez",
-      "position": "P",
-      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

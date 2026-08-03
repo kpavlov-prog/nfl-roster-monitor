@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-08-02T10:07:24.775442+00:00",
+  "checkedAt": "2026-08-03T11:43:29.217535+00:00",
   "players": [
     {
       "name": "Andrés Chaparro",
@@ -123,13 +123,6 @@
       "name": "Keibert Ruiz",
       "position": "C",
       "number": "20",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Luis García Jr.",
-      "position": "1B",
-      "number": "2",
       "status": "A",
       "source": "MLB Stats API"
     },

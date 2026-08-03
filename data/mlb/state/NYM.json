@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-08-02T10:07:18.273320+00:00",
+  "checkedAt": "2026-08-03T11:43:21.903619+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -32,6 +32,13 @@
       "name": "Brooks Raley",
       "position": "P",
       "number": "25",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Bryce Conley",
+      "position": "P",
+      "number": "93",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -85,13 +92,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Freddy Peralta",
-      "position": "P",
-      "number": "51",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Huascar Brazobán",
       "position": "P",
       "number": "43",
@@ -106,23 +106,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jonathan Pintaro",
-      "position": "P",
-      "number": "91",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jorge Polanco",
       "position": "DH",
       "number": "11",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Kevin Herget",
-      "position": "P",
-      "number": "57",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,6 +151,13 @@
       "name": "Nolan McLean",
       "position": "P",
       "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Robert Stock",
+      "position": "P",
+      "number": "89",
       "status": "A",
       "source": "MLB Stats API"
     },

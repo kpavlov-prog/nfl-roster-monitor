@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-08-02T10:07:09.548069+00:00",
+  "checkedAt": "2026-08-03T11:43:12.115587+00:00",
   "players": [
     {
       "name": "Austin Riley",
@@ -85,6 +85,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "JR Ritchie",
+      "position": "P",
+      "number": "60",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "James Karinchak",
       "position": "P",
       "number": "00",
@@ -158,13 +165,6 @@
       "name": "Raisel Iglesias",
       "position": "P",
       "number": "26",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Reynaldo López",
-      "position": "P",
-      "number": "40",
       "status": "A",
       "source": "MLB Stats API"
     },
