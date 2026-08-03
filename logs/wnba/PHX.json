@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-03T12:26:11.200630+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Mercury",
+    "type": "added",
+    "playerName": "Kelsey Plum",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-03T12:26:11.200641+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Mercury",
+    "type": "removed",
+    "playerName": "Marta Suarez",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-03T12:26:11.200645+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Mercury",
+    "type": "removed",
+    "playerName": "Monique Akoa Makani",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-28T11:19:42.628027+00:00",
     "teamCode": "PHX",
     "teamName": "Phoenix Mercury",

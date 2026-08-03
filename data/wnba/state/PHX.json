@@ -3,7 +3,7 @@
   "team": "Phoenix Mercury",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/PHX/roster",
-  "checkedAt": "2026-08-02T10:41:53.397617+00:00",
+  "checkedAt": "2026-08-03T12:26:11.199541+00:00",
   "players": [
     {
       "name": "Alyssa Thomas",
@@ -41,6 +41,13 @@
       "source": "ESPN WNBA API"
     },
     {
+      "name": "Kelsey Plum",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
       "name": "Kyara Linskens",
       "position": "C",
       "number": "31",
@@ -51,20 +58,6 @@
       "name": "Lexi Held",
       "position": "G",
       "number": "10",
-      "status": "ACTIVE",
-      "source": "ESPN WNBA API"
-    },
-    {
-      "name": "Marta Suarez",
-      "position": "F",
-      "number": "77",
-      "status": "ACTIVE",
-      "source": "ESPN WNBA API"
-    },
-    {
-      "name": "Monique Akoa Makani",
-      "position": "G",
-      "number": "8",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },

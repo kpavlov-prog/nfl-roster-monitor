@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-03T12:26:09.488714+00:00",
+    "teamCode": "LA",
+    "teamName": "Los Angeles Sparks",
+    "type": "added",
+    "playerName": "Monique Akoa Makani",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-03T12:26:09.488724+00:00",
+    "teamCode": "LA",
+    "teamName": "Los Angeles Sparks",
+    "type": "removed",
+    "playerName": "Kelsey Plum",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-18T10:19:47.248511+00:00",
     "teamCode": "LA",
     "teamName": "Los Angeles Sparks",

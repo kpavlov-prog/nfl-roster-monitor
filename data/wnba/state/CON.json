@@ -3,7 +3,7 @@
   "team": "Connecticut Sun",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/CON/roster",
-  "checkedAt": "2026-08-02T10:41:47.632856+00:00",
+  "checkedAt": "2026-08-03T12:26:06.617014+00:00",
   "players": [
     {
       "name": "Aaliyah Edwards",
@@ -93,6 +93,13 @@
       "name": "Raegan Beers",
       "position": "F",
       "number": "15",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Rayah Marshall",
+      "position": "C",
+      "number": "13",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },
