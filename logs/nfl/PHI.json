@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-04T10:29:34.069654+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "number changed",
+    "playerName": "Jihaad Campbell",
+    "position": "LB",
+    "oldValue": "75",
+    "newValue": "11",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-04T10:29:34.069680+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "removed",
+    "playerName": "Ta'Quon Graham",
+    "position": "DT",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-25T09:30:29.644901+00:00",
     "teamCode": "PHI",
     "teamName": "Philadelphia Eagles",

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-04T10:29:04.852213+00:00",
+    "teamCode": "JAX",
+    "teamName": "Jacksonville Jaguars",
+    "type": "added",
+    "playerName": "Jared Bartlett",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-04T10:29:04.852236+00:00",
+    "teamCode": "JAX",
+    "teamName": "Jacksonville Jaguars",
+    "type": "removed",
+    "playerName": "Ben Patterson",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-29T10:32:09.911948+00:00",
     "teamCode": "JAX",
     "teamName": "Jacksonville Jaguars",

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-04T10:28:10.128651+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Ravens",
+    "type": "number changed",
+    "playerName": "Ethan Pocic",
+    "position": "C",
+    "oldValue": "78",
+    "newValue": "77",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-04T10:28:10.128677+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Ravens",
+    "type": "removed",
+    "playerName": "Hakeem Adeniji",
+    "position": "G",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-28T10:26:29.003074+00:00",
     "teamCode": "BAL",
     "teamName": "Baltimore Ravens",

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-04T10:28:51.655106+00:00",
+    "teamCode": "DEN",
+    "teamName": "Denver Broncos",
+    "type": "number changed",
+    "playerName": "Sam Webb",
+    "position": "CB",
+    "oldValue": "72",
+    "newValue": "32",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-04T10:28:51.655120+00:00",
+    "teamCode": "DEN",
+    "teamName": "Denver Broncos",
+    "type": "removed",
+    "playerName": "Blake Cotton",
+    "position": "DB",
+    "oldValue": "RES",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-08-02T09:49:50.100916+00:00",
     "teamCode": "DEN",
     "teamName": "Denver Broncos",

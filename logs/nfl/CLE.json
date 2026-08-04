@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-04T10:28:46.244415+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "number changed",
+    "playerName": "Damarri Mathis",
+    "position": "DB",
+    "oldValue": "71",
+    "newValue": "37",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-04T10:28:46.244443+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "status changed",
+    "playerName": "TJ Harden",
+    "position": "RB",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-04T10:28:46.244449+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "added",
+    "playerName": "Travis Bell",
+    "position": "DT",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-07-22T10:16:57.538682+00:00",
     "teamCode": "CLE",
     "teamName": "Cleveland Browns",
