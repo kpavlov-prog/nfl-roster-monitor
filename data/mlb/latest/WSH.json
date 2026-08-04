@@ -5,8 +5,22 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-08-03T11:43:29.217535+00:00",
+  "checkedAt": "2026-08-04T10:49:50.761717+00:00",
   "players": [
+    {
+      "name": "Abimelec Ortiz",
+      "position": "1B",
+      "number": "81",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Andrew Alvarez",
+      "position": "P",
+      "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Andrés Chaparro",
       "position": "1B",
@@ -67,13 +81,6 @@
       "name": "Eddy Yean",
       "position": "P",
       "number": "46",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Foster Griffin",
-      "position": "P",
-      "number": "22",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -155,13 +162,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Riley Cornelio",
-      "position": "P",
-      "number": "74",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Tom Cosgrove",
       "position": "P",
       "number": "34",
@@ -172,6 +172,13 @@
       "name": "Trevor Williams",
       "position": "P",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yovanny Cruz",
+      "position": "P",
+      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },

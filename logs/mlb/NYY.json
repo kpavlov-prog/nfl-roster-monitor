@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-08-04T10:49:44.126519+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "added",
+    "playerName": "Kervin Castro",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-04T10:49:44.126526+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "added",
+    "playerName": "Luis García Jr.",
+    "position": "1B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-04T10:49:44.126533+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "removed",
+    "playerName": "Angel Chivilli",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-04T10:49:44.126536+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "removed",
+    "playerName": "Anthony Volpe",
+    "position": "SS",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-04T10:49:44.126538+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "removed",
+    "playerName": "Jasson Domínguez",
+    "position": "RF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-04T10:49:44.126541+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "removed",
+    "playerName": "Max Schuemann",
+    "position": "LF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-03T11:43:22.519433+00:00",
     "teamCode": "NYY",
     "teamName": "New York Yankees",

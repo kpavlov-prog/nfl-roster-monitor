@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-04T10:49:48.221103+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "added",
+    "playerName": "Hunter Dobbins",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-04T10:49:48.221126+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "removed",
+    "playerName": "Dustin May",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-04T10:49:48.221132+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "removed",
+    "playerName": "Lars Nootbaar",
+    "position": "LF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-02T10:07:22.624546+00:00",
     "teamCode": "STL",
     "teamName": "St. Louis Cardinals",

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=active",
-  "checkedAt": "2026-08-03T11:43:26.792761+00:00",
+  "checkedAt": "2026-08-04T10:49:48.220313+00:00",
   "players": [
     {
       "name": "Alec Burleson",
@@ -36,13 +36,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Dustin May",
-      "position": "P",
-      "number": "3",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "George Soriano",
       "position": "P",
       "number": "65",
@@ -53,6 +46,13 @@
       "name": "Gordon Graceffo",
       "position": "P",
       "number": "44",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Hunter Dobbins",
+      "position": "P",
+      "number": "40",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -102,13 +102,6 @@
       "name": "Kyle Leahy",
       "position": "P",
       "number": "62",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Lars Nootbaar",
-      "position": "LF",
-      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     },

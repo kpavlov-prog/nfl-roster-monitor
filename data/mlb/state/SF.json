@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-08-03T11:43:25.566431+00:00",
+  "checkedAt": "2026-08-04T10:49:47.018247+00:00",
   "players": [
     {
       "name": "Adrian Houser",
       "position": "P",
       "number": "12",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Blade Tidwell",
+      "position": "P",
+      "number": "46",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -22,9 +29,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Caleb Kilian",
+      "name": "Buddy Kennedy",
+      "position": "1B",
+      "number": "41",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Carson Seymour",
       "position": "P",
-      "number": "45",
+      "number": "77",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -71,23 +85,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Erik Miller",
-      "position": "P",
-      "number": "68",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Grant McCray",
       "position": "CF",
       "number": "58",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Heliot Ramos",
-      "position": "LF",
-      "number": "17",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -134,13 +134,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Luis Arraez",
-      "position": "2B",
-      "number": "1",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Nate Furman",
       "position": "2B",
       "number": "56",
@@ -162,9 +155,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Robbie Ray",
+      "name": "Reiver Sanmartin",
       "position": "P",
-      "number": "38",
+      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,6 +165,13 @@
       "name": "Sam Hentges",
       "position": "P",
       "number": "31",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tristan Beck",
+      "position": "P",
+      "number": "43",
       "status": "A",
       "source": "MLB Stats API"
     },

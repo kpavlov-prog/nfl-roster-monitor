@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=active",
-  "checkedAt": "2026-08-03T11:43:12.731246+00:00",
+  "checkedAt": "2026-08-04T10:49:34.643225+00:00",
   "players": [
     {
       "name": "Albert Suárez",
@@ -85,13 +85,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jake Rogers",
-      "position": "C",
-      "number": "27",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jeremiah Jackson",
       "position": "2B",
       "number": "82",
@@ -141,13 +134,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Taylor Ward",
-      "position": "LF",
-      "number": "3",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Trevor Rogers",
       "position": "P",
       "number": "28",
@@ -158,13 +144,6 @@
       "name": "Tyler O'Neill",
       "position": "RF",
       "number": "9",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tyler Wells",
-      "position": "P",
-      "number": "68",
       "status": "A",
       "source": "MLB Stats API"
     },

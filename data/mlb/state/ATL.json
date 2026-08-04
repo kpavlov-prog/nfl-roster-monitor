@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-08-03T11:43:12.115587+00:00",
+  "checkedAt": "2026-08-04T10:49:34.064841+00:00",
   "players": [
     {
       "name": "Austin Riley",
       "position": "3B",
       "number": "27",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brent Suter",
+      "position": "P",
+      "number": "39",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -71,13 +78,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Eli White",
-      "position": "RF",
-      "number": "36",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Grant Holmes",
       "position": "P",
       "number": "66",
@@ -85,16 +85,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "JR Ritchie",
-      "position": "P",
-      "number": "60",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "James Karinchak",
-      "position": "P",
-      "number": "00",
+      "name": "Ha-Seong Kim",
+      "position": "SS",
+      "number": "7",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -106,16 +99,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Joey Bart",
-      "position": "C",
-      "number": "16",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jorge Mateo",
-      "position": "SS",
-      "number": "2",
+      "name": "Lane Thomas",
+      "position": "CF",
+      "number": "20",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -176,9 +162,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Sean Murphy",
+      "position": "C",
+      "number": "12",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Tyler Kinley",
       "position": "P",
       "number": "45",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tyler Mahle",
+      "position": "P",
+      "number": "54",
       "status": "A",
       "source": "MLB Stats API"
     },

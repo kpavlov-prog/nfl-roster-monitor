@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=active",
-  "checkedAt": "2026-08-03T11:43:22.518294+00:00",
+  "checkedAt": "2026-08-04T10:49:44.125767+00:00",
   "players": [
     {
       "name": "Ali Sánchez",
@@ -18,20 +18,6 @@
       "name": "Amed Rosario",
       "position": "3B",
       "number": "14",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Angel Chivilli",
-      "position": "P",
-      "number": "57",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Anthony Volpe",
-      "position": "SS",
-      "number": "11",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -85,13 +71,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jasson Domínguez",
-      "position": "RF",
-      "number": "24",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jazz Chisholm Jr.",
       "position": "2B",
       "number": "13",
@@ -106,16 +85,23 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Max Fried",
+      "name": "Kervin Castro",
       "position": "P",
-      "number": "54",
+      "number": "74",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Max Schuemann",
-      "position": "LF",
-      "number": "30",
+      "name": "Luis García Jr.",
+      "position": "1B",
+      "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Max Fried",
+      "position": "P",
+      "number": "54",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-04T10:49:45.282284+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "position changed",
+    "playerName": "Bryan De La Cruz",
+    "position": "RF",
+    "oldValue": "OF",
+    "newValue": "RF",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-04T10:49:45.282299+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "removed",
+    "playerName": "Seth Johnson",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-01T10:09:26.816748+00:00",
     "teamCode": "PHI",
     "teamName": "Philadelphia Phillies",

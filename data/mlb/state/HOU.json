@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=active",
-  "checkedAt": "2026-08-03T11:43:17.610076+00:00",
+  "checkedAt": "2026-08-04T10:49:39.316115+00:00",
   "players": [
     {
       "name": "AJ Blubaugh",
@@ -64,6 +64,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Daulton Varsho",
+      "position": "CF",
+      "number": "18",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Enyel De Los Santos",
       "position": "P",
       "number": "65",
@@ -116,13 +123,6 @@
       "name": "LaMonte Wade Jr.",
       "position": "LF",
       "number": "31",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Lucas Spence",
-      "position": "CF",
-      "number": "28",
       "status": "A",
       "source": "MLB Stats API"
     },

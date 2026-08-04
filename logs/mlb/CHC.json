@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-04T10:49:35.799721+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "added",
+    "playerName": "Kevin Alcántara",
+    "position": "DH",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-04T10:49:35.799734+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "removed",
+    "playerName": "Justin Dean",
+    "position": "CF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-01T10:09:18.256231+00:00",
     "teamCode": "CHC",
     "teamName": "Chicago Cubs",

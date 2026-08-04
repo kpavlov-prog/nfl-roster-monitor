@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active",
-  "checkedAt": "2026-08-03T11:43:15.818151+00:00",
+  "checkedAt": "2026-08-04T10:49:37.583204+00:00",
   "players": [
     {
       "name": "Angel Martínez",
@@ -57,13 +57,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "David Fry",
-      "position": "RF",
-      "number": "6",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Erik Sabrowski",
       "position": "P",
       "number": "62",
@@ -109,13 +102,6 @@
       "name": "José Ramírez",
       "position": "3B",
       "number": "11",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Kyle Manzardo",
-      "position": "1B",
-      "number": "9",
       "status": "A",
       "source": "MLB Stats API"
     },

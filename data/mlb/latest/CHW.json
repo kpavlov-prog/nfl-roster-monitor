@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-08-03T11:43:14.574689+00:00",
+  "checkedAt": "2026-08-04T10:49:36.378968+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -85,13 +85,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Everson Pereira",
-      "position": "RF",
-      "number": "28",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Grant Taylor",
       "position": "P",
       "number": "31",
@@ -99,9 +92,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Huascar Brazobán",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jordan Hicks",
       "position": "P",
       "number": "44",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Luis Castillo",
+      "position": "P",
+      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,13 +179,6 @@
       "name": "Tristan Peters",
       "position": "CF",
       "number": "29",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tyler Schweitzer",
-      "position": "P",
-      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     }

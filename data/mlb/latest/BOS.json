@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-08-03T11:43:13.335266+00:00",
+  "checkedAt": "2026-08-04T10:49:35.222076+00:00",
   "players": [
     {
       "name": "Andruw Monasterio",
@@ -39,13 +39,6 @@
       "name": "Caleb Durbin",
       "position": "3B",
       "number": "5",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Carlos Narváez",
-      "position": "C",
-      "number": "75",
       "status": "A",
       "source": "MLB Stats API"
     },

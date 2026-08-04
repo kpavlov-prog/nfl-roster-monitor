@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-04T10:49:41.716533+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Marlins",
+    "type": "added",
+    "playerName": "Josh Ekness",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-04T10:49:41.716545+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Marlins",
+    "type": "removed",
+    "playerName": "Dax Fulton",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-04T10:49:41.716549+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Marlins",
+    "type": "removed",
+    "playerName": "Lake Bachar",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-04T10:49:41.716551+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Marlins",
+    "type": "removed",
+    "playerName": "Liam Hicks",
+    "position": "C",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-02T10:07:16.633283+00:00",
     "teamCode": "MIA",
     "teamName": "Miami Marlins",

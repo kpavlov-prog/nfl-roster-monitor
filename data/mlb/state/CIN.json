@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=active",
-  "checkedAt": "2026-08-03T11:43:15.195396+00:00",
+  "checkedAt": "2026-08-04T10:49:37.004513+00:00",
   "players": [
     {
       "name": "Andrew Abbott",
@@ -29,16 +29,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Caleb Ferguson",
+      "name": "Chase Burns",
       "position": "P",
-      "number": "46",
+      "number": "26",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Chase Burns",
+      "name": "Chase Petty",
       "position": "P",
-      "number": "26",
+      "number": "61",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -116,13 +116,6 @@
       "name": "Matt McLain",
       "position": "2B",
       "number": "9",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Nathaniel Lowe",
-      "position": "DH",
-      "number": "31",
       "status": "A",
       "source": "MLB Stats API"
     },

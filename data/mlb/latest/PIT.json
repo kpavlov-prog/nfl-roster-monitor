@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-08-03T11:43:24.347396+00:00",
+  "checkedAt": "2026-08-04T10:49:45.860606+00:00",
   "players": [
+    {
+      "name": "Brandon Eisert",
+      "position": "P",
+      "number": "14",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Brandon Lowe",
       "position": "2B",
@@ -127,13 +134,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Mitch Keller",
-      "position": "P",
-      "number": "23",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Nick Gonzales",
       "position": "3B",
       "number": "3",
@@ -158,13 +158,6 @@
       "name": "Rafael Flores Jr.",
       "position": "C",
       "number": "43",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Ron Marinaccio",
-      "position": "P",
-      "number": "97",
       "status": "A",
       "source": "MLB Stats API"
     },
