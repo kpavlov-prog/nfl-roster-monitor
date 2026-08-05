@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-08-05T10:27:22.229996+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "status changed",
+    "playerName": "Aaron Anderson",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-05T10:27:22.230012+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "added",
+    "playerName": "Coziah Izzard",
+    "position": "DT",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-05T10:27:22.230023+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "status changed",
+    "playerName": "Jack Conley",
+    "position": "OT",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-05T10:27:22.230041+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "added",
+    "playerName": "Tyler Hall",
+    "position": "CB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-05T10:27:22.230051+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "removed",
+    "playerName": "TJ Harden",
+    "position": "RB",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-04T10:28:46.244415+00:00",
     "teamCode": "CLE",
     "teamName": "Cleveland Browns",

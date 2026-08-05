@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-05T10:28:33.992971+00:00",
+    "teamCode": "WAS",
+    "teamName": "Washington Commanders",
+    "type": "added",
+    "playerName": "Fabian Moreau",
+    "position": "CB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-05T10:28:33.993002+00:00",
+    "teamCode": "WAS",
+    "teamName": "Washington Commanders",
+    "type": "removed",
+    "playerName": "Ahkello Witherspoon",
+    "position": "CB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-04T10:29:49.316907+00:00",
     "teamCode": "WAS",
     "teamName": "Washington Commanders",

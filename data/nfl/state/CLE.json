@@ -3,13 +3,13 @@
   "team": "Cleveland Browns",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/cleveland-browns/roster",
-  "checkedAt": "2026-08-04T10:28:46.244079+00:00",
+  "checkedAt": "2026-08-05T10:27:22.229709+00:00",
   "players": [
     {
       "name": "Aaron Anderson",
       "position": "WR",
       "number": "85",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -105,6 +105,14 @@
       "name": "Corey Bojorquez",
       "position": "P",
       "number": "13",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Coziah Izzard",
+      "position": "DT",
+      "number": "75",
       "status": "ACT",
       "important": false,
       "source": "NFL.com"
@@ -257,7 +265,7 @@
       "name": "Jack Conley",
       "position": "OT",
       "number": "67",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -574,14 +582,6 @@
       "source": "NFL.com"
     },
     {
-      "name": "TJ Harden",
-      "position": "RB",
-      "number": "36",
-      "status": "LISTED",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
       "name": "Taylen Green",
       "position": "QB",
       "number": "15",
@@ -617,6 +617,14 @@
       "name": "Tylan Wallace",
       "position": "WR",
       "number": "16",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Tyler Hall",
+      "position": "CB",
+      "number": "70",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

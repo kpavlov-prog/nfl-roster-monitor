@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-05T10:28:24.385335+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Seahawks",
+    "type": "added",
+    "playerName": "Garrett Nelson",
+    "position": "DE",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-05T10:28:24.385353+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Seahawks",
+    "type": "status changed",
+    "playerName": "Kyre Duplessis",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-04T10:29:40.764337+00:00",
     "teamCode": "SEA",
     "teamName": "Seattle Seahawks",

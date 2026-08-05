@@ -3,7 +3,7 @@
   "team": "Carolina Panthers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/carolina-panthers/roster",
-  "checkedAt": "2026-08-04T10:28:27.055896+00:00",
+  "checkedAt": "2026-08-05T10:27:13.484090+00:00",
   "players": [
     {
       "name": "AJ Dillon",
@@ -25,7 +25,7 @@
       "name": "Ainias Smith",
       "position": "WR",
       "number": "80",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -246,6 +246,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Elijah Cooks",
+      "position": "WR",
+      "number": "76",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Elijah Garcia",
       "position": "DE",
       "number": "77",
@@ -265,7 +273,7 @@
       "name": "Gabriel Benyard",
       "position": "WR",
       "number": "39",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -422,14 +430,6 @@
       "source": "NFL.com"
     },
     {
-      "name": "LaBryan Ray",
-      "position": "DT",
-      "number": "93",
-      "status": "ACT",
-      "important": false,
-      "source": "NFL.com"
-    },
-    {
       "name": "Lee Hunter",
       "position": "DT",
       "number": "92",
@@ -561,6 +561,14 @@
       "name": "Robert Rochell",
       "position": "CB",
       "number": "33",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Roc Taylor",
+      "position": "WR",
+      "number": "75",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

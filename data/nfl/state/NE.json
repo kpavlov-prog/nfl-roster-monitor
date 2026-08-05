@@ -3,7 +3,7 @@
   "team": "New England Patriots",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-england-patriots/roster",
-  "checkedAt": "2026-08-04T10:29:23.175797+00:00",
+  "checkedAt": "2026-08-05T10:28:04.273330+00:00",
   "players": [
     {
       "name": "A.J. Brown",
@@ -337,7 +337,7 @@
       "name": "Jeremiah Franklin",
       "position": "TE",
       "number": "80",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -665,6 +665,14 @@
       "name": "Tanner Arkin",
       "position": "TE",
       "number": "84",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Tejhaun Palmer",
+      "position": "WR",
+      "number": "74",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

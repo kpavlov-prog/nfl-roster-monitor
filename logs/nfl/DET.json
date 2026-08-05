@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-08-05T10:27:30.187665+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "status changed",
+    "playerName": "Anthony Firkser",
+    "position": "TE",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-08-05T10:27:30.187690+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "status changed",
+    "playerName": "Lawrence Keys",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-05T10:27:30.187702+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "added",
+    "playerName": "Raheem Blackshear",
+    "position": "RB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-05T10:27:30.187712+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "added",
+    "playerName": "Zach Horton",
+    "position": "TE",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-05T10:27:30.187719+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "removed",
+    "playerName": "Tarik Black",
+    "position": "WR",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-04T10:28:54.472224+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Lions",

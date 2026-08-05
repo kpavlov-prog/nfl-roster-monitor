@@ -3,7 +3,7 @@
   "team": "Pittsburgh Steelers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/pittsburgh-steelers/roster",
-  "checkedAt": "2026-08-04T10:29:36.448242+00:00",
+  "checkedAt": "2026-08-05T10:28:18.951737+00:00",
   "players": [
     {
       "name": "A.T. Perry",
@@ -137,7 +137,7 @@
       "name": "Cole Burgess",
       "position": "WR",
       "number": "85",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -345,6 +345,14 @@
       "name": "Jaheim Bell",
       "position": "TE",
       "number": "82",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Jakobie Keeney-James WR ACT",
+      "position": "WR",
+      "number": "72",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
