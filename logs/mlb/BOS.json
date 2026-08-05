@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-08-05T10:45:46.499983+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "added",
+    "playerName": "Eli White",
+    "position": "RF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-05T10:45:46.499990+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "added",
+    "playerName": "Erik Miller",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-05T10:45:46.499996+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "added",
+    "playerName": "Jake Rogers",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-05T10:45:46.500004+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "removed",
+    "playerName": "Romy Gonzalez",
+    "position": "DH",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-05T10:45:46.500006+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "removed",
+    "playerName": "Ryan Watson",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-04T10:49:35.222923+00:00",
     "teamCode": "BOS",
     "teamName": "Boston Red Sox",

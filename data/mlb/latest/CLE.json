@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active",
-  "checkedAt": "2026-08-04T10:49:37.583204+00:00",
+  "checkedAt": "2026-08-05T10:45:48.636966+00:00",
   "players": [
     {
       "name": "Angel Martínez",
@@ -64,9 +64,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Franco Aleman",
+      "name": "Foster Griffin",
       "position": "P",
-      "number": "55",
+      "number": "22",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -92,6 +92,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jo Adell",
+      "position": "RF",
+      "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Joey Cantillo",
       "position": "P",
       "number": "54",
@@ -109,6 +116,13 @@
       "name": "Matt Festa",
       "position": "P",
       "number": "52",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Nathaniel Lowe",
+      "position": "DH",
+      "number": "46",
       "status": "A",
       "source": "MLB Stats API"
     },

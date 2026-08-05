@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=active",
-  "checkedAt": "2026-08-04T10:49:47.643227+00:00",
+  "checkedAt": "2026-08-05T10:45:57.732567+00:00",
   "players": [
     {
       "name": "Andrés Muñoz",
       "position": "P",
       "number": "75",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brendan Donovan",
+      "position": "3B",
+      "number": "33",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -92,6 +99,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jhonny Pereda",
+      "position": "C",
+      "number": "5",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Josh Naylor",
       "position": "1B",
       "number": "12",
@@ -141,13 +155,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Mitch Garver",
-      "position": "C",
-      "number": "18",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Randy Arozarena",
       "position": "LF",
       "number": "56",
@@ -155,16 +162,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Rob Refsnyder",
-      "position": "DH",
-      "number": "30",
+      "name": "Seranthony Domínguez",
+      "position": "P",
+      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Stuart Fairchild",
-      "position": "CF",
-      "number": "17",
+      "name": "Taylor Ward",
+      "position": "LF",
+      "number": "27",
       "status": "A",
       "source": "MLB Stats API"
     },

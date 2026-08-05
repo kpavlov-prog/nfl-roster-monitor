@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-08-04T10:49:41.715530+00:00",
+  "checkedAt": "2026-08-05T10:45:52.381406+00:00",
   "players": [
+    {
+      "name": "Agustín Ramírez",
+      "position": "C",
+      "number": "50",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Brian Navarreto",
       "position": "C",
@@ -165,6 +172,13 @@
       "name": "Tyler Zuber",
       "position": "P",
       "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Victor Vodnik",
+      "position": "P",
+      "number": "38",
       "status": "A",
       "source": "MLB Stats API"
     },

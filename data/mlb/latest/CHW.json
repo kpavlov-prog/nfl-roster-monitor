@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-08-04T10:49:36.378968+00:00",
+  "checkedAt": "2026-08-05T10:45:47.568672+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -25,6 +25,13 @@
       "name": "Braden Montgomery",
       "position": "RF",
       "number": "24",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brenton Doyle",
+      "position": "CF",
+      "number": "7",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -71,13 +78,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Edgar Quero",
-      "position": "C",
-      "number": "26",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Erick Fedde",
       "position": "P",
       "number": "47",
@@ -94,7 +94,14 @@
     {
       "name": "Huascar Brazobán",
       "position": "P",
-      "number": "",
+      "number": "50",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Joey Bart",
+      "position": "C",
+      "number": "25",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=active",
-  "checkedAt": "2026-08-04T10:49:46.441422+00:00",
+  "checkedAt": "2026-08-05T10:45:56.663202+00:00",
   "players": [
     {
       "name": "Adrian Morejon",
@@ -22,6 +22,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Casey Mize",
+      "position": "P",
+      "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Fernando Tatis Jr.",
       "position": "RF",
       "number": "23",
@@ -32,6 +39,13 @@
       "name": "Freddy Fermin",
       "position": "C",
       "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Gage Workman",
+      "position": "3B",
+      "number": "99",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -53,13 +67,6 @@
       "name": "Griffin Canning",
       "position": "P",
       "number": "17",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "JP Sears",
-      "position": "P",
-      "number": "38",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -137,13 +144,6 @@
       "name": "Randy Vásquez",
       "position": "P",
       "number": "98",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Rodolfo Durán",
-      "position": "C",
-      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },

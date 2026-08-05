@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/139/roster?rosterType=active",
-  "checkedAt": "2026-08-04T10:49:48.843484+00:00",
+  "checkedAt": "2026-08-05T10:45:58.799950+00:00",
   "players": [
     {
       "name": "Ben Williamson",
@@ -113,13 +113,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Kenny Piper",
-      "position": "C",
-      "number": "50",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Kevin Kelly",
       "position": "P",
       "number": "49",
@@ -127,9 +120,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Michael Grove",
-      "position": "P",
-      "number": "58",
+      "name": "Liam Hicks",
+      "position": "C",
+      "number": "34",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,6 +165,13 @@
       "name": "Taylor Walls",
       "position": "SS",
       "number": "6",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tyler Wells",
+      "position": "P",
+      "number": "68",
       "status": "A",
       "source": "MLB Stats API"
     },

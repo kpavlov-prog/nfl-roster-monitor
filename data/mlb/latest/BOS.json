@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-08-04T10:49:35.222076+00:00",
+  "checkedAt": "2026-08-05T10:45:46.499229+00:00",
   "players": [
     {
       "name": "Andruw Monasterio",
@@ -57,6 +57,20 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Eli White",
+      "position": "RF",
+      "number": "38",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Erik Miller",
+      "position": "P",
+      "number": "67",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Garrett Whitlock",
       "position": "P",
       "number": "22",
@@ -81,6 +95,13 @@
       "name": "Jake Bennett",
       "position": "P",
       "number": "64",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jake Rogers",
+      "position": "C",
+      "number": "46",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -137,20 +158,6 @@
       "name": "Ranger Suarez",
       "position": "P",
       "number": "55",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Romy Gonzalez",
-      "position": "DH",
-      "number": "23",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Ryan Watson",
-      "position": "P",
-      "number": "56",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=active",
-  "checkedAt": "2026-08-04T10:49:38.160480+00:00",
+  "checkedAt": "2026-08-05T10:45:49.173682+00:00",
   "players": [
     {
       "name": "Brennan Bernardino",
@@ -123,6 +123,13 @@
       "name": "Nick Frasso",
       "position": "P",
       "number": "41",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Parker Mushinski",
+      "position": "P",
+      "number": "67",
       "status": "A",
       "source": "MLB Stats API"
     },

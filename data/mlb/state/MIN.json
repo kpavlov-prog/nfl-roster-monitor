@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/142/roster?rosterType=active",
-  "checkedAt": "2026-08-04T10:49:42.965756+00:00",
+  "checkedAt": "2026-08-05T10:45:53.459620+00:00",
   "players": [
     {
       "name": "A.J. Minter",
@@ -71,6 +71,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jeff Hoffman",
+      "position": "P",
+      "number": "24",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Joe Ryan",
       "position": "P",
       "number": "41",
@@ -81,13 +88,6 @@
       "name": "Josh Bell",
       "position": "DH",
       "number": "56",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Kendry Rojas",
-      "position": "P",
-      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=active",
-  "checkedAt": "2026-08-04T10:49:48.220313+00:00",
+  "checkedAt": "2026-08-05T10:45:58.267286+00:00",
   "players": [
     {
       "name": "Alec Burleson",
@@ -32,6 +32,20 @@
       "name": "Bryan Torres",
       "position": "LF",
       "number": "39",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Caleb Ferguson",
+      "position": "P",
+      "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "César Prieto",
+      "position": "3B",
+      "number": "31",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -158,13 +172,6 @@
       "name": "Peter Strzelecki",
       "position": "P",
       "number": "58",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Quinn Mathews",
-      "position": "P",
-      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },

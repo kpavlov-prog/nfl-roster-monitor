@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=active",
-  "checkedAt": "2026-08-04T10:49:37.004513+00:00",
+  "checkedAt": "2026-08-05T10:45:48.101543+00:00",
   "players": [
     {
       "name": "Andrew Abbott",
@@ -74,6 +74,13 @@
       "name": "Hunter Greene",
       "position": "P",
       "number": "21",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Héctor Rodríguez",
+      "position": "LF",
+      "number": "43",
       "status": "A",
       "source": "MLB Stats API"
     },

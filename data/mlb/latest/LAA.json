@@ -5,8 +5,29 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=active",
-  "checkedAt": "2026-08-04T10:49:40.516666+00:00",
+  "checkedAt": "2026-08-05T10:45:51.316760+00:00",
   "players": [
+    {
+      "name": "Adam Frazier",
+      "position": "2B",
+      "number": "20",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ben Joyce",
+      "position": "P",
+      "number": "44",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Blake Weiman",
+      "position": "P",
+      "number": "68",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Brett Kerry",
       "position": "P",
@@ -25,13 +46,6 @@
       "name": "Grayson Rodriguez",
       "position": "P",
       "number": "21",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jorge Soler",
-      "position": "DH",
-      "number": "12",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -78,6 +92,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Moisés Ballesteros",
+      "position": "C",
+      "number": "13",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Nolan Schanuel",
       "position": "1B",
       "number": "18",
@@ -116,6 +137,13 @@
       "name": "Samy Natera Jr.",
       "position": "P",
       "number": "52",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Shaun Anderson",
+      "position": "P",
+      "number": "64",
       "status": "A",
       "source": "MLB Stats API"
     },

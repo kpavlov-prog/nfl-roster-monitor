@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-05T10:45:47.569381+00:00",
+    "teamCode": "CHW",
+    "teamName": "Chicago White Sox",
+    "type": "added",
+    "playerName": "Brenton Doyle",
+    "position": "CF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-05T10:45:47.569391+00:00",
+    "teamCode": "CHW",
+    "teamName": "Chicago White Sox",
+    "type": "number changed",
+    "playerName": "Huascar Brazobán",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "50",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-05T10:45:47.569395+00:00",
+    "teamCode": "CHW",
+    "teamName": "Chicago White Sox",
+    "type": "added",
+    "playerName": "Joey Bart",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-05T10:45:47.569402+00:00",
+    "teamCode": "CHW",
+    "teamName": "Chicago White Sox",
+    "type": "removed",
+    "playerName": "Edgar Quero",
+    "position": "C",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-04T10:49:36.380080+00:00",
     "teamCode": "CHW",
     "teamName": "Chicago White Sox",

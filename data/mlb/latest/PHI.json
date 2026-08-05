@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/143/roster?rosterType=active",
-  "checkedAt": "2026-08-04T10:49:45.281559+00:00",
+  "checkedAt": "2026-08-05T10:45:55.596000+00:00",
   "players": [
     {
       "name": "Aaron Nola",
@@ -36,6 +36,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Brooks Raley",
+      "position": "P",
+      "number": "30",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Bryan De La Cruz",
       "position": "RF",
       "number": "41",
@@ -57,6 +64,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Caleb Kilian",
+      "position": "P",
+      "number": "56",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Chase Shugart",
       "position": "P",
       "number": "55",
@@ -72,7 +86,7 @@
     },
     {
       "name": "Derek Hill",
-      "position": "RF",
+      "position": "CF",
       "number": "49",
       "status": "A",
       "source": "MLB Stats API"
@@ -81,13 +95,6 @@
       "name": "Edmundo Sosa",
       "position": "LF",
       "number": "33",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Gabriel Rincones Jr.",
-      "position": "RF",
-      "number": "17",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -141,16 +148,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Kyle Backhus",
-      "position": "P",
-      "number": "19",
+      "name": "Kyle Schwarber",
+      "position": "DH",
+      "number": "12",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Kyle Schwarber",
-      "position": "DH",
-      "number": "12",
+      "name": "Luis Arraez",
+      "position": "2B",
+      "number": "4",
       "status": "A",
       "source": "MLB Stats API"
     },
