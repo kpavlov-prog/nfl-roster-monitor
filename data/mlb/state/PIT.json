@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-08-05T10:45:56.129262+00:00",
+  "checkedAt": "2026-08-06T10:48:54.242204+00:00",
   "players": [
     {
       "name": "Brandon Lowe",
@@ -60,6 +60,13 @@
       "name": "Esmerlyn Valdez",
       "position": "RF",
       "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Evan Sisk",
+      "position": "P",
+      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -134,13 +141,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Marcell Ozuna",
-      "position": "DH",
-      "number": "24",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Mason Montgomery",
       "position": "P",
       "number": "46",
@@ -169,16 +169,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Spencer Horwitz",
-      "position": "1B",
-      "number": "2",
+      "name": "Ronny Simon",
+      "position": "2B",
+      "number": "63",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Wilber Dotel",
-      "position": "P",
-      "number": "66",
+      "name": "Spencer Horwitz",
+      "position": "1B",
+      "number": "2",
       "status": "A",
       "source": "MLB Stats API"
     },

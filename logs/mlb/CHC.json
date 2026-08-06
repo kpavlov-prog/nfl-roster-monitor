@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-06T10:48:45.141362+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "added",
+    "playerName": "Kevin Gausman",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-06T10:48:45.141376+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "removed",
+    "playerName": "Antoine Kelly",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-05T10:45:47.034745+00:00",
     "teamCode": "CHC",
     "teamName": "Chicago Cubs",

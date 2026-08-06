@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-08-05T10:45:59.866411+00:00",
+  "checkedAt": "2026-08-06T10:48:57.982703+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -43,9 +43,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Chad Dallas",
+      "name": "Chase Lee",
       "position": "P",
-      "number": "37",
+      "number": "52",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -113,6 +113,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Lazaro Estrada",
+      "position": "P",
+      "number": "60",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Louis Varland",
       "position": "P",
       "number": "77",
@@ -165,13 +172,6 @@
       "name": "Spencer Miles",
       "position": "P",
       "number": "62",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Trey Yesavage",
-      "position": "P",
-      "number": "39",
       "status": "A",
       "source": "MLB Stats API"
     },

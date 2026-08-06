@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-06T10:48:57.449516+00:00",
+    "teamCode": "TEX",
+    "teamName": "Texas Rangers",
+    "type": "added",
+    "playerName": "Cody Bradford",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-06T10:48:57.449530+00:00",
+    "teamCode": "TEX",
+    "teamName": "Texas Rangers",
+    "type": "removed",
+    "playerName": "MacKenzie Gore",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-02T10:07:23.696464+00:00",
     "teamCode": "TEX",
     "teamName": "Texas Rangers",

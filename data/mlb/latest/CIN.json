@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=active",
-  "checkedAt": "2026-08-05T10:45:48.101543+00:00",
+  "checkedAt": "2026-08-06T10:48:46.216482+00:00",
   "players": [
     {
       "name": "Andrew Abbott",
@@ -71,13 +71,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Hunter Greene",
-      "position": "P",
-      "number": "21",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Héctor Rodríguez",
       "position": "LF",
       "number": "43",
@@ -116,6 +109,13 @@
       "name": "Ke'Bryan Hayes",
       "position": "3B",
       "number": "3",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Luis Mey",
+      "position": "P",
+      "number": "47",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=active",
-  "checkedAt": "2026-08-05T10:45:52.925298+00:00",
+  "checkedAt": "2026-08-06T10:48:51.034111+00:00",
   "players": [
     {
       "name": "Aaron Ashby",
@@ -113,13 +113,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Grant Anderson",
-      "position": "P",
-      "number": "56",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jackson Chourio",
       "position": "LF",
       "number": "11",
@@ -144,6 +137,13 @@
       "name": "Joey Ortiz",
       "position": "SS",
       "number": "3",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kyle Harrison",
+      "position": "P",
+      "number": "52",
       "status": "A",
       "source": "MLB Stats API"
     },
