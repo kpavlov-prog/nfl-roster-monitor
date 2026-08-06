@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2305/roster?limit=100&page=1",
-  "checkedAt": "2026-08-05T11:39:28.769017+00:00",
+  "checkedAt": "2026-08-06T11:40:16.913923+00:00",
   "players": [
     {
       "name": "Adrian Holley",
@@ -435,6 +435,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Jaylen Mason",
+      "position": "QB",
+      "number": "16",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Jibreel Al-Amin",
       "position": "LB",
       "number": "25",
@@ -487,6 +494,13 @@
       "name": "Kaden Moody",
       "position": "OL",
       "number": "53",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Kaden Snyder",
+      "position": "OL",
+      "number": "64",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -767,6 +781,13 @@
       "name": "Wyatt Brungardt",
       "position": "DE",
       "number": "50",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Xander Blasing",
+      "position": "LB",
+      "number": "32",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
