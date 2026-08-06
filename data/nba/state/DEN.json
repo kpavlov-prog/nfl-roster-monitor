@@ -3,7 +3,7 @@
   "team": "Denver Nuggets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/DEN/roster",
-  "checkedAt": "2026-08-05T11:06:44.959996+00:00",
+  "checkedAt": "2026-08-06T11:07:42.040943+00:00",
   "players": [
     {
       "name": "Aaron Gordon",
@@ -79,6 +79,13 @@
       "name": "KJ Simpson",
       "position": "G",
       "number": "25",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Lonnie Walker IV",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

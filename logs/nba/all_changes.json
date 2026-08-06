@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-06T11:07:38.507183+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Celtics",
+    "type": "number changed",
+    "playerName": "Paul George",
+    "position": "F",
+    "oldValue": "8",
+    "newValue": "13",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-06T11:07:38.507192+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Celtics",
+    "type": "number changed",
+    "playerName": "Ron Harper Jr.",
+    "position": "G",
+    "oldValue": "13",
+    "newValue": "8",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-06T11:07:42.042099+00:00",
+    "teamCode": "DEN",
+    "teamName": "Denver Nuggets",
+    "type": "added",
+    "playerName": "Lonnie Walker IV",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-06T11:07:43.774301+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Rockets",
+    "type": "removed",
+    "playerName": "JD Davison",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-05T11:06:56.224940+00:00",
     "teamCode": "TOR",
     "teamName": "Toronto Raptors",
