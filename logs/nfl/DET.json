@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-06T10:30:33.370214+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "status changed",
+    "playerName": "Lawrence Keys",
+    "position": "WR",
+    "oldValue": "LISTED",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-08-06T10:30:33.370227+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "status changed",
+    "playerName": "Miles Kitselman",
+    "position": "TE",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-08-06T10:30:33.370234+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "added",
+    "playerName": "Tarik Black",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-05T10:27:30.187665+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Lions",

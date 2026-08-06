@@ -3,7 +3,7 @@
   "team": "Las Vegas Raiders",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/las-vegas-raiders/roster",
-  "checkedAt": "2026-08-05T10:27:48.753826+00:00",
+  "checkedAt": "2026-08-06T10:30:51.836639+00:00",
   "players": [
     {
       "name": "AJ Cole",
@@ -170,6 +170,14 @@
       "position": "RB",
       "number": "33",
       "status": "RES",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Chris Myarick",
+      "position": "TE",
+      "number": "77",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -697,7 +705,7 @@
       "name": "Zack Kuntz",
       "position": "TE",
       "number": "36",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     }

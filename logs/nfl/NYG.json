@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-06T10:31:11.033831+00:00",
+    "teamCode": "NYG",
+    "teamName": "New York Giants",
+    "type": "status changed",
+    "playerName": "Beaux Collins",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-06T10:31:11.033844+00:00",
+    "teamCode": "NYG",
+    "teamName": "New York Giants",
+    "type": "added",
+    "playerName": "DJ James",
+    "position": "CB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-06T10:31:11.033850+00:00",
+    "teamCode": "NYG",
+    "teamName": "New York Giants",
+    "type": "added",
+    "playerName": "David Long",
+    "position": "DB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-06T10:31:11.033862+00:00",
+    "teamCode": "NYG",
+    "teamName": "New York Giants",
+    "type": "status changed",
+    "playerName": "Roy Robertson-Harris",
+    "position": "DE",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-08-04T10:29:28.363725+00:00",
     "teamCode": "NYG",
     "teamName": "New York Giants",
