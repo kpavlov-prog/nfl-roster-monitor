@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-08-07T09:14:45.837932+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "position changed",
+    "playerName": "Nick Sogard",
+    "position": "2B",
+    "oldValue": "3B",
+    "newValue": "2B",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-07T09:14:46.413997+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "added",
+    "playerName": "Braxton Garrett",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-07T09:14:46.414021+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "removed",
+    "playerName": "Tyler Ferguson",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-07T09:14:49.822360+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Astros",
+    "type": "removed",
+    "playerName": "Zach Dezenzo",
+    "position": "LF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-07T09:14:50.961494+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "removed",
+    "playerName": "Mitch Farris",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-07T09:14:56.665337+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "position changed",
+    "playerName": "Luis Rengifo",
+    "position": "LF",
+    "oldValue": "3B",
+    "newValue": "LF",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-08-06T10:48:42.999982+00:00",
     "teamCode": "ARI",
     "teamName": "Arizona Diamondbacks",

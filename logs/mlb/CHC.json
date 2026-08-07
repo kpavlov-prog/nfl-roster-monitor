@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-07T09:14:46.413997+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "added",
+    "playerName": "Braxton Garrett",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-07T09:14:46.414021+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "removed",
+    "playerName": "Tyler Ferguson",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-06T10:48:45.141362+00:00",
     "teamCode": "CHC",
     "teamName": "Chicago Cubs",
