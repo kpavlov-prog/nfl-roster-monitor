@@ -3,7 +3,7 @@
   "team": "LA Clippers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/LAC/roster",
-  "checkedAt": "2026-08-06T11:07:45.101094+00:00",
+  "checkedAt": "2026-08-07T09:43:19.014054+00:00",
   "players": [
     {
       "name": "Baba Miller",
@@ -51,6 +51,13 @@
       "name": "Isaiah Jackson",
       "position": "F",
       "number": "23",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Jamarion Sharp",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

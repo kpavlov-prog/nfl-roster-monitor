@@ -3,7 +3,7 @@
   "team": "Toronto Raptors",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/TOR/roster",
-  "checkedAt": "2026-08-06T11:07:53.756785+00:00",
+  "checkedAt": "2026-08-07T09:43:29.613853+00:00",
   "players": [
     {
       "name": "A.J. Lawson",
@@ -135,6 +135,13 @@
       "name": "Trayce Jackson-Davis",
       "position": "F",
       "number": "32",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Trey Jemison III",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }
