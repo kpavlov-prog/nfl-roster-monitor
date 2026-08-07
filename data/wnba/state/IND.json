@@ -3,7 +3,7 @@
   "team": "Indiana Fever",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/IND/roster",
-  "checkedAt": "2026-08-06T11:24:22.745281+00:00",
+  "checkedAt": "2026-08-07T10:02:28.358051+00:00",
   "players": [
     {
       "name": "Aliyah Boston",
@@ -62,6 +62,13 @@
       "source": "ESPN WNBA API"
     },
     {
+      "name": "Michelle Onyiah",
+      "position": "C",
+      "number": "1",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
       "name": "Monique Billings",
       "position": "F",
       "number": "25",
@@ -93,13 +100,6 @@
       "name": "Tyasha Harris",
       "position": "G",
       "number": "52",
-      "status": "ACTIVE",
-      "source": "ESPN WNBA API"
-    },
-    {
-      "name": "Ugonne Onyiah",
-      "position": "C",
-      "number": "",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     }

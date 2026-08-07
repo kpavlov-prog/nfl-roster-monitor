@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-07T10:02:28.918232+00:00",
+    "teamCode": "LV",
+    "teamName": "Las Vegas Aces",
+    "type": "number changed",
+    "playerName": "Mai Yamamoto",
+    "position": "G",
+    "oldValue": "23",
+    "newValue": "18",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-07T10:02:28.918242+00:00",
+    "teamCode": "LV",
+    "teamName": "Las Vegas Aces",
+    "type": "number changed",
+    "playerName": "Ta'Niya Latson",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "5",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-07T10:02:28.918247+00:00",
+    "teamCode": "LV",
+    "teamName": "Las Vegas Aces",
+    "type": "removed",
+    "playerName": "Janiah Barker",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-19T10:36:23.959925+00:00",
     "teamCode": "LV",
     "teamName": "Las Vegas Aces",
