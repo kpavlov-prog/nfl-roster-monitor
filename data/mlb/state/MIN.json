@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/142/roster?rosterType=active",
-  "checkedAt": "2026-08-07T09:14:53.250131+00:00",
+  "checkedAt": "2026-08-08T08:59:43.881411+00:00",
   "players": [
     {
       "name": "A.J. Minter",
@@ -78,16 +78,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Joe Ryan",
-      "position": "P",
-      "number": "41",
+      "name": "Josh Bell",
+      "position": "DH",
+      "number": "56",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Josh Bell",
-      "position": "DH",
-      "number": "56",
+      "name": "Kaelen Culpepper",
+      "position": "SS",
+      "number": "12",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -114,7 +114,7 @@
     },
     {
       "name": "Royce Lewis",
-      "position": "3B",
+      "position": "1B",
       "number": "23",
       "status": "A",
       "source": "MLB Stats API"
@@ -169,13 +169,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Tristan Gray",
-      "position": "SS",
-      "number": "4",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Victor Caratini",
       "position": "C",
       "number": "37",
@@ -186,6 +179,13 @@
       "name": "Yoendrys Gómez",
       "position": "P",
       "number": "94",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Zebby Matthews",
+      "position": "P",
+      "number": "52",
       "status": "A",
       "source": "MLB Stats API"
     }

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=active",
-  "checkedAt": "2026-08-07T09:14:50.960384+00:00",
+  "checkedAt": "2026-08-08T08:59:41.536459+00:00",
   "players": [
     {
       "name": "Adam Frazier",
@@ -39,6 +39,13 @@
       "name": "Denzer Guzman",
       "position": "3B",
       "number": "23",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "George Klassen",
+      "position": "P",
+      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },

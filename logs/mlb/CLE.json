@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-08T08:59:38.569160+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Guardians",
+    "type": "added",
+    "playerName": "Franco Aleman",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-08T08:59:38.569174+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Guardians",
+    "type": "removed",
+    "playerName": "Slade Cecconi",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-06T10:48:46.757977+00:00",
     "teamCode": "CLE",
     "teamName": "Cleveland Guardians",

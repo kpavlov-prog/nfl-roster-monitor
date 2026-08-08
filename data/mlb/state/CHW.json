@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-08-07T09:14:46.984130+00:00",
+  "checkedAt": "2026-08-08T08:59:37.376592+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -50,16 +50,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Chris Murphy",
-      "position": "P",
-      "number": "38",
+      "name": "Colson Montgomery",
+      "position": "SS",
+      "number": "12",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Colson Montgomery",
-      "position": "SS",
-      "number": "12",
+      "name": "David Sandlin",
+      "position": "P",
+      "number": "54",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -74,6 +74,13 @@
       "name": "Drew Romo",
       "position": "C",
       "number": "36",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Edgar Quero",
+      "position": "C",
+      "number": "26",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -95,13 +102,6 @@
       "name": "Huascar Brazobán",
       "position": "P",
       "number": "50",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Joey Bart",
-      "position": "C",
-      "number": "25",
       "status": "A",
       "source": "MLB Stats API"
     },

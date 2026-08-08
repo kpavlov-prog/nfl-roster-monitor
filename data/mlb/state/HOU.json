@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=active",
-  "checkedAt": "2026-08-07T09:14:49.821102+00:00",
+  "checkedAt": "2026-08-08T08:59:40.357321+00:00",
   "players": [
     {
       "name": "AJ Blubaugh",
@@ -95,6 +95,13 @@
       "name": "Isaac Paredes",
       "position": "3B",
       "number": "15",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jake Meyers",
+      "position": "CF",
+      "number": "6",
       "status": "A",
       "source": "MLB Stats API"
     },

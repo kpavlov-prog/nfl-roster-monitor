@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-08T08:59:40.940556+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Royals",
+    "type": "added",
+    "playerName": "Mason Black",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-08T08:59:40.940567+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Royals",
+    "type": "removed",
+    "playerName": "Aaron Bummer",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-05T10:45:50.782061+00:00",
     "teamCode": "KC",
     "teamName": "Kansas City Royals",

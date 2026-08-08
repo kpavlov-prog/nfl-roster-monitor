@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-08-07T09:14:59.470996+00:00",
+  "checkedAt": "2026-08-08T08:59:50.402727+00:00",
   "players": [
     {
       "name": "Alejandro Osuna",
@@ -127,6 +127,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jordan Montgomery",
+      "position": "P",
+      "number": "52",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Justin Foscue",
       "position": "2B",
       "number": "14",
@@ -151,13 +158,6 @@
       "name": "Nicky Lopez",
       "position": "2B",
       "number": "33",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Nolan Kingham",
-      "position": "P",
-      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },
