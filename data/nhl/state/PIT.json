@@ -3,7 +3,7 @@
   "team": "Pittsburgh Penguins",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/PIT/current",
-  "checkedAt": "2026-08-08T09:09:52.612856+00:00",
+  "checkedAt": "2026-08-09T09:10:58.912763+00:00",
   "players": [
     {
       "name": "Andrei Kuzmenko",
@@ -163,6 +163,13 @@
       "name": "Trevor van Riemsdyk",
       "position": "D",
       "number": "57",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ville Koivunen",
+      "position": "R",
+      "number": "41",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }
