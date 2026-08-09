@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-08-08T08:59:44.462269+00:00",
+  "checkedAt": "2026-08-09T09:01:52.128778+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -78,13 +78,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Eric Wagaman",
-      "position": "1B",
-      "number": "39",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Francisco Alvarez",
       "position": "C",
       "number": "4",
@@ -95,6 +88,13 @@
       "name": "Francisco Lindor",
       "position": "SS",
       "number": "12",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Gabriel Arias",
+      "position": "3B",
+      "number": "25",
       "status": "A",
       "source": "MLB Stats API"
     },

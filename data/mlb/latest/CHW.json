@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-08-08T08:59:37.376592+00:00",
+  "checkedAt": "2026-08-09T09:01:45.155133+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -57,13 +57,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "David Sandlin",
-      "position": "P",
-      "number": "54",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Davis Martin",
       "position": "P",
       "number": "65",
@@ -95,6 +88,13 @@
       "name": "Grant Taylor",
       "position": "P",
       "number": "31",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Hagen Smith",
+      "position": "P",
+      "number": "32",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -141,13 +141,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Noah Schultz",
-      "position": "P",
-      "number": "22",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Randal Grichuk",
       "position": "DH",
       "number": "34",
@@ -172,6 +165,13 @@
       "name": "Sean Newcomb",
       "position": "P",
       "number": "15",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tanner McDougal",
+      "position": "P",
+      "number": "55",
       "status": "A",
       "source": "MLB Stats API"
     },
