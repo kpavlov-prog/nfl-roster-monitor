@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-09T08:31:44.594452+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Cardinals",
+    "type": "status changed",
+    "playerName": "Kenny Yeboah",
+    "position": "TE",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-08-09T08:31:44.594560+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Cardinals",
+    "type": "removed",
+    "playerName": "Jaden Davis",
+    "position": "DB",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-06T10:30:04.590577+00:00",
     "teamCode": "ARI",
     "teamName": "Arizona Cardinals",

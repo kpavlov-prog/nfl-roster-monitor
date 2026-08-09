@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-08-09T08:32:07.382604+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Cowboys",
+    "type": "status changed",
+    "playerName": "Charles Snowden",
+    "position": "LB",
+    "oldValue": "RES",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-09T08:32:07.382621+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Cowboys",
+    "type": "status changed",
+    "playerName": "Dominic Richardson",
+    "position": "RB",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-09T08:32:07.382630+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Cowboys",
+    "type": "added",
+    "playerName": "Jashaun Corbin",
+    "position": "RB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-09T08:32:07.382641+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Cowboys",
+    "type": "status changed",
+    "playerName": "Princeton Fant",
+    "position": "TE",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-08-09T08:32:07.382652+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Cowboys",
+    "type": "added",
+    "playerName": "Zack Kuntz",
+    "position": "TE",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-04T10:28:49.027208+00:00",
     "teamCode": "DAL",
     "teamName": "Dallas Cowboys",

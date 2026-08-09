@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-09T08:32:12.495026+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "added",
+    "playerName": "Ben Stille",
+    "position": "DE",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-09T08:32:12.495041+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "status changed",
+    "playerName": "De'Shawn Rucker",
+    "position": "CB",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-08-09T08:32:12.495068+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "removed",
+    "playerName": "Lawrence Keys",
+    "position": "WR",
+    "oldValue": "RES",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-08-06T10:30:33.370214+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Lions",

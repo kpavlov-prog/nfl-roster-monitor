@@ -3,7 +3,7 @@
   "team": "Seattle Seahawks",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/seattle-seahawks/roster",
-  "checkedAt": "2026-08-08T08:30:45.666285+00:00",
+  "checkedAt": "2026-08-09T08:32:58.835330+00:00",
   "players": [
     {
       "name": "AJ Barner",
@@ -81,7 +81,7 @@
       "name": "Brandon Johnson",
       "position": "DB",
       "number": "36",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -91,6 +91,14 @@
       "number": "95",
       "status": "ACT",
       "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Brock Lampe",
+      "position": "RB",
+      "number": "73",
+      "status": "ACT",
+      "important": true,
       "source": "NFL.com"
     },
     {
@@ -270,14 +278,6 @@
       "source": "NFL.com"
     },
     {
-      "name": "Garrett Nelson",
-      "position": "DE",
-      "number": "76",
-      "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
       "name": "George Holani",
       "position": "RB",
       "number": "36",
@@ -306,14 +306,6 @@
       "position": "DT",
       "number": "70",
       "status": "ACT",
-      "important": false,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Ja'Markis Weston",
-      "position": "LB",
-      "number": "46",
-      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -406,10 +398,18 @@
       "source": "NFL.com"
     },
     {
+      "name": "Jordan Washington",
+      "position": "CB",
+      "number": "72",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Joseph Vaughn",
       "position": "LB",
       "number": "53",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -438,9 +438,9 @@
       "source": "NFL.com"
     },
     {
-      "name": "Lance Mason",
-      "position": "TE",
-      "number": "42",
+      "name": "Justin Jones",
+      "position": "RB",
+      "number": "73",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -566,6 +566,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Power Echols",
+      "position": "LB",
+      "number": "72",
+      "status": "LISTED",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Rashad Rochelle",
       "position": "WR",
       "number": "35",
@@ -617,6 +625,14 @@
       "name": "Shemar Jean-Charles",
       "position": "CB",
       "number": "34",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "TJ Harden",
+      "position": "RB",
+      "number": "72",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

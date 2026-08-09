@@ -3,7 +3,7 @@
   "team": "Washington Commanders",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/washington-commanders/roster",
-  "checkedAt": "2026-08-08T08:30:54.164012+00:00",
+  "checkedAt": "2026-08-09T08:33:06.808424+00:00",
   "players": [
     {
       "name": "Ale Kaho",
@@ -97,7 +97,7 @@
       "name": "Chris Hilton Jr.",
       "position": "WR",
       "number": "10",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -118,17 +118,17 @@
       "source": "NFL.com"
     },
     {
-      "name": "DJ Davidson",
-      "position": "DT",
-      "number": "77",
-      "status": "ACT",
-      "important": false,
-      "source": "NFL.com"
-    },
-    {
       "name": "DJ Johnson",
       "position": "DE",
       "number": "53",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Daniel Brunskill",
+      "position": "OT",
+      "number": "77",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -446,9 +446,25 @@
       "source": "NFL.com"
     },
     {
+      "name": "Max Scharping",
+      "position": "G",
+      "number": "78",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Mike Sainristil",
       "position": "CB",
       "number": "70",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Nicholas Petit-Frere",
+      "position": "OT",
+      "number": "77",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -566,6 +582,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "number": "72",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "T.J. Maguranyanga",
       "position": "DE",
       "number": "59",
@@ -601,14 +625,6 @@
       "name": "Timothy McKay",
       "position": "OT",
       "number": "68",
-      "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Tre Hawkins III",
-      "position": "CB",
-      "number": "46",
       "status": "LISTED",
       "important": true,
       "source": "NFL.com"
@@ -651,14 +667,6 @@
       "number": "13",
       "status": "ACT",
       "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Tyler Cooper",
-      "position": "G",
-      "number": "63",
-      "status": "ACT",
-      "important": false,
       "source": "NFL.com"
     },
     {

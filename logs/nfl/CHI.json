@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-09T08:31:58.092069+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bears",
+    "type": "status changed",
+    "playerName": "Dallis Flowers",
+    "position": "CB",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-08-09T08:31:58.092087+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bears",
+    "type": "status changed",
+    "playerName": "KC Eziomume",
+    "position": "DB",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-09T08:31:58.092104+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bears",
+    "type": "added",
+    "playerName": "William Wright",
+    "position": "CB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-09T08:31:58.092108+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bears",
+    "type": "added",
+    "playerName": "Xavier Woods",
+    "position": "FS",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-08-05T10:27:16.724612+00:00",
     "teamCode": "CHI",
     "teamName": "Chicago Bears",

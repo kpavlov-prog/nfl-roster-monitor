@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-09T08:32:57.241826+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco 49ers",
+    "type": "added",
+    "playerName": "Kion Smith",
+    "position": "OT",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-09T08:32:57.241848+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco 49ers",
+    "type": "removed",
+    "playerName": "Colton Dowell",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-09T08:32:57.241856+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco 49ers",
+    "type": "removed",
+    "playerName": "Will Bradley-King",
+    "position": "DE",
+    "oldValue": "RES",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-08-06T10:31:22.162850+00:00",
     "teamCode": "SF",
     "teamName": "San Francisco 49ers",

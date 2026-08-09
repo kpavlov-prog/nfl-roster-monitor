@@ -3,7 +3,7 @@
   "team": "Detroit Lions",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/detroit-lions/roster",
-  "checkedAt": "2026-08-08T08:29:54.793503+00:00",
+  "checkedAt": "2026-08-09T08:32:12.494689+00:00",
   "players": [
     {
       "name": "Aamaris Brown",
@@ -81,6 +81,14 @@
       "name": "Ben Bartch",
       "position": "OT",
       "number": "78",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Ben Stille",
+      "position": "DE",
+      "number": "76",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -177,7 +185,7 @@
       "name": "De'Shawn Rucker",
       "position": "CB",
       "number": "43",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -419,14 +427,6 @@
       "number": "79",
       "status": "ACT",
       "important": false,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Lawrence Keys",
-      "position": "WR",
-      "number": "80",
-      "status": "RES",
-      "important": true,
       "source": "NFL.com"
     },
     {

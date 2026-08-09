@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-09T08:32:18.152852+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Texans",
+    "type": "status changed",
+    "playerName": "Jack Stonehouse",
+    "position": "P",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-09T08:32:18.152874+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Texans",
+    "type": "added",
+    "playerName": "Owen Wright",
+    "position": "RB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-09T08:32:18.152887+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Texans",
+    "type": "removed",
+    "playerName": "Junior Tafuna",
+    "position": "DT",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-06T10:30:39.044812+00:00",
     "teamCode": "HOU",
     "teamName": "Houston Texans",

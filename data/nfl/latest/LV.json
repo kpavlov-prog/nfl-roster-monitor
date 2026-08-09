@@ -3,7 +3,7 @@
   "team": "Las Vegas Raiders",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/las-vegas-raiders/roster",
-  "checkedAt": "2026-08-08T08:30:11.011658+00:00",
+  "checkedAt": "2026-08-09T08:32:27.370524+00:00",
   "players": [
     {
       "name": "AJ Cole",
@@ -225,6 +225,14 @@
       "name": "Dalton Wagner",
       "position": "OT",
       "number": "78",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Dare Ogunbowale",
+      "position": "RB",
+      "number": "71",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -699,14 +707,6 @@
       "number": "53",
       "status": "ACT",
       "important": false,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Zack Kuntz",
-      "position": "TE",
-      "number": "36",
-      "status": "LISTED",
-      "important": true,
       "source": "NFL.com"
     }
   ]

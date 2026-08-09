@@ -3,7 +3,7 @@
   "team": "Jacksonville Jaguars",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/jacksonville-jaguars/roster",
-  "checkedAt": "2026-08-08T08:30:05.538695+00:00",
+  "checkedAt": "2026-08-09T08:32:23.366803+00:00",
   "players": [
     {
       "name": "Albert Regis",
@@ -273,6 +273,14 @@
       "name": "Garrett DiGiorgio",
       "position": "OT",
       "number": "74",
+      "status": "RES",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Geron Christian",
+      "position": "OT",
+      "number": "77",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -310,6 +318,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Jahlani Tavai",
+      "position": "LB",
+      "number": "74",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Jakobi Meyers",
       "position": "WR",
       "number": "3",
@@ -337,7 +353,7 @@
       "name": "Jared Bartlett",
       "position": "LB",
       "number": "45",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },

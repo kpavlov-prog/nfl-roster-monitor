@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-09T08:32:34.029991+00:00",
+    "teamCode": "LAR",
+    "teamName": "Los Angeles Rams",
+    "type": "added",
+    "playerName": "Daniel Rickert",
+    "position": "DE",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-09T08:32:34.030004+00:00",
+    "teamCode": "LAR",
+    "teamName": "Los Angeles Rams",
+    "type": "status changed",
+    "playerName": "Drey Norwood",
+    "position": "CB",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-04T10:29:15.424087+00:00",
     "teamCode": "LAR",
     "teamName": "Los Angeles Rams",

@@ -3,7 +3,7 @@
   "team": "Miami Dolphins",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/miami-dolphins/roster",
-  "checkedAt": "2026-08-08T08:30:18.836778+00:00",
+  "checkedAt": "2026-08-09T08:32:37.054332+00:00",
   "players": [
     {
       "name": "A.J. Green",
@@ -27,6 +27,14 @@
       "number": "55",
       "status": "ACT",
       "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Ahmari Harvey",
+      "position": "DB",
+      "number": "72",
+      "status": "ACT",
+      "important": true,
       "source": "NFL.com"
     },
     {
@@ -470,14 +478,6 @@
       "source": "NFL.com"
     },
     {
-      "name": "Mark Gronowski",
-      "position": "QB",
-      "number": "16",
-      "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
       "name": "Marques Cox",
       "position": "OT",
       "number": "70",
@@ -529,7 +529,7 @@
       "name": "Omar Brown",
       "position": "DB",
       "number": "34",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -587,14 +587,6 @@
       "number": "56",
       "status": "ACT",
       "important": false,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Seth Coleman",
-      "position": "DE",
-      "number": "58",
-      "status": "LISTED",
-      "important": true,
       "source": "NFL.com"
     },
     {
