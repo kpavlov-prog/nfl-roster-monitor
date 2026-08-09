@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-09T09:40:54.037954+00:00",
+    "teamCode": "CON",
+    "teamName": "Connecticut Sun",
+    "type": "removed",
+    "playerName": "Rayah Marshall",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-09T09:41:02.743518+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Mystics",
+    "type": "added",
+    "playerName": "Betnijah Laney-Hamilton",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-09T09:41:02.743529+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Mystics",
+    "type": "removed",
+    "playerName": "Rori Harmon",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-07T10:02:28.359063+00:00",
     "teamCode": "IND",
     "teamName": "Indiana Fever",

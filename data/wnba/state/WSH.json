@@ -3,7 +3,7 @@
   "team": "Washington Mystics",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/WSH/roster",
-  "checkedAt": "2026-08-08T09:39:45.478271+00:00",
+  "checkedAt": "2026-08-09T09:41:02.742523+00:00",
   "players": [
     {
       "name": "Alicia Florez",
@@ -16,6 +16,13 @@
       "name": "Angela Dugalic",
       "position": "F",
       "number": "32",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Betnijah Laney-Hamilton",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },
@@ -72,13 +79,6 @@
       "name": "Michaela Onyenwere",
       "position": "F",
       "number": "12",
-      "status": "ACTIVE",
-      "source": "ESPN WNBA API"
-    },
-    {
-      "name": "Rori Harmon",
-      "position": "G",
-      "number": "3",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },
