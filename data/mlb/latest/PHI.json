@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/143/roster?rosterType=active",
-  "checkedAt": "2026-08-09T09:01:53.919596+00:00",
+  "checkedAt": "2026-08-10T09:47:34.483236+00:00",
   "players": [
     {
       "name": "Aaron Nola",
       "position": "P",
       "number": "27",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Alan Rangel",
+      "position": "P",
+      "number": "57",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -67,13 +74,6 @@
       "name": "Caleb Kilian",
       "position": "P",
       "number": "56",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Chase Shugart",
-      "position": "P",
-      "number": "55",
       "status": "A",
       "source": "MLB Stats API"
     },

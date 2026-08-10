@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=active",
-  "checkedAt": "2026-08-09T09:01:49.277430+00:00",
+  "checkedAt": "2026-08-10T09:47:29.854114+00:00",
   "players": [
     {
       "name": "Adam Frazier",
@@ -25,13 +25,6 @@
       "name": "Blake Weiman",
       "position": "P",
       "number": "68",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brett Kerry",
-      "position": "P",
-      "number": "71",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -123,6 +116,13 @@
       "name": "Ryan Johnson",
       "position": "P",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ryan Watson",
+      "position": "P",
+      "number": "56",
       "status": "A",
       "source": "MLB Stats API"
     },

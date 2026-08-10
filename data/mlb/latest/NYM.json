@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-08-09T09:01:52.128778+00:00",
+  "checkedAt": "2026-08-10T09:47:32.761680+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -99,6 +99,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jack Weisenburger",
+      "position": "P",
+      "number": "82",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jared Young",
       "position": "1B",
       "number": "29",
@@ -172,13 +179,6 @@
       "name": "Sean Manaea",
       "position": "P",
       "number": "59",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Xzavion Curry",
-      "position": "P",
-      "number": "53",
       "status": "A",
       "source": "MLB Stats API"
     },

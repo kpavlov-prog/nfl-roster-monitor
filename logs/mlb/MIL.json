@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-10T09:47:31.606774+00:00",
+    "teamCode": "MIL",
+    "teamName": "Milwaukee Brewers",
+    "type": "added",
+    "playerName": "Jihwan Bae",
+    "position": "CF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-10T09:47:31.606785+00:00",
+    "teamCode": "MIL",
+    "teamName": "Milwaukee Brewers",
+    "type": "removed",
+    "playerName": "Cooper Pratt",
+    "position": "SS",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-09T09:01:51.029105+00:00",
     "teamCode": "MIL",
     "teamName": "Milwaukee Brewers",

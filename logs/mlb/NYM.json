@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-10T09:47:32.762771+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "added",
+    "playerName": "Jack Weisenburger",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-10T09:47:32.762782+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "removed",
+    "playerName": "Xzavion Curry",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-09T09:01:52.129660+00:00",
     "teamCode": "NYM",
     "teamName": "New York Mets",
