@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-10T10:40:05.470879+00:00",
+    "teamCode": "FLST",
+    "teamName": "Florida State Seminoles",
+    "type": "added",
+    "playerName": "Ja'Bril Rawls",
+    "position": "DB",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-10T10:40:05.470912+00:00",
+    "teamCode": "FLST",
+    "teamName": "Florida State Seminoles",
+    "type": "removed",
+    "playerName": "JaBril Rawls",
+    "position": "DB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-22T11:23:11.114076+00:00",
     "teamCode": "FLST",
     "teamName": "Florida State Seminoles",

@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-10T10:49:04.566032+00:00",
+    "teamCode": "TXST",
+    "teamName": "Texas State Bobcats",
+    "type": "added",
+    "playerName": "La'Keyleon Graves",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-10T10:49:04.566049+00:00",
+    "teamCode": "TXST",
+    "teamName": "Texas State Bobcats",
+    "type": "added",
+    "playerName": "Ta'Derius Collins",
+    "position": "DL",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-10T10:49:04.566062+00:00",
+    "teamCode": "TXST",
+    "teamName": "Texas State Bobcats",
+    "type": "removed",
+    "playerName": "LaKeyleon Graves",
+    "position": "WR",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-10T10:49:04.566065+00:00",
+    "teamCode": "TXST",
+    "teamName": "Texas State Bobcats",
+    "type": "removed",
+    "playerName": "TaDerius Collins",
+    "position": "DL",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-29T11:48:38.744492+00:00",
     "teamCode": "TXST",
     "teamName": "Texas State Bobcats",
