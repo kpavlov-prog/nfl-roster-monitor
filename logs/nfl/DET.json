@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-10T09:08:51.816445+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "added",
+    "playerName": "Amen Ogbongbemiga",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-10T09:08:51.816476+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "added",
+    "playerName": "Ryan Cooper Jr.",
+    "position": "DB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-10T09:08:51.816489+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "removed",
+    "playerName": "Nick Muse",
+    "position": "TE",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-10T09:08:51.816495+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "removed",
+    "playerName": "Teddy Bridgewater",
+    "position": "QB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-08-09T08:32:12.495026+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Lions",

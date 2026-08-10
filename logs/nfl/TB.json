@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-10T09:09:43.230653+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Buccaneers",
+    "type": "status changed",
+    "playerName": "Chase Lucas",
+    "position": "CB",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-08-10T09:09:43.230669+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Buccaneers",
+    "type": "added",
+    "playerName": "Dean Patterson IV",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-10T09:09:43.230694+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Buccaneers",
+    "type": "removed",
+    "playerName": "Dean Patterson",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-09T08:33:01.678328+00:00",
     "teamCode": "TB",
     "teamName": "Tampa Bay Buccaneers",

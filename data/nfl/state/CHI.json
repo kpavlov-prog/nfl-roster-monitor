@@ -3,12 +3,20 @@
   "team": "Chicago Bears",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/chicago-bears/roster",
-  "checkedAt": "2026-08-09T08:31:58.091739+00:00",
+  "checkedAt": "2026-08-10T09:08:38.982874+00:00",
   "players": [
     {
       "name": "Austin Booker",
       "position": "DE",
       "number": "94",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Beanie Bishop Jr.",
+      "position": "CB",
+      "number": "70",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -353,7 +361,7 @@
       "name": "KC Eziomume",
       "position": "DB",
       "number": "20",
-      "status": "LISTED",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -441,7 +449,7 @@
       "name": "Luke Elkin",
       "position": "LS",
       "number": "46",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },

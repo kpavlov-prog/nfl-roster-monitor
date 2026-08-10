@@ -3,7 +3,7 @@
   "team": "Indianapolis Colts",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/indianapolis-colts/roster",
-  "checkedAt": "2026-08-09T08:32:19.743446+00:00",
+  "checkedAt": "2026-08-10T09:08:59.171686+00:00",
   "players": [
     {
       "name": "Adetomiwa Adebawore",
@@ -201,6 +201,14 @@
       "name": "Coleman Owen",
       "position": "WR",
       "number": "9",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "D.J. Montgomery",
+      "position": "WR",
+      "number": "73",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -441,7 +449,7 @@
       "name": "Liam Clifford",
       "position": "WR",
       "number": "3",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
