@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-11T09:13:07.973134+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Orioles",
+    "type": "added",
+    "playerName": "Cam Sanders",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-11T09:13:07.973144+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Orioles",
+    "type": "removed",
+    "playerName": "Cade Povich",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-06T10:48:44.069740+00:00",
     "teamCode": "BAL",
     "teamName": "Baltimore Orioles",

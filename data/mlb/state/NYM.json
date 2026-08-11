@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-08-10T09:47:32.761680+00:00",
+  "checkedAt": "2026-08-11T09:13:16.642609+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -71,13 +71,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Devin Williams",
-      "position": "P",
-      "number": "38",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Francisco Alvarez",
       "position": "C",
       "number": "4",
@@ -116,6 +109,13 @@
       "name": "Jefry Yan",
       "position": "P",
       "number": "84",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jonathan Pintaro",
+      "position": "P",
+      "number": "91",
       "status": "A",
       "source": "MLB Stats API"
     },

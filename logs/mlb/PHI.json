@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-11T09:13:18.386120+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "added",
+    "playerName": "Chase Shugart",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-11T09:13:18.386129+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "removed",
+    "playerName": "Caleb Kilian",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-10T09:47:34.484484+00:00",
     "teamCode": "PHI",
     "teamName": "Philadelphia Phillies",
