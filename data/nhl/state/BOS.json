@@ -3,7 +3,7 @@
   "team": "Boston Bruins",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/BOS/current",
-  "checkedAt": "2026-08-10T09:56:20.255136+00:00",
+  "checkedAt": "2026-08-11T09:30:17.935986+00:00",
   "players": [
     {
       "name": "Alex Steeves",
@@ -71,7 +71,7 @@
     {
       "name": "JJ Peterka",
       "position": "R",
-      "number": "",
+      "number": "10",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -169,7 +169,7 @@
     {
       "name": "Will Borgen",
       "position": "D",
-      "number": "",
+      "number": "17",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

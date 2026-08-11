@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-11T09:30:17.937088+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Bruins",
+    "type": "number changed",
+    "playerName": "JJ Peterka",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "10",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-11T09:30:17.937099+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Bruins",
+    "type": "number changed",
+    "playerName": "Will Borgen",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "17",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-11T09:30:30.819349+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Blues",
+    "type": "number changed",
+    "playerName": "Dalibor Dvorsky",
+    "position": "R",
+    "oldValue": "54",
+    "newValue": "15",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-08-09T09:10:58.913774+00:00",
     "teamCode": "PIT",
     "teamName": "Pittsburgh Penguins",
