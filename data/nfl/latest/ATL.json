@@ -3,7 +3,7 @@
   "team": "Atlanta Falcons",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/atlanta-falcons/roster",
-  "checkedAt": "2026-08-11T08:44:28.229440+00:00",
+  "checkedAt": "2026-08-12T09:02:44.335999+00:00",
   "players": [
     {
       "name": "A.J. Terrell",
@@ -123,6 +123,14 @@
       "number": "26",
       "status": "ACT",
       "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Cameron Sample",
+      "position": "DE",
+      "number": "75",
+      "status": "ACT",
+      "important": true,
       "source": "NFL.com"
     },
     {
@@ -329,7 +337,7 @@
       "name": "Jack Nelson",
       "position": "OT",
       "number": "69",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -347,6 +355,14 @@
       "number": "84",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Jaeden Roberts",
+      "position": "G",
+      "number": "77",
+      "status": "ACT",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -513,7 +529,7 @@
       "name": "Le'Meke Brockington",
       "position": "WR",
       "number": "88",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -545,7 +561,7 @@
       "name": "Malik Verdon",
       "position": "LB",
       "number": "43",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -630,19 +646,19 @@
       "source": "NFL.com"
     },
     {
-      "name": "Olamide Zaccheaus",
-      "position": "WR",
-      "number": "14",
+      "name": "Nick Muse",
+      "position": "TE",
+      "number": "77",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
     {
-      "name": "Philip Florenzo",
-      "position": "LS",
-      "number": "46",
+      "name": "Olamide Zaccheaus",
+      "position": "WR",
+      "number": "14",
       "status": "ACT",
-      "important": false,
+      "important": true,
       "source": "NFL.com"
     },
     {
@@ -674,6 +690,14 @@
       "position": "OT",
       "number": "77",
       "status": "PUP",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Trey Sermon",
+      "position": "RB",
+      "number": "72",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },

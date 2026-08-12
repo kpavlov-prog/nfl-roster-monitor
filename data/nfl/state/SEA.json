@@ -3,7 +3,7 @@
   "team": "Seattle Seahawks",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/seattle-seahawks/roster",
-  "checkedAt": "2026-08-11T08:45:42.300061+00:00",
+  "checkedAt": "2026-08-12T09:03:59.504020+00:00",
   "players": [
     {
       "name": "AJ Barner",
@@ -11,6 +11,14 @@
       "number": "88",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Aaron Smith",
+      "position": "LB",
+      "number": "74",
+      "status": "ACT",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -593,7 +601,7 @@
       "name": "Robbie Ouzts",
       "position": "RB",
       "number": "40",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },

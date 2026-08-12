@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-12T09:03:56.272768+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco 49ers",
+    "type": "added",
+    "playerName": "Doug Kramer",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-12T09:03:56.272801+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco 49ers",
+    "type": "removed",
+    "playerName": "Nick Zakelj",
+    "position": "OT",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-09T08:32:57.241826+00:00",
     "teamCode": "SF",
     "teamName": "San Francisco 49ers",

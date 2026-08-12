@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-12T09:03:59.504301+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Seahawks",
+    "type": "added",
+    "playerName": "Aaron Smith",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-12T09:03:59.504333+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Seahawks",
+    "type": "status changed",
+    "playerName": "Robbie Ouzts",
+    "position": "RB",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-08-10T09:09:40.184475+00:00",
     "teamCode": "SEA",
     "teamName": "Seattle Seahawks",

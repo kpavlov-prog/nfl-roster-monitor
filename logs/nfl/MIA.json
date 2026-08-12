@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-08-12T09:03:33.715588+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Dolphins",
+    "type": "added",
+    "playerName": "Caedan Wallace",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-12T09:03:33.715616+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Dolphins",
+    "type": "added",
+    "playerName": "Nick McCloud",
+    "position": "CB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-12T09:03:33.715622+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Dolphins",
+    "type": "status changed",
+    "playerName": "Omar Brown",
+    "position": "DB",
+    "oldValue": "RES",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-08-12T09:03:33.715634+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Dolphins",
+    "type": "status changed",
+    "playerName": "Zane Gonzalez",
+    "position": "K",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-08-12T09:03:33.715640+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Dolphins",
+    "type": "removed",
+    "playerName": "Anthony Hankerson",
+    "position": "RB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-09T08:32:37.054663+00:00",
     "teamCode": "MIA",
     "teamName": "Miami Dolphins",

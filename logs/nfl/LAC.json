@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-12T09:03:28.279756+00:00",
+    "teamCode": "LAC",
+    "teamName": "Los Angeles Chargers",
+    "type": "added",
+    "playerName": "Andre Carter II",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-12T09:03:28.279793+00:00",
+    "teamCode": "LAC",
+    "teamName": "Los Angeles Chargers",
+    "type": "removed",
+    "playerName": "Mante Morrow",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-04T10:29:12.488639+00:00",
     "teamCode": "LAC",
     "teamName": "Los Angeles Chargers",

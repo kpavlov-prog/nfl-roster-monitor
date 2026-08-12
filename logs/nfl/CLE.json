@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-12T09:03:02.056248+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "status changed",
+    "playerName": "Aaron Anderson",
+    "position": "WR",
+    "oldValue": "RES",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-08-12T09:03:02.056266+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "added",
+    "playerName": "Dae'Quan Wright",
+    "position": "TE",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-12T09:03:02.056272+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "status changed",
+    "playerName": "Damarri Mathis",
+    "position": "DB",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-08-09T08:32:04.152686+00:00",
     "teamCode": "CLE",
     "teamName": "Cleveland Browns",
