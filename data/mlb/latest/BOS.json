@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-08-11T09:13:08.553828+00:00",
+  "checkedAt": "2026-08-12T09:31:22.749002+00:00",
   "players": [
+    {
+      "name": "Adley Rutschman",
+      "position": "C",
+      "number": "31",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Andruw Monasterio",
       "position": "SS",
@@ -88,13 +95,6 @@
       "name": "Jake Bennett",
       "position": "P",
       "number": "64",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jake Rogers",
-      "position": "C",
-      "number": "46",
       "status": "A",
       "source": "MLB Stats API"
     },

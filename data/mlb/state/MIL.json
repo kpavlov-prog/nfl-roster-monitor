@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=active",
-  "checkedAt": "2026-08-11T09:13:15.512101+00:00",
+  "checkedAt": "2026-08-12T09:31:29.898202+00:00",
   "players": [
     {
       "name": "Aaron Ashby",
@@ -46,6 +46,13 @@
       "name": "Brice Turang",
       "position": "2B",
       "number": "2",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Bryse Wilson",
+      "position": "P",
+      "number": "41",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -151,13 +158,6 @@
       "name": "Luis Lara",
       "position": "RF",
       "number": "18",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Lyon Richardson",
-      "position": "P",
-      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },

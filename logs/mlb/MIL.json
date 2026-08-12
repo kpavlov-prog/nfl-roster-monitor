@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-12T09:31:29.899165+00:00",
+    "teamCode": "MIL",
+    "teamName": "Milwaukee Brewers",
+    "type": "added",
+    "playerName": "Bryse Wilson",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-12T09:31:29.899180+00:00",
+    "teamCode": "MIL",
+    "teamName": "Milwaukee Brewers",
+    "type": "removed",
+    "playerName": "Lyon Richardson",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-10T09:47:31.606774+00:00",
     "teamCode": "MIL",
     "teamName": "Milwaukee Brewers",

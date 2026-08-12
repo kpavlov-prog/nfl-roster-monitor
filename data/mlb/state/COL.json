@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=active",
-  "checkedAt": "2026-08-11T09:13:11.460521+00:00",
+  "checkedAt": "2026-08-12T09:31:25.712793+00:00",
   "players": [
     {
       "name": "Brennan Bernardino",
@@ -32,13 +32,6 @@
       "name": "Connor Norby",
       "position": "1B",
       "number": "35",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Edouard Julien",
-      "position": "2B",
-      "number": "6",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,6 +172,13 @@
       "name": "Willi Castro",
       "position": "2B",
       "number": "3",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Zac Veen",
+      "position": "LF",
+      "number": "13",
       "status": "A",
       "source": "MLB Stats API"
     },
