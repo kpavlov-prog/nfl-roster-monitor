@@ -3,7 +3,7 @@
   "team": "LA Clippers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/LAC/roster",
-  "checkedAt": "2026-08-12T09:47:59.978136+00:00",
+  "checkedAt": "2026-08-13T09:48:14.465034+00:00",
   "players": [
     {
       "name": "Baba Miller",
@@ -51,6 +51,13 @@
       "name": "Isaiah Jackson",
       "position": "F",
       "number": "23",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Jalen Pickett",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-13T09:48:11.177708+00:00",
+    "teamCode": "DEN",
+    "teamName": "Denver Nuggets",
+    "type": "removed",
+    "playerName": "Jalen Pickett",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-13T09:48:14.465818+00:00",
+    "teamCode": "LAC",
+    "teamName": "LA Clippers",
+    "type": "added",
+    "playerName": "Jalen Pickett",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-13T09:48:21.820151+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Suns",
+    "type": "removed",
+    "playerName": "Haywood Highsmith",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-10T10:02:33.412949+00:00",
     "teamCode": "LAC",
     "teamName": "LA Clippers",
