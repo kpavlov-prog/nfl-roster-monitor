@@ -3,7 +3,7 @@
   "team": "Washington Mystics",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/WSH/roster",
-  "checkedAt": "2026-08-13T10:08:52.348859+00:00",
+  "checkedAt": "2026-08-14T10:04:20.674138+00:00",
   "players": [
     {
       "name": "Alicia Florez",
@@ -79,6 +79,13 @@
       "name": "Michaela Onyenwere",
       "position": "F",
       "number": "12",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Rori Harmon",
+      "position": "G",
+      "number": "3",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },
