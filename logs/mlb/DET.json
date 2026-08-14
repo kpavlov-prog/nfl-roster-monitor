@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-14T09:19:54.601565+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Tigers",
+    "type": "added",
+    "playerName": "Trei Cruz",
+    "position": "CF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-14T09:19:54.601579+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Tigers",
+    "type": "removed",
+    "playerName": "James Outman",
+    "position": "CF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-13T09:32:51.627394+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Tigers",

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-08-13T09:33:01.778997+00:00",
+  "checkedAt": "2026-08-14T09:20:06.479988+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -32,13 +32,6 @@
       "name": "Braydon Fisher",
       "position": "P",
       "number": "63",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brendon Little",
-      "position": "P",
-      "number": "54",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -109,6 +102,13 @@
       "name": "Kazuma Okamoto",
       "position": "3B",
       "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Lazaro Estrada",
+      "position": "P",
+      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },

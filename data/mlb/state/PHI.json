@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/143/roster?rosterType=active",
-  "checkedAt": "2026-08-13T09:32:57.517089+00:00",
+  "checkedAt": "2026-08-14T09:20:01.486101+00:00",
   "players": [
     {
       "name": "Aaron Nola",
@@ -144,6 +144,13 @@
       "name": "Justin Crawford",
       "position": "CF",
       "number": "2",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kameron Misner",
+      "position": "CF",
+      "number": "18",
       "status": "A",
       "source": "MLB Stats API"
     },

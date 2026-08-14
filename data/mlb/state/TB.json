@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/139/roster?rosterType=active",
-  "checkedAt": "2026-08-13T09:33:00.715179+00:00",
+  "checkedAt": "2026-08-14T09:20:05.237741+00:00",
   "players": [
     {
       "name": "Bryan Baker",
@@ -18,13 +18,6 @@
       "name": "Cam Booser",
       "position": "P",
       "number": "62",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Carson Williams",
-      "position": "SS",
-      "number": "7",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -85,6 +78,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jesse Scholtens",
+      "position": "P",
+      "number": "65",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jonathan Aranda",
       "position": "1B",
       "number": "8",
@@ -95,6 +95,13 @@
       "name": "Jonny DeLuca",
       "position": "RF",
       "number": "21",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jorge Mateo",
+      "position": "SS",
+      "number": "9",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -116,13 +123,6 @@
       "name": "Liam Hicks",
       "position": "C",
       "number": "34",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Michael Grove",
-      "position": "P",
-      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },

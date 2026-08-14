@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-08-13T09:32:58.048746+00:00",
+  "checkedAt": "2026-08-14T09:20:02.135070+00:00",
   "players": [
     {
       "name": "Brandon Lowe",
@@ -50,23 +50,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Endy Rodríguez",
-      "position": "C",
-      "number": "13",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Esmerlyn Valdez",
       "position": "RF",
       "number": "55",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Evan Sisk",
-      "position": "P",
-      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -81,6 +67,20 @@
       "name": "Henry Davis",
       "position": "C",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Isaac Mattson",
+      "position": "P",
+      "number": "72",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jack Brannigan",
+      "position": "SS",
+      "number": "76",
       "status": "A",
       "source": "MLB Stats API"
     },

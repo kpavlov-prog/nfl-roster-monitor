@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-08-13T09:32:59.113703+00:00",
+  "checkedAt": "2026-08-14T09:20:03.375966+00:00",
   "players": [
     {
       "name": "Adrian Houser",
@@ -172,6 +172,13 @@
       "name": "Trent Harris",
       "position": "P",
       "number": "68",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Turner Hill",
+      "position": "CF",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
