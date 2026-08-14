@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-14T08:59:36.292723+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Ravens",
+    "type": "added",
+    "playerName": "Austin Reed",
+    "position": "QB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-14T08:59:36.292754+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Ravens",
+    "type": "status changed",
+    "playerName": "Skylar Thompson",
+    "position": "QB",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-08-10T09:08:32.301313+00:00",
     "teamCode": "BAL",
     "teamName": "Baltimore Ravens",

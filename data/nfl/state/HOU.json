@@ -3,7 +3,7 @@
   "team": "Houston Texans",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/houston-texans/roster",
-  "checkedAt": "2026-08-13T09:04:09.752490+00:00",
+  "checkedAt": "2026-08-14T09:00:05.247970+00:00",
   "players": [
     {
       "name": "Aiden Fisher",
@@ -105,6 +105,14 @@
       "name": "Cade Stover",
       "position": "TE",
       "number": "8",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Chris Freeman",
+      "position": "K",
+      "number": "73",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -513,7 +521,7 @@
       "name": "Montrell Washington",
       "position": "WR",
       "number": "70",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

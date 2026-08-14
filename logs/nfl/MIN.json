@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-14T09:00:27.162823+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "number changed",
+    "playerName": "Chaz Chambliss",
+    "position": "LB",
+    "oldValue": "32",
+    "newValue": "57",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-14T09:00:27.162845+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "number changed",
+    "playerName": "Jamal Adams",
+    "position": "LB",
+    "oldValue": "54",
+    "newValue": "32",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-14T09:00:27.162851+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "added",
+    "playerName": "Jermar Jefferson",
+    "position": "RB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-14T09:00:27.162857+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "status changed",
+    "playerName": "Jordan Mims",
+    "position": "RB",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-04T10:29:20.470888+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Vikings",

@@ -3,7 +3,7 @@
   "team": "Las Vegas Raiders",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/las-vegas-raiders/roster",
-  "checkedAt": "2026-08-13T09:04:18.940693+00:00",
+  "checkedAt": "2026-08-14T09:00:16.661910+00:00",
   "players": [
     {
       "name": "AJ Cole",
@@ -65,6 +65,14 @@
       "name": "Benito Jones",
       "position": "DT",
       "number": "94",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Braeden Daniels",
+      "position": "G",
+      "number": "76",
       "status": "ACT",
       "important": false,
       "source": "NFL.com"
@@ -425,7 +433,7 @@
       "name": "Justin Pickett",
       "position": "G",
       "number": "77",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },

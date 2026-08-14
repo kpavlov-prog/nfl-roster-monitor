@@ -3,7 +3,7 @@
   "team": "San Francisco 49ers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/san-francisco-49ers/roster",
-  "checkedAt": "2026-08-13T09:04:49.659729+00:00",
+  "checkedAt": "2026-08-14T09:00:45.332965+00:00",
   "players": [
     {
       "name": "Adrian Martinez",
@@ -222,6 +222,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Eli Apple",
+      "position": "CB",
+      "number": "30",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Enrique Cruz",
       "position": "OT",
       "number": "69",
@@ -297,7 +305,7 @@
       "name": "Jack Bouwmeester",
       "position": "P",
       "number": "14",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -401,7 +409,7 @@
       "name": "Junior Bergen",
       "position": "WR",
       "number": "86",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -409,7 +417,7 @@
       "name": "KJ Henry",
       "position": "DE",
       "number": "50",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -721,6 +729,22 @@
       "name": "Will Pauling",
       "position": "WR",
       "number": "4",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Xavier Thomas",
+      "position": "LB",
+      "number": "74",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Zamir White",
+      "position": "RB",
+      "number": "71",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

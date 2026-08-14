@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-14T08:59:38.787476+00:00",
+    "teamCode": "BUF",
+    "teamName": "Buffalo Bills",
+    "type": "added",
+    "playerName": "Anthony Kendall",
+    "position": "CB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-14T08:59:38.787521+00:00",
+    "teamCode": "BUF",
+    "teamName": "Buffalo Bills",
+    "type": "removed",
+    "playerName": "Kody Huisman",
+    "position": "DT",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-09T08:31:51.644991+00:00",
     "teamCode": "BUF",
     "teamName": "Buffalo Bills",
