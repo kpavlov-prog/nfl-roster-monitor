@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-15T09:26:57.591064+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Wings",
+    "type": "added",
+    "playerName": "Christyn Williams",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-15T09:26:58.875021+00:00",
+    "teamCode": "IND",
+    "teamName": "Indiana Fever",
+    "type": "number changed",
+    "playerName": "Mercedes Russell",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "5",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-08-14T10:04:20.674967+00:00",
     "teamCode": "WSH",
     "teamName": "Washington Mystics",
