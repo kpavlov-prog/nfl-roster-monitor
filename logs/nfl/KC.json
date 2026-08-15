@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-15T08:17:30.717087+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Chiefs",
+    "type": "added",
+    "playerName": "Emmanuel Ogbah",
+    "position": "DE",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-15T08:17:30.717120+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Chiefs",
+    "type": "removed",
+    "playerName": "Bryce Phillips",
+    "position": "CB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-04T10:29:07.256175+00:00",
     "teamCode": "KC",
     "teamName": "Kansas City Chiefs",

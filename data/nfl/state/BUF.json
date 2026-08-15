@@ -3,7 +3,7 @@
   "team": "Buffalo Bills",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/buffalo-bills/roster",
-  "checkedAt": "2026-08-14T08:59:38.787131+00:00",
+  "checkedAt": "2026-08-15T08:16:56.025808+00:00",
   "players": [
     {
       "name": "Alec Anderson",
@@ -494,14 +494,6 @@
       "source": "NFL.com"
     },
     {
-      "name": "Otis Reese",
-      "position": "LB",
-      "number": "74",
-      "status": "ACT",
-      "important": false,
-      "source": "NFL.com"
-    },
-    {
       "name": "Phidarian Mathis",
       "position": "DT",
       "number": "72",
@@ -689,6 +681,14 @@
       "name": "Tyrell Shavers",
       "position": "WR",
       "number": "14",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Wande Owens",
+      "position": "DB",
+      "number": "71",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

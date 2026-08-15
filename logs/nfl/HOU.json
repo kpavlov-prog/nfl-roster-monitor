@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-15T08:17:23.386480+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Texans",
+    "type": "status changed",
+    "playerName": "Chris Freeman",
+    "position": "K",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-15T08:17:23.386517+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Texans",
+    "type": "removed",
+    "playerName": "Montrell Washington",
+    "position": "WR",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-15T08:17:23.386524+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Texans",
+    "type": "removed",
+    "playerName": "Sione Takitaki",
+    "position": "LB",
+    "oldValue": "RES",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-08-14T09:00:05.248293+00:00",
     "teamCode": "HOU",
     "teamName": "Houston Texans",
