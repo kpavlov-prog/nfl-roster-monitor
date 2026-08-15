@@ -3,7 +3,7 @@
   "team": "New York Islanders",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/NYI/current",
-  "checkedAt": "2026-08-14T09:34:35.964303+00:00",
+  "checkedAt": "2026-08-15T08:54:27.919496+00:00",
   "players": [
     {
       "name": "Adam Pelech",
@@ -107,6 +107,13 @@
       "name": "Matthew Schaefer",
       "position": "D",
       "number": "48",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Mitchell Chaffee",
+      "position": "R",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
