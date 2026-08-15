@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-15T08:44:45.262872+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "added",
+    "playerName": "Paul Sewald",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-15T08:44:45.262882+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "removed",
+    "playerName": "Lazaro Estrada",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-14T09:20:06.481169+00:00",
     "teamCode": "TOR",
     "teamName": "Toronto Blue Jays",

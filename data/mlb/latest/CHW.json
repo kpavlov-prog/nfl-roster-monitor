@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-08-14T09:19:52.092430+00:00",
+  "checkedAt": "2026-08-15T08:44:32.959912+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -57,13 +57,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Davis Martin",
-      "position": "P",
-      "number": "65",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Drew Romo",
       "position": "C",
       "number": "36",
@@ -109,6 +102,13 @@
       "name": "Jordan Hicks",
       "position": "P",
       "number": "44",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "José Urquidy",
+      "position": "P",
+      "number": "70",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -169,13 +169,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Tanner McDougal",
-      "position": "P",
-      "number": "55",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Trevor Richards",
       "position": "P",
       "number": "43",
@@ -186,6 +179,13 @@
       "name": "Tristan Peters",
       "position": "CF",
       "number": "29",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tyler Schweitzer",
+      "position": "P",
+      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     }

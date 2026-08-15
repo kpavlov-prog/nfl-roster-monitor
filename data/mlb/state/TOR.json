@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-08-14T09:20:06.479988+00:00",
+  "checkedAt": "2026-08-15T08:44:45.262153+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -106,13 +106,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Lazaro Estrada",
-      "position": "P",
-      "number": "60",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Louis Varland",
       "position": "P",
       "number": "77",
@@ -151,6 +144,13 @@
       "name": "Nathan Lukes",
       "position": "RF",
       "number": "38",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Paul Sewald",
+      "position": "P",
+      "number": "43",
       "status": "A",
       "source": "MLB Stats API"
     },

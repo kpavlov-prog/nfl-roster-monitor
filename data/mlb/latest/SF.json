@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-08-14T09:20:03.375966+00:00",
+  "checkedAt": "2026-08-15T08:44:42.578643+00:00",
   "players": [
     {
       "name": "Adrian Houser",
@@ -85,13 +85,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Grant McCray",
-      "position": "CF",
-      "number": "58",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "JT Brubaker",
       "position": "P",
       "number": "34",
@@ -102,6 +95,13 @@
       "name": "Jason Foley",
       "position": "P",
       "number": "64",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jonah Cox",
+      "position": "CF",
+      "number": "53",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -130,13 +130,6 @@
       "name": "Logan Webb",
       "position": "P",
       "number": "62",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Nate Furman",
-      "position": "2B",
-      "number": "56",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -178,7 +171,7 @@
     {
       "name": "Turner Hill",
       "position": "CF",
-      "number": "",
+      "number": "52",
       "status": "A",
       "source": "MLB Stats API"
     },

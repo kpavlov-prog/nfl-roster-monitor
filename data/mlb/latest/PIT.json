@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-08-14T09:20:02.135070+00:00",
+  "checkedAt": "2026-08-15T08:44:41.513073+00:00",
   "players": [
+    {
+      "name": "Billy Cook",
+      "position": "CF",
+      "number": "25",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Brandon Lowe",
       "position": "2B",
@@ -113,13 +120,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jhostynxon Garcia",
-      "position": "RF",
-      "number": "34",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Kirby Yates",
       "position": "P",
       "number": "54",
@@ -183,9 +183,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Yohan Ramírez",
+      "name": "Wilber Dotel",
       "position": "P",
-      "number": "49",
+      "number": "66",
       "status": "A",
       "source": "MLB Stats API"
     }
