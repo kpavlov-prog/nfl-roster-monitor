@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-15T09:03:54.173563+00:00",
+    "teamCode": "CHA",
+    "teamName": "Charlotte Hornets",
+    "type": "added",
+    "playerName": "Dennis Schroder",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-15T09:03:54.173575+00:00",
+    "teamCode": "CHA",
+    "teamName": "Charlotte Hornets",
+    "type": "removed",
+    "playerName": "Tre Mann",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-15T09:03:55.517733+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Cavaliers",
+    "type": "added",
+    "playerName": "Tre Mann",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-15T09:03:55.517742+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Cavaliers",
+    "type": "removed",
+    "playerName": "Dennis Schroder",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-14T09:44:07.532838+00:00",
     "teamCode": "IND",
     "teamName": "Indiana Pacers",
