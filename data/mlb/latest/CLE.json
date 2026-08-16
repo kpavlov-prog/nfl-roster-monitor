@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active",
-  "checkedAt": "2026-08-15T08:44:34.027794+00:00",
+  "checkedAt": "2026-08-16T08:46:27.967888+00:00",
   "players": [
     {
       "name": "Angel Genao",
@@ -78,13 +78,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Franco Aleman",
-      "position": "P",
-      "number": "55",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Gavin Williams",
       "position": "P",
       "number": "32",
@@ -116,6 +109,13 @@
       "name": "José Ramírez",
       "position": "3B",
       "number": "11",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Logan Allen",
+      "position": "P",
+      "number": "26",
       "status": "A",
       "source": "MLB Stats API"
     },

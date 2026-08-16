@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-08-15T08:44:44.706787+00:00",
+  "checkedAt": "2026-08-16T08:46:39.939338+00:00",
   "players": [
     {
       "name": "Austin Wynns",
@@ -106,6 +106,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jakob Junis",
+      "position": "P",
+      "number": "16",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jarred Kelenic",
       "position": "RF",
       "number": "25",
@@ -144,13 +151,6 @@
       "name": "MacKenzie Gore",
       "position": "P",
       "number": "1",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Marco Gonzales",
-      "position": "P",
-      "number": "50",
       "status": "A",
       "source": "MLB Stats API"
     },

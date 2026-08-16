@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=active",
-  "checkedAt": "2026-08-15T08:44:43.641346+00:00",
+  "checkedAt": "2026-08-16T08:46:38.705939+00:00",
   "players": [
     {
       "name": "Alec Burleson",
@@ -95,6 +95,13 @@
       "name": "Jordan Walker",
       "position": "RF",
       "number": "18",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Joshua Báez",
+      "position": "RF",
+      "number": "22",
       "status": "A",
       "source": "MLB Stats API"
     },

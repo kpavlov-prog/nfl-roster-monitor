@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-08-15T08:44:45.262153+00:00",
+  "checkedAt": "2026-08-16T08:46:40.525566+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -50,9 +50,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Chase Lee",
-      "position": "P",
-      "number": "52",
+      "name": "Daz Cameron",
+      "position": "RF",
+      "number": "23",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -155,6 +155,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Ricky Tiedemann",
+      "position": "P",
+      "number": "33",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Shane Bieber",
       "position": "P",
       "number": "57",
@@ -179,13 +186,6 @@
       "name": "Tyler Rogers",
       "position": "P",
       "number": "71",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Vladimir Guerrero Jr.",
-      "position": "1B",
-      "number": "27",
       "status": "A",
       "source": "MLB Stats API"
     }

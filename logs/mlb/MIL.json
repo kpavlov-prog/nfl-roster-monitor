@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-16T08:46:32.757219+00:00",
+    "teamCode": "MIL",
+    "teamName": "Milwaukee Brewers",
+    "type": "added",
+    "playerName": "Jonathan Ornelas",
+    "position": "SS",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-16T08:46:32.757231+00:00",
+    "teamCode": "MIL",
+    "teamName": "Milwaukee Brewers",
+    "type": "removed",
+    "playerName": "Jihwan Bae",
+    "position": "CF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-15T08:44:38.314736+00:00",
     "teamCode": "MIL",
     "teamName": "Milwaukee Brewers",
