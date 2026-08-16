@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/5/roster?limit=100&page=1",
-  "checkedAt": "2026-08-15T09:56:02.996590+00:00",
+  "checkedAt": "2026-08-16T09:56:21.270706+00:00",
   "players": [
     {
       "name": "AJ Johnson",
@@ -610,6 +610,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Noah Medlen",
+      "position": "LS",
+      "number": "47",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Noah Nelson",
       "position": "DL",
       "number": "9",
@@ -725,6 +732,13 @@
       "name": "Vanden Dugger",
       "position": "QB",
       "number": "12",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Vili Haapsalo",
+      "position": "TE",
+      "number": "86",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
