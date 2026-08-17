@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-08-16T08:46:23.734106+00:00",
+  "checkedAt": "2026-08-17T08:59:52.036841+00:00",
   "players": [
     {
       "name": "Brandon Pfaadt",
@@ -25,6 +25,13 @@
       "name": "Corbin Carroll",
       "position": "RF",
       "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Dennis Santana",
+      "position": "P",
+      "number": "59",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,13 +151,6 @@
       "name": "Nolan Arenado",
       "position": "3B",
       "number": "28",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Philip Abner",
-      "position": "P",
-      "number": "50",
       "status": "A",
       "source": "MLB Stats API"
     },

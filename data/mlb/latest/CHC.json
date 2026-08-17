@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/112/roster?rosterType=active",
-  "checkedAt": "2026-08-16T08:46:26.149966+00:00",
+  "checkedAt": "2026-08-17T08:59:54.279110+00:00",
   "players": [
     {
       "name": "Aaron Civale",
@@ -64,6 +64,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Edward Cabrera",
+      "position": "P",
+      "number": "30",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Ian Happ",
       "position": "LF",
       "number": "8",
@@ -81,13 +88,6 @@
       "name": "James Triantos",
       "position": "2B",
       "number": "5",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Javier Assad",
-      "position": "P",
-      "number": "72",
       "status": "A",
       "source": "MLB Stats API"
     },

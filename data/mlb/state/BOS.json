@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-08-16T08:46:25.555756+00:00",
+  "checkedAt": "2026-08-17T08:59:53.717098+00:00",
   "players": [
     {
       "name": "Adley Rutschman",
@@ -120,16 +120,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Justin Slaten",
-      "position": "P",
-      "number": "63",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Masataka Yoshida",
-      "position": "DH",
-      "number": "7",
+      "name": "Mickey Gasper",
+      "position": "C",
+      "number": "30",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -158,6 +151,13 @@
       "name": "Ranger Suarez",
       "position": "P",
       "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Raymond Burgos",
+      "position": "P",
+      "number": "79",
       "status": "A",
       "source": "MLB Stats API"
     },

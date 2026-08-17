@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-08-16T08:46:40.525566+00:00",
+  "checkedAt": "2026-08-17T09:00:07.687683+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -32,6 +32,13 @@
       "name": "Braydon Fisher",
       "position": "P",
       "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brendon Little",
+      "position": "P",
+      "number": "54",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -151,13 +158,6 @@
       "name": "Paul Sewald",
       "position": "P",
       "number": "43",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Ricky Tiedemann",
-      "position": "P",
-      "number": "33",
       "status": "A",
       "source": "MLB Stats API"
     },

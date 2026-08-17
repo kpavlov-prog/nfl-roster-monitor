@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-08-16T08:46:36.357057+00:00",
+  "checkedAt": "2026-08-17T09:00:03.766625+00:00",
   "players": [
     {
       "name": "Billy Cook",
@@ -78,16 +78,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Isaac Mattson",
+      "name": "Hunter Barco",
       "position": "P",
-      "number": "72",
+      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Jack Brannigan",
-      "position": "SS",
-      "number": "76",
+      "name": "Isaac Mattson",
+      "position": "P",
+      "number": "72",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -155,6 +155,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Nick Yorke",
+      "position": "3B",
+      "number": "38",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Paul Skenes",
       "position": "P",
       "number": "30",
@@ -179,13 +186,6 @@
       "name": "Spencer Horwitz",
       "position": "1B",
       "number": "2",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Wilber Dotel",
-      "position": "P",
-      "number": "66",
       "status": "A",
       "source": "MLB Stats API"
     }
