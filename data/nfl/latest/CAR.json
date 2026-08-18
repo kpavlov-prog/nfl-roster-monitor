@@ -3,7 +3,7 @@
   "team": "Carolina Panthers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/carolina-panthers/roster",
-  "checkedAt": "2026-08-17T08:33:06.108641+00:00",
+  "checkedAt": "2026-08-18T08:25:13.366187+00:00",
   "players": [
     {
       "name": "AJ Dillon",
@@ -194,6 +194,14 @@
       "position": "WR",
       "number": "88",
       "status": "RES",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Darren Waller",
+      "position": "TE",
+      "number": "78",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -417,7 +425,7 @@
       "name": "Joshua Gray",
       "position": "G",
       "number": "77",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -529,7 +537,7 @@
       "name": "Nick Hampton",
       "position": "LB",
       "number": "39",
-      "status": "RES",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },

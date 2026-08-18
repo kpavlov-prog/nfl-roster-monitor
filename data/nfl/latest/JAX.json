@@ -3,7 +3,7 @@
   "team": "Jacksonville Jaguars",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/jacksonville-jaguars/roster",
-  "checkedAt": "2026-08-17T08:33:32.483398+00:00",
+  "checkedAt": "2026-08-18T08:25:38.444576+00:00",
   "players": [
     {
       "name": "Albert Regis",
@@ -59,6 +59,14 @@
       "number": "95",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Baylon Spector",
+      "position": "LB",
+      "number": "72",
+      "status": "ACT",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -257,7 +265,7 @@
       "name": "Ethan Conner",
       "position": "TE",
       "number": "48",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -505,7 +513,7 @@
       "name": "Parker Hughes",
       "position": "LB",
       "number": "53",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -625,6 +633,14 @@
       "name": "Tim Jones",
       "position": "WR",
       "number": "13",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Timothy McKay",
+      "position": "OT",
+      "number": "76",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

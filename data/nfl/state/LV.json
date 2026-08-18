@@ -3,7 +3,7 @@
   "team": "Las Vegas Raiders",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/las-vegas-raiders/roster",
-  "checkedAt": "2026-08-17T08:33:38.000373+00:00",
+  "checkedAt": "2026-08-18T08:25:44.438870+00:00",
   "players": [
     {
       "name": "AJ Cole",
@@ -65,7 +65,7 @@
       "name": "Benito Jones",
       "position": "DT",
       "number": "94",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -561,6 +561,14 @@
       "name": "Niklas Henning",
       "position": "OT",
       "number": "73",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Noah Brown",
+      "position": "WR",
+      "number": "74",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

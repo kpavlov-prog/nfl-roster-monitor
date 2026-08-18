@@ -3,7 +3,7 @@
   "team": "Tampa Bay Buccaneers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/tampa-bay-buccaneers/roster",
-  "checkedAt": "2026-08-17T08:34:14.882949+00:00",
+  "checkedAt": "2026-08-18T08:26:21.998075+00:00",
   "players": [
     {
       "name": "A'Shawn Robinson",
@@ -57,6 +57,14 @@
       "name": "Baker Mayfield",
       "position": "QB",
       "number": "6",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Barika Kpeenu",
+      "position": "RB",
+      "number": "70",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -457,7 +465,7 @@
       "name": "Kadarius Calloway",
       "position": "RB",
       "number": "49",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -521,7 +529,7 @@
       "name": "Marcus Banks",
       "position": "DB",
       "number": "39",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -590,9 +598,17 @@
       "source": "NFL.com"
     },
     {
+      "name": "Robert McDaniel",
+      "position": "DB",
+      "number": "74",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Roman Parodie",
       "position": "CB",
-      "number": "74",
+      "number": "37",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

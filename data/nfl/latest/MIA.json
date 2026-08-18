@@ -3,7 +3,7 @@
   "team": "Miami Dolphins",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/miami-dolphins/roster",
-  "checkedAt": "2026-08-17T08:33:46.474481+00:00",
+  "checkedAt": "2026-08-18T08:25:52.794266+00:00",
   "players": [
     {
       "name": "A.J. Green",
@@ -107,6 +107,14 @@
       "number": "15",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Cam Rice",
+      "position": "DT",
+      "number": "74",
+      "status": "ACT",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -257,7 +265,7 @@
       "name": "Ethan Robinson",
       "position": "CB",
       "number": "38",
-      "status": "LISTED",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },

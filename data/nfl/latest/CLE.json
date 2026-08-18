@@ -3,7 +3,7 @@
   "team": "Cleveland Browns",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/cleveland-browns/roster",
-  "checkedAt": "2026-08-17T08:33:13.446998+00:00",
+  "checkedAt": "2026-08-18T08:25:20.940816+00:00",
   "players": [
     {
       "name": "Adin Huntington",
@@ -65,7 +65,7 @@
       "name": "Brenden Bates",
       "position": "TE",
       "number": "82",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -323,6 +323,14 @@
       "number": "6",
       "status": "PUP",
       "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Jermaine Terry",
+      "position": "TE",
+      "number": "76",
+      "status": "ACT",
+      "important": true,
       "source": "NFL.com"
     },
     {

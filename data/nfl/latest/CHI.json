@@ -3,7 +3,7 @@
   "team": "Chicago Bears",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/chicago-bears/roster",
-  "checkedAt": "2026-08-17T08:33:08.448165+00:00",
+  "checkedAt": "2026-08-18T08:25:15.765415+00:00",
   "players": [
     {
       "name": "Austin Booker",
@@ -105,7 +105,7 @@
       "name": "Coleman Bennett",
       "position": "RB",
       "number": "30",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -169,6 +169,14 @@
       "name": "Dayo Odeyingbo",
       "position": "DE",
       "number": "55",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Deantre Prince",
+      "position": "CB",
+      "number": "72",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -470,6 +478,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Marcus Davenport",
+      "position": "DE",
+      "number": "78",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Mason Murphy",
       "position": "C",
       "number": "63",
@@ -521,7 +537,7 @@
       "name": "Nikola Kalinic",
       "position": "TE",
       "number": "86",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

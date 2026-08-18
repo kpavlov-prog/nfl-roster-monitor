@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-18T08:25:44.439129+00:00",
+    "teamCode": "LV",
+    "teamName": "Las Vegas Raiders",
+    "type": "status changed",
+    "playerName": "Benito Jones",
+    "position": "DT",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-18T08:25:44.439149+00:00",
+    "teamCode": "LV",
+    "teamName": "Las Vegas Raiders",
+    "type": "added",
+    "playerName": "Noah Brown",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-17T08:33:38.000699+00:00",
     "teamCode": "LV",
     "teamName": "Las Vegas Raiders",
