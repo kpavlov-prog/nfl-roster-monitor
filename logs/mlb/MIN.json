@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-18T08:53:21.561128+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "added",
+    "playerName": "Alex Jackson",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-18T08:53:21.561144+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "removed",
+    "playerName": "Austin Martin",
+    "position": "RF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-15T08:44:38.846436+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Twins",

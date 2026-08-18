@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=active",
-  "checkedAt": "2026-08-17T08:59:55.394115+00:00",
+  "checkedAt": "2026-08-18T08:53:16.196473+00:00",
   "players": [
     {
       "name": "Andrew Abbott",
@@ -148,13 +148,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Ron Marinaccio",
-      "position": "P",
-      "number": "97",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Sal Stewart",
       "position": "1B",
       "number": "27",
@@ -186,6 +179,20 @@
       "name": "Tyler Stephenson",
       "position": "C",
       "number": "37",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Zach Maxwell",
+      "position": "P",
+      "number": "78",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Zach McCambley",
+      "position": "P",
+      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     }

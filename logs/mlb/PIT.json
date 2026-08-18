@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-18T08:53:24.242030+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "added",
+    "playerName": "Oneil Cruz",
+    "position": "CF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-18T08:53:24.242039+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "added",
+    "playerName": "Yohan Ramírez",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-18T08:53:24.242043+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "removed",
+    "playerName": "Hunter Barco",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-18T08:53:24.242047+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "removed",
+    "playerName": "Ronny Simon",
+    "position": "2B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-17T09:00:03.767594+00:00",
     "teamCode": "PIT",
     "teamName": "Pittsburgh Pirates",

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/139/roster?rosterType=active",
-  "checkedAt": "2026-08-17T09:00:06.572545+00:00",
+  "checkedAt": "2026-08-18T08:53:26.920877+00:00",
   "players": [
     {
       "name": "Bryan Baker",
@@ -78,13 +78,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Joe Boyle",
-      "position": "P",
-      "number": "36",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jonathan Aranda",
       "position": "1B",
       "number": "8",
@@ -151,6 +144,13 @@
       "name": "Ryan Vilade",
       "position": "RF",
       "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Shane McClanahan",
+      "position": "P",
+      "number": "18",
       "status": "A",
       "source": "MLB Stats API"
     },

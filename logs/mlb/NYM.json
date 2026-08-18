@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-18T08:53:22.099130+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "added",
+    "playerName": "Christopher Morel",
+    "position": "1B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-18T08:53:22.099145+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "removed",
+    "playerName": "Gabriel Arias",
+    "position": "3B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-11T09:13:16.643178+00:00",
     "teamCode": "NYM",
     "teamName": "New York Mets",

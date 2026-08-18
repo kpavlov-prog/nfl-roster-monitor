@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/112/roster?rosterType=active",
-  "checkedAt": "2026-08-17T08:59:54.279110+00:00",
+  "checkedAt": "2026-08-18T08:53:15.115542+00:00",
   "players": [
     {
       "name": "Aaron Civale",
@@ -50,23 +50,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Dansby Swanson",
-      "position": "SS",
-      "number": "7",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "David Peterson",
       "position": "P",
       "number": "19",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Edward Cabrera",
-      "position": "P",
-      "number": "30",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -85,9 +71,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "James Triantos",
-      "position": "2B",
-      "number": "5",
+      "name": "Javier Assad",
+      "position": "P",
+      "number": "72",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kevin Alcántara",
+      "position": "OF",
+      "number": "13",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -130,6 +123,13 @@
       "name": "Nico Hoerner",
       "position": "2B",
       "number": "2",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Owen Miller",
+      "position": "2B",
+      "number": "66",
       "status": "A",
       "source": "MLB Stats API"
     },

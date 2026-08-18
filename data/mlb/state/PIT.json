@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-08-17T09:00:03.766625+00:00",
+  "checkedAt": "2026-08-18T08:53:24.241250+00:00",
   "players": [
     {
       "name": "Billy Cook",
@@ -74,13 +74,6 @@
       "name": "Henry Davis",
       "position": "C",
       "number": "32",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Hunter Barco",
-      "position": "P",
-      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -162,6 +155,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Oneil Cruz",
+      "position": "CF",
+      "number": "15",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Paul Skenes",
       "position": "P",
       "number": "30",
@@ -176,16 +176,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Ronny Simon",
-      "position": "2B",
-      "number": "63",
+      "name": "Spencer Horwitz",
+      "position": "1B",
+      "number": "2",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Spencer Horwitz",
-      "position": "1B",
-      "number": "2",
+      "name": "Yohan Ramírez",
+      "position": "P",
+      "number": "49",
       "status": "A",
       "source": "MLB Stats API"
     }

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=active",
-  "checkedAt": "2026-08-17T09:00:02.102804+00:00",
+  "checkedAt": "2026-08-18T08:53:22.635279+00:00",
   "players": [
     {
       "name": "Ali Sánchez",
@@ -109,13 +109,6 @@
       "name": "Luis García Jr.",
       "position": "1B",
       "number": "26",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Max Fried",
-      "position": "P",
-      "number": "54",
       "status": "A",
       "source": "MLB Stats API"
     },

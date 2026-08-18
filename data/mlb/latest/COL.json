@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=active",
-  "checkedAt": "2026-08-17T08:59:56.521432+00:00",
+  "checkedAt": "2026-08-18T08:53:17.271062+00:00",
   "players": [
     {
       "name": "Adael Amador",
@@ -106,13 +106,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Michael Lorenzen",
-      "position": "P",
-      "number": "24",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Mickey Moniak",
       "position": "LF",
       "number": "22",
@@ -144,6 +137,13 @@
       "name": "TJ Rumfield",
       "position": "1B",
       "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "TJ Shook",
+      "position": "P",
+      "number": "52",
       "status": "A",
       "source": "MLB Stats API"
     },

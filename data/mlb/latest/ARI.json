@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-08-17T08:59:52.036841+00:00",
+  "checkedAt": "2026-08-18T08:53:12.958528+00:00",
   "players": [
     {
       "name": "Brandon Pfaadt",
@@ -57,13 +57,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Gerardo Carrillo",
-      "position": "P",
-      "number": "68",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Ildemaro Vargas",
       "position": "1B",
       "number": "6",
@@ -85,9 +78,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jordan Lawlar",
+      "position": "LF",
+      "number": "10",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jorge Barrosa",
       "position": "CF",
       "number": "1",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jose Fernandez",
+      "position": "DH",
+      "number": "11",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -99,9 +106,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Ketel Marte",
-      "position": "2B",
-      "number": "4",
+      "name": "Justin Martinez",
+      "position": "P",
+      "number": "63",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,13 +179,6 @@
       "name": "Tim Tawa",
       "position": "LF",
       "number": "13",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tyler Locklear",
-      "position": "1B",
-      "number": "31",
       "status": "A",
       "source": "MLB Stats API"
     },

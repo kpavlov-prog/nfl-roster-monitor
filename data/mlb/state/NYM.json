@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-08-17T09:00:01.549539+00:00",
+  "checkedAt": "2026-08-18T08:53:22.098245+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -50,6 +50,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Christopher Morel",
+      "position": "1B",
+      "number": "28",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Cristian Pache",
       "position": "OF",
       "number": "71",
@@ -81,13 +88,6 @@
       "name": "Francisco Lindor",
       "position": "SS",
       "number": "12",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Gabriel Arias",
-      "position": "3B",
-      "number": "25",
       "status": "A",
       "source": "MLB Stats API"
     },
