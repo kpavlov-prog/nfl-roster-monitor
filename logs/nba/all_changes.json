@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-18T09:15:18.891239+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Rockets",
+    "type": "added",
+    "playerName": "Sean Pedulla",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-18T09:15:23.708922+00:00",
+    "teamCode": "NO",
+    "teamName": "New Orleans Pelicans",
+    "type": "added",
+    "playerName": "Trendon Watford",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-18T09:15:26.002812+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia 76ers",
+    "type": "removed",
+    "playerName": "Trendon Watford",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-18T09:15:26.574973+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Suns",
+    "type": "added",
+    "playerName": "Haywood Highsmith",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-08-15T09:03:54.173563+00:00",
     "teamCode": "CHA",
     "teamName": "Charlotte Hornets",

@@ -3,7 +3,7 @@
   "team": "New Orleans Pelicans",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/NO/roster",
-  "checkedAt": "2026-08-17T09:24:32.063930+00:00",
+  "checkedAt": "2026-08-18T09:15:23.707601+00:00",
   "players": [
     {
       "name": "Bryce McGowens",
@@ -100,6 +100,13 @@
       "name": "Saddiq Bey",
       "position": "G",
       "number": "41",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Trendon Watford",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
