@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-08-18T08:53:23.170614+00:00",
+  "checkedAt": "2026-08-19T08:54:00.235867+00:00",
   "players": [
     {
       "name": "Alika Williams",
@@ -148,13 +148,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Mason Barnett",
-      "position": "P",
-      "number": "63",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Max Muncy",
       "position": "3B",
       "number": "3",
@@ -172,6 +165,13 @@
       "name": "Seth Johnson",
       "position": "P",
       "number": "52",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Taylor Rashi",
+      "position": "P",
+      "number": "65",
       "status": "A",
       "source": "MLB Stats API"
     },

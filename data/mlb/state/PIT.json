@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-08-18T08:53:24.241250+00:00",
+  "checkedAt": "2026-08-19T08:54:01.350706+00:00",
   "players": [
+    {
+      "name": "Antwone Kelly",
+      "position": "P",
+      "number": "62",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Billy Cook",
       "position": "CF",
@@ -74,13 +81,6 @@
       "name": "Henry Davis",
       "position": "C",
       "number": "32",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Isaac Mattson",
-      "position": "P",
-      "number": "72",
       "status": "A",
       "source": "MLB Stats API"
     },

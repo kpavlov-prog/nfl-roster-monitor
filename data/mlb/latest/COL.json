@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=active",
-  "checkedAt": "2026-08-18T08:53:17.271062+00:00",
+  "checkedAt": "2026-08-19T08:53:53.789834+00:00",
   "players": [
     {
       "name": "Adael Amador",
       "position": "2B",
       "number": "1",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Braxton Fulford",
+      "position": "DH",
+      "number": "37",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -37,7 +44,7 @@
     },
     {
       "name": "Connor Norby",
-      "position": "1B",
+      "position": "2B",
       "number": "35",
       "status": "A",
       "source": "MLB Stats API"
@@ -53,13 +60,6 @@
       "name": "Gabriel Hughes",
       "position": "P",
       "number": "43",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Hunter Goodman",
-      "position": "C",
-      "number": "15",
       "status": "A",
       "source": "MLB Stats API"
     },
