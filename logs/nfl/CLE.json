@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-19T08:26:03.824965+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "added",
+    "playerName": "Ben Patterson",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-19T08:26:03.824980+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "status changed",
+    "playerName": "Brenden Bates",
+    "position": "TE",
+    "oldValue": "LISTED",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-08-19T08:26:03.824995+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "status changed",
+    "playerName": "Jack Conley",
+    "position": "G",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-08-18T08:25:20.941074+00:00",
     "teamCode": "CLE",
     "teamName": "Cleveland Browns",

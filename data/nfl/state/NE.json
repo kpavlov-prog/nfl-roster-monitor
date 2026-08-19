@@ -3,7 +3,7 @@
   "team": "New England Patriots",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-england-patriots/roster",
-  "checkedAt": "2026-08-18T08:25:58.694259+00:00",
+  "checkedAt": "2026-08-19T08:26:41.806296+00:00",
   "players": [
     {
       "name": "A.J. Brown",
@@ -257,6 +257,14 @@
       "name": "Gabe Jacas",
       "position": "LB",
       "number": "50",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Greg Van Roten",
+      "position": "G",
+      "number": "76",
       "status": "ACT",
       "important": false,
       "source": "NFL.com"
@@ -585,7 +593,7 @@
       "name": "Mitch Van Vooren",
       "position": "TE",
       "number": "46",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

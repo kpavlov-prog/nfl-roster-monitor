@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-19T08:26:41.806658+00:00",
+    "teamCode": "NE",
+    "teamName": "New England Patriots",
+    "type": "added",
+    "playerName": "Greg Van Roten",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-19T08:26:41.806682+00:00",
+    "teamCode": "NE",
+    "teamName": "New England Patriots",
+    "type": "status changed",
+    "playerName": "Mitch Van Vooren",
+    "position": "TE",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-17T08:33:52.251922+00:00",
     "teamCode": "NE",
     "teamName": "New England Patriots",

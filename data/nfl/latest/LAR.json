@@ -3,7 +3,7 @@
   "team": "Los Angeles Rams",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/los-angeles-rams/roster",
-  "checkedAt": "2026-08-18T08:25:50.404382+00:00",
+  "checkedAt": "2026-08-19T08:26:34.501907+00:00",
   "players": [
     {
       "name": "A.J. Arcuri",
@@ -25,6 +25,14 @@
       "name": "Alaric Jackson",
       "position": "OT",
       "number": "77",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Alex Bachman",
+      "position": "WR",
+      "number": "72",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -409,7 +417,7 @@
       "name": "Mario Williams",
       "position": "WR",
       "number": "14",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

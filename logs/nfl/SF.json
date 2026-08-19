@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-19T08:27:04.530816+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco 49ers",
+    "type": "added",
+    "playerName": "Evan Anderson",
+    "position": "DT",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-19T08:27:04.530833+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco 49ers",
+    "type": "status changed",
+    "playerName": "KJ Henry",
+    "position": "DE",
+    "oldValue": "RES",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-08-19T08:27:04.530848+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco 49ers",
+    "type": "status changed",
+    "playerName": "Titus Leo",
+    "position": "DE",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-18T08:26:16.239783+00:00",
     "teamCode": "SF",
     "teamName": "San Francisco 49ers",

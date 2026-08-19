@@ -3,7 +3,7 @@
   "team": "New York Jets",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-york-jets/roster",
-  "checkedAt": "2026-08-18T08:26:08.171520+00:00",
+  "checkedAt": "2026-08-19T08:26:55.959038+00:00",
   "players": [
     {
       "name": "Adonai Mitchell",
@@ -73,7 +73,7 @@
       "name": "Ben Barten",
       "position": "DT",
       "number": "92",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -414,6 +414,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Keenan Garber",
+      "position": "CB",
+      "number": "72",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Kene Nwangwu",
       "position": "RB",
       "number": "3",
@@ -441,7 +449,7 @@
       "name": "Kingsley Jonathan",
       "position": "DE",
       "number": "57",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -553,6 +561,14 @@
       "name": "Nahshon Wright",
       "position": "CB",
       "number": "26",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Nate Lynn",
+      "position": "DE",
+      "number": "75",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

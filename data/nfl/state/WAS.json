@@ -3,7 +3,7 @@
   "team": "Washington Commanders",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/washington-commanders/roster",
-  "checkedAt": "2026-08-18T08:26:27.146497+00:00",
+  "checkedAt": "2026-08-19T08:27:15.327691+00:00",
   "players": [
     {
       "name": "Ale Kaho",
@@ -113,6 +113,14 @@
       "name": "Colson Yankoff",
       "position": "TE",
       "number": "80",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Craig Reynolds",
+      "position": "RB",
+      "number": "71",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -249,7 +257,7 @@
       "name": "Jake Moody",
       "position": "K",
       "number": "16",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -321,7 +329,7 @@
       "name": "Jerome Ford",
       "position": "RB",
       "number": "34",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -390,6 +398,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Krys Barnes",
+      "position": "LB",
+      "number": "74",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Laremy Tunsil",
       "position": "OT",
       "number": "78",
@@ -441,6 +457,14 @@
       "name": "Matt Haack",
       "position": "P",
       "number": "38",
+      "status": "LISTED",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Maurice Hurst",
+      "position": "DT",
+      "number": "74",
       "status": "ACT",
       "important": false,
       "source": "NFL.com"
@@ -529,7 +553,7 @@
       "name": "River Cracraft",
       "position": "WR",
       "number": "88",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -611,6 +635,14 @@
       "number": "97",
       "status": "ACT",
       "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Tre' McKitty",
+      "position": "TE",
+      "number": "76",
+      "status": "ACT",
+      "important": true,
       "source": "NFL.com"
     },
     {

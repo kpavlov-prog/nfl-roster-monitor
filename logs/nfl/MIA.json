@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-19T08:26:37.135040+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Dolphins",
+    "type": "status changed",
+    "playerName": "Mason Reiger",
+    "position": "DE",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-19T08:26:37.135058+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Dolphins",
+    "type": "added",
+    "playerName": "Seth Coleman-Lyles",
+    "position": "DE",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-08-18T08:25:52.794558+00:00",
     "teamCode": "MIA",
     "teamName": "Miami Dolphins",
