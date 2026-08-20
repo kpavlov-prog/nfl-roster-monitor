@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=active",
-  "checkedAt": "2026-08-19T08:53:53.789834+00:00",
+  "checkedAt": "2026-08-20T08:56:16.248868+00:00",
   "players": [
     {
       "name": "Adael Amador",
@@ -64,6 +64,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jaden Hill",
+      "position": "P",
+      "number": "0",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jake McCarthy",
       "position": "LF",
       "number": "31",
@@ -106,6 +113,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Mark Manfredi",
+      "position": "P",
+      "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Mickey Moniak",
       "position": "LF",
       "number": "22",
@@ -120,13 +134,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Parker Mushinski",
-      "position": "P",
-      "number": "67",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Ryan Feltner",
       "position": "P",
       "number": "18",
@@ -137,13 +144,6 @@
       "name": "TJ Rumfield",
       "position": "1B",
       "number": "7",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "TJ Shook",
-      "position": "P",
-      "number": "52",
       "status": "A",
       "source": "MLB Stats API"
     },

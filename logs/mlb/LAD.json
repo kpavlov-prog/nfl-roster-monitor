@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-20T08:56:19.144838+00:00",
+    "teamCode": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "type": "added",
+    "playerName": "Brock Stewart",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-20T08:56:19.144852+00:00",
+    "teamCode": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "type": "removed",
+    "playerName": "Jonathan Hernández",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-19T08:53:56.744851+00:00",
     "teamCode": "LAD",
     "teamName": "Los Angeles Dodgers",

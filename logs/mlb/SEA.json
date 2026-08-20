@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-20T08:56:25.600696+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Mariners",
+    "type": "added",
+    "playerName": "Jhonathan Díaz",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-20T08:56:25.600708+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Mariners",
+    "type": "removed",
+    "playerName": "Josh Simpson",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-15T08:44:43.110825+00:00",
     "teamCode": "SEA",
     "teamName": "Seattle Mariners",

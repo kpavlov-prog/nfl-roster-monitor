@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-08-19T08:54:05.416344+00:00",
+  "checkedAt": "2026-08-20T08:56:27.862247+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -32,6 +32,13 @@
       "name": "Braydon Fisher",
       "position": "P",
       "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brendan Cellucci",
+      "position": "P",
+      "number": "70",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -123,13 +130,6 @@
       "name": "Mason Fluharty",
       "position": "P",
       "number": "68",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Matt Waldron",
-      "position": "P",
-      "number": "64",
       "status": "A",
       "source": "MLB Stats API"
     },

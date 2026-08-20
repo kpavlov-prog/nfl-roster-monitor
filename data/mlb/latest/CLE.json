@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active",
-  "checkedAt": "2026-08-19T08:53:53.157917+00:00",
+  "checkedAt": "2026-08-20T08:56:15.646281+00:00",
   "players": [
     {
       "name": "Angel Genao",
@@ -60,6 +60,13 @@
       "name": "Craig Yoho",
       "position": "P",
       "number": "23",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "David Fry",
+      "position": "RF",
+      "number": "6",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -151,13 +158,6 @@
       "name": "Petey Halpin",
       "position": "CF",
       "number": "0",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Rhys Hoskins",
-      "position": "1B",
-      "number": "8",
       "status": "A",
       "source": "MLB Stats API"
     },

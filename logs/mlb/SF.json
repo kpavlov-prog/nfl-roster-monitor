@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-20T08:56:25.050930+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "position changed",
+    "playerName": "Buddy Kennedy",
+    "position": "3B",
+    "oldValue": "1B",
+    "newValue": "3B",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-20T08:56:25.050968+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "added",
+    "playerName": "Matt Wilkinson",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-20T08:56:25.050975+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "removed",
+    "playerName": "Reiver Sanmartin",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-15T08:44:42.579298+00:00",
     "teamCode": "SF",
     "teamName": "San Francisco Giants",

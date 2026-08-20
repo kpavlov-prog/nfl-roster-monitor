@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-20T08:56:26.756726+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Rays",
+    "type": "added",
+    "playerName": "Chris Roycroft",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-20T08:56:26.756736+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Rays",
+    "type": "added",
+    "playerName": "Kenny Piper",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-20T08:56:26.756744+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Rays",
+    "type": "removed",
+    "playerName": "Jesse Scholtens",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-20T08:56:26.756748+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Rays",
+    "type": "removed",
+    "playerName": "Victor Mesa Jr.",
+    "position": "RF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-18T08:53:26.921783+00:00",
     "teamCode": "TB",
     "teamName": "Tampa Bay Rays",

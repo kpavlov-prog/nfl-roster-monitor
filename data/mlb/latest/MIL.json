@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=active",
-  "checkedAt": "2026-08-19T08:53:57.961388+00:00",
+  "checkedAt": "2026-08-20T08:56:20.349815+00:00",
   "players": [
     {
       "name": "Aaron Ashby",
@@ -25,13 +25,6 @@
       "name": "Antonio Senzatela",
       "position": "P",
       "number": "49",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brandon Lockridge",
-      "position": "LF",
-      "number": "20",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -60,6 +53,13 @@
       "name": "Christian Yelich",
       "position": "DH",
       "number": "22",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cooper Pratt",
+      "position": "SS",
+      "number": "12",
       "status": "A",
       "source": "MLB Stats API"
     },

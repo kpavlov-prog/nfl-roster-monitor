@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-20T08:56:12.684764+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Orioles",
+    "type": "added",
+    "playerName": "Samuel Basallo",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-20T08:56:12.684774+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Orioles",
+    "type": "removed",
+    "playerName": "Jeremiah Jackson",
+    "position": "2B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-15T08:44:31.358280+00:00",
     "teamCode": "BAL",
     "teamName": "Baltimore Orioles",

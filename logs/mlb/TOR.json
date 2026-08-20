@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-20T08:56:27.863169+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "added",
+    "playerName": "Brendan Cellucci",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-20T08:56:27.863183+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "removed",
+    "playerName": "Matt Waldron",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-18T08:53:27.997624+00:00",
     "teamCode": "TOR",
     "teamName": "Toronto Blue Jays",
