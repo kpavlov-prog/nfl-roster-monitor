@@ -3,12 +3,19 @@
   "team": "Toronto Maple Leafs",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/TOR/current",
-  "checkedAt": "2026-08-19T09:03:13.419938+00:00",
+  "checkedAt": "2026-08-20T09:04:36.298312+00:00",
   "players": [
     {
       "name": "Anthony Stolarz",
       "position": "G",
       "number": "41",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Artur Akhtyamov",
+      "position": "G",
+      "number": "70",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -20,9 +27,37 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Ben Danford",
+      "position": "D",
+      "number": "38",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Blake Smith",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Bo Groulx",
       "position": "C",
       "number": "29",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Borya Valis",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Brandon Buhr",
+      "position": "R",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -34,9 +69,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Cade Webber",
+      "position": "D",
+      "number": "52",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Chris Tanev",
       "position": "D",
       "number": "8",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Cole McWard",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -55,9 +104,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Dakota Mermis",
+      "position": "D",
+      "number": "36",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Darren Raddysh",
       "position": "D",
       "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Easton Cowan",
+      "position": "R",
+      "number": "53",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -69,9 +132,37 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Gavin McKenna",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Hayes Hundley",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Henrik Rybinski",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Jack Roslovic",
       "position": "C",
       "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jacob Quillan",
+      "position": "C",
+      "number": "26",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -90,9 +181,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Landon Sim",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Luke Haymes",
       "position": "C",
       "number": "43",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Marshall Rifai",
+      "position": "D",
+      "number": "83",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -111,6 +216,20 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Michael Pezzetta",
+      "position": "L",
+      "number": "61",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Miroslav Holinka",
+      "position": "C",
+      "number": "98",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Morgan Rielly",
       "position": "D",
       "number": "44",
@@ -125,6 +244,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Noah Chadwick",
+      "position": "D",
+      "number": "58",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Oliver Ekman-Larsson",
       "position": "D",
       "number": "95",
@@ -135,6 +261,20 @@
       "name": "Philippe Myers",
       "position": "D",
       "number": "51",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ryan Tverberg",
+      "position": "C",
+      "number": "77",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Samuel Hlavaj",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -160,6 +300,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Tinus Luc Koblar",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Troy Stecher",
       "position": "D",
       "number": "28",
@@ -167,9 +314,30 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Vinni Lettieri",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Vinny Borgesi",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "William Nylander",
       "position": "R",
       "number": "88",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "William Villeneuve",
+      "position": "D",
+      "number": "76",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

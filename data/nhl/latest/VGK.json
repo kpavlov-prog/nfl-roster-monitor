@@ -3,8 +3,15 @@
   "team": "Vegas Golden Knights",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/VGK/current",
-  "checkedAt": "2026-08-19T09:03:15.204458+00:00",
+  "checkedAt": "2026-08-20T09:04:38.248433+00:00",
   "players": [
+    {
+      "name": "Adam Ginning",
+      "position": "D",
+      "number": "73",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
     {
       "name": "Adin Hill",
       "position": "G",
@@ -16,6 +23,27 @@
       "name": "Alexander Holtz",
       "position": "R",
       "number": "10",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Alexander Weiermair",
+      "position": "C",
+      "number": "18",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Antti Tuomisto",
+      "position": "D",
+      "number": "6",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ben Hemmerling",
+      "position": "R",
+      "number": "63",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -37,6 +65,20 @@
       "name": "Brett Howden",
       "position": "C",
       "number": "21",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Bronson Ride",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Cameron Whitehead",
+      "position": "G",
+      "number": "39",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -76,6 +118,20 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Jackson Hallum",
+      "position": "L",
+      "number": "59",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jakub Demek",
+      "position": "C",
+      "number": "13",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Jaycob Megna",
       "position": "D",
       "number": "88",
@@ -97,6 +153,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Joe Fleming",
+      "position": "R",
+      "number": "50",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Jonas Rondbjerg",
       "position": "R",
       "number": "46",
@@ -104,9 +167,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Jordan Gustafson",
+      "position": "C",
+      "number": "38",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Kai Uchacz",
       "position": "C",
       "number": "77",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Lukas Cormier",
+      "position": "D",
+      "number": "51",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -121,6 +198,20 @@
       "name": "Mark Stone",
       "position": "R",
       "number": "61",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Mathieu Cataford",
+      "position": "C",
+      "number": "8",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Matyas Sapovaliv",
+      "position": "C",
+      "number": "25",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -149,6 +240,13 @@
       "name": "Parker Wotherspoon",
       "position": "D",
       "number": "29",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Pavel Moysevich",
+      "position": "G",
+      "number": "83",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -188,6 +286,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Trent Swick",
+      "position": "L",
+      "number": "76",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Trevor Connelly",
       "position": "L",
       "number": "24",
@@ -195,9 +300,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Tuomas Uronen",
+      "position": "R",
+      "number": "37",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Victor Olofsson",
       "position": "R",
       "number": "95",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Viliam Kmec",
+      "position": "D",
+      "number": "79",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

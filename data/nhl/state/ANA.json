@@ -3,7 +3,7 @@
   "team": "Anaheim Ducks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/ANA/current",
-  "checkedAt": "2026-08-19T09:02:57.159121+00:00",
+  "checkedAt": "2026-08-20T09:04:20.620803+00:00",
   "players": [
     {
       "name": "A.J. Greer",
@@ -48,9 +48,16 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Cutter Gauthier",
-      "position": "L",
-      "number": "61",
+      "name": "Coulson Pitre",
+      "position": "R",
+      "number": "60",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Damian Clara",
+      "position": "G",
+      "number": "68",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -62,9 +69,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Ethan Procyszyn",
+      "position": "C",
+      "number": "58",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Frank Vatrano",
       "position": "R",
       "number": "77",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Herman Traff",
+      "position": "R",
+      "number": "87",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -111,6 +132,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Konnor Smith",
+      "position": "D",
+      "number": "63",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Laurent Brossoit",
       "position": "G",
       "number": "31",
@@ -121,6 +149,13 @@
       "name": "Leo Carlsson",
       "position": "C",
       "number": "91",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Lucas Pettersson",
+      "position": "C",
+      "number": "52",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -237,6 +272,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Tomas Suchanek",
+      "position": "G",
+      "number": "78",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Travis Mitchell",
       "position": "D",
       "number": "34",
@@ -272,9 +314,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Vyacheslav Buteyets",
-      "position": "G",
-      "number": "32",
+      "name": "Yegor Sidorov",
+      "position": "R",
+      "number": "57",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

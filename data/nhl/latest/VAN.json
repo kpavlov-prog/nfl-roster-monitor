@@ -3,12 +3,61 @@
   "team": "Vancouver Canucks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/VAN/current",
-  "checkedAt": "2026-08-19T09:03:14.557014+00:00",
+  "checkedAt": "2026-08-20T09:04:37.581802+00:00",
   "players": [
     {
       "name": "Aatu Räty",
       "position": "C",
       "number": "54",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Adam Novotny",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Akil Thomas",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Aku Koskenvuo",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Aleksei Medvedev",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Anri Ravinskis",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Arshdeep Bains",
+      "position": "L",
+      "number": "13",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Braeden Cootes",
+      "position": "C",
+      "number": "80",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -23,6 +72,20 @@
       "name": "Brock Boeser",
       "position": "R",
       "number": "6",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Chase Wouters",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Cole Clayton",
+      "position": "D",
+      "number": "34",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -62,6 +125,34 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Gabriel Chiarot",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Guillaume Brisebois",
+      "position": "D",
+      "number": "55",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ilya Safonov",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jack Thompson",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Jake DeBrusk",
       "position": "L",
       "number": "74",
@@ -76,9 +167,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Jonathan Lekkerimäki",
+      "position": "R",
+      "number": "88",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Kevin Lankinen",
       "position": "G",
       "number": "32",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Kirill Kudryavtsev",
+      "position": "D",
+      "number": "59",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -104,9 +209,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Mackenzie MacEachern",
+      "position": "L",
+      "number": "20",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Marco Rossi",
       "position": "C",
       "number": "23",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Matthew Stienburg",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -132,6 +251,20 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Riley Patterson",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Sawyer Mynio",
+      "position": "D",
+      "number": "45",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Thatcher Demko",
       "position": "G",
       "number": "35",
@@ -146,9 +279,37 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Trey Fix-Wolansky",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ty Mueller",
+      "position": "C",
+      "number": "39",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ty Young",
+      "position": "G",
+      "number": "85",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Victor Mancini",
       "position": "D",
       "number": "90",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Vilmer Alriksson",
+      "position": "L",
+      "number": "46",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

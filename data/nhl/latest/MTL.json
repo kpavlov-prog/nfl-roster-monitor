@@ -3,12 +3,19 @@
   "team": "Montreal Canadiens",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/MTL/current",
-  "checkedAt": "2026-08-19T09:03:06.264550+00:00",
+  "checkedAt": "2026-08-20T09:04:28.603300+00:00",
   "players": [
     {
       "name": "Adam Engstrom",
       "position": "D",
       "number": "42",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Alex Belzile",
+      "position": "R",
+      "number": "60",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -34,9 +41,16 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Arber Xhekaj",
+      "name": "Brett Berard",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Bryce Pickford",
       "position": "D",
-      "number": "72",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -55,9 +69,30 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Ethan Samson",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Filip Mesar",
+      "position": "R",
+      "number": "46",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Florian Xhekaj",
       "position": "L",
       "number": "63",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Hunter McKown",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -86,6 +121,13 @@
       "name": "Jakub Dobes",
       "position": "G",
       "number": "75",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jared Davidson",
+      "position": "C",
+      "number": "49",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -132,6 +174,20 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Lucas Condotta",
+      "position": "L",
+      "number": "82",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Luke Mittelstadt",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Maksymilian Szuber",
       "position": "D",
       "number": "",
@@ -174,9 +230,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Owen Protz",
+      "position": "D",
+      "number": "68",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Phillip Danault",
       "position": "C",
       "number": "24",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Reilly Walsh",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -188,9 +258,23 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Zachary Bolduc",
+      "name": "Samuel Poulin",
       "position": "R",
-      "number": "76",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Sasha Pastujov",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Tyler Thorpe",
+      "position": "R",
+      "number": "24",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

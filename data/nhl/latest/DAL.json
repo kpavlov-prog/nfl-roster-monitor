@@ -3,12 +3,61 @@
   "team": "Dallas Stars",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/DAL/current",
-  "checkedAt": "2026-08-19T09:03:02.625968+00:00",
+  "checkedAt": "2026-08-20T09:04:25.181910+00:00",
   "players": [
+    {
+      "name": "Angus MacDonell",
+      "position": "C",
+      "number": "47",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Aram Minnetian",
+      "position": "D",
+      "number": "44",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Arno Tiefensee",
+      "position": "G",
+      "number": "50",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Artem Shlaine",
+      "position": "C",
+      "number": "67",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
     {
       "name": "Arttu Hyry",
       "position": "R",
       "number": "25",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ayrton Martino",
+      "position": "L",
+      "number": "60",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Brandon Halverson",
+      "position": "G",
+      "number": "33",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Cameron Hughes",
+      "position": "C",
+      "number": "34",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -20,6 +69,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Christian Fitzgerald",
+      "position": "C",
+      "number": "52",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Colin Blackwell",
       "position": "C",
       "number": "15",
@@ -27,9 +83,37 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Connor Punnett",
+      "position": "D",
+      "number": "35",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Dylan Hryckowian",
+      "position": "R",
+      "number": "46",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Emil Hemming",
+      "position": "R",
+      "number": "39",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Esa Lindell",
       "position": "D",
       "number": "23",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jack Anderson",
+      "position": "D",
+      "number": "40",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -55,9 +139,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Jaxon Fuder",
+      "position": "C",
+      "number": "48",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Joel Kiviranta",
       "position": "L",
       "number": "22",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Justin Ertel",
+      "position": "L",
+      "number": "62",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -90,9 +188,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Luke Krys",
+      "position": "D",
+      "number": "36",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Matt Duchene",
       "position": "C",
       "number": "95",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Matthew Seminoff",
+      "position": "R",
+      "number": "43",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -107,6 +219,13 @@
       "name": "Miro Heiskanen",
       "position": "D",
       "number": "4",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Niilopekka Muhonen",
+      "position": "D",
+      "number": "41",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -139,6 +258,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Rémi Poirier",
+      "position": "G",
+      "number": "31",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Sam Steel",
       "position": "C",
       "number": "18",
@@ -149,6 +275,13 @@
       "name": "Thomas Harley",
       "position": "D",
       "number": "55",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Tristan Bertucci",
+      "position": "D",
+      "number": "42",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

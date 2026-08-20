@@ -3,8 +3,22 @@
   "team": "Colorado Avalanche",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/COL/current",
-  "checkedAt": "2026-08-19T09:03:01.323235+00:00",
+  "checkedAt": "2026-08-20T09:04:24.044921+00:00",
   "players": [
+    {
+      "name": "Adam Beckman",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Alex Gagne",
+      "position": "D",
+      "number": "45",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
     {
       "name": "Artturi Lehkonen",
       "position": "L",
@@ -41,9 +55,37 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Christian Wolanin",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Cooper Gay",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Devon Toews",
       "position": "D",
       "number": "7",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Domenick Fensore",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Fabian Lysell",
+      "position": "R",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -62,6 +104,34 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Gavin Brindley",
+      "position": "C",
+      "number": "54",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Georgii Merkulov",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Gustav Stjernberg",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ilya Nabokov",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Jaden Schwartz",
       "position": "C",
       "number": "",
@@ -72,6 +142,13 @@
       "name": "Josh Manson",
       "position": "D",
       "number": "42",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Keaton Middleton",
+      "position": "D",
+      "number": "67",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -97,6 +174,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Matthew DiMarsico",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Nathan MacKinnon",
       "position": "C",
       "number": "29",
@@ -118,6 +202,20 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Nikita Novosyolov",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Nikita Prishchepov",
+      "position": "C",
+      "number": "85",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Noah Juulsen",
       "position": "D",
       "number": "",
@@ -128,6 +226,13 @@
       "name": "Parker Kelly",
       "position": "C",
       "number": "17",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Saige Weinstein",
+      "position": "D",
+      "number": "89",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -146,6 +251,34 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Sean Behrens",
+      "position": "D",
+      "number": "2",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "T.J. Hughes",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Taylor Makar",
+      "position": "L",
+      "number": "16",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Trent Miner",
+      "position": "G",
+      "number": "50",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Vinnie Hinostroza",
       "position": "C",
       "number": "",
@@ -153,9 +286,16 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Zakhar Bardakov",
-      "position": "C",
-      "number": "93",
+      "name": "Wyatt Aamodt",
+      "position": "D",
+      "number": "5",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Zachary L'Heureux",
+      "position": "L",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

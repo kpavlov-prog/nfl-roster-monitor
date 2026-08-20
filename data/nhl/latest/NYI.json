@@ -3,12 +3,19 @@
   "team": "New York Islanders",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/NYI/current",
-  "checkedAt": "2026-08-19T09:03:08.213618+00:00",
+  "checkedAt": "2026-08-20T09:04:30.419416+00:00",
   "players": [
     {
       "name": "Adam Pelech",
       "position": "D",
       "number": "3",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Alex Jefferies",
+      "position": "L",
+      "number": "45",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -41,9 +48,44 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Calle Odelius",
+      "position": "D",
+      "number": "39",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Calum Ritchie",
+      "position": "C",
+      "number": "64",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Casey Cizikas",
       "position": "C",
       "number": "53",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Cole Eiserman",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Daniil Prokhorov",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Daylan Kuefler",
+      "position": "L",
+      "number": "52",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -55,6 +97,27 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Ethan Bear",
+      "position": "D",
+      "number": "74",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Gleb Veremyev",
+      "position": "C",
+      "number": "67",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Henrik Tikkanen",
+      "position": "G",
+      "number": "70",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Ilya Sorokin",
       "position": "G",
       "number": "30",
@@ -62,9 +125,51 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Isaiah George",
+      "position": "D",
+      "number": "36",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Jean-Gabriel Pageau",
       "position": "C",
       "number": "44",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jesse Nurmi",
+      "position": "L",
+      "number": "72",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jesse Pulkkinen",
+      "position": "D",
+      "number": "42",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Joey Larson",
+      "position": "R",
+      "number": "61",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Joshua Kotai",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Kashawn Aitcheson",
+      "position": "D",
+      "number": "37",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -83,6 +188,20 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Liam Foudy",
+      "position": "C",
+      "number": "43",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Marshall Warren",
+      "position": "D",
+      "number": "41",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Mathew Barzal",
       "position": "C",
       "number": "13",
@@ -92,6 +211,13 @@
     {
       "name": "Matias Maccelli",
       "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Matt Luff",
+      "position": "R",
       "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
@@ -121,6 +247,13 @@
       "name": "Ondrej Palat",
       "position": "L",
       "number": "81",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Quinn Finley",
+      "position": "L",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -156,6 +289,13 @@
       "name": "Tony DeAngelo",
       "position": "D",
       "number": "77",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Victor Eklund",
+      "position": "R",
+      "number": "73",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

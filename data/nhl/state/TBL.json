@@ -3,7 +3,7 @@
   "team": "Tampa Bay Lightning",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/TBL/current",
-  "checkedAt": "2026-08-19T09:03:12.825964+00:00",
+  "checkedAt": "2026-08-20T09:04:35.651462+00:00",
   "players": [
     {
       "name": "Andrei Vasilevskiy",
@@ -41,9 +41,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Connor Kurth",
+      "position": "R",
+      "number": "68",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Conor Geekie",
       "position": "C",
       "number": "14",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Cooper Flinton",
+      "position": "L",
+      "number": "50",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -62,6 +76,20 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Dylan Duke",
+      "position": "L",
+      "number": "53",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Dyllan Gill",
+      "position": "D",
+      "number": "57",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Emil Lilleberg",
       "position": "D",
       "number": "78",
@@ -72,6 +100,27 @@
       "name": "Erik Cernak",
       "position": "D",
       "number": "81",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ethan Czata",
+      "position": "C",
+      "number": "45",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ethan Gauthier",
+      "position": "R",
+      "number": "89",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Gabriel Szturc",
+      "position": "C",
+      "number": "96",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -104,6 +153,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Jakob Pelletier",
+      "position": "L",
+      "number": "11",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Jansen Harkins",
       "position": "C",
       "number": "10",
@@ -132,6 +188,20 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Lucas Mercuri",
+      "position": "C",
+      "number": "75",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Mads Sogaard",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Max Crozier",
       "position": "D",
       "number": "24",
@@ -139,9 +209,51 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Maxim Groshev",
+      "position": "D",
+      "number": "52",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Michael Callahan",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Milo Roelens",
+      "position": "C",
+      "number": "36",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Nick Abruzzese",
+      "position": "C",
+      "number": "80",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Nikita Kucherov",
       "position": "R",
       "number": "86",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Noah Steen",
+      "position": "L",
+      "number": "67",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Olivier Rodrigue",
+      "position": "G",
+      "number": "32",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -160,9 +272,44 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Sam O'Reilly",
+      "position": "R",
+      "number": "23",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Scott Sabourin",
       "position": "R",
       "number": "46",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Simon Lundmark",
+      "position": "D",
+      "number": "7",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Steven Santini",
+      "position": "D",
+      "number": "16",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Tomas Kralovic",
+      "position": "D",
+      "number": "82",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Tristan Allard",
+      "position": "L",
+      "number": "13",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

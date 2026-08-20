@@ -3,12 +3,47 @@
   "team": "Edmonton Oilers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/EDM/current",
-  "checkedAt": "2026-08-19T09:03:03.847347+00:00",
+  "checkedAt": "2026-08-20T09:04:26.328208+00:00",
   "players": [
+    {
+      "name": "Aku Raty",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Atro Leppanen",
+      "position": "D",
+      "number": "37",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Beau Akey",
+      "position": "D",
+      "number": "82",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Brady Stonehouse",
+      "position": "R",
+      "number": "41",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
     {
       "name": "Colton Dach",
       "position": "C",
       "number": "34",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Connor Clattenburg",
+      "position": "C",
+      "number": "64",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -34,6 +69,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Eduards Tralmaks",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Evan Bouchard",
       "position": "D",
       "number": "2",
@@ -48,9 +90,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Isaac Howard",
+      "position": "L",
+      "number": "53",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Jake Walman",
       "position": "D",
       "number": "96",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "James Stefan",
+      "position": "R",
+      "number": "70",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -65,6 +121,13 @@
       "name": "Josh Samanski",
       "position": "C",
       "number": "81",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Joshua Brown",
+      "position": "D",
+      "number": "44",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -118,6 +181,34 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Nathaniel Day",
+      "position": "G",
+      "number": "40",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Owen Michaels",
+      "position": "R",
+      "number": "27",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Quinn Hutson",
+      "position": "R",
+      "number": "23",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Riley Stillman",
+      "position": "D",
+      "number": "61",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Ryan Nugent-Hopkins",
       "position": "C",
       "number": "93",
@@ -132,6 +223,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Samuel Jonsson",
+      "position": "G",
+      "number": "34",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Shakir Mukhamadullin",
       "position": "D",
       "number": "85",
@@ -142,6 +240,13 @@
       "name": "Spencer Stastney",
       "position": "D",
       "number": "24",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Tomas Cibulka",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -170,6 +275,20 @@
       "name": "Vasily Podkolzin",
       "position": "R",
       "number": "92",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Viljami Marjala",
+      "position": "L",
+      "number": "57",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "William Nicholl",
+      "position": "C",
+      "number": "56",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

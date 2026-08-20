@@ -3,8 +3,15 @@
   "team": "Buffalo Sabres",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/BUF/current",
-  "checkedAt": "2026-08-19T09:02:58.458072+00:00",
+  "checkedAt": "2026-08-20T09:04:21.767824+00:00",
   "players": [
+    {
+      "name": "Aidan McDonough",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
     {
       "name": "Alex Lyon",
       "position": "G",
@@ -16,6 +23,13 @@
       "name": "Beck Malenstyn",
       "position": "L",
       "number": "29",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Carson Meyer",
+      "position": "R",
+      "number": "49",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -48,9 +62,37 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Gavin McCarthy",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Jack Quinn",
       "position": "R",
       "number": "22",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jack Rathbone",
+      "position": "D",
+      "number": "3",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jake Richard",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jason Polin",
+      "position": "R",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -104,6 +146,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Mason Geertsen",
+      "position": "L",
+      "number": "55",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Matt Villalta",
       "position": "G",
       "number": "",
@@ -114,6 +163,13 @@
       "name": "Mattias Samuelsson",
       "position": "D",
       "number": "23",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Maxim Strbak",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -188,9 +244,30 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Scott Ratzlaff",
+      "position": "G",
+      "number": "34",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Tage Thompson",
       "position": "C",
       "number": "72",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Topias Leinonen",
+      "position": "G",
+      "number": "50",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Trevor Kuntar",
+      "position": "C",
+      "number": "52",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -212,6 +289,13 @@
       "name": "Vsevolod Komarov",
       "position": "D",
       "number": "76",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Zac Funk",
+      "position": "R",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

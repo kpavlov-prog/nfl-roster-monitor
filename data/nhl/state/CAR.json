@@ -3,12 +3,12 @@
   "team": "Carolina Hurricanes",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/CAR/current",
-  "checkedAt": "2026-08-19T09:02:59.989513+00:00",
+  "checkedAt": "2026-08-20T09:04:22.902699+00:00",
   "players": [
     {
-      "name": "Alexander Nikishin",
+      "name": "Aleksi Heimosalmi",
       "position": "D",
-      "number": "21",
+      "number": "47",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -20,6 +20,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Bradly Nadeau",
+      "position": "L",
+      "number": "29",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Brandon Bussi",
       "position": "G",
       "number": "32",
@@ -27,9 +34,44 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Bryce Montgomery",
+      "position": "D",
+      "number": "72",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Dominik Badinka",
+      "position": "D",
+      "number": "67",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Eric Robinson",
       "position": "L",
       "number": "50",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Felix Unger Sorum",
+      "position": "R",
+      "number": "36",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Gleb Trikozov",
+      "position": "L",
+      "number": "73",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ivan Ryabkin",
+      "position": "C",
+      "number": "49",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -62,6 +104,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Joel Nystrom",
+      "position": "D",
+      "number": "64",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Jordan Martinook",
       "position": "L",
       "number": "48",
@@ -72,6 +121,20 @@
       "name": "Jordan Staal",
       "position": "C",
       "number": "11",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Juha Jaaska",
+      "position": "L",
+      "number": "54",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Juuso Välimäki",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -111,9 +174,30 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Noel Fransén",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Pyotr Kochetkov",
       "position": "G",
       "number": "52",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ronan Seeley",
+      "position": "D",
+      "number": "91",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ruslan Khazheyev",
+      "position": "G",
+      "number": "80",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -153,9 +237,30 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Viktor Neuchev",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "William Carrier",
       "position": "L",
       "number": "28",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "William Hakansson",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Zach Sawchenko",
+      "position": "G",
+      "number": "36",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

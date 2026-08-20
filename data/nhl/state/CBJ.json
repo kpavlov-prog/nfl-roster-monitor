@@ -3,12 +3,19 @@
   "team": "Columbus Blue Jackets",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/CBJ/current",
-  "checkedAt": "2026-08-19T09:03:01.974940+00:00",
+  "checkedAt": "2026-08-20T09:04:24.608459+00:00",
   "players": [
     {
-      "name": "Adam Fantilli",
-      "position": "C",
-      "number": "19",
+      "name": "Boston Buckberger",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Caleb MacDonald",
+      "position": "D",
+      "number": "95",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -20,6 +27,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Charlie Elick",
+      "position": "D",
+      "number": "57",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Cole Sillinger",
       "position": "C",
       "number": "4",
@@ -27,9 +41,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Colton White",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Conor Garland",
       "position": "R",
       "number": "83",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Corson Ceulemans",
+      "position": "D",
+      "number": "74",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -83,6 +111,20 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Evan Gardner",
+      "position": "G",
+      "number": "35",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Guillaume Richard",
+      "position": "D",
+      "number": "84",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Isac Lundeström",
       "position": "C",
       "number": "21",
@@ -97,6 +139,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Jack Williams",
+      "position": "R",
+      "number": "92",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Jake Christiansen",
       "position": "D",
       "number": "2",
@@ -104,9 +153,30 @@
       "source": "NHL Web API"
     },
     {
+      "name": "James Malatesta",
+      "position": "L",
+      "number": "67",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Jet Greaves",
       "position": "G",
       "number": "73",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jordan Dumais",
+      "position": "R",
+      "number": "22",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Josh Eernisse",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -125,6 +195,34 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Luca Del Bel Belluz",
+      "position": "C",
+      "number": "93",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Luca Marrelli",
+      "position": "D",
+      "number": "54",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Luca Pinelli",
+      "position": "C",
+      "number": "53",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Luke Tuch",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Mathieu Olivier",
       "position": "R",
       "number": "24",
@@ -132,9 +230,51 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Max McCue",
+      "position": "C",
+      "number": "93",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Miles Wood",
       "position": "L",
       "number": "11",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Nolan Lalonde",
+      "position": "G",
+      "number": "31",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Oiva Keskinen",
+      "position": "C",
+      "number": "20",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Owen Sillinger",
+      "position": "C",
+      "number": "12",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Pheonix Copley",
+      "position": "G",
+      "number": "29",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Riley Bezeau",
+      "position": "R",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

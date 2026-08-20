@@ -3,8 +3,15 @@
   "team": "Los Angeles Kings",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/LAK/current",
-  "checkedAt": "2026-08-19T09:03:05.047820+00:00",
+  "checkedAt": "2026-08-20T09:04:27.464390+00:00",
   "players": [
+    {
+      "name": "Aatu Jamsen",
+      "position": "R",
+      "number": "74",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
     {
       "name": "Adrian Kempe",
       "position": "R",
@@ -23,6 +30,13 @@
       "name": "Alex Turcotte",
       "position": "C",
       "number": "15",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Angus Booth",
+      "position": "D",
+      "number": "81",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -62,6 +76,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Cole Guttman",
+      "position": "C",
+      "number": "82",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Corey Perry",
       "position": "R",
       "number": "",
@@ -97,6 +118,83 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Erik Portillo",
+      "position": "G",
+      "number": "1",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Francesco Pinelli",
+      "position": "C",
+      "number": "73",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Grant Slukynsky",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Hampton Slukynsky",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Henry Brzustewicz",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jakub Dvorak",
+      "position": "D",
+      "number": "51",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jan Jenik",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jared Woolley",
+      "position": "D",
+      "number": "80",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jared Wright",
+      "position": "R",
+      "number": "53",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jimmy Lombardi",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Joe Hicketts",
+      "position": "D",
+      "number": "27",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Joel Armia",
       "position": "R",
       "number": "40",
@@ -111,9 +209,51 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Kaleb Lawrence",
+      "position": "C",
+      "number": "88",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Kenny Connors",
+      "position": "C",
+      "number": "34",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Kevin Fiala",
       "position": "L",
       "number": "22",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Kirill Kirsanov",
+      "position": "D",
+      "number": "78",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Koehn Ziemmer",
+      "position": "R",
+      "number": "89",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Lane Pederson",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Martin Chromiak",
+      "position": "R",
+      "number": "42",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -128,6 +268,13 @@
       "name": "Mikey Anderson",
       "position": "D",
       "number": "44",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Otto Salin",
+      "position": "D",
+      "number": "60",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -170,6 +317,13 @@
       "name": "Trevor Moore",
       "position": "L",
       "number": "12",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Vojtech Cihar",
+      "position": "L",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

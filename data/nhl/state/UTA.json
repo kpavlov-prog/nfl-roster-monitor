@@ -3,7 +3,7 @@
   "team": "Utah Mammoth",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/UTA/current",
-  "checkedAt": "2026-08-19T09:03:13.986504+00:00",
+  "checkedAt": "2026-08-20T09:04:36.933688+00:00",
   "players": [
     {
       "name": "Anders Lee",
@@ -135,6 +135,13 @@
       "name": "Michael Carcone",
       "position": "L",
       "number": "53",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Michael Hrabal",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

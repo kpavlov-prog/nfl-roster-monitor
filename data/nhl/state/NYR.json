@@ -3,7 +3,7 @@
   "team": "New York Rangers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/NYR/current",
-  "checkedAt": "2026-08-19T09:03:08.779847+00:00",
+  "checkedAt": "2026-08-20T09:04:31.061283+00:00",
   "players": [
     {
       "name": "Adam Fox",
@@ -16,6 +16,20 @@
       "name": "Adam Sykora",
       "position": "L",
       "number": "38",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Aidan Thompson",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Alberts Smits",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -34,6 +48,41 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Brody Lamb",
+      "position": "R",
+      "number": "46",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Bryce McConnell-Barker",
+      "position": "C",
+      "number": "47",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Callum Tung",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Carey Terrance",
+      "position": "C",
+      "number": "62",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Cole Beaudoin",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Drew Fortescue",
       "position": "D",
       "number": "45",
@@ -48,9 +97,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Dylan Roobroeck",
+      "position": "C",
+      "number": "54",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Gabe Perreault",
       "position": "R",
       "number": "94",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Glenn Gawdin",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -65,6 +128,20 @@
       "name": "J.T. Miller",
       "position": "C",
       "number": "10",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jackson Dorrington",
+      "position": "D",
+      "number": "83",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jacob Battaglia",
+      "position": "R",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -86,6 +163,27 @@
       "name": "Joonas Korpisalo",
       "position": "G",
       "number": "70",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Justin Dowling",
+      "position": "C",
+      "number": "37",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Juuso Parssinen",
+      "position": "C",
+      "number": "71",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Marc Del Gaizo",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -118,6 +216,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Nathan Aspinall",
+      "position": "L",
+      "number": "95",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Noah Laba",
       "position": "C",
       "number": "42",
@@ -139,9 +244,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Scott Morrow",
+      "position": "D",
+      "number": "60",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Sean Durzi",
       "position": "D",
       "number": "5",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Spencer Martin",
+      "position": "G",
+      "number": "41",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -167,13 +286,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Vincent Iorio",
-      "position": "D",
-      "number": "6",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Vladislav Gavrikov",
       "position": "D",
       "number": "44",
@@ -184,6 +296,13 @@
       "name": "Will Cuylle",
       "position": "L",
       "number": "50",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "William Trudeau",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

@@ -3,7 +3,7 @@
   "team": "Washington Capitals",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/WSH/current",
-  "checkedAt": "2026-08-19T09:03:15.849797+00:00",
+  "checkedAt": "2026-08-20T09:04:38.901484+00:00",
   "players": [
     {
       "name": "Alex Ovechkin",
@@ -97,6 +97,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Jacob MacDonald",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Jakob Chychrun",
       "position": "D",
       "number": "6",
@@ -139,6 +146,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Petr Sikora",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Pierre-Luc Dubois",
       "position": "C",
       "number": "80",
@@ -160,6 +174,20 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Spencer Smallman",
+      "position": "R",
+      "number": "81",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Theodor Niederbach",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Timothy Liljegren",
       "position": "D",
       "number": "27",
@@ -170,6 +198,13 @@
       "name": "Tom Wilson",
       "position": "R",
       "number": "43",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Tyler Kopff",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

@@ -3,7 +3,7 @@
   "team": "Detroit Red Wings",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/DET/current",
-  "checkedAt": "2026-08-19T09:03:03.193518+00:00",
+  "checkedAt": "2026-08-20T09:04:25.751639+00:00",
   "players": [
     {
       "name": "Albert Johansson",
@@ -27,6 +27,20 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Anton Johansson",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Axel Sandin-Pellikka",
+      "position": "D",
+      "number": "44",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Ben Chiarot",
       "position": "D",
       "number": "8",
@@ -34,8 +48,57 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Cameron Butler",
+      "position": "R",
+      "number": "58",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Carter Bear",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Carter Gylander",
+      "position": "G",
+      "number": "31",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Carter Mazur",
+      "position": "L",
+      "number": "34",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Chase Stillman",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Daniil Tarasov",
       "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Dominik Shine",
+      "position": "R",
+      "number": "65",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Dylan James",
+      "position": "L",
       "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
@@ -76,9 +139,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Jesse Kiiskinen",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "John Gibson",
       "position": "G",
       "number": "36",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "John Leonard",
+      "position": "L",
+      "number": "43",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -118,9 +195,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Michael Brandsegg-Nygård",
+      "position": "R",
+      "number": "28",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Michael Rasmussen",
       "position": "C",
       "number": "27",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Michal Postava",
+      "position": "G",
+      "number": "35",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -132,15 +223,85 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Simon Edvinsson",
+      "name": "Nate Danielson",
+      "position": "C",
+      "number": "29",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Noah Dower Nilsson",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ondrej Becher",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ronnie Attard",
       "position": "D",
-      "number": "77",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Shai Buium",
+      "position": "D",
+      "number": "22",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Sheldon Dries",
+      "position": "C",
+      "number": "15",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Theo Rochette",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Trey Augustine",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
     {
       "name": "Viktor Arvidsson",
       "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "William Lagesson",
+      "position": "D",
+      "number": "84",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "William Wallinder",
+      "position": "D",
+      "number": "54",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Wilmer Skoog",
+      "position": "C",
       "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"

@@ -3,7 +3,7 @@
   "team": "Ottawa Senators",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/OTT/current",
-  "checkedAt": "2026-08-19T09:03:09.345715+00:00",
+  "checkedAt": "2026-08-20T09:04:31.725558+00:00",
   "players": [
     {
       "name": "Andre Burakovsky",
@@ -16,6 +16,13 @@
       "name": "Artem Zub",
       "position": "D",
       "number": "2",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Blake Montgomery",
+      "position": "L",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -34,9 +41,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Christian Kyrou",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Claude Giroux",
       "position": "R",
       "number": "28",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Djibril Toure",
+      "position": "D",
+      "number": "76",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -55,6 +76,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Eskild Bakke Olsen",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Fabian Zetterlund",
       "position": "L",
       "number": "20",
@@ -62,9 +90,30 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Gabriel Eliasson",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Hayden Hodgson",
       "position": "R",
       "number": "42",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Hoyt Stanley",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jackson Parsons",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -79,6 +128,27 @@
       "name": "Jordan Spence",
       "position": "D",
       "number": "10",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jorian Donovan",
+      "position": "D",
+      "number": "56",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Kasper Halttunen",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Kevin Reidler",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -100,6 +170,27 @@
       "name": "Linus Ullmark",
       "position": "G",
       "number": "35",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Lucas Beckman",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Lucas Ellinas",
+      "position": "L",
+      "number": "91",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Matthew Andonovski",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -132,9 +223,44 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Philip Tomasino",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Philippe Daoust",
+      "position": "C",
+      "number": "92",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Ridly Greig",
       "position": "C",
       "number": "71",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ryan Suzuki",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Sammy Blais",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Samuel Bolduc",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -170,6 +296,13 @@
       "name": "Tim Stützle",
       "position": "C",
       "number": "18",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Tomas Hamara",
+      "position": "D",
+      "number": "98",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

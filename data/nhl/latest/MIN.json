@@ -3,8 +3,15 @@
   "team": "Minnesota Wild",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/MIN/current",
-  "checkedAt": "2026-08-19T09:03:05.616235+00:00",
+  "checkedAt": "2026-08-20T09:04:28.036159+00:00",
   "players": [
+    {
+      "name": "Ben Dexheimer",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
     {
       "name": "Blake Coleman",
       "position": "L",
@@ -27,6 +34,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Caedan Bankier",
+      "position": "C",
+      "number": "76",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Calvin Pickard",
       "position": "G",
       "number": "31",
@@ -37,6 +51,13 @@
       "name": "Carson Lambos",
       "position": "D",
       "number": "28",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Charlie Stramel",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -69,6 +90,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Dylan Gambrell",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Filip Gustavsson",
       "position": "G",
       "number": "32",
@@ -76,9 +104,30 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Filip Ruzicka",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Hunter Haight",
       "position": "C",
       "number": "37",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jack Peart",
+      "position": "D",
+      "number": "49",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jagger Joshua",
+      "position": "L",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -111,6 +160,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Justin Kirkland",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Kirill Kaprizov",
       "position": "L",
       "number": "97",
@@ -121,6 +177,13 @@
       "name": "Marcus Foligno",
       "position": "L",
       "number": "17",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Mason Shaw",
+      "position": "C",
+      "number": "15",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -181,6 +244,27 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Rasmus Kumpulainen",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Rieger Lorenz",
+      "position": "L",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Riley Heidt",
+      "position": "C",
+      "number": "58",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Riley Mercer",
       "position": "G",
       "number": "50",
@@ -188,9 +272,30 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Roman Schmidt",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Ryan Hartman",
       "position": "R",
       "number": "38",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Stevie Leskovar",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Tyler Pitlick",
+      "position": "C",
+      "number": "19",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

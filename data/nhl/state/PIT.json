@@ -3,7 +3,7 @@
   "team": "Pittsburgh Penguins",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/PIT/current",
-  "checkedAt": "2026-08-19T09:03:10.484741+00:00",
+  "checkedAt": "2026-08-20T09:04:33.038046+00:00",
   "players": [
     {
       "name": "Andrei Kuzmenko",
@@ -16,6 +16,13 @@
       "name": "Arturs Silovs",
       "position": "G",
       "number": "37",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Atley Calvert",
+      "position": "C",
+      "number": "84",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -41,9 +48,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Chase Pietila",
+      "position": "D",
+      "number": "44",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Connor Dewar",
       "position": "C",
       "number": "19",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Daniel Laatsch",
+      "position": "D",
+      "number": "5",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -83,6 +104,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Gabriel D'Aigle",
+      "position": "G",
+      "number": "35",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Hendrix Lapierre",
       "position": "C",
       "number": "22",
@@ -111,6 +139,20 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Melvin Fernström",
+      "position": "R",
+      "number": "43",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Mikhail Ilyin",
+      "position": "R",
+      "number": "70",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Nick Robertson",
       "position": "L",
       "number": "14",
@@ -121,13 +163,6 @@
       "name": "Rickard Rakell",
       "position": "R",
       "number": "67",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Ryan Graves",
-      "position": "D",
-      "number": "27",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -149,6 +184,13 @@
       "name": "Sidney Crosby",
       "position": "C",
       "number": "87",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Tanner Howe",
+      "position": "L",
+      "number": "40",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

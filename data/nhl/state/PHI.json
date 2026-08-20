@@ -3,7 +3,7 @@
   "team": "Philadelphia Flyers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/PHI/current",
-  "checkedAt": "2026-08-19T09:03:09.913768+00:00",
+  "checkedAt": "2026-08-20T09:04:32.387980+00:00",
   "players": [
     {
       "name": "Aleksei Kolosov",
@@ -16,6 +16,20 @@
       "name": "Alex Bump",
       "position": "L",
       "number": "20",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Alex Ciernik",
+      "position": "L",
+      "number": "45",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Cam Dineen",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -48,9 +62,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Cole Knuble",
+      "position": "R",
+      "number": "54",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Dan Vladar",
       "position": "G",
       "number": "80",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Danila Klimovich",
+      "position": "R",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -69,6 +97,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Devin Kaplan",
+      "position": "R",
+      "number": "68",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Helge Grans",
       "position": "D",
       "number": "3",
@@ -79,6 +114,27 @@
       "name": "Hunter McDonald",
       "position": "D",
       "number": "75",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ilya Pautov",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jack Studnicka",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jackson Edward",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -139,8 +195,22 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Noah Powell",
+      "position": "R",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Noel Acciari",
       "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Nolan Foote",
+      "position": "L",
       "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
@@ -174,6 +244,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Riley Thompson",
+      "position": "C",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Sean Couturier",
       "position": "C",
       "number": "14",
@@ -184,6 +261,13 @@
       "name": "Simon Benoit",
       "position": "D",
       "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Spencer Gill",
+      "position": "D",
+      "number": "42",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -209,9 +293,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Ty Murchison",
+      "position": "D",
+      "number": "96",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Tyson Foerster",
       "position": "R",
       "number": "71",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Zachary Aston-Reese",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

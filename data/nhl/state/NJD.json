@@ -3,8 +3,15 @@
   "team": "New Jersey Devils",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/NJD/current",
-  "checkedAt": "2026-08-19T09:03:07.567404+00:00",
+  "checkedAt": "2026-08-20T09:04:29.750768+00:00",
   "players": [
+    {
+      "name": "Amadeus Lombardi",
+      "position": "C",
+      "number": "93",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
     {
       "name": "Anthony Mantha",
       "position": "R",
@@ -13,9 +20,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Anton Silayev",
+      "position": "D",
+      "number": "52",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Arseny Gritsyuk",
       "position": "R",
       "number": "81",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ben Steeves",
+      "position": "L",
+      "number": "37",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -34,9 +55,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Cam Squires",
+      "position": "R",
+      "number": "77",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Cody Glass",
       "position": "C",
       "number": "12",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Colin White",
+      "position": "C",
+      "number": "36",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -76,6 +111,20 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Ethan Edwards",
+      "position": "D",
+      "number": "73",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Etienne Morin",
+      "position": "D",
+      "number": "59",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Evan Rodrigues",
       "position": "C",
       "number": "17",
@@ -93,6 +142,20 @@
       "name": "Jake Allen",
       "position": "G",
       "number": "34",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jakub Malek",
+      "position": "G",
+      "number": "85",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jeremy Hanzel",
+      "position": "D",
+      "number": "56",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -125,6 +188,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Josh Filmon",
+      "position": "L",
+      "number": "89",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Lenni Hameenaho",
       "position": "R",
       "number": "29",
@@ -135,6 +205,27 @@
       "name": "Luke Hughes",
       "position": "D",
       "number": "43",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Marc McLaughlin",
+      "position": "C",
+      "number": "21",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Matyas Melovsky",
+      "position": "C",
+      "number": "83",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Mikael Diotte",
+      "position": "D",
+      "number": "55",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -160,6 +251,27 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Riley Tufte",
+      "position": "L",
+      "number": "10",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Seamus Casey",
+      "position": "D",
+      "number": "24",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Shane Lachance",
+      "position": "L",
+      "number": "20",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Stefan Noesen",
       "position": "R",
       "number": "11",
@@ -170,6 +282,27 @@
       "name": "Timo Meier",
       "position": "R",
       "number": "28",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Topias Vilen",
+      "position": "D",
+      "number": "38",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Vladislav Kolyachonok",
+      "position": "D",
+      "number": "18",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Xavier Parent",
+      "position": "C",
+      "number": "67",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }
