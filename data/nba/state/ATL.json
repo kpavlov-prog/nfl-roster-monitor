@@ -3,12 +3,12 @@
   "team": "Atlanta Hawks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/ATL/roster",
-  "checkedAt": "2026-08-19T09:18:11.156933+00:00",
+  "checkedAt": "2026-08-20T09:17:43.193368+00:00",
   "players": [
     {
       "name": "Aaron Wiggins",
       "position": "G",
-      "number": "21",
+      "number": "2",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -30,13 +30,6 @@
       "name": "CJ McCollum",
       "position": "G",
       "number": "3",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Christian Koloko",
-      "position": "C",
-      "number": "35",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -64,7 +57,7 @@
     {
       "name": "Henri Veesaar",
       "position": "C",
-      "number": "",
+      "number": "13",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -78,7 +71,7 @@
     {
       "name": "Jalen Wilson",
       "position": "F",
-      "number": "22",
+      "number": "12",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -90,30 +83,23 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Keaton Wallace",
-      "position": "G",
-      "number": "2",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Keshon Gilbert",
       "position": "G",
-      "number": "",
+      "number": "51",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Kingston Flemings",
       "position": "G",
-      "number": "",
+      "number": "4",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Luguentz Dort",
       "position": "G",
-      "number": "5",
+      "number": "0",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -141,21 +127,21 @@
     {
       "name": "RayJ Dennis",
       "position": "G",
-      "number": "00",
+      "number": "10",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Ryan Nembhard",
       "position": "G",
-      "number": "9",
+      "number": "19",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Zuby Ejiofor",
       "position": "F",
-      "number": "",
+      "number": "20",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }
