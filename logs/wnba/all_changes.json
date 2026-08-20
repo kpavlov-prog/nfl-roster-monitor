@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-08-20T09:36:10.121793+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Sky",
+    "type": "removed",
+    "playerName": "Maddy Westbeld",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-20T09:36:10.829356+00:00",
+    "teamCode": "CON",
+    "teamName": "Connecticut Sun",
+    "type": "removed",
+    "playerName": "Maria Kliundikova",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-20T09:36:13.969207+00:00",
+    "teamCode": "LA",
+    "teamName": "Los Angeles Sparks",
+    "type": "number changed",
+    "playerName": "Tonie Morgan",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "4",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-20T09:36:16.379243+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Mercury",
+    "type": "added",
+    "playerName": "Maddy Westbeld",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-20T09:36:17.076812+00:00",
+    "teamCode": "POR",
+    "teamName": "Portland Fire",
+    "type": "number changed",
+    "playerName": "Sania Feagin",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "1",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-20T09:36:18.466758+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Tempo",
+    "type": "number changed",
+    "playerName": "Zaay Green",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "00",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-08-16T09:28:21.854764+00:00",
     "teamCode": "LA",
     "teamName": "Los Angeles Sparks",

@@ -3,7 +3,7 @@
   "team": "Phoenix Mercury",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/PHX/roster",
-  "checkedAt": "2026-08-19T09:35:25.419061+00:00",
+  "checkedAt": "2026-08-20T09:36:16.378377+00:00",
   "players": [
     {
       "name": "Alyssa Thomas",
@@ -58,6 +58,13 @@
       "name": "Lexi Held",
       "position": "G",
       "number": "10",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Maddy Westbeld",
+      "position": "F",
+      "number": "21",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },
