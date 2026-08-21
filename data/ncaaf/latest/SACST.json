@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/16/roster?limit=100&page=1",
-  "checkedAt": "2026-08-20T10:05:24.246191+00:00",
+  "checkedAt": "2026-08-21T09:59:14.865060+00:00",
   "players": [
     {
       "name": "Adam Taylor",
@@ -739,6 +739,13 @@
       "name": "Pheta Tofaeono",
       "position": "LB",
       "number": "41",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Qualyn McQueen",
+      "position": "S",
+      "number": "20",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
