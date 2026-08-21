@@ -3,7 +3,7 @@
   "team": "Montreal Canadiens",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/MTL/current",
-  "checkedAt": "2026-08-20T09:04:28.603300+00:00",
+  "checkedAt": "2026-08-21T09:06:39.454986+00:00",
   "players": [
     {
       "name": "Adam Engstrom",
@@ -37,6 +37,13 @@
       "name": "Alexandre Texier",
       "position": "L",
       "number": "85",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Arber Xhekaj",
+      "position": "D",
+      "number": "72",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -275,6 +282,13 @@
       "name": "Tyler Thorpe",
       "position": "R",
       "number": "24",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Zachary Bolduc",
+      "position": "R",
+      "number": "76",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }
