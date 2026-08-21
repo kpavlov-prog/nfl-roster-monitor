@@ -3,7 +3,7 @@
   "team": "New York Liberty",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/NY/roster",
-  "checkedAt": "2026-08-20T09:36:15.688055+00:00",
+  "checkedAt": "2026-08-21T09:38:07.892835+00:00",
   "players": [
     {
       "name": "Anneli Maley",
@@ -16,6 +16,13 @@
       "name": "Breanna Stewart",
       "position": "F",
       "number": "30",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Elizabeth Balogun",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },
