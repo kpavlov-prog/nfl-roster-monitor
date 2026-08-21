@@ -3,7 +3,7 @@
   "team": "Kansas City Chiefs",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/kansas-city-chiefs/roster",
-  "checkedAt": "2026-08-20T08:27:25.321562+00:00",
+  "checkedAt": "2026-08-21T08:29:29.046544+00:00",
   "players": [
     {
       "name": "Amari McNeill",
@@ -25,7 +25,7 @@
       "name": "Anthony Dunn",
       "position": "DE",
       "number": "94",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -49,6 +49,14 @@
       "name": "C.J. Hanson",
       "position": "C",
       "number": "61",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Cam Jones",
+      "position": "LB",
+      "number": "74",
       "status": "ACT",
       "important": false,
       "source": "NFL.com"
@@ -422,6 +430,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Kellen Diesch",
+      "position": "OT",
+      "number": "79",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Kenneth Walker III",
       "position": "RB",
       "number": "9",
@@ -513,7 +529,7 @@
       "name": "Matt Waletzko",
       "position": "OT",
       "number": "73",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

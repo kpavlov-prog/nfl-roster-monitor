@@ -3,7 +3,7 @@
   "team": "Buffalo Bills",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/buffalo-bills/roster",
-  "checkedAt": "2026-08-20T08:27:05.666983+00:00",
+  "checkedAt": "2026-08-21T08:28:59.558117+00:00",
   "players": [
     {
       "name": "Alec Anderson",
@@ -235,6 +235,14 @@
       "number": "20",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Greg Gaines",
+      "position": "DT",
+      "number": "73",
+      "status": "ACT",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -625,7 +633,7 @@
       "name": "Tommy Akingbesote",
       "position": "DT",
       "number": "71",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },

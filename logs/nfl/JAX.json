@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-21T08:29:26.145769+00:00",
+    "teamCode": "JAX",
+    "teamName": "Jacksonville Jaguars",
+    "type": "added",
+    "playerName": "Daniel Faalele",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-21T08:29:26.145784+00:00",
+    "teamCode": "JAX",
+    "teamName": "Jacksonville Jaguars",
+    "type": "status changed",
+    "playerName": "Quinton Bohanna",
+    "position": "DT",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-21T08:29:26.145795+00:00",
+    "teamCode": "JAX",
+    "teamName": "Jacksonville Jaguars",
+    "type": "removed",
+    "playerName": "Timothy McKay",
+    "position": "OT",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-18T08:25:38.444865+00:00",
     "teamCode": "JAX",
     "teamName": "Jacksonville Jaguars",

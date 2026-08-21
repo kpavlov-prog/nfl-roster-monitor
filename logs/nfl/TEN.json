@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-21T08:30:07.547037+00:00",
+    "teamCode": "TEN",
+    "teamName": "Tennessee Titans",
+    "type": "added",
+    "playerName": "D'Ernest Johnson",
+    "position": "RB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-21T08:30:07.547059+00:00",
+    "teamCode": "TEN",
+    "teamName": "Tennessee Titans",
+    "type": "removed",
+    "playerName": "Dominic Richardson",
+    "position": "RB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-19T08:27:12.518378+00:00",
     "teamCode": "TEN",
     "teamName": "Tennessee Titans",

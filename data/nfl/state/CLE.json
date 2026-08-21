@@ -3,7 +3,7 @@
   "team": "Cleveland Browns",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/cleveland-browns/roster",
-  "checkedAt": "2026-08-20T08:27:12.218306+00:00",
+  "checkedAt": "2026-08-21T08:29:09.388786+00:00",
   "players": [
     {
       "name": "Adin Huntington",
@@ -190,6 +190,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Drew Biber",
+      "position": "TE",
+      "number": "77",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Dylan Sampson",
       "position": "RB",
       "number": "22",
@@ -281,7 +289,7 @@
       "name": "Jack Stoll",
       "position": "TE",
       "number": "89",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -291,6 +299,14 @@
       "number": "80",
       "status": "RES",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Jamil Muhammad",
+      "position": "LB",
+      "number": "73",
+      "status": "ACT",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -305,7 +321,7 @@
       "name": "Jeadyn Lukus",
       "position": "CB",
       "number": "74",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

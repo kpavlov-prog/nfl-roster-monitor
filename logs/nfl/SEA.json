@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-21T08:30:01.488678+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Seahawks",
+    "type": "added",
+    "playerName": "Trevon Diggs",
+    "position": "CB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-21T08:30:01.488690+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Seahawks",
+    "type": "removed",
+    "playerName": "Julian Hicks",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-18T08:26:19.245501+00:00",
     "teamCode": "SEA",
     "teamName": "Seattle Seahawks",

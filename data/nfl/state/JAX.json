@@ -3,7 +3,7 @@
   "team": "Jacksonville Jaguars",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/jacksonville-jaguars/roster",
-  "checkedAt": "2026-08-20T08:27:23.679182+00:00",
+  "checkedAt": "2026-08-21T08:29:26.145511+00:00",
   "players": [
     {
       "name": "Albert Regis",
@@ -209,6 +209,14 @@
       "name": "DaVon Hamilton",
       "position": "DT",
       "number": "52",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Daniel Faalele",
+      "position": "G",
+      "number": "80",
       "status": "ACT",
       "important": false,
       "source": "NFL.com"
@@ -569,7 +577,7 @@
       "name": "Quinton Bohanna",
       "position": "DT",
       "number": "67",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -633,14 +641,6 @@
       "name": "Tim Jones",
       "position": "WR",
       "number": "13",
-      "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Timothy McKay",
-      "position": "OT",
-      "number": "76",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
