@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-21T09:19:57.105595+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Cavaliers",
+    "type": "added",
+    "playerName": "Cam Whitmore",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-21T09:19:57.105609+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Cavaliers",
+    "type": "added",
+    "playerName": "Peyton Watson",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-21T09:19:57.105616+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Cavaliers",
+    "type": "removed",
+    "playerName": "Max Strus",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-21T09:19:57.105619+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Cavaliers",
+    "type": "removed",
+    "playerName": "Tre Mann",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-15T09:03:55.517733+00:00",
     "teamCode": "CLE",
     "teamName": "Cleveland Cavaliers",
