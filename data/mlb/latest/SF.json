@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-08-20T08:56:25.050137+00:00",
+  "checkedAt": "2026-08-21T08:57:39.912840+00:00",
   "players": [
     {
       "name": "Adrian Houser",
@@ -113,13 +113,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Keaton Winn",
-      "position": "P",
-      "number": "67",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Landen Roupp",
       "position": "P",
       "number": "65",
@@ -151,6 +144,13 @@
       "name": "Rafael Devers",
       "position": "1B",
       "number": "16",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Reiver Sanmartin",
+      "position": "P",
+      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },

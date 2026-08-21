@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-21T08:57:34.040500+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "added",
+    "playerName": "Sammy Peralta",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-21T08:57:34.040512+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "removed",
+    "playerName": "Samy Natera Jr.",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-20T08:56:18.548825+00:00",
     "teamCode": "LAA",
     "teamName": "Los Angeles Angels",
