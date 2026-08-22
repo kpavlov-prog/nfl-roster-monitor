@@ -188,11 +188,33 @@ input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbea
   <button class="view-tab" onclick="switchView('tools',this)">Roster Tools</button>
   <button class="view-tab" onclick="switchView('history',this)">History</button>
 </div>
+<div id="dashboardView" class="view-section active">
 <div class="layout">
 <div>
 <div class="two-col">
 <div class="panel"><h2>Important Changes</h2><div id="importantChanges" class="empty">No important changes logged yet.</div></div>
 <div class="panel"><h2>Last 24h Changes</h2><div id="last24Changes" class="empty">No changes in the last 24 hours.</div></div>
+</div>
+<div id="toolsView" class="view-section">
+
+  <div class="panel">
+    <h2>Roster Tools</h2>
+    <div class="meta">
+      CSV reconciliation and bulk NFL roster exports.
+    </div>
+  </div>
+
+</div>
+
+<div id="historyView" class="view-section">
+
+  <div class="panel">
+    <h2>History</h2>
+    <div class="meta">
+      Reviewed changes and team roster history.
+    </div>
+  </div>
+
 </div>
 
 <div class="panel"><h2>Latest Changes Detected</h2><div id="latestChanges" class="empty">No roster changes logged yet.</div></div>
@@ -247,6 +269,23 @@ input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbea
 </div>
 
 <script>
+function switchView(view,button){
+  document.querySelectorAll(".view-section")
+    .forEach(section=>section.classList.remove("active"));
+
+  document.querySelectorAll(".view-tab")
+    .forEach(tab=>tab.classList.remove("active"));
+
+  const target=document.getElementById(view+"View");
+
+  if(target){
+    target.classList.add("active");
+  }
+
+  if(button){
+    button.classList.add("active");
+  }
+}
 const LOGOS={ARI:"https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",ATL:"https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",BAL:"https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",BUF:"https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",CAR:"https://a.espncdn.com/i/teamlogos/nfl/500/car.png",CHI:"https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",CIN:"https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",CLE:"https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",DAL:"https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",DEN:"https://a.espncdn.com/i/teamlogos/nfl/500/den.png",DET:"https://a.espncdn.com/i/teamlogos/nfl/500/det.png",GB:"https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",HOU:"https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",IND:"https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",JAX:"https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",KC:"https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",LV:"https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",LAC:"https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",LAR:"https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",MIA:"https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",MIN:"https://a.espncdn.com/i/teamlogos/nfl/500/min.png",NE:"https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",NO:"https://a.espncdn.com/i/teamlogos/nfl/500/no.png",NYG:"https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",NYJ:"https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",PHI:"https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",PIT:"https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",SF:"https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",SEA:"https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",TB:"https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",TEN:"https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",WAS:"https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png"};
 
 let summary={},statusRows=[],rosters={},allChanges=[],selectedCode="BUF",highlightedPlayer="",historyFilter="all",historyOpen=false;
