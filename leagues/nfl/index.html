@@ -165,6 +165,42 @@ input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbea
 .view-section.active{
   display:block;
 }
+.changes-collapsible{
+  padding:0;
+  overflow:hidden;
+}
+
+.changes-toggle{
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:white;
+  color:var(--text);
+  padding:16px 18px;
+  border-radius:20px;
+  font-size:18px;
+  text-align:left;
+}
+
+.changes-toggle:hover{
+  background:#f8fafc;
+}
+
+#changeToggleCount{
+  color:var(--muted);
+  font-size:12px;
+  margin-right:8px;
+}
+
+.change-section-body{
+  display:none;
+  padding:0 18px 18px;
+}
+
+.change-section-body.open{
+  display:block;
+}  
 </style>
 </head>
 
@@ -209,22 +245,48 @@ input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbea
   <div class="layout">
 
     <div>
-      <div class="two-col">
-        <div class="panel">
-          <h2>Important Changes</h2>
-          <div id="importantChanges" class="empty">No important changes logged yet.</div>
-        </div>
+<div class="panel changes-collapsible">
 
-        <div class="panel">
-          <h2>Last 24h Changes</h2>
-          <div id="last24Changes" class="empty">No changes in the last 24 hours.</div>
+  <button class="changes-toggle" onclick="toggleChangeSection()">
+    <span>Roster Changes</span>
+
+    <span>
+      <span id="changeToggleCount">0 unchecked</span>
+      <span id="changeToggleArrow">▼</span>
+    </span>
+  </button>
+
+  <div id="changeSectionBody" class="change-section-body">
+
+    <div class="two-col">
+
+      <div>
+        <h3>Important Changes</h3>
+        <div id="importantChanges" class="empty">
+          No unchecked important changes.
         </div>
       </div>
 
-      <div class="panel">
-        <h2>Latest Changes Detected</h2>
-        <div id="latestChanges" class="empty">No roster changes logged yet.</div>
+      <div>
+        <h3>Last 24h Changes</h3>
+        <div id="last24Changes" class="empty">
+          No unchecked changes in the last 24 hours.
+        </div>
       </div>
+
+    </div>
+
+    <hr>
+
+    <h3>Latest Changes Detected</h3>
+
+    <div id="latestChanges" class="empty">
+      No unchecked roster changes.
+    </div>
+
+  </div>
+
+</div>
 
       <div class="panel">
         <h2>Teams</h2>
