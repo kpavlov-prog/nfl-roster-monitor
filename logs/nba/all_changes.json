@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-22T09:09:32.393402+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Mavericks",
+    "type": "removed",
+    "playerName": "Klay Thompson",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-22T09:09:33.025098+00:00",
+    "teamCode": "DEN",
+    "teamName": "Denver Nuggets",
+    "type": "added",
+    "playerName": "DeMar DeRozan",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-08-21T09:19:57.105595+00:00",
     "teamCode": "CLE",
     "teamName": "Cleveland Cavaliers",
