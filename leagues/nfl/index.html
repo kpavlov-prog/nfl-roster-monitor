@@ -49,7 +49,23 @@ input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbea
   flex-wrap:wrap;
   margin-bottom:18px;
 }
+.position-filter{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  padding:6px 12px;
+  border-radius:20px;
+  background:#eef2ff;
+  border:1px solid #c7d2fe;
+  cursor:pointer;
+  font-weight:700;
+  user-select:none;
+}
 
+.position-filter input{
+  min-width:auto;
+  cursor:pointer;
+}
 .nav-card{
   color:white;
   text-decoration:none;
@@ -277,11 +293,30 @@ input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbea
       </button>
     </div>
 
-    <div id="bulkSummary" class="bulk-summary">
-      Selected teams: 0 | Selected players: 0
-    </div>
+<div id="bulkSummary" class="bulk-summary">
+  Selected teams: 0 | Selected players: 0
+</div>
 
-    <div id="bulkTeams" class="bulk-team-grid"></div>
+<div class="meta" style="margin-top:14px;">
+  Position filter — leave all unchecked to export all positions.
+</div>
+
+<div class="filter-row">
+  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="QB" onchange="updateBulkSummary()"> QB</label>
+  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="RB" onchange="updateBulkSummary()"> RB</label>
+  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="FB" onchange="updateBulkSummary()"> FB</label>
+  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="WR" onchange="updateBulkSummary()"> WR</label>
+  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="TE" onchange="updateBulkSummary()"> TE</label>
+  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="OL" onchange="updateBulkSummary()"> OL</label>
+  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="DL" onchange="updateBulkSummary()"> DL</label>
+  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="LB" onchange="updateBulkSummary()"> LB</label>
+  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="DB" onchange="updateBulkSummary()"> DB</label>
+  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="K" onchange="updateBulkSummary()"> K</label>
+  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="P" onchange="updateBulkSummary()"> P</label>
+  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="LS" onchange="updateBulkSummary()"> LS</label>
+</div>
+
+<div id="bulkTeams" class="bulk-team-grid"></div>
 
     <br>
 
@@ -825,7 +860,8 @@ function exportBulkRosterCsv(){
       "lastCheckedGMT"
     ]
   ];
-
+  const selectedPositions=[...document.querySelectorAll(".bulkPositionCheck:checked")]
+  .map(box=>box.value);
   const selectedCodes=[...bulkSelectedTeams].sort((a,b)=>{
     const teamA=statusRows.find(team=>team.teamCode===a);
     const teamB=statusRows.find(team=>team.teamCode===b);
@@ -838,8 +874,22 @@ function exportBulkRosterCsv(){
     const roster=rosters[code]||{players:[]};
     const team=statusRows.find(item=>item.teamCode===code)||{};
 
-    const players=[...(roster.players||[])].sort((a,b)=>{
-      const posA=String(a.position||"");
+const players=[...(roster.players||[])]
+  .filter(player=>{
+    if(selectedPositions.length===0)return true;
+
+    const pos=String(player.position||"").toUpperCase();
+
+    if(selectedPositions.includes(pos))return true;
+
+    if(selectedPositions.includes("OL") && ["OT","OG","C"].includes(pos))return true;
+    if(selectedPositions.includes("DL") && ["DE","DT","NT"].includes(pos))return true;
+    if(selectedPositions.includes("LB") && ["ILB","OLB","MLB"].includes(pos))return true;
+    if(selectedPositions.includes("DB") && ["CB","S","FS","SS"].includes(pos))return true;
+
+    return false;
+  })
+  .sort((a,b)=>{      const posA=String(a.position||"");
       const posB=String(b.position||"");
 
       const posCompare=posA.localeCompare(posB);
