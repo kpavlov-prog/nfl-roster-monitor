@@ -184,21 +184,131 @@ input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbea
 <div class="stat"><div id="totalChanges" class="stat-value">-</div><div class="stat-label">Unchecked changes</div></div>
 </div>
 <div class="view-tabs">
-  <button class="view-tab active" onclick="switchView('dashboard',this)">Dashboard</button>
-  <button class="view-tab" onclick="switchView('tools',this)">Roster Tools</button>
-  <button class="view-tab" onclick="switchView('history',this)">History</button>
+  <button class="view-tab active" onclick="switchView('dashboard',this)">
+    Dashboard
+  </button>
+
+  <button class="view-tab" onclick="switchView('tools',this)">
+    Roster Tools
+  </button>
+
+  <button class="view-tab" onclick="switchView('history',this)">
+    History
+  </button>
 </div>
+
+<!-- DASHBOARD TAB -->
 <div id="dashboardView" class="view-section active">
-<div class="layout">
-<div>
-<div class="two-col">
-<div class="panel"><h2>Important Changes</h2><div id="importantChanges" class="empty">No important changes logged yet.</div></div>
-<div class="panel"><h2>Last 24h Changes</h2><div id="last24Changes" class="empty">No changes in the last 24 hours.</div></div>
+
+  <div class="layout">
+
+    <div>
+
+      <div class="two-col">
+        <div class="panel">
+          <h2>Important Changes</h2>
+          <div id="importantChanges" class="empty">
+            No important changes logged yet.
+          </div>
+        </div>
+
+        <div class="panel">
+          <h2>Last 24h Changes</h2>
+          <div id="last24Changes" class="empty">
+            No changes in the last 24 hours.
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Latest Changes Detected</h2>
+        <div id="latestChanges" class="empty">
+          No roster changes logged yet.
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>CSV Roster Check</h2>
+
+        <div class="meta">
+          Upload CSV with columns:
+          <b>Name</b>,
+          <b>Team name</b>,
+          <b>Position</b>,
+          <b>Status</b>.
+          Other columns are ignored.
+        </div>
+
+        <br>
+
+        <input type="file" id="csvFile" accept=".csv" />
+        <button onclick="runCsvCheck()">Run CSV Check</button>
+
+        <div id="csvResults" class="meta" style="margin-top:14px;">
+          No CSV checked yet.
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Bulk Team Export</h2>
+
+        <div class="meta">
+          Select multiple NFL teams and export their combined player rosters in one CSV file.
+        </div>
+
+        <div class="bulk-toolbar">
+          <input
+            id="bulkTeamSearch"
+            placeholder="Search teams..."
+            oninput="renderBulkTeams()"
+          />
+
+          <button onclick="selectAllBulkTeams()">
+            Select All
+          </button>
+
+          <button class="secondary" onclick="clearBulkTeams()">
+            Clear Selection
+          </button>
+        </div>
+
+        <div id="bulkSummary" class="bulk-summary">
+          Selected teams: 0 | Selected players: 0
+        </div>
+
+        <div id="bulkTeams" class="bulk-team-grid"></div>
+
+        <br>
+
+        <button onclick="exportBulkRosterCsv()">
+          Export Selected Teams CSV
+        </button>
+      </div>
+
+      <div class="panel">
+        <h2>Teams</h2>
+        <div id="teams" class="teams"></div>
+      </div>
+
+    </div>
+
+    <div class="panel">
+      <h2 id="selectedTitle">Selected Team</h2>
+      <div id="selectedTeam">
+        Select a team.
+      </div>
+    </div>
+
+  </div>
+
 </div>
+
+<!-- ROSTER TOOLS TAB -->
 <div id="toolsView" class="view-section">
 
   <div class="panel">
     <h2>Roster Tools</h2>
+
     <div class="meta">
       CSV reconciliation and bulk NFL roster exports.
     </div>
@@ -206,8 +316,8 @@ input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbea
 
 </div>
 
+<!-- HISTORY TAB -->
 <div id="historyView" class="view-section">
-
   <div class="panel">
     <h2>History</h2>
     <div class="meta">
