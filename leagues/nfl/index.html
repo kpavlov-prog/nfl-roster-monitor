@@ -184,102 +184,45 @@ input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbea
 <div class="stat"><div id="totalChanges" class="stat-value">-</div><div class="stat-label">Unchecked changes</div></div>
 </div>
 <div class="view-tabs">
-  <button class="view-tab active" onclick="switchView('dashboard',this)">
-    Dashboard
-  </button>
-
-  <button class="view-tab" onclick="switchView('tools',this)">
-    Roster Tools
-  </button>
-
-  <button class="view-tab" onclick="switchView('history',this)">
-    History
-  </button>
+  <button class="view-tab active" onclick="switchView('dashboard',this)">Dashboard</button>
+  <button class="view-tab" onclick="switchView('tools',this)">Roster Tools</button>
+  <button class="view-tab" onclick="switchView('history',this)">History</button>
 </div>
 
 <!-- DASHBOARD TAB -->
 <div id="dashboardView" class="view-section active">
-
   <div class="layout">
 
     <div>
-
       <div class="two-col">
         <div class="panel">
           <h2>Important Changes</h2>
-          <div id="importantChanges" class="empty">
-            No important changes logged yet.
-          </div>
+          <div id="importantChanges" class="empty">No important changes logged yet.</div>
         </div>
-        <div class="panel">
-          <h2>Teams</h2>
-          <div id="teams" class="teams"></div>
-        </div>
+
         <div class="panel">
           <h2>Last 24h Changes</h2>
-          <div id="last24Changes" class="empty">
-            No changes in the last 24 hours.
-          </div>
+          <div id="last24Changes" class="empty">No changes in the last 24 hours.</div>
         </div>
       </div>
 
       <div class="panel">
         <h2>Latest Changes Detected</h2>
-        <div id="latestChanges" class="empty">
-          No roster changes logged yet.
-        </div>
+        <div id="latestChanges" class="empty">No roster changes logged yet.</div>
       </div>
 
-        <br>
-
-        <input type="file" id="csvFile" accept=".csv" />
-        <button onclick="runCsvCheck()">Run CSV Check</button>
-
-        <div id="csvResults" class="meta" style="margin-top:14px;">
-          No CSV checked yet.
-        </div>
-      </div>
-
-
-        <div class="bulk-toolbar">
-          <input
-            id="bulkTeamSearch"
-            placeholder="Search teams..."
-            oninput="renderBulkTeams()"
-          />
-
-          <button onclick="selectAllBulkTeams()">
-            Select All
-          </button>
-
-          <button class="secondary" onclick="clearBulkTeams()">
-            Clear Selection
-          </button>
-        </div>
-
-        <div id="bulkSummary" class="bulk-summary">
-          Selected teams: 0 | Selected players: 0
-        </div>
-
-        <div id="bulkTeams" class="bulk-team-grid"></div>
-
-        <br>
-
-        <button onclick="exportBulkRosterCsv()">
-          Export Selected Teams CSV
-        </button>
-      </div>
-
-
-    <div class="panel">
-      <h2 id="selectedTitle">Selected Team</h2>
-      <div id="selectedTeam">
-        Select a team.
+      <div class="panel">
+        <h2>Teams</h2>
+        <div id="teams" class="teams"></div>
       </div>
     </div>
 
-  </div>
+    <div class="panel">
+      <h2 id="selectedTitle">Selected Team</h2>
+      <div id="selectedTeam">Select a team.</div>
+    </div>
 
+  </div>
 </div>
 
 <!-- ROSTER TOOLS TAB -->
@@ -288,7 +231,7 @@ input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbea
   <div class="panel">
     <h2>Roster Tools</h2>
     <div class="meta">
-      Use the tools below for CSV roster reconciliation and multi-team roster exports.
+      CSV reconciliation and multi-team NFL roster exports.
     </div>
   </div>
 
@@ -322,21 +265,17 @@ input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbea
     </div>
 
     <div class="bulk-toolbar">
-
       <input
         id="bulkTeamSearch"
         placeholder="Search teams..."
         oninput="renderBulkTeams()"
       />
 
-      <button onclick="selectAllBulkTeams()">
-        Select All
-      </button>
+      <button onclick="selectAllBulkTeams()">Select All</button>
 
       <button class="secondary" onclick="clearBulkTeams()">
         Clear Selection
       </button>
-
     </div>
 
     <div id="bulkSummary" class="bulk-summary">
@@ -350,68 +289,18 @@ input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbea
     <button onclick="exportBulkRosterCsv()">
       Export Selected Teams CSV
     </button>
-
   </div>
 
 </div>
+
 <!-- HISTORY TAB -->
 <div id="historyView" class="view-section">
   <div class="panel">
     <h2>History</h2>
     <div class="meta">
-      Reviewed changes and team roster history.
+      Team roster history is available from the Selected Team panel. This tab is reserved for a future combined history view.
     </div>
   </div>
-
-</div>
-
-<div class="panel"><h2>Latest Changes Detected</h2><div id="latestChanges" class="empty">No roster changes logged yet.</div></div>
-
-<div class="panel">
-<h2>CSV Roster Check</h2>
-<div class="meta">Upload CSV with columns: <b>Name</b>, <b>Team name</b>, <b>Position</b>, <b>Status</b>. Other columns are ignored.</div><br>
-<input type="file" id="csvFile" accept=".csv" />
-<button onclick="runCsvCheck()">Run CSV Check</button>
-<div id="csvResults" class="meta" style="margin-top:14px;">No CSV checked yet.</div>
-</div>
-
-<div class="panel">
-  <h2>Bulk Team Export</h2>
-
-  <div class="meta">
-    Select multiple NFL teams and export their combined player rosters in one CSV file.
-  </div>
-
-  <div class="bulk-toolbar">
-    <input
-      id="bulkTeamSearch"
-      placeholder="Search teams..."
-      oninput="renderBulkTeams()"
-    />
-
-    <button onclick="selectAllBulkTeams()">Select All</button>
-
-    <button class="secondary" onclick="clearBulkTeams()">
-      Clear Selection
-    </button>
-  </div>
-
-  <div id="bulkSummary" class="bulk-summary">
-    Selected teams: 0 | Selected players: 0
-  </div>
-
-  <div id="bulkTeams" class="bulk-team-grid"></div>
-
-  <br>
-
-  <button onclick="exportBulkRosterCsv()">
-    Export Selected Teams CSV
-  </button>
-</div>
-
-
-<div class="panel"><h2 id="selectedTitle">Selected Team</h2><div id="selectedTeam">Select a team.</div></div>
-</div>
 </div>
 
 <script>
@@ -477,7 +366,47 @@ function isImportant(c){const pos=String(c.position||"").toUpperCase(),type=Stri
 function isLast24(c){return Date.now()-new Date(c.timestamp).getTime()<=24*60*60*1000}
 function visibleChanges(){return allChanges.filter(c=>!isChecked(c))}
 
-renderSummary();renderTeamOptions();renderChangePanels();renderTeams();renderBulkTeams();renderSelectedTeam();
+
+async function loadDashboard(){
+  try{
+    setStatus("Loading dashboard...");
+
+    summary=await fetchJson("../../data/nfl/summary.json");
+    statusRows=await fetchJson("../../data/nfl/status.json");
+
+    try{
+      allChanges=await fetchJson("../../logs/nfl/all_changes.json");
+    }catch(e){
+      allChanges=[];
+    }
+
+    rosters={};
+
+    for(const row of statusRows){
+      try{
+        rosters[row.teamCode]=await fetchJson(`../../data/nfl/latest/${row.teamCode}.json`);
+      }catch(e){
+        rosters[row.teamCode]={players:[],errors:[e.message]};
+      }
+    }
+
+    if(!statusRows.find(r=>r.teamCode===selectedCode) && statusRows.length){
+      selectedCode=statusRows[0].teamCode;
+    }
+
+    renderSummary();
+    renderTeamOptions();
+    renderChangePanels();
+    renderTeams();
+    renderBulkTeams();
+    renderSelectedTeam();
+
+    setStatus("Last update: "+gmt(summary.lastRunFinished));
+  }catch(e){
+    setStatus("Dashboard error: "+e.message);
+  }
+}
+
 function renderSummary(){document.getElementById("teamsChecked").textContent=summary.teamsChecked||0;document.getElementById("teamsOk").textContent=summary.teamsOk||0;document.getElementById("teamsErrored").textContent=summary.teamsErrored||0;document.getElementById("totalChanges").textContent=visibleChanges().length}
 function renderTeamOptions(){document.getElementById("teamSelect").innerHTML=statusRows.map(r=>`<option value="${r.teamCode}">${r.teamName}</option>`).join("");document.getElementById("teamSelect").value=selectedCode}
 function selectTeam(code){selectedCode=code;document.getElementById("teamSelect").value=code;highlightedPlayer="";historyFilter="all";renderTeams();renderSelectedTeam()}
@@ -513,7 +442,7 @@ function statusClass(status){const s=String(status||"").toUpperCase();if(["IR","
 function setHistoryFilter(filter){historyFilter=filter;renderSelectedTeam()}
 function toggleHistory(){historyOpen=!historyOpen;renderSelectedTeam()}
 function historyMatches(c){const t=String(c.type||"").toLowerCase();if(historyFilter==="all")return true;if(historyFilter==="joined")return t==="added";if(historyFilter==="left")return t==="removed";if(historyFilter==="status")return t==="status changed";return true}
-async function renderSelectedTeam(){const roster=rosters[selectedCode];if(!roster)return;let history=[];try{history=await fetchJson(`logs/${selectedCode}.json`)}catch(e){history=[]}const filteredHistory=history.filter(historyMatches),q=document.getElementById("searchBox").value.trim().toLowerCase(),players=(roster.players||[]).filter(p=>!q||String(p.name||"").toLowerCase().includes(q));document.getElementById("selectedTitle").innerHTML=`<img src="${LOGOS[selectedCode]}" class="team-logo" style="vertical-align:middle;margin-right:10px;">${roster.team||selectedCode}`;document.getElementById("selectedTeam").innerHTML=`<div class="meta">Source: ${roster.source||'NFL.com official roster'}</div><div class="meta">Players shown: ${players.length}</div><div class="meta">Last checked: ${gmt(roster.checkedAt)}</div><hr><h3>Roster</h3>${players.length?players.map(p=>`<div class="player ${highlightedPlayer&&p.name===highlightedPlayer?'highlight':''}"><span class="player-name">${p.name}</span><span class="position">${p.position||'?'}</span><span class="status-pill ${statusClass(p.status)}">${p.status||''}</span></div>`).join(""):`<div class="empty">No players found.</div>`}<button class="history-toggle" onclick="toggleHistory()">${historyOpen?'▲ Hide':'▼ Show'} Team History (${history.length})</button><div class="history-box ${historyOpen?'open':''}"><div class="filter-row"><button class="filter-btn ${historyFilter==='all'?'active':''}" onclick="setHistoryFilter('all')">All</button><button class="filter-btn ${historyFilter==='joined'?'active':''}" onclick="setHistoryFilter('joined')">Joined</button><button class="filter-btn ${historyFilter==='left'?'active':''}" onclick="setHistoryFilter('left')">Left</button><button class="filter-btn ${historyFilter==='status'?'active':''}" onclick="setHistoryFilter('status')">Status Changed</button></div>${filteredHistory.length?filteredHistory.slice(0,80).map(h=>`<div class="history-item"><div class="history-main">${changeSentence(h)}</div><div class="history-time">${gmt(h.timestamp)} | ${String(h.severity||'low').toUpperCase()}</div></div>`).join(""):`<div class="empty">No roster changes logged yet for this filter.</div>`}</div>`}
+async function renderSelectedTeam(){const roster=rosters[selectedCode];if(!roster)return;let history=[];try{history=await fetchJson(`../../logs/nfl/${selectedCode}.json`)}catch(e){history=[]}const filteredHistory=history.filter(historyMatches),q=document.getElementById("searchBox").value.trim().toLowerCase(),players=(roster.players||[]).filter(p=>!q||String(p.name||"").toLowerCase().includes(q));document.getElementById("selectedTitle").innerHTML=`<img src="${LOGOS[selectedCode]}" class="team-logo" style="vertical-align:middle;margin-right:10px;">${roster.team||selectedCode}`;document.getElementById("selectedTeam").innerHTML=`<div class="meta">Source: ${roster.source||'NFL.com official roster'}</div><div class="meta">Players shown: ${players.length}</div><div class="meta">Last checked: ${gmt(roster.checkedAt)}</div><hr><h3>Roster</h3>${players.length?players.map(p=>`<div class="player ${highlightedPlayer&&p.name===highlightedPlayer?'highlight':''}"><span class="player-name">${p.name}</span><span class="position">${p.position||'?'}</span><span class="status-pill ${statusClass(p.status)}">${p.status||''}</span></div>`).join(""):`<div class="empty">No players found.</div>`}<button class="history-toggle" onclick="toggleHistory()">${historyOpen?'▲ Hide':'▼ Show'} Team History (${history.length})</button><div class="history-box ${historyOpen?'open':''}"><div class="filter-row"><button class="filter-btn ${historyFilter==='all'?'active':''}" onclick="setHistoryFilter('all')">All</button><button class="filter-btn ${historyFilter==='joined'?'active':''}" onclick="setHistoryFilter('joined')">Joined</button><button class="filter-btn ${historyFilter==='left'?'active':''}" onclick="setHistoryFilter('left')">Left</button><button class="filter-btn ${historyFilter==='status'?'active':''}" onclick="setHistoryFilter('status')">Status Changed</button></div>${filteredHistory.length?filteredHistory.slice(0,80).map(h=>`<div class="history-item"><div class="history-main">${changeSentence(h)}</div><div class="history-time">${gmt(h.timestamp)} | ${String(h.severity||'low').toUpperCase()}</div></div>`).join(""):`<div class="empty">No roster changes logged yet for this filter.</div>`}</div>`}
 
 function parseCsv(text){const rows=[];let row=[],field="",quotes=false;for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];if(c=='"'&&quotes&&n=='"'){field+='"';i++}else if(c=='"'){quotes=!quotes}else if(c==","&&!quotes){row.push(field);field=""}else if((c=="\n"||c=="\r")&&!quotes){if(field||row.length){row.push(field);rows.push(row);row=[];field=""}if(c=="\r"&&n=="\n")i++}else field+=c}if(field||row.length){row.push(field);rows.push(row)}return rows}
 function teamCodeFromCsv(v){const s=norm(v);const found=statusRows.find(r=>norm(r.teamCode)===s||norm(r.teamName)===s);return found?found.teamCode:selectedCode}
