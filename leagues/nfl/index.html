@@ -592,6 +592,153 @@ function downloadCsvReport(filename, items){
 
   URL.revokeObjectURL(url);
 }
+function renderBulkTeams(){
+  const box=document.getElementById("bulkTeams");
+  if(!box)return;
+
+  const search=String(
+    document.getElementById("bulkTeamSearch")?.value||""
+  ).trim().toLowerCase();
+
+  const filteredTeams=statusRows.filter(team=>{
+    return (
+      String(team.teamName||"").toLowerCase().includes(search) ||
+      String(team.teamCode||"").toLowerCase().includes(search)
+    );
+  });
+
+  box.innerHTML=filteredTeams.map(team=>`
+    <label class="bulk-team-option">
+      <input
+        type="checkbox"
+        value="${team.teamCode}"
+        ${bulkSelectedTeams.has(team.teamCode) ? "checked" : ""}
+        onchange="toggleBulkTeam('${team.teamCode}', this.checked)"
+      >
+      <span>
+        ${team.teamName}
+        <span class="team-code">${team.teamCode}</span>
+      </span>
+    </label>
+  `).join("");
+
+  updateBulkSummary();
+}
+
+function toggleBulkTeam(code,isChecked){
+  if(isChecked){
+    bulkSelectedTeams.add(code);
+  }else{
+    bulkSelectedTeams.delete(code);
+  }
+
+  updateBulkSummary();
+}
+
+function selectAllBulkTeams(){
+  statusRows.forEach(team=>{
+    bulkSelectedTeams.add(team.teamCode);
+  });
+
+  renderBulkTeams();
+}
+
+function clearBulkTeams(){
+  bulkSelectedTeams.clear();
+  renderBulkTeams();
+}
+
+function updateBulkSummary(){
+  let playerCount=0;
+
+  bulkSelectedTeams.forEach(code=>{
+    const roster=rosters[code];
+    playerCount+=(roster?.players||[]).length;
+  });
+
+  const summaryBox=document.getElementById("bulkSummary");
+
+  if(summaryBox){
+    summaryBox.textContent=
+      `Selected teams: ${bulkSelectedTeams.size} | Selected players: ${playerCount}`;
+  }
+}
+
+function exportBulkRosterCsv(){
+  if(!bulkSelectedTeams.size){
+    alert("Please select at least one team.");
+    return;
+  }
+
+  const rows=[
+    [
+      "team",
+      "teamCode",
+      "playerName",
+      "number",
+      "position",
+      "status",
+      "lastCheckedGMT"
+    ]
+  ];
+
+  const selectedCodes=[...bulkSelectedTeams].sort((a,b)=>{
+    const teamA=statusRows.find(team=>team.teamCode===a);
+    const teamB=statusRows.find(team=>team.teamCode===b);
+
+    return String(teamA?.teamName||a)
+      .localeCompare(String(teamB?.teamName||b));
+  });
+
+  selectedCodes.forEach(code=>{
+    const roster=rosters[code]||{players:[]};
+    const team=statusRows.find(item=>item.teamCode===code)||{};
+
+    const players=[...(roster.players||[])].sort((a,b)=>{
+      const posA=String(a.position||"");
+      const posB=String(b.position||"");
+
+      const posCompare=posA.localeCompare(posB);
+      if(posCompare!==0)return posCompare;
+
+      return String(a.name||"")
+        .localeCompare(String(b.name||""));
+    });
+
+    players.forEach(player=>{
+      rows.push([
+        roster.team||team.teamName||code,
+        code,
+        player.name||"",
+        player.number||"",
+        player.position||"",
+        player.status||"ACTIVE",
+        gmt(roster.checkedAt||team.checkedAt)
+      ]);
+    });
+  });
+
+  const csv=rows
+    .map(row=>
+      row.map(value=>
+        `"${String(value??"").replace(/"/g,'""')}"`
+      ).join(",")
+    )
+    .join("\n");
+
+  const blob=new Blob([csv],{
+    type:"text/csv;charset=utf-8;"
+  });
+
+  const url=URL.createObjectURL(blob);
+  const link=document.createElement("a");
+
+  link.href=url;
+  link.download=`nfl-${bulkSelectedTeams.size}-teams-rosters.csv`;
+  link.click();
+
+  URL.revokeObjectURL(url);
+}
 loadDashboard();
 setInterval(loadDashboard,24*60*60*1000);
 </script>
