@@ -1017,6 +1017,18 @@ const players=[...(roster.players||[])]
 
   URL.revokeObjectURL(url);
 }
+function toggleChangeSection(){
+  const body=document.getElementById("changeSectionBody");
+  const arrow=document.getElementById("changeToggleArrow");
+
+  if(!body)return;
+
+  const open=body.classList.toggle("open");
+
+  if(arrow){
+    arrow.textContent=open ? "▲" : "▼";
+  }
+}  
 loadDashboard();
 setInterval(loadDashboard,24*60*60*1000);
 </script>
