@@ -173,6 +173,40 @@ input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbea
 <div id="csvResults" class="meta" style="margin-top:14px;">No CSV checked yet.</div>
 </div>
 
+<div class="panel">
+  <h2>Bulk Team Export</h2>
+
+  <div class="meta">
+    Select multiple NFL teams and export their combined player rosters in one CSV file.
+  </div>
+
+  <div class="bulk-toolbar">
+    <input
+      id="bulkTeamSearch"
+      placeholder="Search teams..."
+      oninput="renderBulkTeams()"
+    />
+
+    <button onclick="selectAllBulkTeams()">Select All</button>
+
+    <button class="secondary" onclick="clearBulkTeams()">
+      Clear Selection
+    </button>
+  </div>
+
+  <div id="bulkSummary" class="bulk-summary">
+    Selected teams: 0 | Selected players: 0
+  </div>
+
+  <div id="bulkTeams" class="bulk-team-grid"></div>
+
+  <br>
+
+  <button onclick="exportBulkRosterCsv()">
+    Export Selected Teams CSV
+  </button>
+</div>
+
 <div class="panel"><h2>Teams</h2><div id="teams" class="teams"></div></div>
 </div>
 
