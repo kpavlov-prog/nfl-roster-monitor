@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-22T08:47:24.239795+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Marlins",
+    "type": "added",
+    "playerName": "Logan Driscoll",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-22T08:47:24.239807+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Marlins",
+    "type": "removed",
+    "playerName": "Graham Pauley",
+    "position": "3B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-12T09:31:29.326989+00:00",
     "teamCode": "MIA",
     "teamName": "Miami Marlins",

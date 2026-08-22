@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=active",
-  "checkedAt": "2026-08-21T08:57:31.903708+00:00",
+  "checkedAt": "2026-08-22T08:47:20.597942+00:00",
   "players": [
-    {
-      "name": "Adael Amador",
-      "position": "2B",
-      "number": "1",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Braxton Fulford",
       "position": "DH",
@@ -109,6 +102,13 @@
       "name": "Kyle Freeland",
       "position": "P",
       "number": "21",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kyle Karros",
+      "position": "3B",
+      "number": "12",
       "status": "A",
       "source": "MLB Stats API"
     },

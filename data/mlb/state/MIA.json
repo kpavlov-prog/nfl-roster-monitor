@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-08-21T08:57:35.111444+00:00",
+  "checkedAt": "2026-08-22T08:47:24.238681+00:00",
   "players": [
     {
       "name": "Agustín Ramírez",
@@ -46,13 +46,6 @@
       "name": "Eury Pérez",
       "position": "P",
       "number": "39",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Graham Pauley",
-      "position": "3B",
-      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -116,6 +109,13 @@
       "name": "Leo Jiménez",
       "position": "3B",
       "number": "19",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Logan Driscoll",
+      "position": "C",
+      "number": "33",
       "status": "A",
       "source": "MLB Stats API"
     },

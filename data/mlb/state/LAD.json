@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-08-21T08:57:34.575818+00:00",
+  "checkedAt": "2026-08-22T08:47:23.586450+00:00",
   "players": [
     {
       "name": "Alex Call",
@@ -53,13 +53,6 @@
       "name": "Edgardo Henriquez",
       "position": "P",
       "number": "60",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Emmet Sheehan",
-      "position": "P",
-      "number": "80",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -137,6 +130,13 @@
       "name": "Mookie Betts",
       "position": "SS",
       "number": "50",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Paul Gervase",
+      "position": "P",
+      "number": "65",
       "status": "A",
       "source": "MLB Stats API"
     },

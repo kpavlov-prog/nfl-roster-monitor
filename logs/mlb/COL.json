@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-22T08:47:20.598948+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Rockies",
+    "type": "added",
+    "playerName": "Kyle Karros",
+    "position": "3B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-22T08:47:20.598960+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Rockies",
+    "type": "removed",
+    "playerName": "Adael Amador",
+    "position": "2B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-20T08:56:16.249853+00:00",
     "teamCode": "COL",
     "teamName": "Colorado Rockies",

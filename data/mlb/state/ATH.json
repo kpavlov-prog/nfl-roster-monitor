@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-08-21T08:57:37.781201+00:00",
+  "checkedAt": "2026-08-22T08:47:27.245976+00:00",
   "players": [
     {
       "name": "Alika Williams",
@@ -113,13 +113,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jacob Wilson",
-      "position": "SS",
-      "number": "5",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jeff McNeil",
       "position": "2B",
       "number": "22",
@@ -137,6 +130,13 @@
       "name": "Jonah Heim",
       "position": "C",
       "number": "15",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kade Morris",
+      "position": "P",
+      "number": "67",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -162,16 +162,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Scott Blewett",
-      "position": "P",
-      "number": "49",
+      "name": "Michael Stefanic",
+      "position": "2B",
+      "number": "17",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Taylor Rashi",
+      "name": "Scott Blewett",
       "position": "P",
-      "number": "65",
+      "number": "49",
       "status": "A",
       "source": "MLB Stats API"
     },

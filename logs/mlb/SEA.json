@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-22T08:47:30.337750+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Mariners",
+    "type": "position changed",
+    "playerName": "Brock Rodden",
+    "position": "SS",
+    "oldValue": "2B",
+    "newValue": "SS",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-22T08:47:30.337758+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Mariners",
+    "type": "added",
+    "playerName": "Carlos Vargas",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-22T08:47:30.337765+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Mariners",
+    "type": "position changed",
+    "playerName": "Taylor Ward",
+    "position": "DH",
+    "oldValue": "LF",
+    "newValue": "DH",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-22T08:47:30.337769+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Mariners",
+    "type": "removed",
+    "playerName": "Nick Davila",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-20T08:56:25.600696+00:00",
     "teamCode": "SEA",
     "teamName": "Seattle Mariners",

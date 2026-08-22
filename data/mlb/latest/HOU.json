@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=active",
-  "checkedAt": "2026-08-21T08:57:32.972341+00:00",
+  "checkedAt": "2026-08-22T08:47:21.775906+00:00",
   "players": [
     {
       "name": "AJ Blubaugh",
@@ -25,13 +25,6 @@
       "name": "Bryan Abreu",
       "position": "P",
       "number": "52",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Bryan King",
-      "position": "P",
-      "number": "74",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -123,6 +116,13 @@
       "name": "Josh Hader",
       "position": "P",
       "number": "71",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kai-Wei Teng",
+      "position": "P",
+      "number": "17",
       "status": "A",
       "source": "MLB Stats API"
     },
