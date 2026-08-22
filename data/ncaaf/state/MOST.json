@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2623/roster?limit=100&page=1",
-  "checkedAt": "2026-08-21T09:57:13.634989+00:00",
+  "checkedAt": "2026-08-22T09:59:22.449116+00:00",
   "players": [
     {
       "name": "AJ Bell Jr.",
@@ -158,6 +158,13 @@
       "name": "Camron Williams",
       "position": "CB",
       "number": "25",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Cash Pomeroy",
+      "position": "TE",
+      "number": "46",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -466,6 +473,13 @@
       "name": "Julius Dumas",
       "position": "OL",
       "number": "74",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Kaden Jones",
+      "position": "DL",
+      "number": "52",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
