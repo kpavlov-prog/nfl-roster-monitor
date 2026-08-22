@@ -3,7 +3,7 @@
   "team": "Tennessee Titans",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/tennessee-titans/roster",
-  "checkedAt": "2026-08-21T08:30:07.546777+00:00",
+  "checkedAt": "2026-08-22T08:19:34.786046+00:00",
   "players": [
     {
       "name": "Aamil Wagner",
@@ -494,14 +494,6 @@
       "source": "NFL.com"
     },
     {
-      "name": "Matt Lauter",
-      "position": "TE",
-      "number": "75",
-      "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
       "name": "Micah Robinson",
       "position": "CB",
       "number": "21",
@@ -515,6 +507,14 @@
       "number": "35",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Milo Eifler",
+      "position": "LB",
+      "number": "73",
+      "status": "ACT",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -545,7 +545,7 @@
       "name": "Nazeeh Johnson",
       "position": "CB",
       "number": "36",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -593,7 +593,7 @@
       "name": "Sean Brown",
       "position": "LB",
       "number": "48",
-      "status": "RES",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -601,6 +601,14 @@
       "name": "Solomon Thomas",
       "position": "DE",
       "number": "90",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Tanoh Kpassagnon",
+      "position": "DE",
+      "number": "79",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
