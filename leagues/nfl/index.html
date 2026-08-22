@@ -183,7 +183,11 @@ input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbea
 <div class="stat"><div id="teamsErrored" class="stat-value">-</div><div class="stat-label">Teams errored</div></div>
 <div class="stat"><div id="totalChanges" class="stat-value">-</div><div class="stat-label">Unchecked changes</div></div>
 </div>
-
+<div class="view-tabs">
+  <button class="view-tab active" onclick="switchView('dashboard',this)">Dashboard</button>
+  <button class="view-tab" onclick="switchView('tools',this)">Roster Tools</button>
+  <button class="view-tab" onclick="switchView('history',this)">History</button>
+</div>
 <div class="layout">
 <div>
 <div class="two-col">
