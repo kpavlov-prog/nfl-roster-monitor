@@ -826,20 +826,42 @@ function clearBulkTeams(){
   bulkSelectedTeams.clear();
   renderBulkTeams();
 }
-
 function updateBulkSummary(){
   let playerCount=0;
 
+  const selectedPositions=[...document.querySelectorAll(".bulkPositionCheck:checked")]
+    .map(box=>box.value);
+
   bulkSelectedTeams.forEach(code=>{
-    const roster=rosters[code];
-    playerCount+=(roster?.players||[]).length;
+    const roster=rosters[code]||{players:[]};
+
+    const players=(roster.players||[]).filter(player=>{
+      if(selectedPositions.length===0)return true;
+
+      const pos=String(player.position||"").toUpperCase();
+
+      if(selectedPositions.includes(pos))return true;
+
+      if(selectedPositions.includes("OL") && ["OT","OG","C"].includes(pos))return true;
+      if(selectedPositions.includes("DL") && ["DE","DT","NT"].includes(pos))return true;
+      if(selectedPositions.includes("LB") && ["ILB","OLB","MLB"].includes(pos))return true;
+      if(selectedPositions.includes("DB") && ["CB","S","FS","SS"].includes(pos))return true;
+
+      return false;
+    });
+
+    playerCount+=players.length;
   });
 
   const summaryBox=document.getElementById("bulkSummary");
 
   if(summaryBox){
+    const positionText=selectedPositions.length
+      ? ` | Positions: ${selectedPositions.join(", ")}`
+      : " | Positions: ALL";
+
     summaryBox.textContent=
-      `Selected teams: ${bulkSelectedTeams.size} | Selected players: ${playerCount}`;
+      `Selected teams: ${bulkSelectedTeams.size} | Selected players: ${playerCount}${positionText}`;
   }
 }
 
