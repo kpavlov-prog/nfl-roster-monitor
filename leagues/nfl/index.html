@@ -121,6 +121,34 @@ input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbea
   border-radius:12px;
   font-weight:800;
 }
+.view-tabs{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin:18px 0;
+}
+
+.view-tab{
+  background:#1e293b;
+  color:white;
+  border:1px solid rgba(255,255,255,.12);
+  padding:10px 16px;
+  border-radius:12px;
+  font-weight:800;
+  cursor:pointer;
+}
+
+.view-tab.active{
+  background:linear-gradient(135deg,var(--blue),var(--purple));
+}
+
+.view-section{
+  display:none;
+}
+
+.view-section.active{
+  display:block;
+}
 </style>
 </head>
 
