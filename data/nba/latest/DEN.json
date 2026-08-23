@@ -3,7 +3,7 @@
   "team": "Denver Nuggets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/DEN/roster",
-  "checkedAt": "2026-08-22T09:09:33.024113+00:00",
+  "checkedAt": "2026-08-23T09:10:44.849812+00:00",
   "players": [
     {
       "name": "Aaron Gordon",
@@ -65,6 +65,13 @@
       "name": "Jamal Murray",
       "position": "G",
       "number": "27",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Julian Reese",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

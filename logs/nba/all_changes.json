@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-23T09:10:44.850975+00:00",
+    "teamCode": "DEN",
+    "teamName": "Denver Nuggets",
+    "type": "added",
+    "playerName": "Julian Reese",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-23T09:11:01.072348+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Wizards",
+    "type": "removed",
+    "playerName": "Julian Reese",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-22T09:09:32.393402+00:00",
     "teamCode": "DAL",
     "teamName": "Dallas Mavericks",
