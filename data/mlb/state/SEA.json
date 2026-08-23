@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=active",
-  "checkedAt": "2026-08-22T08:47:30.336737+00:00",
+  "checkedAt": "2026-08-23T08:48:04.978820+00:00",
   "players": [
     {
       "name": "Andrés Muñoz",
@@ -99,13 +99,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jhonathan Díaz",
-      "position": "P",
-      "number": "74",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jhonny Pereda",
       "position": "C",
       "number": "5",
@@ -130,6 +123,13 @@
       "name": "Julio Rodríguez",
       "position": "CF",
       "number": "44",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kade Anderson",
+      "position": "P",
+      "number": "13",
       "status": "A",
       "source": "MLB Stats API"
     },

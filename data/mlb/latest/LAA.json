@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=active",
-  "checkedAt": "2026-08-22T08:47:22.995981+00:00",
+  "checkedAt": "2026-08-23T08:47:58.004938+00:00",
   "players": [
     {
       "name": "Adam Frazier",
@@ -29,6 +29,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Christian Moore",
+      "position": "2B",
+      "number": "4",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Denzer Guzman",
       "position": "3B",
       "number": "23",
@@ -46,6 +53,13 @@
       "name": "Grayson Rodriguez",
       "position": "P",
       "number": "21",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Gustavo Campero",
+      "position": "OF",
+      "number": "51",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -95,13 +109,6 @@
       "name": "Moisés Ballesteros",
       "position": "DH",
       "number": "13",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Nolan Schanuel",
-      "position": "1B",
-      "number": "18",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,13 +172,6 @@
       "name": "Vaughn Grissom",
       "position": "2B",
       "number": "5",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Wade Meckler",
-      "position": "LF",
-      "number": "53",
       "status": "A",
       "source": "MLB Stats API"
     },

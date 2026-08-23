@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-23T08:48:05.560532+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "added",
+    "playerName": "Quinn Mathews",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-23T08:48:05.560541+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "removed",
+    "playerName": "Hunter Dobbins",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-22T08:47:30.916642+00:00",
     "teamCode": "STL",
     "teamName": "St. Louis Cardinals",

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=active",
-  "checkedAt": "2026-08-22T08:47:30.915684+00:00",
+  "checkedAt": "2026-08-23T08:48:05.559583+00:00",
   "players": [
     {
       "name": "Alec Burleson",
@@ -53,13 +53,6 @@
       "name": "Gordon Graceffo",
       "position": "P",
       "number": "44",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Hunter Dobbins",
-      "position": "P",
-      "number": "40",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,6 +158,13 @@
       "name": "Peter Strzelecki",
       "position": "P",
       "number": "58",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Quinn Mathews",
+      "position": "P",
+      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },

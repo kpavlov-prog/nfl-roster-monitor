@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-08-22T08:47:23.586450+00:00",
+  "checkedAt": "2026-08-23T08:47:58.589225+00:00",
   "players": [
+    {
+      "name": "Alek Thomas",
+      "position": "CF",
+      "number": "9",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Alex Call",
       "position": "LF",
@@ -18,13 +25,6 @@
       "name": "Alex Vesia",
       "position": "P",
       "number": "51",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Andy Pages",
-      "position": "CF",
-      "number": "44",
       "status": "A",
       "source": "MLB Stats API"
     },

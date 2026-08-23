@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-08-22T08:47:32.715798+00:00",
+  "checkedAt": "2026-08-23T08:48:07.300502+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -53,13 +53,6 @@
       "name": "Charles McAdoo",
       "position": "2B",
       "number": "26",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Davis Schneider",
-      "position": "LF",
-      "number": "36",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -186,6 +179,13 @@
       "name": "Tyler Rogers",
       "position": "P",
       "number": "71",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Vladimir Guerrero Jr.",
+      "position": "1B",
+      "number": "27",
       "status": "A",
       "source": "MLB Stats API"
     }
