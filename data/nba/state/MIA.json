@@ -3,7 +3,7 @@
   "team": "Miami Heat",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIA/roster",
-  "checkedAt": "2026-08-23T09:10:51.580784+00:00",
+  "checkedAt": "2026-08-24T09:30:23.382504+00:00",
   "players": [
     {
       "name": "Andrew Wiggins",
@@ -51,6 +51,13 @@
       "name": "Jahmir Young",
       "position": "G",
       "number": "17",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Klay Thompson",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
