@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-08-23T08:48:03.238992+00:00",
+  "checkedAt": "2026-08-24T09:04:03.645307+00:00",
   "players": [
-    {
-      "name": "Antwone Kelly",
-      "position": "P",
-      "number": "62",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Billy Cook",
       "position": "CF",
@@ -109,6 +102,13 @@
       "name": "Jared Triolo",
       "position": "SS",
       "number": "19",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Khristian Curtis",
+      "position": "P",
+      "number": "64",
       "status": "A",
       "source": "MLB Stats API"
     },

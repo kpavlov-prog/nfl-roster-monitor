@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=active",
-  "checkedAt": "2026-08-23T08:47:56.267013+00:00",
+  "checkedAt": "2026-08-24T09:03:57.194110+00:00",
   "players": [
+    {
+      "name": "Andrew Sears",
+      "position": "P",
+      "number": "64",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Ben Malgeri",
       "position": "RF",
@@ -60,13 +67,6 @@
       "name": "Eduardo Valencia",
       "position": "DH",
       "number": "32",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Enmanuel De Jesus",
-      "position": "P",
-      "number": "37",
       "status": "A",
       "source": "MLB Stats API"
     },

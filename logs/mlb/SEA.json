@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-24T09:04:05.255920+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Mariners",
+    "type": "added",
+    "playerName": "Patrick Wisdom",
+    "position": "3B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-24T09:04:05.255930+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Mariners",
+    "type": "removed",
+    "playerName": "Brendan Donovan",
+    "position": "3B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-23T08:48:04.979742+00:00",
     "teamCode": "SEA",
     "teamName": "Seattle Mariners",

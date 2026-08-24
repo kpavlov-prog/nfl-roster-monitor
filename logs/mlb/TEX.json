@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-24T09:04:06.863701+00:00",
+    "teamCode": "TEX",
+    "teamName": "Texas Rangers",
+    "type": "added",
+    "playerName": "Logan O'Hoppe",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-24T09:04:06.863714+00:00",
+    "teamCode": "TEX",
+    "teamName": "Texas Rangers",
+    "type": "removed",
+    "playerName": "Jarred Kelenic",
+    "position": "RF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-19T08:54:04.837015+00:00",
     "teamCode": "TEX",
     "teamName": "Texas Rangers",

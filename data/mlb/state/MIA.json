@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-08-23T08:47:59.169722+00:00",
+  "checkedAt": "2026-08-24T09:03:59.871774+00:00",
   "players": [
     {
       "name": "Agustín Ramírez",
@@ -71,6 +71,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jack Ralston",
+      "position": "P",
+      "number": "79",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jakob Marsee",
       "position": "CF",
       "number": "87",
@@ -95,13 +102,6 @@
       "name": "Joe Mack",
       "position": "C",
       "number": "80",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "John King",
-      "position": "P",
-      "number": "47",
       "status": "A",
       "source": "MLB Stats API"
     },

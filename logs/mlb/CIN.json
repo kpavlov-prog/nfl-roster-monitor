@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-24T09:03:55.582908+00:00",
+    "teamCode": "CIN",
+    "teamName": "Cincinnati Reds",
+    "type": "added",
+    "playerName": "Ivan Johnson",
+    "position": "2B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-24T09:03:55.582924+00:00",
+    "teamCode": "CIN",
+    "teamName": "Cincinnati Reds",
+    "type": "removed",
+    "playerName": "Michael Toglia",
+    "position": "1B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-22T08:47:19.347444+00:00",
     "teamCode": "CIN",
     "teamName": "Cincinnati Reds",

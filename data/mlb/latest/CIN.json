@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=active",
-  "checkedAt": "2026-08-23T08:47:54.481331+00:00",
+  "checkedAt": "2026-08-24T09:03:55.581650+00:00",
   "players": [
     {
       "name": "Andrew Abbott",
@@ -71,6 +71,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Ivan Johnson",
+      "position": "2B",
+      "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "JJ Bleday",
       "position": "LF",
       "number": "22",
@@ -109,13 +116,6 @@
       "name": "Matt McLain",
       "position": "2B",
       "number": "9",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Michael Toglia",
-      "position": "1B",
-      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },

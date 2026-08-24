@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=active",
-  "checkedAt": "2026-08-23T08:48:01.489915+00:00",
+  "checkedAt": "2026-08-24T09:04:02.037134+00:00",
   "players": [
     {
       "name": "Ali Sánchez",
@@ -43,6 +43,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Brendan Beck",
+      "position": "P",
+      "number": "89",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Brent Headrick",
       "position": "P",
       "number": "47",
@@ -60,6 +67,13 @@
       "name": "Carlos Rodón",
       "position": "P",
       "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cody Bellinger",
+      "position": "LF",
+      "number": "35",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -130,13 +144,6 @@
       "name": "Paul Goldschmidt",
       "position": "1B",
       "number": "48",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Ryan Weathers",
-      "position": "P",
-      "number": "40",
       "status": "A",
       "source": "MLB Stats API"
     },

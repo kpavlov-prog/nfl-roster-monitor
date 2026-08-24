@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-24T09:04:05.793417+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "position changed",
+    "playerName": "Joshua Báez",
+    "position": "LF",
+    "oldValue": "RF",
+    "newValue": "LF",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-24T09:04:05.793428+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "added",
+    "playerName": "Ramón Urías",
+    "position": "3B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-24T09:04:05.793433+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "removed",
+    "playerName": "Everson Pereira",
+    "position": "RF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-23T08:48:05.560532+00:00",
     "teamCode": "STL",
     "teamName": "St. Louis Cardinals",

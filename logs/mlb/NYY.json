@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-24T09:04:02.038335+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "added",
+    "playerName": "Brendan Beck",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-24T09:04:02.038345+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "added",
+    "playerName": "Cody Bellinger",
+    "position": "LF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-24T09:04:02.038354+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "removed",
+    "playerName": "Ryan Weathers",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-23T08:48:01.490905+00:00",
     "teamCode": "NYY",
     "teamName": "New York Yankees",

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-24T09:03:58.800577+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "added",
+    "playerName": "Yusei Kikuchi",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-24T09:03:58.800586+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "removed",
+    "playerName": "Michael Fulmer",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-23T08:47:58.006041+00:00",
     "teamCode": "LAA",
     "teamName": "Los Angeles Angels",
