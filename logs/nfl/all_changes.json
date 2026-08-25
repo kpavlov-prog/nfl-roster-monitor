@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-25T08:32:12.593384+00:00",
+    "teamCode": "LAR",
+    "teamName": "Los Angeles Rams",
+    "type": "added",
+    "playerName": "CB ACT",
+    "position": "CB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-25T08:32:12.593528+00:00",
+    "teamCode": "LAR",
+    "teamName": "Los Angeles Rams",
+    "type": "removed",
+    "playerName": "Al'zillion Hamiltonon",
+    "position": "CB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-24T08:37:31.607837+00:00",
     "teamCode": "ARI",
     "teamName": "Arizona Cardinals",
