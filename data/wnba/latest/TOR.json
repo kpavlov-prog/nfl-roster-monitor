@@ -3,7 +3,7 @@
   "team": "Toronto Tempo",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/TOR/roster",
-  "checkedAt": "2026-08-24T09:49:38.215805+00:00",
+  "checkedAt": "2026-08-25T09:36:41.537360+00:00",
   "players": [
     {
       "name": "Aneesah Morrow",
@@ -37,6 +37,13 @@
       "name": "Kia Nurse",
       "position": "G",
       "number": "11",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Kiana Williams",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },
