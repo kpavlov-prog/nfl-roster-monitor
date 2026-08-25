@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/36/roster?limit=100&page=1",
-  "checkedAt": "2026-08-24T10:09:57.949799+00:00",
+  "checkedAt": "2026-08-25T09:53:52.736136+00:00",
   "players": [
     {
       "name": "AJ Noland",
@@ -351,6 +351,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Juice Vereen",
+      "position": "TE",
+      "number": "5",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Keegan Holles",
       "position": "RB",
       "number": "33",
@@ -438,6 +445,13 @@
       "name": "Liam Wortmann",
       "position": "OL",
       "number": "54",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Mel Brown",
+      "position": "RB",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
