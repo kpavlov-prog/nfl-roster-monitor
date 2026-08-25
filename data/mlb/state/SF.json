@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-08-24T09:04:04.716448+00:00",
+  "checkedAt": "2026-08-25T08:59:57.502055+00:00",
   "players": [
     {
       "name": "Adrian Houser",
@@ -22,16 +22,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Blade Tidwell",
+      "name": "Anthony Molina",
       "position": "P",
-      "number": "46",
+      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Bryce Eldridge",
-      "position": "DH",
-      "number": "8",
+      "name": "Blade Tidwell",
+      "position": "P",
+      "number": "46",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -85,9 +85,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "JT Brubaker",
-      "position": "P",
-      "number": "34",
+      "name": "Grant McCray",
+      "position": "CF",
+      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -127,9 +127,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Matt Wilkinson",
-      "position": "P",
-      "number": "71",
+      "name": "Nate Furman",
+      "position": "2B",
+      "number": "56",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -155,9 +155,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Ryan Walker",
+      "position": "P",
+      "number": "74",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Sam Hentges",
       "position": "P",
       "number": "31",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Shay Whitcomb",
+      "position": "3B",
+      "number": "13",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,20 +186,6 @@
       "name": "Turner Hill",
       "position": "CF",
       "number": "52",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Victor Bericoto",
-      "position": "LF",
-      "number": "78",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Willy Adames",
-      "position": "SS",
-      "number": "2",
       "status": "A",
       "source": "MLB Stats API"
     }

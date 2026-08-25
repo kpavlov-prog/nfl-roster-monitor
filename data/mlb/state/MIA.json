@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-08-24T09:03:59.871774+00:00",
+  "checkedAt": "2026-08-25T08:59:52.675946+00:00",
   "players": [
     {
       "name": "Agustín Ramírez",
@@ -32,13 +32,6 @@
       "name": "Calvin Faucher",
       "position": "P",
       "number": "53",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Deyvison De Los Santos",
-      "position": "3B",
-      "number": "63",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -109,6 +102,13 @@
       "name": "Josh Ekness",
       "position": "P",
       "number": "95",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kyle Stowers",
+      "position": "1B",
+      "number": "28",
       "status": "A",
       "source": "MLB Stats API"
     },

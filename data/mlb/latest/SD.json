@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=active",
-  "checkedAt": "2026-08-24T09:04:04.181541+00:00",
+  "checkedAt": "2026-08-25T08:59:56.971912+00:00",
   "players": [
     {
       "name": "Adrian Morejon",
@@ -32,6 +32,13 @@
       "name": "Casey Mize",
       "position": "P",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Dustin Harris",
+      "position": "LF",
+      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,13 +151,6 @@
       "name": "Robbie Ray",
       "position": "P",
       "number": "38",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Sung-Mun Song",
-      "position": "2B",
-      "number": "24",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-25T08:59:52.676588+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Marlins",
+    "type": "added",
+    "playerName": "Kyle Stowers",
+    "position": "1B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-25T08:59:52.676597+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Marlins",
+    "type": "removed",
+    "playerName": "Deyvison De Los Santos",
+    "position": "3B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-24T09:03:59.872823+00:00",
     "teamCode": "MIA",
     "teamName": "Miami Marlins",
