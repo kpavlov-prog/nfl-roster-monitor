@@ -3,7 +3,7 @@
   "team": "Pittsburgh Steelers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/pittsburgh-steelers/roster",
-  "checkedAt": "2026-08-25T08:32:31.892620+00:00",
+  "checkedAt": "2026-08-26T08:34:02.733090+00:00",
   "players": [
     {
       "name": "Aaron Rodgers",
@@ -19,6 +19,14 @@
       "number": "56",
       "status": "ACT",
       "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Alex Tecza",
+      "position": "RB",
+      "number": "72",
+      "status": "ACT",
+      "important": true,
       "source": "NFL.com"
     },
     {
@@ -390,10 +398,18 @@
       "source": "NFL.com"
     },
     {
+      "name": "Jaylon Guilbeau",
+      "position": "CB",
+      "number": "72",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Joaquin Davis",
       "position": "WR",
       "number": "89",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

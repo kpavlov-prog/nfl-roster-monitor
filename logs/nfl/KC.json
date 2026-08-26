@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-26T08:33:29.231101+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Chiefs",
+    "type": "status changed",
+    "playerName": "Jeff Caldwell",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-08-26T08:33:29.231121+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Chiefs",
+    "type": "added",
+    "playerName": "Niles King",
+    "position": "DE",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-08-24T08:38:15.368467+00:00",
     "teamCode": "KC",
     "teamName": "Kansas City Chiefs",

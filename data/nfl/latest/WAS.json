@@ -3,7 +3,7 @@
   "team": "Washington Commanders",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/washington-commanders/roster",
-  "checkedAt": "2026-08-25T08:32:44.761251+00:00",
+  "checkedAt": "2026-08-26T08:34:18.273964+00:00",
   "players": [
     {
       "name": "Ale Kaho",
@@ -81,6 +81,14 @@
       "name": "Car'lin Vigers",
       "position": "DB",
       "number": "37",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Carlos Basham",
+      "position": "DE",
+      "number": "75",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -177,7 +185,7 @@
       "name": "Drake Jackson",
       "position": "DE",
       "number": "93",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -209,7 +217,7 @@
       "name": "Foster Sarell",
       "position": "OT",
       "number": "79",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -526,6 +534,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Quindell Johnson",
+      "position": "DB",
+      "number": "73",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Rachaad White",
       "position": "RB",
       "number": "1",
@@ -600,7 +616,7 @@
     {
       "name": "Stefon Diggs",
       "position": "WR",
-      "number": "72",
+      "number": "3",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

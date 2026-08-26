@@ -3,7 +3,7 @@
   "team": "Miami Dolphins",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/miami-dolphins/roster",
-  "checkedAt": "2026-08-25T08:32:15.165805+00:00",
+  "checkedAt": "2026-08-26T08:33:42.634538+00:00",
   "players": [
     {
       "name": "A.J. Green",
@@ -33,7 +33,7 @@
       "name": "Ahmari Harvey",
       "position": "DB",
       "number": "30",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -262,10 +262,18 @@
       "source": "NFL.com"
     },
     {
+      "name": "Ethan Conner",
+      "position": "TE",
+      "number": "76",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Ethan Robinson",
       "position": "CB",
       "number": "38",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -337,7 +345,7 @@
       "name": "Jamaree Salyer",
       "position": "G",
       "number": "69",
-      "status": "RES",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -377,7 +385,7 @@
       "name": "Jim Bonifas",
       "position": "C",
       "number": "62",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -622,6 +630,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Ryan Miller",
+      "position": "WR",
+      "number": "74",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Seth Coleman-Lyles",
       "position": "DE",
       "number": "90",
@@ -657,7 +673,7 @@
       "name": "Tahj Washington",
       "position": "WR",
       "number": "84",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

@@ -3,7 +3,7 @@
   "team": "Los Angeles Rams",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/los-angeles-rams/roster",
-  "checkedAt": "2026-08-25T08:32:12.593057+00:00",
+  "checkedAt": "2026-08-26T08:33:39.394694+00:00",
   "players": [
     {
       "name": "A.J. Arcuri",
@@ -169,7 +169,7 @@
       "name": "Daniel Rickert",
       "position": "LB",
       "number": "40",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -217,6 +217,14 @@
       "name": "Desjuan Johnson",
       "position": "DE",
       "number": "94",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Devean Deal",
+      "position": "DE",
+      "number": "76",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -369,7 +377,7 @@
       "name": "Keir Thomas",
       "position": "LB",
       "number": "11",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -558,6 +566,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Steven Gilmore",
+      "position": "DB",
+      "number": "72",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Tanner Ingle",
       "position": "C",
       "number": "34",
@@ -681,7 +697,7 @@
       "name": "Zech McPhearson",
       "position": "CB",
       "number": "41",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     }

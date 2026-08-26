@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-26T08:33:56.358152+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "status changed",
+    "playerName": "Cade York",
+    "position": "K",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-26T08:33:56.358164+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "status changed",
+    "playerName": "Caullin Lacy",
+    "position": "WR",
+    "oldValue": "LISTED",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-08-26T08:33:56.358187+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "status changed",
+    "playerName": "Nathan Voorhis",
+    "position": "DE",
+    "oldValue": "LISTED",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-08-24T08:38:36.076389+00:00",
     "teamCode": "NYJ",
     "teamName": "New York Jets",

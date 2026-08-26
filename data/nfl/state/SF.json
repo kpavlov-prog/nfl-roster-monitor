@@ -3,7 +3,7 @@
   "team": "San Francisco 49ers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/san-francisco-49ers/roster",
-  "checkedAt": "2026-08-25T08:32:33.529078+00:00",
+  "checkedAt": "2026-08-26T08:34:06.370310+00:00",
   "players": [
     {
       "name": "Adrian Martinez",
@@ -163,6 +163,14 @@
       "number": "19",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Deion Jones",
+      "position": "LB",
+      "number": "73",
+      "status": "ACT",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -401,7 +409,7 @@
       "name": "Josiah Deguara",
       "position": "TE",
       "number": "47",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -673,7 +681,7 @@
       "name": "Tanner McLachlan",
       "position": "TE",
       "number": "77",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -689,7 +697,7 @@
       "name": "Titus Leo",
       "position": "DE",
       "number": "75",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -734,6 +742,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Viliami Fehoko Jr.",
+      "position": "DE",
+      "number": "76",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Wesley Grimes",
       "position": "WR",
       "number": "18",
@@ -761,7 +777,7 @@
       "name": "Zamir White",
       "position": "RB",
       "number": "30",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     }

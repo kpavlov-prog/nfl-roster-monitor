@@ -3,7 +3,7 @@
   "team": "Detroit Lions",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/detroit-lions/roster",
-  "checkedAt": "2026-08-25T08:31:51.349603+00:00",
+  "checkedAt": "2026-08-26T08:33:14.544701+00:00",
   "players": [
     {
       "name": "Aamaris Brown",
@@ -129,7 +129,7 @@
       "name": "Cedrick Wilson Jr.",
       "position": "WR",
       "number": "86",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -177,7 +177,7 @@
       "name": "Damone Clark",
       "position": "LB",
       "number": "11",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -267,6 +267,14 @@
       "number": "8",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Gus Hartwig",
+      "position": "C",
+      "number": "77",
+      "status": "ACT",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -425,7 +433,7 @@
       "name": "Kye Robichaux",
       "position": "RB",
       "number": "34",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -553,7 +561,7 @@
       "name": "Raheem Blackshear",
       "position": "RB",
       "number": "42",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -569,6 +577,14 @@
       "name": "Roger McCreary",
       "position": "CB",
       "number": "21",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Roydell Williams",
+      "position": "RB",
+      "number": "70",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

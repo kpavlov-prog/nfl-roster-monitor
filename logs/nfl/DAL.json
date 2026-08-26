@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-26T08:33:07.015919+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Cowboys",
+    "type": "status changed",
+    "playerName": "Kelvin Gilliam",
+    "position": "DT",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-26T08:33:07.015936+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Cowboys",
+    "type": "added",
+    "playerName": "Mitch Van Vooren TE",
+    "position": "TE",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-24T08:37:51.956785+00:00",
     "teamCode": "DAL",
     "teamName": "Dallas Cowboys",

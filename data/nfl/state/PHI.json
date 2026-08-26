@@ -3,7 +3,7 @@
   "team": "Philadelphia Eagles",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/philadelphia-eagles/roster",
-  "checkedAt": "2026-08-25T08:32:29.220457+00:00",
+  "checkedAt": "2026-08-26T08:33:59.999006+00:00",
   "players": [
     {
       "name": "A.J. Epenesa",
@@ -281,7 +281,7 @@
       "name": "J.T. Gray",
       "position": "DB",
       "number": "48",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -289,7 +289,7 @@
       "name": "Ja'Quinden Jackson",
       "position": "RB",
       "number": "45",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -409,6 +409,14 @@
       "name": "Jordan Mailata",
       "position": "OT",
       "number": "68",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Jordan Mims",
+      "position": "RB",
+      "number": "72",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

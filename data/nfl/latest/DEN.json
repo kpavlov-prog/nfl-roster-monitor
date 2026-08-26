@@ -3,7 +3,7 @@
   "team": "Denver Broncos",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/denver-broncos/roster",
-  "checkedAt": "2026-08-25T08:31:48.980235+00:00",
+  "checkedAt": "2026-08-26T08:33:11.263831+00:00",
   "players": [
     {
       "name": "Adam Prentice",
@@ -201,7 +201,7 @@
       "name": "Hakeem Butler",
       "position": "WR",
       "number": "30",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -609,6 +609,14 @@
       "name": "Riley Moss",
       "position": "CB",
       "number": "21",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Ron Stone Jr. DE",
+      "position": "DE",
+      "number": "75",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

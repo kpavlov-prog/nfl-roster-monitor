@@ -3,7 +3,7 @@
   "team": "Tennessee Titans",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/tennessee-titans/roster",
-  "checkedAt": "2026-08-25T08:32:42.402540+00:00",
+  "checkedAt": "2026-08-26T08:34:15.187537+00:00",
   "players": [
     {
       "name": "Aamil Wagner",
@@ -185,7 +185,7 @@
       "name": "Dominique Hampton",
       "position": "LB",
       "number": "40",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -201,6 +201,14 @@
       "name": "Drew Moss",
       "position": "G",
       "number": "67",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Dyontae Johnson",
+      "position": "LB",
+      "number": "74",
       "status": "ACT",
       "important": false,
       "source": "NFL.com"
@@ -513,7 +521,7 @@
       "name": "Milo Eifler",
       "position": "LB",
       "number": "45",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -587,6 +595,14 @@
       "number": "62",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Reid Carrico",
+      "position": "LB",
+      "number": "74",
+      "status": "ACT",
+      "important": false,
       "source": "NFL.com"
     },
     {

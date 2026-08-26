@@ -3,7 +3,7 @@
   "team": "Arizona Cardinals",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/arizona-cardinals/roster",
-  "checkedAt": "2026-08-25T08:31:27.333900+00:00",
+  "checkedAt": "2026-08-26T08:32:42.740575+00:00",
   "players": [
     {
       "name": "Andrew Billings",
@@ -17,7 +17,7 @@
       "name": "Austin Keys",
       "position": "LB",
       "number": "53",
-      "status": "RES",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -49,7 +49,7 @@
       "name": "Baylor Cupp",
       "position": "TE",
       "number": "83",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -73,7 +73,7 @@
       "name": "Bryson Green",
       "position": "WR",
       "number": "39",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -342,6 +342,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Jack Browning",
+      "position": "P",
+      "number": "71",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Jack Gibbens",
       "position": "LB",
       "number": "50",
@@ -425,6 +433,14 @@
       "name": "Josh Fryar",
       "position": "OT",
       "number": "78",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Josh Minkins",
+      "position": "DB",
+      "number": "74",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -681,7 +697,7 @@
       "name": "Trey Benson",
       "position": "RB",
       "number": "33",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -729,7 +745,7 @@
       "name": "Xavier Weaver",
       "position": "WR",
       "number": "89",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },

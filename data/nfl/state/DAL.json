@@ -3,7 +3,7 @@
   "team": "Dallas Cowboys",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/dallas-cowboys/roster",
-  "checkedAt": "2026-08-25T08:31:46.594743+00:00",
+  "checkedAt": "2026-08-26T08:33:07.015617+00:00",
   "players": [
     {
       "name": "Adedayo Odeleye",
@@ -385,7 +385,7 @@
       "name": "Kelvin Gilliam",
       "position": "DT",
       "number": "94",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -473,6 +473,14 @@
       "name": "Michael Trigg",
       "position": "TE",
       "number": "46",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Mitch Van Vooren TE",
+      "position": "TE",
+      "number": "77",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

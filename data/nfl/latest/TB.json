@@ -3,7 +3,7 @@
   "team": "Tampa Bay Buccaneers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/tampa-bay-buccaneers/roster",
-  "checkedAt": "2026-08-25T08:32:39.724339+00:00",
+  "checkedAt": "2026-08-26T08:34:12.367590+00:00",
   "players": [
     {
       "name": "A'Shawn Robinson",
@@ -265,7 +265,7 @@
       "name": "Deshawn McKnight",
       "position": "DT",
       "number": "73",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -465,7 +465,7 @@
       "name": "Kadarius Calloway",
       "position": "RB",
       "number": "49",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -537,6 +537,14 @@
       "name": "Marshall Foerner",
       "position": "OT",
       "number": "74",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Matthew Henry",
+      "position": "WR",
+      "number": "72",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
