@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-26T09:01:51.958089+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "added",
+    "playerName": "Spencer Bivens",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-26T09:01:51.958097+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "removed",
+    "playerName": "Carson Whisenhunt",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-25T08:59:57.502801+00:00",
     "teamCode": "SF",
     "teamName": "San Francisco Giants",

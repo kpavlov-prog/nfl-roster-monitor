@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=active",
-  "checkedAt": "2026-08-25T08:59:53.210892+00:00",
+  "checkedAt": "2026-08-26T09:01:47.522424+00:00",
   "players": [
     {
       "name": "Aaron Ashby",
@@ -134,13 +134,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jonathan Ornelas",
-      "position": "SS",
-      "number": "13",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Kyle Harrison",
       "position": "P",
       "number": "52",
@@ -165,6 +158,13 @@
       "name": "Robert Gasser",
       "position": "P",
       "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Sal Frelick",
+      "position": "RF",
+      "number": "10",
       "status": "A",
       "source": "MLB Stats API"
     },

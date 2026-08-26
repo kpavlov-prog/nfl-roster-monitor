@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=active",
-  "checkedAt": "2026-08-25T08:59:58.033884+00:00",
+  "checkedAt": "2026-08-26T09:01:52.506421+00:00",
   "players": [
     {
       "name": "Andrés Muñoz",
@@ -92,6 +92,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "J.P. Crawford",
+      "position": "SS",
+      "number": "3",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jhonny Pereda",
       "position": "C",
       "number": "5",
@@ -123,13 +130,6 @@
       "name": "Kade Anderson",
       "position": "P",
       "number": "13",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Leo Rivas",
-      "position": "3B",
-      "number": "76",
       "status": "A",
       "source": "MLB Stats API"
     },

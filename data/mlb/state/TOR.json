@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-08-25T09:00:00.181057+00:00",
+  "checkedAt": "2026-08-26T09:01:54.712912+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -46,6 +46,13 @@
       "name": "Brett Bateman",
       "position": "CF",
       "number": "21",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Chad Dallas",
+      "position": "P",
+      "number": "37",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,13 +151,6 @@
       "name": "Paul Sewald",
       "position": "P",
       "number": "43",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Shane Bieber",
-      "position": "P",
-      "number": "57",
       "status": "A",
       "source": "MLB Stats API"
     },

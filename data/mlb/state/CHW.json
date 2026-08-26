@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-08-25T08:59:47.883448+00:00",
+  "checkedAt": "2026-08-26T09:01:41.997236+00:00",
   "players": [
-    {
-      "name": "Andrew Benintendi",
-      "position": "DH",
-      "number": "23",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Anthony Kay",
       "position": "P",
@@ -85,16 +78,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Huascar Brazobán",
-      "position": "P",
-      "number": "50",
+      "name": "Jake Rogers",
+      "position": "C",
+      "number": "28",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Jake Rogers",
-      "position": "C",
-      "number": "28",
+      "name": "Jonathan Cannon",
+      "position": "P",
+      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,6 +137,13 @@
       "name": "Randal Grichuk",
       "position": "DH",
       "number": "34",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Rikuu Nishida",
+      "position": "RF",
+      "number": "51",
       "status": "A",
       "source": "MLB Stats API"
     },
