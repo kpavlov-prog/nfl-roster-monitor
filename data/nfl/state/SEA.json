@@ -3,7 +3,7 @@
   "team": "Seattle Seahawks",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/seattle-seahawks/roster",
-  "checkedAt": "2026-08-26T08:34:09.060682+00:00",
+  "checkedAt": "2026-08-27T18:40:30.344752+00:00",
   "players": [
     {
       "name": "AJ Barner",
@@ -203,6 +203,14 @@
       "number": "58",
       "status": "ACT",
       "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Derrick Graham",
+      "position": "OT",
+      "number": "76",
+      "status": "ACT",
+      "important": true,
       "source": "NFL.com"
     },
     {
@@ -417,7 +425,7 @@
       "name": "Joseph Vaughn",
       "position": "LB",
       "number": "53",
-      "status": "RES",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -457,7 +465,7 @@
       "name": "Justin Jones",
       "position": "RB",
       "number": "73",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -489,7 +497,7 @@
       "name": "Mason Richman",
       "position": "G",
       "number": "78",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -641,7 +649,7 @@
       "name": "Shemar Jean-Charles",
       "position": "CB",
       "number": "34",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

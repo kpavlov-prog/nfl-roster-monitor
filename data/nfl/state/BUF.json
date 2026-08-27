@@ -3,7 +3,7 @@
   "team": "Buffalo Bills",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/buffalo-bills/roster",
-  "checkedAt": "2026-08-26T08:32:52.120031+00:00",
+  "checkedAt": "2026-08-27T18:39:29.732656+00:00",
   "players": [
     {
       "name": "Alec Anderson",
@@ -433,7 +433,7 @@
       "name": "Mac Dalena",
       "position": "WR",
       "number": "82",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -563,6 +563,14 @@
       "number": "48",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Sincere Haynesworth",
+      "position": "C",
+      "number": "73",
+      "status": "ACT",
+      "important": false,
       "source": "NFL.com"
     },
     {

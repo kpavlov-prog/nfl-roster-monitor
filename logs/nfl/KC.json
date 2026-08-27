@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-27T18:40:00.232350+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Chiefs",
+    "type": "added",
+    "playerName": "Joshua Ezeudu",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-27T18:40:00.232364+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Chiefs",
+    "type": "status changed",
+    "playerName": "Kellen Diesch",
+    "position": "OT",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-26T08:33:29.231101+00:00",
     "teamCode": "KC",
     "teamName": "Kansas City Chiefs",
