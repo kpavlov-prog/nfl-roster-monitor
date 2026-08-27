@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-08-26T09:01:46.973377+00:00",
+  "checkedAt": "2026-08-27T19:04:20.490890+00:00",
   "players": [
     {
       "name": "Agustín Ramírez",
@@ -18,13 +18,6 @@
       "name": "Brian Navarreto",
       "position": "C",
       "number": "64",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Cade Gibson",
-      "position": "P",
-      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,6 +137,13 @@
       "name": "Owen Caissie",
       "position": "RF",
       "number": "17",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Patrick Monteverde",
+      "position": "P",
+      "number": "44",
       "status": "A",
       "source": "MLB Stats API"
     },

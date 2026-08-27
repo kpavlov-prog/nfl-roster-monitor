@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-27T19:04:15.251353+00:00",
+    "teamCode": "CHW",
+    "teamName": "Chicago White Sox",
+    "type": "added",
+    "playerName": "Tyler Davis",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-27T19:04:15.251360+00:00",
+    "teamCode": "CHW",
+    "teamName": "Chicago White Sox",
+    "type": "removed",
+    "playerName": "Jonathan Cannon",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-27T19:04:15.251364+00:00",
+    "teamCode": "CHW",
+    "teamName": "Chicago White Sox",
+    "type": "removed",
+    "playerName": "Rikuu Nishida",
+    "position": "RF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-26T09:01:41.998491+00:00",
     "teamCode": "CHW",
     "teamName": "Chicago White Sox",

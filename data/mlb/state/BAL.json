@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=active",
-  "checkedAt": "2026-08-26T09:01:40.327118+00:00",
+  "checkedAt": "2026-08-27T19:04:13.505082+00:00",
   "players": [
     {
       "name": "Alex Hoppe",
@@ -134,6 +134,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Luis Vázquez",
+      "position": "SS",
+      "number": "52",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Pete Alonso",
       "position": "1B",
       "number": "25",
@@ -165,13 +172,6 @@
       "name": "Trevor Rogers",
       "position": "P",
       "number": "28",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tyler O'Neill",
-      "position": "RF",
-      "number": "9",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-27T19:04:25.057903+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "added",
+    "playerName": "David Morgan",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-27T19:04:25.057914+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "removed",
+    "playerName": "Jeremiah Estrada",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-25T08:59:56.972675+00:00",
     "teamCode": "SD",
     "teamName": "San Diego Padres",

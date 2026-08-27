@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=active",
-  "checkedAt": "2026-08-26T09:01:45.868079+00:00",
+  "checkedAt": "2026-08-27T19:04:19.295371+00:00",
   "players": [
     {
       "name": "Adam Frazier",
@@ -22,9 +22,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Blake Weiman",
-      "position": "P",
-      "number": "68",
+      "name": "Bryce Teodosio",
+      "position": "LF",
+      "number": "22",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -53,13 +53,6 @@
       "name": "Grayson Rodriguez",
       "position": "P",
       "number": "21",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Gustavo Campero",
-      "position": "OF",
-      "number": "51",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -151,6 +144,13 @@
       "name": "Travis d'Arnaud",
       "position": "C",
       "number": "25",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Trevor Martin",
+      "position": "P",
+      "number": "54",
       "status": "A",
       "source": "MLB Stats API"
     },

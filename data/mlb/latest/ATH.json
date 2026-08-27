@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-08-26T09:01:49.741629+00:00",
+  "checkedAt": "2026-08-27T19:04:23.293045+00:00",
   "players": [
     {
       "name": "Alika Williams",
@@ -32,6 +32,13 @@
       "name": "Carlos Cortes",
       "position": "RF",
       "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Chris Roycroft",
+      "position": "P",
+      "number": "56",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -67,13 +74,6 @@
       "name": "Gage Jump",
       "position": "P",
       "number": "61",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Hayden Juenger",
-      "position": "P",
-      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },

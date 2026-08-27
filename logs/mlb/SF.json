@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-27T19:04:25.585106+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "added",
+    "playerName": "Braxton Roxby",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-27T19:04:25.585116+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "position changed",
+    "playerName": "Turner Hill",
+    "position": "LF",
+    "oldValue": "CF",
+    "newValue": "LF",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-27T19:04:25.585119+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "removed",
+    "playerName": "Adrian Houser",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-26T09:01:51.958089+00:00",
     "teamCode": "SF",
     "teamName": "San Francisco Giants",

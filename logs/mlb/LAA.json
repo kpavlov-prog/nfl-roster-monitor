@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-27T19:04:19.296281+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "added",
+    "playerName": "Bryce Teodosio",
+    "position": "LF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-27T19:04:19.296291+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "added",
+    "playerName": "Trevor Martin",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-27T19:04:19.296296+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "removed",
+    "playerName": "Blake Weiman",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-27T19:04:19.296298+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "removed",
+    "playerName": "Gustavo Campero",
+    "position": "OF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-24T09:03:58.800577+00:00",
     "teamCode": "LAA",
     "teamName": "Los Angeles Angels",

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-08-26T09:01:55.263120+00:00",
+  "checkedAt": "2026-08-27T19:04:29.029101+00:00",
   "players": [
     {
       "name": "Abimelec Ortiz",
@@ -113,13 +113,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jake Bird",
-      "position": "P",
-      "number": "59",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jake Irvin",
       "position": "P",
       "number": "27",
@@ -148,9 +141,16 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Luis Perales",
+      "position": "P",
+      "number": "43",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Matt Waldron",
       "position": "P",
-      "number": "55",
+      "number": "56",
       "status": "A",
       "source": "MLB Stats API"
     },

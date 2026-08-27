@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-08-26T09:01:41.997236+00:00",
+  "checkedAt": "2026-08-27T19:04:15.250507+00:00",
   "players": [
     {
       "name": "Anthony Kay",
@@ -85,13 +85,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jonathan Cannon",
-      "position": "P",
-      "number": "48",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jordan Hicks",
       "position": "P",
       "number": "44",
@@ -141,13 +134,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Rikuu Nishida",
-      "position": "RF",
-      "number": "51",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Sam Antonacci",
       "position": "LF",
       "number": "17",
@@ -179,6 +165,13 @@
       "name": "Tristan Peters",
       "position": "CF",
       "number": "29",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tyler Davis",
+      "position": "P",
+      "number": "63",
       "status": "A",
       "source": "MLB Stats API"
     },

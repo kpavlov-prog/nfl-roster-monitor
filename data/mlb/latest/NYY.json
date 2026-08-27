@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=active",
-  "checkedAt": "2026-08-26T09:01:49.170816+00:00",
+  "checkedAt": "2026-08-27T19:04:22.649154+00:00",
   "players": [
     {
       "name": "Ali Sánchez",
@@ -32,13 +32,6 @@
       "name": "Ben Rice",
       "position": "DH",
       "number": "22",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Bradley Hanner",
-      "position": "P",
-      "number": "93",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -78,9 +71,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Fernando Cruz",
+      "name": "Elmer Rodríguez",
       "position": "P",
-      "number": "63",
+      "number": "71",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -130,6 +123,13 @@
       "name": "Luis García Jr.",
       "position": "1B",
       "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Michael Fulmer",
+      "position": "P",
+      "number": "43",
       "status": "A",
       "source": "MLB Stats API"
     },

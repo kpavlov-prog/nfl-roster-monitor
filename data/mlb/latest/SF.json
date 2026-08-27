@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-08-26T09:01:51.957188+00:00",
+  "checkedAt": "2026-08-27T19:04:25.584449+00:00",
   "players": [
-    {
-      "name": "Adrian Houser",
-      "position": "P",
-      "number": "12",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Andrew Knizner",
       "position": "C",
@@ -32,6 +25,13 @@
       "name": "Blade Tidwell",
       "position": "P",
       "number": "46",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Braxton Roxby",
+      "position": "P",
+      "number": "90",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -184,7 +184,7 @@
     },
     {
       "name": "Turner Hill",
-      "position": "CF",
+      "position": "LF",
       "number": "52",
       "status": "A",
       "source": "MLB Stats API"

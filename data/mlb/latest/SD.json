@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=active",
-  "checkedAt": "2026-08-26T09:01:51.403591+00:00",
+  "checkedAt": "2026-08-27T19:04:25.056967+00:00",
   "players": [
     {
       "name": "Adrian Morejon",
@@ -32,6 +32,13 @@
       "name": "Casey Mize",
       "position": "P",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "David Morgan",
+      "position": "P",
+      "number": "66",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -88,13 +95,6 @@
       "name": "Jase Bowen",
       "position": "RF",
       "number": "4",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jeremiah Estrada",
-      "position": "P",
-      "number": "56",
       "status": "A",
       "source": "MLB Stats API"
     },

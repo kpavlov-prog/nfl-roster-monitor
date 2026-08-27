@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=active",
-  "checkedAt": "2026-08-26T09:01:53.055838+00:00",
+  "checkedAt": "2026-08-27T19:04:26.738510+00:00",
   "players": [
     {
       "name": "Alec Burleson",
@@ -25,6 +25,13 @@
       "name": "Bryan Torres",
       "position": "LF",
       "number": "39",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cade Winquest",
+      "position": "P",
+      "number": "63",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,13 +151,6 @@
       "name": "Pedro Pagés",
       "position": "C",
       "number": "43",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Peter Strzelecki",
-      "position": "P",
-      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },

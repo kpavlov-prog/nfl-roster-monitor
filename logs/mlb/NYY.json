@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-27T19:04:22.649795+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "added",
+    "playerName": "Elmer Rodríguez",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-27T19:04:22.649802+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "added",
+    "playerName": "Michael Fulmer",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-27T19:04:22.649808+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "removed",
+    "playerName": "Bradley Hanner",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-27T19:04:22.649810+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "removed",
+    "playerName": "Fernando Cruz",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-26T09:01:49.171897+00:00",
     "teamCode": "NYY",
     "teamName": "New York Yankees",

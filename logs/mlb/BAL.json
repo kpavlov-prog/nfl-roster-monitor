@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-27T19:04:13.505940+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Orioles",
+    "type": "added",
+    "playerName": "Luis Vázquez",
+    "position": "SS",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-27T19:04:13.505949+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Orioles",
+    "type": "removed",
+    "playerName": "Tyler O'Neill",
+    "position": "RF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-22T08:47:16.740582+00:00",
     "teamCode": "BAL",
     "teamName": "Baltimore Orioles",
