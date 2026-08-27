@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-27T19:39:50.806221+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Dream",
+    "type": "added",
+    "playerName": "DeWanna Bonner",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-27T19:39:50.806236+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Dream",
+    "type": "removed",
+    "playerName": "Aaliyah Nye",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-27T19:39:50.806241+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Dream",
+    "type": "removed",
+    "playerName": "Jaylyn Sherrod",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-26T09:42:54.971085+00:00",
     "teamCode": "PHX",
     "teamName": "Phoenix Mercury",
