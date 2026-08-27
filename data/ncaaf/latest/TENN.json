@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2633/roster?limit=100&page=1",
-  "checkedAt": "2026-08-26T10:16:59.457293+00:00",
+  "checkedAt": "2026-08-27T20:10:48.046188+00:00",
   "players": [
     {
       "name": "Amare Campbell",
@@ -207,6 +207,13 @@
       "name": "Donovan Haslam",
       "position": "OL",
       "number": "69",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Doren Sacha",
+      "position": "WR",
+      "number": "26",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -669,13 +676,6 @@
       "name": "Sidney Walton",
       "position": "DB",
       "number": "23",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Steele Katina",
-      "position": "DB",
-      "number": "41",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

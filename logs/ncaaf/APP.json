@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-27T19:52:15.072180+00:00",
+    "teamCode": "APP",
+    "teamName": "App State Mountaineers",
+    "type": "added",
+    "playerName": "Ammo Robinson",
+    "position": "DB",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-27T19:52:15.072188+00:00",
+    "teamCode": "APP",
+    "teamName": "App State Mountaineers",
+    "type": "added",
+    "playerName": "BJ Junius",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-27T19:52:15.072239+00:00",
+    "teamCode": "APP",
+    "teamName": "App State Mountaineers",
+    "type": "removed",
+    "playerName": "Ahmad Robinson",
+    "position": "DB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-27T19:52:15.072243+00:00",
+    "teamCode": "APP",
+    "teamName": "App State Mountaineers",
+    "type": "removed",
+    "playerName": "Bryant Junius",
+    "position": "LB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-14T10:17:24.839984+00:00",
     "teamCode": "APP",
     "teamName": "App State Mountaineers",

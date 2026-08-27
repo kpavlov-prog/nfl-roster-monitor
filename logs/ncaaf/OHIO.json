@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-27T20:06:04.221597+00:00",
+    "teamCode": "OHIO",
+    "teamName": "Ohio Bobcats",
+    "type": "added",
+    "playerName": "Marcus Cain",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-27T20:06:04.221626+00:00",
+    "teamCode": "OHIO",
+    "teamName": "Ohio Bobcats",
+    "type": "removed",
+    "playerName": "Marcus Hughbanks",
+    "position": "WR",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-27T20:06:04.221630+00:00",
+    "teamCode": "OHIO",
+    "teamName": "Ohio Bobcats",
+    "type": "removed",
+    "playerName": "Max Rodarte",
+    "position": "WR",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-27T20:06:04.221632+00:00",
+    "teamCode": "OHIO",
+    "teamName": "Ohio Bobcats",
+    "type": "removed",
+    "playerName": "Nate Hunt-Heller",
+    "position": "DT",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-09T10:13:46.517535+00:00",
     "teamCode": "OHIO",
     "teamName": "Ohio Bobcats",
