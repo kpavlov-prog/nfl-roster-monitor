@@ -3,7 +3,7 @@
   "team": "Houston Rockets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/HOU/roster",
-  "checkedAt": "2026-08-26T09:25:10.091718+00:00",
+  "checkedAt": "2026-08-27T19:16:20.845670+00:00",
   "players": [
     {
       "name": "Alperen Sengun",
@@ -85,6 +85,13 @@
     {
       "name": "Quadir Copeland",
       "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Rafael Castro",
+      "position": "C",
       "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
