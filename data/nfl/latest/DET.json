@@ -3,7 +3,7 @@
   "team": "Detroit Lions",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/detroit-lions/roster",
-  "checkedAt": "2026-08-27T18:39:48.779820+00:00",
+  "checkedAt": "2026-08-28T19:48:19.898600+00:00",
   "players": [
     {
       "name": "Aamaris Brown",
@@ -241,6 +241,14 @@
       "name": "Eric O'Neill",
       "position": "DE",
       "number": "66",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Eric Scott Jr.",
+      "position": "CB",
+      "number": "74",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -545,7 +553,7 @@
       "name": "Payton Turner",
       "position": "DE",
       "number": "92",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },

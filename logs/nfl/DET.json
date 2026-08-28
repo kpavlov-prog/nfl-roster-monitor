@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-28T19:48:19.899001+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "added",
+    "playerName": "Eric Scott Jr.",
+    "position": "CB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-28T19:48:19.899029+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "status changed",
+    "playerName": "Payton Turner",
+    "position": "DE",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-08-27T18:39:48.780145+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Lions",
