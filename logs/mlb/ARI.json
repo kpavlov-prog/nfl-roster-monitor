@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-28T20:11:50.871004+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "added",
+    "playerName": "Jose Cabrera",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-28T20:11:50.871011+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "position changed",
+    "playerName": "Lars Nootbaar",
+    "position": "DH",
+    "oldValue": "LF",
+    "newValue": "DH",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-28T20:11:50.871016+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "removed",
+    "playerName": "Drey Jameson",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-27T19:04:12.400669+00:00",
     "teamCode": "ARI",
     "teamName": "Arizona Diamondbacks",

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-28T20:12:03.369830+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "added",
+    "playerName": "Bryce Eldridge",
+    "position": "DH",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-28T20:12:03.369841+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "removed",
+    "playerName": "Buddy Kennedy",
+    "position": "3B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-27T19:04:25.585106+00:00",
     "teamCode": "SF",
     "teamName": "San Francisco Giants",

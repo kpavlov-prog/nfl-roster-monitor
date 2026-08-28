@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-08-27T19:04:15.250507+00:00",
+  "checkedAt": "2026-08-28T20:11:53.724041+00:00",
   "players": [
+    {
+      "name": "Andrew Benintendi",
+      "position": "DH",
+      "number": "23",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Anthony Kay",
       "position": "P",
@@ -176,9 +183,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Tyler Schweitzer",
+      "name": "Tyler Gilbert",
       "position": "P",
-      "number": "62",
+      "number": "40",
       "status": "A",
       "source": "MLB Stats API"
     }

@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-08-27T19:04:27.926229+00:00",
+  "checkedAt": "2026-08-28T20:12:05.511846+00:00",
   "players": [
+    {
+      "name": "Adam Macko",
+      "position": "P",
+      "number": "71",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Brandon Nimmo",
       "position": "RF",
@@ -165,13 +172,6 @@
       "name": "Peyton Gray",
       "position": "P",
       "number": "75",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Robby Ahlstrom",
-      "position": "P",
-      "number": "54",
       "status": "A",
       "source": "MLB Stats API"
     },

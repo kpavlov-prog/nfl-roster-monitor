@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=active",
-  "checkedAt": "2026-08-27T19:04:15.827231+00:00",
+  "checkedAt": "2026-08-28T20:11:54.257859+00:00",
   "players": [
     {
       "name": "Andrew Abbott",
@@ -39,6 +39,13 @@
       "name": "Dane Myers",
       "position": "CF",
       "number": "17",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Edwin Arroyo",
+      "position": "2B",
+      "number": "2",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -95,13 +102,6 @@
       "name": "Julian Garcia",
       "position": "P",
       "number": "57",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Ke'Bryan Hayes",
-      "position": "3B",
-      "number": "3",
       "status": "A",
       "source": "MLB Stats API"
     },
