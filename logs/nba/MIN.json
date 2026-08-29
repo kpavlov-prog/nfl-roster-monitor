@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-29T14:00:56.856681+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Timberwolves",
+    "type": "added",
+    "playerName": "Cody Williams",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-29T14:00:56.856690+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Timberwolves",
+    "type": "added",
+    "playerName": "John Konchar",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-29T14:00:56.856697+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Timberwolves",
+    "type": "removed",
+    "playerName": "Josh Green",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-14T10:26:25.213469+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Timberwolves",

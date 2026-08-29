@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-29T14:01:03.638052+00:00",
+    "teamCode": "UTAH",
+    "teamName": "Utah Jazz",
+    "type": "added",
+    "playerName": "Josh Green",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-29T14:01:03.638062+00:00",
+    "teamCode": "UTAH",
+    "teamName": "Utah Jazz",
+    "type": "removed",
+    "playerName": "Cody Williams",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-29T14:01:03.638066+00:00",
+    "teamCode": "UTAH",
+    "teamName": "Utah Jazz",
+    "type": "removed",
+    "playerName": "John Konchar",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-14T10:26:32.472608+00:00",
     "teamCode": "UTAH",
     "teamName": "Utah Jazz",

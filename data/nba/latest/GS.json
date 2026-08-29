@@ -3,7 +3,7 @@
   "team": "Golden State Warriors",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/GS/roster",
-  "checkedAt": "2026-08-28T20:25:42.375885+00:00",
+  "checkedAt": "2026-08-29T14:00:51.952575+00:00",
   "players": [
     {
       "name": "Al Horford",
@@ -51,6 +51,13 @@
       "name": "Gary Payton II",
       "position": "G",
       "number": "0",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Georges Niang",
+      "position": "F",
+      "number": "31",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
