@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-29T13:49:50.337007+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "added",
+    "playerName": "Kohl Drake",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-29T13:49:50.337020+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "removed",
+    "playerName": "Juan Burgos",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-28T20:11:50.871004+00:00",
     "teamCode": "ARI",
     "teamName": "Arizona Diamondbacks",

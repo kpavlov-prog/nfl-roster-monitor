@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=active",
-  "checkedAt": "2026-08-28T20:11:52.018290+00:00",
+  "checkedAt": "2026-08-29T13:49:51.559535+00:00",
   "players": [
     {
       "name": "Alex Hoppe",
@@ -25,6 +25,13 @@
       "name": "Anthony Nunez",
       "position": "P",
       "number": "66",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Blaze Alexander",
+      "position": "3B",
+      "number": "23",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -130,13 +137,6 @@
       "name": "Leody Taveras",
       "position": "CF",
       "number": "30",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Luis Vázquez",
-      "position": "SS",
-      "number": "52",
       "status": "A",
       "source": "MLB Stats API"
     },

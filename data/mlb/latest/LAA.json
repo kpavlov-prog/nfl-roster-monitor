@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=active",
-  "checkedAt": "2026-08-28T20:11:57.498597+00:00",
+  "checkedAt": "2026-08-29T13:49:57.871371+00:00",
   "players": [
     {
       "name": "Adam Frazier",
@@ -18,13 +18,6 @@
       "name": "Ben Joyce",
       "position": "P",
       "number": "44",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Bryce Teodosio",
-      "position": "LF",
-      "number": "22",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,6 +158,13 @@
       "name": "Vaughn Grissom",
       "position": "2B",
       "number": "5",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Wade Meckler",
+      "position": "LF",
+      "number": "53",
       "status": "A",
       "source": "MLB Stats API"
     },
