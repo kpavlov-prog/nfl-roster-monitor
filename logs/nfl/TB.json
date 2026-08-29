@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-29T13:30:51.331716+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Buccaneers",
+    "type": "added",
+    "playerName": "Pepe Williams",
+    "position": "CB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-29T13:30:51.331731+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Buccaneers",
+    "type": "removed",
+    "playerName": "Damarion Williams",
+    "position": "CB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-28T19:49:11.996023+00:00",
     "teamCode": "TB",
     "teamName": "Tampa Bay Buccaneers",
