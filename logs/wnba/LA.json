@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-08-30T14:18:56.408243+00:00",
+    "teamCode": "LA",
+    "teamName": "Los Angeles Sparks",
+    "type": "added",
+    "playerName": "Aaliyah Nye",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-30T14:18:56.408256+00:00",
+    "teamCode": "LA",
+    "teamName": "Los Angeles Sparks",
+    "type": "removed",
+    "playerName": "Alissa Pili",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-30T14:18:56.408259+00:00",
+    "teamCode": "LA",
+    "teamName": "Los Angeles Sparks",
+    "type": "removed",
+    "playerName": "Kate Martin",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-20T09:36:13.969207+00:00",
     "teamCode": "LA",
     "teamName": "Los Angeles Sparks",
