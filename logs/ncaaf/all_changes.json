@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-08-30T14:33:17.740118+00:00",
+    "teamCode": "GAST",
+    "teamName": "Georgia State Panthers",
+    "type": "removed",
+    "playerName": "Jalen Jordan",
+    "position": "DT",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-30T14:39:53.498190+00:00",
+    "teamCode": "NCST",
+    "teamName": "NC State Wolfpack",
+    "type": "added",
+    "playerName": "Keoni Riley",
+    "position": "OL",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-30T14:50:40.990553+00:00",
+    "teamCode": "CONN",
+    "teamName": "UConn Huskies",
+    "type": "removed",
+    "playerName": "Zach Christinat",
+    "position": "LS",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-30T14:52:46.508281+00:00",
+    "teamCode": "UVA",
+    "teamName": "Virginia Cavaliers",
+    "type": "added",
+    "playerName": "Zach Christinat",
+    "position": "LS",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-08-29T14:50:07.320121+00:00",
     "teamCode": "STAN",
     "teamName": "Stanford Cardinal",
