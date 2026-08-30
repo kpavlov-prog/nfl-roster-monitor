@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-08-29T13:49:50.335918+00:00",
+  "checkedAt": "2026-08-30T13:47:40.778721+00:00",
   "players": [
     {
       "name": "Brandon Pfaadt",
@@ -32,6 +32,13 @@
       "name": "Dennis Santana",
       "position": "P",
       "number": "59",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Derek Law",
+      "position": "P",
+      "number": "38",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -134,13 +141,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Kohl Drake",
-      "position": "P",
-      "number": "58",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Lars Nootbaar",
       "position": "DH",
       "number": "21",
@@ -158,6 +158,13 @@
       "name": "Merrill Kelly",
       "position": "P",
       "number": "29",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Mitch Bratt",
+      "position": "P",
+      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },

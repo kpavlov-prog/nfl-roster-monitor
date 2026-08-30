@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-08-29T13:50:04.928299+00:00",
+  "checkedAt": "2026-08-30T13:47:54.178414+00:00",
   "players": [
     {
       "name": "Andrew Knizner",
@@ -120,6 +120,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Matt Wilkinson",
+      "position": "P",
+      "number": "71",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Nate Furman",
       "position": "2B",
       "number": "56",
@@ -169,13 +176,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Spencer Bivens",
-      "position": "P",
-      "number": "76",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Trent Harris",
       "position": "P",
       "number": "68",
@@ -186,6 +186,13 @@
       "name": "Turner Hill",
       "position": "LF",
       "number": "52",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yunior Marte",
+      "position": "P",
+      "number": "87",
       "status": "A",
       "source": "MLB Stats API"
     }

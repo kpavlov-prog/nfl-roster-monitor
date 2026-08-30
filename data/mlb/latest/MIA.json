@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-08-29T13:49:59.152398+00:00",
+  "checkedAt": "2026-08-30T13:47:48.934483+00:00",
   "players": [
     {
       "name": "Agustín Ramírez",
@@ -141,13 +141,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Patrick Monteverde",
-      "position": "P",
-      "number": "44",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Ryan Gusto",
       "position": "P",
       "number": "65",
@@ -179,6 +172,13 @@
       "name": "Victor Vodnik",
       "position": "P",
       "number": "38",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Wikelman González",
+      "position": "P",
+      "number": "67",
       "status": "A",
       "source": "MLB Stats API"
     },
