@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=active",
-  "checkedAt": "2026-08-30T13:47:54.758948+00:00",
+  "checkedAt": "2026-08-31T16:09:40.457784+00:00",
   "players": [
     {
       "name": "Andrés Muñoz",
@@ -67,13 +67,6 @@
       "name": "Eduard Bazardo",
       "position": "P",
       "number": "83",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Emerson Hancock",
-      "position": "P",
-      "number": "26",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,6 +137,13 @@
       "name": "Michael Rucker",
       "position": "P",
       "number": "38",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Nick Davila",
+      "position": "P",
+      "number": "82",
       "status": "A",
       "source": "MLB Stats API"
     },

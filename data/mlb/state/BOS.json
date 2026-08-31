@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-08-30T13:47:42.527798+00:00",
+  "checkedAt": "2026-08-31T16:09:27.943868+00:00",
   "players": [
     {
       "name": "Adley Rutschman",
@@ -25,13 +25,6 @@
       "name": "Andruw Monasterio",
       "position": "SS",
       "number": "32",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Anthony Seigler",
-      "position": "2B",
-      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -127,13 +120,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Mickey Gasper",
-      "position": "DH",
-      "number": "30",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Nick Sogard",
       "position": "2B",
       "number": "20",
@@ -162,9 +148,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Roman Anthony",
+      "position": "LF",
+      "number": "19",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Sonny Gray",
       "position": "P",
       "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Trevor Story",
+      "position": "SS",
+      "number": "10",
       "status": "A",
       "source": "MLB Stats API"
     },

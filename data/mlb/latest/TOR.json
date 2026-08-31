@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-08-30T13:47:57.082891+00:00",
+  "checkedAt": "2026-08-31T16:09:42.846181+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -50,13 +50,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "CJ Van Eyk",
-      "position": "P",
-      "number": "58",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Charles McAdoo",
       "position": "2B",
       "number": "26",
@@ -65,7 +58,7 @@
     },
     {
       "name": "Daz Cameron",
-      "position": "RF",
+      "position": "LF",
       "number": "23",
       "status": "A",
       "source": "MLB Stats API"

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-31T16:09:42.846586+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "position changed",
+    "playerName": "Daz Cameron",
+    "position": "LF",
+    "oldValue": "RF",
+    "newValue": "LF",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-31T16:09:42.846593+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "removed",
+    "playerName": "CJ Van Eyk",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-28T20:12:06.043962+00:00",
     "teamCode": "TOR",
     "teamName": "Toronto Blue Jays",

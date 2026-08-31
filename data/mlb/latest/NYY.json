@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=active",
-  "checkedAt": "2026-08-30T13:47:51.267316+00:00",
+  "checkedAt": "2026-08-31T16:09:36.881476+00:00",
   "players": [
     {
       "name": "Ali Sánchez",
@@ -120,6 +120,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Luis Gil",
+      "position": "P",
+      "number": "81",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Max Fried",
       "position": "P",
       "number": "54",
@@ -179,13 +186,6 @@
       "name": "Will Warren",
       "position": "P",
       "number": "29",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Yerry De los Santos",
-      "position": "P",
-      "number": "73",
       "status": "A",
       "source": "MLB Stats API"
     }

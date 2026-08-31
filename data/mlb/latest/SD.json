@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=active",
-  "checkedAt": "2026-08-30T13:47:53.597540+00:00",
+  "checkedAt": "2026-08-31T16:09:39.250559+00:00",
   "players": [
     {
       "name": "Adrian Morejon",
@@ -64,13 +64,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Gavin Sheets",
-      "position": "1B",
-      "number": "30",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Griffin Canning",
       "position": "P",
       "number": "17",
@@ -113,13 +106,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Luis Rengifo",
-      "position": "LF",
-      "number": "21",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Manny Machado",
       "position": "3B",
       "number": "13",
@@ -151,6 +137,20 @@
       "name": "Robbie Ray",
       "position": "P",
       "number": "38",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Samad Taylor",
+      "position": "LF",
+      "number": "0",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Sung-Mun Song",
+      "position": "2B",
+      "number": "24",
       "status": "A",
       "source": "MLB Stats API"
     },

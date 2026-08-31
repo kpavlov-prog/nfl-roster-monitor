@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-08-31T16:09:35.699066+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "added",
+    "playerName": "Gabriel Gonzalez",
+    "position": "RF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-08-31T16:09:35.699072+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "removed",
+    "playerName": "Byron Buxton",
+    "position": "CF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-28T20:11:59.631324+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Twins",
