@@ -3,13 +3,13 @@
   "team": "Chicago Bears",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/chicago-bears/roster",
-  "checkedAt": "2026-08-30T13:26:17.638665+00:00",
+  "checkedAt": "2026-08-31T15:42:19.047927+00:00",
   "players": [
     {
       "name": "Antonio Grier Jr.",
       "position": "LB",
       "number": "73",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -25,7 +25,7 @@
       "name": "Beanie Bishop Jr.",
       "position": "CB",
       "number": "25",
-      "status": "ACT",
+      "status": "SUS",
       "important": true,
       "source": "NFL.com"
     },
@@ -49,7 +49,7 @@
       "name": "Brittain Brown",
       "position": "RB",
       "number": "38",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -57,7 +57,7 @@
       "name": "Caden Barnett",
       "position": "G",
       "number": "76",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -94,6 +94,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Clark Phillips III",
+      "position": "CB",
+      "number": "69",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Coby Bryant",
       "position": "CB",
       "number": "2",
@@ -106,14 +114,6 @@
       "position": "TE",
       "number": "85",
       "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Coleman Bennett",
-      "position": "RB",
-      "number": "30",
-      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -185,7 +185,7 @@
       "name": "Deantre Prince",
       "position": "CB",
       "number": "37",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -201,7 +201,7 @@
       "name": "Dontae Manning",
       "position": "CB",
       "number": "27",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -209,14 +209,6 @@
       "name": "Garrett Bradbury",
       "position": "C",
       "number": "67",
-      "status": "ACT",
-      "important": false,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Gervon Dexter Sr.",
-      "position": "DT",
-      "number": "99",
       "status": "ACT",
       "important": false,
       "source": "NFL.com"
@@ -241,7 +233,7 @@
       "name": "JP Richardson",
       "position": "WR",
       "number": "83",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -249,7 +241,7 @@
       "name": "Jack Sanborn",
       "position": "LB",
       "number": "57",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -265,7 +257,7 @@
       "name": "James Lynch",
       "position": "DT",
       "number": "97",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -281,7 +273,7 @@
       "name": "Jaren Kump",
       "position": "C",
       "number": "64",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -305,7 +297,7 @@
       "name": "Jaylon Jones",
       "position": "DB",
       "number": "33",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -313,7 +305,7 @@
       "name": "Jedrick Wills",
       "position": "OT",
       "number": "71",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -321,7 +313,7 @@
       "name": "Jeremiah Martin",
       "position": "DE",
       "number": "69",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -337,7 +329,7 @@
       "name": "Jon Rhattigan",
       "position": "LB",
       "number": "46",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -385,7 +377,7 @@
       "name": "Kaden Davis",
       "position": "WR",
       "number": "27",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -417,7 +409,7 @@
       "name": "Kiran Amegadjie",
       "position": "OT",
       "number": "72",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -425,7 +417,7 @@
       "name": "Kyle Hergel",
       "position": "OL",
       "number": "60",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -441,7 +433,7 @@
       "name": "Kyler Gordon",
       "position": "CB",
       "number": "6",
-      "status": "ACT",
+      "status": "PUP",
       "important": true,
       "source": "NFL.com"
     },
@@ -489,7 +481,7 @@
       "name": "Marcus Davenport",
       "position": "DE",
       "number": "52",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -497,7 +489,7 @@
       "name": "Mason Murphy",
       "position": "C",
       "number": "63",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -505,7 +497,7 @@
       "name": "Maurice Alexander",
       "position": "WR",
       "number": "13",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -513,7 +505,7 @@
       "name": "Miller Moss",
       "position": "QB",
       "number": "16",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -553,7 +545,7 @@
       "name": "Noah Sewell",
       "position": "LB",
       "number": "44",
-      "status": "ACT",
+      "status": "PUP",
       "important": false,
       "source": "NFL.com"
     },
@@ -561,7 +553,7 @@
       "name": "Omari Kelly",
       "position": "WR",
       "number": "82",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -577,7 +569,7 @@
       "name": "Qadir Ismail",
       "position": "TE",
       "number": "80",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -585,7 +577,7 @@
       "name": "Ray-Ray McCloud",
       "position": "WR",
       "number": "26",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -609,7 +601,7 @@
       "name": "Ruben Hyppolite II",
       "position": "LB",
       "number": "47",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -617,7 +609,7 @@
       "name": "Salvon Ahmed",
       "position": "RB",
       "number": "36",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -633,7 +625,7 @@
       "name": "Scott Miller",
       "position": "WR",
       "number": "35",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -641,7 +633,7 @@
       "name": "Shemar Turner",
       "position": "DT",
       "number": "95",
-      "status": "ACT",
+      "status": "PUP",
       "important": false,
       "source": "NFL.com"
     },
@@ -649,7 +641,7 @@
       "name": "Stephen Carlson",
       "position": "TE",
       "number": "88",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -665,7 +657,7 @@
       "name": "Terell Smith",
       "position": "CB",
       "number": "32",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -681,7 +673,7 @@
       "name": "Tony Fields II",
       "position": "LB",
       "number": "43",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -713,7 +705,7 @@
       "name": "Wayne Matthews II",
       "position": "LB",
       "number": "35",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -721,7 +713,7 @@
       "name": "Wesley French",
       "position": "C",
       "number": "68",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -729,7 +721,7 @@
       "name": "William Wright",
       "position": "CB",
       "number": "16",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

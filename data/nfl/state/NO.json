@@ -3,13 +3,13 @@
   "team": "New Orleans Saints",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-orleans-saints/roster",
-  "checkedAt": "2026-08-30T13:27:05.394551+00:00",
+  "checkedAt": "2026-08-31T15:42:59.562436+00:00",
   "players": [
     {
       "name": "Alan Herron",
       "position": "OT",
       "number": "70",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -17,7 +17,7 @@
       "name": "Alex Wollschlaeger",
       "position": "OT",
       "number": "79",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -65,7 +65,7 @@
       "name": "Barry Wesley",
       "position": "OT",
       "number": "69",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -73,7 +73,7 @@
       "name": "Brien Taylor",
       "position": "DT",
       "number": "60",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -81,7 +81,7 @@
       "name": "Brock Rechsteiner",
       "position": "WR",
       "number": "89",
-      "status": "ACT",
+      "status": "SUS",
       "important": true,
       "source": "NFL.com"
     },
@@ -105,7 +105,7 @@
       "name": "Bub Means",
       "position": "WR",
       "number": "16",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -113,7 +113,7 @@
       "name": "CJ Donaldson",
       "position": "RB",
       "number": "43",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -145,7 +145,7 @@
       "name": "Charlie Smyth",
       "position": "K",
       "number": "39",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -185,7 +185,7 @@
       "name": "Cody Hardy",
       "position": "TE",
       "number": "86",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -193,7 +193,7 @@
       "name": "Dalys Beanum",
       "position": "CB",
       "number": "37",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -225,7 +225,7 @@
       "name": "David Long",
       "position": "DB",
       "number": "71",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -234,14 +234,6 @@
       "position": "DT",
       "number": "92",
       "status": "ACT",
-      "important": false,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Deion Jones",
-      "position": "LB",
-      "number": "45",
-      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -257,7 +249,7 @@
       "name": "Devin Neal",
       "position": "RB",
       "number": "24",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -273,7 +265,7 @@
       "name": "Easton Kilty",
       "position": "OT",
       "number": "73",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -289,7 +281,7 @@
       "name": "Fadil Diggs",
       "position": "DE",
       "number": "40",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -297,7 +289,7 @@
       "name": "Garrett Nelson",
       "position": "DE",
       "number": "59",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -305,7 +297,7 @@
       "name": "Hunter Dekkers",
       "position": "QB",
       "number": "13",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -313,7 +305,7 @@
       "name": "Isaac Yiadom",
       "position": "CB",
       "number": "27",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -329,7 +321,7 @@
       "name": "Jackson Sirmon",
       "position": "LB",
       "number": "47",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -337,7 +329,7 @@
       "name": "Jalen Moreno-Cropper",
       "position": "WR",
       "number": "85",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -345,7 +337,7 @@
       "name": "Jay'Viar Suggs",
       "position": "DT",
       "number": "62",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -361,7 +353,7 @@
       "name": "Jaylan Ford",
       "position": "LB",
       "number": "53",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -385,7 +377,7 @@
       "name": "Jordyn Tyson",
       "position": "WR",
       "number": "74",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -417,7 +409,7 @@
       "name": "Kahlil Saunders",
       "position": "DT",
       "number": "67",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -473,7 +465,7 @@
       "name": "Malakai Williams",
       "position": "DE",
       "number": "56",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -489,7 +481,7 @@
       "name": "Mason Tipton",
       "position": "WR",
       "number": "15",
-      "status": "ACT",
+      "status": "PUP",
       "important": true,
       "source": "NFL.com"
     },
@@ -497,7 +489,7 @@
       "name": "Michael Davis",
       "position": "CB",
       "number": "74",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -505,7 +497,7 @@
       "name": "Michael Heldman",
       "position": "DE",
       "number": "63",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -529,7 +521,7 @@
       "name": "Myles Cole",
       "position": "DE",
       "number": "57",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -593,7 +585,7 @@
       "name": "Ronnie Bell",
       "position": "WR",
       "number": "11",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -617,7 +609,7 @@
       "name": "TJ Hall",
       "position": "DB",
       "number": "34",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -633,7 +625,7 @@
       "name": "Tanner Brown",
       "position": "K",
       "number": "46",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -641,7 +633,7 @@
       "name": "Torricelli Simpkins III",
       "position": "OL",
       "number": "68",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -657,7 +649,7 @@
       "name": "Trey Palmer",
       "position": "WR",
       "number": "10",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -713,7 +705,7 @@
       "name": "Xavier Truss",
       "position": "G",
       "number": "74",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -737,7 +729,7 @@
       "name": "Zaire Mitchell-Paden",
       "position": "TE",
       "number": "84",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -745,7 +737,7 @@
       "name": "Zamir White",
       "position": "RB",
       "number": "71",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     }

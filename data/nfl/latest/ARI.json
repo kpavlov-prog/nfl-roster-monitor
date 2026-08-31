@@ -3,7 +3,7 @@
   "team": "Arizona Cardinals",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/arizona-cardinals/roster",
-  "checkedAt": "2026-08-30T13:26:05.935161+00:00",
+  "checkedAt": "2026-08-31T15:42:06.800588+00:00",
   "players": [
     {
       "name": "Andrew Billings",
@@ -25,7 +25,7 @@
       "name": "BJ Ojulari",
       "position": "LB",
       "number": "9",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -65,7 +65,7 @@
       "name": "Brodric Martin",
       "position": "DT",
       "number": "98",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -89,7 +89,7 @@
       "name": "Cam Horsley",
       "position": "DT",
       "number": "93",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -97,7 +97,7 @@
       "name": "Cam Robertson",
       "position": "LB",
       "number": "49",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -137,7 +137,7 @@
       "name": "Christian Jones",
       "position": "OT",
       "number": "75",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -150,18 +150,10 @@
       "source": "NFL.com"
     },
     {
-      "name": "Corey Kiner",
-      "position": "RB",
-      "number": "37",
-      "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
       "name": "Damonic Williams",
       "position": "DT",
       "number": "96",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -185,7 +177,7 @@
       "name": "Demontrey Jacobs",
       "position": "OT",
       "number": "67",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -217,7 +209,7 @@
       "name": "Elijah Culp",
       "position": "CB",
       "number": "26",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -233,7 +225,7 @@
       "name": "Elijah Jones",
       "position": "CB",
       "number": "28",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -249,7 +241,7 @@
       "name": "Elliott Brown",
       "position": "LB",
       "number": "41",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -257,7 +249,7 @@
       "name": "Eugene Asante",
       "position": "LB",
       "number": "61",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -265,7 +257,7 @@
       "name": "Evan Hull",
       "position": "RB",
       "number": "43",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -289,7 +281,7 @@
       "name": "Harrison Wallace III",
       "position": "WR",
       "number": "30",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -310,10 +302,18 @@
       "source": "NFL.com"
     },
     {
+      "name": "Hunter Long",
+      "position": "TE",
+      "number": "77",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Ihmir Smith-Marsette",
       "position": "WR",
       "number": "9",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -337,7 +337,7 @@
       "name": "Isaiah Oliver",
       "position": "FS",
       "number": "34",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -345,7 +345,7 @@
       "name": "Jack Browning",
       "position": "P",
       "number": "71",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -377,7 +377,7 @@
       "name": "James Conner",
       "position": "RB",
       "number": "6",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -417,7 +417,7 @@
       "name": "Jonah Williams",
       "position": "DE",
       "number": "92",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -441,7 +441,7 @@
       "name": "Josh Minkins",
       "position": "DB",
       "number": "74",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -457,7 +457,7 @@
       "name": "Ka'ena Decambra",
       "position": "C",
       "number": "62",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -473,7 +473,7 @@
       "name": "Kalen King",
       "position": "CB",
       "number": "35",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -489,7 +489,7 @@
       "name": "Kedon Slovis",
       "position": "QB",
       "number": "12",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -521,7 +521,7 @@
       "name": "Keveion'ta Spears",
       "position": "DT",
       "number": "60",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -553,7 +553,7 @@
       "name": "Matt Pryor",
       "position": "OT",
       "number": "76",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -577,7 +577,7 @@
       "name": "Olisaemeka Udoh",
       "position": "OT",
       "number": "68",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -585,7 +585,7 @@
       "name": "Owen Pappoe",
       "position": "LB",
       "number": "44",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -609,7 +609,7 @@
       "name": "Quinton Newsome",
       "position": "CB",
       "number": "30",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -625,7 +625,7 @@
       "name": "Rivaldo Fairweather",
       "position": "TE",
       "number": "45",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -641,7 +641,7 @@
       "name": "Sean Murphy-Bunting",
       "position": "CB",
       "number": "23",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -649,7 +649,7 @@
       "name": "Shawn Bowman",
       "position": "TE",
       "number": "48",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -665,7 +665,7 @@
       "name": "Starling Thomas",
       "position": "CB",
       "number": "24",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -673,7 +673,7 @@
       "name": "Teagan Quitoriano",
       "position": "TE",
       "number": "47",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -681,7 +681,7 @@
       "name": "Tip Reiman",
       "position": "TE",
       "number": "87",
-      "status": "ACT",
+      "status": "PUP",
       "important": true,
       "source": "NFL.com"
     },
@@ -689,7 +689,7 @@
       "name": "Tre Stewart",
       "position": "RB",
       "number": "26",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -721,7 +721,7 @@
       "name": "Valentin Senn",
       "position": "OL",
       "number": "69",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -753,7 +753,7 @@
       "name": "Zachary Carter",
       "position": "DT",
       "number": "90",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
