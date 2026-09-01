@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-01T14:20:39.943089+00:00",
+    "teamCode": "UVA",
+    "teamName": "Virginia Cavaliers",
+    "type": "added",
+    "playerName": "Ty'Lyric Coleman",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-01T14:20:39.943107+00:00",
+    "teamCode": "UVA",
+    "teamName": "Virginia Cavaliers",
+    "type": "removed",
+    "playerName": "TyLyric Coleman",
+    "position": "WR",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-30T14:52:46.508281+00:00",
     "teamCode": "UVA",
     "teamName": "Virginia Cavaliers",

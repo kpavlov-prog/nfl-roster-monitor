@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-01T14:09:07.965243+00:00",
+    "teamCode": "AF",
+    "teamName": "Air Force Falcons",
+    "type": "added",
+    "playerName": "Eli Campbell",
+    "position": "OL",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-01T14:09:07.965290+00:00",
+    "teamCode": "AF",
+    "teamName": "Air Force Falcons",
+    "type": "removed",
+    "playerName": "Adam Pugh",
+    "position": "DL",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-27T19:51:42.871920+00:00",
     "teamCode": "AF",
     "teamName": "Air Force Falcons",
