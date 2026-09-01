@@ -3,7 +3,7 @@
   "team": "New England Patriots",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-england-patriots/roster",
-  "checkedAt": "2026-08-31T15:42:57.179172+00:00",
+  "checkedAt": "2026-09-01T12:54:47.701809+00:00",
   "players": [
     {
       "name": "A.J. Brown",
@@ -57,7 +57,7 @@
       "name": "Ben Brown",
       "position": "C",
       "number": "77",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -106,6 +106,14 @@
       "position": "WR",
       "number": "88",
       "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Cameron Latu",
+      "position": "TE",
+      "number": "77",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -195,6 +203,14 @@
       "number": "68",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Darius Muasau",
+      "position": "LB",
+      "number": "72",
+      "status": "ACT",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -305,7 +321,7 @@
       "name": "Isaiah Iton",
       "position": "DE",
       "number": "62",
-      "status": "LISTED",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -345,14 +361,6 @@
       "name": "Jam Miller",
       "position": "RB",
       "number": "30",
-      "status": "LISTED",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "James Hudson",
-      "position": "OT",
-      "number": "51",
       "status": "LISTED",
       "important": true,
       "source": "NFL.com"
@@ -441,7 +449,7 @@
       "name": "K.J. Britt",
       "position": "K",
       "number": "35",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -530,14 +538,6 @@
       "position": "WR",
       "number": "13",
       "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Marcellas Dial Jr.",
-      "position": "CB",
-      "number": "27",
-      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

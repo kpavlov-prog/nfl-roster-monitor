@@ -3,7 +3,7 @@
   "team": "Cleveland Browns",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/cleveland-browns/roster",
-  "checkedAt": "2026-08-31T15:42:23.552108+00:00",
+  "checkedAt": "2026-09-01T12:54:13.151006+00:00",
   "players": [
     {
       "name": "Adin Huntington",
@@ -225,7 +225,7 @@
       "name": "Edefuan Ulofoshio",
       "position": "LB",
       "number": "54",
-      "status": "LISTED",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -241,7 +241,7 @@
       "name": "Elijah Chatman",
       "position": "DT",
       "number": "62",
-      "status": "LISTED",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -377,7 +377,7 @@
       "name": "Julian Okwara",
       "position": "DE",
       "number": "99",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -654,10 +654,18 @@
       "source": "NFL.com"
     },
     {
+      "name": "Toriano Pride Jr.",
+      "position": "CB",
+      "number": "71",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Travis Bell",
       "position": "DT",
       "number": "66",
-      "status": "LISTED",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },

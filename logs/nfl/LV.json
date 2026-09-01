@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-01T12:54:36.246099+00:00",
+    "teamCode": "LV",
+    "teamName": "Las Vegas Raiders",
+    "type": "status changed",
+    "playerName": "Chase Roberts",
+    "position": "WR",
+    "oldValue": "LISTED",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-09-01T12:54:36.246116+00:00",
+    "teamCode": "LV",
+    "teamName": "Las Vegas Raiders",
+    "type": "added",
+    "playerName": "Darrell Luter Jr.",
+    "position": "CB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-01T12:54:36.246121+00:00",
+    "teamCode": "LV",
+    "teamName": "Las Vegas Raiders",
+    "type": "status changed",
+    "playerName": "Decamerion Richardson",
+    "position": "CB",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-31T15:42:45.677437+00:00",
     "teamCode": "LV",
     "teamName": "Las Vegas Raiders",

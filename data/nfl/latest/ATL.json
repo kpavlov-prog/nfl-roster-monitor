@@ -3,7 +3,7 @@
   "team": "Atlanta Falcons",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/atlanta-falcons/roster",
-  "checkedAt": "2026-08-31T15:42:09.158677+00:00",
+  "checkedAt": "2026-09-01T12:53:58.830246+00:00",
   "players": [
     {
       "name": "A.J. Terrell",
@@ -145,6 +145,14 @@
       "name": "Cameron Thomas",
       "position": "DE",
       "number": "99",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Cameron Williams",
+      "position": "OT",
+      "number": "78",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -414,6 +422,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Jared Ivey",
+      "position": "LB",
+      "number": "78",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Jawaan Taylor",
       "position": "OT",
       "number": "71",
@@ -481,7 +497,7 @@
       "name": "Keshawn Banks",
       "position": "DE",
       "number": "59",
-      "status": "LISTED",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -633,7 +649,7 @@
       "name": "Natrone Brooks",
       "position": "DB",
       "number": "35",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -734,6 +750,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Yasir Abdullah",
+      "position": "LB",
+      "number": "73",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Za'Darius Smith",
       "position": "DE",
       "number": "91",
@@ -745,7 +769,7 @@
       "name": "Zach Harrison",
       "position": "DE",
       "number": "96",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

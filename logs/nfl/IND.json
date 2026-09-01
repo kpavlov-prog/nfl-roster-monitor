@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-01T12:54:29.261302+00:00",
+    "teamCode": "IND",
+    "teamName": "Indianapolis Colts",
+    "type": "status changed",
+    "playerName": "Luke Tenuta",
+    "position": "OT",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-01T12:54:29.261325+00:00",
+    "teamCode": "IND",
+    "teamName": "Indianapolis Colts",
+    "type": "removed",
+    "playerName": "Blake Grupe",
+    "position": "K",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-01T12:54:29.261331+00:00",
+    "teamCode": "IND",
+    "teamName": "Indianapolis Colts",
+    "type": "removed",
+    "playerName": "Colby Wooden",
+    "position": "DE",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-31T15:42:37.808727+00:00",
     "teamCode": "IND",
     "teamName": "Indianapolis Colts",

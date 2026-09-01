@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-01T12:54:09.704239+00:00",
+    "teamCode": "CIN",
+    "teamName": "Cincinnati Bengals",
+    "type": "added",
+    "playerName": "Myles Hinton",
+    "position": "OT",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-01T12:54:09.704257+00:00",
+    "teamCode": "CIN",
+    "teamName": "Cincinnati Bengals",
+    "type": "status changed",
+    "playerName": "Tanner Hudson",
+    "position": "TE",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-31T15:42:21.299680+00:00",
     "teamCode": "CIN",
     "teamName": "Cincinnati Bengals",

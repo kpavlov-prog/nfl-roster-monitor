@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-01T12:55:06.910848+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Buccaneers",
+    "type": "status changed",
+    "playerName": "Mohamed Kamara",
+    "position": "LB",
+    "oldValue": "LISTED",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-01T12:55:06.910863+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Buccaneers",
+    "type": "status changed",
+    "playerName": "Pepe Williams",
+    "position": "CB",
+    "oldValue": "LISTED",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-09-01T12:55:06.910876+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Buccaneers",
+    "type": "removed",
+    "playerName": "Jack Pyburn",
+    "position": "LB",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-31T15:43:15.799202+00:00",
     "teamCode": "TB",
     "teamName": "Tampa Bay Buccaneers",
