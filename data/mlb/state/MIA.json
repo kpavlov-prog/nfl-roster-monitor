@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-08-31T16:09:34.500042+00:00",
+  "checkedAt": "2026-09-01T13:29:47.604179+00:00",
   "players": [
     {
       "name": "Agustín Ramírez",
@@ -18,6 +18,13 @@
       "name": "Brian Navarreto",
       "position": "C",
       "number": "64",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cade Gibson",
+      "position": "P",
+      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -81,6 +88,13 @@
       "name": "Janson Junk",
       "position": "P",
       "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jared Serna",
+      "position": "SS",
+      "number": "68",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,20 +186,6 @@
       "name": "Victor Vodnik",
       "position": "P",
       "number": "38",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Wikelman González",
-      "position": "P",
-      "number": "67",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Xavier Edwards",
-      "position": "2B",
-      "number": "9",
       "status": "A",
       "source": "MLB Stats API"
     }

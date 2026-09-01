@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-01T13:29:41.722059+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "added",
+    "playerName": "Mickey Gasper",
+    "position": "DH",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-01T13:29:41.722072+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "removed",
+    "playerName": "Willson Contreras",
+    "position": "1B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-31T16:09:27.944260+00:00",
     "teamCode": "BOS",
     "teamName": "Boston Red Sox",

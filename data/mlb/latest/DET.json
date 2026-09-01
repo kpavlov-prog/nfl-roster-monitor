@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=active",
-  "checkedAt": "2026-08-31T16:09:31.536963+00:00",
+  "checkedAt": "2026-09-01T13:29:44.932379+00:00",
   "players": [
     {
       "name": "Andrew Sears",
@@ -32,13 +32,6 @@
       "name": "Colt Keith",
       "position": "3B",
       "number": "33",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Corey Julks",
-      "position": "LF",
-      "number": "44",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -113,6 +106,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "John Peck",
+      "position": "SS",
+      "number": "18",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Keider Montero",
       "position": "P",
       "number": "54",
@@ -155,13 +155,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Tanner Rainey",
-      "position": "P",
-      "number": "56",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Troy Melton",
       "position": "P",
       "number": "52",
@@ -179,6 +172,13 @@
       "name": "Tyler Kinley",
       "position": "P",
       "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yilber Díaz",
+      "position": "P",
+      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     },
