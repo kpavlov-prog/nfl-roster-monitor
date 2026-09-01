@@ -3,12 +3,19 @@
   "team": "Edmonton Oilers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/EDM/current",
-  "checkedAt": "2026-08-31T16:16:23.302054+00:00",
+  "checkedAt": "2026-09-01T13:36:28.586703+00:00",
   "players": [
     {
       "name": "Aku Raty",
       "position": "R",
-      "number": "",
+      "number": "38",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Alec Regula",
+      "position": "D",
+      "number": "75",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -71,7 +78,7 @@
     {
       "name": "Eduards Tralmaks",
       "position": "R",
-      "number": "",
+      "number": "36",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -160,6 +167,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Matt Tomkins",
+      "position": "G",
+      "number": "90",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Mattias Ekholm",
       "position": "D",
       "number": "14",
@@ -190,7 +204,7 @@
     {
       "name": "Owen Michaels",
       "position": "R",
-      "number": "27",
+      "number": "43",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -246,7 +260,7 @@
     {
       "name": "Tomas Cibulka",
       "position": "D",
-      "number": "",
+      "number": "78",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
