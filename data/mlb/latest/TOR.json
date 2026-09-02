@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:55.172361+00:00",
+  "checkedAt": "2026-09-02T12:46:17.151243+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -57,13 +57,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Daz Cameron",
-      "position": "LF",
-      "number": "23",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Dylan Cease",
       "position": "P",
       "number": "84",
@@ -88,6 +81,20 @@
       "name": "Jesús Sánchez",
       "position": "RF",
       "number": "12",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Joe Mantiply",
+      "position": "P",
+      "number": "35",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Josh Smith",
+      "position": "2B",
+      "number": "9",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -151,6 +158,20 @@
       "name": "Paul Sewald",
       "position": "P",
       "number": "43",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ricky Tiedemann",
+      "position": "P",
+      "number": "33",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Sean Keys",
+      "position": "DH",
+      "number": "20",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:51.924642+00:00",
+  "checkedAt": "2026-09-02T12:46:13.922919+00:00",
   "players": [
     {
       "name": "Adrian Morejon",
@@ -50,6 +50,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Ethan Salas",
+      "position": "C",
+      "number": "8",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Fernando Tatis Jr.",
       "position": "RF",
       "number": "23",
@@ -88,6 +95,13 @@
       "name": "Jase Bowen",
       "position": "RF",
       "number": "4",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jhony Brito",
+      "position": "P",
+      "number": "76",
       "status": "A",
       "source": "MLB Stats API"
     },

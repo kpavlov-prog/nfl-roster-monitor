@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:52.990357+00:00",
+  "checkedAt": "2026-09-02T12:46:14.998316+00:00",
   "players": [
     {
       "name": "Andrés Muñoz",
@@ -92,6 +92,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Hoby Milner",
+      "position": "P",
+      "number": "41",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "J.P. Crawford",
       "position": "SS",
       "number": "3",
@@ -130,6 +137,13 @@
       "name": "Kade Anderson",
       "position": "P",
       "number": "13",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Lazaro Montes",
+      "position": "RF",
+      "number": "99",
       "status": "A",
       "source": "MLB Stats API"
     },

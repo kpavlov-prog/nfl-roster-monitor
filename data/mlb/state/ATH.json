@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:50.326094+00:00",
+  "checkedAt": "2026-09-02T12:46:12.299774+00:00",
   "players": [
     {
       "name": "Alika Williams",
@@ -46,6 +46,13 @@
       "name": "Darell Hernaiz",
       "position": "SS",
       "number": "2",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Denzel Clarke",
+      "position": "CF",
+      "number": "1",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,6 +186,13 @@
       "name": "Tommy White",
       "position": "3B",
       "number": "47",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yunior Tur",
+      "position": "P",
+      "number": "70",
       "status": "A",
       "source": "MLB Stats API"
     },

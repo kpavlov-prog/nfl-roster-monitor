@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:55.704734+00:00",
+  "checkedAt": "2026-09-02T12:46:17.703959+00:00",
   "players": [
     {
       "name": "Abimelec Ortiz",
@@ -120,6 +120,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jared Simpson",
+      "position": "P",
+      "number": "72",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jorbit Vivas",
       "position": "3B",
       "number": "84",
@@ -186,6 +193,13 @@
       "name": "Will Dion",
       "position": "P",
       "number": "76",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yohandy Morales",
+      "position": "1B",
+      "number": "28",
       "status": "A",
       "source": "MLB Stats API"
     }

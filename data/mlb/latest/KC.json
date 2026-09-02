@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/118/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:46.002581+00:00",
+  "checkedAt": "2026-09-02T12:46:07.983149+00:00",
   "players": [
     {
       "name": "Alex Lange",
@@ -53,6 +53,20 @@
       "name": "Daniel Lynch IV",
       "position": "P",
       "number": "41",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Drew Waters",
+      "position": "LF",
+      "number": "8",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Easton McGee",
+      "position": "P",
+      "number": "51",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -137,6 +151,13 @@
       "name": "Noah Cameron",
       "position": "P",
       "number": "65",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Nolan Hoffman",
+      "position": "P",
+      "number": "35",
       "status": "A",
       "source": "MLB Stats API"
     },

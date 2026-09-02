@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:54.639439+00:00",
+  "checkedAt": "2026-09-02T12:46:16.615893+00:00",
   "players": [
     {
       "name": "Adam Macko",
@@ -32,6 +32,13 @@
       "name": "Cal Quantrill",
       "position": "P",
       "number": "44",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cam Cauley",
+      "position": "CF",
+      "number": "27",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,6 +179,13 @@
       "name": "Robby Ahlstrom",
       "position": "P",
       "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Trevor Williams",
+      "position": "P",
+      "number": "51",
       "status": "A",
       "source": "MLB Stats API"
     },

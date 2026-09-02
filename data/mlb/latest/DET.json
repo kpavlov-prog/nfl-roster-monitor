@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:44.932379+00:00",
+  "checkedAt": "2026-09-02T12:46:06.911868+00:00",
   "players": [
     {
       "name": "Andrew Sears",
       "position": "P",
       "number": "64",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Beau Brieske",
+      "position": "P",
+      "number": "4",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,6 +151,13 @@
       "name": "Max Clark",
       "position": "CF",
       "number": "15",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Riley Greene",
+      "position": "LF",
+      "number": "31",
       "status": "A",
       "source": "MLB Stats API"
     },

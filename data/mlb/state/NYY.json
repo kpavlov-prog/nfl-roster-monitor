@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:49.793127+00:00",
+  "checkedAt": "2026-09-02T12:46:11.759328+00:00",
   "players": [
     {
       "name": "Ali Sánchez",
@@ -106,6 +106,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "John Schreiber",
+      "position": "P",
+      "number": "56",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "José Caballero",
       "position": "SS",
       "number": "72",
@@ -151,6 +158,13 @@
       "name": "Paul Goldschmidt",
       "position": "1B",
       "number": "48",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ryan McMahon",
+      "position": "3B",
+      "number": "19",
       "status": "A",
       "source": "MLB Stats API"
     },

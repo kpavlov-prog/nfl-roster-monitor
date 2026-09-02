@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:47.070553+00:00",
+  "checkedAt": "2026-09-02T12:46:09.060576+00:00",
   "players": [
-    {
-      "name": "Alek Thomas",
-      "position": "CF",
-      "number": "9",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Alex Call",
       "position": "LF",
@@ -22,16 +15,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Alex Vesia",
-      "position": "P",
-      "number": "51",
+      "name": "Alex Freeland",
+      "position": "2B",
+      "number": "76",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Ben Rortvedt",
-      "position": "C",
-      "number": "47",
+      "name": "Alex Vesia",
+      "position": "P",
+      "number": "51",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -46,6 +39,13 @@
       "name": "Brock Stewart",
       "position": "P",
       "number": "41",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Dalton Rushing",
+      "position": "C",
+      "number": "68",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -95,6 +95,13 @@
       "name": "Jack Dreyer",
       "position": "P",
       "number": "86",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Justin Wrobleski",
+      "position": "P",
+      "number": "70",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,6 +186,13 @@
       "name": "Tyler Glasnow",
       "position": "P",
       "number": "31",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Will Smith",
+      "position": "C",
+      "number": "16",
       "status": "A",
       "source": "MLB Stats API"
     },

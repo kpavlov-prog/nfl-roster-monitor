@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:40.603520+00:00",
+  "checkedAt": "2026-09-02T12:46:02.605920+00:00",
   "players": [
     {
       "name": "AJ Smith-Shawver",
@@ -18,6 +18,13 @@
       "name": "Austin Riley",
       "position": "3B",
       "number": "27",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Blake Burkhalter",
+      "position": "P",
+      "number": "76",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -95,6 +102,13 @@
       "name": "Ha-Seong Kim",
       "position": "SS",
       "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kyle Farmer",
+      "position": "DH",
+      "number": "15",
       "status": "A",
       "source": "MLB Stats API"
     },

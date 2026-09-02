@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:42.793150+00:00",
+  "checkedAt": "2026-09-02T12:46:04.761893+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -158,6 +158,20 @@
       "name": "Sean Newcomb",
       "position": "P",
       "number": "15",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tanner McDougal",
+      "position": "P",
+      "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tommy Pham",
+      "position": "LF",
+      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     },

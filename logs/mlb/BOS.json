@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-02T12:46:03.686737+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "added",
+    "playerName": "Isiah Kiner-Falefa",
+    "position": "2B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T12:46:03.686745+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "added",
+    "playerName": "Jedixson Paez",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T12:46:03.686752+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "added",
+    "playerName": "Wyatt Olds",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T12:46:03.686756+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "removed",
+    "playerName": "Tyron Guerrero",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-01T13:29:41.722059+00:00",
     "teamCode": "BOS",
     "teamName": "Boston Red Sox",

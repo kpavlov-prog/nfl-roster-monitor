@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:46.536232+00:00",
+  "checkedAt": "2026-09-02T12:46:08.521315+00:00",
   "players": [
     {
       "name": "Adam Frazier",
@@ -71,6 +71,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Kyren Paris",
+      "position": "2B",
+      "number": "19",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Luke Murphy",
       "position": "P",
       "number": "72",
@@ -130,6 +137,13 @@
       "name": "Sammy Peralta",
       "position": "P",
       "number": "67",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Samy Natera Jr.",
+      "position": "P",
+      "number": "52",
       "status": "A",
       "source": "MLB Stats API"
     },

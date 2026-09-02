@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:41.185680+00:00",
+  "checkedAt": "2026-09-02T12:46:03.148937+00:00",
   "players": [
+    {
+      "name": "Albert Suárez",
+      "position": "P",
+      "number": "49",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Alex Hoppe",
       "position": "P",
@@ -36,13 +43,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Cade Povich",
-      "position": "P",
-      "number": "37",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Cam Sanders",
       "position": "P",
       "number": "73",
@@ -67,13 +67,6 @@
       "name": "Christian Encarnacion-Strand",
       "position": "3B",
       "number": "32",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Christian Franklin",
-      "position": "CF",
-      "number": "27",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -113,6 +106,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Heston Kjerstad",
+      "position": "LF",
+      "number": "13",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jackson Holliday",
       "position": "2B",
       "number": "7",
@@ -137,6 +137,20 @@
       "name": "Leody Taveras",
       "position": "CF",
       "number": "30",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Luis De León",
+      "position": "P",
+      "number": "81",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Luis Robert Jr.",
+      "position": "CF",
+      "number": "88",
       "status": "A",
       "source": "MLB Stats API"
     },

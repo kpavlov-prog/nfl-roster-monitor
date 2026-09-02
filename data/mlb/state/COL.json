@@ -5,8 +5,22 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:44.399633+00:00",
+  "checkedAt": "2026-09-02T12:46:06.375202+00:00",
   "players": [
+    {
+      "name": "Adael Amador",
+      "position": "2B",
+      "number": "1",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Blas Castaño",
+      "position": "P",
+      "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Brennan Bernardino",
       "position": "P",

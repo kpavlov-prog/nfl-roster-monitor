@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:45.469365+00:00",
+  "checkedAt": "2026-09-02T12:46:07.447416+00:00",
   "players": [
     {
       "name": "AJ Blubaugh",
@@ -99,6 +99,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jake Meyers",
+      "position": "CF",
+      "number": "6",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jeremy Peña",
       "position": "SS",
       "number": "3",
@@ -151,6 +158,13 @@
       "name": "Peter Lambert",
       "position": "P",
       "number": "38",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ronel Blanco",
+      "position": "P",
+      "number": "56",
       "status": "A",
       "source": "MLB Stats API"
     },

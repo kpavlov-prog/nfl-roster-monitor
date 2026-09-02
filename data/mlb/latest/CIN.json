@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:43.326525+00:00",
+  "checkedAt": "2026-09-02T12:46:05.300363+00:00",
   "players": [
     {
       "name": "Andrew Abbott",
@@ -18,6 +18,13 @@
       "name": "Brady Singer",
       "position": "P",
       "number": "51",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brandon Williamson",
+      "position": "P",
+      "number": "55",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -95,6 +102,13 @@
       "name": "Jose Trevino",
       "position": "C",
       "number": "35",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Juan Brito",
+      "position": "2B",
+      "number": "46",
       "status": "A",
       "source": "MLB Stats API"
     },

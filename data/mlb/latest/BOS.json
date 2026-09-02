@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:41.721151+00:00",
+  "checkedAt": "2026-09-02T12:46:03.685941+00:00",
   "players": [
     {
       "name": "Adley Rutschman",
@@ -92,6 +92,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Isiah Kiner-Falefa",
+      "position": "2B",
+      "number": "2",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jahmai Jones",
       "position": "DH",
       "number": "37",
@@ -109,6 +116,13 @@
       "name": "Jarren Duran",
       "position": "LF",
       "number": "16",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jedixson Paez",
+      "position": "P",
+      "number": "65",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -176,16 +190,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Tyron Guerrero",
-      "position": "P",
-      "number": "41",
+      "name": "Wilyer Abreu",
+      "position": "RF",
+      "number": "52",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Wilyer Abreu",
-      "position": "RF",
-      "number": "52",
+      "name": "Wyatt Olds",
+      "position": "P",
+      "number": "75",
       "status": "A",
       "source": "MLB Stats API"
     }

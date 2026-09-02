@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:53.572957+00:00",
+  "checkedAt": "2026-09-02T12:46:15.541588+00:00",
   "players": [
     {
       "name": "Alec Burleson",
@@ -57,6 +57,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Hancel Rincon",
+      "position": "P",
+      "number": "66",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Iván Herrera",
       "position": "DH",
       "number": "48",
@@ -95,6 +102,13 @@
       "name": "Kyle Leahy",
       "position": "P",
       "number": "62",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Leo Bernal",
+      "position": "C",
+      "number": "13",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,6 +193,13 @@
       "name": "Thomas Saggese",
       "position": "LF",
       "number": "25",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Victor Scott II",
+      "position": "CF",
+      "number": "11",
       "status": "A",
       "source": "MLB Stats API"
     }

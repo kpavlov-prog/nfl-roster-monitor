@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/112/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:42.258085+00:00",
+  "checkedAt": "2026-09-02T12:46:04.221015+00:00",
   "players": [
     {
       "name": "Aaron Civale",
@@ -18,6 +18,13 @@
       "name": "Alex Bregman",
       "position": "3B",
       "number": "3",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "BJ Murray Jr.",
+      "position": "3B",
+      "number": "83",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,6 +186,13 @@
       "name": "Trent Thornton",
       "position": "P",
       "number": "49",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tyler Ferguson",
+      "position": "P",
+      "number": "64",
       "status": "A",
       "source": "MLB Stats API"
     },

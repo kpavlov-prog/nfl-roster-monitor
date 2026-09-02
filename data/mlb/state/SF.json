@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-09-01T13:29:52.455988+00:00",
+  "checkedAt": "2026-09-02T12:46:14.461773+00:00",
   "players": [
     {
       "name": "Andrew Knizner",
@@ -46,6 +46,13 @@
       "name": "Carson Seymour",
       "position": "P",
       "number": "77",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cesar Perdomo",
+      "position": "P",
+      "number": "83",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -186,6 +193,13 @@
       "name": "Yunior Marte",
       "position": "P",
       "number": "87",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Zach Morgan",
+      "position": "C",
+      "number": "80",
       "status": "A",
       "source": "MLB Stats API"
     }

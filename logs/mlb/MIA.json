@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-02T12:46:09.596769+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Marlins",
+    "type": "position changed",
+    "playerName": "Agustín Ramírez",
+    "position": "DH",
+    "oldValue": "C",
+    "newValue": "DH",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T12:46:09.596777+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Marlins",
+    "type": "added",
+    "playerName": "Bradley Blalock",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T12:46:09.596782+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Marlins",
+    "type": "added",
+    "playerName": "Graham Pauley",
+    "position": "3B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-01T13:29:47.605152+00:00",
     "teamCode": "MIA",
     "teamName": "Miami Marlins",
