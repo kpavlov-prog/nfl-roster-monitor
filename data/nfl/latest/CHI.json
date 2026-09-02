@@ -3,7 +3,7 @@
   "team": "Chicago Bears",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/chicago-bears/roster",
-  "checkedAt": "2026-09-01T12:54:06.875392+00:00",
+  "checkedAt": "2026-09-02T12:24:59.305399+00:00",
   "players": [
     {
       "name": "Antonio Grier Jr.",
@@ -54,6 +54,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Buddy Johnson",
+      "position": "LB",
+      "number": "74",
+      "status": "LISTED",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Caden Barnett",
       "position": "G",
       "number": "76",
@@ -94,6 +102,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Christian Jones",
+      "position": "OT",
+      "number": "77",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Clark Phillips III",
       "position": "CB",
       "number": "69",
@@ -105,7 +121,7 @@
       "name": "Coby Bryant",
       "position": "CB",
       "number": "2",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -225,7 +241,7 @@
       "name": "Hayden Large",
       "position": "TE",
       "number": "43",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -241,7 +257,7 @@
       "name": "Jack Sanborn",
       "position": "LB",
       "number": "57",
-      "status": "LISTED",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },
@@ -256,8 +272,8 @@
     {
       "name": "James Lynch",
       "position": "DT",
-      "number": "97",
-      "status": "LISTED",
+      "number": "76",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },
@@ -298,14 +314,6 @@
       "position": "DB",
       "number": "33",
       "status": "RES",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Jedrick Wills",
-      "position": "OT",
-      "number": "71",
-      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -403,14 +411,6 @@
       "number": "49",
       "status": "ACT",
       "important": false,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Kiran Amegadjie",
-      "position": "OT",
-      "number": "72",
-      "status": "LISTED",
-      "important": true,
       "source": "NFL.com"
     },
     {
@@ -646,14 +646,6 @@
       "source": "NFL.com"
     },
     {
-      "name": "Terell Smith",
-      "position": "CB",
-      "number": "32",
-      "status": "LISTED",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
       "name": "Theo Benedet",
       "position": "OL",
       "number": "79",
@@ -722,6 +714,14 @@
       "position": "FS",
       "number": "23",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Zavier Scott",
+      "position": "RB",
+      "number": "73",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

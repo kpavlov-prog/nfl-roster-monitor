@@ -3,7 +3,7 @@
   "team": "New England Patriots",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-england-patriots/roster",
-  "checkedAt": "2026-09-01T12:54:47.701809+00:00",
+  "checkedAt": "2026-09-02T12:25:37.154547+00:00",
   "players": [
     {
       "name": "A.J. Brown",
@@ -18,14 +18,6 @@
       "position": "G",
       "number": "75",
       "status": "ACT",
-      "important": false,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Amari Gainer",
-      "position": "LB",
-      "number": "99",
-      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -57,15 +49,7 @@
       "name": "Ben Brown",
       "position": "C",
       "number": "77",
-      "status": "LISTED",
-      "important": false,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Bradyn Swinson",
-      "position": "LB",
-      "number": "43",
-      "status": "LISTED",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },
@@ -81,7 +65,7 @@
       "name": "Bryce Baringer",
       "position": "P",
       "number": "17",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -278,6 +262,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Erick Hunter",
+      "position": "LB",
+      "number": "76",
+      "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Gabe Jacas",
       "position": "LB",
       "number": "50",
@@ -342,17 +334,25 @@
       "source": "NFL.com"
     },
     {
-      "name": "Jack Westover",
-      "position": "TE",
-      "number": "37",
-      "status": "LISTED",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
       "name": "Jacob Rizy",
       "position": "C",
       "number": "64",
+      "status": "LISTED",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Jake Kubas",
+      "position": "G",
+      "number": "76",
+      "status": "LISTED",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Jalen Hunt",
+      "position": "DT",
+      "number": "74",
       "status": "LISTED",
       "important": false,
       "source": "NFL.com"
@@ -409,6 +409,14 @@
       "name": "JonDarius Morgan",
       "position": "G",
       "number": "69",
+      "status": "LISTED",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Jose Ramirez",
+      "position": "LB",
+      "number": "74",
       "status": "LISTED",
       "important": false,
       "source": "NFL.com"
@@ -473,7 +481,7 @@
       "name": "Khalil Jacobs",
       "position": "LB",
       "number": "59",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -586,6 +594,14 @@
       "position": "DT",
       "number": "97",
       "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Mitch Wishnowsky",
+      "position": "P",
+      "number": "74",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },

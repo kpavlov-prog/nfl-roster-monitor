@@ -3,7 +3,7 @@
   "team": "Kansas City Chiefs",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/kansas-city-chiefs/roster",
-  "checkedAt": "2026-09-01T12:54:33.681036+00:00",
+  "checkedAt": "2026-09-02T12:25:22.419472+00:00",
   "players": [
     {
       "name": "Amari McNeill",
@@ -26,6 +26,14 @@
       "position": "DE",
       "number": "97",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Ben VanSumeren",
+      "position": "RB",
+      "number": "74",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -171,14 +179,6 @@
       "number": "10",
       "status": "ACT",
       "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Esa Pole",
-      "position": "OL",
-      "number": "79",
-      "status": "LISTED",
-      "important": false,
       "source": "NFL.com"
     },
     {
@@ -382,14 +382,6 @@
       "source": "NFL.com"
     },
     {
-      "name": "Josh Thompson",
-      "position": "G",
-      "number": "62",
-      "status": "LISTED",
-      "important": false,
-      "source": "NFL.com"
-    },
-    {
       "name": "Joshua Ezeudu",
       "position": "G",
       "number": "76",
@@ -442,14 +434,6 @@
       "position": "RB",
       "number": "9",
       "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Kevin Knowles",
-      "position": "DB",
-      "number": "35",
-      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -539,6 +523,14 @@
       "number": "66",
       "status": "ACT",
       "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Nate Carter",
+      "position": "RB",
+      "number": "70",
+      "status": "LISTED",
+      "important": true,
       "source": "NFL.com"
     },
     {
@@ -638,14 +630,6 @@
       "source": "NFL.com"
     },
     {
-      "name": "Tre Watson",
-      "position": "TE",
-      "number": "49",
-      "status": "LISTED",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
       "name": "Trey Smith",
       "position": "G",
       "number": "65",
@@ -665,14 +649,6 @@
       "name": "Tyreke Smith",
       "position": "DE",
       "number": "57",
-      "status": "LISTED",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Vincent Anthony Jr.",
-      "position": "DE",
-      "number": "98",
       "status": "LISTED",
       "important": true,
       "source": "NFL.com"

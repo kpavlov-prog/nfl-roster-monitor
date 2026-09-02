@@ -3,7 +3,7 @@
   "team": "San Francisco 49ers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/san-francisco-49ers/roster",
-  "checkedAt": "2026-09-01T12:55:01.006067+00:00",
+  "checkedAt": "2026-09-02T12:25:53.407591+00:00",
   "players": [
     {
       "name": "Adrian Martinez",
@@ -41,6 +41,14 @@
       "name": "Brandon Aiyuk",
       "position": "WR",
       "number": "11",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Brandon Codrington",
+      "position": "DB",
+      "number": "69",
       "status": "LISTED",
       "important": true,
       "source": "NFL.com"
@@ -129,7 +137,7 @@
       "name": "Corliss Waitman",
       "position": "P",
       "number": "7",
-      "status": "LISTED",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },
@@ -246,6 +254,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Foster Sarell",
+      "position": "OT",
+      "number": "78",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Fred Warner",
       "position": "MLB",
       "number": "54",
@@ -275,14 +291,6 @@
       "number": "93",
       "status": "ACT",
       "important": false,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Hayden Rucci",
-      "position": "TE",
-      "number": "83",
-      "status": "LISTED",
-      "important": true,
       "source": "NFL.com"
     },
     {
@@ -430,6 +438,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Kevin Givens",
+      "position": "DT",
+      "number": "90",
+      "status": "LISTED",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "KhaDarel Hodge",
       "position": "WR",
       "number": "74",
@@ -545,7 +561,7 @@
       "name": "Nate Hobbs",
       "position": "CB",
       "number": "22",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -561,7 +577,7 @@
       "name": "Nick Martin",
       "position": "LB",
       "number": "45",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -737,6 +753,14 @@
       "name": "Viliami Fehoko Jr.",
       "position": "DE",
       "number": "76",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Vincent Anthony Jr.",
+      "position": "DE",
+      "number": "78",
       "status": "LISTED",
       "important": true,
       "source": "NFL.com"

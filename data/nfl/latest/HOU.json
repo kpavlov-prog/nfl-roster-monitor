@@ -3,7 +3,7 @@
   "team": "Houston Texans",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/houston-texans/roster",
-  "checkedAt": "2026-09-01T12:54:26.445232+00:00",
+  "checkedAt": "2026-09-02T12:25:15.180577+00:00",
   "players": [
     {
       "name": "Aiden Fisher",
@@ -65,15 +65,7 @@
       "name": "Braden Smith",
       "position": "OT",
       "number": "71",
-      "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Brandon Codrington",
-      "position": "CB",
-      "number": "17",
-      "status": "LISTED",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -89,7 +81,7 @@
       "name": "Brevin Jordan",
       "position": "TE",
       "number": "9",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -129,6 +121,14 @@
       "name": "Caleb Johnson",
       "position": "LB",
       "number": "74",
+      "status": "LISTED",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Chris Braswell",
+      "position": "LB",
+      "number": "75",
       "status": "LISTED",
       "important": false,
       "source": "NFL.com"
@@ -225,7 +225,7 @@
       "name": "Dominique Robinson",
       "position": "DE",
       "number": "97",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -250,14 +250,6 @@
       "position": "G",
       "number": "69",
       "status": "ACT",
-      "important": false,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Eli Cox",
-      "position": "OL",
-      "number": "65",
-      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -446,6 +438,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Ka'ena Decambra",
+      "position": "C",
+      "number": "75",
+      "status": "LISTED",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Ka'imi Fairbairn",
       "position": "K",
       "number": "15",
@@ -558,11 +558,11 @@
       "source": "NFL.com"
     },
     {
-      "name": "Naquan Jones",
-      "position": "DT",
-      "number": "91",
+      "name": "Mitchell Tinsley",
+      "position": "WR",
+      "number": "73",
       "status": "LISTED",
-      "important": false,
+      "important": true,
       "source": "NFL.com"
     },
     {
@@ -609,7 +609,7 @@
       "name": "Sam Hagen",
       "position": "OT",
       "number": "76",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -722,6 +722,14 @@
       "position": "WR",
       "number": "19",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Zaire Mitchell-Paden",
+      "position": "TE",
+      "number": "77",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

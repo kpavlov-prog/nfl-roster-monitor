@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-02T12:24:50.837632+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Ravens",
+    "type": "added",
+    "playerName": "Jake Moody",
+    "position": "K",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-02T12:24:50.837660+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Ravens",
+    "type": "removed",
+    "playerName": "Robert Longerbeam",
+    "position": "CB",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-01T12:54:00.483475+00:00",
     "teamCode": "BAL",
     "teamName": "Baltimore Ravens",

@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-02T12:25:45.454419+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "added",
+    "playerName": "Al-Jay Henderson",
+    "position": "RB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-02T12:25:45.454457+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "added",
+    "playerName": "Troy Reeder",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T12:25:45.454468+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "removed",
+    "playerName": "Mazi Smith",
+    "position": "DT",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-01T12:54:54.581789+00:00",
     "teamCode": "NYJ",
     "teamName": "New York Jets",

@@ -3,7 +3,7 @@
   "team": "Carolina Panthers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/carolina-panthers/roster",
-  "checkedAt": "2026-09-01T12:54:05.220636+00:00",
+  "checkedAt": "2026-09-02T12:24:55.874112+00:00",
   "players": [
     {
       "name": "AJ Dillon",
@@ -38,6 +38,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Anthony Goodlow",
+      "position": "DE",
+      "number": "77",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Anthony Tyus III",
       "position": "RB",
       "number": "34",
@@ -65,7 +73,7 @@
       "name": "Brady Christensen",
       "position": "OT",
       "number": "70",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -262,14 +270,6 @@
       "source": "NFL.com"
     },
     {
-      "name": "Elijah Garcia",
-      "position": "DE",
-      "number": "96",
-      "status": "LISTED",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
       "name": "Feleipe Franks",
       "position": "TE",
       "number": "81",
@@ -379,14 +379,6 @@
       "number": "85",
       "status": "LISTED",
       "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Jared Harrison-Hunte",
-      "position": "DL",
-      "number": "94",
-      "status": "LISTED",
-      "important": false,
       "source": "NFL.com"
     },
     {
@@ -686,6 +678,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Torricelli Simpkins III",
+      "position": "G",
+      "number": "77",
+      "status": "LISTED",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Trevis Gipson",
       "position": "LB",
       "number": "52",
@@ -710,6 +710,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Tyrel Dodson",
+      "position": "LB",
+      "number": "72",
+      "status": "LISTED",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Tywone Malone",
       "position": "DT",
       "number": "64",
@@ -730,6 +738,14 @@
       "position": "WR",
       "number": "17",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Zion Childress",
+      "position": "DB",
+      "number": "71",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     }

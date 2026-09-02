@@ -3,7 +3,7 @@
   "team": "Los Angeles Chargers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/los-angeles-chargers/roster",
-  "checkedAt": "2026-09-01T12:54:39.064771+00:00",
+  "checkedAt": "2026-09-02T12:25:28.090854+00:00",
   "players": [
     {
       "name": "Akheem Mesidor",
@@ -161,7 +161,7 @@
       "name": "Denzel Perryman",
       "position": "MLB",
       "number": "6",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -230,14 +230,6 @@
       "source": "NFL.com"
     },
     {
-      "name": "Garmon Randolph",
-      "position": "LB",
-      "number": "97",
-      "status": "LISTED",
-      "important": false,
-      "source": "NFL.com"
-    },
-    {
       "name": "Gary Jennings",
       "position": "WR",
       "number": "73",
@@ -273,7 +265,7 @@
       "name": "J.K. Scott",
       "position": "K",
       "number": "16",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -530,6 +522,14 @@
       "position": "TE",
       "number": "86",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Patrick Herbert",
+      "position": "TE",
+      "number": "77",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
