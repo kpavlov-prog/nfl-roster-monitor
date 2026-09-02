@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-02T13:49:51.272884+00:00",
+    "teamCode": "USU",
+    "teamName": "Utah State Aggies",
+    "type": "added",
+    "playerName": "Collin Remenowksy",
+    "position": "TE",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:49:51.272907+00:00",
+    "teamCode": "USU",
+    "teamName": "Utah State Aggies",
+    "type": "removed",
+    "playerName": "Alex Faiivae",
+    "position": "TE",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-02T13:49:51.272912+00:00",
+    "teamCode": "USU",
+    "teamName": "Utah State Aggies",
+    "type": "removed",
+    "playerName": "Kaden Cox",
+    "position": "QB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-02T13:49:51.272915+00:00",
+    "teamCode": "USU",
+    "teamName": "Utah State Aggies",
+    "type": "removed",
+    "playerName": "Sampson Alofipo",
+    "position": "LB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-01T14:20:24.487088+00:00",
     "teamCode": "USU",
     "teamName": "Utah State Aggies",

@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/96/roster?limit=100&page=1",
-  "checkedAt": "2026-09-01T14:13:36.694691+00:00",
+  "checkedAt": "2026-09-02T13:43:48.900926+00:00",
   "players": [
     {
       "name": "Aaron Gates",
@@ -36,6 +36,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Ahmir Smith",
+      "position": "RB",
+      "number": "28",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Alexander DiMartino",
       "position": "OL",
       "number": "68",
@@ -60,13 +67,6 @@
       "name": "Andrew Weber",
       "position": "DB",
       "number": "36",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Antonio O'Berry",
-      "position": "LB",
-      "number": "9",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -295,13 +295,6 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Hardley Gilmore IV",
-      "position": "WR",
-      "number": "17",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
       "name": "Hasaan Sykes",
       "position": "DB",
       "number": "12",
@@ -407,7 +400,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Jermiel Atkins",
+      "name": "Jermiel Atkins Jr.",
       "position": "OL",
       "number": "74",
       "status": "ACTIVE",
@@ -424,6 +417,13 @@
       "name": "Jordan Castell",
       "position": "DB",
       "number": "5",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Jordan Colbert",
+      "position": "RB",
+      "number": "29",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -487,13 +487,6 @@
       "name": "Kevis Thomas",
       "position": "DB",
       "number": "19",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Kyle Mixon",
-      "position": "OL",
-      "number": "63",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -599,13 +592,6 @@
       "name": "Nic Anderson",
       "position": "WR",
       "number": "4",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Nic Smith",
-      "position": "DL",
-      "number": "55",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -738,7 +724,7 @@
     {
       "name": "Tovani Mizell",
       "position": "RB",
-      "number": "28",
+      "number": "21",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -760,6 +746,13 @@
       "name": "Tyler Wright",
       "position": "DB",
       "number": "38",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "William Drakeford Jr.",
+      "position": "QB",
+      "number": "17",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

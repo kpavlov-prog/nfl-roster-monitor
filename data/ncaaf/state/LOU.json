@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/97/roster?limit=100&page=1",
-  "checkedAt": "2026-09-01T14:14:01.456304+00:00",
+  "checkedAt": "2026-09-02T13:44:08.257622+00:00",
   "players": [
     {
       "name": "AJ Green",
@@ -277,6 +277,13 @@
       "name": "Evan Wibberley",
       "position": "OL",
       "number": "58",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Garion McPherson",
+      "position": "DB",
+      "number": "47",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -571,6 +578,13 @@
       "name": "Naeer Jackson",
       "position": "OL",
       "number": "57",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Niall Hayes",
+      "position": "P",
+      "number": "91",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/142/roster?limit=100&page=1",
-  "checkedAt": "2026-09-01T14:15:05.269150+00:00",
+  "checkedAt": "2026-09-02T13:45:03.508826+00:00",
   "players": [
     {
       "name": "Adam Molitor",
@@ -57,7 +57,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Bobby Washington",
+      "name": "Bobby Washington Jr.",
       "position": "LB",
       "number": "16",
       "status": "ACTIVE",
@@ -129,7 +129,7 @@
     {
       "name": "CJ Bass III",
       "position": "S",
-      "number": "30",
+      "number": "14",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -141,7 +141,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Caleb Goodie",
+      "name": "Caleb Goodie Sr.",
       "position": "WR",
       "number": "2",
       "status": "ACTIVE",
@@ -218,6 +218,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "DJ McBride II",
+      "position": "WR",
+      "number": "33",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "DaMarion Fowlkes",
       "position": "WR",
       "number": "3",
@@ -249,13 +256,6 @@
       "name": "Demarcus Johnson",
       "position": "EDGE",
       "number": "52",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Derrick McBride II",
-      "position": "WR",
-      "number": "33",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -319,6 +319,13 @@
       "name": "Gavin Wyatt",
       "position": "WR",
       "number": "32",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Graham Faust",
+      "position": "S",
+      "number": "41",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -563,7 +570,7 @@
     {
       "name": "Maddux Hermestroff",
       "position": "S",
-      "number": "32",
+      "number": "39",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -722,9 +729,16 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Tajh Overton",
+      "name": "Sterling Webb",
       "position": "DT",
       "number": "90",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Tajh Overton",
+      "position": "DT",
+      "number": "98",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -745,7 +759,7 @@
     {
       "name": "Trashundon Neal",
       "position": "CB",
-      "number": "29",
+      "number": "36",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -778,7 +792,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Zach Owens",
+      "name": "Zack Owens",
       "position": "OL",
       "number": "52",
       "status": "ACTIVE",

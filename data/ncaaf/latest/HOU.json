@@ -5,15 +5,8 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/248/roster?limit=100&page=1",
-  "checkedAt": "2026-09-01T14:12:36.616924+00:00",
+  "checkedAt": "2026-09-02T13:43:07.747216+00:00",
   "players": [
-    {
-      "name": "Aaron Davis",
-      "position": "RB",
-      "number": "38",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
     {
       "name": "Aaron Wolford",
       "position": "OL",
@@ -253,13 +246,6 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Hunter Teichman",
-      "position": "WR",
-      "number": "42",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
       "name": "Isaac Richardson",
       "position": "DB",
       "number": "32",
@@ -361,13 +347,6 @@
       "name": "Javen Holmes",
       "position": "DB",
       "number": "29",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Javion White",
-      "position": "DB",
-      "number": "0",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -493,7 +472,7 @@
     {
       "name": "Kvion Roberson",
       "position": "DB",
-      "number": "54",
+      "number": "40",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -578,6 +557,13 @@
       "name": "Myles Parker",
       "position": "DL",
       "number": "98",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Myles Rowser",
+      "position": "DB",
+      "number": "21",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -668,7 +654,7 @@
     {
       "name": "Ryan Smith",
       "position": "QB",
-      "number": "12",
+      "number": "18",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -703,6 +689,13 @@
     {
       "name": "Sione Fotu",
       "position": "LB",
+      "number": "12",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Stephon Johnson",
+      "position": "WR",
       "number": "12",
       "status": "ACTIVE",
       "source": "ESPN College Football API"

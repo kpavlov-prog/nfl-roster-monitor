@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/9/roster?limit=100&page=1",
-  "checkedAt": "2026-09-01T14:09:28.176901+00:00",
+  "checkedAt": "2026-09-02T13:41:17.568868+00:00",
   "players": [
     {
       "name": "AJ Ia",
@@ -128,7 +128,7 @@
     },
     {
       "name": "Clayton Smith",
-      "position": "DE",
+      "position": "DL",
       "number": "10",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -214,6 +214,13 @@
       "name": "Emar'rion Winston",
       "position": "DL",
       "number": "4",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Filiva'a Lokotui",
+      "position": "OL",
+      "number": "57",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -591,7 +598,7 @@
     {
       "name": "Prayer Young-Blackgoat",
       "position": "LB",
-      "number": "49",
+      "number": "13",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

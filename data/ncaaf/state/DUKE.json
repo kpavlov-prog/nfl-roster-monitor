@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/150/roster?limit=100&page=1",
-  "checkedAt": "2026-09-01T14:11:26.677712+00:00",
+  "checkedAt": "2026-09-02T13:42:28.667268+00:00",
   "players": [
     {
       "name": "Andrew Pellicciotta",
@@ -242,6 +242,13 @@
       "name": "Evan Smith",
       "position": "CB",
       "number": "4",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Gavin Strange",
+      "position": "PK",
+      "number": "25",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-02T13:47:54.755185+00:00",
+    "teamCode": "USM",
+    "teamName": "Southern Miss Golden Eagles",
+    "type": "added",
+    "playerName": "Cam'rom Hoyte",
+    "position": "DL",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:47:54.755242+00:00",
+    "teamCode": "USM",
+    "teamName": "Southern Miss Golden Eagles",
+    "type": "removed",
+    "playerName": "Kam'ron Hoyte",
+    "position": "DL",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-27T20:09:52.651818+00:00",
     "teamCode": "USM",
     "teamName": "Southern Miss Golden Eagles",

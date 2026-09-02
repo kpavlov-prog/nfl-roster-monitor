@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/277/roster?limit=100&page=1",
-  "checkedAt": "2026-09-01T14:21:05.847188+00:00",
+  "checkedAt": "2026-09-02T13:50:32.848479+00:00",
   "players": [
     {
       "name": "Aidan Woods",
@@ -263,6 +263,13 @@
       "name": "Deshawn Woods",
       "position": "OL",
       "number": "76",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Destin Achi",
+      "position": "LB",
+      "number": "54",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -718,6 +725,13 @@
       "name": "Shane Cornali",
       "position": "S",
       "number": "31",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Silas Steffen",
+      "position": "S",
+      "number": "38",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

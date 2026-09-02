@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-09-02T13:41:40.067062+00:00",
+    "teamCode": "BYU",
+    "teamName": "BYU Cougars",
+    "type": "added",
+    "playerName": "Asher Young",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:41:40.067071+00:00",
+    "teamCode": "BYU",
+    "teamName": "BYU Cougars",
+    "type": "position changed",
+    "playerName": "Braxton Lindsey",
+    "position": "LB",
+    "oldValue": "DE",
+    "newValue": "LB",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:41:40.067114+00:00",
+    "teamCode": "BYU",
+    "teamName": "BYU Cougars",
+    "type": "added",
+    "playerName": "TJ Johnson",
+    "position": "S",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:41:40.067121+00:00",
+    "teamCode": "BYU",
+    "teamName": "BYU Cougars",
+    "type": "number changed",
+    "playerName": "Ty Smith",
+    "position": "LS",
+    "oldValue": "43",
+    "newValue": "88",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:41:40.067126+00:00",
+    "teamCode": "BYU",
+    "teamName": "BYU Cougars",
+    "type": "removed",
+    "playerName": "Antonio Johnson",
+    "position": "S",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-07T10:12:25.367391+00:00",
     "teamCode": "BYU",
     "teamName": "BYU Cougars",

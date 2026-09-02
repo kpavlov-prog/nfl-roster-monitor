@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-09-02T13:49:23.070738+00:00",
+    "teamCode": "ULM",
+    "teamName": "UL Monroe Warhawks",
+    "type": "added",
+    "playerName": "Darrion Gilliam",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:49:23.070762+00:00",
+    "teamCode": "ULM",
+    "teamName": "UL Monroe Warhawks",
+    "type": "added",
+    "playerName": "Tyrell Brown",
+    "position": "DL",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:49:23.070766+00:00",
+    "teamCode": "ULM",
+    "teamName": "UL Monroe Warhawks",
+    "type": "number changed",
+    "playerName": "Willie Wilson",
+    "position": "DB",
+    "oldValue": "33",
+    "newValue": "26",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:49:23.070772+00:00",
+    "teamCode": "ULM",
+    "teamName": "UL Monroe Warhawks",
+    "type": "removed",
+    "playerName": "Jase Hoath",
+    "position": "TE",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-02T13:49:23.070776+00:00",
+    "teamCode": "ULM",
+    "teamName": "UL Monroe Warhawks",
+    "type": "removed",
+    "playerName": "Le'Kell Mc'Gowan",
+    "position": "LB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-28T11:37:00.016782+00:00",
     "teamCode": "ULM",
     "teamName": "UL Monroe Warhawks",

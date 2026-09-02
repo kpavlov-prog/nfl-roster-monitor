@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-02T13:41:52.282059+00:00",
+    "teamCode": "BC",
+    "teamName": "Boston College Eagles",
+    "type": "number changed",
+    "playerName": "Anthony Coellner",
+    "position": "QB",
+    "oldValue": "5",
+    "newValue": "18",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:41:52.282071+00:00",
+    "teamCode": "BC",
+    "teamName": "Boston College Eagles",
+    "type": "position changed",
+    "playerName": "Bryce Lewis",
+    "position": "TE",
+    "oldValue": "DL",
+    "newValue": "TE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:41:52.282100+00:00",
+    "teamCode": "BC",
+    "teamName": "Boston College Eagles",
+    "type": "added",
+    "playerName": "Kelvin Brown Jr.",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:41:52.282129+00:00",
+    "teamCode": "BC",
+    "teamName": "Boston College Eagles",
+    "type": "removed",
+    "playerName": "Kelvin Brown",
+    "position": "WR",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-22T11:21:35.867709+00:00",
     "teamCode": "BC",
     "teamName": "Boston College Eagles",

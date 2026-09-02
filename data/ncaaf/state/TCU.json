@@ -5,12 +5,12 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2628/roster?limit=100&page=1",
-  "checkedAt": "2026-09-01T14:18:34.915076+00:00",
+  "checkedAt": "2026-09-02T13:48:08.880201+00:00",
   "players": [
     {
       "name": "Aaron Bowers",
       "position": "LS",
-      "number": "47",
+      "number": "54",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -37,7 +37,7 @@
     },
     {
       "name": "Anders Corn",
-      "position": "LB",
+      "position": "EDGE",
       "number": "49",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -78,13 +78,6 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Braylon James",
-      "position": "WR",
-      "number": "16",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
       "name": "Brock King",
       "position": "CB",
       "number": "16",
@@ -100,7 +93,7 @@
     },
     {
       "name": "CJ Woodfork",
-      "position": "LB",
+      "position": "EDGE",
       "number": "9",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -121,14 +114,14 @@
     },
     {
       "name": "Carter Buck",
-      "position": "LB",
+      "position": "EDGE",
       "number": "98",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
       "name": "Cheta Ofili",
-      "position": "LB",
+      "position": "EDGE",
       "number": "36",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -352,7 +345,7 @@
     },
     {
       "name": "Jared Martin",
-      "position": "LB",
+      "position": "EDGE",
       "number": "94",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -387,7 +380,7 @@
     },
     {
       "name": "Jesse Ford",
-      "position": "LB",
+      "position": "EDGE",
       "number": "19",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -408,7 +401,7 @@
     },
     {
       "name": "John Schobel",
-      "position": "LB",
+      "position": "EDGE",
       "number": "14",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -527,7 +520,7 @@
     },
     {
       "name": "Koron Hayward",
-      "position": "LB",
+      "position": "EDGE",
       "number": "16",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -562,7 +555,7 @@
     },
     {
       "name": "Lawson Watkins",
-      "position": "LB",
+      "position": "EDGE",
       "number": "55",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -660,14 +653,14 @@
     },
     {
       "name": "Oliver Gunn",
-      "position": "DE",
+      "position": "EDGE",
       "number": "40",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
       "name": "Paul Oyewale",
-      "position": "LB",
+      "position": "EDGE",
       "number": "97",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -787,7 +780,7 @@
     {
       "name": "Will Terry",
       "position": "LS",
-      "number": "43",
+      "number": "57",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -800,7 +793,7 @@
     },
     {
       "name": "Zach Chapman",
-      "position": "LB",
+      "position": "EDGE",
       "number": "0",
       "status": "ACTIVE",
       "source": "ESPN College Football API"

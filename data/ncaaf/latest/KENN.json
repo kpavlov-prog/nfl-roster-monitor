@@ -5,12 +5,19 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/338/roster?limit=100&page=1",
-  "checkedAt": "2026-09-01T14:13:26.455640+00:00",
+  "checkedAt": "2026-09-02T13:43:41.051882+00:00",
   "players": [
     {
       "name": "AJ Miller",
       "position": "DL",
       "number": "53",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Aidan Williams",
+      "position": "OL",
+      "number": "73",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -39,6 +46,13 @@
       "name": "Anthony Cater Jr.",
       "position": "OL",
       "number": "50",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Antonio Ferebee II",
+      "position": "DB",
+      "number": "21",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -141,6 +155,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Colt Muschara",
+      "position": "WR",
+      "number": "48",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Connor Coxwell",
       "position": "DL",
       "number": "95",
@@ -221,6 +242,20 @@
       "name": "Dylan Gary",
       "position": "WR",
       "number": "13",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Dylan Green",
+      "position": "WR",
+      "number": "16",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "EB Bailey",
+      "position": "DB",
+      "number": "49",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -477,6 +512,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Leo Attard",
+      "position": "PK",
+      "number": "39",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Luke Duska",
       "position": "OL",
       "number": "66",
@@ -624,6 +666,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Spencer Wise",
+      "position": "TE",
+      "number": "83",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Taiwo Ogundele",
       "position": "LB",
       "number": "36",
@@ -673,6 +722,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Yusuf Okanlawon",
+      "position": "OL",
+      "number": "61",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "ZaMario Woodgett",
       "position": "OL",
       "number": "71",
@@ -690,6 +746,13 @@
       "name": "Zay Wilson",
       "position": "LB",
       "number": "56",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Zechariah Duke",
+      "position": "P",
+      "number": "98",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

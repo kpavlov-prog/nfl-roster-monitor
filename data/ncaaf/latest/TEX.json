@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/251/roster?limit=100&page=1",
-  "checkedAt": "2026-09-01T14:18:58.838012+00:00",
+  "checkedAt": "2026-09-02T13:48:29.684206+00:00",
   "players": [
     {
       "name": "Alex January",
@@ -102,6 +102,13 @@
       "name": "Chris Stewart",
       "position": "WR",
       "number": "14",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Cole Hutson",
+      "position": "OL",
+      "number": "54",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -333,6 +340,13 @@
       "name": "Jett Walker",
       "position": "RB",
       "number": "28",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "John Meredith III",
+      "position": "DB",
+      "number": "0",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

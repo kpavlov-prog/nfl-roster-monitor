@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-02T13:41:26.313815+00:00",
+    "teamCode": "ARK",
+    "teamName": "Arkansas Razorbacks",
+    "type": "added",
+    "playerName": "Braxton Scriber",
+    "position": "TE",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:41:26.313874+00:00",
+    "teamCode": "ARK",
+    "teamName": "Arkansas Razorbacks",
+    "type": "removed",
+    "playerName": "Landon Phipps",
+    "position": "DB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-21T11:20:06.311100+00:00",
     "teamCode": "ARK",
     "teamName": "Arkansas Razorbacks",

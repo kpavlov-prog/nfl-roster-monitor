@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2116/roster?limit=100&page=1",
-  "checkedAt": "2026-09-01T14:19:40.292256+00:00",
+  "checkedAt": "2026-09-02T13:49:08.492369+00:00",
   "players": [
     {
       "name": "Agyeman Addae",
@@ -190,6 +190,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Cole Kozlowski",
+      "position": "LB",
+      "number": "43",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Connor Meadows",
       "position": "OL",
       "number": "58",
@@ -242,6 +249,13 @@
       "name": "Donnell Johnson III",
       "position": "DB",
       "number": "49",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Donteye Drew",
+      "position": "DT",
+      "number": "91",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -472,7 +486,7 @@
     {
       "name": "Kyle Hicks",
       "position": "LS",
-      "number": "43",
+      "number": "44",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -751,7 +765,7 @@
     },
     {
       "name": "Will Stone",
-      "position": "PK",
+      "position": "P",
       "number": "15",
       "status": "ACTIVE",
       "source": "ESPN College Football API"

@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-02T13:41:43.082964+00:00",
+    "teamCode": "BALL",
+    "teamName": "Ball State Cardinals",
+    "type": "added",
+    "playerName": "Anthony McMullen Jr.",
+    "position": "RB",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:41:43.083017+00:00",
+    "teamCode": "BALL",
+    "teamName": "Ball State Cardinals",
+    "type": "added",
+    "playerName": "TJ Byard",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:41:43.083025+00:00",
+    "teamCode": "BALL",
+    "teamName": "Ball State Cardinals",
+    "type": "removed",
+    "playerName": "Anthony McMullen",
+    "position": "RB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-02T10:52:03.494665+00:00",
     "teamCode": "BALL",
     "teamName": "Ball State Cardinals",

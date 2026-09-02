@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-09-02T13:42:20.086311+00:00",
+    "teamCode": "COLO",
+    "teamName": "Colorado Buffaloes",
+    "type": "position changed",
+    "playerName": "Aiden DeCorte",
+    "position": "OL",
+    "oldValue": "LS",
+    "newValue": "OL",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:42:20.086319+00:00",
+    "teamCode": "COLO",
+    "teamName": "Colorado Buffaloes",
+    "type": "position changed",
+    "playerName": "Ben Gula",
+    "position": "OL",
+    "oldValue": "TE",
+    "newValue": "OL",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:42:20.086323+00:00",
+    "teamCode": "COLO",
+    "teamName": "Colorado Buffaloes",
+    "type": "number changed",
+    "playerName": "Ben Gula",
+    "position": "OL",
+    "oldValue": "82",
+    "newValue": "65",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:42:20.086343+00:00",
+    "teamCode": "COLO",
+    "teamName": "Colorado Buffaloes",
+    "type": "added",
+    "playerName": "Gideon Lampron",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-02T13:42:20.086379+00:00",
+    "teamCode": "COLO",
+    "teamName": "Colorado Buffaloes",
+    "type": "removed",
+    "playerName": "Gideon ESPN Lampron",
+    "position": "LB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-05T11:35:09.405039+00:00",
     "teamCode": "COLO",
     "teamName": "Colorado Buffaloes",

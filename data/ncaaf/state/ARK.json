@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/8/roster?limit=100&page=1",
-  "checkedAt": "2026-09-01T14:09:39.617760+00:00",
+  "checkedAt": "2026-09-02T13:41:26.313194+00:00",
   "players": [
     {
       "name": "AJ Hill",
@@ -130,6 +130,13 @@
       "name": "Brandon Ford",
       "position": "DB",
       "number": "29",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Braxton Scriber",
+      "position": "TE",
+      "number": "49",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -620,13 +627,6 @@
       "name": "LaMarcus Hicks II",
       "position": "DB",
       "number": "27",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Landon Phipps",
-      "position": "DB",
-      "number": "32",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
