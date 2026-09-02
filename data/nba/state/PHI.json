@@ -3,7 +3,7 @@
   "team": "Philadelphia 76ers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/PHI/roster",
-  "checkedAt": "2026-09-01T13:42:42.318230+00:00",
+  "checkedAt": "2026-09-02T12:59:09.555373+00:00",
   "players": [
     {
       "name": "Adem Bona",
@@ -62,6 +62,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Jameer Nelson Jr.",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Jaylen Brown",
       "position": "G",
       "number": "7",
@@ -107,6 +114,13 @@
       "name": "Rayan Rupert",
       "position": "G",
       "number": "12",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Tacko Fall",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
