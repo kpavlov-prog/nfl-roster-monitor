@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-09-02T12:46:09.060576+00:00",
+  "checkedAt": "2026-09-03T12:49:19.167098+00:00",
   "players": [
     {
       "name": "Alex Call",
@@ -36,6 +36,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Blake Treinen",
+      "position": "P",
+      "number": "49",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Brock Stewart",
       "position": "P",
       "number": "41",
@@ -60,13 +67,6 @@
       "name": "Enrique Hernández",
       "position": "1B",
       "number": "8",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Eric Lauer",
-      "position": "P",
-      "number": "33",
       "status": "A",
       "source": "MLB Stats API"
     },

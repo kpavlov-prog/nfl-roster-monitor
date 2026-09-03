@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-09-02T12:46:04.761893+00:00",
+  "checkedAt": "2026-09-03T12:49:14.348529+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -53,6 +53,13 @@
       "name": "Colson Montgomery",
       "position": "SS",
       "number": "12",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Davis Martin",
+      "position": "P",
+      "number": "65",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -158,13 +165,6 @@
       "name": "Sean Newcomb",
       "position": "P",
       "number": "15",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tanner McDougal",
-      "position": "P",
-      "number": "55",
       "status": "A",
       "source": "MLB Stats API"
     },

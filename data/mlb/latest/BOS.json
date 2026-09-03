@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-09-02T12:46:03.685941+00:00",
+  "checkedAt": "2026-09-03T12:49:13.170305+00:00",
   "players": [
     {
       "name": "Adley Rutschman",
@@ -120,13 +120,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jedixson Paez",
-      "position": "P",
-      "number": "65",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jovani Morán",
       "position": "P",
       "number": "47",
@@ -165,6 +158,13 @@
       "name": "Ranger Suarez",
       "position": "P",
       "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Raymond Burgos",
+      "position": "P",
+      "number": "79",
       "status": "A",
       "source": "MLB Stats API"
     },
