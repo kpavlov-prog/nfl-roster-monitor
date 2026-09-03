@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/275/roster?limit=100&page=1",
-  "checkedAt": "2026-09-02T13:50:49.357208+00:00",
+  "checkedAt": "2026-09-03T13:54:39.842319+00:00",
   "players": [
     {
       "name": "Aaron Witt",
@@ -200,6 +200,13 @@
       "name": "Darrion Dupree",
       "position": "RB",
       "number": "6",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Dashaun Moss",
+      "position": "CB",
+      "number": "31",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -578,6 +585,13 @@
       "name": "Matthew Traynor",
       "position": "S",
       "number": "13",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "McCoy Smith",
+      "position": "FB",
+      "number": "41",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

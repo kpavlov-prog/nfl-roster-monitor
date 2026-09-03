@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/6/roster?limit=100&page=1",
-  "checkedAt": "2026-09-02T13:47:40.005140+00:00",
+  "checkedAt": "2026-09-03T13:49:11.676810+00:00",
   "players": [
     {
       "name": "Aaden Shamburger",
@@ -31,7 +31,7 @@
     {
       "name": "Andrew Hines",
       "position": "DL",
-      "number": "11",
+      "number": "94",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -57,7 +57,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Artem Korchagin Jr",
+      "name": "Artem Korchagin Jr.",
       "position": "OL",
       "number": "67",
       "status": "ACTIVE",
@@ -95,6 +95,13 @@
       "name": "Braiden Cheshire",
       "position": "S",
       "number": "38",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Brandon Nolan",
+      "position": "WR",
+      "number": "89",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -358,13 +365,6 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "JJ Williams",
-      "position": "WR",
-      "number": "28",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
       "name": "Jacob Porco",
       "position": "LB",
       "number": "43",
@@ -393,7 +393,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Jarvis Washington Jr",
+      "name": "Jarvis Washington Jr.",
       "position": "WR",
       "number": "13",
       "status": "ACTIVE",
@@ -582,13 +582,6 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Max Roth",
-      "position": "PK",
-      "number": "97",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
       "name": "Micah Woods",
       "position": "WR",
       "number": "6",
@@ -640,7 +633,7 @@
     {
       "name": "Parker Shattuck",
       "position": "LB",
-      "number": "0",
+      "number": "11",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -708,16 +701,9 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Taylor Jacobs Jr",
+      "name": "Taylor Jacobs Jr.",
       "position": "QB",
       "number": "15",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Terry Kirksey Jr",
-      "position": "LB",
-      "number": "46",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -736,7 +722,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Tomareo Johnson Jr",
+      "name": "Tomareo Johnson Jr.",
       "position": "S",
       "number": "28",
       "status": "ACTIVE",

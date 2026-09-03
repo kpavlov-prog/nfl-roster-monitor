@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-03T13:42:22.882991+00:00",
+    "teamCode": "KENT",
+    "teamName": "Kent State Golden Flashes",
+    "type": "position changed",
+    "playerName": "Clinton Robinson",
+    "position": "DB",
+    "oldValue": "S",
+    "newValue": "DB",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-03T13:42:22.883048+00:00",
+    "teamCode": "KENT",
+    "teamName": "Kent State Golden Flashes",
+    "type": "removed",
+    "playerName": "Mason Imbt",
+    "position": "OL",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-10T10:42:03.478666+00:00",
     "teamCode": "KENT",
     "teamName": "Kent State Golden Flashes",

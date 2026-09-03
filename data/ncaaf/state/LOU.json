@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/97/roster?limit=100&page=1",
-  "checkedAt": "2026-09-02T13:44:08.257622+00:00",
+  "checkedAt": "2026-09-03T13:43:08.518868+00:00",
   "players": [
     {
       "name": "AJ Green",
@@ -599,6 +599,13 @@
       "name": "Payton Cook",
       "position": "WR",
       "number": "84",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Reece Sellers",
+      "position": "DL",
+      "number": "59",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

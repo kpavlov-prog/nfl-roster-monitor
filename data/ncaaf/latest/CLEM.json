@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/228/roster?limit=100&page=1",
-  "checkedAt": "2026-09-02T13:42:13.479024+00:00",
+  "checkedAt": "2026-09-03T13:38:41.070911+00:00",
   "players": [
     {
       "name": "Adam Guthrie",
@@ -141,6 +141,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Cam Blivens",
+      "position": "WR",
+      "number": "83",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Carlito Jones",
       "position": "OL",
       "number": "67",
@@ -158,6 +165,13 @@
       "name": "Champ Thompson",
       "position": "DT",
       "number": "29",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Chance Barclay",
+      "position": "OL",
+      "number": "70",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -550,6 +564,13 @@
       "name": "Juju Preston",
       "position": "WR",
       "number": "10",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Kam Cody",
+      "position": "DT",
+      "number": "54",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

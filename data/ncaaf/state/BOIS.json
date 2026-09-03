@@ -5,19 +5,19 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/68/roster?limit=100&page=1",
-  "checkedAt": "2026-09-02T13:41:49.161072+00:00",
+  "checkedAt": "2026-09-03T13:37:37.559250+00:00",
   "players": [
-    {
-      "name": "A.J. Logan",
-      "position": "WR",
-      "number": "89",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
     {
       "name": "AJ Jones",
       "position": "WR",
       "number": "17",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "AJ Logan",
+      "position": "WR",
+      "number": "89",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -45,7 +45,7 @@
     {
       "name": "Akeem Wright",
       "position": "WR",
-      "number": "21",
+      "number": "5",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -122,7 +122,7 @@
     {
       "name": "Bradan Scott",
       "position": "P",
-      "number": "42",
+      "number": "38",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -134,16 +134,16 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Cam Jamerson",
-      "position": "DB",
-      "number": "28",
+      "name": "Cam Bates",
+      "position": "WR",
+      "number": "3",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
-      "name": "Cameron Bates",
-      "position": "WR",
-      "number": "3",
+      "name": "Cam Jamerson",
+      "position": "DB",
+      "number": "28",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -246,7 +246,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "DeShawn Toilolo",
+      "name": "De'Shawn Toilolo",
       "position": "LB",
       "number": "40",
       "status": "ACTIVE",
@@ -402,7 +402,7 @@
     {
       "name": "JeRico Washington Jr.",
       "position": "DB",
-      "number": "15",
+      "number": "6",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -666,7 +666,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Samuel Brooks",
+      "name": "Sam Brooks",
       "position": "LB",
       "number": "18",
       "status": "ACTIVE",
@@ -745,7 +745,7 @@
     {
       "name": "Travis Anderson",
       "position": "DB",
-      "number": "38",
+      "number": "4",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

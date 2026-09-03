@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/36/roster?limit=100&page=1",
-  "checkedAt": "2026-09-02T13:42:23.083273+00:00",
+  "checkedAt": "2026-09-03T13:39:03.557726+00:00",
   "players": [
     {
       "name": "AJ Noland",
@@ -78,8 +78,8 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Brandon Brown Jr.",
-      "position": "WR",
+      "name": "Brandon Brown",
+      "position": "RB",
       "number": "29",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -162,15 +162,15 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "D'Angelo Hagans Jr.",
-      "position": "DB",
+      "name": "D'Angelo Hagans",
+      "position": "CB",
       "number": "5",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
       "name": "D'Mon Brinson",
-      "position": "DB",
+      "position": "S",
       "number": "1",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -353,7 +353,7 @@
     {
       "name": "Jaivyn Moore",
       "position": "WR",
-      "number": "20",
+      "number": "12",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -366,7 +366,7 @@
     },
     {
       "name": "Jayden Cortell",
-      "position": "DB",
+      "position": "CB",
       "number": "20",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -464,15 +464,8 @@
     },
     {
       "name": "Kallen Martinez",
-      "position": "S",
+      "position": "CB",
       "number": "30",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Keegan Shank",
-      "position": "DL",
-      "number": "90",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -513,7 +506,7 @@
     },
     {
       "name": "Makih Johnson",
-      "position": "WR",
+      "position": "CB",
       "number": "22",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -701,7 +694,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Thomas Cook Jr.",
+      "name": "Thomas Cook",
       "position": "CB",
       "number": "26",
       "status": "ACTIVE",
@@ -757,13 +750,6 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Ty Staples",
-      "position": "CB",
-      "number": "33",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
       "name": "Tyrone Fitten",
       "position": "DL",
       "number": "96",
@@ -771,7 +757,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Uluaki Tatafu",
+      "name": "Uliaku Tatafu",
       "position": "OL",
       "number": "78",
       "status": "ACTIVE",
@@ -786,7 +772,7 @@
     },
     {
       "name": "Xavier Wimbush",
-      "position": "DB",
+      "position": "CB",
       "number": "29",
       "status": "ACTIVE",
       "source": "ESPN College Football API"

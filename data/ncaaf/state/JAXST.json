@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/55/roster?limit=100&page=1",
-  "checkedAt": "2026-09-02T13:43:28.178621+00:00",
+  "checkedAt": "2026-09-03T13:41:43.044146+00:00",
   "players": [
     {
       "name": "AJ Watkins",
@@ -116,6 +116,13 @@
       "name": "Bryson Rouillier",
       "position": "WR",
       "number": "39",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Cade Frier",
+      "position": "WR",
+      "number": "13",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -470,7 +477,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Kadyn Mitchell",
+      "name": "Kadyn Palmer",
       "position": "QB",
       "number": "2",
       "status": "ACTIVE",
@@ -534,7 +541,7 @@
     },
     {
       "name": "Landon Watkins",
-      "position": "RB",
+      "position": "WR",
       "number": "28",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -613,6 +620,13 @@
       "name": "Maurice Winston",
       "position": "RB",
       "number": "20",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Max Shiver",
+      "position": "OL",
+      "number": "53",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -764,13 +778,6 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Santonio Jones",
-      "position": "WR",
-      "number": "18",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
       "name": "Shane Payton Hodges",
       "position": "TE",
       "number": "4",
@@ -814,7 +821,7 @@
     },
     {
       "name": "Temarion Foster",
-      "position": "CB",
+      "position": "WR",
       "number": "23",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -823,6 +830,13 @@
       "name": "Tim Anthony",
       "position": "CB",
       "number": "21",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Trace Thompson",
+      "position": "TE",
+      "number": "41",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -900,13 +914,6 @@
       "name": "William Hathcock",
       "position": "OL",
       "number": "60",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Wyatt Sonderman",
-      "position": "WR",
-      "number": "9",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     }

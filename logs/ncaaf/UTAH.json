@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-03T13:53:19.603878+00:00",
+    "teamCode": "UTAH",
+    "teamName": "Utah Utes",
+    "type": "position changed",
+    "playerName": "Nate Johnson",
+    "position": "RB",
+    "oldValue": "ATH",
+    "newValue": "RB",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-03T13:53:19.603886+00:00",
+    "teamCode": "UTAH",
+    "teamName": "Utah Utes",
+    "type": "position changed",
+    "playerName": "Nick Brown",
+    "position": "LB",
+    "oldValue": "CB",
+    "newValue": "LB",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-03T13:53:19.603889+00:00",
+    "teamCode": "UTAH",
+    "teamName": "Utah Utes",
+    "type": "number changed",
+    "playerName": "Nick Brown",
+    "position": "LB",
+    "oldValue": "13",
+    "newValue": "46",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-02T13:49:56.864356+00:00",
     "teamCode": "UTAH",
     "teamName": "Utah Utes",

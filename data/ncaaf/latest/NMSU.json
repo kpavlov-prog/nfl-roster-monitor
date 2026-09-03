@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/166/roster?limit=100&page=1",
-  "checkedAt": "2026-09-02T13:45:32.139161+00:00",
+  "checkedAt": "2026-09-03T13:45:38.076750+00:00",
   "players": [
     {
       "name": "AJ Carey",
@@ -169,6 +169,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Ellijah Farr",
+      "position": "DL",
+      "number": "94",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Enzo-Pierre Tayou",
       "position": "DL",
       "number": "44",
@@ -302,6 +309,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Jamaun Thompson",
+      "position": "DE",
+      "number": "29",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "James Jones",
       "position": "RB",
       "number": "2",
@@ -340,6 +354,13 @@
       "name": "Jayden Bell",
       "position": "WR",
       "number": "25",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Jaylen Stokes",
+      "position": "WR",
+      "number": "13",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -450,8 +471,15 @@
     },
     {
       "name": "Lorenzo Smith",
-      "position": "CB",
+      "position": "S",
       "number": "0",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Luke Lopez",
+      "position": "TE",
+      "number": "87",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

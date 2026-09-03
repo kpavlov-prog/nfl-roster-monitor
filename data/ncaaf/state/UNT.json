@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/249/roster?limit=100&page=1",
-  "checkedAt": "2026-09-02T13:45:45.286617+00:00",
+  "checkedAt": "2026-09-03T13:46:03.202019+00:00",
   "players": [
     {
       "name": "AJ Brown",
@@ -494,6 +494,13 @@
       "name": "KC Ekwu",
       "position": "OL",
       "number": "78",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Kaeden Swann",
+      "position": "CB",
+      "number": "35",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
