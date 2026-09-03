@@ -3,7 +3,7 @@
   "team": "Cleveland Cavaliers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/CLE/roster",
-  "checkedAt": "2026-09-02T12:58:59.612621+00:00",
+  "checkedAt": "2026-09-03T13:01:19.642954+00:00",
   "players": [
     {
       "name": "Craig Porter Jr.",
@@ -55,9 +55,16 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Khalifa Diop",
+      "position": "C",
+      "number": "18",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Mario Hezonja",
       "position": "F",
-      "number": "",
+      "number": "33",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

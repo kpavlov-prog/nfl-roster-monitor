@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-03T13:01:19.644016+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Cavaliers",
+    "type": "added",
+    "playerName": "Khalifa Diop",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-03T13:01:19.644027+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Cavaliers",
+    "type": "number changed",
+    "playerName": "Mario Hezonja",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "33",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-02T12:59:09.556539+00:00",
     "teamCode": "PHI",
     "teamName": "Philadelphia 76ers",
