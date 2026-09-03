@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-03T12:56:03.740156+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Flyers",
+    "type": "position changed",
+    "playerName": "Zachary Aston-Reese",
+    "position": "L",
+    "oldValue": "C",
+    "newValue": "L",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-03T12:56:03.740164+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Flyers",
+    "type": "number changed",
+    "playerName": "Zachary Aston-Reese",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "21",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-08-27T19:11:43.590950+00:00",
     "teamCode": "PHI",
     "teamName": "Philadelphia Flyers",
