@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-03T12:24:15.825244+00:00",
+    "teamCode": "NE",
+    "teamName": "New England Patriots",
+    "type": "status changed",
+    "playerName": "Jimmy Kibble",
+    "position": "WR",
+    "oldValue": "RES",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-09-03T12:24:15.825266+00:00",
+    "teamCode": "NE",
+    "teamName": "New England Patriots",
+    "type": "added",
+    "playerName": "Shane Zylstra",
+    "position": "TE",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-03T12:24:15.825275+00:00",
+    "teamCode": "NE",
+    "teamName": "New England Patriots",
+    "type": "removed",
+    "playerName": "CJ Dippre",
+    "position": "TE",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-02T12:25:37.154864+00:00",
     "teamCode": "NE",
     "teamName": "New England Patriots",

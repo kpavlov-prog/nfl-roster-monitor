@@ -3,7 +3,7 @@
   "team": "New England Patriots",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-england-patriots/roster",
-  "checkedAt": "2026-09-02T12:25:37.154547+00:00",
+  "checkedAt": "2026-09-03T12:24:15.824895+00:00",
   "players": [
     {
       "name": "A.J. Brown",
@@ -67,14 +67,6 @@
       "number": "17",
       "status": "RES",
       "important": false,
-      "source": "NFL.com"
-    },
-    {
-      "name": "CJ Dippre",
-      "position": "TE",
-      "number": "81",
-      "status": "LISTED",
-      "important": true,
       "source": "NFL.com"
     },
     {
@@ -401,7 +393,7 @@
       "name": "Jimmy Kibble",
       "position": "WR",
       "number": "73",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -690,6 +682,14 @@
       "position": "WR",
       "number": "87",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Shane Zylstra",
+      "position": "TE",
+      "number": "76",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

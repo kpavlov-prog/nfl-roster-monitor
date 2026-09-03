@@ -3,7 +3,7 @@
   "team": "New Orleans Saints",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-orleans-saints/roster",
-  "checkedAt": "2026-09-02T12:25:39.599658+00:00",
+  "checkedAt": "2026-09-03T12:24:18.389337+00:00",
   "players": [
     {
       "name": "Alan Herron",
@@ -65,7 +65,7 @@
       "name": "Barry Wesley",
       "position": "OT",
       "number": "69",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -200,7 +200,7 @@
     {
       "name": "Colby Wooden",
       "position": "DE",
-      "number": "76",
+      "number": "50",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -209,14 +209,14 @@
       "name": "Dalys Beanum",
       "position": "CB",
       "number": "37",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
     {
       "name": "Daniel Carlson",
       "position": "K",
-      "number": "77",
+      "number": "10",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -231,10 +231,10 @@
     },
     {
       "name": "David Edwards",
-      "position": "OT",
+      "position": "G",
       "number": "76",
       "status": "ACT",
-      "important": true,
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -496,7 +496,7 @@
     {
       "name": "Mason Murphy",
       "position": "OT",
-      "number": "77",
+      "number": "74",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -522,14 +522,6 @@
       "position": "DE",
       "number": "63",
       "status": "RES",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Michael Reid",
-      "position": "CB",
-      "number": "42",
-      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -719,10 +711,10 @@
     },
     {
       "name": "Will Sherman",
-      "position": "OT",
+      "position": "G",
       "number": "66",
       "status": "ACT",
-      "important": true,
+      "important": false,
       "source": "NFL.com"
     },
     {

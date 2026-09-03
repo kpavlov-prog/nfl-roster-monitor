@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-03T12:24:21.690036+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "status changed",
+    "playerName": "Chase Curtis",
+    "position": "TE",
+    "oldValue": "RES",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-09-03T12:24:21.690073+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "removed",
+    "playerName": "Junior Tafuna",
+    "position": "DT",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-02T12:25:45.454419+00:00",
     "teamCode": "NYJ",
     "teamName": "New York Jets",

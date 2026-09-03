@@ -3,7 +3,7 @@
   "team": "Minnesota Vikings",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/minnesota-vikings/roster",
-  "checkedAt": "2026-09-02T12:25:34.726731+00:00",
+  "checkedAt": "2026-09-03T12:24:13.286405+00:00",
   "players": [
     {
       "name": "Aaron Jones",
@@ -47,10 +47,10 @@
     },
     {
       "name": "Blake Brandel",
-      "position": "OT",
+      "position": "C",
       "number": "64",
       "status": "ACT",
-      "important": true,
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -160,7 +160,7 @@
     {
       "name": "Chaz Chambliss",
       "position": "LB",
-      "number": "57",
+      "number": "40",
       "status": "ACT",
       "important": false,
       "source": "NFL.com"
@@ -187,6 +187,14 @@
       "number": "15",
       "status": "ACT",
       "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "DeeJay Dallas",
+      "position": "RB",
+      "number": "70",
+      "status": "LISTED",
+      "important": true,
       "source": "NFL.com"
     },
     {
@@ -490,6 +498,14 @@
       "position": "LB",
       "number": "54",
       "status": "RES",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Kyle Van Noy",
+      "position": "MLB",
+      "number": "75",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },

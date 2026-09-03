@@ -3,7 +3,7 @@
   "team": "Tampa Bay Buccaneers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/tampa-bay-buccaneers/roster",
-  "checkedAt": "2026-09-02T12:25:58.996837+00:00",
+  "checkedAt": "2026-09-03T12:24:33.088165+00:00",
   "players": [
     {
       "name": "A'Shawn Robinson",
@@ -122,6 +122,14 @@
       "position": "RB",
       "number": "7",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "CJ Dippre",
+      "position": "TE",
+      "number": "77",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -511,10 +519,10 @@
     },
     {
       "name": "Luke Haggard",
-      "position": "OT",
+      "position": "G",
       "number": "72",
       "status": "ACT",
-      "important": true,
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -585,7 +593,7 @@
       "name": "Pepe Williams",
       "position": "CB",
       "number": "28",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -630,11 +638,11 @@
       "source": "NFL.com"
     },
     {
-      "name": "Scott Daly",
-      "position": "LS",
-      "number": "71",
+      "name": "Sean Murphy-Bunting",
+      "position": "CB",
+      "number": "72",
       "status": "LISTED",
-      "important": false,
+      "important": true,
       "source": "NFL.com"
     },
     {
@@ -642,6 +650,14 @@
       "position": "RB",
       "number": "44",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Silas Walters",
+      "position": "DB",
+      "number": "73",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -681,14 +697,6 @@
       "name": "Tristan Wirfs",
       "position": "OT",
       "number": "78",
-      "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Tykee Smith",
-      "position": "DB",
-      "number": "23",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

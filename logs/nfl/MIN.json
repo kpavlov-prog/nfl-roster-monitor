@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-03T12:24:13.286772+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "position changed",
+    "playerName": "Blake Brandel",
+    "position": "C",
+    "oldValue": "OT",
+    "newValue": "C",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-03T12:24:13.286788+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "number changed",
+    "playerName": "Chaz Chambliss",
+    "position": "LB",
+    "oldValue": "57",
+    "newValue": "40",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-03T12:24:13.286795+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "added",
+    "playerName": "DeeJay Dallas",
+    "position": "RB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-03T12:24:13.286810+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "added",
+    "playerName": "Kyle Van Noy",
+    "position": "MLB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-02T12:25:34.727058+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Vikings",

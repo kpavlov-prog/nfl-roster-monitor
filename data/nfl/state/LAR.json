@@ -3,16 +3,8 @@
   "team": "Los Angeles Rams",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/los-angeles-rams/roster",
-  "checkedAt": "2026-09-02T12:25:29.687283+00:00",
+  "checkedAt": "2026-09-03T12:24:07.925574+00:00",
   "players": [
-    {
-      "name": "A.J. Arcuri",
-      "position": "OT",
-      "number": "61",
-      "status": "LISTED",
-      "important": true,
-      "source": "NFL.com"
-    },
     {
       "name": "Aaron Donald",
       "position": "DE",
@@ -95,10 +87,10 @@
     },
     {
       "name": "Braden Fiske",
-      "position": "DT",
+      "position": "DE",
       "number": "55",
       "status": "ACT",
-      "important": false,
+      "important": true,
       "source": "NFL.com"
     },
     {
@@ -223,10 +215,10 @@
     },
     {
       "name": "Desjuan Johnson",
-      "position": "DE",
+      "position": "LB",
       "number": "94",
       "status": "ACT",
-      "important": true,
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -616,7 +608,7 @@
     {
       "name": "Tutu Atwell",
       "position": "WR",
-      "number": "69",
+      "number": "8",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

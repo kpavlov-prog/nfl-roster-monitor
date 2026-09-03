@@ -3,7 +3,7 @@
   "team": "Seattle Seahawks",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/seattle-seahawks/roster",
-  "checkedAt": "2026-09-02T12:25:56.636887+00:00",
+  "checkedAt": "2026-09-03T12:24:31.437920+00:00",
   "players": [
     {
       "name": "AJ Barner",
@@ -72,7 +72,7 @@
     {
       "name": "Avery Smith",
       "position": "CB",
-      "number": "70",
+      "number": "27",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -80,7 +80,7 @@
     {
       "name": "Beau Stephens",
       "position": "G",
-      "number": "60",
+      "number": "70",
       "status": "ACT",
       "important": false,
       "source": "NFL.com"
@@ -183,10 +183,10 @@
     },
     {
       "name": "Dante Fowler Jr.",
-      "position": "DE",
+      "position": "LB",
       "number": "56",
       "status": "ACT",
-      "important": true,
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -256,7 +256,7 @@
     {
       "name": "Emanuel Wilson",
       "position": "RB",
-      "number": "27",
+      "number": "23",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -546,14 +546,6 @@
       "position": "TE",
       "number": "89",
       "status": "ACT",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Nick Vannett",
-      "position": "TE",
-      "number": "83",
-      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
