@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-09-03T12:49:24.023431+00:00",
+  "checkedAt": "2026-09-04T12:43:12.327670+00:00",
   "players": [
     {
       "name": "Billy Cook",
@@ -78,13 +78,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Evan Sisk",
-      "position": "P",
-      "number": "48",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Gregory Soto",
       "position": "P",
       "number": "31",
@@ -127,9 +120,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Kirby Yates",
+      "name": "Khristian Curtis",
       "position": "P",
-      "number": "54",
+      "number": "64",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -193,6 +186,13 @@
       "name": "Spencer Horwitz",
       "position": "1B",
       "number": "2",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Wilber Dotel",
+      "position": "P",
+      "number": "66",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-09-03T12:49:19.763043+00:00",
+  "checkedAt": "2026-09-04T12:43:08.208904+00:00",
   "players": [
     {
       "name": "Agustín Ramírez",
@@ -46,6 +46,13 @@
       "name": "Dax Fulton",
       "position": "P",
       "number": "90",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Deyvison De Los Santos",
+      "position": "3B",
+      "number": "63",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -137,13 +144,6 @@
       "name": "Kyle Stowers",
       "position": "1B",
       "number": "28",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Leo Jiménez",
-      "position": "3B",
-      "number": "19",
       "status": "A",
       "source": "MLB Stats API"
     },
