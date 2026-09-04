@@ -3,7 +3,7 @@
   "team": "Orlando Magic",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/ORL/roster",
-  "checkedAt": "2026-09-03T13:01:31.540634+00:00",
+  "checkedAt": "2026-09-04T12:56:30.067653+00:00",
   "players": [
     {
       "name": "Alex Morales",
@@ -55,6 +55,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "JD Davison",
+      "position": "G",
+      "number": "20",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Jalen Suggs",
       "position": "G",
       "number": "4",
@@ -86,6 +93,13 @@
       "name": "Jonathan Isaac",
       "position": "F",
       "number": "1",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Malaki Branham",
+      "position": "F",
+      "number": "12",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
