@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-04T13:38:27.144440+00:00",
+    "teamCode": "NDSU",
+    "teamName": "North Dakota State Bison",
+    "type": "number changed",
+    "playerName": "Jeremiah Patterson",
+    "position": "WR",
+    "oldValue": "8",
+    "newValue": "3",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:38:27.144456+00:00",
+    "teamCode": "NDSU",
+    "teamName": "North Dakota State Bison",
+    "type": "position changed",
+    "playerName": "Landon Meier",
+    "position": "S",
+    "oldValue": "CB",
+    "newValue": "S",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:38:27.144474+00:00",
+    "teamCode": "NDSU",
+    "teamName": "North Dakota State Bison",
+    "type": "position changed",
+    "playerName": "Thomas Roberts",
+    "position": "DT",
+    "oldValue": "DE",
+    "newValue": "DT",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:38:27.144487+00:00",
+    "teamCode": "NDSU",
+    "teamName": "North Dakota State Bison",
+    "type": "removed",
+    "playerName": "Luke Tetzlaff",
+    "position": "LB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-04T11:49:07.231422+00:00",
     "teamCode": "NDSU",
     "teamName": "North Dakota State Bison",

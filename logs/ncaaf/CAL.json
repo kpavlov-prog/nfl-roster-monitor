@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-09-04T13:34:10.192156+00:00",
+    "teamCode": "CAL",
+    "teamName": "California Golden Bears",
+    "type": "number changed",
+    "playerName": "David Bird",
+    "position": "LS",
+    "oldValue": "45",
+    "newValue": "50",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:34:10.192169+00:00",
+    "teamCode": "CAL",
+    "teamName": "California Golden Bears",
+    "type": "number changed",
+    "playerName": "Ewan Arechaederra",
+    "position": "LS",
+    "oldValue": "48",
+    "newValue": "59",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:34:10.192181+00:00",
+    "teamCode": "CAL",
+    "teamName": "California Golden Bears",
+    "type": "number changed",
+    "playerName": "Jordan Franke",
+    "position": "LS",
+    "oldValue": "31",
+    "newValue": "53",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:34:10.192195+00:00",
+    "teamCode": "CAL",
+    "teamName": "California Golden Bears",
+    "type": "position changed",
+    "playerName": "Michael Cooley",
+    "position": "TE",
+    "oldValue": "LB",
+    "newValue": "TE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:34:10.192218+00:00",
+    "teamCode": "CAL",
+    "teamName": "California Golden Bears",
+    "type": "removed",
+    "playerName": "Mayze Bryant",
+    "position": "DB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-03T13:38:09.359545+00:00",
     "teamCode": "CAL",
     "teamName": "California Golden Bears",

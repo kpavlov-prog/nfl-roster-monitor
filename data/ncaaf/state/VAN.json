@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/238/roster?limit=100&page=1",
-  "checkedAt": "2026-09-03T13:53:27.981167+00:00",
+  "checkedAt": "2026-09-04T13:41:33.633347+00:00",
   "players": [
     {
       "name": "Aaron Bryant",
@@ -519,6 +519,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Khalil Poteat",
+      "position": "EDGE",
+      "number": "96",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Lebron Hill",
       "position": "WR",
       "number": "85",
@@ -570,7 +577,7 @@
     {
       "name": "Maurice Veney",
       "position": "TE",
-      "number": "18",
+      "number": "19",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

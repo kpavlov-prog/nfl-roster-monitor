@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-04T13:39:45.140707+00:00",
+    "teamCode": "SOAL",
+    "teamName": "South Alabama Jaguars",
+    "type": "added",
+    "playerName": "D.J. Moore",
+    "position": "S",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:39:45.140750+00:00",
+    "teamCode": "SOAL",
+    "teamName": "South Alabama Jaguars",
+    "type": "added",
+    "playerName": "Terry Kirksey Jr.",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:39:45.140764+00:00",
+    "teamCode": "SOAL",
+    "teamName": "South Alabama Jaguars",
+    "type": "removed",
+    "playerName": "DJ Moore",
+    "position": "S",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-03T13:49:11.677366+00:00",
     "teamCode": "SOAL",
     "teamName": "South Alabama Jaguars",

@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-04T13:36:24.966389+00:00",
+    "teamCode": "JAXST",
+    "teamName": "Jacksonville State Gamecocks",
+    "type": "added",
+    "playerName": "Santonio Jones",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:36:24.966406+00:00",
+    "teamCode": "JAXST",
+    "teamName": "Jacksonville State Gamecocks",
+    "type": "added",
+    "playerName": "Wyatt Sonderman",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:36:24.966412+00:00",
+    "teamCode": "JAXST",
+    "teamName": "Jacksonville State Gamecocks",
+    "type": "removed",
+    "playerName": "Jacob Cornejo",
+    "position": "RB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-03T13:41:43.044720+00:00",
     "teamCode": "JAXST",
     "teamName": "Jacksonville State Gamecocks",

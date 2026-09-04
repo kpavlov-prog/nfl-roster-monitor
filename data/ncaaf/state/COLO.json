@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/38/roster?limit=100&page=1",
-  "checkedAt": "2026-09-03T13:38:55.670599+00:00",
+  "checkedAt": "2026-09-04T13:34:38.568847+00:00",
   "players": [
     {
       "name": "Aiden DeCorte",
@@ -303,6 +303,13 @@
     },
     {
       "name": "Gideon ESPN Lampron",
+      "position": "LB",
+      "number": "44",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Gideon Lampron",
       "position": "LB",
       "number": "44",
       "status": "ACTIVE",

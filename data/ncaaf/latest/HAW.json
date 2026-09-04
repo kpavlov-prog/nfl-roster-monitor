@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/62/roster?limit=100&page=1",
-  "checkedAt": "2026-09-03T13:40:54.219573+00:00",
+  "checkedAt": "2026-09-04T13:35:55.704687+00:00",
   "players": [
     {
       "name": "Adam Tomczyk",
@@ -30,7 +30,7 @@
     },
     {
       "name": "Andrew Price",
-      "position": "OL",
+      "position": "TE",
       "number": "74",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -95,13 +95,6 @@
       "name": "Brayton Correa",
       "position": "DB",
       "number": "34",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Caleb Brown",
-      "position": "DB",
-      "number": "1",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -688,7 +681,7 @@
     },
     {
       "name": "Titan Lacaden",
-      "position": "RB",
+      "position": "WR",
       "number": "22",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -723,8 +716,8 @@
     },
     {
       "name": "Vainuupo Fanuaea",
-      "position": "TE",
-      "number": "87",
+      "position": "OL",
+      "number": "74",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/6/roster?limit=100&page=1",
-  "checkedAt": "2026-09-03T13:49:11.676810+00:00",
+  "checkedAt": "2026-09-04T13:39:45.140069+00:00",
   "players": [
     {
       "name": "Aaden Shamburger",
@@ -197,7 +197,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "DJ Moore",
+      "name": "D.J. Moore",
       "position": "S",
       "number": "1",
       "status": "ACTIVE",
@@ -704,6 +704,13 @@
       "name": "Taylor Jacobs Jr.",
       "position": "QB",
       "number": "15",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Terry Kirksey Jr.",
+      "position": "LB",
+      "number": "46",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-04T13:41:30.649164+00:00",
+    "teamCode": "UTAH",
+    "teamName": "Utah Utes",
+    "type": "position changed",
+    "playerName": "Nick Brown",
+    "position": "CB",
+    "oldValue": "LB",
+    "newValue": "CB",
+    "source": "ESPN College Football Core API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:41:30.649172+00:00",
+    "teamCode": "UTAH",
+    "teamName": "Utah Utes",
+    "type": "number changed",
+    "playerName": "Nick Brown",
+    "position": "CB",
+    "oldValue": "46",
+    "newValue": "13",
+    "source": "ESPN College Football Core API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-03T13:53:19.603878+00:00",
     "teamCode": "UTAH",
     "teamName": "Utah Utes",

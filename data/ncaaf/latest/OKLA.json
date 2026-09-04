@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/201/roster?limit=100&page=1",
-  "checkedAt": "2026-09-03T13:46:53.808670+00:00",
+  "checkedAt": "2026-09-04T13:38:49.776461+00:00",
   "players": [
     {
       "name": "Ace Hodges",
@@ -52,7 +52,7 @@
     {
       "name": "Ben Anderson",
       "position": "LS",
-      "number": "49",
+      "number": "50",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -93,8 +93,8 @@
     },
     {
       "name": "CJ Nickson",
-      "position": "DL",
-      "number": "88",
+      "position": "TE",
+      "number": "87",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -165,6 +165,13 @@
       "name": "Danny Okoye",
       "position": "DL",
       "number": "16",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Danny Saili",
+      "position": "DL",
+      "number": "55",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -668,7 +675,7 @@
     {
       "name": "Seth Freeman",
       "position": "LS",
-      "number": "50",
+      "number": "54",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

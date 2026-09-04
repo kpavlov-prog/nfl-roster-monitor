@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-09-04T13:32:56.210320+00:00",
+    "teamCode": "APP",
+    "teamName": "App State Mountaineers",
+    "type": "added",
+    "playerName": "Ahmad Robinson",
+    "position": "DB",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:32:56.210350+00:00",
+    "teamCode": "APP",
+    "teamName": "App State Mountaineers",
+    "type": "added",
+    "playerName": "Ja'Cari Henderson",
+    "position": "DB",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:32:56.210354+00:00",
+    "teamCode": "APP",
+    "teamName": "App State Mountaineers",
+    "type": "added",
+    "playerName": "Ja'Den McBurrows",
+    "position": "DB",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:32:56.210388+00:00",
+    "teamCode": "APP",
+    "teamName": "App State Mountaineers",
+    "type": "removed",
+    "playerName": "Ammo Robinson",
+    "position": "DB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-04T13:32:56.210392+00:00",
+    "teamCode": "APP",
+    "teamName": "App State Mountaineers",
+    "type": "removed",
+    "playerName": "JaCari Henderson",
+    "position": "DB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-04T13:32:56.210395+00:00",
+    "teamCode": "APP",
+    "teamName": "App State Mountaineers",
+    "type": "removed",
+    "playerName": "JaDen McBurrows",
+    "position": "DB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-27T19:52:15.072180+00:00",
     "teamCode": "APP",
     "teamName": "App State Mountaineers",

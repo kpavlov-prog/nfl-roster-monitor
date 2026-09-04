@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-09-04T13:35:55.705225+00:00",
+    "teamCode": "HAW",
+    "teamName": "Hawai'i Rainbow Warriors",
+    "type": "position changed",
+    "playerName": "Andrew Price",
+    "position": "TE",
+    "oldValue": "OL",
+    "newValue": "TE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:35:55.705278+00:00",
+    "teamCode": "HAW",
+    "teamName": "Hawai'i Rainbow Warriors",
+    "type": "position changed",
+    "playerName": "Titan Lacaden",
+    "position": "WR",
+    "oldValue": "RB",
+    "newValue": "WR",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:35:55.705284+00:00",
+    "teamCode": "HAW",
+    "teamName": "Hawai'i Rainbow Warriors",
+    "type": "position changed",
+    "playerName": "Vainuupo Fanuaea",
+    "position": "OL",
+    "oldValue": "TE",
+    "newValue": "OL",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:35:55.705287+00:00",
+    "teamCode": "HAW",
+    "teamName": "Hawai'i Rainbow Warriors",
+    "type": "number changed",
+    "playerName": "Vainuupo Fanuaea",
+    "position": "OL",
+    "oldValue": "87",
+    "newValue": "74",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:35:55.705294+00:00",
+    "teamCode": "HAW",
+    "teamName": "Hawai'i Rainbow Warriors",
+    "type": "removed",
+    "playerName": "Caleb Brown",
+    "position": "DB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-04T11:41:55.358247+00:00",
     "teamCode": "HAW",
     "teamName": "Hawai'i Rainbow Warriors",

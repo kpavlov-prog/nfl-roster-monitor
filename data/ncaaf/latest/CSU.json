@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/36/roster?limit=100&page=1",
-  "checkedAt": "2026-09-03T13:39:03.557726+00:00",
+  "checkedAt": "2026-09-04T13:34:43.409719+00:00",
   "players": [
     {
       "name": "AJ Noland",
@@ -78,8 +78,8 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Brandon Brown",
-      "position": "RB",
+      "name": "Brandon Brown Jr.",
+      "position": "WR",
       "number": "29",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -162,7 +162,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "D'Angelo Hagans",
+      "name": "D'Angelo Hagans Jr.",
       "position": "CB",
       "number": "5",
       "status": "ACTIVE",
@@ -353,7 +353,7 @@
     {
       "name": "Jaivyn Moore",
       "position": "WR",
-      "number": "12",
+      "number": "20",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -466,6 +466,13 @@
       "name": "Kallen Martinez",
       "position": "CB",
       "number": "30",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Keegan Shank",
+      "position": "DL",
+      "number": "90",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -694,7 +701,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Thomas Cook",
+      "name": "Thomas Cook Jr.",
       "position": "CB",
       "number": "26",
       "status": "ACTIVE",
@@ -750,6 +757,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Ty Staples",
+      "position": "CB",
+      "number": "33",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Tyrone Fitten",
       "position": "DL",
       "number": "96",
@@ -757,7 +771,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Uliaku Tatafu",
+      "name": "Uluaki Tatafu",
       "position": "OL",
       "number": "78",
       "status": "ACTIVE",

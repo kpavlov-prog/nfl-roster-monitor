@@ -5,19 +5,12 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2751/roster?limit=100&page=1",
-  "checkedAt": "2026-09-03T13:54:47.849150+00:00",
+  "checkedAt": "2026-09-04T13:42:06.168034+00:00",
   "players": [
     {
       "name": "Alex Haswell",
       "position": "DL",
       "number": "97",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Anthony Beavers",
-      "position": "LB",
-      "number": "2",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -400,9 +393,16 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Jayden Williams",
+      "name": "Jayden Williams (DT)",
       "position": "DT",
       "number": "98",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Jayden Williams (WR)",
+      "position": "WR",
+      "number": "11",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -514,7 +514,7 @@
     {
       "name": "Kendall Griffin",
       "position": "CB",
-      "number": "19",
+      "number": "12",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -610,7 +610,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Nathaniel Watson",
+      "name": "Nathanial Watson",
       "position": "S",
       "number": "19",
       "status": "ACTIVE",

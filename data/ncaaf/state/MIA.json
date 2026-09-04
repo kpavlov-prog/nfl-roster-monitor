@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2390/roster?limit=100&page=1",
-  "checkedAt": "2026-09-03T13:43:49.903322+00:00",
+  "checkedAt": "2026-09-04T13:37:30.880961+00:00",
   "players": [
     {
       "name": "Adam Booker",
@@ -64,6 +64,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Brenden Cook",
+      "position": "WR",
+      "number": "37",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Brennan Burton",
       "position": "WR",
       "number": "40",
@@ -87,7 +94,7 @@
     {
       "name": "Cam Pruitt",
       "position": "LB",
-      "number": "22",
+      "number": "4",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -150,7 +157,7 @@
     {
       "name": "Cole McConathy II",
       "position": "TE",
-      "number": "89",
+      "number": "86",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -277,13 +284,6 @@
       "name": "Girard Pringle Jr.",
       "position": "RB",
       "number": "0",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Hayden Lowe",
-      "position": "DL",
-      "number": "14",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -535,7 +535,7 @@
     {
       "name": "Kolby Luna",
       "position": "WR",
-      "number": "86",
+      "number": "22",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -577,7 +577,7 @@
     {
       "name": "Marquise Lightfoot",
       "position": "DL",
-      "number": "12",
+      "number": "8",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -606,6 +606,13 @@
       "name": "Mohamed Toure",
       "position": "LB",
       "number": "1",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Monroe Toney",
+      "position": "DB",
+      "number": "35",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

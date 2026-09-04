@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2579/roster?limit=100&page=1",
-  "checkedAt": "2026-09-03T13:49:20.367671+00:00",
+  "checkedAt": "2026-09-04T13:39:49.865258+00:00",
   "players": [
     {
       "name": "A.J. Holloway",
@@ -24,7 +24,7 @@
     {
       "name": "Aiden Harris",
       "position": "DL",
-      "number": "92",
+      "number": "90",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -234,7 +234,14 @@
     {
       "name": "Emmet Rhoades",
       "position": "LS",
-      "number": "57",
+      "number": "53",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Ethan Johnson",
+      "position": "DB",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -302,7 +309,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "JZavien Currence",
+      "name": "J'Zavien Currence",
       "position": "DB",
       "number": "14",
       "status": "ACTIVE",
@@ -437,7 +444,7 @@
     {
       "name": "Julian Walker",
       "position": "DE",
-      "number": "93",
+      "number": "55",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -500,7 +507,7 @@
     {
       "name": "Kyler Farrow",
       "position": "LS",
-      "number": "33",
+      "number": "57",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -548,7 +555,7 @@
     },
     {
       "name": "Malik Orsan",
-      "position": "LS",
+      "position": "PK",
       "number": "32",
       "status": "ACTIVE",
       "source": "ESPN College Football API"

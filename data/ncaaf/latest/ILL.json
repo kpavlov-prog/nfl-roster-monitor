@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/356/roster?limit=100&page=1",
-  "checkedAt": "2026-09-03T13:41:10.379698+00:00",
+  "checkedAt": "2026-09-04T13:36:07.227388+00:00",
   "players": [
     {
       "name": "Aidan Laughery",
@@ -121,7 +121,7 @@
     },
     {
       "name": "Carter Smith",
-      "position": "DL",
+      "position": "LB",
       "number": "48",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -211,6 +211,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Davon Grant",
+      "position": "WR",
+      "number": "8",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Demetrius John",
       "position": "DL",
       "number": "54",
@@ -254,8 +261,8 @@
     },
     {
       "name": "Ean Rhea",
-      "position": "LB",
-      "number": "40",
+      "position": "DL",
+      "number": "93",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -380,8 +387,8 @@
     },
     {
       "name": "Jacob Eberhart",
-      "position": "WR",
-      "number": "8",
+      "position": "DB",
+      "number": "19",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

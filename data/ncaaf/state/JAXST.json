@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/55/roster?limit=100&page=1",
-  "checkedAt": "2026-09-03T13:41:43.044146+00:00",
+  "checkedAt": "2026-09-04T13:36:24.965500+00:00",
   "players": [
     {
       "name": "AJ Watkins",
@@ -354,13 +354,6 @@
       "name": "Jackson Bunn",
       "position": "DL",
       "number": "54",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Jacob Cornejo",
-      "position": "RB",
-      "number": "24",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -778,6 +771,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Santonio Jones",
+      "position": "WR",
+      "number": "18",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Shane Payton Hodges",
       "position": "TE",
       "number": "4",
@@ -914,6 +914,13 @@
       "name": "William Hathcock",
       "position": "OL",
       "number": "60",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Wyatt Sonderman",
+      "position": "WR",
+      "number": "9",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     }

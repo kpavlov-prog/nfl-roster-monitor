@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-04T13:40:15.154786+00:00",
+    "teamCode": "TEM",
+    "teamName": "Temple Owls",
+    "type": "added",
+    "playerName": "Samuel Brown V",
+    "position": "RB",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:40:15.154804+00:00",
+    "teamCode": "TEM",
+    "teamName": "Temple Owls",
+    "type": "removed",
+    "playerName": "Sam Brown V",
+    "position": "RB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-03T12:51:19.609230+00:00",
     "teamCode": "TEM",
     "teamName": "Temple Owls",

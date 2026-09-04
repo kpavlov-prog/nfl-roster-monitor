@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-04T13:38:58.723251+00:00",
+    "teamCode": "MISS",
+    "teamName": "Ole Miss Rebels",
+    "type": "number changed",
+    "playerName": "Caleb Blankenship",
+    "position": "LS",
+    "oldValue": "44",
+    "newValue": "50",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:38:58.723279+00:00",
+    "teamCode": "MISS",
+    "teamName": "Ole Miss Rebels",
+    "type": "added",
+    "playerName": "Jackson Moore",
+    "position": "PK",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:38:58.723319+00:00",
+    "teamCode": "MISS",
+    "teamName": "Ole Miss Rebels",
+    "type": "removed",
+    "playerName": "Maealiuaki Smith",
+    "position": "QB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-04T13:38:58.723322+00:00",
+    "teamCode": "MISS",
+    "teamName": "Ole Miss Rebels",
+    "type": "removed",
+    "playerName": "Micah Stallworth",
+    "position": "CB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-02T13:46:28.936495+00:00",
     "teamCode": "MISS",
     "teamName": "Ole Miss Rebels",

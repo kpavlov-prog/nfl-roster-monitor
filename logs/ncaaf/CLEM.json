@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-04T13:34:29.519653+00:00",
+    "teamCode": "CLEM",
+    "teamName": "Clemson Tigers",
+    "type": "number changed",
+    "playerName": "Dietrick Pennington",
+    "position": "OL",
+    "oldValue": "59",
+    "newValue": "91",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:34:29.519706+00:00",
+    "teamCode": "CLEM",
+    "teamName": "Clemson Tigers",
+    "type": "removed",
+    "playerName": "Danny Stein",
+    "position": "OL",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-03T13:38:41.071520+00:00",
     "teamCode": "CLEM",
     "teamName": "Clemson Tigers",

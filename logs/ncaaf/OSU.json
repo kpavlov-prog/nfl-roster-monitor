@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-04T13:38:46.910129+00:00",
+    "teamCode": "OSU",
+    "teamName": "Ohio State Buckeyes",
+    "type": "number changed",
+    "playerName": "Brandon Inniss",
+    "position": "WR",
+    "oldValue": "1",
+    "newValue": "0",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-04T13:38:46.910192+00:00",
+    "teamCode": "OSU",
+    "teamName": "Ohio State Buckeyes",
+    "type": "removed",
+    "playerName": "Jaystin Gwinn",
+    "position": "S",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-07-23T11:26:39.962821+00:00",
     "teamCode": "OSU",
     "teamName": "Ohio State Buckeyes",
