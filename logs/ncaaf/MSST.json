@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-05T12:49:51.731162+00:00",
+    "teamCode": "MSST",
+    "teamName": "Mississippi State Bulldogs",
+    "type": "position changed",
+    "playerName": "Shawn Gee",
+    "position": "DE",
+    "oldValue": "EDGE",
+    "newValue": "DE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T12:49:51.731169+00:00",
+    "teamCode": "MSST",
+    "teamName": "Mississippi State Bulldogs",
+    "type": "number changed",
+    "playerName": "Shawn Gee",
+    "position": "DE",
+    "oldValue": "",
+    "newValue": "49",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-04T13:37:47.526384+00:00",
     "teamCode": "MSST",
     "teamName": "Mississippi State Bulldogs",

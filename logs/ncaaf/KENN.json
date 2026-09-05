@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-05T12:48:23.903263+00:00",
+    "teamCode": "KENN",
+    "teamName": "Kennesaw State Owls",
+    "type": "number changed",
+    "playerName": "Ja'Lyen Judson",
+    "position": "DB",
+    "oldValue": "21",
+    "newValue": "29",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T12:48:23.903276+00:00",
+    "teamCode": "KENN",
+    "teamName": "Kennesaw State Owls",
+    "type": "number changed",
+    "playerName": "Jet Tabb",
+    "position": "WR",
+    "oldValue": "12",
+    "newValue": "86",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T12:48:23.903306+00:00",
+    "teamCode": "KENN",
+    "teamName": "Kennesaw State Owls",
+    "type": "removed",
+    "playerName": "Tyler Hallum",
+    "position": "DB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-04T13:36:44.191067+00:00",
     "teamCode": "KENN",
     "teamName": "Kennesaw State Owls",

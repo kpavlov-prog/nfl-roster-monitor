@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/152/roster?limit=100&page=1",
-  "checkedAt": "2026-09-04T13:37:57.976915+00:00",
+  "checkedAt": "2026-09-05T12:50:07.197419+00:00",
   "players": [
     {
       "name": "AJ Prim",
@@ -199,7 +199,7 @@
     {
       "name": "Da'Karri Nelson",
       "position": "LB",
-      "number": "19",
+      "number": "8",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -403,6 +403,13 @@
       "name": "Jai Richburg",
       "position": "WR",
       "number": "89",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Jamel Johnson",
+      "position": "CB",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -850,7 +857,7 @@
     {
       "name": "Vander Ploog",
       "position": "TE",
-      "number": "88",
+      "number": "4",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

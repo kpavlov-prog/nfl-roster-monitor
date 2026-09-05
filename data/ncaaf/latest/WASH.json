@@ -5,10 +5,10 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/264/roster?limit=100&page=1",
-  "checkedAt": "2026-09-04T13:41:46.165326+00:00",
+  "checkedAt": "2026-09-05T12:57:13.627177+00:00",
   "players": [
     {
-      "name": "Ah Deong Yang",
+      "name": "Ah Deong Reti Yang",
       "position": "OL",
       "number": "71",
       "status": "ACTIVE",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Beck Walker",
-      "position": "RB",
+      "position": "LB",
       "number": "27",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -156,7 +156,7 @@
     },
     {
       "name": "David Schwerzel",
-      "position": "DL",
+      "position": "EDGE",
       "number": "50",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -309,6 +309,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Grady Gross",
+      "position": "PK",
+      "number": "20",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Hayden Moore",
       "position": "EDGE",
       "number": "44",
@@ -338,7 +345,7 @@
     },
     {
       "name": "JD Hill",
-      "position": "DL",
+      "position": "EDGE",
       "number": "54",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -393,7 +400,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Jesse Ewell",
+      "name": "Jesse Ewell Jr.",
       "position": "LB",
       "number": "57",
       "status": "ACTIVE",
@@ -492,7 +499,7 @@
     },
     {
       "name": "Ksani Jiles",
-      "position": "CB",
+      "position": "S",
       "number": "28",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -569,7 +576,7 @@
     },
     {
       "name": "Rahshawn Clark",
-      "position": "S",
+      "position": "CB",
       "number": "2",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -652,6 +659,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Ta'ita'i Uiagalelei",
+      "position": "DL",
+      "number": "46",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Taariq Al-Uqdah",
       "position": "LB",
       "number": "0",
@@ -680,7 +694,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Tufanua Ionatana Umu-Cais",
+      "name": "Tufanua Ionatana Unu-Cais",
       "position": "DL",
       "number": "64",
       "status": "ACTIVE",
@@ -695,7 +709,7 @@
     },
     {
       "name": "Victor Sanchez Hernandez",
-      "position": "EDGE",
+      "position": "DL",
       "number": "55",
       "status": "ACTIVE",
       "source": "ESPN College Football API"

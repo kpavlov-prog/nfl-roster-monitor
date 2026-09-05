@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/84/roster?limit=100&page=1",
-  "checkedAt": "2026-09-04T13:36:11.893001+00:00",
+  "checkedAt": "2026-09-05T12:47:45.567873+00:00",
   "players": [
     {
       "name": "A.J. Harris",
@@ -220,7 +220,7 @@
     {
       "name": "Drew Clausen",
       "position": "LS",
-      "number": "49",
+      "number": "55",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -277,6 +277,13 @@
       "name": "Hunter Stroud",
       "position": "WR",
       "number": "83",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Iosua Stephens",
+      "position": "DB",
+      "number": "26",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -640,7 +647,7 @@
     {
       "name": "Sam Lindsey",
       "position": "LS",
-      "number": "45",
+      "number": "57",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -669,13 +676,6 @@
       "name": "Shazz Preston",
       "position": "WR",
       "number": "7",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Stephen Daley",
-      "position": "DL",
-      "number": "8",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

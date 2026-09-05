@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/249/roster?limit=100&page=1",
-  "checkedAt": "2026-09-04T13:38:29.887274+00:00",
+  "checkedAt": "2026-09-05T12:51:01.485905+00:00",
   "players": [
     {
       "name": "AJ Brown",
@@ -39,13 +39,6 @@
       "name": "Amarion Berry",
       "position": "OL",
       "number": "62",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Andy Jean",
-      "position": "WR",
-      "number": "15",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -122,7 +115,7 @@
     {
       "name": "Brodie Scoggins",
       "position": "LS",
-      "number": "49",
+      "number": "51",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -380,7 +373,7 @@
     },
     {
       "name": "Ja'Bree Bickham",
-      "position": "S",
+      "position": "CB",
       "number": "25",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -395,7 +388,7 @@
     {
       "name": "Jacob Poff",
       "position": "LS",
-      "number": "47",
+      "number": "52",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -512,15 +505,8 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Kamdon McFarland",
-      "position": "S",
-      "number": "29",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
       "name": "Keelene Bradley",
-      "position": "LB",
+      "position": "DL",
       "number": "51",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -625,22 +611,8 @@
     },
     {
       "name": "Rohan Sturgeon",
-      "position": "LB",
-      "number": "53",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Rudy Vargas Jr.",
       "position": "DL",
-      "number": "95",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Ryan Krueger",
-      "position": "OL",
-      "number": "69",
+      "number": "53",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -737,7 +709,7 @@
     },
     {
       "name": "Zachary Yang",
-      "position": "WR",
+      "position": "RB",
       "number": "86",
       "status": "ACTIVE",
       "source": "ESPN College Football API"

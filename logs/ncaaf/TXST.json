@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-05T12:55:13.502869+00:00",
+    "teamCode": "TXST",
+    "teamName": "Texas State Bobcats",
+    "type": "number changed",
+    "playerName": "Greg Gipson Jr.",
+    "position": "DB",
+    "oldValue": "29",
+    "newValue": "36",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T12:55:13.502902+00:00",
+    "teamCode": "TXST",
+    "teamName": "Texas State Bobcats",
+    "type": "position changed",
+    "playerName": "Skylar Lewis",
+    "position": "WR",
+    "oldValue": "DB",
+    "newValue": "WR",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T12:55:13.502912+00:00",
+    "teamCode": "TXST",
+    "teamName": "Texas State Bobcats",
+    "type": "added",
+    "playerName": "Treylin Payne",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T12:55:13.502918+00:00",
+    "teamCode": "TXST",
+    "teamName": "Texas State Bobcats",
+    "type": "added",
+    "playerName": "Tymere Jackson",
+    "position": "DL",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-08-10T10:49:04.566032+00:00",
     "teamCode": "TXST",
     "teamName": "Texas State Bobcats",

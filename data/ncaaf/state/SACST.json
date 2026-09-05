@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/16/roster?limit=100&page=1",
-  "checkedAt": "2026-09-04T13:39:31.887021+00:00",
+  "checkedAt": "2026-09-05T12:52:35.179069+00:00",
   "players": [
     {
       "name": "Adam Taylor",
@@ -641,6 +641,13 @@
       "name": "Malikai Nichols",
       "position": "CB",
       "number": "12",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Marcus Ball",
+      "position": "LB",
+      "number": "51",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

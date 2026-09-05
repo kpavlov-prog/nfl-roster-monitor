@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-09-05T12:55:54.239532+00:00",
+    "teamCode": "UCLA",
+    "teamName": "UCLA Bruins",
+    "type": "added",
+    "playerName": "Halakilangi Muagututia",
+    "position": "LS",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T12:55:54.239539+00:00",
+    "teamCode": "UCLA",
+    "teamName": "UCLA Bruins",
+    "type": "number changed",
+    "playerName": "Harry Lodge",
+    "position": "TE",
+    "oldValue": "47",
+    "newValue": "19",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T12:55:54.239557+00:00",
+    "teamCode": "UCLA",
+    "teamName": "UCLA Bruins",
+    "type": "number changed",
+    "playerName": "Major Pride",
+    "position": "WR",
+    "oldValue": "48",
+    "newValue": "25",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T12:55:54.239563+00:00",
+    "teamCode": "UCLA",
+    "teamName": "UCLA Bruins",
+    "type": "number changed",
+    "playerName": "Markus Kier",
+    "position": "WR",
+    "oldValue": "46",
+    "newValue": "26",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T12:55:54.239582+00:00",
+    "teamCode": "UCLA",
+    "teamName": "UCLA Bruins",
+    "type": "added",
+    "playerName": "Trent Hendrick",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T12:55:54.239591+00:00",
+    "teamCode": "UCLA",
+    "teamName": "UCLA Bruins",
+    "type": "removed",
+    "playerName": "Halakilangi Muagututi'a",
+    "position": "LS",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-02T13:49:13.678261+00:00",
     "teamCode": "UCLA",
     "teamName": "UCLA Bruins",

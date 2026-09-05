@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-05T12:55:28.665472+00:00",
+    "teamCode": "TROY",
+    "teamName": "Troy Trojans",
+    "type": "added",
+    "playerName": "Chris King",
+    "position": "OL",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T12:55:28.665505+00:00",
+    "teamCode": "TROY",
+    "teamName": "Troy Trojans",
+    "type": "number changed",
+    "playerName": "Kinnick Manley",
+    "position": "LS",
+    "oldValue": "24",
+    "newValue": "68",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T12:55:28.665526+00:00",
+    "teamCode": "TROY",
+    "teamName": "Troy Trojans",
+    "type": "removed",
+    "playerName": "Gavin Bowlin",
+    "position": "OL",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-05T12:55:28.665530+00:00",
+    "teamCode": "TROY",
+    "teamName": "Troy Trojans",
+    "type": "removed",
+    "playerName": "Kam Curry",
+    "position": "DT",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-04T11:56:22.083423+00:00",
     "teamCode": "TROY",
     "teamName": "Troy Trojans",

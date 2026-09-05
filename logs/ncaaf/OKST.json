@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-05T12:51:36.773134+00:00",
+    "teamCode": "OKST",
+    "teamName": "Oklahoma State Cowboys",
+    "type": "added",
+    "playerName": "O'Ryan Mosley",
+    "position": "OL",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T12:51:36.773156+00:00",
+    "teamCode": "OKST",
+    "teamName": "Oklahoma State Cowboys",
+    "type": "removed",
+    "playerName": "ORyan Mosley",
+    "position": "OL",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-02T13:46:18.663428+00:00",
     "teamCode": "OKST",
     "teamName": "Oklahoma State Cowboys",

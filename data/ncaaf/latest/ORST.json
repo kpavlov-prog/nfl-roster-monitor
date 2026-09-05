@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/204/roster?limit=100&page=1",
-  "checkedAt": "2026-09-04T13:39:07.092522+00:00",
+  "checkedAt": "2026-09-05T12:51:58.031608+00:00",
   "players": [
     {
       "name": "AJ Newberry",
@@ -88,13 +88,6 @@
       "name": "Brady Jones",
       "position": "QB",
       "number": "10",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Broderick Shull",
-      "position": "OL",
-      "number": "67",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -276,7 +269,7 @@
     {
       "name": "Jabari Odoemenem",
       "position": "LB",
-      "number": "6",
+      "number": "3",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -312,6 +305,13 @@
       "name": "Jadyn Oh",
       "position": "PK",
       "number": "98",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Jaheim Patterson",
+      "position": "DB",
+      "number": "6",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -647,7 +647,7 @@
     {
       "name": "Tanu A'aitui",
       "position": "OL",
-      "number": "55",
+      "number": "52",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -694,13 +694,6 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Tygee Hill",
-      "position": "DT",
-      "number": "95",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
       "name": "Tyjai Hopper",
       "position": "DB",
       "number": "24",
@@ -725,6 +718,13 @@
       "name": "Tyree Blake",
       "position": "LB",
       "number": "47",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Van Wells",
+      "position": "OL",
+      "number": "55",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

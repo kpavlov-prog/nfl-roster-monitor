@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-05T12:52:14.174343+00:00",
+    "teamCode": "PUR",
+    "teamName": "Purdue Boilermakers",
+    "type": "number changed",
+    "playerName": "Hayden Timosciek",
+    "position": "OL",
+    "oldValue": "54",
+    "newValue": "99",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T12:52:14.174388+00:00",
+    "teamCode": "PUR",
+    "teamName": "Purdue Boilermakers",
+    "type": "removed",
+    "playerName": "Marc Nave Jr.",
+    "position": "OL",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-05T12:52:14.174392+00:00",
+    "teamCode": "PUR",
+    "teamName": "Purdue Boilermakers",
+    "type": "removed",
+    "playerName": "Owen Davis",
+    "position": "LB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-02T13:46:53.639094+00:00",
     "teamCode": "PUR",
     "teamName": "Purdue Boilermakers",

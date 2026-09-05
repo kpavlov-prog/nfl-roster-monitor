@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/265/roster?limit=100&page=1",
-  "checkedAt": "2026-09-04T13:41:49.137272+00:00",
+  "checkedAt": "2026-09-05T12:57:18.170949+00:00",
   "players": [
     {
       "name": "AJ Olerich",
@@ -128,7 +128,7 @@
     },
     {
       "name": "Chris Perry Jr.",
-      "position": "DB",
+      "position": "S",
       "number": "26",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -282,15 +282,8 @@
     },
     {
       "name": "JaVon Joseph",
-      "position": "DL",
+      "position": "DT",
       "number": "93",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Jack Bal",
-      "position": "S",
-      "number": "25",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -319,6 +312,13 @@
       "name": "Jack Stevens",
       "position": "PK",
       "number": "38",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Jackquintin Bal",
+      "position": "S",
+      "number": "25",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -415,7 +415,7 @@
     },
     {
       "name": "Josh Wedel",
-      "position": "DE",
+      "position": "DT",
       "number": "97",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -457,7 +457,7 @@
     },
     {
       "name": "Kayo Patu",
-      "position": "S",
+      "position": "CB",
       "number": "19",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -471,7 +471,7 @@
     },
     {
       "name": "Kenny Miller-Terry",
-      "position": "DB",
+      "position": "S",
       "number": "36",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -694,7 +694,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Tank Hawkins",
+      "name": "Tank Hawkins Jr.",
       "position": "WR",
       "number": "10",
       "status": "ACTIVE",
@@ -708,7 +708,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Tre Hill Jr.",
+      "name": "Trey Hill Jr.",
       "position": "RB",
       "number": "22",
       "status": "ACTIVE",

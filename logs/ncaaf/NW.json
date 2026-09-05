@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-05T12:51:11.818219+00:00",
+    "teamCode": "NW",
+    "teamName": "Northwestern Wildcats",
+    "type": "number changed",
+    "playerName": "Nate Dawson",
+    "position": "DB",
+    "oldValue": "36",
+    "newValue": "23",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T12:51:11.818233+00:00",
+    "teamCode": "NW",
+    "teamName": "Northwestern Wildcats",
+    "type": "position changed",
+    "playerName": "Robby Preckel",
+    "position": "RB",
+    "oldValue": "TE",
+    "newValue": "RB",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-08-06T11:44:49.548756+00:00",
     "teamCode": "NW",
     "teamName": "Northwestern Wildcats",

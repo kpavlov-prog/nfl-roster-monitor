@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/154/roster?limit=100&page=1",
-  "checkedAt": "2026-09-04T13:41:43.357820+00:00",
+  "checkedAt": "2026-09-05T12:57:09.009383+00:00",
   "players": [
     {
       "name": "AJ Marks",
@@ -295,6 +295,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Eric Williams",
+      "position": "DB",
+      "number": "49",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Ethan Calloway",
       "position": "OL",
       "number": "56",
@@ -429,7 +436,7 @@
     },
     {
       "name": "Jerron Blackwell",
-      "position": "DB",
+      "position": "LB",
       "number": "30",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -478,7 +485,7 @@
     },
     {
       "name": "Kalil Townes",
-      "position": "RB",
+      "position": "DB",
       "number": "41",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -519,7 +526,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Kyndall Mccaleb",
+      "name": "Kyndall McCaleb",
       "position": "RB",
       "number": "21",
       "status": "ACTIVE",
@@ -795,6 +802,13 @@
       "name": "Wondame Davis Jr.",
       "position": "WR",
       "number": "7",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Wyatt Freeman",
+      "position": "LS",
+      "number": "39",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

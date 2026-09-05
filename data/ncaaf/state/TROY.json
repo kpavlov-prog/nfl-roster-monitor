@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2653/roster?limit=100&page=1",
-  "checkedAt": "2026-09-04T13:40:44.057175+00:00",
+  "checkedAt": "2026-09-05T12:55:28.665069+00:00",
   "players": [
     {
       "name": "AC Walters",
@@ -67,6 +67,13 @@
       "name": "Caleb Ash",
       "position": "OL",
       "number": "54",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Chris King",
+      "position": "OL",
+      "number": "59",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -172,13 +179,6 @@
       "name": "Fabian Rogosch",
       "position": "TE",
       "number": "85",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Gavin Bowlin",
-      "position": "OL",
-      "number": "50",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -442,13 +442,6 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Kam Curry",
-      "position": "DT",
-      "number": "0",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
       "name": "Kavion Henderson",
       "position": "DE",
       "number": "25",
@@ -486,7 +479,7 @@
     {
       "name": "Kinnick Manley",
       "position": "LS",
-      "number": "24",
+      "number": "68",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
