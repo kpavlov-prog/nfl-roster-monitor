@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=active",
-  "checkedAt": "2026-09-04T12:43:14.105620+00:00",
+  "checkedAt": "2026-09-05T11:50:00.606200+00:00",
   "players": [
     {
       "name": "Andrés Muñoz",
@@ -88,13 +88,6 @@
       "name": "George Kirby",
       "position": "P",
       "number": "68",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Hoby Milner",
-      "position": "P",
-      "number": "41",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -193,6 +186,13 @@
       "name": "Taylor Ward",
       "position": "DH",
       "number": "27",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Troy Taylor",
+      "position": "P",
+      "number": "59",
       "status": "A",
       "source": "MLB Stats API"
     },

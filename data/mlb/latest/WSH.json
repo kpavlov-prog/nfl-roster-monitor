@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-09-04T12:43:17.047463+00:00",
+  "checkedAt": "2026-09-05T11:50:03.690004+00:00",
   "players": [
     {
       "name": "Abimelec Ortiz",
@@ -92,6 +92,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jack Sinclair",
+      "position": "P",
+      "number": "49",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jackson Kent",
       "position": "P",
       "number": "25",
@@ -158,13 +165,6 @@
       "name": "Matt Waldron",
       "position": "P",
       "number": "56",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Max Kranick",
-      "position": "P",
-      "number": "35",
       "status": "A",
       "source": "MLB Stats API"
     },

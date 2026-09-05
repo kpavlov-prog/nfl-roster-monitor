@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-09-04T12:42:59.796374+00:00",
+  "checkedAt": "2026-09-05T11:49:46.617780+00:00",
   "players": [
     {
       "name": "Blake Walston",
@@ -106,13 +106,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jorge Barrosa",
-      "position": "CF",
-      "number": "1",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jose Cabrera",
       "position": "P",
       "number": "53",
@@ -200,6 +193,13 @@
       "name": "Tim Tawa",
       "position": "1B",
       "number": "13",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tommy Troy",
+      "position": "LF",
+      "number": "9",
       "status": "A",
       "source": "MLB Stats API"
     }

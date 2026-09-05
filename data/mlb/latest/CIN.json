@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=active",
-  "checkedAt": "2026-09-04T12:43:03.404128+00:00",
+  "checkedAt": "2026-09-05T11:49:50.125352+00:00",
   "players": [
     {
       "name": "Andrew Abbott",
@@ -32,6 +32,13 @@
       "name": "Brock Burke",
       "position": "P",
       "number": "49",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Carlos Jorge",
+      "position": "CF",
+      "number": "38",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -81,13 +88,6 @@
       "name": "Héctor Rodríguez",
       "position": "RF",
       "number": "43",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Ivan Johnson",
-      "position": "2B",
-      "number": "63",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-05T11:50:01.253174+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "added",
+    "playerName": "Andre Pallante",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T11:50:01.253189+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "removed",
+    "playerName": "Ryan Fernandez",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-02T12:46:15.542373+00:00",
     "teamCode": "STL",
     "teamName": "St. Louis Cardinals",

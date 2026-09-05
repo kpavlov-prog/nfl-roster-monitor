@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active",
-  "checkedAt": "2026-09-04T12:43:04.026734+00:00",
+  "checkedAt": "2026-09-05T11:49:50.707560+00:00",
   "players": [
     {
       "name": "Angel Genao",
@@ -29,6 +29,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Austin Peterson",
+      "position": "P",
+      "number": "49",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Brayan Rocchio",
       "position": "SS",
       "number": "4",
@@ -43,13 +50,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Carlos Hernández",
-      "position": "P",
-      "number": "40",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Chase DeLauter",
       "position": "RF",
       "number": "24",
@@ -57,16 +57,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Colin Holderman",
+      "name": "Craig Yoho",
       "position": "P",
-      "number": "35",
+      "number": "23",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Craig Yoho",
+      "name": "Daniel Espino",
       "position": "P",
-      "number": "23",
+      "number": "41",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -134,13 +134,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Logan Allen",
-      "position": "P",
-      "number": "26",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Matt Festa",
       "position": "P",
       "number": "52",
@@ -172,6 +165,13 @@
       "name": "Petey Halpin",
       "position": "CF",
       "number": "0",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Slade Cecconi",
+      "position": "P",
+      "number": "44",
       "status": "A",
       "source": "MLB Stats API"
     },
