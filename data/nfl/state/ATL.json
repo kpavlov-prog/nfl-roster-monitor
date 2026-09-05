@@ -3,7 +3,7 @@
   "team": "Atlanta Falcons",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/atlanta-falcons/roster",
-  "checkedAt": "2026-09-04T12:23:17.639085+00:00",
+  "checkedAt": "2026-09-05T11:32:03.138253+00:00",
   "players": [
     {
       "name": "A.J. Terrell",
@@ -67,6 +67,14 @@
       "number": "33",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Bralen Trice",
+      "position": "LB",
+      "number": "76",
+      "status": "LISTED",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -386,14 +394,6 @@
       "position": "DE",
       "number": "59",
       "status": "RES",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Khalid Kareem",
-      "position": "DE",
-      "number": "76",
-      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

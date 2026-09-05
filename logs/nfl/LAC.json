@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-05T11:32:39.087870+00:00",
+    "teamCode": "LAC",
+    "teamName": "Los Angeles Chargers",
+    "type": "position changed",
+    "playerName": "Alex Harkey",
+    "position": "G",
+    "oldValue": "OT",
+    "newValue": "G",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T11:32:39.087930+00:00",
+    "teamCode": "LAC",
+    "teamName": "Los Angeles Chargers",
+    "type": "removed",
+    "playerName": "Kyle Kennard",
+    "position": "LB",
+    "oldValue": "RES",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-09-04T12:23:51.379663+00:00",
     "teamCode": "LAC",
     "teamName": "Los Angeles Chargers",

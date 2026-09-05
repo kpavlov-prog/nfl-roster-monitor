@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-05T11:32:03.138693+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Falcons",
+    "type": "added",
+    "playerName": "Bralen Trice",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-05T11:32:03.138906+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Falcons",
+    "type": "removed",
+    "playerName": "Khalid Kareem",
+    "position": "DE",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-04T12:23:17.639451+00:00",
     "teamCode": "ATL",
     "teamName": "Atlanta Falcons",
