@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-09-05T11:49:57.691100+00:00",
+  "checkedAt": "2026-09-06T12:08:39.769381+00:00",
   "players": [
     {
       "name": "Alika Williams",
@@ -99,9 +99,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "J.T. Ginn",
+      "name": "Jack Perkins",
       "position": "P",
-      "number": "35",
+      "number": "50",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -141,13 +141,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Kade Morris",
-      "position": "P",
-      "number": "67",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Lawrence Butler",
       "position": "RF",
       "number": "4",
@@ -179,6 +172,13 @@
       "name": "Scott Blewett",
       "position": "P",
       "number": "49",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Seth Johnson",
+      "position": "P",
+      "number": "52",
       "status": "A",
       "source": "MLB Stats API"
     },

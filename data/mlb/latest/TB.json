@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/139/roster?rosterType=active",
-  "checkedAt": "2026-09-05T11:50:01.924576+00:00",
+  "checkedAt": "2026-09-06T12:08:43.822906+00:00",
   "players": [
     {
       "name": "Alex Cook",
@@ -67,13 +67,6 @@
       "name": "Freddy Peralta",
       "position": "P",
       "number": "51",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Garrett Cleavinger",
-      "position": "P",
-      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,6 +172,13 @@
       "name": "Taylor Walls",
       "position": "SS",
       "number": "6",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ty Johnson",
+      "position": "P",
+      "number": "55",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-09-05T11:50:00.020230+00:00",
+  "checkedAt": "2026-09-06T12:08:42.078718+00:00",
   "players": [
     {
       "name": "Andrew Knizner",
@@ -99,6 +99,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Joel Kuhnel",
+      "position": "P",
+      "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jonah Cox",
       "position": "CF",
       "number": "53",
@@ -158,13 +165,6 @@
       "name": "Reiver Sanmartin",
       "position": "P",
       "number": "48",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Ryan Walker",
-      "position": "P",
-      "number": "74",
       "status": "A",
       "source": "MLB Stats API"
     },

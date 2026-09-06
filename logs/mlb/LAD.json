@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-06T12:08:36.299044+00:00",
+    "teamCode": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "type": "added",
+    "playerName": "Bobby Miller",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-06T12:08:36.299060+00:00",
+    "teamCode": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "type": "removed",
+    "playerName": "Kyle Hurt",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-05T11:49:54.216129+00:00",
     "teamCode": "LAD",
     "teamName": "Los Angeles Dodgers",
