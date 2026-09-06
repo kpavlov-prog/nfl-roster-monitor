@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-06T13:03:43.128835+00:00",
+    "teamCode": "TROY",
+    "teamName": "Troy Trojans",
+    "type": "added",
+    "playerName": "Kam Curry",
+    "position": "DT",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-06T13:03:43.128864+00:00",
+    "teamCode": "TROY",
+    "teamName": "Troy Trojans",
+    "type": "removed",
+    "playerName": "Keno Jones",
+    "position": "LB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-05T12:55:28.665472+00:00",
     "teamCode": "TROY",
     "teamName": "Troy Trojans",

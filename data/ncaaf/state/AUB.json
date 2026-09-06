@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2/roster?limit=100&page=1",
-  "checkedAt": "2026-09-05T12:45:01.923791+00:00",
+  "checkedAt": "2026-09-06T12:54:22.490781+00:00",
   "players": [
     {
       "name": "Adam Balogoun-Ali",
@@ -606,6 +606,13 @@
       "name": "Parker Pritchett",
       "position": "OL",
       "number": "70",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Peyton Floyd",
+      "position": "S",
+      "number": "48",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

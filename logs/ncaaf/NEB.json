@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-06T12:59:49.436185+00:00",
+    "teamCode": "NEB",
+    "teamName": "Nebraska Cornhuskers",
+    "type": "added",
+    "playerName": "David Hoffken",
+    "position": "DT",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-06T12:59:49.436234+00:00",
+    "teamCode": "NEB",
+    "teamName": "Nebraska Cornhuskers",
+    "type": "removed",
+    "playerName": "David Hffken",
+    "position": "DL",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-05T12:50:20.659718+00:00",
     "teamCode": "NEB",
     "teamName": "Nebraska Cornhuskers",

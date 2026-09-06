@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-06T13:04:54.106150+00:00",
+    "teamCode": "USU",
+    "teamName": "Utah State Aggies",
+    "type": "added",
+    "playerName": "Collin Remenowsky",
+    "position": "TE",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-06T13:04:54.106201+00:00",
+    "teamCode": "USU",
+    "teamName": "Utah State Aggies",
+    "type": "removed",
+    "playerName": "Collin Remenowksy",
+    "position": "TE",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-05T12:56:37.729425+00:00",
     "teamCode": "USU",
     "teamName": "Utah State Aggies",

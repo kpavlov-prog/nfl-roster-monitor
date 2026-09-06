@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2653/roster?limit=100&page=1",
-  "checkedAt": "2026-09-05T12:55:28.665069+00:00",
+  "checkedAt": "2026-09-06T13:03:43.128365+00:00",
   "players": [
     {
       "name": "AC Walters",
@@ -442,6 +442,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Kam Curry",
+      "position": "DT",
+      "number": "0",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Kavion Henderson",
       "position": "DE",
       "number": "25",
@@ -459,13 +466,6 @@
       "name": "Kendall Roseberry",
       "position": "DT",
       "number": "52",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Keno Jones",
-      "position": "LB",
-      "number": "15",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
