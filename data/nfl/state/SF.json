@@ -3,7 +3,7 @@
   "team": "San Francisco 49ers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/san-francisco-49ers/roster",
-  "checkedAt": "2026-09-05T11:32:59.887221+00:00",
+  "checkedAt": "2026-09-06T11:51:46.014208+00:00",
   "players": [
     {
       "name": "Alfred Collins",
@@ -42,14 +42,6 @@
       "position": "DB",
       "number": "69",
       "status": "LISTED",
-      "important": true,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Brayden Willis",
-      "position": "TE",
-      "number": "9",
-      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -337,7 +329,7 @@
       "name": "Jon Weeks",
       "position": "LS",
       "number": "46",
-      "status": "LISTED",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },
@@ -386,6 +378,14 @@
       "position": "WR",
       "number": "74",
       "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Khalid Kareem",
+      "position": "DE",
+      "number": "76",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -537,7 +537,7 @@
       "name": "Sam Okuayinonu",
       "position": "DT",
       "number": "91",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },

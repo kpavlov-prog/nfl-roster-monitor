@@ -3,7 +3,7 @@
   "team": "Kansas City Chiefs",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/kansas-city-chiefs/roster",
-  "checkedAt": "2026-09-05T11:32:33.238595+00:00",
+  "checkedAt": "2026-09-06T11:51:19.695282+00:00",
   "players": [
     {
       "name": "Andrew Armstrong",
@@ -522,6 +522,14 @@
       "position": "WR",
       "number": "4",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Thomas Odukoya",
+      "position": "TE",
+      "number": "78",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
