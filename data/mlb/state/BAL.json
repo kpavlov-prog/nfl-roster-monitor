@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=active",
-  "checkedAt": "2026-09-06T12:08:29.932341+00:00",
+  "checkedAt": "2026-09-07T14:14:38.004883+00:00",
   "players": [
-    {
-      "name": "Albert Suárez",
-      "position": "P",
-      "number": "49",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Alex Hoppe",
       "position": "P",
@@ -25,6 +18,13 @@
       "name": "Andrew Kittredge",
       "position": "P",
       "number": "39",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Anthony Nunez",
+      "position": "P",
+      "number": "66",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -148,16 +148,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Luis Robert Jr.",
-      "position": "CF",
-      "number": "88",
+      "name": "Pete Alonso",
+      "position": "1B",
+      "number": "25",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Pete Alonso",
-      "position": "1B",
-      "number": "25",
+      "name": "Rece Hinds",
+      "position": "RF",
+      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     },

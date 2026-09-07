@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-09-06T12:08:38.613412+00:00",
+  "checkedAt": "2026-09-07T14:14:46.320617+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -106,9 +106,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jefry Yan",
+      "name": "Jonah Tong",
       "position": "P",
-      "number": "84",
+      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -123,13 +123,6 @@
       "name": "Juan Soto",
       "position": "LF",
       "number": "22",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Justin Hagenman",
-      "position": "P",
-      "number": "47",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -193,6 +186,13 @@
       "name": "Sean Manaea",
       "position": "P",
       "number": "59",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tobias Myers",
+      "position": "P",
+      "number": "32",
       "status": "A",
       "source": "MLB Stats API"
     },

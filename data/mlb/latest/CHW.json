@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-09-06T12:08:31.666639+00:00",
+  "checkedAt": "2026-09-07T14:14:39.675463+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -60,6 +60,13 @@
       "name": "Davis Martin",
       "position": "P",
       "number": "65",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Edgar Quero",
+      "position": "C",
+      "number": "26",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,13 +172,6 @@
       "name": "Sean Newcomb",
       "position": "P",
       "number": "15",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tommy Pham",
-      "position": "LF",
-      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     },

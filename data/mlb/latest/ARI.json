@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-09-06T12:08:28.771392+00:00",
+  "checkedAt": "2026-09-07T14:14:36.891955+00:00",
   "players": [
+    {
+      "name": "Adrian Del Castillo",
+      "position": "DH",
+      "number": "25",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Blake Walston",
       "position": "P",
@@ -151,13 +158,6 @@
       "name": "Lourdes Gurriel Jr.",
       "position": "LF",
       "number": "12",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Max Kepler",
-      "position": "LF",
-      "number": "22",
       "status": "A",
       "source": "MLB Stats API"
     },
