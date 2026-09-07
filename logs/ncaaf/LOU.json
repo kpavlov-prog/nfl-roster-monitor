@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-07T15:16:31.799281+00:00",
+    "teamCode": "LOU",
+    "teamName": "Louisville Cardinals",
+    "type": "added",
+    "playerName": "DeVuan Jones",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football Core API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-07T15:16:31.799311+00:00",
+    "teamCode": "LOU",
+    "teamName": "Louisville Cardinals",
+    "type": "added",
+    "playerName": "TJ Banks",
+    "position": "DB",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football Core API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-07T15:16:31.799319+00:00",
+    "teamCode": "LOU",
+    "teamName": "Louisville Cardinals",
+    "type": "removed",
+    "playerName": "DeVaun Jones",
+    "position": "WR",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football Core API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-07T15:16:31.799325+00:00",
+    "teamCode": "LOU",
+    "teamName": "Louisville Cardinals",
+    "type": "removed",
+    "playerName": "T.J. Banks",
+    "position": "DB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football Core API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-05T12:48:59.343339+00:00",
     "teamCode": "LOU",
     "teamName": "Louisville Cardinals",

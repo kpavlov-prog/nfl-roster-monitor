@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2567/roster?limit=100&page=1",
-  "checkedAt": "2026-09-06T13:02:02.049021+00:00",
+  "checkedAt": "2026-09-07T15:25:14.106038+00:00",
   "players": [
     {
       "name": "Aakil Washington",
@@ -45,7 +45,7 @@
     {
       "name": "Alexander Kilgore",
       "position": "LB",
-      "number": "54",
+      "number": "23",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -78,9 +78,9 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Bennett Johnson",
+      "name": "Bennett Johnson V",
       "position": "OL",
-      "number": "",
+      "number": "65",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -101,7 +101,7 @@
     {
       "name": "Brendan Baird",
       "position": "PK",
-      "number": "",
+      "number": "97",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -162,6 +162,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Connor Carrera",
+      "position": "S",
+      "number": "36",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Dakota Dickson",
       "position": "DL",
       "number": "99",
@@ -200,13 +207,6 @@
       "name": "Deuce Gilbert",
       "position": "CB",
       "number": "20",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Devon Martin",
-      "position": "TE",
-      "number": "86",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -283,12 +283,12 @@
     {
       "name": "I'Zayah Young",
       "position": "LB",
-      "number": "24",
+      "number": "25",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
-      "name": "Ira Singleton",
+      "name": "Ira Singleton IV",
       "position": "DE",
       "number": "9",
       "status": "ACTIVE",
@@ -414,13 +414,6 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Keith Dotie",
-      "position": "DL",
-      "number": "98",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
       "name": "Kendrick Raphael",
       "position": "RB",
       "number": "6",
@@ -465,7 +458,7 @@
     {
       "name": "Mabrey Mettauer",
       "position": "QB",
-      "number": "",
+      "number": "28",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -514,7 +507,7 @@
     {
       "name": "Michael Slaba",
       "position": "PK",
-      "number": "",
+      "number": "95",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -554,7 +547,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Randy Pittman",
+      "name": "Randy Pittman Jr.",
       "position": "TE",
       "number": "5",
       "status": "ACTIVE",
@@ -638,7 +631,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Tyren Polley",
+      "name": "Tyren Polley Jr.",
       "position": "S",
       "number": "10",
       "status": "ACTIVE",
