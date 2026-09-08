@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-08T12:52:07.571642+00:00",
+    "teamCode": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "type": "added",
+    "playerName": "Emmet Sheehan",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-08T12:52:07.571658+00:00",
+    "teamCode": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "type": "removed",
+    "playerName": "Bobby Miller",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-07T14:14:44.106740+00:00",
     "teamCode": "LAD",
     "teamName": "Los Angeles Dodgers",

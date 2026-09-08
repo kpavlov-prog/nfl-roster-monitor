@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-08T12:52:04.434405+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Rockies",
+    "type": "added",
+    "playerName": "Kyle Karros",
+    "position": "3B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-08T12:52:04.434418+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Rockies",
+    "type": "removed",
+    "playerName": "Ryan Ritter",
+    "position": "SS",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-06T12:08:33.402258+00:00",
     "teamCode": "COL",
     "teamName": "Colorado Rockies",

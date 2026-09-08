@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-08T12:52:16.293387+00:00",
+    "teamCode": "TEX",
+    "teamName": "Texas Rangers",
+    "type": "added",
+    "playerName": "Robert Garcia",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-08T12:52:16.293396+00:00",
+    "teamCode": "TEX",
+    "teamName": "Texas Rangers",
+    "type": "removed",
+    "playerName": "Ben Peoples",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-03T12:49:27.567784+00:00",
     "teamCode": "TEX",
     "teamName": "Texas Rangers",

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-08T12:52:17.528232+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Nationals",
+    "type": "added",
+    "playerName": "Yovanny Cruz",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-08T12:52:17.528241+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Nationals",
+    "type": "removed",
+    "playerName": "Orlando Ribalta",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-05T11:50:03.690674+00:00",
     "teamCode": "WSH",
     "teamName": "Washington Nationals",

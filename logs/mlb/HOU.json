@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-08T12:52:05.677698+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Astros",
+    "type": "added",
+    "playerName": "Jorge Barrosa",
+    "position": "CF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-08T12:52:05.677711+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Astros",
+    "type": "removed",
+    "playerName": "Jake Meyers",
+    "position": "CF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-07T14:14:42.454587+00:00",
     "teamCode": "HOU",
     "teamName": "Houston Astros",

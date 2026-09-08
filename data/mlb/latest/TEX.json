@@ -5,19 +5,12 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-09-07T14:14:51.858261+00:00",
+  "checkedAt": "2026-09-08T12:52:16.292573+00:00",
   "players": [
     {
       "name": "Adam Macko",
       "position": "P",
       "number": "71",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Ben Peoples",
-      "position": "P",
-      "number": "70",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,6 +172,13 @@
       "name": "Robby Ahlstrom",
       "position": "P",
       "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Robert Garcia",
+      "position": "P",
+      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     },
