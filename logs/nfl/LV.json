@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-08T12:26:44.119243+00:00",
+    "teamCode": "LV",
+    "teamName": "Las Vegas Raiders",
+    "type": "added",
+    "playerName": "Patrick Gurd",
+    "position": "TE",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-08T12:26:44.119254+00:00",
+    "teamCode": "LV",
+    "teamName": "Las Vegas Raiders",
+    "type": "added",
+    "playerName": "Tim Keenan III",
+    "position": "DT",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-08T12:26:44.119260+00:00",
+    "teamCode": "LV",
+    "teamName": "Las Vegas Raiders",
+    "type": "removed",
+    "playerName": "Gary Smith III",
+    "position": "DT",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-05T11:32:35.661624+00:00",
     "teamCode": "LV",
     "teamName": "Las Vegas Raiders",

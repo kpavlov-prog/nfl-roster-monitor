@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-08T12:26:45.776420+00:00",
+    "teamCode": "LAC",
+    "teamName": "Los Angeles Chargers",
+    "type": "added",
+    "playerName": "Isas Waxter",
+    "position": "DB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-08T12:26:45.776437+00:00",
+    "teamCode": "LAC",
+    "teamName": "Los Angeles Chargers",
+    "type": "removed",
+    "playerName": "Gary Jennings",
+    "position": "WR",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-05T11:32:39.087870+00:00",
     "teamCode": "LAC",
     "teamName": "Los Angeles Chargers",

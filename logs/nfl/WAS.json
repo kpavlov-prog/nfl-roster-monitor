@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-08T12:27:09.366411+00:00",
+    "teamCode": "WAS",
+    "teamName": "Washington Commanders",
+    "type": "added",
+    "playerName": "Van Jefferson",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-08T12:27:09.366421+00:00",
+    "teamCode": "WAS",
+    "teamName": "Washington Commanders",
+    "type": "removed",
+    "playerName": "Joshua Simon",
+    "position": "TE",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-05T11:33:08.030366+00:00",
     "teamCode": "WAS",
     "teamName": "Washington Commanders",
