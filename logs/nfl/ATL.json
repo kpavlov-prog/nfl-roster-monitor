@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-09T12:35:07.611168+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Falcons",
+    "type": "number changed",
+    "playerName": "Anterio Thompson",
+    "position": "DT",
+    "oldValue": "98",
+    "newValue": "69",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-09T12:35:07.611205+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Falcons",
+    "type": "removed",
+    "playerName": "Darren Hall",
+    "position": "CB",
+    "oldValue": "RES",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-09-05T11:32:03.138693+00:00",
     "teamCode": "ATL",
     "teamName": "Atlanta Falcons",

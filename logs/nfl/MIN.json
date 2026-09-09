@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-09T12:35:41.580521+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "status changed",
+    "playerName": "Ben Yurosek",
+    "position": "TE",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-09-09T12:35:41.580540+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "added",
+    "playerName": "Harrison Smith",
+    "position": "FS",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-09T12:35:41.580560+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "removed",
+    "playerName": "Kenny Dyson",
+    "position": "LB",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-08T12:26:50.868702+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Vikings",

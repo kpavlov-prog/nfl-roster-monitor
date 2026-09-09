@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-09T12:35:23.801636+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "number changed",
+    "playerName": "Joshua Dobbs",
+    "position": "QB",
+    "oldValue": "6",
+    "newValue": "11",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-09T12:35:23.801660+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "removed",
+    "playerName": "Michael Niese",
+    "position": "G",
+    "oldValue": "RES",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-09-08T12:26:34.056635+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Lions",
