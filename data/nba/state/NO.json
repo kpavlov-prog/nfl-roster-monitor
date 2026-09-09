@@ -3,8 +3,15 @@
   "team": "New Orleans Pelicans",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/NO/roster",
-  "checkedAt": "2026-09-08T13:05:10.451086+00:00",
+  "checkedAt": "2026-09-09T13:10:34.437910+00:00",
   "players": [
+    {
+      "name": "AJ Johnson",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
     {
       "name": "Bryce McGowens",
       "position": "G",
@@ -55,13 +62,6 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Jordan Hawkins",
-      "position": "G",
-      "number": "24",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Jordan Poole",
       "position": "G",
       "number": "3",
@@ -90,16 +90,16 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Micah Peavy",
+      "name": "Saddiq Bey",
       "position": "G",
-      "number": "14",
+      "number": "41",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
-      "name": "Saddiq Bey",
-      "position": "G",
-      "number": "41",
+      "name": "Taj Gibson",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

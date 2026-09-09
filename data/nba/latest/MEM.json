@@ -3,15 +3,8 @@
   "team": "Memphis Grizzlies",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MEM/roster",
-  "checkedAt": "2026-09-08T13:05:07.776780+00:00",
+  "checkedAt": "2026-09-09T13:10:31.666714+00:00",
   "players": [
-    {
-      "name": "AJ Johnson",
-      "position": "G",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
     {
       "name": "Cam Spencer",
       "position": "G",
@@ -83,6 +76,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Jordan Hawkins",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Karim Lopez",
       "position": "F",
       "number": "",
@@ -93,6 +93,13 @@
       "name": "Kris Murray",
       "position": "F",
       "number": "24",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Micah Peavy",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -121,13 +128,6 @@
       "name": "Scotty Pippen Jr.",
       "position": "G",
       "number": "1",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Taj Gibson",
-      "position": "F",
-      "number": "67",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
