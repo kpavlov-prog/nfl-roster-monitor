@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-09T13:46:01.698103+00:00",
+    "teamCode": "ARST",
+    "teamName": "Arkansas State Red Wolves",
+    "type": "position changed",
+    "playerName": "Bryson Ross",
+    "position": "CB",
+    "oldValue": "S",
+    "newValue": "CB",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-09T13:46:01.698112+00:00",
+    "teamCode": "ARST",
+    "teamName": "Arkansas State Red Wolves",
+    "type": "number changed",
+    "playerName": "Clayton Amaya",
+    "position": "PK",
+    "oldValue": "25",
+    "newValue": "30",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-09T13:46:01.698147+00:00",
+    "teamCode": "ARST",
+    "teamName": "Arkansas State Red Wolves",
+    "type": "removed",
+    "playerName": "Boski Barrett",
+    "position": "WR",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-09T13:46:01.698150+00:00",
+    "teamCode": "ARST",
+    "teamName": "Arkansas State Red Wolves",
+    "type": "removed",
+    "playerName": "Damon Sisa",
+    "position": "RB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-07T15:16:31.799281+00:00",
     "teamCode": "LOU",
     "teamName": "Louisville Cardinals",
