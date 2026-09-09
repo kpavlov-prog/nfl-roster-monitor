@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/139/roster?rosterType=active",
-  "checkedAt": "2026-09-08T12:52:15.681225+00:00",
+  "checkedAt": "2026-09-09T12:58:01.180440+00:00",
   "players": [
     {
       "name": "Alex Cook",
@@ -141,6 +141,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Nick Madrigal",
+      "position": "3B",
+      "number": "20",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Nick Martinez",
       "position": "P",
       "number": "28",
@@ -165,13 +172,6 @@
       "name": "Steven Matz",
       "position": "P",
       "number": "32",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Taylor Walls",
-      "position": "SS",
-      "number": "6",
       "status": "A",
       "source": "MLB Stats API"
     },

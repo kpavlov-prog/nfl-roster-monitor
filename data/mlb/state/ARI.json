@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-09-08T12:51:59.504738+00:00",
+  "checkedAt": "2026-09-09T12:57:46.734518+00:00",
   "players": [
     {
       "name": "Adrian Del Castillo",
@@ -32,6 +32,13 @@
       "name": "Brandyn Garcia",
       "position": "P",
       "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Corbin Burnes",
+      "position": "P",
+      "number": "39",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -78,13 +85,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Gerardo Carrillo",
-      "position": "P",
-      "number": "68",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Ildemaro Vargas",
       "position": "1B",
       "number": "6",
@@ -113,13 +113,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jose Cabrera",
-      "position": "P",
-      "number": "53",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Juan Morillo",
       "position": "P",
       "number": "62",
@@ -130,6 +123,13 @@
       "name": "Justin Martinez",
       "position": "P",
       "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kade Strowd",
+      "position": "P",
+      "number": "24",
       "status": "A",
       "source": "MLB Stats API"
     },
