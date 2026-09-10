@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-09-09T12:57:47.284951+00:00",
+  "checkedAt": "2026-09-10T12:54:56.133462+00:00",
   "players": [
     {
       "name": "AJ Smith-Shawver",
@@ -22,6 +22,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Bailey Falter",
+      "position": "P",
+      "number": "70",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Brent Suter",
       "position": "P",
       "number": "39",
@@ -32,13 +39,6 @@
       "name": "Brewer Hicklen",
       "position": "RF",
       "number": "53",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Bryce Elder",
-      "position": "P",
-      "number": "55",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -81,13 +81,6 @@
       "name": "Dylan Lee",
       "position": "P",
       "number": "52",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Elieser Hernández",
-      "position": "P",
-      "number": "57",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,6 +165,13 @@
       "name": "Ray Kerr",
       "position": "P",
       "number": "62",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Reynaldo López",
+      "position": "P",
+      "number": "40",
       "status": "A",
       "source": "MLB Stats API"
     },

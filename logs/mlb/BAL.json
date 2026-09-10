@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-10T12:54:56.753938+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Orioles",
+    "type": "added",
+    "playerName": "Jeremiah Jackson",
+    "position": "2B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-10T12:54:56.753951+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Orioles",
+    "type": "removed",
+    "playerName": "Blaze Alexander",
+    "position": "3B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-07T14:14:38.005979+00:00",
     "teamCode": "BAL",
     "teamName": "Baltimore Orioles",

@@ -5,19 +5,12 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-09-09T12:57:46.734518+00:00",
+  "checkedAt": "2026-09-10T12:54:55.506109+00:00",
   "players": [
     {
       "name": "Adrian Del Castillo",
       "position": "DH",
       "number": "25",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Blake Walston",
-      "position": "P",
-      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -127,13 +120,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Kade Strowd",
-      "position": "P",
-      "number": "24",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Ketel Marte",
       "position": "2B",
       "number": "4",
@@ -169,6 +155,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Michael Soroka",
+      "position": "P",
+      "number": "34",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Nolan Arenado",
       "position": "3B",
       "number": "28",
@@ -200,6 +193,13 @@
       "name": "Tommy Troy",
       "position": "LF",
       "number": "9",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Zac Gallen",
+      "position": "P",
+      "number": "23",
       "status": "A",
       "source": "MLB Stats API"
     }

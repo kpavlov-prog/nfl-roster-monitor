@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=active",
-  "checkedAt": "2026-09-09T12:57:47.839009+00:00",
+  "checkedAt": "2026-09-10T12:54:56.752740+00:00",
   "players": [
     {
       "name": "Alex Hoppe",
@@ -25,13 +25,6 @@
       "name": "Anthony Nunez",
       "position": "P",
       "number": "66",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Blaze Alexander",
-      "position": "3B",
-      "number": "23",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -116,6 +109,13 @@
       "name": "Jackson Holliday",
       "position": "2B",
       "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jeremiah Jackson",
+      "position": "2B",
+      "number": "82",
       "status": "A",
       "source": "MLB Stats API"
     },

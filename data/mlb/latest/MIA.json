@@ -5,19 +5,12 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-09-09T12:57:54.501392+00:00",
+  "checkedAt": "2026-09-10T12:55:04.081563+00:00",
   "players": [
     {
       "name": "Agustín Ramírez",
       "position": "DH",
       "number": "50",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Bradley Blalock",
-      "position": "P",
-      "number": "31",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,6 +158,13 @@
       "name": "Owen Caissie",
       "position": "RF",
       "number": "17",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Pete Fairbanks",
+      "position": "P",
+      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },
