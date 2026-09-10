@@ -3,7 +3,7 @@
   "team": "Carolina Hurricanes",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/CAR/current",
-  "checkedAt": "2026-09-09T13:04:04.434450+00:00",
+  "checkedAt": "2026-09-10T13:00:19.156537+00:00",
   "players": [
     {
       "name": "Aleksi Heimosalmi",
@@ -37,6 +37,13 @@
       "name": "Bryce Montgomery",
       "position": "D",
       "number": "72",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Cayden Primeau",
+      "position": "G",
+      "number": "55",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -128,6 +135,13 @@
       "name": "Juha Jaaska",
       "position": "L",
       "number": "54",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Justin Robidas",
+      "position": "C",
+      "number": "46",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -233,6 +247,13 @@
       "name": "Shayne Gostisbehere",
       "position": "D",
       "number": "4",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Skyler Brind'Amour",
+      "position": "C",
+      "number": "76",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

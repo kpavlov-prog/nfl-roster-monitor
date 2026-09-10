@@ -3,7 +3,7 @@
   "team": "Tampa Bay Lightning",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/TBL/current",
-  "checkedAt": "2026-09-09T13:04:20.743640+00:00",
+  "checkedAt": "2026-09-10T13:00:35.263735+00:00",
   "players": [
     {
       "name": "Andrei Vasilevskiy",
@@ -16,6 +16,13 @@
       "name": "Anthony Cirelli",
       "position": "C",
       "number": "71",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Benjamin Rautiainen",
+      "position": "C",
+      "number": "41",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
