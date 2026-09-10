@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-10T12:32:38.909205+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Seahawks",
+    "type": "status changed",
+    "playerName": "Velus Jones Jr.",
+    "position": "WR",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-10T12:32:38.909218+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Seahawks",
+    "type": "removed",
+    "playerName": "Bryce Cabeldue",
+    "position": "G",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-09T12:35:55.759769+00:00",
     "teamCode": "SEA",
     "teamName": "Seattle Seahawks",

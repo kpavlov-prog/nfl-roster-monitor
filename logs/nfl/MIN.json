@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-10T12:32:23.550198+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "added",
+    "playerName": "Jihad Ward",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-10T12:32:23.550217+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "number changed",
+    "playerName": "Zemaiah Vaughn",
+    "position": "CB",
+    "oldValue": "34",
+    "newValue": "5",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-10T12:32:23.550226+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "removed",
+    "playerName": "Marcus Allen",
+    "position": "DB",
+    "oldValue": "RES",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-09-09T12:35:41.580521+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Vikings",

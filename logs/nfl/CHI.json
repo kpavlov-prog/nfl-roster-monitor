@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-10T12:31:57.891713+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bears",
+    "type": "added",
+    "playerName": "Keidron Smith",
+    "position": "DB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-10T12:31:57.891737+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bears",
+    "type": "removed",
+    "playerName": "Beanie Bishop Jr.",
+    "position": "CB",
+    "oldValue": "SUS",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-09-09T12:35:14.779816+00:00",
     "teamCode": "CHI",
     "teamName": "Chicago Bears",

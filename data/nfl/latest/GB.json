@@ -3,7 +3,7 @@
   "team": "Green Bay Packers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/green-bay-packers/roster",
-  "checkedAt": "2026-09-09T12:35:25.586071+00:00",
+  "checkedAt": "2026-09-10T12:32:08.156233+00:00",
   "players": [
     {
       "name": "Aaron Banks",
@@ -129,6 +129,14 @@
       "name": "Dalton Cooper",
       "position": "OT",
       "number": "78",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Damon Bankston",
+      "position": "RB",
+      "number": "70",
       "status": "LISTED",
       "important": true,
       "source": "NFL.com"
@@ -322,6 +330,14 @@
       "position": "TE",
       "number": "81",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Kahlef Hailassie",
+      "position": "DB",
+      "number": "73",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-10T12:32:03.041025+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Cowboys",
+    "type": "added",
+    "playerName": "Laken Tomlinson",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-10T12:32:03.041040+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Cowboys",
+    "type": "status changed",
+    "playerName": "Nick Leverett",
+    "position": "G",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-10T12:32:03.041051+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Cowboys",
+    "type": "status changed",
+    "playerName": "Tyler Smith",
+    "position": "G",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-09T12:35:20.131177+00:00",
     "teamCode": "DAL",
     "teamName": "Dallas Cowboys",

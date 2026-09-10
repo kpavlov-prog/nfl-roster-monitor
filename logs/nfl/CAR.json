@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-10T12:31:56.222724+00:00",
+    "teamCode": "CAR",
+    "teamName": "Carolina Panthers",
+    "type": "added",
+    "playerName": "Jeremiah Moon",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-10T12:31:56.222748+00:00",
+    "teamCode": "CAR",
+    "teamName": "Carolina Panthers",
+    "type": "removed",
+    "playerName": "Cam Gill",
+    "position": "LB",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-09T12:35:12.982879+00:00",
     "teamCode": "CAR",
     "teamName": "Carolina Panthers",
