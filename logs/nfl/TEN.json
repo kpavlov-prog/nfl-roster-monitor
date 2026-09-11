@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-11T12:28:52.091742+00:00",
+    "teamCode": "TEN",
+    "teamName": "Tennessee Titans",
+    "type": "added",
+    "playerName": "Jaylon Jones",
+    "position": "DB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-11T12:28:52.091760+00:00",
+    "teamCode": "TEN",
+    "teamName": "Tennessee Titans",
+    "type": "removed",
+    "playerName": "Melvin Smith Jr.",
+    "position": "DB",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-08T12:27:07.626862+00:00",
     "teamCode": "TEN",
     "teamName": "Tennessee Titans",

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-11T12:28:17.328137+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "added",
+    "playerName": "Natrone Brooks",
+    "position": "DB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-11T12:28:17.328152+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "status changed",
+    "playerName": "Tom Kennedy",
+    "position": "WR",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-09T12:35:23.801636+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Lions",
