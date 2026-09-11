@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-11T13:01:46.408102+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Hawks",
+    "type": "added",
+    "playerName": "Lamont Butler",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-11T13:01:54.289726+00:00",
+    "teamCode": "LAC",
+    "teamName": "LA Clippers",
+    "type": "number changed",
+    "playerName": "Bradley Beal",
+    "position": "G",
+    "oldValue": "0",
+    "newValue": "3",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-11T13:01:54.289741+00:00",
+    "teamCode": "LAC",
+    "teamName": "LA Clippers",
+    "type": "removed",
+    "playerName": "Bennedict Mathurin",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-11T13:01:58.085029+00:00",
+    "teamCode": "NO",
+    "teamName": "New Orleans Pelicans",
+    "type": "added",
+    "playerName": "Bennedict Mathurin",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-10T13:08:08.060788+00:00",
     "teamCode": "ATL",
     "teamName": "Atlanta Hawks",

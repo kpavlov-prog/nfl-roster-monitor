@@ -3,7 +3,7 @@
   "team": "Atlanta Hawks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/ATL/roster",
-  "checkedAt": "2026-09-10T13:08:08.059104+00:00",
+  "checkedAt": "2026-09-11T13:01:46.407074+00:00",
   "players": [
     {
       "name": "Aaron Wiggins",
@@ -93,6 +93,13 @@
       "name": "Kingston Flemings",
       "position": "G",
       "number": "4",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Lamont Butler",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

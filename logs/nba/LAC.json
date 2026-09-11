@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-11T13:01:54.289726+00:00",
+    "teamCode": "LAC",
+    "teamName": "LA Clippers",
+    "type": "number changed",
+    "playerName": "Bradley Beal",
+    "position": "G",
+    "oldValue": "0",
+    "newValue": "3",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-11T13:01:54.289741+00:00",
+    "teamCode": "LAC",
+    "teamName": "LA Clippers",
+    "type": "removed",
+    "playerName": "Bennedict Mathurin",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-21T09:20:02.266689+00:00",
     "teamCode": "LAC",
     "teamName": "LA Clippers",
