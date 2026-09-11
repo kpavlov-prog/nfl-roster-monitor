@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-11T12:49:31.370457+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Nationals",
+    "type": "added",
+    "playerName": "Andrew Pinckney",
+    "position": "LF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-11T12:49:31.370474+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Nationals",
+    "type": "removed",
+    "playerName": "Nasim Nuñez",
+    "position": "2B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-10T12:55:13.206257+00:00",
     "teamCode": "WSH",
     "teamName": "Washington Nationals",

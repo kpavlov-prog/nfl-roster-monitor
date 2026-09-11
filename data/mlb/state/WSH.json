@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-09-10T12:55:13.205046+00:00",
+  "checkedAt": "2026-09-11T12:49:31.369251+00:00",
   "players": [
     {
       "name": "Abimelec Ortiz",
@@ -18,6 +18,13 @@
       "name": "Andrew Alvarez",
       "position": "P",
       "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Andrew Pinckney",
+      "position": "LF",
+      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,13 +172,6 @@
       "name": "Luis Perales",
       "position": "P",
       "number": "43",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Nasim Nuñez",
-      "position": "2B",
-      "number": "26",
       "status": "A",
       "source": "MLB Stats API"
     },

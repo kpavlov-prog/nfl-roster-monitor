@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-11T12:49:26.861165+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "added",
+    "playerName": "Antwone Kelly",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-11T12:49:26.861184+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "removed",
+    "playerName": "Braxton Ashcraft",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-09T12:57:58.403628+00:00",
     "teamCode": "PIT",
     "teamName": "Pittsburgh Pirates",
