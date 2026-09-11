@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-11T12:55:32.233342+00:00",
+    "teamCode": "ANA",
+    "teamName": "Anaheim Ducks",
+    "type": "removed",
+    "playerName": "Chris Kreider",
+    "position": "L",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-11T12:55:35.553421+00:00",
+    "teamCode": "CAR",
+    "teamName": "Carolina Hurricanes",
+    "type": "added",
+    "playerName": "Charles Alexis Legault",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-11T12:55:35.553434+00:00",
+    "teamCode": "CAR",
+    "teamName": "Carolina Hurricanes",
+    "type": "added",
+    "playerName": "Mike Reilly",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-11T12:55:49.514836+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Penguins",
+    "type": "removed",
+    "playerName": "Tomas Galvas",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-10T13:00:17.587921+00:00",
     "teamCode": "BUF",
     "teamName": "Buffalo Sabres",

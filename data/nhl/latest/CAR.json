@@ -3,7 +3,7 @@
   "team": "Carolina Hurricanes",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/CAR/current",
-  "checkedAt": "2026-09-10T13:00:19.156537+00:00",
+  "checkedAt": "2026-09-11T12:55:35.552513+00:00",
   "players": [
     {
       "name": "Aleksi Heimosalmi",
@@ -44,6 +44,13 @@
       "name": "Cayden Primeau",
       "position": "G",
       "number": "55",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Charles Alexis Legault",
+      "position": "D",
+      "number": "62",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -170,6 +177,13 @@
       "name": "Mark Jankowski",
       "position": "L",
       "number": "77",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Mike Reilly",
+      "position": "D",
+      "number": "6",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
