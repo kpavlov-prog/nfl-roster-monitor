@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/84/roster?limit=100&page=1",
-  "checkedAt": "2026-09-10T13:45:20.737749+00:00",
+  "checkedAt": "2026-09-11T13:37:45.185742+00:00",
   "players": [
     {
       "name": "A.J. Harris",
@@ -438,6 +438,13 @@
       "name": "Keishaun Calhoun",
       "position": "DL",
       "number": "41",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Kellan Wyatt",
+      "position": "DL",
+      "number": "18",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

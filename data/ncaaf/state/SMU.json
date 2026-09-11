@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2567/roster?limit=100&page=1",
-  "checkedAt": "2026-09-10T13:55:10.137109+00:00",
+  "checkedAt": "2026-09-11T13:40:48.281168+00:00",
   "players": [
     {
       "name": "Aakil Washington",
@@ -32,6 +32,13 @@
       "name": "Addison Nichols",
       "position": "OL",
       "number": "63",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Ahmaad Moses",
+      "position": "S",
+      "number": "7",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
