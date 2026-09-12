@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/189/roster?limit=100&page=1",
-  "checkedAt": "2026-09-11T13:36:07.596811+00:00",
+  "checkedAt": "2026-09-12T12:55:32.746390+00:00",
   "players": [
     {
       "name": "AJ Odom",
@@ -164,7 +164,7 @@
     {
       "name": "Cashmire Lewis",
       "position": "LB",
-      "number": "35",
+      "number": "8",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -206,7 +206,7 @@
     {
       "name": "DeVenchi Arnold II",
       "position": "S",
-      "number": "40",
+      "number": "24",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -248,7 +248,7 @@
     {
       "name": "Drey Braxton",
       "position": "DB",
-      "number": "41",
+      "number": "1",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -499,7 +499,7 @@
     },
     {
       "name": "Maddox Hunstad",
-      "position": "TE",
+      "position": "WR",
       "number": "82",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -550,6 +550,13 @@
       "name": "Nick Sawyer",
       "position": "CB",
       "number": "18",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Nick Sowell",
+      "position": "WR",
+      "number": "9",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

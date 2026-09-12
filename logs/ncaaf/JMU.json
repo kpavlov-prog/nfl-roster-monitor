@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-09-12T13:01:51.583321+00:00",
+    "teamCode": "JMU",
+    "teamName": "James Madison Dukes",
+    "type": "number changed",
+    "playerName": "Ernest Willor Jr.",
+    "position": "EDGE",
+    "oldValue": "19",
+    "newValue": "13",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-12T13:01:51.583345+00:00",
+    "teamCode": "JMU",
+    "teamName": "James Madison Dukes",
+    "type": "added",
+    "playerName": "Mitchell Dietzel",
+    "position": "LS",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-12T13:01:51.583352+00:00",
+    "teamCode": "JMU",
+    "teamName": "James Madison Dukes",
+    "type": "number changed",
+    "playerName": "Roddrey McWilliams",
+    "position": "CB",
+    "oldValue": "21",
+    "newValue": "7",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-12T13:01:51.583359+00:00",
+    "teamCode": "JMU",
+    "teamName": "James Madison Dukes",
+    "type": "number changed",
+    "playerName": "Trashon Dye",
+    "position": "RB",
+    "oldValue": "22",
+    "newValue": "33",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-12T13:01:51.583367+00:00",
+    "teamCode": "JMU",
+    "teamName": "James Madison Dukes",
+    "type": "removed",
+    "playerName": "Michell Dietzel",
+    "position": "LS",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-05T11:39:18.076110+00:00",
     "teamCode": "JMU",
     "teamName": "James Madison Dukes",

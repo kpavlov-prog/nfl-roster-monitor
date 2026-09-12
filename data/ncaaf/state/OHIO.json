@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/195/roster?limit=100&page=1",
-  "checkedAt": "2026-09-11T13:39:59.993848+00:00",
+  "checkedAt": "2026-09-12T13:09:38.413892+00:00",
   "players": [
     {
       "name": "AJ Miller",
@@ -38,7 +38,7 @@
     {
       "name": "Andrew Vera",
       "position": "S",
-      "number": "18",
+      "number": "48",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -50,15 +50,8 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Austin Mitchell",
-      "position": "DT",
-      "number": "97",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
       "name": "Barry Dillon",
-      "position": "DB",
+      "position": "CB",
       "number": "8",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -120,6 +113,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Brayden Mitchum",
+      "position": "RB",
+      "number": "40",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Bryce Parson",
       "position": "OL",
       "number": "76",
@@ -143,13 +143,13 @@
     {
       "name": "Calvin Moody",
       "position": "TE",
-      "number": "88",
+      "number": "82",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
       "name": "Cam Cope",
-      "position": "CB",
+      "position": "S",
       "number": "24",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -191,7 +191,7 @@
     },
     {
       "name": "DJ Morton",
-      "position": "S",
+      "position": "CB",
       "number": "13",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -212,7 +212,7 @@
     },
     {
       "name": "Darren James-Hamilton",
-      "position": "DB",
+      "position": "S",
       "number": "4",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -261,7 +261,7 @@
     },
     {
       "name": "Eli Thompson",
-      "position": "DB",
+      "position": "S",
       "number": "7",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -394,7 +394,7 @@
     },
     {
       "name": "KJ Sejour",
-      "position": "DB",
+      "position": "CB",
       "number": "5",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -479,7 +479,7 @@
     {
       "name": "Marcus Cain",
       "position": "WR",
-      "number": "14",
+      "number": "88",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -626,7 +626,7 @@
     {
       "name": "Sandro Malicevic",
       "position": "OL",
-      "number": "72",
+      "number": "77",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -634,6 +634,13 @@
       "name": "Seth Anstead",
       "position": "OL",
       "number": "63",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Simon Smith",
+      "position": "WR",
+      "number": "39",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -653,7 +660,7 @@
     },
     {
       "name": "Tony Mathis",
-      "position": "CB",
+      "position": "S",
       "number": "6",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -668,7 +675,7 @@
     {
       "name": "Trumain Lawson",
       "position": "OL",
-      "number": "77",
+      "number": "72",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -715,16 +722,16 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Will Odenthal",
-      "position": "OL",
-      "number": "54",
+      "name": "Will Marzolf",
+      "position": "LB",
+      "number": "15",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
-      "name": "William Marzolf",
-      "position": "LB",
-      "number": "15",
+      "name": "Will Odenthal",
+      "position": "OL",
+      "number": "54",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/295/roster?limit=100&page=1",
-  "checkedAt": "2026-09-11T13:40:14.886425+00:00",
+  "checkedAt": "2026-09-12T13:10:28.822753+00:00",
   "players": [
     {
       "name": "AJ Ashworth",
@@ -45,7 +45,7 @@
     {
       "name": "Ashten Dunman",
       "position": "LS",
-      "number": "47",
+      "number": "52",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -101,7 +101,7 @@
     {
       "name": "Brendan Durkin",
       "position": "LS",
-      "number": "30",
+      "number": "61",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -204,16 +204,16 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "De'Veion McLilley-Bulo",
-      "position": "LB",
-      "number": "17",
+      "name": "DeAndre Lynch",
+      "position": "DL",
+      "number": "9",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
     {
-      "name": "DeAndre Lynch",
-      "position": "DL",
-      "number": "9",
+      "name": "DeVeion McLilley-Bulo",
+      "position": "LB",
+      "number": "17",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -268,7 +268,7 @@
     },
     {
       "name": "Greg Johnson",
-      "position": "CB",
+      "position": "S",
       "number": "8",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -470,7 +470,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Landen Abernathy",
+      "name": "Landen Abernethy",
       "position": "QB",
       "number": "18",
       "status": "ACTIVE",
@@ -590,7 +590,7 @@
     },
     {
       "name": "Mikhail Iakovlev",
-      "position": "P",
+      "position": "PK",
       "number": "97",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
@@ -708,7 +708,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Taysean Jones",
+      "name": "TaySean Jones",
       "position": "TE",
       "number": "84",
       "status": "ACTIVE",

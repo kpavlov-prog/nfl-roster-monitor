@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-09-12T13:06:14.877601+00:00",
+    "teamCode": "MOST",
+    "teamName": "Missouri State Bears",
+    "type": "number changed",
+    "playerName": "Isaiah Myers",
+    "position": "WR",
+    "oldValue": "13",
+    "newValue": "3",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-12T13:06:14.877614+00:00",
+    "teamCode": "MOST",
+    "teamName": "Missouri State Bears",
+    "type": "number changed",
+    "playerName": "Josh Joyner",
+    "position": "RB",
+    "oldValue": "21",
+    "newValue": "13",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-12T13:06:14.877630+00:00",
+    "teamCode": "MOST",
+    "teamName": "Missouri State Bears",
+    "type": "position changed",
+    "playerName": "Sean Reese",
+    "position": "CB",
+    "oldValue": "WR",
+    "newValue": "CB",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-12T13:06:14.877660+00:00",
+    "teamCode": "MOST",
+    "teamName": "Missouri State Bears",
+    "type": "position changed",
+    "playerName": "Witt Edwards",
+    "position": "TE",
+    "oldValue": "WR",
+    "newValue": "TE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-12T13:06:14.877667+00:00",
+    "teamCode": "MOST",
+    "teamName": "Missouri State Bears",
+    "type": "removed",
+    "playerName": "Iverson Young",
+    "position": "RB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-08-22T09:59:22.449520+00:00",
     "teamCode": "MOST",
     "teamName": "Missouri State Bears",

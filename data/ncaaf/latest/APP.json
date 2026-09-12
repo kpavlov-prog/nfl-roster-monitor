@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2026/roster?limit=100&page=1",
-  "checkedAt": "2026-09-11T13:35:21.571309+00:00",
+  "checkedAt": "2026-09-12T12:52:48.711795+00:00",
   "players": [
     {
       "name": "Aaron Clark",
@@ -25,6 +25,13 @@
       "name": "Aiden Benton",
       "position": "DL",
       "number": "33",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Al Oliver",
+      "position": "OL",
+      "number": "70",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -60,13 +67,6 @@
       "name": "Ben Jones",
       "position": "OL",
       "number": "55",
-      "status": "ACTIVE",
-      "source": "ESPN College Football API"
-    },
-    {
-      "name": "Big Al Oliver",
-      "position": "OL",
-      "number": "70",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -218,7 +218,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Dazmin James",
+      "name": "Daz James",
       "position": "WR",
       "number": "83",
       "status": "ACTIVE",
@@ -330,7 +330,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "JMarion Burnette",
+      "name": "J'Marion Burnette",
       "position": "RB",
       "number": "48",
       "status": "ACTIVE",
@@ -449,7 +449,7 @@
       "source": "ESPN College Football API"
     },
     {
-      "name": "Josh Williams",
+      "name": "Joshua Williams",
       "position": "DB",
       "number": "24",
       "status": "ACTIVE",
@@ -479,7 +479,7 @@
     {
       "name": "Kaleb Purdy",
       "position": "DB",
-      "number": "26",
+      "number": "25",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -738,7 +738,7 @@
     {
       "name": "Treyaun Webb",
       "position": "RB",
-      "number": "39",
+      "number": "4",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
