@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-12T11:50:20.116047+00:00",
+    "teamCode": "TEN",
+    "teamName": "Tennessee Titans",
+    "type": "added",
+    "playerName": "Atonio Mafi",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-12T11:50:20.116065+00:00",
+    "teamCode": "TEN",
+    "teamName": "Tennessee Titans",
+    "type": "number changed",
+    "playerName": "Jalen McMurray",
+    "position": "CB",
+    "oldValue": "16",
+    "newValue": "47",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-12T11:50:20.116074+00:00",
+    "teamCode": "TEN",
+    "teamName": "Tennessee Titans",
+    "type": "number changed",
+    "playerName": "K.J. Osborn",
+    "position": "K",
+    "oldValue": "85",
+    "newValue": "8",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-12T11:50:20.116088+00:00",
+    "teamCode": "TEN",
+    "teamName": "Tennessee Titans",
+    "type": "removed",
+    "playerName": "Garrett Dellinger",
+    "position": "G",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-11T12:28:52.091742+00:00",
     "teamCode": "TEN",
     "teamName": "Tennessee Titans",

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-12T11:49:59.949673+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Dolphins",
+    "type": "added",
+    "playerName": "Rob Beal Jr.",
+    "position": "DE",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-12T11:49:59.949691+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Dolphins",
+    "type": "removed",
+    "playerName": "Robert Beal Jr.",
+    "position": "DE",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-11T12:28:33.388409+00:00",
     "teamCode": "MIA",
     "teamName": "Miami Dolphins",
