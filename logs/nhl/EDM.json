@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-12T12:16:25.256260+00:00",
+    "teamCode": "EDM",
+    "teamName": "Edmonton Oilers",
+    "type": "number changed",
+    "playerName": "Alex Formenton",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "26",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-12T12:16:25.256277+00:00",
+    "teamCode": "EDM",
+    "teamName": "Edmonton Oilers",
+    "type": "number changed",
+    "playerName": "Samuel Jonsson",
+    "position": "G",
+    "oldValue": "34",
+    "newValue": "33",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-10T13:00:23.729541+00:00",
     "teamCode": "EDM",
     "teamName": "Edmonton Oilers",
