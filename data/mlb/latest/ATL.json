@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-09-11T12:49:15.773025+00:00",
+  "checkedAt": "2026-09-12T12:10:03.746667+00:00",
   "players": [
     {
       "name": "AJ Smith-Shawver",
@@ -46,6 +46,13 @@
       "name": "Chris Sale",
       "position": "P",
       "number": "51",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "DaShawn Keirsey Jr.",
+      "position": "CF",
+      "number": "49",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -102,13 +109,6 @@
       "name": "Kyle Farmer",
       "position": "DH",
       "number": "15",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Lane Thomas",
-      "position": "LF",
-      "number": "20",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-09-11T12:49:16.884786+00:00",
+  "checkedAt": "2026-09-12T12:10:04.822684+00:00",
   "players": [
     {
       "name": "Adley Rutschman",
@@ -25,6 +25,13 @@
       "name": "Andruw Monasterio",
       "position": "SS",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Anthony Seigler",
+      "position": "2B",
+      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -53,13 +60,6 @@
       "name": "Connor Wong",
       "position": "C",
       "number": "12",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Eli White",
-      "position": "CF",
-      "number": "38",
       "status": "A",
       "source": "MLB Stats API"
     },

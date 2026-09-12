@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-12T12:10:18.334953+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "added",
+    "playerName": "Rudy Martin Jr.",
+    "position": "RF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-12T12:10:18.334963+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "type": "removed",
+    "playerName": "Jesús Sánchez",
+    "position": "RF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-06T12:08:44.981114+00:00",
     "teamCode": "TOR",
     "teamName": "Toronto Blue Jays",
