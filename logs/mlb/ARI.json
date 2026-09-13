@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-13T13:18:15.323278+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "added",
+    "playerName": "Pavin Smith",
+    "position": "1B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-13T13:18:15.323288+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "removed",
+    "playerName": "Adrian Del Castillo",
+    "position": "DH",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-10T12:54:55.507338+00:00",
     "teamCode": "ARI",
     "teamName": "Arizona Diamondbacks",

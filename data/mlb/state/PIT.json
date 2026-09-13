@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-09-12T12:10:14.588884+00:00",
+  "checkedAt": "2026-09-13T13:18:26.615468+00:00",
   "players": [
     {
       "name": "Antwone Kelly",
@@ -60,13 +60,6 @@
       "name": "Carmen Mlodzinski",
       "position": "P",
       "number": "50",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Esmerlyn Valdez",
-      "position": "RF",
-      "number": "55",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,6 +165,13 @@
       "name": "Rafael Flores Jr.",
       "position": "C",
       "number": "43",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ronny Simon",
+      "position": "2B",
+      "number": "63",
       "status": "A",
       "source": "MLB Stats API"
     },

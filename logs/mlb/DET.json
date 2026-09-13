@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-13T13:18:20.127629+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Tigers",
+    "type": "added",
+    "playerName": "Andrew Sears",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-13T13:18:20.127646+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Tigers",
+    "type": "removed",
+    "playerName": "Keider Montero",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-07T14:14:41.899093+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Tigers",

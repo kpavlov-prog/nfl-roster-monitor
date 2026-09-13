@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-09-12T12:10:17.801318+00:00",
+  "checkedAt": "2026-09-13T13:18:29.847581+00:00",
   "players": [
-    {
-      "name": "Adam Macko",
-      "position": "P",
-      "number": "71",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Brandon Nimmo",
       "position": "RF",
@@ -134,6 +127,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Josh Jung",
+      "position": "3B",
+      "number": "6",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Justin Foscue",
       "position": "2B",
       "number": "14",
@@ -148,16 +148,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Logan O'Hoppe",
-      "position": "DH",
-      "number": "4",
+      "name": "MacKenzie Gore",
+      "position": "P",
+      "number": "1",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "MacKenzie Gore",
+      "name": "Nathan Eovaldi",
       "position": "P",
-      "number": "1",
+      "number": "17",
       "status": "A",
       "source": "MLB Stats API"
     },

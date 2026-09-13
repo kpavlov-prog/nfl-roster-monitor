@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-13T13:18:25.451650+00:00",
+    "teamCode": "ATH",
+    "teamName": "Athletics",
+    "type": "added",
+    "playerName": "Shea Langeliers",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-13T13:18:25.451659+00:00",
+    "teamCode": "ATH",
+    "teamName": "Athletics",
+    "type": "removed",
+    "playerName": "Darell Hernaiz",
+    "position": "SS",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-06T12:08:39.770527+00:00",
     "teamCode": "ATH",
     "teamName": "Athletics",
