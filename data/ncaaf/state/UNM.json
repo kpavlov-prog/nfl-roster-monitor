@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/167/roster?limit=100&page=1",
-  "checkedAt": "2026-09-12T13:07:54.492618+00:00",
+  "checkedAt": "2026-09-13T14:03:36.110069+00:00",
   "players": [
     {
       "name": "AJ Robinson",
@@ -46,6 +46,13 @@
       "name": "Bailen George",
       "position": "WR",
       "number": "81",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Bear Levells",
+      "position": "CB",
+      "number": "25",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -396,6 +403,13 @@
       "name": "Jaxton Eck",
       "position": "LB",
       "number": "6",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Jayden Flaker",
+      "position": "LB",
+      "number": "38",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

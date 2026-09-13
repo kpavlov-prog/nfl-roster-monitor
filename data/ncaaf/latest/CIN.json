@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2132/roster?limit=100&page=1",
-  "checkedAt": "2026-09-12T12:56:34.658542+00:00",
+  "checkedAt": "2026-09-13T13:52:48.829299+00:00",
   "players": [
     {
       "name": "Aiden Pastoriza",
@@ -81,6 +81,13 @@
       "name": "Chidera Otutu",
       "position": "DL",
       "number": "11",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Christian Moulton",
+      "position": "WR",
+      "number": "39",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -655,6 +662,13 @@
       "name": "Ronan Casanova",
       "position": "LB",
       "number": "52",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Ryan Taleb",
+      "position": "WR",
+      "number": "37",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

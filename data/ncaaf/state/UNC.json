@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/153/roster?limit=100&page=1",
-  "checkedAt": "2026-09-12T13:08:18.553094+00:00",
+  "checkedAt": "2026-09-13T14:03:59.488448+00:00",
   "players": [
     {
       "name": "Adam Mccann-Gibbs",
@@ -627,6 +627,13 @@
       "name": "Peyton Waters",
       "position": "DB",
       "number": "7",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Rece Verhoff",
+      "position": "PK",
+      "number": "90",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

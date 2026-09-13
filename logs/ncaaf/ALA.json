@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-13T13:48:57.733053+00:00",
+    "teamCode": "ALA",
+    "teamName": "Alabama Crimson Tide",
+    "type": "added",
+    "playerName": "Danny Lewis Jr.",
+    "position": "TE",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-13T13:48:57.733074+00:00",
+    "teamCode": "ALA",
+    "teamName": "Alabama Crimson Tide",
+    "type": "added",
+    "playerName": "Josh Underwood",
+    "position": "DL",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-13T13:48:57.733097+00:00",
+    "teamCode": "ALA",
+    "teamName": "Alabama Crimson Tide",
+    "type": "removed",
+    "playerName": "Danny Lewis",
+    "position": "TE",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-02T13:41:12.004178+00:00",
     "teamCode": "ALA",
     "teamName": "Alabama Crimson Tide",

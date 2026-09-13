@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/8/roster?limit=100&page=1",
-  "checkedAt": "2026-09-12T12:53:26.335158+00:00",
+  "checkedAt": "2026-09-13T13:49:47.522787+00:00",
   "players": [
     {
       "name": "AJ Hill",
@@ -183,6 +183,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Brylan Green",
+      "position": "DB",
+      "number": "34",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "CJ Brown",
       "position": "WR",
       "number": "3",
@@ -207,6 +214,13 @@
       "name": "Caleb Bell",
       "position": "DL",
       "number": "90",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Caleb Wooden",
+      "position": "DB",
+      "number": "32",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -746,6 +760,13 @@
       "name": "Reginald Vaughn",
       "position": "DL",
       "number": "94",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Sean Williams",
+      "position": "DB",
+      "number": "39",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/62/roster?limit=100&page=1",
-  "checkedAt": "2026-09-12T13:00:18.585427+00:00",
+  "checkedAt": "2026-09-13T13:56:25.785049+00:00",
   "players": [
     {
       "name": "Adam Tomczyk",
@@ -95,6 +95,13 @@
       "name": "Brayton Correa",
       "position": "DB",
       "number": "34",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Bryce Milford",
+      "position": "P",
+      "number": "23",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

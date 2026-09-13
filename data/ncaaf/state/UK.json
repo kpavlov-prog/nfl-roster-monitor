@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/96/roster?limit=100&page=1",
-  "checkedAt": "2026-09-12T13:02:52.098077+00:00",
+  "checkedAt": "2026-09-13T13:58:55.970400+00:00",
   "players": [
     {
       "name": "Aaron Gates",
@@ -39,6 +39,13 @@
       "name": "Ahmir Smith",
       "position": "RB",
       "number": "28",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Alex Afari Jr.",
+      "position": "LB",
+      "number": "3",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
