@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-13T12:59:12.251902+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Ravens",
+    "type": "status changed",
+    "playerName": "Carl Jones",
+    "position": "LB",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-13T12:59:12.251917+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Ravens",
+    "type": "status changed",
+    "playerName": "Chris Moore",
+    "position": "WR",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-13T12:59:12.251929+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Ravens",
+    "type": "added",
+    "playerName": "Jamon Johnson",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-13T12:59:12.251950+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Ravens",
+    "type": "removed",
+    "playerName": "Ladarius Webb Jr.",
+    "position": "DB",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-04T12:23:19.701399+00:00",
     "teamCode": "BAL",
     "teamName": "Baltimore Ravens",

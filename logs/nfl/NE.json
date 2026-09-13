@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-13T12:59:43.706585+00:00",
+    "teamCode": "NE",
+    "teamName": "New England Patriots",
+    "type": "status changed",
+    "playerName": "A.J. Brown",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-09-13T12:59:43.706603+00:00",
+    "teamCode": "NE",
+    "teamName": "New England Patriots",
+    "type": "added",
+    "playerName": "DaQuan Jones",
+    "position": "DE",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-11T12:28:36.699049+00:00",
     "teamCode": "NE",
     "teamName": "New England Patriots",

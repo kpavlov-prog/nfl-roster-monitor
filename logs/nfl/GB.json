@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-13T12:59:26.547022+00:00",
+    "teamCode": "GB",
+    "teamName": "Green Bay Packers",
+    "type": "added",
+    "playerName": "Bo Melton",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-13T12:59:26.547043+00:00",
+    "teamCode": "GB",
+    "teamName": "Green Bay Packers",
+    "type": "status changed",
+    "playerName": "Kristian Welch",
+    "position": "LB",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-12T11:49:46.211044+00:00",
     "teamCode": "GB",
     "teamName": "Green Bay Packers",

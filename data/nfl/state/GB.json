@@ -3,7 +3,7 @@
   "team": "Green Bay Packers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/green-bay-packers/roster",
-  "checkedAt": "2026-09-12T11:49:46.210695+00:00",
+  "checkedAt": "2026-09-13T12:59:26.546775+00:00",
   "players": [
     {
       "name": "Aaron Banks",
@@ -49,6 +49,14 @@
       "name": "Benjamin St-Juste",
       "position": "CB",
       "number": "21",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Bo Melton",
+      "position": "WR",
+      "number": "71",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -369,7 +377,7 @@
       "name": "Kristian Welch",
       "position": "LB",
       "number": "54",
-      "status": "LISTED",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },
