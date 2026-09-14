@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-14T15:09:34.819518+00:00",
+    "teamCode": "MTL",
+    "teamName": "Montreal Canadiens",
+    "type": "added",
+    "playerName": "Chris Kreider",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-14T15:09:41.049321+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Kraken",
+    "type": "added",
+    "playerName": "Jacob Melanson",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-12T12:16:25.256260+00:00",
     "teamCode": "EDM",
     "teamName": "Edmonton Oilers",

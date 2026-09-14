@@ -3,7 +3,7 @@
   "team": "Montreal Canadiens",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/MTL/current",
-  "checkedAt": "2026-09-13T13:23:58.117728+00:00",
+  "checkedAt": "2026-09-14T15:09:34.818475+00:00",
   "players": [
     {
       "name": "Adam Engstrom",
@@ -57,6 +57,13 @@
     {
       "name": "Bryce Pickford",
       "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Chris Kreider",
+      "position": "C",
       "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
