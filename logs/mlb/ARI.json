@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-14T15:00:51.839567+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "added",
+    "playerName": "Jose Fernandez",
+    "position": "DH",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-14T15:00:51.839583+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "removed",
+    "playerName": "Lourdes Gurriel Jr.",
+    "position": "LF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-13T13:18:15.323278+00:00",
     "teamCode": "ARI",
     "teamName": "Arizona Diamondbacks",

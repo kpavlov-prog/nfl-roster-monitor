@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-09-13T13:18:25.450823+00:00",
+  "checkedAt": "2026-09-14T15:01:02.059079+00:00",
   "players": [
     {
       "name": "Alika Williams",
@@ -53,6 +53,13 @@
       "name": "Donovan Walton",
       "position": "2B",
       "number": "29",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Drew Rom",
+      "position": "P",
+      "number": "39",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -116,13 +123,6 @@
       "name": "Jeffrey Springs",
       "position": "P",
       "number": "59",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Joey Estes",
-      "position": "P",
-      "number": "68",
       "status": "A",
       "source": "MLB Stats API"
     },

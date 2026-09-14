@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-14T15:00:58.291104+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "position changed",
+    "playerName": "Jose Siri",
+    "position": "LF",
+    "oldValue": "CF",
+    "newValue": "LF",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-14T15:00:58.291116+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "position changed",
+    "playerName": "Vaughn Grissom",
+    "position": "1B",
+    "oldValue": "2B",
+    "newValue": "1B",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-02T12:46:08.522039+00:00",
     "teamCode": "LAA",
     "teamName": "Los Angeles Angels",

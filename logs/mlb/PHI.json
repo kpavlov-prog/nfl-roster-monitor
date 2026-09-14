@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-14T15:01:02.608480+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "added",
+    "playerName": "Tanner Banks",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-14T15:01:02.608491+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "removed",
+    "playerName": "Grant Holman",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-02T12:46:12.844808+00:00",
     "teamCode": "PHI",
     "teamName": "Philadelphia Phillies",
