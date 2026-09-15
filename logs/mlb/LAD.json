@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-15T13:33:07.470562+00:00",
+    "teamCode": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "type": "added",
+    "playerName": "Bobby Miller",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-15T13:33:07.470572+00:00",
+    "teamCode": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "type": "added",
+    "playerName": "Paul Gervase",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-15T13:33:07.470577+00:00",
+    "teamCode": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "type": "removed",
+    "playerName": "Edgardo Henriquez",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-15T13:33:07.470579+00:00",
+    "teamCode": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "type": "removed",
+    "playerName": "Emmet Sheehan",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-12T12:10:10.265074+00:00",
     "teamCode": "LAD",
     "teamName": "Los Angeles Dodgers",

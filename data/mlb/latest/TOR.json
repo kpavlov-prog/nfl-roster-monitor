@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-09-14T15:01:06.928034+00:00",
+  "checkedAt": "2026-09-15T13:33:16.165578+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -36,6 +36,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Brendan Cellucci",
+      "position": "P",
+      "number": "70",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Brendon Little",
       "position": "P",
       "number": "54",
@@ -53,6 +60,13 @@
       "name": "Charles McAdoo",
       "position": "2B",
       "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Davis Schneider",
+      "position": "LF",
+      "number": "36",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -151,20 +165,6 @@
       "name": "Paul Sewald",
       "position": "P",
       "number": "43",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Ricky Tiedemann",
-      "position": "P",
-      "number": "33",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Rudy Martin Jr.",
-      "position": "RF",
-      "number": "1",
       "status": "A",
       "source": "MLB Stats API"
     },

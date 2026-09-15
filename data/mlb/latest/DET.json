@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=active",
-  "checkedAt": "2026-09-14T15:00:56.679305+00:00",
+  "checkedAt": "2026-09-15T13:33:05.134798+00:00",
   "players": [
     {
       "name": "Andrew Sears",
@@ -127,6 +127,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Keider Montero",
+      "position": "P",
+      "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Kenley Jansen",
       "position": "P",
       "number": "74",
@@ -186,13 +193,6 @@
       "name": "Tyler Kinley",
       "position": "P",
       "number": "55",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Yilber Díaz",
-      "position": "P",
-      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     },

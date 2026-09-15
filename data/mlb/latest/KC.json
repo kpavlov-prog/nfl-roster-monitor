@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/118/roster?rosterType=active",
-  "checkedAt": "2026-09-14T15:00:57.753675+00:00",
+  "checkedAt": "2026-09-15T13:33:06.315666+00:00",
   "players": [
     {
       "name": "Alex Lange",
@@ -57,13 +57,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Easton McGee",
-      "position": "P",
-      "number": "51",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Isaac Collins",
       "position": "LF",
       "number": "1",
@@ -102,6 +95,13 @@
       "name": "Kyle Isbel",
       "position": "CF",
       "number": "28",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Lucas Erceg",
+      "position": "P",
+      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },
