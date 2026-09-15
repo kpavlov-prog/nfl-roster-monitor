@@ -3,7 +3,7 @@
   "team": "New York Giants",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-york-giants/roster",
-  "checkedAt": "2026-09-14T14:36:02.719808+00:00",
+  "checkedAt": "2026-09-15T13:00:54.227245+00:00",
   "players": [
     {
       "name": "Aaron Stinnie",
@@ -73,7 +73,7 @@
       "name": "Braxton Berrios",
       "position": "WR",
       "number": "87",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -161,7 +161,7 @@
       "name": "Dalen Cambre",
       "position": "WR",
       "number": "83",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -417,7 +417,7 @@
       "name": "Malik Harrison",
       "position": "LB",
       "number": "75",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -482,6 +482,14 @@
       "position": "CB",
       "number": "21",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Phil Mafah",
+      "position": "RB",
+      "number": "73",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

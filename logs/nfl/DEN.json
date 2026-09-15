@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-15T13:00:29.592985+00:00",
+    "teamCode": "DEN",
+    "teamName": "Denver Broncos",
+    "type": "status changed",
+    "playerName": "Adam Prentice",
+    "position": "FB",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-15T13:00:29.593007+00:00",
+    "teamCode": "DEN",
+    "teamName": "Denver Broncos",
+    "type": "status changed",
+    "playerName": "Mitchell Fraboni",
+    "position": "LS",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-15T13:00:29.593017+00:00",
+    "teamCode": "DEN",
+    "teamName": "Denver Broncos",
+    "type": "removed",
+    "playerName": "Lil'Jordan Humphrey",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-09T12:35:21.915725+00:00",
     "teamCode": "DEN",
     "teamName": "Denver Broncos",

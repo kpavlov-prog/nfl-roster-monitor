@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-15T13:00:26.466457+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "status changed",
+    "playerName": "D'Angelo Ross",
+    "position": "CB",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-15T13:00:26.466468+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "number changed",
+    "playerName": "D'Angelo Ross",
+    "position": "CB",
+    "oldValue": "37",
+    "newValue": "38",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-15T13:00:26.466481+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "status changed",
+    "playerName": "Nathaniel Watson",
+    "position": "LB",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-13T12:59:20.170915+00:00",
     "teamCode": "CLE",
     "teamName": "Cleveland Browns",

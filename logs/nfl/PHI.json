@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-15T13:00:57.393469+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "status changed",
+    "playerName": "Britain Covey",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-15T13:00:57.393486+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "number changed",
+    "playerName": "Jonathan Jones",
+    "position": "DB",
+    "oldValue": "31",
+    "newValue": "32",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-15T13:00:57.393498+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "number changed",
+    "playerName": "Xavier Gipson",
+    "position": "WR",
+    "oldValue": "69",
+    "newValue": "86",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-13T12:59:50.805002+00:00",
     "teamCode": "PHI",
     "teamName": "Philadelphia Eagles",

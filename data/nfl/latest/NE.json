@@ -3,7 +3,7 @@
   "team": "New England Patriots",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-england-patriots/roster",
-  "checkedAt": "2026-09-14T14:35:59.361721+00:00",
+  "checkedAt": "2026-09-15T13:00:51.098689+00:00",
   "players": [
     {
       "name": "A.J. Brown",
@@ -82,6 +82,14 @@
       "position": "CB",
       "number": "7",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Chandler Brayboy",
+      "position": "WR",
+      "number": "73",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -587,6 +595,14 @@
       "number": "66",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Xavier Holmes",
+      "position": "LB",
+      "number": "75",
+      "status": "LISTED",
+      "important": false,
       "source": "NFL.com"
     }
   ]
