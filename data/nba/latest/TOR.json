@@ -3,7 +3,7 @@
   "team": "Toronto Raptors",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/TOR/roster",
-  "checkedAt": "2026-09-14T15:16:03.936795+00:00",
+  "checkedAt": "2026-09-15T13:53:31.951045+00:00",
   "players": [
     {
       "name": "A.J. Lawson",
@@ -34,13 +34,6 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Brandon Ingram",
-      "position": "F",
-      "number": "3",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Chucky Hepburn",
       "position": "G",
       "number": "24",
@@ -51,13 +44,6 @@
       "name": "Collin Murray-Boyles",
       "position": "F",
       "number": "30",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Gradey Dick",
-      "position": "G",
-      "number": "1",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -100,6 +86,13 @@
       "name": "Jamison Battle",
       "position": "F",
       "number": "77",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Kawhi Leonard",
+      "position": "F",
+      "number": "2",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

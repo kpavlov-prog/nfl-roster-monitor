@@ -3,7 +3,7 @@
   "team": "LA Clippers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/LAC/roster",
-  "checkedAt": "2026-09-14T15:15:55.072088+00:00",
+  "checkedAt": "2026-09-15T13:53:22.791034+00:00",
   "players": [
     {
       "name": "Baba Miller",
@@ -15,6 +15,13 @@
     {
       "name": "Bradley Beal",
       "position": "G",
+      "number": "3",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Brandon Ingram",
+      "position": "F",
       "number": "3",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
@@ -44,6 +51,13 @@
       "name": "Derrick Jones Jr.",
       "position": "F",
       "number": "5",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Gradey Dick",
+      "position": "G",
+      "number": "1",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -79,13 +93,6 @@
       "name": "Jordan Miller",
       "position": "G",
       "number": "22",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Kawhi Leonard",
-      "position": "F",
-      "number": "2",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
