@@ -3,7 +3,7 @@
   "team": "San Francisco 49ers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/san-francisco-49ers/roster",
-  "checkedAt": "2026-09-15T13:01:00.522015+00:00",
+  "checkedAt": "2026-09-16T12:58:32.253791+00:00",
   "players": [
     {
       "name": "Alfred Collins",
@@ -49,7 +49,7 @@
       "name": "Brayden Willis",
       "position": "TE",
       "number": "76",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -443,6 +443,14 @@
       "number": "10",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "McKinnley Jackson",
+      "position": "DT",
+      "number": "74",
+      "status": "LISTED",
+      "important": false,
       "source": "NFL.com"
     },
     {

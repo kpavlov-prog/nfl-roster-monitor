@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-16T12:58:14.888836+00:00",
+    "teamCode": "LAC",
+    "teamName": "Los Angeles Chargers",
+    "type": "status changed",
+    "playerName": "Gary Jennings",
+    "position": "WR",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-16T12:58:14.888853+00:00",
+    "teamCode": "LAC",
+    "teamName": "Los Angeles Chargers",
+    "type": "added",
+    "playerName": "Isas Waxter",
+    "position": "DB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-16T12:58:14.888864+00:00",
+    "teamCode": "LAC",
+    "teamName": "Los Angeles Chargers",
+    "type": "status changed",
+    "playerName": "KeAndre Lambert-Smith",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-09-11T12:28:29.897748+00:00",
     "teamCode": "LAC",
     "teamName": "Los Angeles Chargers",

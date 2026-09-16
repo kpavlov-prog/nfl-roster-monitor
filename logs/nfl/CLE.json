@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-09-16T12:57:56.789135+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "status changed",
+    "playerName": "Dylan Sampson",
+    "position": "RB",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-09-16T12:57:56.789160+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "added",
+    "playerName": "Eric Gray",
+    "position": "RB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-16T12:57:56.789173+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "status changed",
+    "playerName": "Jaleel McLaughlin",
+    "position": "RB",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-16T12:57:56.789194+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "added",
+    "playerName": "Obinna Eze",
+    "position": "OT",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-16T12:57:56.789206+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "added",
+    "playerName": "Wes Pahl",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-16T12:57:56.789213+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Browns",
+    "type": "added",
+    "playerName": "Xavier Truss",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-15T13:00:26.466457+00:00",
     "teamCode": "CLE",
     "teamName": "Cleveland Browns",

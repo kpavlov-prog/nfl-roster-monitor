@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-16T12:58:32.254083+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco 49ers",
+    "type": "status changed",
+    "playerName": "Brayden Willis",
+    "position": "TE",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-16T12:58:32.254110+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco 49ers",
+    "type": "added",
+    "playerName": "McKinnley Jackson",
+    "position": "DT",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-12T11:50:14.586535+00:00",
     "teamCode": "SF",
     "teamName": "San Francisco 49ers",
