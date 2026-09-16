@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-16T13:38:29.337122+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Red Wings",
+    "type": "added",
+    "playerName": "Sutter Muzzatti",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-16T13:38:36.611777+00:00",
+    "teamCode": "NYR",
+    "teamName": "New York Rangers",
+    "type": "number changed",
+    "playerName": "Eeli Tolvanen",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "17",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-16T13:38:41.125841+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Blues",
+    "type": "added",
+    "playerName": "Vladimir Proskurin",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-16T13:38:41.125852+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Blues",
+    "type": "removed",
+    "playerName": "Adam Jecho",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-15T13:45:34.039730+00:00",
     "teamCode": "CBJ",
     "teamName": "Columbus Blue Jackets",

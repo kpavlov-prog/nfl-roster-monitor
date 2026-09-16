@@ -3,15 +3,8 @@
   "team": "St. Louis Blues",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/STL/current",
-  "checkedAt": "2026-09-15T13:45:47.777022+00:00",
+  "checkedAt": "2026-09-16T13:38:41.124697+00:00",
   "players": [
-    {
-      "name": "Adam Jecho",
-      "position": "C",
-      "number": "84",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
     {
       "name": "Adam Jiricek",
       "position": "D",
@@ -317,6 +310,13 @@
       "name": "Tyler Tucker",
       "position": "D",
       "number": "75",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Vladimir Proskurin",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
