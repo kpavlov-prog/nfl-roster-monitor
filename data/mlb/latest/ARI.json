@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-09-15T13:32:59.814882+00:00",
+  "checkedAt": "2026-09-16T13:30:02.103418+00:00",
   "players": [
     {
       "name": "Brandon Pfaadt",
@@ -80,7 +80,14 @@
     {
       "name": "James McCann",
       "position": "C",
-      "number": "8",
+      "number": "21",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jesús Sánchez",
+      "position": "RF",
+      "number": "18",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -186,13 +193,6 @@
       "name": "Tim Tawa",
       "position": "1B",
       "number": "13",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tommy Troy",
-      "position": "LF",
-      "number": "9",
       "status": "A",
       "source": "MLB Stats API"
     },

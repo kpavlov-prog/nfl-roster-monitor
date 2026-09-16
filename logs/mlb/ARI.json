@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-16T13:30:02.104097+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "number changed",
+    "playerName": "James McCann",
+    "position": "C",
+    "oldValue": "8",
+    "newValue": "21",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-16T13:30:02.104103+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "added",
+    "playerName": "Jesús Sánchez",
+    "position": "RF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-16T13:30:02.104109+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "removed",
+    "playerName": "Tommy Troy",
+    "position": "LF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-14T15:00:51.839567+00:00",
     "teamCode": "ARI",
     "teamName": "Arizona Diamondbacks",

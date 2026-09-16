@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=active",
-  "checkedAt": "2026-09-15T13:33:10.375678+00:00",
+  "checkedAt": "2026-09-16T13:30:12.567809+00:00",
   "players": [
     {
       "name": "Aaron Judge",
@@ -46,13 +46,6 @@
       "name": "Ben Rice",
       "position": "DH",
       "number": "22",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Bradley Hanner",
-      "position": "P",
-      "number": "93",
       "status": "A",
       "source": "MLB Stats API"
     },

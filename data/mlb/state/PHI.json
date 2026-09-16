@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/143/roster?rosterType=active",
-  "checkedAt": "2026-09-15T13:33:11.514672+00:00",
+  "checkedAt": "2026-09-16T13:30:13.702962+00:00",
   "players": [
     {
       "name": "Aaron Nola",
@@ -113,13 +113,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jesús Luzardo",
-      "position": "P",
-      "number": "44",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jhoan Duran",
       "position": "P",
       "number": "59",
@@ -144,6 +137,13 @@
       "name": "Justin Crawford",
       "position": "CF",
       "number": "2",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kyle Backhus",
+      "position": "P",
+      "number": "19",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-16T13:30:06.763354+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Rockies",
+    "type": "added",
+    "playerName": "Braxton Fulford",
+    "position": "DH",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-16T13:30:06.763363+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Rockies",
+    "type": "added",
+    "playerName": "Kyle Freeland",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-16T13:30:06.763368+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Rockies",
+    "type": "removed",
+    "playerName": "Blas Castaño",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-16T13:30:06.763371+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Rockies",
+    "type": "removed",
+    "playerName": "Vimael Machín",
+    "position": "SS",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-08T12:52:04.434405+00:00",
     "teamCode": "COL",
     "teamName": "Colorado Rockies",
