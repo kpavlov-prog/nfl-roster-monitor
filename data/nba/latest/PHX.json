@@ -3,7 +3,7 @@
   "team": "Phoenix Suns",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/PHX/roster",
-  "checkedAt": "2026-09-16T13:45:35.748694+00:00",
+  "checkedAt": "2026-09-17T13:48:14.863357+00:00",
   "players": [
     {
       "name": "CJ Huntley",
@@ -30,6 +30,13 @@
       "name": "Dillon Brooks",
       "position": "F",
       "number": "3",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Duop Reath",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
