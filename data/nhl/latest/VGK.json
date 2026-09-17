@@ -3,7 +3,7 @@
   "team": "Vegas Golden Knights",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/VGK/current",
-  "checkedAt": "2026-09-16T13:38:44.908502+00:00",
+  "checkedAt": "2026-09-17T13:41:16.192465+00:00",
   "players": [
     {
       "name": "Adam Ginning",
@@ -90,13 +90,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Jakub Demek",
-      "position": "C",
-      "number": "13",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Jaycob Megna",
       "position": "D",
       "number": "88",
@@ -121,13 +114,6 @@
       "name": "Jonas Rondbjerg",
       "position": "R",
       "number": "46",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Juho Piiparinen",
-      "position": "D",
-      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

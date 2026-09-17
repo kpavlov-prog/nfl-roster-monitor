@@ -3,7 +3,7 @@
   "team": "Chicago Blackhawks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/CHI/current",
-  "checkedAt": "2026-09-16T13:38:25.921127+00:00",
+  "checkedAt": "2026-09-17T13:41:01.265979+00:00",
   "players": [
     {
       "name": "Adam Gajan",
@@ -121,6 +121,13 @@
       "name": "Dylan Anhorn",
       "position": "D",
       "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ethan Del Mastro",
+      "position": "D",
+      "number": "38",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
