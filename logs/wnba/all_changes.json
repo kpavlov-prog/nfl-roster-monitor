@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-17T14:09:45.760380+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Wings",
+    "type": "removed",
+    "playerName": "Sug Sutton",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-17T14:09:48.696733+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Lynx",
+    "type": "added",
+    "playerName": "Nia Brodie",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-17T14:09:48.696743+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Lynx",
+    "type": "removed",
+    "playerName": "Nia Coffey",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-02T13:21:24.212038+00:00",
     "teamCode": "PHX",
     "teamName": "Phoenix Mercury",
