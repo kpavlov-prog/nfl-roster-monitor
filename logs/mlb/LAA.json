@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-17T13:27:01.813575+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "added",
+    "playerName": "Sam Bachman",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-17T13:27:01.813586+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "removed",
+    "playerName": "Samy Natera Jr.",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-14T15:00:58.291104+00:00",
     "teamCode": "LAA",
     "teamName": "Los Angeles Angels",

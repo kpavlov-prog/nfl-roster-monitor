@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-09-16T13:30:11.988276+00:00",
+  "checkedAt": "2026-09-17T13:27:04.488165+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -64,13 +64,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Daniel Duarte",
-      "position": "P",
-      "number": "54",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Dedniel Núñez",
       "position": "P",
       "number": "72",
@@ -102,6 +95,13 @@
       "name": "Jared Young",
       "position": "1B",
       "number": "29",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jefry Yan",
+      "position": "P",
+      "number": "84",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -176,13 +176,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Robert Stock",
-      "position": "P",
-      "number": "89",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Sean Manaea",
       "position": "P",
       "number": "59",
@@ -193,6 +186,13 @@
       "name": "Tobias Myers",
       "position": "P",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Xzavion Curry",
+      "position": "P",
+      "number": "53",
       "status": "A",
       "source": "MLB Stats API"
     },

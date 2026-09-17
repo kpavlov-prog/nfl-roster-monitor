@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-09-16T13:30:02.103418+00:00",
+  "checkedAt": "2026-09-17T13:26:55.379524+00:00",
   "players": [
     {
       "name": "Brandon Pfaadt",
@@ -43,13 +43,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Derek Law",
-      "position": "P",
-      "number": "38",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Eduardo Rodriguez",
       "position": "P",
       "number": "57",
@@ -80,7 +73,7 @@
     {
       "name": "James McCann",
       "position": "C",
-      "number": "21",
+      "number": "8",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,6 +172,13 @@
       "name": "Ryan Waldschmidt",
       "position": "CF",
       "number": "15",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ryne Nelson",
+      "position": "P",
+      "number": "19",
       "status": "A",
       "source": "MLB Stats API"
     },

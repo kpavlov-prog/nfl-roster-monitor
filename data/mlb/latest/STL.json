@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=active",
-  "checkedAt": "2026-09-16T13:30:16.593353+00:00",
+  "checkedAt": "2026-09-17T13:27:08.746378+00:00",
   "players": [
     {
       "name": "Alec Burleson",
@@ -67,6 +67,13 @@
       "name": "Iván Herrera",
       "position": "DH",
       "number": "48",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "JJ Wetherholt",
+      "position": "2B",
+      "number": "26",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,13 +172,6 @@
       "name": "Quinn Mathews",
       "position": "P",
       "number": "60",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Ramón Urías",
-      "position": "3B",
-      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },
