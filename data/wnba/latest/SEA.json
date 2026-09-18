@@ -3,7 +3,7 @@
   "team": "Seattle Storm",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/SEA/roster",
-  "checkedAt": "2026-09-17T14:09:51.103353+00:00",
+  "checkedAt": "2026-09-18T13:28:45.078547+00:00",
   "players": [
     {
       "name": "Awa Fam",
@@ -37,6 +37,13 @@
       "name": "Jade Melbourne",
       "position": "G",
       "number": "5",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Jaylyn Sherrod",
+      "position": "G",
+      "number": "00",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },

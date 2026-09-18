@@ -3,7 +3,7 @@
   "team": "Portland Fire",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/POR/roster",
-  "checkedAt": "2026-09-17T14:09:50.512897+00:00",
+  "checkedAt": "2026-09-18T13:28:44.463118+00:00",
   "players": [
     {
       "name": "Amy Okonkwo",
@@ -23,6 +23,13 @@
       "name": "Carla Leite",
       "position": "G",
       "number": "0",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Charisma Osborne",
+      "position": "G",
+      "number": "24",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },

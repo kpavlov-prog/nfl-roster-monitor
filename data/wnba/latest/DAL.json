@@ -3,7 +3,7 @@
   "team": "Dallas Wings",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/DAL/roster",
-  "checkedAt": "2026-09-17T14:09:45.759295+00:00",
+  "checkedAt": "2026-09-18T13:28:39.029181+00:00",
   "players": [
     {
       "name": "Alanna Smith",
@@ -72,6 +72,13 @@
       "name": "Jessica Shepard",
       "position": "F",
       "number": "32",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Kitija Laksa",
+      "position": "G",
+      "number": "33",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },
