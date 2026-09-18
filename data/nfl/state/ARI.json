@@ -3,7 +3,7 @@
   "team": "Arizona Cardinals",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/arizona-cardinals/roster",
-  "checkedAt": "2026-09-17T12:53:57.252231+00:00",
+  "checkedAt": "2026-09-18T12:31:52.401389+00:00",
   "players": [
     {
       "name": "Andrew Billings",
@@ -11,6 +11,14 @@
       "number": "95",
       "status": "ACT",
       "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Art Green",
+      "position": "CB",
+      "number": "74",
+      "status": "LISTED",
+      "important": true,
       "source": "NFL.com"
     },
     {
@@ -377,7 +385,7 @@
       "name": "Kalen King",
       "position": "CB",
       "number": "35",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },

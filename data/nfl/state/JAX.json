@@ -3,7 +3,7 @@
   "team": "Jacksonville Jaguars",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/jacksonville-jaguars/roster",
-  "checkedAt": "2026-09-17T12:54:19.652276+00:00",
+  "checkedAt": "2026-09-18T12:32:17.013208+00:00",
   "players": [
     {
       "name": "Albert Regis",
@@ -49,8 +49,16 @@
       "name": "BJ Green II",
       "position": "DE",
       "number": "95",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "BJ Ojulari",
+      "position": "LB",
+      "number": "74",
+      "status": "LISTED",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -257,7 +265,7 @@
       "name": "Jack Kiser",
       "position": "LB",
       "number": "54",
-      "status": "LISTED",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },

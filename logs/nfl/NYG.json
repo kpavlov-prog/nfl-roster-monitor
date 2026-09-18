@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-18T12:32:31.962896+00:00",
+    "teamCode": "NYG",
+    "teamName": "New York Giants",
+    "type": "added",
+    "playerName": "Jaden Robinson",
+    "position": "CB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-18T12:32:31.962907+00:00",
+    "teamCode": "NYG",
+    "teamName": "New York Giants",
+    "type": "status changed",
+    "playerName": "Josh Tupou",
+    "position": "DT",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-15T13:00:54.227540+00:00",
     "teamCode": "NYG",
     "teamName": "New York Giants",

@@ -3,7 +3,7 @@
   "team": "Atlanta Falcons",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/atlanta-falcons/roster",
-  "checkedAt": "2026-09-17T12:53:58.847732+00:00",
+  "checkedAt": "2026-09-18T12:31:54.048146+00:00",
   "players": [
     {
       "name": "A.J. Terrell",
@@ -177,7 +177,7 @@
       "name": "Da'Shawn Hand",
       "position": "DE",
       "number": "90",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -202,6 +202,14 @@
       "position": "LB",
       "number": "75",
       "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Drake Jackson",
+      "position": "LB",
+      "number": "76",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -374,6 +382,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Khalil Herbert",
+      "position": "RB",
+      "number": "69",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Kyle Hinton",
       "position": "G",
       "number": "68",
@@ -473,7 +489,7 @@
       "name": "Nick Muse",
       "position": "TE",
       "number": "87",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },

@@ -3,7 +3,7 @@
   "team": "Kansas City Chiefs",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/kansas-city-chiefs/roster",
-  "checkedAt": "2026-09-17T12:54:21.282026+00:00",
+  "checkedAt": "2026-09-18T12:32:18.653156+00:00",
   "players": [
     {
       "name": "Andrew Armstrong",
@@ -25,7 +25,7 @@
       "name": "Ben VanSumeren",
       "position": "RB",
       "number": "74",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -89,7 +89,7 @@
       "name": "Cooper McDonald",
       "position": "LB",
       "number": "44",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -427,6 +427,22 @@
       "number": "73",
       "status": "RES",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Melvin Smith Jr.",
+      "position": "DB",
+      "number": "39",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Michael Heldman",
+      "position": "LB",
+      "number": "76",
+      "status": "LISTED",
+      "important": false,
       "source": "NFL.com"
     },
     {

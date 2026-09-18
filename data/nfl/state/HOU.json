@@ -3,7 +3,7 @@
   "team": "Houston Texans",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/houston-texans/roster",
-  "checkedAt": "2026-09-17T12:54:16.388136+00:00",
+  "checkedAt": "2026-09-18T12:32:13.670998+00:00",
   "players": [
     {
       "name": "Aiden Fisher",
@@ -89,6 +89,14 @@
       "name": "Bryce Hall",
       "position": "CB",
       "number": "34",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Bryce Oliver",
+      "position": "WR",
+      "number": "73",
       "status": "LISTED",
       "important": true,
       "source": "NFL.com"
@@ -313,7 +321,7 @@
       "name": "Jamal Hill",
       "position": "LB",
       "number": "56",
-      "status": "LISTED",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },
@@ -427,6 +435,14 @@
       "number": "14",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Kenneth Murray",
+      "position": "LB",
+      "number": "74",
+      "status": "LISTED",
+      "important": false,
       "source": "NFL.com"
     },
     {
