@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-09-17T13:27:02.344103+00:00",
+  "checkedAt": "2026-09-18T12:57:45.200096+00:00",
   "players": [
     {
       "name": "Alex Call",
@@ -39,13 +39,6 @@
       "name": "Blake Treinen",
       "position": "P",
       "number": "49",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Bobby Miller",
-      "position": "P",
-      "number": "28",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -123,6 +116,13 @@
       "name": "Kyle Tucker",
       "position": "RF",
       "number": "23",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Landon Knack",
+      "position": "P",
+      "number": "96",
       "status": "A",
       "source": "MLB Stats API"
     },

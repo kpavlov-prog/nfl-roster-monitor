@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-09-17T13:27:10.876988+00:00",
+  "checkedAt": "2026-09-18T12:57:54.096188+00:00",
   "players": [
     {
       "name": "Abimelec Ortiz",
@@ -18,13 +18,6 @@
       "name": "Andrew Alvarez",
       "position": "P",
       "number": "54",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Andrew Pinckney",
-      "position": "LF",
-      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -137,6 +130,13 @@
       "name": "Jorbit Vivas",
       "position": "3B",
       "number": "84",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Josiah Gray",
+      "position": "P",
+      "number": "40",
       "status": "A",
       "source": "MLB Stats API"
     },
