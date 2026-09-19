@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-09-19T12:36:35.559479+00:00",
+    "teamCode": "CGY",
+    "teamName": "Calgary Flames",
+    "type": "added",
+    "playerName": "Brennan Othmann",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-19T12:36:39.985941+00:00",
+    "teamCode": "EDM",
+    "teamName": "Edmonton Oilers",
+    "type": "added",
+    "playerName": "Connor Ungar",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-19T12:36:39.985949+00:00",
+    "teamCode": "EDM",
+    "teamName": "Edmonton Oilers",
+    "type": "added",
+    "playerName": "Damien Carfagna",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-19T12:36:45.282772+00:00",
+    "teamCode": "OTT",
+    "teamName": "Ottawa Senators",
+    "type": "number changed",
+    "playerName": "Matthew Andonovski",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "82",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-19T12:36:51.876843+00:00",
+    "teamCode": "VGK",
+    "teamName": "Vegas Golden Knights",
+    "type": "position changed",
+    "playerName": "Victor Olofsson",
+    "position": "L",
+    "oldValue": "R",
+    "newValue": "L",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-18T13:03:50.404802+00:00",
     "teamCode": "BUF",
     "teamName": "Buffalo Sabres",
