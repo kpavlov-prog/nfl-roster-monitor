@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-09-19T12:42:01.470608+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Hawks",
+    "type": "removed",
+    "playerName": "Will Baker",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-19T12:42:05.902509+00:00",
+    "teamCode": "DEN",
+    "teamName": "Denver Nuggets",
+    "type": "added",
+    "playerName": "Cam Whitmore",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-19T12:42:09.850279+00:00",
+    "teamCode": "LAL",
+    "teamName": "Los Angeles Lakers",
+    "type": "added",
+    "playerName": "Chase Ross",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-19T12:42:09.850288+00:00",
+    "teamCode": "LAL",
+    "teamName": "Los Angeles Lakers",
+    "type": "added",
+    "playerName": "Meechie Johnson",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-19T12:42:09.850294+00:00",
+    "teamCode": "LAL",
+    "teamName": "Los Angeles Lakers",
+    "type": "removed",
+    "playerName": "Anton Watson",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-18T13:10:41.560273+00:00",
     "teamCode": "LAL",
     "teamName": "Los Angeles Lakers",
