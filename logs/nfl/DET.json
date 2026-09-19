@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-19T12:10:16.933091+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "status changed",
+    "playerName": "Devin Cochran",
+    "position": "OT",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-19T12:10:16.933119+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "status changed",
+    "playerName": "Seth McLaughlin",
+    "position": "C",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-18T12:32:10.318039+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Lions",
