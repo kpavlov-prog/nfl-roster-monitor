@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-19T12:29:51.863641+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "added",
+    "playerName": "Duncan Davitt",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-19T12:29:51.863651+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "added",
+    "playerName": "Victor Bericoto",
+    "position": "LF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-19T12:29:51.863654+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "removed",
+    "playerName": "Logan Webb",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-19T12:29:51.863656+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco Giants",
+    "type": "removed",
+    "playerName": "Nate Furman",
+    "position": "2B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-14T15:01:04.229846+00:00",
     "teamCode": "SF",
     "teamName": "San Francisco Giants",

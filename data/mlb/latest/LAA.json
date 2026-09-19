@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=active",
-  "checkedAt": "2026-09-18T12:57:44.648188+00:00",
+  "checkedAt": "2026-09-19T12:29:45.494112+00:00",
   "players": [
     {
       "name": "Adam Frazier",
@@ -25,6 +25,13 @@
       "name": "Blake Weiman",
       "position": "P",
       "number": "68",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Bryce Teodosio",
+      "position": "LF",
+      "number": "22",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -67,13 +74,6 @@
       "name": "José Fermin",
       "position": "P",
       "number": "65",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Kyren Paris",
-      "position": "2B",
-      "number": "19",
       "status": "A",
       "source": "MLB Stats API"
     },

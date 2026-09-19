@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-19T12:29:48.398847+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "added",
+    "playerName": "Ronny Mauricio",
+    "position": "SS",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-19T12:29:48.398873+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "removed",
+    "playerName": "Jared Young",
+    "position": "1B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-18T12:57:47.448734+00:00",
     "teamCode": "NYM",
     "teamName": "New York Mets",

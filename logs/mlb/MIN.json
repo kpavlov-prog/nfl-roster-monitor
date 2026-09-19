@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-19T12:29:47.827488+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "added",
+    "playerName": "Alan Roden",
+    "position": "RF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-19T12:29:47.827500+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "removed",
+    "playerName": "Trevor Larnach",
+    "position": "LF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-17T13:27:03.953174+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Twins",

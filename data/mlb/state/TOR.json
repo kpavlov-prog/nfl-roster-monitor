@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-09-18T12:57:53.503749+00:00",
+  "checkedAt": "2026-09-19T12:29:54.755811+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -106,6 +106,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "José Rodríguez",
+      "position": "P",
+      "number": "64",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "José Soriano",
       "position": "P",
       "number": "40",
@@ -137,13 +144,6 @@
       "name": "Max Scherzer",
       "position": "P",
       "number": "31",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Michael Lorenzen",
-      "position": "P",
-      "number": "55",
       "status": "A",
       "source": "MLB Stats API"
     },

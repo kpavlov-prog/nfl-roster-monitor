@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-09-18T12:57:47.447976+00:00",
+  "checkedAt": "2026-09-19T12:29:48.397793+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -99,13 +99,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jared Young",
-      "position": "1B",
-      "number": "29",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jefry Yan",
       "position": "P",
       "number": "84",
@@ -179,6 +172,13 @@
       "name": "Nolan McLean",
       "position": "P",
       "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ronny Mauricio",
+      "position": "SS",
+      "number": "0",
       "status": "A",
       "source": "MLB Stats API"
     },

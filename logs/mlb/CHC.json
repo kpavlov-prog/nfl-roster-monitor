@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-19T12:29:40.860265+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "added",
+    "playerName": "Dansby Swanson",
+    "position": "SS",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-19T12:29:40.860276+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "removed",
+    "playerName": "BJ Murray Jr.",
+    "position": "3B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-13T13:18:17.460248+00:00",
     "teamCode": "CHC",
     "teamName": "Chicago Cubs",

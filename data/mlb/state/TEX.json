@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-09-18T12:57:52.959492+00:00",
+  "checkedAt": "2026-09-19T12:29:54.178295+00:00",
   "players": [
     {
       "name": "Alejandro Osuna",
@@ -155,6 +155,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Michel Otañez",
+      "position": "P",
+      "number": "58",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Nathan Eovaldi",
       "position": "P",
       "number": "17",
@@ -165,13 +172,6 @@
       "name": "Nicky Lopez",
       "position": "2B",
       "number": "33",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Robby Ahlstrom",
-      "position": "P",
-      "number": "54",
       "status": "A",
       "source": "MLB Stats API"
     },

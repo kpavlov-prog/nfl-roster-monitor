@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-09-18T12:57:50.773172+00:00",
+  "checkedAt": "2026-09-19T12:29:51.862574+00:00",
   "players": [
     {
       "name": "Andrew Knizner",
@@ -78,6 +78,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Duncan Davitt",
+      "position": "P",
+      "number": "76",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Dylan Smith",
       "position": "P",
       "number": "66",
@@ -127,23 +134,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Logan Webb",
-      "position": "P",
-      "number": "62",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Matt Wilkinson",
       "position": "P",
       "number": "71",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Nate Furman",
-      "position": "2B",
-      "number": "56",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -193,6 +186,13 @@
       "name": "Turner Hill",
       "position": "LF",
       "number": "52",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Victor Bericoto",
+      "position": "LF",
+      "number": "78",
       "status": "A",
       "source": "MLB Stats API"
     },

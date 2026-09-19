@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-19T12:29:39.709039+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Orioles",
+    "type": "added",
+    "playerName": "Cade Povich",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-19T12:29:39.709049+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Orioles",
+    "type": "removed",
+    "playerName": "Codi Heuer",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-17T13:26:56.461288+00:00",
     "teamCode": "BAL",
     "teamName": "Baltimore Orioles",

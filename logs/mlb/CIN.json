@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-19T12:29:42.032648+00:00",
+    "teamCode": "CIN",
+    "teamName": "Cincinnati Reds",
+    "type": "added",
+    "playerName": "Julian Aguiar",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-19T12:29:42.032657+00:00",
+    "teamCode": "CIN",
+    "teamName": "Cincinnati Reds",
+    "type": "removed",
+    "playerName": "Julian Garcia",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-08T12:52:03.206542+00:00",
     "teamCode": "CIN",
     "teamName": "Cincinnati Reds",
