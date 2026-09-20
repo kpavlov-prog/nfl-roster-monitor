@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-09-19T12:29:48.397793+00:00",
+  "checkedAt": "2026-09-20T13:03:00.526153+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -36,13 +36,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Cameron Weston",
-      "position": "P",
-      "number": "74",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Carson Benge",
       "position": "RF",
       "number": "3",
@@ -60,6 +53,13 @@
       "name": "Christopher Morel",
       "position": "1B",
       "number": "28",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cionel Pérez",
+      "position": "P",
+      "number": "52",
       "status": "A",
       "source": "MLB Stats API"
     },

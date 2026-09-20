@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=active",
-  "checkedAt": "2026-09-19T12:29:39.708005+00:00",
+  "checkedAt": "2026-09-20T13:02:51.182175+00:00",
   "players": [
     {
       "name": "Alex Hoppe",
@@ -32,13 +32,6 @@
       "name": "Brandon Young",
       "position": "P",
       "number": "63",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Cade Povich",
-      "position": "P",
-      "number": "37",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -71,6 +64,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Christian Franklin",
+      "position": "CF",
+      "number": "27",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Coby Mayo",
       "position": "3B",
       "number": "16",
@@ -92,6 +92,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Félix Bautista",
+      "position": "P",
+      "number": "74",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Grant Wolfram",
       "position": "P",
       "number": "48",
@@ -102,13 +109,6 @@
       "name": "Gunnar Henderson",
       "position": "SS",
       "number": "2",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Heston Kjerstad",
-      "position": "LF",
-      "number": "13",
       "status": "A",
       "source": "MLB Stats API"
     },

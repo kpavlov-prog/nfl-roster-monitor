@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=active",
-  "checkedAt": "2026-09-19T12:29:42.031598+00:00",
+  "checkedAt": "2026-09-20T13:02:53.672254+00:00",
   "players": [
     {
       "name": "Andrew Abbott",
@@ -113,13 +113,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Julian Aguiar",
-      "position": "P",
-      "number": "39",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Ke'Bryan Hayes",
       "position": "3B",
       "number": "3",
@@ -148,6 +141,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Oswaldo Cabrera",
+      "position": "3B",
+      "number": "16",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Pierce Johnson",
       "position": "P",
       "number": "52",
@@ -165,13 +165,6 @@
       "name": "Sal Stewart",
       "position": "1B",
       "number": "27",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "TJ Friedl",
-      "position": "CF",
-      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -200,6 +193,13 @@
       "name": "Will Banfield",
       "position": "C",
       "number": "60",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Zach McCambley",
+      "position": "P",
+      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     }

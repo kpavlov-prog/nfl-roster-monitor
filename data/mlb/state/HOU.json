@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=active",
-  "checkedAt": "2026-09-19T12:29:44.338617+00:00",
+  "checkedAt": "2026-09-20T13:02:56.203327+00:00",
   "players": [
     {
       "name": "AJ Blubaugh",
@@ -18,6 +18,13 @@
       "name": "Bennett Sousa",
       "position": "P",
       "number": "62",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brice Matthews",
+      "position": "CF",
+      "number": "0",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -71,13 +78,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Enyel De Los Santos",
-      "position": "P",
-      "number": "65",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Ethan Pecko",
       "position": "P",
       "number": "70",
@@ -113,13 +113,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jorge Barrosa",
-      "position": "CF",
-      "number": "14",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jose Altuve",
       "position": "2B",
       "number": "27",
@@ -137,6 +130,13 @@
       "name": "LaMonte Wade Jr.",
       "position": "LF",
       "number": "31",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Logan VanWey",
+      "position": "P",
+      "number": "64",
       "status": "A",
       "source": "MLB Stats API"
     },

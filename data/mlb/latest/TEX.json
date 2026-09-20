@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-09-19T12:29:54.178295+00:00",
+  "checkedAt": "2026-09-20T13:03:06.780982+00:00",
   "players": [
+    {
+      "name": "Adam Macko",
+      "position": "P",
+      "number": "71",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Alejandro Osuna",
       "position": "LF",
@@ -151,13 +158,6 @@
       "name": "MacKenzie Gore",
       "position": "P",
       "number": "1",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Michel Otañez",
-      "position": "P",
-      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },

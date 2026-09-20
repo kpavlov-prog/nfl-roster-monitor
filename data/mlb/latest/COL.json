@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=active",
-  "checkedAt": "2026-09-19T12:29:43.190636+00:00",
+  "checkedAt": "2026-09-20T13:02:54.944510+00:00",
   "players": [
     {
       "name": "Adael Amador",
@@ -57,13 +57,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Gabriel Hughes",
-      "position": "P",
-      "number": "43",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Hunter Goodman",
       "position": "C",
       "number": "15",
@@ -102,6 +95,13 @@
       "name": "Jordan Romano",
       "position": "P",
       "number": "68",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jose Quintana",
+      "position": "P",
+      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     },
