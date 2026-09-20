@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2026/roster?limit=100&page=1",
-  "checkedAt": "2026-09-19T13:11:32.129672+00:00",
+  "checkedAt": "2026-09-20T13:35:43.670639+00:00",
   "players": [
     {
       "name": "Aaron Clark",
@@ -596,6 +596,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Matthew Castrillon-Robles",
+      "position": "DB",
+      "number": "48",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Max Guest",
       "position": "RB",
       "number": "26",
@@ -606,6 +613,13 @@
       "name": "Micah Williams",
       "position": "DB",
       "number": "2",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Micah Williamson",
+      "position": "RB",
+      "number": "34",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },

@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/245/roster?limit=100&page=1",
-  "checkedAt": "2026-09-19T13:32:40.151820+00:00",
+  "checkedAt": "2026-09-20T13:48:15.331679+00:00",
   "players": [
     {
       "name": "Aaron Gregory",
@@ -74,6 +74,13 @@
       "name": "Avery Morcho",
       "position": "OL",
       "number": "65",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Blake Buntyn",
+      "position": "WR",
+      "number": "84",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
@@ -358,6 +365,13 @@
       "source": "ESPN College Football API"
     },
     {
+      "name": "Jerome Myles",
+      "position": "WR",
+      "number": "80",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
       "name": "Jesse Chukwu",
       "position": "DE",
       "number": "98",
@@ -564,6 +578,13 @@
       "name": "Nathan Mabon",
       "position": "DT",
       "number": "93",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Nelson McGuire",
+      "position": "OL",
+      "number": "56",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
