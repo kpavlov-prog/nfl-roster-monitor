@@ -3,7 +3,7 @@
   "team": "Philadelphia Flyers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/PHI/current",
-  "checkedAt": "2026-09-19T12:36:45.948582+00:00",
+  "checkedAt": "2026-09-20T13:09:04.211774+00:00",
   "players": [
     {
       "name": "Aleksei Kolosov",
@@ -16,13 +16,6 @@
       "name": "Alex Bump",
       "position": "L",
       "number": "20",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Alex Ciernik",
-      "position": "L",
-      "number": "45",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -97,13 +90,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Devin Kaplan",
-      "position": "R",
-      "number": "68",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Helge Grans",
       "position": "D",
       "number": "3",
@@ -118,22 +104,8 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Ilya Pautov",
-      "position": "R",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Jack Studnicka",
       "position": "C",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Jackson Edward",
-      "position": "D",
       "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
