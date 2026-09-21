@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-09-20T13:03:06.780982+00:00",
+  "checkedAt": "2026-09-21T15:06:24.078142+00:00",
   "players": [
     {
       "name": "Adam Macko",
@@ -25,13 +25,6 @@
       "name": "Brandon Nimmo",
       "position": "RF",
       "number": "24",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Cal Quantrill",
-      "position": "P",
-      "number": "44",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -193,6 +186,13 @@
       "name": "Tyler Alexander",
       "position": "P",
       "number": "13",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Winston Santos",
+      "position": "P",
+      "number": "47",
       "status": "A",
       "source": "MLB Stats API"
     },

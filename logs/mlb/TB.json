@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-21T15:06:23.463198+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Rays",
+    "type": "added",
+    "playerName": "Ben Williamson",
+    "position": "2B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-21T15:06:23.463215+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Rays",
+    "type": "removed",
+    "playerName": "Jake Fraley",
+    "position": "RF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-18T12:57:52.412897+00:00",
     "teamCode": "TB",
     "teamName": "Tampa Bay Rays",

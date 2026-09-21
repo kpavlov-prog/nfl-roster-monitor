@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-09-20T13:02:53.036563+00:00",
+  "checkedAt": "2026-09-21T15:06:10.387854+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -50,13 +50,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Chris Murphy",
-      "position": "P",
-      "number": "38",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Colson Montgomery",
       "position": "SS",
       "number": "12",
@@ -95,6 +88,13 @@
       "name": "Hagen Smith",
       "position": "P",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Huascar Brazobán",
+      "position": "P",
+      "number": "50",
       "status": "A",
       "source": "MLB Stats API"
     },

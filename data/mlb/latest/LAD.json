@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-09-20T13:02:58.056632+00:00",
+  "checkedAt": "2026-09-21T15:06:15.489237+00:00",
   "players": [
     {
       "name": "Alex Call",
@@ -60,6 +60,13 @@
       "name": "Eliezer Alfonzo",
       "position": "C",
       "number": "64",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Emmet Sheehan",
+      "position": "P",
+      "number": "80",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -120,6 +127,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Kyle Hurt",
+      "position": "P",
+      "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Kyle Tucker",
       "position": "RF",
       "number": "23",
@@ -148,23 +162,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Seth Halvorsen",
-      "position": "P",
-      "number": "56",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Tanner Scott",
       "position": "P",
       "number": "66",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tarik Skubal",
-      "position": "P",
-      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },
