@@ -3,7 +3,7 @@
   "team": "New York Liberty",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/NY/roster",
-  "checkedAt": "2026-09-20T13:29:31.281880+00:00",
+  "checkedAt": "2026-09-21T15:43:37.234679+00:00",
   "players": [
     {
       "name": "Anneli Maley",
@@ -44,6 +44,13 @@
       "name": "Leonie Fiebich",
       "position": "F",
       "number": "13",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
+    {
+      "name": "Madison Scott",
+      "position": "G",
+      "number": "10",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },

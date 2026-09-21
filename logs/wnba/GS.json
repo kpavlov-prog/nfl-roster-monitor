@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-09-21T15:43:33.862632+00:00",
+    "teamCode": "GS",
+    "teamName": "Golden State Valkyries",
+    "type": "added",
+    "playerName": "Aminata Gueye",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN WNBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-21T15:43:33.862644+00:00",
+    "teamCode": "GS",
+    "teamName": "Golden State Valkyries",
+    "type": "removed",
+    "playerName": "Nadia Fingall",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN WNBA API",
+    "severity": "medium"
+  }
+]

@@ -3,8 +3,15 @@
   "team": "Golden State Valkyries",
   "source": "ESPN WNBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/GS/roster",
-  "checkedAt": "2026-09-20T13:29:28.228586+00:00",
+  "checkedAt": "2026-09-21T15:43:33.861952+00:00",
   "players": [
+    {
+      "name": "Aminata Gueye",
+      "position": "C",
+      "number": "31",
+      "status": "ACTIVE",
+      "source": "ESPN WNBA API"
+    },
     {
       "name": "Ashten Prechtel",
       "position": "F",
@@ -86,13 +93,6 @@
       "name": "Miela Sowah",
       "position": "G",
       "number": "7",
-      "status": "ACTIVE",
-      "source": "ESPN WNBA API"
-    },
-    {
-      "name": "Nadia Fingall",
-      "position": "C",
-      "number": "45",
       "status": "ACTIVE",
       "source": "ESPN WNBA API"
     },
