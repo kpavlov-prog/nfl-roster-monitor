@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-21T15:15:01.752277+00:00",
+    "teamCode": "SJS",
+    "teamName": "San Jose Sharks",
+    "type": "added",
+    "playerName": "Leo Sahlin-Wallenius",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-21T15:15:01.752286+00:00",
+    "teamCode": "SJS",
+    "teamName": "San Jose Sharks",
+    "type": "number changed",
+    "playerName": "Mattias Havelid",
+    "position": "D",
+    "oldValue": "25",
+    "newValue": "22",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-21T15:15:01.752295+00:00",
+    "teamCode": "SJS",
+    "teamName": "San Jose Sharks",
+    "type": "removed",
+    "playerName": "Leo Sahlin Wallenius",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-20T13:09:06.600986+00:00",
     "teamCode": "SJS",
     "teamName": "San Jose Sharks",

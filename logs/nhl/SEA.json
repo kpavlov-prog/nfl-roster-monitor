@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-21T15:15:01.102540+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Kraken",
+    "type": "added",
+    "playerName": "Josh Mahura",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-21T15:15:01.102555+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Kraken",
+    "type": "removed",
+    "playerName": "Joshua Mahura",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-14T15:09:41.049321+00:00",
     "teamCode": "SEA",
     "teamName": "Seattle Kraken",
