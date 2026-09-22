@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-09-21T15:06:25.312487+00:00",
+  "checkedAt": "2026-09-22T13:24:40.011223+00:00",
   "players": [
     {
       "name": "Abimelec Ortiz",
@@ -53,6 +53,13 @@
       "name": "Cade Cavalli",
       "position": "P",
       "number": "24",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "DJ Herz",
+      "position": "P",
+      "number": "77",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -116,13 +123,6 @@
       "name": "James Wood",
       "position": "RF",
       "number": "29",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jared Simpson",
-      "position": "P",
-      "number": "72",
       "status": "A",
       "source": "MLB Stats API"
     },

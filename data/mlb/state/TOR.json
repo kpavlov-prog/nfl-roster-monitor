@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-09-21T15:06:24.696709+00:00",
+  "checkedAt": "2026-09-22T13:24:39.266680+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -57,6 +57,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Chad Dallas",
+      "position": "P",
+      "number": "37",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Charles McAdoo",
       "position": "2B",
       "number": "26",
@@ -88,13 +95,6 @@
       "name": "George Springer",
       "position": "DH",
       "number": "4",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Joe Mantiply",
-      "position": "P",
-      "number": "35",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -176,16 +176,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Spencer Arrighetti",
+      "name": "Spencer Miles",
       "position": "P",
-      "number": "45",
+      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Spencer Miles",
+      "name": "Trey Yesavage",
       "position": "P",
-      "number": "62",
+      "number": "39",
       "status": "A",
       "source": "MLB Stats API"
     },
