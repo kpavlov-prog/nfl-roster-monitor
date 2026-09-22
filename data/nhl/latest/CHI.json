@@ -3,15 +3,8 @@
   "team": "Chicago Blackhawks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/CHI/current",
-  "checkedAt": "2026-09-21T15:14:50.125269+00:00",
+  "checkedAt": "2026-09-22T13:33:44.738381+00:00",
   "players": [
-    {
-      "name": "Adam Gajan",
-      "position": "G",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
     {
       "name": "Alex Vlasic",
       "position": "D",
@@ -139,23 +132,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Gavin Hayes",
-      "position": "L",
-      "number": "92",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Ian Cole",
       "position": "D",
       "number": "28",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Jake Furlong",
-      "position": "D",
-      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -223,13 +202,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Paul Ludwinski",
-      "position": "C",
-      "number": "90",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Roman Kantserov",
       "position": "R",
       "number": "",
@@ -265,30 +237,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Samuel Savoie",
-      "position": "L",
-      "number": "67",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Spencer Knight",
       "position": "G",
       "number": "30",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Stanislav Berezhnoy",
-      "position": "G",
-      "number": "31",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Taige Harding",
-      "position": "D",
-      "number": "47",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

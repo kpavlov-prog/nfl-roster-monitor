@@ -3,19 +3,12 @@
   "team": "Seattle Kraken",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/SEA/current",
-  "checkedAt": "2026-09-21T15:15:01.101401+00:00",
+  "checkedAt": "2026-09-22T13:33:56.357829+00:00",
   "players": [
     {
       "name": "Adam Larsson",
       "position": "D",
       "number": "6",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Alexis Bernier",
-      "position": "D",
-      "number": "43",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -111,13 +104,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Julius Miettinen",
-      "position": "C",
-      "number": "49",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Kaapo Kakko",
       "position": "R",
       "number": "84",
@@ -156,13 +142,6 @@
       "name": "Ryan Winterton",
       "position": "C",
       "number": "26",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Ryden Evers",
-      "position": "L",
-      "number": "91",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

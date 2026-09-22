@@ -3,7 +3,7 @@
   "team": "Vancouver Canucks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/VAN/current",
-  "checkedAt": "2026-09-21T15:15:04.984834+00:00",
+  "checkedAt": "2026-09-22T13:34:00.293325+00:00",
   "players": [
     {
       "name": "Aatu Räty",
@@ -27,22 +27,8 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Aku Koskenvuo",
-      "position": "G",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Aleksei Medvedev",
       "position": "G",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Anri Ravinskis",
-      "position": "R",
       "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
@@ -121,13 +107,6 @@
       "name": "Filip Hronek",
       "position": "D",
       "number": "17",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Gabriel Chiarot",
-      "position": "R",
-      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -293,23 +272,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Ty Young",
-      "position": "G",
-      "number": "85",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Victor Mancini",
       "position": "D",
       "number": "90",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Vilmer Alriksson",
-      "position": "L",
-      "number": "46",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
