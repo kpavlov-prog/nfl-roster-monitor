@@ -3,7 +3,7 @@
   "team": "New York Jets",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-york-jets/roster",
-  "checkedAt": "2026-09-22T12:58:33.634220+00:00",
+  "checkedAt": "2026-09-23T13:09:49.085455+00:00",
   "players": [
     {
       "name": "Adonai Mitchell",
@@ -311,7 +311,7 @@
     },
     {
       "name": "Joe Tippmann",
-      "position": "C",
+      "position": "G",
       "number": "66",
       "status": "ACT",
       "important": false,
@@ -561,7 +561,7 @@
       "name": "Troy Reeder",
       "position": "LB",
       "number": "75",
-      "status": "LISTED",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },
@@ -577,6 +577,14 @@
       "name": "Tyler Johnson",
       "position": "WR",
       "number": "73",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Will Levis",
+      "position": "QB",
+      "number": "76",
       "status": "LISTED",
       "important": true,
       "source": "NFL.com"

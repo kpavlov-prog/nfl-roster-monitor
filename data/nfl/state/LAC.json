@@ -3,7 +3,7 @@
   "team": "Los Angeles Chargers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/los-angeles-chargers/roster",
-  "checkedAt": "2026-09-22T12:58:17.107162+00:00",
+  "checkedAt": "2026-09-23T13:09:37.131974+00:00",
   "players": [
     {
       "name": "Akheem Mesidor",
@@ -209,7 +209,7 @@
       "name": "Gary Jennings",
       "position": "WR",
       "number": "73",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -218,6 +218,14 @@
       "position": "RB",
       "number": "31",
       "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Hayden Rucci",
+      "position": "TE",
+      "number": "77",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },

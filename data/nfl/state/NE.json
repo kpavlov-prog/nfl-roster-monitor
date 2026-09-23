@@ -3,7 +3,7 @@
   "team": "New England Patriots",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-england-patriots/roster",
-  "checkedAt": "2026-09-22T12:58:25.901461+00:00",
+  "checkedAt": "2026-09-23T13:09:43.884084+00:00",
   "players": [
     {
       "name": "A.J. Brown",
@@ -191,10 +191,10 @@
     },
     {
       "name": "Dre'Mont Jones",
-      "position": "DE",
+      "position": "LB",
       "number": "5",
       "status": "ACT",
-      "important": true,
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -457,7 +457,7 @@
       "name": "Mike Onwenu",
       "position": "G",
       "number": "71",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -473,7 +473,7 @@
       "name": "Mitch Wishnowsky",
       "position": "P",
       "number": "74",
-      "status": "LISTED",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },
@@ -562,6 +562,14 @@
       "position": "TE",
       "number": "84",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Tanner Conner",
+      "position": "TE",
+      "number": "75",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

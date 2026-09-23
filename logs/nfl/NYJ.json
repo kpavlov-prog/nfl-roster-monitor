@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-23T13:09:49.085762+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "position changed",
+    "playerName": "Joe Tippmann",
+    "position": "G",
+    "oldValue": "C",
+    "newValue": "G",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-23T13:09:49.085780+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "status changed",
+    "playerName": "Troy Reeder",
+    "position": "LB",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-23T13:09:49.085786+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "added",
+    "playerName": "Will Levis",
+    "position": "QB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-22T12:58:33.634531+00:00",
     "teamCode": "NYJ",
     "teamName": "New York Jets",

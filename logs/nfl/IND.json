@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-23T13:09:30.095265+00:00",
+    "teamCode": "IND",
+    "teamName": "Indianapolis Colts",
+    "type": "added",
+    "playerName": "Darius Slayton",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-23T13:09:30.095279+00:00",
+    "teamCode": "IND",
+    "teamName": "Indianapolis Colts",
+    "type": "status changed",
+    "playerName": "Micheal Clemons",
+    "position": "DE",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-09-22T12:58:06.232919+00:00",
     "teamCode": "IND",
     "teamName": "Indianapolis Colts",

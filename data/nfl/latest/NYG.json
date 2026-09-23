@@ -3,7 +3,7 @@
   "team": "New York Giants",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-york-giants/roster",
-  "checkedAt": "2026-09-22T12:58:30.723481+00:00",
+  "checkedAt": "2026-09-23T13:09:47.309856+00:00",
   "players": [
     {
       "name": "Aaron Stinnie",
@@ -73,7 +73,7 @@
       "name": "Braxton Berrios",
       "position": "WR",
       "number": "87",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -90,6 +90,14 @@
       "position": "C",
       "number": "60",
       "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "C.J. Ravenell",
+      "position": "C",
+      "number": "77",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -425,7 +433,7 @@
       "name": "Malik Harrison",
       "position": "LB",
       "number": "75",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },

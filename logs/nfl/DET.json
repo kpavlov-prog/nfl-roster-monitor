@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-23T13:09:24.848338+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "status changed",
+    "playerName": "Avonte Maddox",
+    "position": "FS",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-09-23T13:09:24.848363+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "status changed",
+    "playerName": "Joe Bachie",
+    "position": "LB",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-22T12:57:59.417809+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Lions",

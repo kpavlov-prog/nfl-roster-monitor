@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-23T13:09:43.884362+00:00",
+    "teamCode": "NE",
+    "teamName": "New England Patriots",
+    "type": "position changed",
+    "playerName": "Dre'Mont Jones",
+    "position": "LB",
+    "oldValue": "DE",
+    "newValue": "LB",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-23T13:09:43.884380+00:00",
+    "teamCode": "NE",
+    "teamName": "New England Patriots",
+    "type": "status changed",
+    "playerName": "Mike Onwenu",
+    "position": "G",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-23T13:09:43.884385+00:00",
+    "teamCode": "NE",
+    "teamName": "New England Patriots",
+    "type": "status changed",
+    "playerName": "Mitch Wishnowsky",
+    "position": "P",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-23T13:09:43.884392+00:00",
+    "teamCode": "NE",
+    "teamName": "New England Patriots",
+    "type": "added",
+    "playerName": "Tanner Conner",
+    "position": "TE",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-22T12:58:25.901782+00:00",
     "teamCode": "NE",
     "teamName": "New England Patriots",
