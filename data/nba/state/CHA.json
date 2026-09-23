@@ -3,12 +3,19 @@
   "team": "Charlotte Hornets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/CHA/roster",
-  "checkedAt": "2026-09-22T13:41:04.175192+00:00",
+  "checkedAt": "2026-09-23T13:52:37.666489+00:00",
   "players": [
     {
       "name": "Brandon Miller",
       "position": "F",
       "number": "24",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Buddy Hield",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -29,13 +36,6 @@
     {
       "name": "Dennis Schroder",
       "position": "G",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Dorian Finney-Smith",
-      "position": "F",
       "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
@@ -114,6 +114,13 @@
       "name": "Ryan Kalkbrenner",
       "position": "C",
       "number": "11",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Ryan Nembhard",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

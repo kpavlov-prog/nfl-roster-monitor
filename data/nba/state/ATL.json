@@ -3,7 +3,7 @@
   "team": "Atlanta Hawks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/ATL/roster",
-  "checkedAt": "2026-09-22T13:41:02.150495+00:00",
+  "checkedAt": "2026-09-23T13:52:35.647547+00:00",
   "players": [
     {
       "name": "Aaron Wiggins",
@@ -20,13 +20,6 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Buddy Hield",
-      "position": "G",
-      "number": "8",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "CJ McCollum",
       "position": "G",
       "number": "3",
@@ -37,6 +30,13 @@
       "name": "Corey Kispert",
       "position": "F",
       "number": "24",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Dorian Finney-Smith",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -121,13 +121,6 @@
       "name": "RayJ Dennis",
       "position": "G",
       "number": "10",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Ryan Nembhard",
-      "position": "G",
-      "number": "19",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
