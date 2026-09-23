@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-09-22T13:24:38.649136+00:00",
+  "checkedAt": "2026-09-23T13:38:32.461781+00:00",
   "players": [
-    {
-      "name": "Adam Macko",
-      "position": "P",
-      "number": "71",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Alejandro Osuna",
       "position": "LF",
@@ -113,13 +106,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Joc Pederson",
-      "position": "DH",
-      "number": "3",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jordan Montgomery",
       "position": "P",
       "number": "52",
@@ -155,6 +141,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Michael Helman",
+      "position": "CF",
+      "number": "23",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Nathan Eovaldi",
       "position": "P",
       "number": "17",
@@ -165,6 +158,13 @@
       "name": "Nicky Lopez",
       "position": "2B",
       "number": "33",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Peyton Gray",
+      "position": "P",
+      "number": "75",
       "status": "A",
       "source": "MLB Stats API"
     },

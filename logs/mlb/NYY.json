@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-23T13:38:27.292184+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "added",
+    "playerName": "Jazz Chisholm Jr.",
+    "position": "2B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-23T13:38:27.292195+00:00",
+    "teamCode": "NYY",
+    "teamName": "New York Yankees",
+    "type": "removed",
+    "playerName": "Max Schuemann",
+    "position": "LF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-20T13:03:01.143433+00:00",
     "teamCode": "NYY",
     "teamName": "New York Yankees",

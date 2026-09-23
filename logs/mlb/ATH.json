@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-23T13:38:27.873142+00:00",
+    "teamCode": "ATH",
+    "teamName": "Athletics",
+    "type": "added",
+    "playerName": "Joshua Kuroda-Grauer",
+    "position": "3B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-23T13:38:27.873153+00:00",
+    "teamCode": "ATH",
+    "teamName": "Athletics",
+    "type": "removed",
+    "playerName": "Max Muncy",
+    "position": "3B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-19T12:29:49.538792+00:00",
     "teamCode": "ATH",
     "teamName": "Athletics",

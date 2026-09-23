@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-23T13:38:29.016622+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "added",
+    "playerName": "Kirby Yates",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-23T13:38:29.016631+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "type": "removed",
+    "playerName": "Camilo Doval",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-19T12:29:50.686368+00:00",
     "teamCode": "PIT",
     "teamName": "Pittsburgh Pirates",
