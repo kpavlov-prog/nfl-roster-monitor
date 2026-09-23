@@ -3,7 +3,7 @@
   "team": "Nashville Predators",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/NSH/current",
-  "checkedAt": "2026-09-22T13:33:51.823223+00:00",
+  "checkedAt": "2026-09-23T13:46:14.850550+00:00",
   "players": [
     {
       "name": "Adam Edstrom",
@@ -20,30 +20,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Aiden Fink",
-      "position": "R",
-      "number": "11",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Alexander Kerfoot",
       "position": "C",
       "number": "14",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Andrew Gibson",
-      "position": "D",
-      "number": "92",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Austin Roest",
-      "position": "R",
-      "number": "93",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -104,13 +83,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Hiroki Gojsic",
-      "position": "R",
-      "number": "53",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Hunter Skinner",
       "position": "D",
       "number": "57",
@@ -160,13 +132,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Joey Willis",
-      "position": "C",
-      "number": "61",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Jonathan Marchessault",
       "position": "C",
       "number": "81",
@@ -191,13 +156,6 @@
       "name": "Juuse Saros",
       "position": "G",
       "number": "74",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Kalan Lind",
-      "position": "L",
-      "number": "45",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -296,13 +254,6 @@
       "name": "Tanner Molendyk",
       "position": "D",
       "number": "50",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Viggo Gustafsson",
-      "position": "D",
-      "number": "40",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
