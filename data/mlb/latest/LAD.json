@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-09-23T13:38:24.417090+00:00",
+  "checkedAt": "2026-09-24T13:32:54.420443+00:00",
   "players": [
     {
       "name": "Alex Call",
@@ -99,13 +99,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Josue De Paula",
-      "position": "DH",
-      "number": "95",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Justin Wrobleski",
       "position": "P",
       "number": "70",
@@ -116,13 +109,6 @@
       "name": "Kris Bubic",
       "position": "P",
       "number": "40",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Kyle Hurt",
-      "position": "P",
-      "number": "63",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -162,9 +148,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Shohei Ohtani",
+      "position": "TWP",
+      "number": "17",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Tanner Scott",
       "position": "P",
       "number": "66",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tarik Skubal",
+      "position": "P",
+      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },

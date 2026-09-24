@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=active",
-  "checkedAt": "2026-09-23T13:38:29.590877+00:00",
+  "checkedAt": "2026-09-24T13:32:59.434211+00:00",
   "players": [
     {
       "name": "Adrian Morejon",
@@ -71,13 +71,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Griffin Canning",
-      "position": "P",
-      "number": "17",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jackson Merrill",
       "position": "CF",
       "number": "3",
@@ -95,6 +88,13 @@
       "name": "Jase Bowen",
       "position": "RF",
       "number": "4",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jason Adam",
+      "position": "P",
+      "number": "40",
       "status": "A",
       "source": "MLB Stats API"
     },

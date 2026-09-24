@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-09-23T13:38:17.500559+00:00",
+  "checkedAt": "2026-09-24T13:32:47.686056+00:00",
   "players": [
     {
       "name": "AJ Smith-Shawver",
@@ -148,13 +148,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Owen Murphy",
-      "position": "P",
-      "number": "73",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Ozzie Albies",
       "position": "2B",
       "number": "1",
@@ -172,6 +165,13 @@
       "name": "Ray Kerr",
       "position": "P",
       "number": "62",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Robert Suarez",
+      "position": "P",
+      "number": "75",
       "status": "A",
       "source": "MLB Stats API"
     },

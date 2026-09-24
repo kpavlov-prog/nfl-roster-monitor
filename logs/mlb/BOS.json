@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-24T13:32:48.811135+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "added",
+    "playerName": "Ceddanne Rafaela",
+    "position": "CF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-24T13:32:48.811151+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "removed",
+    "playerName": "Nate Eaton",
+    "position": "LF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-21T15:06:09.163517+00:00",
     "teamCode": "BOS",
     "teamName": "Boston Red Sox",

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=active",
-  "checkedAt": "2026-09-23T13:38:22.679925+00:00",
+  "checkedAt": "2026-09-24T13:32:52.749318+00:00",
   "players": [
     {
       "name": "AJ Blubaugh",
@@ -18,13 +18,6 @@
       "name": "Bennett Sousa",
       "position": "P",
       "number": "62",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brice Matthews",
-      "position": "CF",
-      "number": "0",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -60,13 +53,6 @@
       "name": "Christian Walker",
       "position": "1B",
       "number": "8",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Cristian Javier",
-      "position": "P",
-      "number": "53",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -127,6 +113,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Josh Hendrickson",
+      "position": "P",
+      "number": "61",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "LaMonte Wade Jr.",
       "position": "LF",
       "number": "31",
@@ -137,6 +130,13 @@
       "name": "Logan VanWey",
       "position": "P",
       "number": "64",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Lucas Spence",
+      "position": "CF",
+      "number": "28",
       "status": "A",
       "source": "MLB Stats API"
     },

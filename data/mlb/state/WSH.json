@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-09-23T13:38:33.613299+00:00",
+  "checkedAt": "2026-09-24T13:33:03.386060+00:00",
   "players": [
     {
       "name": "Abimelec Ortiz",
@@ -85,6 +85,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Gus Varland",
+      "position": "P",
+      "number": "47",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Harry Ford",
       "position": "C",
       "number": "17",
@@ -95,13 +102,6 @@
       "name": "Jack Sinclair",
       "position": "P",
       "number": "49",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jackson Kent",
-      "position": "P",
-      "number": "25",
       "status": "A",
       "source": "MLB Stats API"
     },

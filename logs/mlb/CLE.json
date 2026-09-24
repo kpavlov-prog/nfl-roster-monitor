@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-24T13:32:51.063621+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Guardians",
+    "type": "added",
+    "playerName": "Shawn Armstrong",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-24T13:32:51.063632+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Guardians",
+    "type": "removed",
+    "playerName": "Connor Brogdon",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-14T15:00:55.607420+00:00",
     "teamCode": "CLE",
     "teamName": "Cleveland Guardians",

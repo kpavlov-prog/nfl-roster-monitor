@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/139/roster?rosterType=active",
-  "checkedAt": "2026-09-23T13:38:31.889308+00:00",
+  "checkedAt": "2026-09-24T13:33:01.687875+00:00",
   "players": [
-    {
-      "name": "Alex Cook",
-      "position": "P",
-      "number": "54",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Ben Williamson",
       "position": "2B",
@@ -137,6 +130,13 @@
       "name": "Liam Hicks",
       "position": "C",
       "number": "34",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Mason Englert",
+      "position": "P",
+      "number": "59",
       "status": "A",
       "source": "MLB Stats API"
     },
