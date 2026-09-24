@@ -3,7 +3,7 @@
   "team": "Atlanta Hawks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/ATL/roster",
-  "checkedAt": "2026-09-23T13:52:35.647547+00:00",
+  "checkedAt": "2026-09-24T13:48:46.987094+00:00",
   "players": [
     {
       "name": "Aaron Wiggins",
@@ -72,6 +72,13 @@
       "name": "Jock Landale",
       "position": "C",
       "number": "31",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Keon Johnson",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
