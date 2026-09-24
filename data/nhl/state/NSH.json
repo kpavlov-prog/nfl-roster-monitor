@@ -3,7 +3,7 @@
   "team": "Nashville Predators",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/NSH/current",
-  "checkedAt": "2026-09-23T13:46:14.850550+00:00",
+  "checkedAt": "2026-09-24T13:41:20.831034+00:00",
   "players": [
     {
       "name": "Adam Edstrom",
@@ -41,30 +41,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Chase Bradley",
-      "position": "L",
-      "number": "38",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Cole O'Hara",
       "position": "R",
       "number": "19",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Daniel Nieminen",
-      "position": "D",
-      "number": "54",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "David Edstrom",
-      "position": "C",
-      "number": "60",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -97,13 +76,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Isak Posch",
-      "position": "G",
-      "number": "30",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Jack Ahcan",
       "position": "D",
       "number": "47",
@@ -114,20 +86,6 @@
       "name": "Jack Drury",
       "position": "C",
       "number": "18",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Jake Lucchini",
-      "position": "C",
-      "number": "27",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Joakim Kemell",
-      "position": "R",
-      "number": "25",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

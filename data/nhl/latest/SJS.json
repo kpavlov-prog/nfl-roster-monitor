@@ -3,7 +3,7 @@
   "team": "San Jose Sharks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/SJS/current",
-  "checkedAt": "2026-09-23T13:46:20.491766+00:00",
+  "checkedAt": "2026-09-24T13:41:26.039772+00:00",
   "players": [
     {
       "name": "Adam Gaudette",
@@ -34,13 +34,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Andre Gasseau",
-      "position": "C",
-      "number": "26",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Barclay Goodrow",
       "position": "C",
       "number": "23",
@@ -58,13 +51,6 @@
       "name": "Cam Lund",
       "position": "C",
       "number": "46",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Carson Wetsch",
-      "position": "R",
-      "number": "62",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -167,13 +153,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Leo Sahlin-Wallenius",
-      "position": "D",
-      "number": "72",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Libor Hajek",
       "position": "D",
       "number": "24",
@@ -233,13 +212,6 @@
       "name": "Patrick Giles",
       "position": "R",
       "number": "54",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Phillip Sinn",
-      "position": "D",
-      "number": "53",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

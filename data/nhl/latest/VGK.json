@@ -3,7 +3,7 @@
   "team": "Vegas Golden Knights",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/VGK/current",
-  "checkedAt": "2026-09-23T13:46:24.583667+00:00",
+  "checkedAt": "2026-09-24T13:41:29.730655+00:00",
   "players": [
     {
       "name": "Adam Ginning",
@@ -51,13 +51,6 @@
       "name": "Brett Howden",
       "position": "C",
       "number": "21",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Carl Lindbom",
-      "position": "G",
-      "number": "30",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -118,20 +111,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Kai Uchacz",
-      "position": "C",
-      "number": "77",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Lukas Cormier",
-      "position": "D",
-      "number": "51",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Marc Gatcomb",
       "position": "C",
       "number": "17",
@@ -142,13 +121,6 @@
       "name": "Mark Stone",
       "position": "R",
       "number": "61",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Matyas Sapovaliv",
-      "position": "C",
-      "number": "25",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

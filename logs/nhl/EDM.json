@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-24T13:41:17.564192+00:00",
+    "teamCode": "EDM",
+    "teamName": "Edmonton Oilers",
+    "type": "added",
+    "playerName": "Matt Savoie",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-24T13:41:17.564205+00:00",
+    "teamCode": "EDM",
+    "teamName": "Edmonton Oilers",
+    "type": "removed",
+    "playerName": "Beau Akey",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-24T13:41:17.564212+00:00",
+    "teamCode": "EDM",
+    "teamName": "Edmonton Oilers",
+    "type": "removed",
+    "playerName": "Brady Stonehouse",
+    "position": "R",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-21T15:14:53.534732+00:00",
     "teamCode": "EDM",
     "teamName": "Edmonton Oilers",

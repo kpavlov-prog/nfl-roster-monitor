@@ -3,12 +3,12 @@
   "team": "Dallas Stars",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/DAL/current",
-  "checkedAt": "2026-09-23T13:46:10.797235+00:00",
+  "checkedAt": "2026-09-24T13:41:16.200339+00:00",
   "players": [
     {
-      "name": "Aram Minnetian",
-      "position": "D",
-      "number": "44",
+      "name": "Arno Tiefensee",
+      "position": "G",
+      "number": "50",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -27,20 +27,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Ayrton Martino",
-      "position": "L",
-      "number": "60",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Brandon Halverson",
-      "position": "G",
-      "number": "33",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Cameron Hughes",
       "position": "C",
       "number": "34",
@@ -55,23 +41,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Christian Fitzgerald",
-      "position": "C",
-      "number": "52",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Colin Blackwell",
       "position": "C",
       "number": "15",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Connor Punnett",
-      "position": "D",
-      "number": "35",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -135,13 +107,6 @@
       "name": "Joel Kiviranta",
       "position": "L",
       "number": "22",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Justin Ertel",
-      "position": "L",
-      "number": "62",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

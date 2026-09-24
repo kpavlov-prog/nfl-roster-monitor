@@ -3,12 +3,12 @@
   "team": "Colorado Avalanche",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/COL/current",
-  "checkedAt": "2026-09-23T13:46:09.671197+00:00",
+  "checkedAt": "2026-09-24T13:41:14.779971+00:00",
   "players": [
     {
       "name": "Adam Beckman",
       "position": "L",
-      "number": "",
+      "number": "34",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -57,14 +57,7 @@
     {
       "name": "Christian Wolanin",
       "position": "D",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Cooper Gay",
-      "position": "R",
-      "number": "",
+      "number": "86",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -78,21 +71,21 @@
     {
       "name": "Domenick Fensore",
       "position": "D",
-      "number": "",
+      "number": "3",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
     {
       "name": "Fabian Lysell",
       "position": "R",
-      "number": "",
+      "number": "22",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
     {
       "name": "Fedor Svechkov",
       "position": "C",
-      "number": "",
+      "number": "9",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -113,7 +106,7 @@
     {
       "name": "Georgii Merkulov",
       "position": "C",
-      "number": "",
+      "number": "49",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -133,8 +126,8 @@
     },
     {
       "name": "Jaden Schwartz",
-      "position": "C",
-      "number": "",
+      "position": "L",
+      "number": "71",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -202,16 +195,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Nikita Prishchepov",
-      "position": "C",
-      "number": "85",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Noah Juulsen",
       "position": "D",
-      "number": "",
+      "number": "47",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -274,7 +260,7 @@
     {
       "name": "Vinnie Hinostroza",
       "position": "C",
-      "number": "",
+      "number": "18",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -288,7 +274,7 @@
     {
       "name": "Zachary L'Heureux",
       "position": "L",
-      "number": "",
+      "number": "68",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

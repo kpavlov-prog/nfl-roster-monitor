@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-24T13:41:18.930602+00:00",
+    "teamCode": "LAK",
+    "teamName": "Los Angeles Kings",
+    "type": "number changed",
+    "playerName": "Jared Wright",
+    "position": "R",
+    "oldValue": "53",
+    "newValue": "25",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-24T13:41:18.930614+00:00",
+    "teamCode": "LAK",
+    "teamName": "Los Angeles Kings",
+    "type": "number changed",
+    "playerName": "Taylor Ward",
+    "position": "R",
+    "oldValue": "52",
+    "newValue": "17",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-24T13:41:18.930619+00:00",
+    "teamCode": "LAK",
+    "teamName": "Los Angeles Kings",
+    "type": "removed",
+    "playerName": "Jakub Dvorak",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-24T13:41:18.930622+00:00",
+    "teamCode": "LAK",
+    "teamName": "Los Angeles Kings",
+    "type": "removed",
+    "playerName": "Jan Jenik",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-23T13:46:13.018712+00:00",
     "teamCode": "LAK",
     "teamName": "Los Angeles Kings",
