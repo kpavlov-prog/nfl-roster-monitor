@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-25T14:02:43.665963+00:00",
+    "teamCode": "VGK",
+    "teamName": "Vegas Golden Knights",
+    "type": "added",
+    "playerName": "Carl Lindbom",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-25T14:02:43.665978+00:00",
+    "teamCode": "VGK",
+    "teamName": "Vegas Golden Knights",
+    "type": "removed",
+    "playerName": "Adam Ginning",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-25T14:02:43.665983+00:00",
+    "teamCode": "VGK",
+    "teamName": "Vegas Golden Knights",
+    "type": "removed",
+    "playerName": "Jaycob Megna",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-25T14:02:43.665986+00:00",
+    "teamCode": "VGK",
+    "teamName": "Vegas Golden Knights",
+    "type": "removed",
+    "playerName": "Jeremy Davies",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-24T13:41:29.731502+00:00",
     "teamCode": "VGK",
     "teamName": "Vegas Golden Knights",

@@ -3,7 +3,7 @@
   "team": "Colorado Avalanche",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/COL/current",
-  "checkedAt": "2026-09-24T13:41:14.779971+00:00",
+  "checkedAt": "2026-09-25T14:02:28.231172+00:00",
   "players": [
     {
       "name": "Adam Beckman",
@@ -55,23 +55,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Christian Wolanin",
-      "position": "D",
-      "number": "86",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Devon Toews",
       "position": "D",
       "number": "7",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Domenick Fensore",
-      "position": "D",
-      "number": "3",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -113,14 +99,14 @@
     {
       "name": "Gustav Stjernberg",
       "position": "D",
-      "number": "",
+      "number": "44",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
     {
       "name": "Ilya Nabokov",
       "position": "G",
-      "number": "",
+      "number": "30",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -169,7 +155,7 @@
     {
       "name": "Matthew DiMarsico",
       "position": "C",
-      "number": "",
+      "number": "14",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -209,13 +195,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Saige Weinstein",
-      "position": "D",
-      "number": "89",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Sam Malinski",
       "position": "D",
       "number": "70",
@@ -239,7 +218,7 @@
     {
       "name": "T.J. Hughes",
       "position": "R",
-      "number": "",
+      "number": "13",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

@@ -3,7 +3,7 @@
   "team": "Philadelphia Flyers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/PHI/current",
-  "checkedAt": "2026-09-24T13:41:24.236489+00:00",
+  "checkedAt": "2026-09-25T14:02:37.764887+00:00",
   "players": [
     {
       "name": "Aleksei Kolosov",
@@ -16,13 +16,6 @@
       "name": "Alex Bump",
       "position": "L",
       "number": "20",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Cam Dineen",
-      "position": "D",
-      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -62,13 +55,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Danila Klimovich",
-      "position": "R",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "David Jiricek",
       "position": "D",
       "number": "5",
@@ -86,13 +72,6 @@
       "name": "Helge Grans",
       "position": "D",
       "number": "3",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Jack Studnicka",
-      "position": "C",
-      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -156,13 +135,6 @@
       "name": "Noel Acciari",
       "position": "C",
       "number": "52",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Nolan Foote",
-      "position": "L",
-      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -233,13 +205,6 @@
       "name": "Tyson Foerster",
       "position": "R",
       "number": "71",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Zachary Aston-Reese",
-      "position": "L",
-      "number": "21",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }
