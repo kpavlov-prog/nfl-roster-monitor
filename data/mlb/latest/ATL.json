@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-09-24T13:32:47.686056+00:00",
+  "checkedAt": "2026-09-25T13:46:43.797402+00:00",
   "players": [
     {
       "name": "AJ Smith-Shawver",
@@ -85,6 +85,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Elieser Hernández",
+      "position": "P",
+      "number": "57",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Grant Holmes",
       "position": "P",
       "number": "66",
@@ -109,13 +116,6 @@
       "name": "Kyle Farmer",
       "position": "DH",
       "number": "15",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Martín Pérez",
-      "position": "P",
-      "number": "33",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=active",
-  "checkedAt": "2026-09-24T13:32:57.203353+00:00",
+  "checkedAt": "2026-09-25T13:46:53.632083+00:00",
   "players": [
     {
       "name": "Ali Sánchez",
@@ -60,13 +60,6 @@
       "name": "Carlos Rodón",
       "position": "P",
       "number": "55",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Clarke Schmidt",
-      "position": "P",
-      "number": "36",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -130,13 +123,6 @@
       "name": "Luis García Jr.",
       "position": "1B",
       "number": "26",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Luis Gil",
-      "position": "P",
-      "number": "81",
       "status": "A",
       "source": "MLB Stats API"
     },

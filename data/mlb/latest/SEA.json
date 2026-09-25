@@ -5,19 +5,12 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=active",
-  "checkedAt": "2026-09-24T13:33:00.577963+00:00",
+  "checkedAt": "2026-09-25T13:46:57.102065+00:00",
   "players": [
     {
       "name": "Andrés Muñoz",
       "position": "P",
       "number": "75",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brock Rodden",
-      "position": "SS",
-      "number": "90",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,6 +137,13 @@
       "name": "Lazaro Montes",
       "position": "RF",
       "number": "99",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Leo Rivas",
+      "position": "3B",
+      "number": "76",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=active",
-  "checkedAt": "2026-09-24T13:32:52.749318+00:00",
+  "checkedAt": "2026-09-25T13:46:49.007691+00:00",
   "players": [
     {
       "name": "AJ Blubaugh",
@@ -57,13 +57,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Daulton Varsho",
-      "position": "CF",
-      "number": "18",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Ethan Pecko",
       "position": "P",
       "number": "70",
@@ -95,6 +88,13 @@
       "name": "Jeremy Peña",
       "position": "SS",
       "number": "3",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jorge Barrosa",
+      "position": "CF",
+      "number": "14",
       "status": "A",
       "source": "MLB Stats API"
     },

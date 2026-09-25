@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-25T13:46:50.165895+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "added",
+    "playerName": "Trevor Martin",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-25T13:46:50.165904+00:00",
+    "teamCode": "LAA",
+    "teamName": "Los Angeles Angels",
+    "type": "removed",
+    "playerName": "Ben Joyce",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-19T12:29:45.495153+00:00",
     "teamCode": "LAA",
     "teamName": "Los Angeles Angels",
