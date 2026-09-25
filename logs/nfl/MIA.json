@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-25T13:08:00.149732+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Dolphins",
+    "type": "added",
+    "playerName": "A.J. Henning",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-25T13:08:00.149768+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Dolphins",
+    "type": "removed",
+    "playerName": "Luke Basso",
+    "position": "LS",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-23T13:09:40.473055+00:00",
     "teamCode": "MIA",
     "teamName": "Miami Dolphins",

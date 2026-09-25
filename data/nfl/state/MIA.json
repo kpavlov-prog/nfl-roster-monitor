@@ -3,8 +3,16 @@
   "team": "Miami Dolphins",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/miami-dolphins/roster",
-  "checkedAt": "2026-09-24T13:03:07.133842+00:00",
+  "checkedAt": "2026-09-25T13:08:00.149494+00:00",
   "players": [
+    {
+      "name": "A.J. Henning",
+      "position": "WR",
+      "number": "70",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
     {
       "name": "Aaron Brewer",
       "position": "C",
@@ -384,14 +392,6 @@
     {
       "name": "Liam Anderson",
       "position": "LB",
-      "number": "75",
-      "status": "LISTED",
-      "important": false,
-      "source": "NFL.com"
-    },
-    {
-      "name": "Luke Basso",
-      "position": "LS",
       "number": "75",
       "status": "LISTED",
       "important": false,
