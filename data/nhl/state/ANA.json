@@ -3,7 +3,7 @@
   "team": "Anaheim Ducks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/ANA/current",
-  "checkedAt": "2026-09-25T14:02:24.559413+00:00",
+  "checkedAt": "2026-09-26T13:17:25.735369+00:00",
   "players": [
     {
       "name": "A.J. Greer",
@@ -20,13 +20,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Anton Wahlberg",
-      "position": "C",
-      "number": "24",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Beckett Sennecke",
       "position": "R",
       "number": "45",
@@ -37,13 +30,6 @@
       "name": "Corey Schueneman",
       "position": "D",
       "number": "26",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Cruz Lucius",
-      "position": "R",
-      "number": "75",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -121,13 +107,6 @@
       "name": "Leo Carlsson",
       "position": "C",
       "number": "91",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Lucas Pettersson",
-      "position": "C",
-      "number": "52",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

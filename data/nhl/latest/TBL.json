@@ -3,7 +3,7 @@
   "team": "Tampa Bay Lightning",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/TBL/current",
-  "checkedAt": "2026-09-25T14:02:41.003035+00:00",
+  "checkedAt": "2026-09-26T13:17:42.631960+00:00",
   "players": [
     {
       "name": "Andrei Vasilevskiy",
@@ -48,23 +48,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Connor Kurth",
-      "position": "R",
-      "number": "68",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Conor Geekie",
       "position": "C",
       "number": "94",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Cooper Flinton",
-      "position": "L",
-      "number": "50",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -90,13 +76,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Dyllan Gill",
-      "position": "D",
-      "number": "57",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Emil Lilleberg",
       "position": "D",
       "number": "78",
@@ -111,30 +90,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Ethan Gauthier",
-      "position": "R",
-      "number": "89",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Gabriel Szturc",
-      "position": "C",
-      "number": "96",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Gage Goncalves",
       "position": "C",
       "number": "93",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Harrison Meneghin",
-      "position": "G",
-      "number": "1",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -188,13 +146,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Jonas Johansson",
-      "position": "G",
-      "number": "31",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Lucas Mercuri",
       "position": "C",
       "number": "75",
@@ -226,13 +177,6 @@
       "name": "Michael Callahan",
       "position": "D",
       "number": "79",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Milo Roelens",
-      "position": "C",
-      "number": "36",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -303,20 +247,6 @@
       "name": "Steven Santini",
       "position": "D",
       "number": "16",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Tomas Kralovic",
-      "position": "D",
-      "number": "82",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Tristan Allard",
-      "position": "L",
-      "number": "13",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

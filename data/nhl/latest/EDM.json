@@ -3,15 +3,8 @@
   "team": "Edmonton Oilers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/EDM/current",
-  "checkedAt": "2026-09-25T14:02:30.945063+00:00",
+  "checkedAt": "2026-09-26T13:17:31.997545+00:00",
   "players": [
-    {
-      "name": "Aku Raty",
-      "position": "R",
-      "number": "38",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
     {
       "name": "Alec Regula",
       "position": "D",
@@ -37,13 +30,6 @@
       "name": "Colton Dach",
       "position": "C",
       "number": "34",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Connor Clattenburg",
-      "position": "C",
-      "number": "64",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -209,13 +195,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Quinn Hutson",
-      "position": "R",
-      "number": "23",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Riley Stillman",
       "position": "D",
       "number": "61",
@@ -251,13 +230,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Tomas Cibulka",
-      "position": "D",
-      "number": "78",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Trent Frederic",
       "position": "C",
       "number": "10",
@@ -282,20 +254,6 @@
       "name": "Vasily Podkolzin",
       "position": "R",
       "number": "92",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Viljami Marjala",
-      "position": "L",
-      "number": "57",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "William Nicholl",
-      "position": "C",
-      "number": "56",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

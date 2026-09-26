@@ -3,7 +3,7 @@
   "team": "Carolina Hurricanes",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/CAR/current",
-  "checkedAt": "2026-09-25T14:02:27.035953+00:00",
+  "checkedAt": "2026-09-26T13:17:27.922721+00:00",
   "players": [
     {
       "name": "Aleksi Heimosalmi",
@@ -48,13 +48,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Dominik Badinka",
-      "position": "D",
-      "number": "67",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Eric Robinson",
       "position": "L",
       "number": "50",
@@ -93,13 +86,6 @@
       "name": "Jesperi Kotkaniemi",
       "position": "C",
       "number": "82",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Joel Nystrom",
-      "position": "D",
-      "number": "64",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -202,20 +188,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Ronan Seeley",
-      "position": "D",
-      "number": "91",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Ruslan Khazheyev",
-      "position": "G",
-      "number": "80",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Sean Walker",
       "position": "D",
       "number": "26",
@@ -258,23 +230,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Viktor Neuchev",
-      "position": "L",
-      "number": "79",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "William Carrier",
       "position": "L",
       "number": "28",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Zach Sawchenko",
-      "position": "G",
-      "number": "39",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

@@ -3,7 +3,7 @@
   "team": "Buffalo Sabres",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/BUF/current",
-  "checkedAt": "2026-09-25T14:02:25.812432+00:00",
+  "checkedAt": "2026-09-26T13:17:26.833029+00:00",
   "players": [
     {
       "name": "Aidan McDonough",
@@ -62,13 +62,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Gavin McCarthy",
-      "position": "D",
-      "number": "62",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Jack Quinn",
       "position": "R",
       "number": "22",
@@ -79,13 +72,6 @@
       "name": "Jack Rathbone",
       "position": "D",
       "number": "3",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Jake Richard",
-      "position": "R",
-      "number": "70",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -153,6 +139,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Matt Grzelcyk",
+      "position": "D",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Matt Villalta",
       "position": "G",
       "number": "31",
@@ -163,13 +156,6 @@
       "name": "Mattias Samuelsson",
       "position": "D",
       "number": "23",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Maxim Strbak",
-      "position": "D",
-      "number": "64",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -202,23 +188,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Radim Mrtka",
-      "position": "D",
-      "number": "57",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Rasmus Dahlin",
       "position": "D",
       "number": "26",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Riley Fiddler-Schultz",
-      "position": "C",
-      "number": "45",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -240,13 +212,6 @@
       "name": "Sam Carrick",
       "position": "C",
       "number": "10",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Scott Ratzlaff",
-      "position": "G",
-      "number": "34",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -282,20 +247,6 @@
       "name": "Ukko-Pekka Luukkonen",
       "position": "G",
       "number": "1",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Vsevolod Komarov",
-      "position": "D",
-      "number": "76",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Zac Funk",
-      "position": "R",
-      "number": "54",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

@@ -3,7 +3,7 @@
   "team": "Vancouver Canucks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/VAN/current",
-  "checkedAt": "2026-09-25T14:02:43.046782+00:00",
+  "checkedAt": "2026-09-26T13:17:44.749410+00:00",
   "players": [
     {
       "name": "Aatu Räty",
@@ -16,13 +16,6 @@
       "name": "Arshdeep Bains",
       "position": "L",
       "number": "13",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Braeden Cootes",
-      "position": "C",
-      "number": "80",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -111,6 +104,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Leevi Meriläinen",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Liam Ohgren",
       "position": "L",
       "number": "92",
@@ -135,13 +135,6 @@
       "name": "Marco Rossi",
       "position": "C",
       "number": "23",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Matthew Stienburg",
-      "position": "C",
-      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

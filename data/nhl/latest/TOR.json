@@ -3,7 +3,7 @@
   "team": "Toronto Maple Leafs",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/TOR/current",
-  "checkedAt": "2026-09-25T14:02:41.717724+00:00",
+  "checkedAt": "2026-09-26T13:17:43.369306+00:00",
   "players": [
     {
       "name": "Anthony Stolarz",
@@ -29,13 +29,6 @@
     {
       "name": "Brandon Duhaime",
       "position": "R",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Brendan Brisson",
-      "position": "C",
       "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
@@ -90,13 +83,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Henrik Rybinski",
-      "position": "R",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Jack Roslovic",
       "position": "C",
       "number": "",
@@ -125,23 +111,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Marshall Rifai",
-      "position": "D",
-      "number": "83",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Matthew Knies",
       "position": "L",
       "number": "23",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Michael Pezzetta",
-      "position": "L",
-      "number": "61",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -167,30 +139,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Philippe Myers",
-      "position": "D",
-      "number": "51",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Ryan Tverberg",
-      "position": "C",
-      "number": "77",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Sergei Bobrovsky",
       "position": "G",
       "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Steven Lorentz",
-      "position": "C",
-      "number": "18",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -205,13 +156,6 @@
       "name": "Troy Stecher",
       "position": "D",
       "number": "28",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Vinni Lettieri",
-      "position": "C",
-      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

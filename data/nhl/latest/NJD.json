@@ -3,7 +3,7 @@
   "team": "New Jersey Devils",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/NJD/current",
-  "checkedAt": "2026-09-25T14:02:35.174489+00:00",
+  "checkedAt": "2026-09-26T13:17:36.234393+00:00",
   "players": [
     {
       "name": "Amadeus Lombardi",
@@ -20,23 +20,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Anton Silaev",
-      "position": "D",
-      "number": "52",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Arseny Gritsyuk",
       "position": "R",
       "number": "81",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Ben Steeves",
-      "position": "L",
-      "number": "37",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -51,13 +37,6 @@
       "name": "Brett Pesce",
       "position": "D",
       "number": "22",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Cam Squires",
-      "position": "R",
-      "number": "75",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -111,20 +90,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Ethan Edwards",
-      "position": "D",
-      "number": "73",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Etienne Morin",
-      "position": "D",
-      "number": "59",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Evan Rodrigues",
       "position": "C",
       "number": "17",
@@ -142,20 +107,6 @@
       "name": "Jake Allen",
       "position": "G",
       "number": "34",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Jakub Malek",
-      "position": "G",
-      "number": "31",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Jeremy Hanzel",
-      "position": "D",
-      "number": "56",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -188,20 +139,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Josh Filmon",
-      "position": "L",
-      "number": "89",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Lenni Hameenaho",
-      "position": "R",
-      "number": "29",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Luke Evangelista",
       "position": "R",
       "number": "77",
@@ -219,20 +156,6 @@
       "name": "Marc McLaughlin",
       "position": "C",
       "number": "21",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Matyas Melovsky",
-      "position": "C",
-      "number": "57",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Mikael Diotte",
-      "position": "D",
-      "number": "55",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -272,13 +195,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Shane Lachance",
-      "position": "L",
-      "number": "20",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Stefan Noesen",
       "position": "R",
       "number": "11",
@@ -303,13 +219,6 @@
       "name": "Vladislav Kolyachonok",
       "position": "D",
       "number": "18",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Xavier Parent",
-      "position": "C",
-      "number": "67",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }

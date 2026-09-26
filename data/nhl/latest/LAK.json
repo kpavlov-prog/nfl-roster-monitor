@@ -3,7 +3,7 @@
   "team": "Los Angeles Kings",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/LAK/current",
-  "checkedAt": "2026-09-25T14:02:32.343106+00:00",
+  "checkedAt": "2026-09-26T13:17:33.499012+00:00",
   "players": [
     {
       "name": "Adrian Kempe",
@@ -69,13 +69,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Cole Guttman",
-      "position": "C",
-      "number": "82",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Corey Perry",
       "position": "R",
       "number": "90",
@@ -118,23 +111,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Francesco Pinelli",
-      "position": "C",
-      "number": "73",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Jared Wright",
       "position": "R",
       "number": "25",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Joe Hicketts",
-      "position": "D",
-      "number": "27",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -167,23 +146,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Lane Pederson",
-      "position": "C",
-      "number": "29",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Liam Lefebvre",
       "position": "C",
       "number": "95",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Martin Chromiak",
-      "position": "R",
-      "number": "42",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

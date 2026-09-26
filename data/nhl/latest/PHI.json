@@ -3,7 +3,7 @@
   "team": "Philadelphia Flyers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/PHI/current",
-  "checkedAt": "2026-09-25T14:02:37.764887+00:00",
+  "checkedAt": "2026-09-26T13:17:38.971342+00:00",
   "players": [
     {
       "name": "Aleksei Kolosov",
@@ -41,13 +41,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Cole Knuble",
-      "position": "R",
-      "number": "54",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Dan Vladar",
       "position": "G",
       "number": "80",
@@ -76,23 +69,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Jacob Gaucher",
-      "position": "C",
-      "number": "78",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Jamie Drysdale",
       "position": "D",
       "number": "9",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Jett Luchanko",
-      "position": "C",
-      "number": "77",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -135,13 +114,6 @@
       "name": "Noel Acciari",
       "position": "C",
       "number": "52",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Oliver Bonk",
-      "position": "D",
-      "number": "59",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
