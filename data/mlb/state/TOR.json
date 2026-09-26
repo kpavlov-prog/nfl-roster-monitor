@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-09-25T13:46:59.414470+00:00",
+  "checkedAt": "2026-09-26T13:05:15.298774+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -57,13 +57,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "CJ Van Eyk",
-      "position": "P",
-      "number": "58",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Chad Dallas",
       "position": "P",
       "number": "37",
@@ -102,6 +95,13 @@
       "name": "George Springer",
       "position": "DH",
       "number": "4",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "John Klein",
+      "position": "P",
+      "number": "65",
       "status": "A",
       "source": "MLB Stats API"
     },

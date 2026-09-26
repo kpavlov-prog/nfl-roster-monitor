@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=active",
-  "checkedAt": "2026-09-25T13:46:53.632083+00:00",
+  "checkedAt": "2026-09-26T13:05:09.955411+00:00",
   "players": [
+    {
+      "name": "Alexander Cornielle",
+      "position": "P",
+      "number": "97",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Ali Sánchez",
       "position": "C",
@@ -186,6 +193,13 @@
       "name": "Will Warren",
       "position": "P",
       "number": "29",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yerry De los Santos",
+      "position": "P",
+      "number": "73",
       "status": "A",
       "source": "MLB Stats API"
     }

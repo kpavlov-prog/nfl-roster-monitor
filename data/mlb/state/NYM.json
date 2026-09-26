@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-09-25T13:46:53.051751+00:00",
+  "checkedAt": "2026-09-26T13:05:09.419273+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -92,13 +92,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jack Weisenburger",
-      "position": "P",
-      "number": "82",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jefry Yan",
       "position": "P",
       "number": "84",
@@ -123,6 +116,13 @@
       "name": "Juan Soto",
       "position": "LF",
       "number": "22",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Justin Hagenman",
+      "position": "P",
+      "number": "47",
       "status": "A",
       "source": "MLB Stats API"
     },
