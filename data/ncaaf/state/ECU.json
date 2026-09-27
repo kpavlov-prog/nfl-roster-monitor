@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/151/roster?limit=100&page=1",
-  "checkedAt": "2026-09-26T13:46:51.258105+00:00",
+  "checkedAt": "2026-09-27T14:44:35.337461+00:00",
   "players": [
     {
       "name": "Adam Cole",
@@ -340,6 +340,13 @@
       "name": "Ismael Smith Flores",
       "position": "TE",
       "number": "8",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "J.D. Lampley",
+      "position": "DL",
+      "number": "9",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
