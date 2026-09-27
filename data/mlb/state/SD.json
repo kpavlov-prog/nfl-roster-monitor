@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=active",
-  "checkedAt": "2026-09-26T13:05:12.091472+00:00",
+  "checkedAt": "2026-09-27T13:58:07.486218+00:00",
   "players": [
     {
       "name": "Adrian Morejon",
@@ -25,13 +25,6 @@
       "name": "Bradgley Rodriguez",
       "position": "P",
       "number": "72",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Casey Mize",
-      "position": "P",
-      "number": "32",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -71,6 +64,20 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Gavin Sheets",
+      "position": "1B",
+      "number": "30",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Griffin Canning",
+      "position": "P",
+      "number": "17",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jackson Merrill",
       "position": "CF",
       "number": "3",
@@ -95,13 +102,6 @@
       "name": "Jason Adam",
       "position": "P",
       "number": "40",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Kyle Hart",
-      "position": "P",
-      "number": "68",
       "status": "A",
       "source": "MLB Stats API"
     },

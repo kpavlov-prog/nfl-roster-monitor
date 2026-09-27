@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-09-26T13:05:12.624096+00:00",
+  "checkedAt": "2026-09-27T13:58:08.032886+00:00",
   "players": [
     {
       "name": "Andrew Knizner",
@@ -162,6 +162,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Seth Lonsway",
+      "position": "P",
+      "number": "86",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Shay Whitcomb",
       "position": "3B",
       "number": "13",
@@ -193,13 +200,6 @@
       "name": "Victor Bericoto",
       "position": "LF",
       "number": "78",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Yunior Marte",
-      "position": "P",
-      "number": "87",
       "status": "A",
       "source": "MLB Stats API"
     }

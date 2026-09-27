@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-09-26T13:05:14.761692+00:00",
+  "checkedAt": "2026-09-27T13:58:10.183730+00:00",
   "players": [
     {
       "name": "Alejandro Osuna",
@@ -78,13 +78,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Gavin Collyer",
-      "position": "P",
-      "number": "65",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jacob Latz",
       "position": "P",
       "number": "67",
@@ -120,13 +113,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Josh Jung",
-      "position": "3B",
-      "number": "6",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Justin Foscue",
       "position": "2B",
       "number": "14",
@@ -137,6 +123,13 @@
       "name": "Kumar Rocker",
       "position": "P",
       "number": "80",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Logan O'Hoppe",
+      "position": "DH",
+      "number": "4",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,6 +165,13 @@
       "name": "Peyton Gray",
       "position": "P",
       "number": "75",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Robby Ahlstrom",
+      "position": "P",
+      "number": "54",
       "status": "A",
       "source": "MLB Stats API"
     },

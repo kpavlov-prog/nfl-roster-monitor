@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=active",
-  "checkedAt": "2026-09-26T13:05:05.105898+00:00",
+  "checkedAt": "2026-09-27T13:58:00.482381+00:00",
   "players": [
-    {
-      "name": "Andrew Sears",
-      "position": "P",
-      "number": "64",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Beau Brieske",
       "position": "P",
@@ -123,6 +116,13 @@
       "name": "John Peck",
       "position": "SS",
       "number": "18",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Justin Verlander",
+      "position": "P",
+      "number": "35",
       "status": "A",
       "source": "MLB Stats API"
     },

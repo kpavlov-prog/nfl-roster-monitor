@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-09-26T13:05:15.832151+00:00",
+  "checkedAt": "2026-09-27T13:58:11.256985+00:00",
   "players": [
     {
       "name": "Abimelec Ortiz",
@@ -53,6 +53,13 @@
       "name": "Cade Cavalli",
       "position": "P",
       "number": "24",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Connelly Early",
+      "position": "P",
+      "number": "19",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -151,13 +158,6 @@
       "name": "Keibert Ruiz",
       "position": "C",
       "number": "20",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Luis Perales",
-      "position": "P",
-      "number": "43",
       "status": "A",
       "source": "MLB Stats API"
     },

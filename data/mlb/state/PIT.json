@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-09-26T13:05:11.557862+00:00",
+  "checkedAt": "2026-09-27T13:58:06.947627+00:00",
   "players": [
     {
       "name": "Antwone Kelly",
@@ -74,6 +74,13 @@
       "name": "Henry Davis",
       "position": "C",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Hunter Barco",
+      "position": "P",
+      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -186,13 +193,6 @@
       "name": "Spencer Horwitz",
       "position": "1B",
       "number": "2",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Wilber Dotel",
-      "position": "P",
-      "number": "66",
       "status": "A",
       "source": "MLB Stats API"
     },

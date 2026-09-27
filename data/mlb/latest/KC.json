@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/118/roster?rosterType=active",
-  "checkedAt": "2026-09-26T13:05:06.172497+00:00",
+  "checkedAt": "2026-09-27T13:58:01.561477+00:00",
   "players": [
     {
       "name": "Alex Lange",
@@ -113,6 +113,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Matthew Lugo",
+      "position": "LF",
+      "number": "24",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Michael Massey",
       "position": "2B",
       "number": "19",
@@ -130,13 +137,6 @@
       "name": "Nate Pearson",
       "position": "P",
       "number": "61",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Nick Loftin",
-      "position": "3B",
-      "number": "12",
       "status": "A",
       "source": "MLB Stats API"
     },
