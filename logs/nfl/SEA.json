@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-27T13:26:18.775521+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Seahawks",
+    "type": "status changed",
+    "playerName": "Velus Jones Jr.",
+    "position": "RB",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-27T13:26:18.775533+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Seahawks",
+    "type": "position changed",
+    "playerName": "Velus Jones Jr.",
+    "position": "RB",
+    "oldValue": "WR",
+    "newValue": "RB",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-09-24T13:03:23.236490+00:00",
     "teamCode": "SEA",
     "teamName": "Seattle Seahawks",
