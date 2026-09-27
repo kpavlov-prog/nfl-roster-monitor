@@ -3,7 +3,7 @@
   "team": "Colorado Avalanche",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/COL/current",
-  "checkedAt": "2026-09-26T13:17:29.014382+00:00",
+  "checkedAt": "2026-09-27T14:10:48.695637+00:00",
   "players": [
     {
       "name": "Adam Beckman",
@@ -177,6 +177,13 @@
       "name": "Nicolas Roy",
       "position": "C",
       "number": "10",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Nikita Prishchepov",
+      "position": "C",
+      "number": "85",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

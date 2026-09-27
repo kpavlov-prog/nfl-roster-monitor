@@ -3,7 +3,7 @@
   "team": "Florida Panthers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/FLA/current",
-  "checkedAt": "2026-09-26T13:17:32.794007+00:00",
+  "checkedAt": "2026-09-27T14:10:51.884101+00:00",
   "players": [
     {
       "name": "Aaron Ekblad",
@@ -125,13 +125,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Emil Pieniniemi",
-      "position": "D",
-      "number": "74",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Garnet Hathaway",
       "position": "R",
       "number": "21",
@@ -195,30 +188,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Kirill Gerasimyuk",
-      "position": "G",
-      "number": "80",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Lars Eller",
       "position": "C",
       "number": "20",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Ludvig Jansson",
-      "position": "D",
-      "number": "54",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "MacKenzie Entwistle",
-      "position": "R",
-      "number": "44",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -303,13 +275,6 @@
       "name": "Seth Jones",
       "position": "D",
       "number": "3",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Tyler Muszelik",
-      "position": "G",
-      "number": "35",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

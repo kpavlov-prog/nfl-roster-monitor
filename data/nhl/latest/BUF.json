@@ -3,15 +3,8 @@
   "team": "Buffalo Sabres",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/BUF/current",
-  "checkedAt": "2026-09-26T13:17:26.833029+00:00",
+  "checkedAt": "2026-09-27T14:10:46.117446+00:00",
   "players": [
-    {
-      "name": "Aidan McDonough",
-      "position": "L",
-      "number": "27",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
     {
       "name": "Alex Lyon",
       "position": "G",
@@ -23,13 +16,6 @@
       "name": "Beck Malenstyn",
       "position": "L",
       "number": "29",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Carson Meyer",
-      "position": "R",
-      "number": "49",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -55,13 +41,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Dennis Gilbert",
-      "position": "D",
-      "number": "44",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Jack Quinn",
       "position": "R",
       "number": "22",
@@ -72,13 +51,6 @@
       "name": "Jack Rathbone",
       "position": "D",
       "number": "3",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Jason Polin",
-      "position": "R",
-      "number": "41",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -132,23 +104,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Mason Geertsen",
-      "position": "L",
-      "number": "55",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Matt Grzelcyk",
       "position": "D",
       "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Matt Villalta",
-      "position": "G",
-      "number": "31",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -195,13 +153,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Ryan Johnson",
-      "position": "D",
-      "number": "33",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Ryan McLeod",
       "position": "C",
       "number": "71",
@@ -226,13 +177,6 @@
       "name": "Topias Leinonen",
       "position": "G",
       "number": "50",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Trevor Kuntar",
-      "position": "C",
-      "number": "52",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
