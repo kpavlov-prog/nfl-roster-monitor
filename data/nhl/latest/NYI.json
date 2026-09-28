@@ -3,7 +3,7 @@
   "team": "New York Islanders",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/NYI/current",
-  "checkedAt": "2026-09-27T14:10:55.738445+00:00",
+  "checkedAt": "2026-09-28T16:52:36.380283+00:00",
   "players": [
     {
       "name": "Adam Pelech",
@@ -55,20 +55,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Cole Eiserman",
-      "position": "L",
-      "number": "57",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Daylan Kuefler",
-      "position": "L",
-      "number": "52",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Emil Heineman",
       "position": "L",
       "number": "51",
@@ -83,23 +69,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Isaiah George",
-      "position": "D",
-      "number": "36",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Jean-Gabriel Pageau",
       "position": "C",
       "number": "44",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Kashawn Aitcheson",
-      "position": "D",
-      "number": "37",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -118,16 +90,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Liam Foudy",
-      "position": "C",
-      "number": "43",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Mathew Barzal",
-      "position": "C",
-      "number": "13",
+      "name": "Logan Stanley",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -135,13 +100,6 @@
       "name": "Matias Maccelli",
       "position": "L",
       "number": "63",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Matt Luff",
-      "position": "R",
-      "number": "25",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -170,20 +128,6 @@
       "name": "Ondrej Palat",
       "position": "L",
       "number": "81",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Pierre Engvall",
-      "position": "L",
-      "number": "18",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Quinn Finley",
-      "position": "L",
-      "number": "59",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

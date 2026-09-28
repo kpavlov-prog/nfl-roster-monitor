@@ -3,7 +3,7 @@
   "team": "Toronto Maple Leafs",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/TOR/current",
-  "checkedAt": "2026-09-27T14:11:01.587667+00:00",
+  "checkedAt": "2026-09-28T16:52:42.830588+00:00",
   "players": [
     {
       "name": "Anthony Stolarz",
@@ -44,13 +44,6 @@
       "name": "Colton Sissons",
       "position": "C",
       "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Dakota Joshua",
-      "position": "C",
-      "number": "81",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -121,6 +114,13 @@
       "name": "Morgan Rielly",
       "position": "D",
       "number": "44",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Nick Blankenburg",
+      "position": "D",
+      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

@@ -3,7 +3,7 @@
   "team": "Detroit Red Wings",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/DET/current",
-  "checkedAt": "2026-09-27T14:10:50.602715+00:00",
+  "checkedAt": "2026-09-28T16:52:29.917423+00:00",
   "players": [
     {
       "name": "Albert Johansson",
@@ -16,13 +16,6 @@
       "name": "Alex DeBrincat",
       "position": "R",
       "number": "93",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Andreas Englund",
-      "position": "D",
-      "number": "",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -55,30 +48,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Carter Bear",
-      "position": "L",
-      "number": "41",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Carter Gylander",
-      "position": "G",
-      "number": "32",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Carter Mazur",
       "position": "L",
       "number": "34",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Chase Stillman",
-      "position": "R",
-      "number": "49",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

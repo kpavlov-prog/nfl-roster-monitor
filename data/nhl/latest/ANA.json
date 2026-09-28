@@ -3,7 +3,7 @@
   "team": "Anaheim Ducks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/ANA/current",
-  "checkedAt": "2026-09-27T14:10:44.733950+00:00",
+  "checkedAt": "2026-09-28T16:52:22.800248+00:00",
   "players": [
     {
       "name": "A.J. Greer",
@@ -139,13 +139,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Nico Myatovic",
-      "position": "L",
-      "number": "48",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Nikita Klepov",
       "position": "R",
       "number": "40",
@@ -156,13 +149,6 @@
       "name": "Nikita Nesterenko",
       "position": "C",
       "number": "13",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Noah Warren",
-      "position": "D",
-      "number": "47",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

@@ -3,7 +3,7 @@
   "team": "Seattle Kraken",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/SEA/current",
-  "checkedAt": "2026-09-27T14:10:58.971277+00:00",
+  "checkedAt": "2026-09-28T16:52:40.011614+00:00",
   "players": [
     {
       "name": "Adam Larsson",
@@ -72,6 +72,13 @@
       "name": "Jacob Melanson",
       "position": "R",
       "number": "63",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jake O'Brien",
+      "position": "C",
+      "number": "44",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -156,6 +163,13 @@
       "name": "Shane Wright",
       "position": "C",
       "number": "51",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ville Ottavainen",
+      "position": "D",
+      "number": "46",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

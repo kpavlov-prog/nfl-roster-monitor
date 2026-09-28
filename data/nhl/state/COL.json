@@ -3,19 +3,12 @@
   "team": "Colorado Avalanche",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/COL/current",
-  "checkedAt": "2026-09-27T14:10:48.695637+00:00",
+  "checkedAt": "2026-09-28T16:52:27.371533+00:00",
   "players": [
     {
       "name": "Adam Beckman",
       "position": "L",
       "number": "34",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Alex Gagne",
-      "position": "D",
-      "number": "45",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -83,30 +76,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Gavin Brindley",
-      "position": "C",
-      "number": "54",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Georgii Merkulov",
       "position": "C",
       "number": "49",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Gustav Stjernberg",
-      "position": "D",
-      "number": "44",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Ilya Nabokov",
-      "position": "G",
-      "number": "30",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -153,13 +125,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Matthew DiMarsico",
-      "position": "C",
-      "number": "14",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Nathan MacKinnon",
       "position": "C",
       "number": "29",
@@ -177,13 +142,6 @@
       "name": "Nicolas Roy",
       "position": "C",
       "number": "10",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Nikita Prishchepov",
-      "position": "C",
-      "number": "85",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -212,13 +170,6 @@
       "name": "Scott Wedgewood",
       "position": "G",
       "number": "41",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Sean Behrens",
-      "position": "D",
-      "number": "2",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
