@@ -3,7 +3,7 @@
   "team": "Boston Celtics",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/BOS/roster",
-  "checkedAt": "2026-09-27T14:19:01.458627+00:00",
+  "checkedAt": "2026-09-28T17:02:50.157764+00:00",
   "players": [
     {
       "name": "Amari Williams",
@@ -34,9 +34,30 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Devin Carter",
+      "position": "G",
+      "number": "99",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Dillon Mitchell",
       "position": "F",
-      "number": "",
+      "number": "20",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Gabe McGlothan",
+      "position": "F",
+      "number": "41",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Hayden Gray",
+      "position": "G",
+      "number": "44",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -72,6 +93,13 @@
       "name": "Mike Conley",
       "position": "G",
       "number": "45",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Milos Uzan",
+      "position": "G",
+      "number": "29",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -114,6 +142,13 @@
       "name": "Sam Hauser",
       "position": "F",
       "number": "30",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Tucker DeVries",
+      "position": "F",
+      "number": "26",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }

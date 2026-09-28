@@ -3,8 +3,22 @@
   "team": "Chicago Bulls",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/CHI/roster",
-  "checkedAt": "2026-09-27T14:19:03.330573+00:00",
+  "checkedAt": "2026-09-28T17:02:52.010577+00:00",
   "players": [
+    {
+      "name": "Brandon Boston Jr.",
+      "position": "G",
+      "number": "13",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Buddy Hield",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
     {
       "name": "Caleb Wilson",
       "position": "F",
@@ -20,9 +34,9 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Guerschon Yabusele",
+      "name": "Drew Peterson",
       "position": "F",
-      "number": "28",
+      "number": "21",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -55,9 +69,9 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Mac McClung",
-      "position": "G",
-      "number": "5",
+      "name": "Marquel Sutton",
+      "position": "F",
+      "number": "0",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -71,21 +85,28 @@
     {
       "name": "Nic Claxton",
       "position": "C",
-      "number": "",
+      "number": "9",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Noa Essengue",
       "position": "F",
-      "number": "24",
+      "number": "2",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Norman Powell",
       "position": "G",
-      "number": "",
+      "number": "24",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Orlando Robinson",
+      "position": "C",
+      "number": "00",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -97,16 +118,16 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Rob Dillingham",
+      "name": "Peter Suder",
       "position": "G",
-      "number": "7",
+      "number": "15",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Tobe Awaka",
       "position": "F",
-      "number": "",
+      "number": "19",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

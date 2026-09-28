@@ -3,12 +3,19 @@
   "team": "Minnesota Timberwolves",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIN/roster",
-  "checkedAt": "2026-09-27T14:19:11.314853+00:00",
+  "checkedAt": "2026-09-28T17:03:00.518952+00:00",
   "players": [
     {
       "name": "Anthony Edwards",
       "position": "G",
       "number": "5",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Antonio Reeves",
+      "position": "G",
+      "number": "12",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -29,7 +36,7 @@
     {
       "name": "Cody Williams",
       "position": "F",
-      "number": "",
+      "number": "9",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -37,6 +44,13 @@
       "name": "Donte DiVincenzo",
       "position": "G",
       "number": "0",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Drew Timme",
+      "position": "F",
+      "number": "17",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -49,8 +63,8 @@
     },
     {
       "name": "Isaiah Evans",
-      "position": "G",
-      "number": "",
+      "position": "F",
+      "number": "33",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -64,7 +78,7 @@
     {
       "name": "Jaylen Clark",
       "position": "G",
-      "number": "22",
+      "number": "7",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -76,29 +90,29 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "John Konchar",
-      "position": "G",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Jonathan Kuminga",
       "position": "F",
-      "number": "",
+      "number": "24",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
-      "name": "Julian Phillips",
+      "name": "KJ Martin",
       "position": "F",
-      "number": "4",
+      "number": "99",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "LaMelo Ball",
       "position": "G",
+      "number": "1",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Norchad Omier",
+      "position": "F",
       "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
@@ -120,21 +134,14 @@
     {
       "name": "Terrence Shannon Jr.",
       "position": "G",
-      "number": "1",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Trey Kaufman-Renn",
-      "position": "F",
-      "number": "",
+      "number": "4",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Trey Lyles",
       "position": "F",
-      "number": "",
+      "number": "41",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

@@ -3,15 +3,8 @@
   "team": "Toronto Raptors",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/TOR/roster",
-  "checkedAt": "2026-09-27T14:19:17.336938+00:00",
+  "checkedAt": "2026-09-28T17:03:06.741671+00:00",
   "players": [
-    {
-      "name": "A.J. Lawson",
-      "position": "G",
-      "number": "0",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
     {
       "name": "Alijah Martin",
       "position": "G",
@@ -22,7 +15,7 @@
     {
       "name": "Allen Graves",
       "position": "F",
-      "number": "",
+      "number": "22",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -99,7 +92,14 @@
     {
       "name": "Kyle Anderson",
       "position": "F",
-      "number": "",
+      "number": "12",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Malachi Smith",
+      "position": "G",
+      "number": "18",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -134,6 +134,13 @@
     {
       "name": "Trey Jemison III",
       "position": "C",
+      "number": "50",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Tyreke Key",
+      "position": "G",
       "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"

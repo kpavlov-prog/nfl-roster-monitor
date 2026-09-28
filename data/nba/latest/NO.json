@@ -3,19 +3,19 @@
   "team": "New Orleans Pelicans",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/NO/roster",
-  "checkedAt": "2026-09-27T14:19:11.946322+00:00",
+  "checkedAt": "2026-09-28T17:03:01.163123+00:00",
   "players": [
     {
       "name": "AJ Johnson",
       "position": "G",
-      "number": "",
+      "number": "14",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Bennedict Mathurin",
       "position": "G",
-      "number": "",
+      "number": "24",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -23,6 +23,20 @@
       "name": "Bryce McGowens",
       "position": "G",
       "number": "11",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Caleb Houstan",
+      "position": "F",
+      "number": "33",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Christian Koloko",
+      "position": "C",
+      "number": "35",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -57,7 +71,7 @@
     {
       "name": "Jaron Pierre Jr.",
       "position": "G",
-      "number": "",
+      "number": "10",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -76,16 +90,9 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Josh Oduro",
-      "position": "C",
-      "number": "13",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Julian Reese",
       "position": "F",
-      "number": "",
+      "number": "13",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -97,9 +104,16 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Kobe Bufkin",
+      "position": "G",
+      "number": "4",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Malik Dia",
       "position": "F",
-      "number": "",
+      "number": "8",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -113,7 +127,7 @@
     {
       "name": "Trendon Watford",
       "position": "F",
-      "number": "",
+      "number": "9",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

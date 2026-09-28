@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-28T17:02:51.412227+00:00",
+    "teamCode": "CHA",
+    "teamName": "Charlotte Hornets",
+    "type": "added",
+    "playerName": "Rob Dillingham",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-28T17:02:51.412237+00:00",
+    "teamCode": "CHA",
+    "teamName": "Charlotte Hornets",
+    "type": "removed",
+    "playerName": "Buddy Hield",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-23T13:52:37.667619+00:00",
     "teamCode": "CHA",
     "teamName": "Charlotte Hornets",

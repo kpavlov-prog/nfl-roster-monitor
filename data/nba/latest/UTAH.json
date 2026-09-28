@@ -3,7 +3,7 @@
   "team": "Utah Jazz",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/UTAH/roster",
-  "checkedAt": "2026-09-27T14:19:18.037971+00:00",
+  "checkedAt": "2026-09-28T17:03:07.422929+00:00",
   "players": [
     {
       "name": "Ace Bailey",
@@ -15,7 +15,7 @@
     {
       "name": "Blake Hinson",
       "position": "F",
-      "number": "2",
+      "number": "25",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -30,6 +30,13 @@
       "name": "Darryn Peterson",
       "position": "G",
       "number": "22",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Harrison Ingram",
+      "position": "F",
+      "number": "00",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -50,21 +57,28 @@
     {
       "name": "Jaxson Hayes",
       "position": "C",
-      "number": "",
+      "number": "11",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Jonas Aidoo",
+      "position": "C",
+      "number": "13",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Josh Green",
       "position": "G",
-      "number": "",
+      "number": "5",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Josh Okogie",
       "position": "G",
-      "number": "",
+      "number": "21",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -85,7 +99,7 @@
     {
       "name": "Kyle Filipowski",
       "position": "F",
-      "number": "22",
+      "number": "2",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -99,14 +113,7 @@
     {
       "name": "Mo Bamba",
       "position": "C",
-      "number": "11",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Oscar Tshiebwe",
-      "position": "C",
-      "number": "34",
+      "number": "44",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -120,14 +127,14 @@
     {
       "name": "Tamar Bates",
       "position": "G",
-      "number": "",
+      "number": "0",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Trey Alexander",
       "position": "G",
-      "number": "23",
+      "number": "15",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }
