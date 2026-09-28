@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-09-27T13:58:10.183730+00:00",
+  "checkedAt": "2026-09-28T16:45:06.659965+00:00",
   "players": [
     {
       "name": "Alejandro Osuna",
@@ -18,6 +18,13 @@
       "name": "Brandon Nimmo",
       "position": "RF",
       "number": "24",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cam Cauley",
+      "position": "CF",
+      "number": "27",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -123,13 +130,6 @@
       "name": "Kumar Rocker",
       "position": "P",
       "number": "80",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Logan O'Hoppe",
-      "position": "DH",
-      "number": "4",
       "status": "A",
       "source": "MLB Stats API"
     },
