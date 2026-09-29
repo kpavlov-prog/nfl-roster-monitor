@@ -3,7 +3,7 @@
   "team": "Houston Rockets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/HOU/roster",
-  "checkedAt": "2026-09-28T17:02:55.955387+00:00",
+  "checkedAt": "2026-09-29T15:07:15.444588+00:00",
   "players": [
     {
       "name": "Alperen Sengun",
@@ -22,14 +22,14 @@
     {
       "name": "Bogdan Bogdanovic",
       "position": "G",
-      "number": "",
+      "number": "31",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Bruce Thornton",
       "position": "G",
-      "number": "",
+      "number": "2",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -69,6 +69,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Julian Phillips",
+      "position": "F",
+      "number": "3",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Kevin Durant",
       "position": "F",
       "number": "7",
@@ -78,21 +85,28 @@
     {
       "name": "Marcus Smart",
       "position": "G",
-      "number": "",
+      "number": "36",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Oscar Tshiebwe",
+      "position": "C",
+      "number": "9",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Quadir Copeland",
       "position": "G",
-      "number": "",
+      "number": "25",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Rafael Castro",
       "position": "C",
-      "number": "",
+      "number": "00",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -106,7 +120,7 @@
     {
       "name": "Sean Pedulla",
       "position": "G",
-      "number": "",
+      "number": "0",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

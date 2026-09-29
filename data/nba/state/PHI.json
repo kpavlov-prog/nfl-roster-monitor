@@ -3,7 +3,7 @@
   "team": "Philadelphia 76ers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/PHI/roster",
-  "checkedAt": "2026-09-28T17:03:03.678725+00:00",
+  "checkedAt": "2026-09-29T15:07:23.492570+00:00",
   "players": [
     {
       "name": "Adem Bona",
@@ -22,7 +22,7 @@
     {
       "name": "Ariel Hukporti",
       "position": "C",
-      "number": "",
+      "number": "55",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -36,7 +36,7 @@
     {
       "name": "Dean Wade",
       "position": "F",
-      "number": "",
+      "number": "45",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -99,14 +99,14 @@
     {
       "name": "Kentavious Caldwell-Pope",
       "position": "G",
-      "number": "",
+      "number": "1",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Labaron Philon Jr.",
       "position": "G",
-      "number": "",
+      "number": "00",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -125,9 +125,16 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Saint Thomas",
+      "position": "F",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Tacko Fall",
       "position": "C",
-      "number": "",
+      "number": "99",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

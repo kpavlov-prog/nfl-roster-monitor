@@ -3,12 +3,12 @@
   "team": "Sacramento Kings",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/SAC/roster",
-  "checkedAt": "2026-09-28T17:03:05.487087+00:00",
+  "checkedAt": "2026-09-29T15:07:25.439375+00:00",
   "players": [
     {
       "name": "Adam Flagler",
       "position": "G",
-      "number": "",
+      "number": "20",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -22,7 +22,7 @@
     {
       "name": "Ben Simmons",
       "position": "G",
-      "number": "",
+      "number": "25",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -62,6 +62,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Elfrid Payton",
+      "position": "G",
+      "number": "3",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Emanuel Sharp",
       "position": "G",
       "number": "34",
@@ -71,7 +78,7 @@
     {
       "name": "Jonathan Mogbo",
       "position": "F",
-      "number": "",
+      "number": "22",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -79,6 +86,13 @@
       "name": "Keegan Murray",
       "position": "F",
       "number": "13",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Leaky Black",
+      "position": "F",
+      "number": "19",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -99,14 +113,21 @@
     {
       "name": "Nique Clifford",
       "position": "G",
-      "number": "5",
+      "number": "10",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Precious Achiuwa",
-      "position": "PF",
+      "position": "F",
       "number": "9",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Tristen Newton",
+      "position": "G",
+      "number": "00",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

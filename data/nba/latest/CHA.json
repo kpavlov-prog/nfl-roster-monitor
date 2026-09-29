@@ -3,7 +3,7 @@
   "team": "Charlotte Hornets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/CHA/roster",
-  "checkedAt": "2026-09-28T17:02:51.411031+00:00",
+  "checkedAt": "2026-09-29T15:07:11.107907+00:00",
   "players": [
     {
       "name": "Brandon Miller",
@@ -55,6 +55,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Jarkel Joiner",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Kon Knueppel",
       "position": "G",
       "number": "7",
@@ -97,13 +104,6 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Rob Dillingham",
-      "position": "G",
-      "number": "7",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Royce O'Neale",
       "position": "F",
       "number": "",
@@ -118,13 +118,6 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Ryan Nembhard",
-      "position": "G",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Sion James",
       "position": "G",
       "number": "4",
@@ -135,6 +128,13 @@
       "name": "Tidjane Salaun",
       "position": "F",
       "number": "31",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Wyatt Fricks",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }

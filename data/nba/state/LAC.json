@@ -3,12 +3,19 @@
   "team": "LA Clippers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/LAC/roster",
-  "checkedAt": "2026-09-28T17:02:57.305582+00:00",
+  "checkedAt": "2026-09-29T15:07:16.679680+00:00",
   "players": [
     {
       "name": "Baba Miller",
       "position": "F",
-      "number": "",
+      "number": "18",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Blake Wesley",
+      "position": "G",
+      "number": "20",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -22,7 +29,7 @@
     {
       "name": "Brandon Ingram",
       "position": "F",
-      "number": "3",
+      "number": "7",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -55,9 +62,16 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Fletcher Loyer",
+      "position": "G",
+      "number": "26",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Gradey Dick",
       "position": "G",
-      "number": "1",
+      "number": "9",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -71,7 +85,7 @@
     {
       "name": "Jalen Pickett",
       "position": "G",
-      "number": "",
+      "number": "21",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -85,7 +99,7 @@
     {
       "name": "Keaton Wagler",
       "position": "G",
-      "number": "",
+      "number": "1",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -106,21 +120,14 @@
     {
       "name": "Max Strus",
       "position": "G",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Narcisse Ngoy",
-      "position": "F",
-      "number": "",
+      "number": "31",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Nick Martinelli",
       "position": "F",
-      "number": "",
+      "number": "12",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -132,16 +139,16 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "TyTy Washington Jr.",
-      "position": "G",
-      "number": "15",
+      "name": "Yanic Konan Niederhauser",
+      "position": "C",
+      "number": "14",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
-      "name": "Yanic Konan Niederhauser",
-      "position": "C",
-      "number": "14",
+      "name": "Yuki Kawamura",
+      "position": "G",
+      "number": "17",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }

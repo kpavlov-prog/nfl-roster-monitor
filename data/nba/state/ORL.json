@@ -3,7 +3,7 @@
   "team": "Orlando Magic",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/ORL/roster",
-  "checkedAt": "2026-09-28T17:03:03.075876+00:00",
+  "checkedAt": "2026-09-29T15:07:22.740120+00:00",
   "players": [
     {
       "name": "Alex Morales",
@@ -50,7 +50,7 @@
     {
       "name": "Izaiyah Nelson",
       "position": "F",
-      "number": "",
+      "number": "25",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -93,6 +93,13 @@
       "name": "Jonathan Isaac",
       "position": "F",
       "number": "1",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Kevin Knox II",
+      "position": "F",
+      "number": "24",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

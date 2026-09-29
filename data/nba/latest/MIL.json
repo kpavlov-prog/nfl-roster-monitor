@@ -3,7 +3,7 @@
   "team": "Milwaukee Bucks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIL/roster",
-  "checkedAt": "2026-09-28T17:02:59.903389+00:00",
+  "checkedAt": "2026-09-29T15:07:19.217496+00:00",
   "players": [
     {
       "name": "AJ Green",
@@ -15,21 +15,21 @@
     {
       "name": "Bogoljub Markovic",
       "position": "F",
-      "number": "",
+      "number": "23",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Brayden Burries",
       "position": "G",
-      "number": "",
+      "number": "0",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Caris LeVert",
       "position": "G",
-      "number": "",
+      "number": "12",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -50,7 +50,14 @@
     {
       "name": "Jaime Jaquez Jr.",
       "position": "F",
-      "number": "11",
+      "number": "24",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Jake Stephens",
+      "position": "C",
+      "number": "88",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -62,9 +69,16 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "John Butler Jr.",
+      "position": "F",
+      "number": "27",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Kam Jones",
       "position": "G",
-      "number": "",
+      "number": "19",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -78,7 +92,7 @@
     {
       "name": "Kel'el Ware",
       "position": "C",
-      "number": "7",
+      "number": "9",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -97,13 +111,6 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Malique Lewis",
-      "position": "F",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Myles Turner",
       "position": "C",
       "number": "3",
@@ -113,7 +120,7 @@
     {
       "name": "Nate Ament",
       "position": "F",
-      "number": "",
+      "number": "15",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -141,7 +148,7 @@
     {
       "name": "Tyler Herro",
       "position": "G",
-      "number": "14",
+      "number": "11",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }

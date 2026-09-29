@@ -3,7 +3,7 @@
   "team": "Brooklyn Nets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/BKN/roster",
-  "checkedAt": "2026-09-28T17:02:50.791647+00:00",
+  "checkedAt": "2026-09-29T15:07:10.492173+00:00",
   "players": [
     {
       "name": "Ben Saraf",
@@ -16,6 +16,13 @@
       "name": "Chaney Johnson",
       "position": "F",
       "number": "31",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Dain Dainja",
+      "position": "F",
+      "number": "42",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -41,16 +48,16 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "E.J. Liddell",
-      "position": "F",
-      "number": "9",
+      "name": "Egor Demin",
+      "position": "G",
+      "number": "8",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
-      "name": "Egor Demin",
-      "position": "G",
-      "number": "8",
+      "name": "Grant Nelson",
+      "position": "F",
+      "number": "16",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -64,7 +71,7 @@
     {
       "name": "Joshua Jefferson",
       "position": "F",
-      "number": "",
+      "number": "9",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -78,7 +85,7 @@
     {
       "name": "Keon Ellis",
       "position": "G",
-      "number": "",
+      "number": "1",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -98,8 +105,8 @@
     },
     {
       "name": "Moritz Wagner",
-      "position": "F",
-      "number": "",
+      "position": "C",
+      "number": "13",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -113,7 +120,7 @@
     {
       "name": "Nolan Traore",
       "position": "G",
-      "number": "13",
+      "number": "10",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -128,13 +135,6 @@
       "name": "Tyler Bilodeau",
       "position": "F",
       "number": "34",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Tyson Etienne",
-      "position": "G",
-      "number": "10",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }

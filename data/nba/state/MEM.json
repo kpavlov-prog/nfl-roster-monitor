@@ -3,15 +3,8 @@
   "team": "Memphis Grizzlies",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MEM/roster",
-  "checkedAt": "2026-09-28T17:02:58.605122+00:00",
+  "checkedAt": "2026-09-29T15:07:17.862947+00:00",
   "players": [
-    {
-      "name": "Brendan Hausen",
-      "position": "F",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
     {
       "name": "Cam Spencer",
       "position": "G",
@@ -23,6 +16,13 @@
       "name": "Cameron Boozer",
       "position": "F",
       "number": "27",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Carson Cooper",
+      "position": "C",
+      "number": "20",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -42,8 +42,8 @@
     },
     {
       "name": "Isaiah Stewart",
-      "position": "F",
-      "number": "",
+      "position": "C",
+      "number": "28",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -71,35 +71,35 @@
     {
       "name": "Jerami Grant",
       "position": "F",
-      "number": "9",
+      "number": "3",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Jordan Hawkins",
       "position": "G",
-      "number": "",
+      "number": "19",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Karim Lopez",
       "position": "F",
-      "number": "",
+      "number": "35",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Kris Murray",
       "position": "F",
-      "number": "24",
+      "number": "17",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Micah Peavy",
       "position": "G",
-      "number": "",
+      "number": "7",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -113,14 +113,7 @@
     {
       "name": "Quinten Post",
       "position": "C",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Richie Saunders",
-      "position": "G",
-      "number": "",
+      "number": "41",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

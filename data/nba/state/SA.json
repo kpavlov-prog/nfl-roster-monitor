@@ -3,7 +3,7 @@
   "team": "San Antonio Spurs",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/SA/roster",
-  "checkedAt": "2026-09-28T17:03:06.110101+00:00",
+  "checkedAt": "2026-09-29T15:07:26.071274+00:00",
   "players": [
     {
       "name": "Carter Bryant",
@@ -41,13 +41,6 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Emanuel Miller",
-      "position": "F",
-      "number": "14",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Harrison Barnes",
       "position": "F",
       "number": "40",
@@ -57,14 +50,21 @@
     {
       "name": "Ja'Kobi Gillespie",
       "position": "G",
-      "number": "",
+      "number": "17",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Jayden Quaintance",
       "position": "F",
-      "number": "",
+      "number": "22",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Jon Elmore",
+      "position": "G",
+      "number": "33",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -97,9 +97,23 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Malik Williams",
+      "position": "C",
+      "number": "35",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Maliq Brown",
       "position": "F",
-      "number": "",
+      "number": "15",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "RJ Davis",
+      "position": "G",
+      "number": "14",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -111,16 +125,23 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Taelon Peter",
+      "position": "G",
+      "number": "8",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Tarris Reed Jr.",
       "position": "C",
-      "number": "",
+      "number": "10",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Tobias Harris",
       "position": "F",
-      "number": "",
+      "number": "23",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

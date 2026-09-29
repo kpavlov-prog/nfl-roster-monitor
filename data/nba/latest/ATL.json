@@ -3,7 +3,7 @@
   "team": "Atlanta Hawks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/ATL/roster",
-  "checkedAt": "2026-09-28T17:02:49.561538+00:00",
+  "checkedAt": "2026-09-29T15:07:09.259550+00:00",
   "players": [
     {
       "name": "Aaron Wiggins",
@@ -23,6 +23,13 @@
       "name": "CJ McCollum",
       "position": "G",
       "number": "3",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Cameron Corhen",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -86,6 +93,13 @@
       "name": "Kingston Flemings",
       "position": "G",
       "number": "4",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Kobe Johnson",
+      "position": "G",
+      "number": "12",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
