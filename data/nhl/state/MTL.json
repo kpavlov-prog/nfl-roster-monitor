@@ -3,19 +3,12 @@
   "team": "Montreal Canadiens",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/MTL/current",
-  "checkedAt": "2026-09-28T16:52:34.222181+00:00",
+  "checkedAt": "2026-09-29T14:56:51.423343+00:00",
   "players": [
     {
       "name": "Adam Engstrom",
       "position": "D",
       "number": "42",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Alex Belzile",
-      "position": "R",
-      "number": "60",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -48,13 +41,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Brett Berard",
-      "position": "L",
-      "number": "37",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Chris Kreider",
       "position": "L",
       "number": "22",
@@ -69,23 +55,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Ethan Samson",
-      "position": "D",
-      "number": "74",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Florian Xhekaj",
       "position": "L",
       "number": "63",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Hunter McKown",
-      "position": "C",
-      "number": "41",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -146,13 +118,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Maksymilian Szuber",
-      "position": "D",
-      "number": "79",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Mike Matheson",
       "position": "D",
       "number": "8",
@@ -188,30 +153,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Reilly Walsh",
-      "position": "D",
-      "number": "44",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Samuel Montembeault",
       "position": "G",
       "number": "35",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Samuel Poulin",
-      "position": "R",
-      "number": "88",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Sasha Pastujov",
-      "position": "R",
-      "number": "40",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

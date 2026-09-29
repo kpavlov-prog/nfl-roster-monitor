@@ -3,7 +3,7 @@
   "team": "Chicago Blackhawks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/CHI/current",
-  "checkedAt": "2026-09-28T16:52:26.602398+00:00",
+  "checkedAt": "2026-09-29T14:56:44.962447+00:00",
   "players": [
     {
       "name": "Alex Vlasic",
@@ -97,13 +97,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Landon Slaggert",
-      "position": "L",
-      "number": "84",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Nick Lardis",
       "position": "L",
       "number": "76",
@@ -127,7 +120,7 @@
     {
       "name": "Roman Kantserov",
       "position": "R",
-      "number": "",
+      "number": "80",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-09-29T14:56:46.516310+00:00",
+    "teamCode": "CBJ",
+    "teamName": "Columbus Blue Jackets",
+    "type": "added",
+    "playerName": "Emil Andrae",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-29T14:56:46.516320+00:00",
+    "teamCode": "CBJ",
+    "teamName": "Columbus Blue Jackets",
+    "type": "added",
+    "playerName": "Matthew Knies",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-29T14:56:46.516324+00:00",
+    "teamCode": "CBJ",
+    "teamName": "Columbus Blue Jackets",
+    "type": "removed",
+    "playerName": "Damon Severson",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-29T14:56:46.516326+00:00",
+    "teamCode": "CBJ",
+    "teamName": "Columbus Blue Jackets",
+    "type": "removed",
+    "playerName": "Jack Williams",
+    "position": "R",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-29T14:56:46.516328+00:00",
+    "teamCode": "CBJ",
+    "teamName": "Columbus Blue Jackets",
+    "type": "removed",
+    "playerName": "Kirill Marchenko",
+    "position": "R",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-29T14:56:46.516330+00:00",
+    "teamCode": "CBJ",
+    "teamName": "Columbus Blue Jackets",
+    "type": "removed",
+    "playerName": "Miles Wood",
+    "position": "L",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-28T16:52:28.236498+00:00",
     "teamCode": "CBJ",
     "teamName": "Columbus Blue Jackets",

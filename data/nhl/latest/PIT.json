@@ -3,7 +3,7 @@
   "team": "Pittsburgh Penguins",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/PIT/current",
-  "checkedAt": "2026-09-28T16:52:39.242280+00:00",
+  "checkedAt": "2026-09-29T14:56:56.228454+00:00",
   "players": [
     {
       "name": "Andrei Kuzmenko",
@@ -48,6 +48,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "David Gustafsson",
+      "position": "C",
+      "number": "13",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Declan Carlile",
       "position": "D",
       "number": "72",
@@ -83,9 +90,23 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Filip Hallander",
+      "position": "C",
+      "number": "11",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Hendrix Lapierre",
       "position": "C",
       "number": "22",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ilya Solovyov",
+      "position": "D",
+      "number": "7",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -121,6 +142,13 @@
       "name": "Rickard Rakell",
       "position": "R",
       "number": "67",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Rutger McGroarty",
+      "position": "R",
+      "number": "2",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

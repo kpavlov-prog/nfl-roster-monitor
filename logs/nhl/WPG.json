@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-09-29T14:57:03.696808+00:00",
+    "teamCode": "WPG",
+    "teamName": "Winnipeg Jets",
+    "type": "added",
+    "playerName": "Clay Stevenson",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-29T14:57:03.696821+00:00",
+    "teamCode": "WPG",
+    "teamName": "Winnipeg Jets",
+    "type": "removed",
+    "playerName": "Brayden Yager",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-29T14:57:03.696824+00:00",
+    "teamCode": "WPG",
+    "teamName": "Winnipeg Jets",
+    "type": "removed",
+    "playerName": "Danil Zhilkin",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-29T14:57:03.696825+00:00",
+    "teamCode": "WPG",
+    "teamName": "Winnipeg Jets",
+    "type": "removed",
+    "playerName": "Domenic DiVincentiis",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-29T14:57:03.696827+00:00",
+    "teamCode": "WPG",
+    "teamName": "Winnipeg Jets",
+    "type": "removed",
+    "playerName": "Henry Thrun",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-27T14:11:04.810584+00:00",
     "teamCode": "WPG",
     "teamName": "Winnipeg Jets",

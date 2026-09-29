@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-09-29T14:56:44.963315+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Blackhawks",
+    "type": "number changed",
+    "playerName": "Roman Kantserov",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "80",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-29T14:56:44.963323+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Blackhawks",
+    "type": "removed",
+    "playerName": "Landon Slaggert",
+    "position": "L",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-28T16:52:26.603458+00:00",
     "teamCode": "CHI",
     "teamName": "Chicago Blackhawks",

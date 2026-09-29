@@ -3,7 +3,7 @@
   "team": "San Jose Sharks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/SJS/current",
-  "checkedAt": "2026-09-28T16:52:40.697034+00:00",
+  "checkedAt": "2026-09-29T14:56:57.633766+00:00",
   "players": [
     {
       "name": "Adam Gaudette",
@@ -48,13 +48,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Cam Lund",
-      "position": "C",
-      "number": "46",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Collin Graf",
       "position": "R",
       "number": "51",
@@ -83,13 +76,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Ilya Samsonov",
-      "position": "G",
-      "number": "35",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Ivar Stenberg",
       "position": "L",
       "number": "41",
@@ -107,13 +93,6 @@
       "name": "Kiefer Sherwood",
       "position": "L",
       "number": "44",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Kyle Keyser",
-      "position": "G",
-      "number": "36",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -139,13 +118,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Mattias Havelid",
-      "position": "D",
-      "number": "22",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Michael Kesselring",
       "position": "D",
       "number": "7",
@@ -163,20 +135,6 @@
       "name": "Nolan Allan",
       "position": "D",
       "number": "5",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Patrick Giles",
-      "position": "R",
-      "number": "54",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Quentin Musty",
-      "position": "L",
-      "number": "13",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

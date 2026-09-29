@@ -3,7 +3,7 @@
   "team": "New Jersey Devils",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/NJD/current",
-  "checkedAt": "2026-09-28T16:52:35.701448+00:00",
+  "checkedAt": "2026-09-29T14:56:52.765662+00:00",
   "players": [
     {
       "name": "Amadeus Lombardi",
@@ -48,23 +48,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Colin White",
-      "position": "C",
-      "number": "36",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Connor Brown",
       "position": "R",
       "number": "16",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "David Rittich",
-      "position": "G",
-      "number": "33",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -125,13 +111,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Johnathan Kovacevic",
-      "position": "D",
-      "number": "8",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Jonas Siegenthaler",
       "position": "D",
       "number": "71",
@@ -153,20 +132,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Marc McLaughlin",
-      "position": "C",
-      "number": "21",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Nick Bjugstad",
-      "position": "C",
-      "number": "72",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Nico Daws",
       "position": "G",
       "number": "50",
@@ -181,23 +146,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Riley Tufte",
-      "position": "L",
-      "number": "10",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Rémi Poirier",
       "position": "G",
-      "number": "",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Seamus Casey",
-      "position": "D",
-      "number": "24",
+      "number": "1",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -212,20 +163,6 @@
       "name": "Timo Meier",
       "position": "R",
       "number": "28",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Topias Vilen",
-      "position": "D",
-      "number": "38",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Vladislav Kolyachonok",
-      "position": "D",
-      "number": "18",
       "status": "ACTIVE",
       "source": "NHL Web API"
     }
