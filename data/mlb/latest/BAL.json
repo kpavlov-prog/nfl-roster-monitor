@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=active",
-  "checkedAt": "2026-09-28T16:44:51.170841+00:00",
+  "checkedAt": "2026-09-29T14:50:49.203288+00:00",
   "players": [
     {
       "name": "Albert Suárez",
@@ -36,6 +36,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Blaze Alexander",
+      "position": "3B",
+      "number": "23",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Brandon Young",
       "position": "P",
       "number": "63",
@@ -43,9 +50,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Cade Povich",
+      "position": "P",
+      "number": "37",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Cam Sanders",
       "position": "P",
       "number": "73",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cameron Foster",
+      "position": "P",
+      "number": "65",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -81,6 +102,13 @@
       "name": "Coby Mayo",
       "position": "3B",
       "number": "16",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Codi Heuer",
+      "position": "P",
+      "number": "59",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -127,6 +155,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jackson Holliday",
+      "position": "2B",
+      "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jeremiah Jackson",
       "position": "2B",
       "number": "82",
@@ -155,6 +190,20 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Luis De León",
+      "position": "P",
+      "number": "81",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Luis Robert Jr.",
+      "position": "CF",
+      "number": "88",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Pete Alonso",
       "position": "1B",
       "number": "25",
@@ -169,9 +218,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Reed Trimble",
+      "position": "LF",
+      "number": "62",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Rico Garcia",
       "position": "P",
       "number": "50",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Samuel Basallo",
+      "position": "C",
+      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -190,6 +253,20 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Trey Gibson",
+      "position": "P",
+      "number": "43",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yaramil Hiraldo",
+      "position": "P",
+      "number": "76",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Yennier Cano",
       "position": "P",
       "number": "78",
@@ -200,6 +277,13 @@
       "name": "Yohel Pozo",
       "position": "C",
       "number": "79",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yosver Zulueta",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     }

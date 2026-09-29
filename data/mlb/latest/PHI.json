@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/143/roster?rosterType=active",
-  "checkedAt": "2026-09-28T16:45:02.170545+00:00",
+  "checkedAt": "2026-09-29T14:50:59.834252+00:00",
   "players": [
     {
       "name": "Aaron Nola",
@@ -39,13 +39,6 @@
       "name": "Brandon Marsh",
       "position": "LF",
       "number": "16",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brooks Raley",
-      "position": "P",
-      "number": "30",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -155,16 +148,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Luis Arraez",
-      "position": "2B",
+      "name": "Otto Kemp",
+      "position": "LF",
       "number": "4",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Max Lazar",
-      "position": "P",
-      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },

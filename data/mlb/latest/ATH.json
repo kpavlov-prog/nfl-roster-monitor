@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-09-28T16:45:01.595185+00:00",
+  "checkedAt": "2026-09-29T14:50:59.252983+00:00",
   "players": [
     {
       "name": "Alika Williams",
       "position": "SS",
       "number": "12",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Braden Nett",
+      "position": "P",
+      "number": "78",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -43,6 +50,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Darell Hernaiz",
+      "position": "SS",
+      "number": "2",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Denzel Clarke",
       "position": "CF",
       "number": "1",
@@ -71,9 +85,30 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Gage Jump",
+      "position": "P",
+      "number": "61",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Geoff Hartlieb",
       "position": "P",
       "number": "31",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Hayden Juenger",
+      "position": "P",
+      "number": "58",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Henry Baez",
+      "position": "P",
+      "number": "76",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -88,6 +123,13 @@
       "name": "Hogan Harris",
       "position": "P",
       "number": "36",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Hunter Bigge",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -120,6 +162,27 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Joe Rock",
+      "position": "P",
+      "number": "30",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Joey Estes",
+      "position": "P",
+      "number": "68",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Johnathan Rodríguez",
+      "position": "RF",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jonah Heim",
       "position": "C",
       "number": "15",
@@ -130,6 +193,13 @@
       "name": "Joshua Kuroda-Grauer",
       "position": "3B",
       "number": "44",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kade Morris",
+      "position": "P",
+      "number": "67",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -148,9 +218,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Luis Morales",
+      "position": "P",
+      "number": "19",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Mason Barnett",
       "position": "P",
       "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Max Muncy",
+      "position": "3B",
+      "number": "3",
       "status": "A",
       "source": "MLB Stats API"
     },

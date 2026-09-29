@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=active",
-  "checkedAt": "2026-09-28T16:45:05.329533+00:00",
+  "checkedAt": "2026-09-29T14:51:02.705225+00:00",
   "players": [
     {
       "name": "Alec Burleson",
@@ -39,6 +39,13 @@
       "name": "Cade Winquest",
       "position": "P",
       "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Chase Hampton",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

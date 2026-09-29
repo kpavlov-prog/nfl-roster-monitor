@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-29T14:50:49.764636+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "added",
+    "playerName": "Garrett Crochet",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-29T14:50:49.764646+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "removed",
+    "playerName": "Jovani Morán",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-29T14:50:49.764648+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "removed",
+    "playerName": "Patrick Sandoval",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-29T14:50:49.764650+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "removed",
+    "playerName": "Tanner Houck",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-28T16:44:51.794269+00:00",
     "teamCode": "BOS",
     "teamName": "Boston Red Sox",

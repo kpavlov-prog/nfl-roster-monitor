@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-29T14:50:59.834935+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "added",
+    "playerName": "Otto Kemp",
+    "position": "LF",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-29T14:50:59.834943+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "removed",
+    "playerName": "Brooks Raley",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-29T14:50:59.834946+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "removed",
+    "playerName": "Luis Arraez",
+    "position": "2B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-29T14:50:59.834947+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "type": "removed",
+    "playerName": "Max Lazar",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-28T16:45:02.171580+00:00",
     "teamCode": "PHI",
     "teamName": "Philadelphia Phillies",
