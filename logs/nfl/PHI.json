@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-29T14:29:20.001505+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "position changed",
+    "playerName": "Cam Jurgens",
+    "position": "G",
+    "oldValue": "C",
+    "newValue": "G",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-29T14:29:20.001514+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "status changed",
+    "playerName": "Chance Campbell",
+    "position": "LB",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-29T14:29:20.001528+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "status changed",
+    "playerName": "Zach Ertz",
+    "position": "TE",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-25T13:08:13.964815+00:00",
     "teamCode": "PHI",
     "teamName": "Philadelphia Eagles",

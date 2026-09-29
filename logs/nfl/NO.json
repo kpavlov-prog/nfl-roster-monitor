@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-09-29T14:29:15.123122+00:00",
+    "teamCode": "NO",
+    "teamName": "New Orleans Saints",
+    "type": "added",
+    "playerName": "Jalen Cropper",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-29T14:29:15.123132+00:00",
+    "teamCode": "NO",
+    "teamName": "New Orleans Saints",
+    "type": "status changed",
+    "playerName": "Kevin Austin Jr.",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-29T14:29:15.123142+00:00",
+    "teamCode": "NO",
+    "teamName": "New Orleans Saints",
+    "type": "removed",
+    "playerName": "Jalen Moreno-Cropper",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-27T13:26:09.206047+00:00",
     "teamCode": "NO",
     "teamName": "New Orleans Saints",
