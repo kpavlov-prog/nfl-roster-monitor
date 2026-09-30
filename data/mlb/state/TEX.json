@@ -5,12 +5,26 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-09-29T14:51:03.868279+00:00",
+  "checkedAt": "2026-09-30T14:55:02.761792+00:00",
   "players": [
+    {
+      "name": "Adam Macko",
+      "position": "P",
+      "number": "71",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Alejandro Osuna",
       "position": "LF",
       "number": "19",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ben Peoples",
+      "position": "P",
+      "number": "70",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -64,9 +78,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "David Davalillo",
+      "position": "P",
+      "number": "72",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Elias Díaz",
       "position": "C",
       "number": "35",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Emiliano Teodo",
+      "position": "P",
+      "number": "56",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -81,6 +109,13 @@
       "name": "Ezequiel Duran",
       "position": "SS",
       "number": "20",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Gavin Collyer",
+      "position": "P",
+      "number": "65",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -113,9 +148,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Joc Pederson",
+      "position": "DH",
+      "number": "3",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jordan Montgomery",
       "position": "P",
       "number": "52",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Josh Jung",
+      "position": "3B",
+      "number": "6",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -134,6 +183,27 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Kyle Higashioka",
+      "position": "C",
+      "number": "11",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Leandro Lopez",
+      "position": "P",
+      "number": "74",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Logan O'Hoppe",
+      "position": "DH",
+      "number": "4",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "MacKenzie Gore",
       "position": "P",
       "number": "1",
@@ -144,6 +214,13 @@
       "name": "Michael Helman",
       "position": "CF",
       "number": "23",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Michel Otañez",
+      "position": "P",
+      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -193,6 +270,13 @@
       "name": "Tyler Alexander",
       "position": "P",
       "number": "13",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Winston Santos",
+      "position": "P",
+      "number": "47",
       "status": "A",
       "source": "MLB Stats API"
     },

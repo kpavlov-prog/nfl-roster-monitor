@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-09-29T14:51:01.556851+00:00",
+  "checkedAt": "2026-09-30T14:55:00.603255+00:00",
   "players": [
     {
       "name": "Andrew Knizner",
@@ -23,7 +23,7 @@
     },
     {
       "name": "Bo Davidson",
-      "position": "LF",
+      "position": "RF",
       "number": "94",
       "status": "A",
       "source": "MLB Stats API"
@@ -43,6 +43,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Bryce Eldridge",
+      "position": "DH",
+      "number": "8",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Camilo Doval",
       "position": "P",
       "number": "57",
@@ -53,6 +60,13 @@
       "name": "Carson Seymour",
       "position": "P",
       "number": "77",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cesar Perdomo",
+      "position": "P",
+      "number": "83",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -99,6 +113,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "JT Brubaker",
+      "position": "P",
+      "number": "34",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jason Foley",
       "position": "P",
       "number": "64",
@@ -120,9 +141,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jung Hoo Lee",
+      "position": "RF",
+      "number": "51",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Landen Roupp",
       "position": "P",
       "number": "65",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Logan Webb",
+      "position": "P",
+      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -141,9 +176,37 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Miguel Mendez",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Nate Furman",
+      "position": "2B",
+      "number": "56",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Osleivis Basabe",
       "position": "2B",
       "number": "39",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Reiver Sanmartin",
+      "position": "P",
+      "number": "48",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ryan Walker",
+      "position": "P",
+      "number": "74",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -200,6 +263,27 @@
       "name": "Victor Bericoto",
       "position": "LF",
       "number": "78",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Willy Adames",
+      "position": "SS",
+      "number": "2",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yunior Marte",
+      "position": "P",
+      "number": "87",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Zach Morgan",
+      "position": "C",
+      "number": "80",
       "status": "A",
       "source": "MLB Stats API"
     }

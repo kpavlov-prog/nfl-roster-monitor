@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/118/roster?rosterType=active",
-  "checkedAt": "2026-09-29T14:50:54.376173+00:00",
+  "checkedAt": "2026-09-30T14:54:54.140592+00:00",
   "players": [
     {
       "name": "Alex Lange",
@@ -22,9 +22,30 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Beck Way",
+      "position": "P",
+      "number": "44",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ben Kudrna",
+      "position": "P",
+      "number": "59",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Bobby Witt Jr.",
       "position": "SS",
       "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Carlos Duran",
+      "position": "P",
+      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -43,9 +64,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Craig Kimbrel",
+      "position": "P",
+      "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Daniel Lynch IV",
       "position": "P",
       "number": "41",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Easton McGee",
+      "position": "P",
+      "number": "51",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -120,6 +155,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Mason Black",
+      "position": "P",
+      "number": "47",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Matthew Lugo",
       "position": "LF",
       "number": "24",
@@ -141,9 +183,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Mitch Spence",
+      "position": "P",
+      "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Nate Pearson",
       "position": "P",
       "number": "61",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Nick Loftin",
+      "position": "3B",
+      "number": "12",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -169,6 +225,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Ryan Bergert",
+      "position": "P",
+      "number": "38",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Salvador Perez",
       "position": "DH",
       "number": "13",
@@ -186,6 +249,20 @@
       "name": "Spencer Bivens",
       "position": "P",
       "number": "76",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Steven Zobac",
+      "position": "P",
+      "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tony Gonsolin",
+      "position": "P",
+      "number": "36",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=active",
-  "checkedAt": "2026-09-29T14:51:02.705225+00:00",
+  "checkedAt": "2026-09-30T14:55:01.683404+00:00",
   "players": [
     {
       "name": "Alec Burleson",
@@ -18,6 +18,13 @@
       "name": "Andre Pallante",
       "position": "P",
       "number": "53",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Blaze Jordan",
+      "position": "3B",
+      "number": "33",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -50,9 +57,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Cooper Hjerpe",
+      "position": "P",
+      "number": "56",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "César Prieto",
       "position": "3B",
       "number": "31",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Everson Pereira",
+      "position": "RF",
+      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -78,6 +99,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Hunter Dobbins",
+      "position": "P",
+      "number": "40",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Iván Herrera",
       "position": "DH",
       "number": "48",
@@ -92,9 +120,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jimmy Crooks",
+      "position": "C",
+      "number": "8",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jordan Walker",
       "position": "RF",
       "number": "18",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Joshua Báez",
+      "position": "LF",
+      "number": "22",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -141,6 +183,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Matt Svanson",
+      "position": "P",
+      "number": "49",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Matthew Liberatore",
       "position": "P",
       "number": "32",
@@ -183,6 +232,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Richard Fitts",
+      "position": "P",
+      "number": "35",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Riley O'Brien",
       "position": "P",
       "number": "61",
@@ -190,9 +246,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Ryan Fernandez",
+      "position": "P",
+      "number": "64",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Ryne Stanek",
       "position": "P",
       "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tekoah Roby",
+      "position": "P",
+      "number": "38",
       "status": "A",
       "source": "MLB Stats API"
     },

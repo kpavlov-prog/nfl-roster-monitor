@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=active",
-  "checkedAt": "2026-09-29T14:50:55.135270+00:00",
+  "checkedAt": "2026-09-30T14:54:54.679596+00:00",
   "players": [
     {
       "name": "Adam Frazier",
       "position": "2B",
       "number": "20",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ben Joyce",
+      "position": "P",
+      "number": "44",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -22,9 +29,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Brett Kerry",
+      "position": "P",
+      "number": "71",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Bryce Teodosio",
       "position": "LF",
       "number": "22",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Caden Dana",
+      "position": "P",
+      "number": "36",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -43,9 +64,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "George Klassen",
+      "position": "P",
+      "number": "58",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Grayson Rodriguez",
       "position": "P",
       "number": "21",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Gustavo Campero",
+      "position": "OF",
+      "number": "51",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -67,6 +102,13 @@
       "name": "José Fermin",
       "position": "P",
       "number": "65",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kyren Paris",
+      "position": "2B",
+      "number": "19",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -99,6 +141,20 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Nacho Alvarez Jr.",
+      "position": "SS",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Nolan Schanuel",
+      "position": "1B",
+      "number": "18",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Oswald Peraza",
       "position": "2B",
       "number": "2",
@@ -127,6 +183,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Sam Aldegheri",
+      "position": "P",
+      "number": "61",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Sam Bachman",
       "position": "P",
       "number": "40",
@@ -137,6 +200,20 @@
       "name": "Sammy Peralta",
       "position": "P",
       "number": "67",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Samy Natera Jr.",
+      "position": "P",
+      "number": "52",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Sebastián Rivero",
+      "position": "C",
+      "number": "38",
       "status": "A",
       "source": "MLB Stats API"
     },

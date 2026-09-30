@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=active",
-  "checkedAt": "2026-09-29T14:50:58.662551+00:00",
+  "checkedAt": "2026-09-30T14:54:57.904480+00:00",
   "players": [
-    {
-      "name": "Alexander Cornielle",
-      "position": "P",
-      "number": "97",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Ali Sánchez",
       "position": "C",
@@ -99,6 +92,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Giancarlo Stanton",
+      "position": "DH",
+      "number": "27",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Heliot Ramos",
       "position": "LF",
       "number": "34",
@@ -141,13 +141,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Michael Fulmer",
-      "position": "P",
-      "number": "43",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Paul Blackburn",
       "position": "P",
       "number": "58",
@@ -183,9 +176,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Tim Hill",
-      "position": "P",
-      "number": "41",
+      "name": "Trent Grisham",
+      "position": "CF",
+      "number": "12",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -193,13 +186,6 @@
       "name": "Will Warren",
       "position": "P",
       "number": "29",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Yerry De los Santos",
-      "position": "P",
-      "number": "73",
       "status": "A",
       "source": "MLB Stats API"
     }

@@ -5,12 +5,26 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=active",
-  "checkedAt": "2026-09-29T14:50:52.636940+00:00",
+  "checkedAt": "2026-09-30T14:54:52.520194+00:00",
   "players": [
     {
       "name": "Adael Amador",
       "position": "2B",
       "number": "1",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Blake Adams",
+      "position": "P",
+      "number": "57",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Blas Castaño",
+      "position": "P",
+      "number": "63",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -36,6 +50,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Chad Stevens",
+      "position": "2B",
+      "number": "39",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Cole Carrigg",
       "position": "CF",
       "number": "16",
@@ -50,9 +71,30 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Eiberson Castellano",
+      "position": "P",
+      "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Ezequiel Tovar",
       "position": "SS",
       "number": "14",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Gabriel Hughes",
+      "position": "P",
+      "number": "43",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Hayden Harris",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -78,6 +120,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jeff Criswell",
+      "position": "P",
+      "number": "46",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jimmy Herget",
       "position": "P",
       "number": "44",
@@ -86,7 +135,7 @@
     },
     {
       "name": "Jordan Beck",
-      "position": "LF",
+      "position": "RF",
       "number": "27",
       "status": "A",
       "source": "MLB Stats API"
@@ -162,9 +211,37 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Ryan Ritter",
+      "position": "SS",
+      "number": "8",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Sean Sullivan",
+      "position": "P",
+      "number": "45",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Sterlin Thompson",
+      "position": "RF",
+      "number": "30",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "TJ Rumfield",
       "position": "1B",
       "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "TJ Shook",
+      "position": "P",
+      "number": "52",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -186,6 +263,13 @@
       "name": "Troy Johnston",
       "position": "RF",
       "number": "20",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Willi Castro",
+      "position": "2B",
+      "number": "3",
       "status": "A",
       "source": "MLB Stats API"
     },

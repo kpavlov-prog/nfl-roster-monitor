@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-09-29T14:51:05.005030+00:00",
+  "checkedAt": "2026-09-30T14:55:03.864579+00:00",
   "players": [
     {
       "name": "Abimelec Ortiz",
@@ -18,6 +18,13 @@
       "name": "Andrew Alvarez",
       "position": "P",
       "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Andrew Pinckney",
+      "position": "LF",
+      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -57,6 +64,20 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Carson Palmquist",
+      "position": "P",
+      "number": "51",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Clayton Beeter",
+      "position": "P",
+      "number": "39",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Connelly Early",
       "position": "P",
       "number": "19",
@@ -81,6 +102,13 @@
       "name": "Dylan Crews",
       "position": "RF",
       "number": "3",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Eddy Yean",
+      "position": "P",
+      "number": "46",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -113,9 +141,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jackson Kent",
+      "position": "P",
+      "number": "25",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jacob Young",
       "position": "CF",
       "number": "30",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jake Bird",
+      "position": "P",
+      "number": "59",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -130,6 +172,13 @@
       "name": "James Wood",
       "position": "RF",
       "number": "29",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jared Simpson",
+      "position": "P",
+      "number": "72",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -162,9 +211,37 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Kyle Nicolas",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Luis Perales",
+      "position": "P",
+      "number": "43",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Nasim Nuñez",
       "position": "2B",
       "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Orlando Ribalta",
+      "position": "P",
+      "number": "64",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Paxton Schultz",
+      "position": "P",
+      "number": "75",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -200,6 +277,13 @@
       "name": "Yovanny Cruz",
       "position": "P",
       "number": "48",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Zak Kent",
+      "position": "P",
+      "number": "57",
       "status": "A",
       "source": "MLB Stats API"
     }

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=active",
-  "checkedAt": "2026-09-29T14:51:00.997613+00:00",
+  "checkedAt": "2026-09-30T14:55:00.060887+00:00",
   "players": [
     {
       "name": "Adrian Morejon",
@@ -71,13 +71,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Griffin Canning",
-      "position": "P",
-      "number": "17",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jackson Merrill",
       "position": "CF",
       "number": "3",
@@ -102,6 +95,13 @@
       "name": "Jason Adam",
       "position": "P",
       "number": "40",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Joe Musgrove",
+      "position": "P",
+      "number": "44",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -134,16 +134,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Nick Pivetta",
-      "position": "P",
-      "number": "27",
+      "name": "Miguel Andujar",
+      "position": "DH",
+      "number": "41",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Randy Vásquez",
+      "name": "Nick Pivetta",
       "position": "P",
-      "number": "98",
+      "number": "27",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -162,13 +162,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Sung-Mun Song",
-      "position": "2B",
-      "number": "24",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Ty France",
       "position": "1B",
       "number": "25",
@@ -179,13 +172,6 @@
       "name": "Walker Buehler",
       "position": "P",
       "number": "10",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Wandy Peralta",
-      "position": "P",
-      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },

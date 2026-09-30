@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active",
-  "checkedAt": "2026-09-29T14:50:52.068551+00:00",
+  "checkedAt": "2026-09-30T14:54:51.980565+00:00",
   "players": [
+    {
+      "name": "Andrew Walters",
+      "position": "P",
+      "number": "91",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Angel Genao",
       "position": "2B",
@@ -36,9 +43,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Blake Perkins",
+      "position": "CF",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Brayan Rocchio",
       "position": "SS",
       "number": "4",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "CJ Kayfus",
+      "position": "1B",
+      "number": "2",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -53,6 +74,20 @@
       "name": "Chase DeLauter",
       "position": "RF",
       "number": "24",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Colin Holderman",
+      "position": "P",
+      "number": "35",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cooper Ingle",
+      "position": "C",
+      "number": "30",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -92,6 +127,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Franco Aleman",
+      "position": "P",
+      "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Gavin Williams",
       "position": "P",
       "number": "32",
@@ -127,6 +169,27 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Kahlil Watson",
+      "position": "RF",
+      "number": "31",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kyle Manzardo",
+      "position": "1B",
+      "number": "9",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Logan Allen",
+      "position": "P",
+      "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Matt Festa",
       "position": "P",
       "number": "52",
@@ -158,6 +221,13 @@
       "name": "Petey Halpin",
       "position": "CF",
       "number": "0",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Rhys Hoskins",
+      "position": "1B",
+      "number": "8",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -200,6 +270,13 @@
       "name": "Travis Bazzana",
       "position": "2B",
       "number": "37",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yorman Gómez",
+      "position": "P",
+      "number": "95",
       "status": "A",
       "source": "MLB Stats API"
     }

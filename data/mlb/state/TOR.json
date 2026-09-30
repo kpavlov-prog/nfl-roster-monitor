@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-09-29T14:51:04.447273+00:00",
+  "checkedAt": "2026-09-30T14:55:03.299704+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -57,6 +57,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "CJ Van Eyk",
+      "position": "P",
+      "number": "58",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Chad Dallas",
       "position": "P",
       "number": "37",
@@ -85,6 +92,20 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Devereaux Harrison",
+      "position": "P",
+      "number": "37",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Dylan Cease",
+      "position": "P",
+      "number": "84",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Ernie Clement",
       "position": "2B",
       "number": "22",
@@ -99,6 +120,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jameson Taillon",
+      "position": "P",
+      "number": "56",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "John Klein",
       "position": "P",
       "number": "65",
@@ -109,6 +137,13 @@
       "name": "Josh Smith",
       "position": "2B",
       "number": "9",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "José Rodríguez",
+      "position": "P",
+      "number": "64",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -130,6 +165,13 @@
       "name": "Louis Varland",
       "position": "P",
       "number": "77",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Luis Urías",
+      "position": "2B",
+      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -169,9 +211,37 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Ricky Tiedemann",
+      "position": "P",
+      "number": "33",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Rudy Martin Jr.",
+      "position": "RF",
+      "number": "1",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Sean Keys",
       "position": "DH",
       "number": "20",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Shane Bieber",
+      "position": "P",
+      "number": "57",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Shawn Ross",
+      "position": "C",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -200,6 +270,13 @@
       "name": "Vladimir Guerrero Jr.",
       "position": "1B",
       "number": "27",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yohendrick Piñango",
+      "position": "LF",
+      "number": "24",
       "status": "A",
       "source": "MLB Stats API"
     }

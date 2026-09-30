@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-09-29T14:50:47.457719+00:00",
+  "checkedAt": "2026-09-30T14:54:48.199757+00:00",
   "players": [
     {
       "name": "Adrian Del Castillo",
       "position": "DH",
       "number": "25",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Blake Walston",
+      "position": "P",
+      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -29,6 +36,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Corbin Burnes",
+      "position": "P",
+      "number": "39",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Corbin Carroll",
       "position": "RF",
       "number": "7",
@@ -39,6 +53,20 @@
       "name": "Dennis Santana",
       "position": "P",
       "number": "59",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Drey Jameson",
+      "position": "P",
+      "number": "20",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Dylan Ray",
+      "position": "P",
+      "number": "61",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -60,6 +88,13 @@
       "name": "Geraldo Perdomo",
       "position": "SS",
       "number": "2",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Gerardo Carrillo",
+      "position": "P",
+      "number": "68",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -106,6 +141,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Juan Burgos",
+      "position": "P",
+      "number": "52",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Juan Morillo",
       "position": "P",
       "number": "62",
@@ -116,6 +158,13 @@
       "name": "Justin Martinez",
       "position": "P",
       "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kade Strowd",
+      "position": "P",
+      "number": "24",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -134,9 +183,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Kohl Drake",
+      "position": "P",
+      "number": "58",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Lars Nootbaar",
       "position": "LF",
       "number": "21",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "LuJames Groover",
+      "position": "1B",
+      "number": "16",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -151,6 +214,13 @@
       "name": "Michael Soroka",
       "position": "P",
       "number": "34",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Mitch Bratt",
+      "position": "P",
+      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -193,6 +263,13 @@
       "name": "Tim Tawa",
       "position": "1B",
       "number": "13",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tommy Troy",
+      "position": "LF",
+      "number": "9",
       "status": "A",
       "source": "MLB Stats API"
     },

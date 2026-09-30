@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-09-29T14:50:56.341951+00:00",
+  "checkedAt": "2026-09-30T14:54:55.755116+00:00",
   "players": [
     {
       "name": "Agustín Ramírez",
@@ -15,9 +15,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Anthony Bender",
+      "position": "P",
+      "number": "37",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Bradley Blalock",
       "position": "P",
       "number": "31",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brandan Bidois",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -141,9 +155,37 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Josh White",
+      "position": "P",
+      "number": "59",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Kyle Stowers",
       "position": "1B",
       "number": "28",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Logan Driscoll",
+      "position": "C",
+      "number": "33",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Max Meyer",
+      "position": "P",
+      "number": "23",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Maximo Acosta",
+      "position": "SS",
+      "number": "24",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -158,6 +200,27 @@
       "name": "Otto Lopez",
       "position": "SS",
       "number": "6",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Owen Caissie",
+      "position": "RF",
+      "number": "17",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Patrick Monteverde",
+      "position": "P",
+      "number": "44",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Pete Fairbanks",
+      "position": "P",
+      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -183,6 +246,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Tyler Zuber",
+      "position": "P",
+      "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Victor Vodnik",
       "position": "P",
       "number": "38",
@@ -200,6 +270,13 @@
       "name": "Xavier Edwards",
       "position": "2B",
       "number": "9",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Zach Brzykcy",
+      "position": "P",
+      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     }

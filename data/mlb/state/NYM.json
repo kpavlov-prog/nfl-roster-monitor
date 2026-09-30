@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-09-29T14:50:58.084368+00:00",
+  "checkedAt": "2026-09-30T14:54:57.366440+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -36,6 +36,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Cameron Weston",
+      "position": "P",
+      "number": "74",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Carson Benge",
       "position": "RF",
       "number": "3",
@@ -46,6 +53,20 @@
       "name": "Chayce McDermott",
       "position": "P",
       "number": "43",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Christian Cairo",
+      "position": "SS",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Christian Scott",
+      "position": "P",
+      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -71,6 +92,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Daniel Duarte",
+      "position": "P",
+      "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Dedniel Núñez",
       "position": "P",
       "number": "72",
@@ -81,6 +109,20 @@
       "name": "Devin Williams",
       "position": "P",
       "number": "38",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Dylan Ross",
+      "position": "P",
+      "number": "66",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Eric Wagaman",
+      "position": "1B",
+      "number": "39",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -99,6 +141,27 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Hayden Senger",
+      "position": "C",
+      "number": "6",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jack Weisenburger",
+      "position": "P",
+      "number": "82",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jared Young",
+      "position": "1B",
+      "number": "29",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jefry Yan",
       "position": "P",
       "number": "84",
@@ -109,6 +172,13 @@
       "name": "Jonah Tong",
       "position": "P",
       "number": "21",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jonathan Pintaro",
+      "position": "P",
+      "number": "91",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,6 +242,20 @@
       "name": "Nolan McLean",
       "position": "P",
       "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Philip Abner",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Robert Stock",
+      "position": "P",
+      "number": "89",
       "status": "A",
       "source": "MLB Stats API"
     },

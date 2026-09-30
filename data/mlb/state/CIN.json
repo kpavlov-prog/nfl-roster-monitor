@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=active",
-  "checkedAt": "2026-09-29T14:50:51.499845+00:00",
+  "checkedAt": "2026-09-30T14:54:51.443878+00:00",
   "players": [
     {
       "name": "Andrew Abbott",
@@ -50,6 +50,27 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Chase Burns",
+      "position": "P",
+      "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Chase Petty",
+      "position": "P",
+      "number": "61",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Chase Solesky",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Connor Phillips",
       "position": "P",
       "number": "34",
@@ -60,6 +81,13 @@
       "name": "Dane Myers",
       "position": "CF",
       "number": "17",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Edwin Arroyo",
+      "position": "2B",
+      "number": "2",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -99,9 +127,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Ivan Johnson",
+      "position": "2B",
+      "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "JJ Bleday",
       "position": "LF",
       "number": "22",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jose Franco",
+      "position": "P",
+      "number": "74",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -120,9 +162,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Julian Garcia",
+      "position": "P",
+      "number": "57",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Ke'Bryan Hayes",
       "position": "3B",
       "number": "3",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Leo Balcazar",
+      "position": "SS",
+      "number": "85",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,6 +200,13 @@
       "name": "Nick Lodolo",
       "position": "P",
       "number": "40",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Noelvi Marte",
+      "position": "RF",
+      "number": "4",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -183,6 +246,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Tony Santillan",
+      "position": "P",
+      "number": "64",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Tyler Stephenson",
       "position": "C",
       "number": "37",
@@ -193,6 +263,13 @@
       "name": "Will Banfield",
       "position": "C",
       "number": "60",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Zach Maxwell",
+      "position": "P",
+      "number": "78",
       "status": "A",
       "source": "MLB Stats API"
     },

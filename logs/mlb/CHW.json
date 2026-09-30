@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-09-30T14:54:50.900174+00:00",
+    "teamCode": "CHW",
+    "teamName": "Chicago White Sox",
+    "type": "added",
+    "playerName": "Jake Rogers",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-30T14:54:50.900186+00:00",
+    "teamCode": "CHW",
+    "teamName": "Chicago White Sox",
+    "type": "removed",
+    "playerName": "Drew Romo",
+    "position": "C",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-30T14:54:50.900190+00:00",
+    "teamCode": "CHW",
+    "teamName": "Chicago White Sox",
+    "type": "removed",
+    "playerName": "Trevor Richards",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-30T14:54:50.900192+00:00",
+    "teamCode": "CHW",
+    "teamName": "Chicago White Sox",
+    "type": "removed",
+    "playerName": "Tyler Davis",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-28T16:44:53.004122+00:00",
     "teamCode": "CHW",
     "teamName": "Chicago White Sox",

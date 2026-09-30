@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-09-29T14:50:55.772937+00:00",
+  "checkedAt": "2026-09-30T14:54:55.217473+00:00",
   "players": [
     {
       "name": "Alex Call",
@@ -57,6 +57,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Edgardo Henriquez",
+      "position": "P",
+      "number": "60",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Edwin Díaz",
       "position": "P",
       "number": "3",
@@ -88,6 +95,13 @@
       "name": "Hunter Feduccia",
       "position": "C",
       "number": "46",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Hyeseong Kim",
+      "position": "SS",
+      "number": "6",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,6 +158,13 @@
       "name": "Roki Sasaki",
       "position": "P",
       "number": "11",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ronan Kopp",
+      "position": "P",
+      "number": "83",
       "status": "A",
       "source": "MLB Stats API"
     },
