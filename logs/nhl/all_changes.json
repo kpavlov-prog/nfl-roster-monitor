@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-09-30T15:05:17.287342+00:00",
+    "teamCode": "CBJ",
+    "teamName": "Columbus Blue Jackets",
+    "type": "added",
+    "playerName": "Carson Soucy",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-30T15:05:17.287352+00:00",
+    "teamCode": "CBJ",
+    "teamName": "Columbus Blue Jackets",
+    "type": "number changed",
+    "playerName": "Emil Andrae",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "36",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-30T15:05:17.287355+00:00",
+    "teamCode": "CBJ",
+    "teamName": "Columbus Blue Jackets",
+    "type": "number changed",
+    "playerName": "Matthew Knies",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "89",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-09-30T15:05:21.306854+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "removed",
+    "playerName": "Charlie Stramel",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-09-30T15:05:23.986132+00:00",
+    "teamCode": "NYI",
+    "teamName": "New York Islanders",
+    "type": "removed",
+    "playerName": "Mitchell Chaffee",
+    "position": "R",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-29T14:56:41.832590+00:00",
     "teamCode": "ANA",
     "teamName": "Anaheim Ducks",
