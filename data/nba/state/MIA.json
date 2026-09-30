@@ -3,7 +3,7 @@
   "team": "Miami Heat",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIA/roster",
-  "checkedAt": "2026-09-29T15:07:18.457648+00:00",
+  "checkedAt": "2026-09-30T15:22:00.849763+00:00",
   "players": [
     {
       "name": "Andrew Wiggins",
@@ -70,6 +70,13 @@
     },
     {
       "name": "Klay Thompson",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Lester Quinones",
       "position": "G",
       "number": "",
       "status": "ACTIVE",
