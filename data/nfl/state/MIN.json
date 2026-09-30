@@ -3,7 +3,7 @@
   "team": "Minnesota Vikings",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/minnesota-vikings/roster",
-  "checkedAt": "2026-09-29T14:29:11.878207+00:00",
+  "checkedAt": "2026-09-30T14:27:27.209789+00:00",
   "players": [
     {
       "name": "Aaron Jones",
@@ -385,7 +385,7 @@
       "name": "Johnny Hekker",
       "position": "P",
       "number": "6",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -417,7 +417,7 @@
       "name": "Josh Oliver",
       "position": "TE",
       "number": "84",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -430,10 +430,18 @@
       "source": "NFL.com"
     },
     {
+      "name": "Kenny Dyson",
+      "position": "LB",
+      "number": "75",
+      "status": "LISTED",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Kyle Van Noy",
       "position": "MLB",
       "number": "75",
-      "status": "LISTED",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },
@@ -465,7 +473,7 @@
       "name": "Max Brosmer",
       "position": "QB",
       "number": "12",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },

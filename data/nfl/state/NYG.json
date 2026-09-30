@@ -3,7 +3,7 @@
   "team": "New York Giants",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-york-giants/roster",
-  "checkedAt": "2026-09-29T14:29:16.728249+00:00",
+  "checkedAt": "2026-09-30T14:27:31.906156+00:00",
   "players": [
     {
       "name": "Aaron Stinnie",
@@ -73,7 +73,7 @@
       "name": "Braxton Berrios",
       "position": "WR",
       "number": "87",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -81,7 +81,7 @@
       "name": "Brian Burns",
       "position": "LB",
       "number": "77",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -129,7 +129,7 @@
       "name": "Charlie Jones",
       "position": "WR",
       "number": "72",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -497,8 +497,16 @@
       "name": "Odell Beckham Jr.",
       "position": "WR",
       "number": "13",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "PJ Mustipher",
+      "position": "DT",
+      "number": "76",
+      "status": "LISTED",
+      "important": false,
       "source": "NFL.com"
     },
     {

@@ -3,7 +3,7 @@
   "team": "Las Vegas Raiders",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/las-vegas-raiders/roster",
-  "checkedAt": "2026-09-29T14:29:05.371477+00:00",
+  "checkedAt": "2026-09-30T14:27:20.882825+00:00",
   "players": [
     {
       "name": "AJ Cole",
@@ -161,7 +161,7 @@
       "name": "Cody White",
       "position": "WR",
       "number": "75",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -313,7 +313,7 @@
       "name": "Jack Bech",
       "position": "WR",
       "number": "18",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -361,7 +361,7 @@
       "name": "Justin Shorter",
       "position": "TE",
       "number": "88",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -482,6 +482,14 @@
       "position": "DE",
       "number": "93",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Phillip Dorsett",
+      "position": "WR",
+      "number": "13",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
