@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-09-30T14:54:49.826777+00:00",
+  "checkedAt": "2026-10-01T15:26:54.335499+00:00",
   "players": [
     {
       "name": "Adley Rutschman",
@@ -25,6 +25,13 @@
       "name": "Andruw Monasterio",
       "position": "SS",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Anthony Seigler",
+      "position": "2B",
+      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -60,6 +67,13 @@
       "name": "Connor Wong",
       "position": "C",
       "number": "12",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Curtis Mead",
+      "position": "3B",
+      "number": "11",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -120,6 +134,41 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jedixson Paez",
+      "position": "P",
+      "number": "65",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jovani Morán",
+      "position": "P",
+      "number": "47",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kristian Campbell",
+      "position": "OF",
+      "number": "28",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Masataka Yoshida",
+      "position": "DH",
+      "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Mickey Gasper",
+      "position": "DH",
+      "number": "30",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Nate Eaton",
       "position": "LF",
       "number": "18",
@@ -130,6 +179,13 @@
       "name": "Nick Sogard",
       "position": "2B",
       "number": "20",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Patrick Sandoval",
+      "position": "P",
+      "number": "43",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -148,9 +204,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Raymond Burgos",
+      "position": "P",
+      "number": "79",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Roman Anthony",
       "position": "LF",
       "number": "19",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Romy Gonzalez",
+      "position": "DH",
+      "number": "23",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -162,9 +232,37 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Tanner Houck",
+      "position": "P",
+      "number": "89",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Trevor Story",
       "position": "SS",
       "number": "10",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tsung-Che Cheng",
+      "position": "SS",
+      "number": "39",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tyler Samaniego",
+      "position": "P",
+      "number": "78",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tyron Guerrero",
+      "position": "P",
+      "number": "41",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=active",
-  "checkedAt": "2026-09-30T14:54:53.605570+00:00",
+  "checkedAt": "2026-10-01T15:26:58.343895+00:00",
   "players": [
     {
       "name": "AJ Blubaugh",
@@ -15,9 +15,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Alimber Santa",
+      "position": "P",
+      "number": "72",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Bennett Sousa",
       "position": "P",
       "number": "62",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brice Matthews",
+      "position": "CF",
+      "number": "0",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -57,6 +71,41 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Collin Price",
+      "position": "C",
+      "number": "37",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cristian Javier",
+      "position": "P",
+      "number": "53",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Daulton Varsho",
+      "position": "CF",
+      "number": "18",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Enyel De Los Santos",
+      "position": "P",
+      "number": "65",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ethan Pecko",
+      "position": "P",
+      "number": "70",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Hayden Wesneski",
       "position": "P",
       "number": "39",
@@ -92,6 +141,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jorge Barrosa",
+      "position": "CF",
+      "number": "14",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jose Altuve",
       "position": "2B",
       "number": "27",
@@ -109,6 +165,20 @@
       "name": "Josh Hendrickson",
       "position": "P",
       "number": "61",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kai-Wei Teng",
+      "position": "P",
+      "number": "17",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "LaMonte Wade Jr.",
+      "position": "LF",
+      "number": "31",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -162,6 +232,20 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Ronel Blanco",
+      "position": "P",
+      "number": "56",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Steven Okert",
+      "position": "P",
+      "number": "48",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Tatsuya Imai",
       "position": "P",
       "number": "45",
@@ -186,6 +270,20 @@
       "name": "Yordan Alvarez",
       "position": "DH",
       "number": "44",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Zach Cole",
+      "position": "LF",
+      "number": "16",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Zach Dezenzo",
+      "position": "LF",
+      "number": "9",
       "status": "A",
       "source": "MLB Stats API"
     }
