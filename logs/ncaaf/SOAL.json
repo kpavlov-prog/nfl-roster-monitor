@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-01T16:49:15.255252+00:00",
+    "teamCode": "SOAL",
+    "teamName": "South Alabama Jaguars",
+    "type": "added",
+    "playerName": "Masey Lewis",
+    "position": "DL",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-01T16:49:15.255278+00:00",
+    "teamCode": "SOAL",
+    "teamName": "South Alabama Jaguars",
+    "type": "removed",
+    "playerName": "Mase Lewis",
+    "position": "DL",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-27T14:49:43.518501+00:00",
     "teamCode": "SOAL",
     "teamName": "South Alabama Jaguars",

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-01T16:47:45.599614+00:00",
+    "teamCode": "RICE",
+    "teamName": "Rice Owls",
+    "type": "added",
+    "playerName": "D'Andre Hardeman Jr.",
+    "position": "RB",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-01T16:47:45.599654+00:00",
+    "teamCode": "RICE",
+    "teamName": "Rice Owls",
+    "type": "removed",
+    "playerName": "DAndre Hardeman Jr.",
+    "position": "RB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-23T14:21:04.830487+00:00",
     "teamCode": "RICE",
     "teamName": "Rice Owls",
