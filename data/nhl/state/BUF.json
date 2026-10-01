@@ -3,7 +3,7 @@
   "team": "Buffalo Sabres",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/BUF/current",
-  "checkedAt": "2026-09-30T15:05:13.818564+00:00",
+  "checkedAt": "2026-10-01T15:34:13.560114+00:00",
   "players": [
     {
       "name": "Alex Lyon",
@@ -27,16 +27,16 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Conor Sheary",
-      "position": "L",
-      "number": "43",
+      "name": "Conor Timmins",
+      "position": "D",
+      "number": "21",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
     {
-      "name": "Conor Timmins",
+      "name": "Dennis Gilbert",
       "position": "D",
-      "number": "21",
+      "number": "44",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -92,7 +92,7 @@
     {
       "name": "Matt Grzelcyk",
       "position": "D",
-      "number": "",
+      "number": "24",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
