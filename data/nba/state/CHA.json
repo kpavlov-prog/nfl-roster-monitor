@@ -3,7 +3,7 @@
   "team": "Charlotte Hornets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/CHA/roster",
-  "checkedAt": "2026-09-30T15:21:53.371744+00:00",
+  "checkedAt": "2026-10-01T15:41:38.982648+00:00",
   "players": [
     {
       "name": "Brandon Miller",
@@ -15,7 +15,7 @@
     {
       "name": "Christian Anderson",
       "position": "G",
-      "number": "",
+      "number": "5",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -29,7 +29,7 @@
     {
       "name": "Dennis Schroder",
       "position": "G",
-      "number": "",
+      "number": "17",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -43,21 +43,21 @@
     {
       "name": "Grayson Allen",
       "position": "G",
-      "number": "",
+      "number": "8",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Hannes Steinbach",
       "position": "F",
-      "number": "",
+      "number": "22",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Jarkel Joiner",
       "position": "G",
-      "number": "",
+      "number": "20",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -65,6 +65,13 @@
       "name": "Kon Knueppel",
       "position": "G",
       "number": "7",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Kylan Boswell",
+      "position": "G",
+      "number": "18",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -85,7 +92,7 @@
     {
       "name": "Naz Reid",
       "position": "C",
-      "number": "",
+      "number": "0",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -106,7 +113,7 @@
     {
       "name": "Royce O'Neale",
       "position": "F",
-      "number": "",
+      "number": "00",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -134,7 +141,7 @@
     {
       "name": "Wyatt Fricks",
       "position": "F",
-      "number": "",
+      "number": "23",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }
