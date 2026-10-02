@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=active",
-  "checkedAt": "2026-10-01T15:26:59.442483+00:00",
+  "checkedAt": "2026-10-02T14:44:07.906288+00:00",
   "players": [
     {
       "name": "Adam Frazier",
@@ -109,6 +109,13 @@
       "name": "Kyren Paris",
       "position": "2B",
       "number": "19",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Logan Porter",
+      "position": "C",
+      "number": "33",
       "status": "A",
       "source": "MLB Stats API"
     },

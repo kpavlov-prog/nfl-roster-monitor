@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-10-01T15:27:08.295474+00:00",
+  "checkedAt": "2026-10-02T14:44:18.172892+00:00",
   "players": [
     {
       "name": "Alejandro Kirk",
@@ -242,6 +242,13 @@
       "name": "Shawn Ross",
       "position": "C",
       "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Spencer Arrighetti",
+      "position": "P",
+      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     },
