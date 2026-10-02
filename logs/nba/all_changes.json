@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-10-02T15:03:09.599912+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bulls",
+    "type": "removed",
+    "playerName": "Marquel Sutton",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-02T15:03:09.599920+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bulls",
+    "type": "removed",
+    "playerName": "Peter Suder",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-02T15:03:11.656245+00:00",
+    "teamCode": "DEN",
+    "teamName": "Denver Nuggets",
+    "type": "added",
+    "playerName": "Ryan Nembhard",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-02T15:03:13.879917+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Rockets",
+    "type": "removed",
+    "playerName": "Rafael Castro",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-01T15:41:38.983805+00:00",
     "teamCode": "CHA",
     "teamName": "Charlotte Hornets",
