@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-10-02T15:56:43.761983+00:00",
+    "teamCode": "FIU",
+    "teamName": "Florida International Panthers",
+    "type": "added",
+    "playerName": "De'Andre Arnold",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-02T15:56:43.762035+00:00",
+    "teamCode": "FIU",
+    "teamName": "Florida International Panthers",
+    "type": "removed",
+    "playerName": "Deandre Arnold",
+    "position": "LB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-02T16:04:18.098462+00:00",
+    "teamCode": "NCST",
+    "teamName": "NC State Wolfpack",
+    "type": "added",
+    "playerName": "Da'Kaari Nelson",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-02T16:04:18.098515+00:00",
+    "teamCode": "NCST",
+    "teamName": "NC State Wolfpack",
+    "type": "removed",
+    "playerName": "Da'Karri Nelson",
+    "position": "LB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-01T16:44:02.649104+00:00",
     "teamCode": "UNC",
     "teamName": "North Carolina Tar Heels",
