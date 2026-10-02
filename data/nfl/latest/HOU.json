@@ -3,8 +3,16 @@
   "team": "Houston Texans",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/houston-texans/roster",
-  "checkedAt": "2026-10-01T14:57:26.896234+00:00",
+  "checkedAt": "2026-10-02T14:20:43.931059+00:00",
   "players": [
+    {
+      "name": "Aaron Graves",
+      "position": "DE",
+      "number": "77",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
     {
       "name": "Aiden Fisher",
       "position": "LB",
@@ -118,10 +126,18 @@
       "source": "NFL.com"
     },
     {
+      "name": "Caleb Johnson",
+      "position": "LB",
+      "number": "74",
+      "status": "LISTED",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Chris Braswell",
       "position": "LB",
       "number": "75",
-      "status": "LISTED",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },
@@ -481,7 +497,7 @@
       "name": "Mario Edwards",
       "position": "DT",
       "number": "97",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -602,6 +618,14 @@
       "position": "OT",
       "number": "77",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Treyvhon Saunders",
+      "position": "WR",
+      "number": "70",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

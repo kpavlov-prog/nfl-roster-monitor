@@ -3,7 +3,7 @@
   "team": "Dallas Cowboys",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/dallas-cowboys/roster",
-  "checkedAt": "2026-10-01T14:57:19.908086+00:00",
+  "checkedAt": "2026-10-02T14:20:37.407609+00:00",
   "players": [
     {
       "name": "Adedayo Odeleye",
@@ -18,6 +18,14 @@
       "position": "OT",
       "number": "65",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Alex Austin",
+      "position": "DB",
+      "number": "73",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -201,7 +209,7 @@
       "name": "Elijah Garcia",
       "position": "DE",
       "number": "77",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -265,7 +273,7 @@
       "name": "Jalen Thompson",
       "position": "DB",
       "number": "34",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -302,10 +310,18 @@
       "source": "NFL.com"
     },
     {
+      "name": "Joey Porter Jr.",
+      "position": "CB",
+      "number": "74",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Jonathan Bullard",
       "position": "DE",
       "number": "90",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -321,6 +337,14 @@
       "name": "Jordan Hudson",
       "position": "WR",
       "number": "81",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Juanyeh Thomas",
+      "position": "DB",
+      "number": "75",
       "status": "LISTED",
       "important": true,
       "source": "NFL.com"
@@ -579,6 +603,14 @@
       "number": "73",
       "status": "RES",
       "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Tyrek Funderburk",
+      "position": "CB",
+      "number": "72",
+      "status": "LISTED",
+      "important": true,
       "source": "NFL.com"
     },
     {
