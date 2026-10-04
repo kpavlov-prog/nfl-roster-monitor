@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-04T14:04:54.684742+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "added",
+    "playerName": "Randy Vásquez",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-04T14:04:54.684752+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "removed",
+    "playerName": "Walker Buehler",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-30T14:55:00.061687+00:00",
     "teamCode": "SD",
     "teamName": "San Diego Padres",

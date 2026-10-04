@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/143/roster?rosterType=active",
-  "checkedAt": "2026-10-03T13:23:03.753186+00:00",
+  "checkedAt": "2026-10-04T14:04:53.351754+00:00",
   "players": [
     {
       "name": "Aaron Nola",
       "position": "P",
       "number": "27",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Alan Rangel",
+      "position": "P",
+      "number": "57",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -29,6 +36,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Andrew Hoffmann",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Andrew Painter",
       "position": "P",
       "number": "24",
@@ -39,6 +53,13 @@
       "name": "Brandon Marsh",
       "position": "LF",
       "number": "16",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brooks Raley",
+      "position": "P",
+      "number": "30",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -71,6 +92,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Colby Thomas",
+      "position": "RF",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Cristopher Sánchez",
       "position": "P",
       "number": "61",
@@ -92,9 +120,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Gabriel Rincones Jr.",
+      "position": "RF",
+      "number": "17",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Garrett Stubbs",
       "position": "C",
       "number": "21",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Grant Holman",
+      "position": "P",
+      "number": "51",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -141,9 +183,58 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Kameron Misner",
+      "position": "CF",
+      "number": "18",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kyle Backhus",
+      "position": "P",
+      "number": "19",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Kyle Schwarber",
       "position": "DH",
       "number": "12",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Luis Arraez",
+      "position": "2B",
+      "number": "4",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Max Lazar",
+      "position": "P",
+      "number": "60",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Moisés Chace",
+      "position": "P",
+      "number": "75",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Nestor Cortes",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Orion Kerkering",
+      "position": "P",
+      "number": "50",
       "status": "A",
       "source": "MLB Stats API"
     },

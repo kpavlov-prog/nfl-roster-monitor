@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=active",
-  "checkedAt": "2026-10-03T13:23:04.956083+00:00",
+  "checkedAt": "2026-10-04T14:04:54.683704+00:00",
   "players": [
     {
       "name": "Adrian Morejon",
@@ -148,6 +148,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Randy Vásquez",
+      "position": "P",
+      "number": "98",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Robbie Ray",
       "position": "P",
       "number": "38",
@@ -165,13 +172,6 @@
       "name": "Ty France",
       "position": "1B",
       "number": "25",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Walker Buehler",
-      "position": "P",
-      "number": "10",
       "status": "A",
       "source": "MLB Stats API"
     },

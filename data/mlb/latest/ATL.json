@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-10-03T13:22:52.579696+00:00",
+  "checkedAt": "2026-10-04T14:04:40.855764+00:00",
   "players": [
+    {
+      "name": "AJ Smith-Shawver",
+      "position": "P",
+      "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Austin Riley",
       "position": "3B",
@@ -36,23 +43,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "DaShawn Keirsey Jr.",
-      "position": "CF",
-      "number": "49",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Didier Fuentes",
       "position": "P",
       "number": "72",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Dominic Smith",
-      "position": "DH",
-      "number": "8",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -92,9 +85,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Luke Williams",
-      "position": "SS",
-      "number": "37",
+      "name": "JR Ritchie",
+      "position": "P",
+      "number": "60",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Lane Thomas",
+      "position": "LF",
+      "number": "20",
       "status": "A",
       "source": "MLB Stats API"
     },
