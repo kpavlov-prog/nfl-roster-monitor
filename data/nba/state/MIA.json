@@ -3,7 +3,7 @@
   "team": "Miami Heat",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIA/roster",
-  "checkedAt": "2026-10-03T13:56:39.768202+00:00",
+  "checkedAt": "2026-10-04T14:25:16.637875+00:00",
   "players": [
     {
       "name": "Andrew Wiggins",
@@ -22,7 +22,7 @@
     {
       "name": "Bez Mbeng",
       "position": "G",
-      "number": "",
+      "number": "19",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -55,9 +55,16 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Ian Schieffelin",
+      "position": "F",
+      "number": "20",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "J'Vonne Hadley",
       "position": "F",
-      "number": "",
+      "number": "14",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -71,14 +78,14 @@
     {
       "name": "Klay Thompson",
       "position": "G",
-      "number": "",
+      "number": "11",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
     {
       "name": "Lester Quinones",
       "position": "G",
-      "number": "",
+      "number": "25",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -113,7 +120,7 @@
     {
       "name": "Ryan Conwell",
       "position": "G",
-      "number": "",
+      "number": "4",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -134,7 +141,7 @@
     {
       "name": "Tre Donaldson",
       "position": "G",
-      "number": "",
+      "number": "24",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
