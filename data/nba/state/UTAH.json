@@ -3,7 +3,7 @@
   "team": "Utah Jazz",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/UTAH/roster",
-  "checkedAt": "2026-10-04T14:25:24.910716+00:00",
+  "checkedAt": "2026-10-05T17:26:18.520907+00:00",
   "players": [
     {
       "name": "Ace Bailey",
@@ -128,6 +128,13 @@
       "name": "Tamar Bates",
       "position": "G",
       "number": "0",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Terrell Brown Jr.",
+      "position": "G",
+      "number": "16",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
