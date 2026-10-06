@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-06T15:21:45.653293+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Bruins",
+    "type": "added",
+    "playerName": "Matthew Poitras",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-06T15:21:45.653305+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Bruins",
+    "type": "removed",
+    "playerName": "Michael Eyssimont",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-29T14:56:42.427600+00:00",
     "teamCode": "BOS",
     "teamName": "Boston Bruins",
