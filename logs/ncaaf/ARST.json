@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-06T15:59:16.874421+00:00",
+    "teamCode": "ARST",
+    "teamName": "Arkansas State Red Wolves",
+    "type": "added",
+    "playerName": "Tre Stevens",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-06T15:59:16.874432+00:00",
+    "teamCode": "ARST",
+    "teamName": "Arkansas State Red Wolves",
+    "type": "removed",
+    "playerName": "Robert Stevens",
+    "position": "LB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-09T13:46:01.698103+00:00",
     "teamCode": "ARST",
     "teamName": "Arkansas State Red Wolves",
