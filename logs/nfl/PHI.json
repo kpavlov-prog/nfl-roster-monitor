@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-10-06T14:37:05.251485+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "number changed",
+    "playerName": "Jakorian Bennett",
+    "position": "DB",
+    "oldValue": "23",
+    "newValue": "21",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-06T14:37:05.251499+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "status changed",
+    "playerName": "Josiah Deguara",
+    "position": "TE",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-06T14:37:05.251510+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "status changed",
+    "playerName": "Zach Ertz",
+    "position": "TE",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-04T13:35:29.044765+00:00",
     "teamCode": "PHI",
     "teamName": "Philadelphia Eagles",
