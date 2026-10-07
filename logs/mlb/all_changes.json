@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-10-07T15:33:10.062141+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "added",
+    "playerName": "Walker Buehler",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-07T15:33:10.062151+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "added",
+    "playerName": "Wandy Peralta",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-07T15:33:10.062156+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "removed",
+    "playerName": "Mason Miller",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-07T15:33:10.062159+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "removed",
+    "playerName": "Randy Vásquez",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-04T14:04:40.856822+00:00",
     "teamCode": "ATL",
     "teamName": "Atlanta Braves",

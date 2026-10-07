@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=active",
-  "checkedAt": "2026-10-06T15:11:43.925512+00:00",
+  "checkedAt": "2026-10-07T15:33:10.061132+00:00",
   "players": [
     {
       "name": "Adrian Morejon",
@@ -120,13 +120,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Mason Miller",
-      "position": "P",
-      "number": "22",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Michael King",
       "position": "P",
       "number": "34",
@@ -148,13 +141,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Randy Vásquez",
-      "position": "P",
-      "number": "98",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Robbie Ray",
       "position": "P",
       "number": "38",
@@ -172,6 +158,20 @@
       "name": "Ty France",
       "position": "1B",
       "number": "25",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Walker Buehler",
+      "position": "P",
+      "number": "10",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Wandy Peralta",
+      "position": "P",
+      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },
