@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-07T15:47:51.784943+00:00",
+    "teamCode": "UTAH",
+    "teamName": "Utah Jazz",
+    "type": "added",
+    "playerName": "Taylor Funk",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-07T15:47:51.784949+00:00",
+    "teamCode": "UTAH",
+    "teamName": "Utah Jazz",
+    "type": "removed",
+    "playerName": "Terrell Brown Jr.",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-05T17:26:18.521959+00:00",
     "teamCode": "UTAH",
     "teamName": "Utah Jazz",

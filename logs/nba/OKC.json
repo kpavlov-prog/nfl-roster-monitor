@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-07T15:47:46.374466+00:00",
+    "teamCode": "OKC",
+    "teamName": "Oklahoma City Thunder",
+    "type": "added",
+    "playerName": "Anthony Pritchard",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-07T15:47:46.374491+00:00",
+    "teamCode": "OKC",
+    "teamName": "Oklahoma City Thunder",
+    "type": "removed",
+    "playerName": "Robert McCray V",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-28T17:03:02.467494+00:00",
     "teamCode": "OKC",
     "teamName": "Oklahoma City Thunder",

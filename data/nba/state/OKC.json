@@ -3,7 +3,7 @@
   "team": "Oklahoma City Thunder",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/OKC/roster",
-  "checkedAt": "2026-10-06T15:28:39.120070+00:00",
+  "checkedAt": "2026-10-07T15:47:46.373460+00:00",
   "players": [
     {
       "name": "Aday Mara",
@@ -30,6 +30,13 @@
       "name": "Andrew Holifield",
       "position": "F",
       "number": "17",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Anthony Pritchard",
+      "position": "G",
+      "number": "5",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -121,13 +128,6 @@
       "name": "Otega Oweh",
       "position": "G",
       "number": "13",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Robert McCray V",
-      "position": "G",
-      "number": "16",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

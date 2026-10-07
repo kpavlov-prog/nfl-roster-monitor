@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-10-07T15:47:41.348508+00:00",
+    "teamCode": "LAC",
+    "teamName": "LA Clippers",
+    "type": "removed",
+    "playerName": "Fletcher Loyer",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-07T15:47:46.374466+00:00",
+    "teamCode": "OKC",
+    "teamName": "Oklahoma City Thunder",
+    "type": "added",
+    "playerName": "Anthony Pritchard",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-07T15:47:46.374491+00:00",
+    "teamCode": "OKC",
+    "teamName": "Oklahoma City Thunder",
+    "type": "removed",
+    "playerName": "Robert McCray V",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-07T15:47:51.784943+00:00",
+    "teamCode": "UTAH",
+    "teamName": "Utah Jazz",
+    "type": "added",
+    "playerName": "Taylor Funk",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-07T15:47:51.784949+00:00",
+    "teamCode": "UTAH",
+    "teamName": "Utah Jazz",
+    "type": "removed",
+    "playerName": "Terrell Brown Jr.",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-06T15:28:38.542113+00:00",
     "teamCode": "NY",
     "teamName": "New York Knicks",
