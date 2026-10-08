@@ -3,7 +3,7 @@
   "team": "Chicago Bulls",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/CHI/roster",
-  "checkedAt": "2026-10-07T15:47:36.288038+00:00",
+  "checkedAt": "2026-10-08T15:52:43.387783+00:00",
   "players": [
     {
       "name": "Brandon Boston Jr.",
@@ -48,6 +48,20 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Isaiah Stevens",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Jalen Bridges",
+      "position": "F",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Jalen Smith",
       "position": "F",
       "number": "25",
@@ -58,6 +72,13 @@
       "name": "Jaylin Sellers",
       "position": "G",
       "number": "22",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Jordan Hawkins",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

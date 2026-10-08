@@ -3,7 +3,7 @@
   "team": "Portland Trail Blazers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/POR/roster",
-  "checkedAt": "2026-10-07T15:47:49.116509+00:00",
+  "checkedAt": "2026-10-08T15:52:56.498457+00:00",
   "players": [
     {
       "name": "Branden Carlson",
@@ -44,6 +44,13 @@
       "name": "Ja Morant",
       "position": "G",
       "number": "1",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Jaylen Martin",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
