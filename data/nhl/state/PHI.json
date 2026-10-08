@@ -3,7 +3,7 @@
   "team": "Philadelphia Flyers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/PHI/current",
-  "checkedAt": "2026-10-07T15:40:48.950676+00:00",
+  "checkedAt": "2026-10-08T15:46:31.120731+00:00",
   "players": [
     {
       "name": "Cam York",
@@ -72,6 +72,13 @@
       "name": "Matvei Michkov",
       "position": "R",
       "number": "39",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Michael Bunting",
+      "position": "L",
+      "number": "58",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

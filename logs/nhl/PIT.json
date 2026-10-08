@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-08T15:46:31.874886+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Penguins",
+    "type": "added",
+    "playerName": "Spencer Stastney",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-08T15:46:31.874896+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Penguins",
+    "type": "removed",
+    "playerName": "Filip Hallander",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-04T14:16:00.926796+00:00",
     "teamCode": "PIT",
     "teamName": "Pittsburgh Penguins",
