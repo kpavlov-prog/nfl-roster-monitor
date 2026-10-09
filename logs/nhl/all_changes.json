@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-10-09T15:27:58.862589+00:00",
+    "teamCode": "FLA",
+    "teamName": "Florida Panthers",
+    "type": "added",
+    "playerName": "Sam Lafferty",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-09T15:28:00.346191+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "added",
+    "playerName": "Rieger Lorenz",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-09T15:28:00.346199+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "removed",
+    "playerName": "Tyler Pitlick",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-09T15:28:09.749949+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Maple Leafs",
+    "type": "removed",
+    "playerName": "Luke Haymes",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-08T15:46:18.116196+00:00",
     "teamCode": "CGY",
     "teamName": "Calgary Flames",
