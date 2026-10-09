@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-10-09T15:35:06.864823+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Heat",
+    "type": "added",
+    "playerName": "Gabe Madsen",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-09T15:35:06.864829+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Heat",
+    "type": "added",
+    "playerName": "Kylor Kelley",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-09T15:35:06.864833+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Heat",
+    "type": "removed",
+    "playerName": "J'Vonne Hadley",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-09T15:35:06.864835+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Heat",
+    "type": "removed",
+    "playerName": "Lester Quinones",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-09T15:35:09.290151+00:00",
+    "teamCode": "NY",
+    "teamName": "New York Knicks",
+    "type": "number changed",
+    "playerName": "Tony Bradley",
+    "position": "C",
+    "oldValue": "13",
+    "newValue": "18",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-09T15:35:15.383767+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Wizards",
+    "type": "added",
+    "playerName": "Skal Labissiere",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-10-08T15:52:43.388913+00:00",
     "teamCode": "CHI",
     "teamName": "Chicago Bulls",

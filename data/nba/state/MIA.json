@@ -3,7 +3,7 @@
   "team": "Miami Heat",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIA/roster",
-  "checkedAt": "2026-10-08T15:52:50.798591+00:00",
+  "checkedAt": "2026-10-09T15:35:06.864366+00:00",
   "players": [
     {
       "name": "Andrew Wiggins",
@@ -48,6 +48,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Gabe Madsen",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Giannis Antetokounmpo",
       "position": "F",
       "number": "7",
@@ -58,13 +65,6 @@
       "name": "Ian Schieffelin",
       "position": "F",
       "number": "20",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "J'Vonne Hadley",
-      "position": "F",
-      "number": "14",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -83,9 +83,9 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Lester Quinones",
-      "position": "G",
-      "number": "25",
+      "name": "Kylor Kelley",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
