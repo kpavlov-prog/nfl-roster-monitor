@@ -5,12 +5,33 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=active",
-  "checkedAt": "2026-10-08T15:36:29.218022+00:00",
+  "checkedAt": "2026-10-09T15:18:08.238258+00:00",
   "players": [
+    {
+      "name": "Aaron Judge",
+      "position": "RF",
+      "number": "99",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Ali Sánchez",
       "position": "C",
       "number": "39",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Amed Rosario",
+      "position": "3B",
+      "number": "14",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Angel Chivilli",
+      "position": "P",
+      "number": "57",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -36,6 +57,20 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Bradley Hanner",
+      "position": "P",
+      "number": "93",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brendan Beck",
+      "position": "P",
+      "number": "89",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Brent Headrick",
       "position": "P",
       "number": "47",
@@ -57,6 +92,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Clarke Schmidt",
+      "position": "P",
+      "number": "36",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Cody Bellinger",
       "position": "LF",
       "number": "35",
@@ -67,6 +109,13 @@
       "name": "David Bednar",
       "position": "P",
       "number": "53",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Elmer Rodríguez",
+      "position": "P",
+      "number": "71",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -99,6 +148,20 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "J.C. Escarra",
+      "position": "C",
+      "number": "25",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jasson Domínguez",
+      "position": "RF",
+      "number": "24",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jazz Chisholm Jr.",
       "position": "2B",
       "number": "13",
@@ -127,9 +190,30 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Luis Gil",
+      "position": "P",
+      "number": "81",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Max Fried",
       "position": "P",
       "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Max Schuemann",
+      "position": "LF",
+      "number": "30",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Michael Fulmer",
+      "position": "P",
+      "number": "43",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -176,6 +260,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Tim Hill",
+      "position": "P",
+      "number": "41",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Trent Grisham",
       "position": "CF",
       "number": "12",
@@ -186,6 +277,13 @@
       "name": "Will Warren",
       "position": "P",
       "number": "29",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yerry De los Santos",
+      "position": "P",
+      "number": "73",
       "status": "A",
       "source": "MLB Stats API"
     }

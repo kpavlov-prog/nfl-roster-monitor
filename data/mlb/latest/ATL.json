@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-10-08T15:36:18.824371+00:00",
+  "checkedAt": "2026-10-09T15:17:58.203932+00:00",
   "players": [
     {
       "name": "AJ Smith-Shawver",
@@ -18,6 +18,13 @@
       "name": "Austin Riley",
       "position": "3B",
       "number": "27",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Blake Burkhalter",
+      "position": "P",
+      "number": "76",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -36,6 +43,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Bryce Elder",
+      "position": "P",
+      "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Chris Sale",
       "position": "P",
       "number": "51",
@@ -43,9 +57,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "DaShawn Keirsey Jr.",
+      "position": "CF",
+      "number": "49",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Didier Fuentes",
       "position": "P",
       "number": "72",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Dominic Smith",
+      "position": "DH",
+      "number": "8",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -92,9 +120,44 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "James Karinchak",
+      "position": "P",
+      "number": "00",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jim Jarvis",
+      "position": "SS",
+      "number": "74",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kyle Farmer",
+      "position": "DH",
+      "number": "15",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Lane Thomas",
       "position": "LF",
       "number": "20",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Luke Williams",
+      "position": "SS",
+      "number": "37",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Martín Pérez",
+      "position": "P",
+      "number": "33",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -113,6 +176,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Michael Grove",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Michael Harris II",
       "position": "CF",
       "number": "23",
@@ -123,6 +193,13 @@
       "name": "Mike Yastrzemski",
       "position": "LF",
       "number": "18",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Owen Murphy",
+      "position": "P",
+      "number": "73",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -148,9 +225,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Reynaldo López",
+      "position": "P",
+      "number": "40",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Robert Suarez",
       "position": "P",
       "number": "75",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Rolddy Muñoz",
+      "position": "P",
+      "number": "67",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,6 +270,13 @@
       "name": "Tyler Mahle",
       "position": "P",
       "number": "54",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tyler Uberstine",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
