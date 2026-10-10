@@ -3,7 +3,7 @@
   "team": "Minnesota Wild",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/MIN/current",
-  "checkedAt": "2026-10-09T15:28:00.345135+00:00",
+  "checkedAt": "2026-10-10T14:34:59.681491+00:00",
   "players": [
     {
       "name": "Blake Coleman",
@@ -55,6 +55,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Filip Gustavsson",
+      "position": "G",
+      "number": "32",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Jared Spurgeon",
       "position": "D",
       "number": "46",
@@ -100,6 +107,13 @@
       "name": "Matt Boldy",
       "position": "L",
       "number": "12",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Matt Kiersted",
+      "position": "D",
+      "number": "26",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -156,13 +170,6 @@
       "name": "Ryan Hartman",
       "position": "R",
       "number": "38",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Viking Gustafsson Nyberg",
-      "position": "D",
-      "number": "6",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

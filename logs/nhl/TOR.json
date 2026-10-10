@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-10T14:35:08.240940+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Maple Leafs",
+    "type": "number changed",
+    "playerName": "Kirill Marchenko",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "86",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-10T14:35:08.240948+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Maple Leafs",
+    "type": "added",
+    "playerName": "Miles Wood",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-10-09T15:28:09.749949+00:00",
     "teamCode": "TOR",
     "teamName": "Toronto Maple Leafs",

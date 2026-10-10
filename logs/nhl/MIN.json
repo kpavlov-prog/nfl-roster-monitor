@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-10-10T14:34:59.682219+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "added",
+    "playerName": "Filip Gustavsson",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-10T14:34:59.682229+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "added",
+    "playerName": "Matt Kiersted",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-10T14:34:59.682234+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "removed",
+    "playerName": "Viking Gustafsson Nyberg",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-09T15:28:00.346191+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Wild",
