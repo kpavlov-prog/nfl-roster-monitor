@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-10T14:27:51.916926+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Braves",
+    "type": "added",
+    "playerName": "Danny Young",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-10T14:27:51.916945+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Braves",
+    "type": "removed",
+    "playerName": "Luke Williams",
+    "position": "SS",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-09T15:17:58.205063+00:00",
     "teamCode": "ATL",
     "teamName": "Atlanta Braves",

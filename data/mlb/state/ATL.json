@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-10-09T15:17:58.203932+00:00",
+  "checkedAt": "2026-10-10T14:27:51.916001+00:00",
   "players": [
     {
       "name": "AJ Smith-Shawver",
@@ -60,6 +60,13 @@
       "name": "DaShawn Keirsey Jr.",
       "position": "CF",
       "number": "49",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Danny Young",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -144,13 +151,6 @@
       "name": "Lane Thomas",
       "position": "LF",
       "number": "20",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Luke Williams",
-      "position": "SS",
-      "number": "37",
       "status": "A",
       "source": "MLB Stats API"
     },
