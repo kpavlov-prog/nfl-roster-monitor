@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-10-10T14:07:00.080296+00:00",
+    "teamCode": "GB",
+    "teamName": "Green Bay Packers",
+    "type": "status changed",
+    "playerName": "Edgerrin Cooper",
+    "position": "LB",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-10T14:07:00.080310+00:00",
+    "teamCode": "GB",
+    "teamName": "Green Bay Packers",
+    "type": "added",
+    "playerName": "Jack Dingle",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-10T14:07:00.080321+00:00",
+    "teamCode": "GB",
+    "teamName": "Green Bay Packers",
+    "type": "status changed",
+    "playerName": "Kristian Welch",
+    "position": "LB",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-10T14:07:00.080331+00:00",
+    "teamCode": "GB",
+    "teamName": "Green Bay Packers",
+    "type": "status changed",
+    "playerName": "Pierre Strong",
+    "position": "RB",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-06T14:36:39.191382+00:00",
     "teamCode": "GB",
     "teamName": "Green Bay Packers",

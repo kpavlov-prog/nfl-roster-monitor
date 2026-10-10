@@ -3,7 +3,7 @@
   "team": "Houston Texans",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/houston-texans/roster",
-  "checkedAt": "2026-10-09T14:49:08.829764+00:00",
+  "checkedAt": "2026-10-10T14:07:01.672417+00:00",
   "players": [
     {
       "name": "Aaron Graves",
@@ -73,7 +73,7 @@
       "name": "Braden Smith",
       "position": "OT",
       "number": "71",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -105,7 +105,7 @@
       "name": "Bryce Oliver",
       "position": "WR",
       "number": "73",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -129,6 +129,14 @@
       "name": "Caleb Johnson",
       "position": "LB",
       "number": "74",
+      "status": "LISTED",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Chad Muma",
+      "position": "LB",
+      "number": "75",
       "status": "LISTED",
       "important": false,
       "source": "NFL.com"
@@ -202,6 +210,14 @@
       "position": "CB",
       "number": "24",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Deuce Vaughn",
+      "position": "RB",
+      "number": "65",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -318,6 +334,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Jaden Davis",
+      "position": "DB",
+      "number": "70",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Jadeveon Clowney",
       "position": "DE",
       "number": "90",
@@ -393,7 +417,7 @@
       "name": "Jaylin Smith",
       "position": "CB",
       "number": "22",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -449,7 +473,7 @@
       "name": "Kayden McDonald",
       "position": "DT",
       "number": "93",
-      "status": "RES",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -505,7 +529,7 @@
       "name": "Mark Gronowski",
       "position": "QB",
       "number": "74",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },

@@ -3,7 +3,7 @@
   "team": "Minnesota Vikings",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/minnesota-vikings/roster",
-  "checkedAt": "2026-10-09T14:49:23.276287+00:00",
+  "checkedAt": "2026-10-10T14:07:14.398325+00:00",
   "players": [
     {
       "name": "Aaron Jones",
@@ -49,7 +49,7 @@
       "name": "Ben Yurosek",
       "position": "TE",
       "number": "85",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -233,7 +233,7 @@
       "name": "Donovan Jackson",
       "position": "G",
       "number": "74",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -558,6 +558,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Odell Beckham Jr.",
+      "position": "WR",
+      "number": "71",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Ryan Van Demark",
       "position": "OT",
       "number": "72",
@@ -614,6 +622,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Tristan Leigh",
+      "position": "OT",
+      "number": "77",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Tyler Batty",
       "position": "LB",
       "number": "92",
@@ -625,7 +641,7 @@
       "name": "Tyreek Chappell",
       "position": "CB",
       "number": "28",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

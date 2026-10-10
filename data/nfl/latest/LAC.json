@@ -3,7 +3,7 @@
   "team": "Los Angeles Chargers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/los-angeles-chargers/roster",
-  "checkedAt": "2026-10-09T14:49:18.006525+00:00",
+  "checkedAt": "2026-10-10T14:07:09.631017+00:00",
   "players": [
     {
       "name": "Akheem Mesidor",
@@ -130,6 +130,14 @@
       "position": "DE",
       "number": "94",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Daniel Brunskill",
+      "position": "OT",
+      "number": "77",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -489,7 +497,7 @@
       "name": "Rashawn Slater",
       "position": "OT",
       "number": "70",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },

@@ -3,7 +3,7 @@
   "team": "Denver Broncos",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/denver-broncos/roster",
-  "checkedAt": "2026-10-09T14:49:03.332049+00:00",
+  "checkedAt": "2026-10-10T14:06:56.875438+00:00",
   "players": [
     {
       "name": "Adam Prentice",
@@ -81,6 +81,14 @@
       "name": "Calvin Throckmorton",
       "position": "OT",
       "number": "76",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Cameron Ross",
+      "position": "WR",
+      "number": "80",
       "status": "LISTED",
       "important": true,
       "source": "NFL.com"
@@ -337,7 +345,7 @@
       "name": "Lil'Jordan Humphrey",
       "position": "WR",
       "number": "76",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -449,7 +457,7 @@
       "name": "Pat Bryant",
       "position": "WR",
       "number": "13",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -555,6 +563,14 @@
       "number": "98",
       "status": "ACT",
       "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Ugo Amadi",
+      "position": "CB",
+      "number": "69",
+      "status": "LISTED",
+      "important": true,
       "source": "NFL.com"
     },
     {

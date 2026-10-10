@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-10-10T14:07:20.791644+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "status changed",
+    "playerName": "Braiden McGregor",
+    "position": "DE",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-10-10T14:07:20.791670+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "status changed",
+    "playerName": "Nate Lynn",
+    "position": "LB",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-10T14:07:20.791677+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "position changed",
+    "playerName": "Nate Lynn",
+    "position": "LB",
+    "oldValue": "DE",
+    "newValue": "LB",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-10T14:07:20.791681+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "added",
+    "playerName": "Nathan Voorhis",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-10T14:07:20.791689+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "status changed",
+    "playerName": "Tim Patrick",
+    "position": "WR",
+    "oldValue": "RES",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-10-06T14:37:03.376366+00:00",
     "teamCode": "NYJ",
     "teamName": "New York Jets",

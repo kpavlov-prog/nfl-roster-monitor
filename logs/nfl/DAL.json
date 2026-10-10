@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-10T14:06:55.288851+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Cowboys",
+    "type": "status changed",
+    "playerName": "Emari Demercado",
+    "position": "RB",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-10T14:06:55.288878+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Cowboys",
+    "type": "status changed",
+    "playerName": "Tyler Smith",
+    "position": "G",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-10-06T14:36:32.793448+00:00",
     "teamCode": "DAL",
     "teamName": "Dallas Cowboys",

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-10T14:07:11.220299+00:00",
+    "teamCode": "LAR",
+    "teamName": "Los Angeles Rams",
+    "type": "added",
+    "playerName": "Eric Kendricks",
+    "position": "MLB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-10T14:07:11.220313+00:00",
+    "teamCode": "LAR",
+    "teamName": "Los Angeles Rams",
+    "type": "number changed",
+    "playerName": "Jamie Sheriff",
+    "position": "LB",
+    "oldValue": "73",
+    "newValue": "51",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-10-06T14:36:52.550121+00:00",
     "teamCode": "LAR",
     "teamName": "Los Angeles Rams",

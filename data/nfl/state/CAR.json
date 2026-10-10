@@ -3,7 +3,7 @@
   "team": "Carolina Panthers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/carolina-panthers/roster",
-  "checkedAt": "2026-10-09T14:48:53.865574+00:00",
+  "checkedAt": "2026-10-10T14:06:48.926866+00:00",
   "players": [
     {
       "name": "AJ Dillon",
@@ -57,7 +57,7 @@
       "name": "Anthony Tyus III",
       "position": "RB",
       "number": "34",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -414,6 +414,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Marco Wilson",
+      "position": "CB",
+      "number": "71",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Mike Jackson",
       "position": "CB",
       "number": "2",
@@ -442,6 +450,14 @@
       "position": "LB",
       "number": "11",
       "status": "RES",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Nick Hampton",
+      "position": "LB",
+      "number": "75",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },

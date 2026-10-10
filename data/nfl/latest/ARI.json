@@ -3,7 +3,7 @@
   "team": "Arizona Cardinals",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/arizona-cardinals/roster",
-  "checkedAt": "2026-10-09T14:48:45.651062+00:00",
+  "checkedAt": "2026-10-10T14:06:42.519957+00:00",
   "players": [
     {
       "name": "Andrew Billings",
@@ -17,6 +17,14 @@
       "name": "Art Green",
       "position": "CB",
       "number": "74",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Austin Deculus",
+      "position": "OT",
+      "number": "77",
       "status": "LISTED",
       "important": true,
       "source": "NFL.com"
@@ -249,7 +257,7 @@
       "name": "Hunter Long",
       "position": "TE",
       "number": "89",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -342,6 +350,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Jedrick Wills",
+      "position": "OT",
+      "number": "76",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Jeremiyah Love",
       "position": "RB",
       "number": "4",
@@ -422,6 +438,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Kenny Yeboah",
+      "position": "TE",
+      "number": "76",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Kingsley Eguakun",
       "position": "C",
       "number": "75",
@@ -481,7 +505,7 @@
       "name": "Paris Johnson Jr.",
       "position": "OT",
       "number": "70",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -529,7 +553,7 @@
       "name": "Teagan Quitoriano",
       "position": "TE",
       "number": "47",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },

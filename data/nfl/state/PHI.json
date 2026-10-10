@@ -3,7 +3,7 @@
   "team": "Philadelphia Eagles",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/philadelphia-eagles/roster",
-  "checkedAt": "2026-10-09T14:49:32.475906+00:00",
+  "checkedAt": "2026-10-10T14:07:22.382040+00:00",
   "players": [
     {
       "name": "A.J. Epenesa",
@@ -17,7 +17,7 @@
       "name": "Andy Dalton",
       "position": "QB",
       "number": "14",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -65,7 +65,7 @@
       "name": "Cam Jurgens",
       "position": "G",
       "number": "51",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -73,7 +73,7 @@
       "name": "Carson Steele",
       "position": "RB",
       "number": "34",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -113,7 +113,7 @@
       "name": "Dameon Pierce",
       "position": "RB",
       "number": "39",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -182,6 +182,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Erik Ezukanma",
+      "position": "WR",
+      "number": "74",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Fred Johnson",
       "position": "OT",
       "number": "74",
@@ -217,7 +225,7 @@
       "name": "Jake Majors",
       "position": "C",
       "number": "75",
-      "status": "LISTED",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },
@@ -250,6 +258,14 @@
       "position": "LB",
       "number": "58",
       "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "James Brockermeyer",
+      "position": "C",
+      "number": "75",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -529,7 +545,7 @@
       "name": "Tank Bigsby",
       "position": "RB",
       "number": "8",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },

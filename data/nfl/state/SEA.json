@@ -3,7 +3,7 @@
   "team": "Seattle Seahawks",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/seattle-seahawks/roster",
-  "checkedAt": "2026-10-09T14:49:37.810972+00:00",
+  "checkedAt": "2026-10-10T14:07:27.159189+00:00",
   "players": [
     {
       "name": "AJ Barner",
@@ -186,6 +186,14 @@
       "position": "CB",
       "number": "21",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Dontae McMillan",
+      "position": "RB",
+      "number": "70",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -514,6 +522,14 @@
       "position": "RB",
       "number": "40",
       "status": "RES",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Robert Henry Jr.",
+      "position": "RB",
+      "number": "69",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
