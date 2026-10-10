@@ -3,7 +3,7 @@
   "team": "Los Angeles Lakers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/LAL/roster",
-  "checkedAt": "2026-10-09T15:35:05.648827+00:00",
+  "checkedAt": "2026-10-10T14:47:08.109206+00:00",
   "players": [
     {
       "name": "AK Okereke",
@@ -125,6 +125,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Rafael Castro",
+      "position": "F",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Sandro Mamukelashvili",
       "position": "F",
       "number": "54",
@@ -135,13 +142,6 @@
       "name": "Walker Kessler",
       "position": "C",
       "number": "14",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "William Kyle III",
-      "position": "F",
-      "number": "45",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

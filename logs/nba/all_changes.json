@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-10-10T14:47:02.366101+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bulls",
+    "type": "number changed",
+    "playerName": "Buddy Hield",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "7",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-10T14:47:02.366111+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bulls",
+    "type": "number changed",
+    "playerName": "Jalen Bridges",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "20",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-10T14:47:02.366116+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bulls",
+    "type": "number changed",
+    "playerName": "Jordan Hawkins",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "15",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-10T14:47:08.110287+00:00",
+    "teamCode": "LAL",
+    "teamName": "Los Angeles Lakers",
+    "type": "added",
+    "playerName": "Rafael Castro",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-10T14:47:08.110298+00:00",
+    "teamCode": "LAL",
+    "teamName": "Los Angeles Lakers",
+    "type": "removed",
+    "playerName": "William Kyle III",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-09T15:35:06.864823+00:00",
     "teamCode": "MIA",
     "teamName": "Miami Heat",
