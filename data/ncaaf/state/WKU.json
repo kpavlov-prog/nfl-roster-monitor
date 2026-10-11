@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/98.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/98/roster?limit=100&page=1",
-  "checkedAt": "2026-10-10T15:41:32.780044+00:00",
+  "checkedAt": "2026-10-11T16:08:52.746476+00:00",
   "players": [
     {
       "name": "Adrion Boyd",
@@ -347,6 +347,13 @@
       "name": "Javin Griffin",
       "position": "DT",
       "number": "92",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Jayden Gray",
+      "position": "DL",
+      "number": "15",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
