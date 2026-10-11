@@ -3,7 +3,7 @@
   "team": "Philadelphia Flyers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/PHI/current",
-  "checkedAt": "2026-10-10T14:35:04.352563+00:00",
+  "checkedAt": "2026-10-11T15:00:18.882413+00:00",
   "players": [
     {
       "name": "Cam York",
@@ -51,6 +51,13 @@
       "name": "Garrett Wilson",
       "position": "L",
       "number": "10",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Helge Grans",
+      "position": "D",
+      "number": "3",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
