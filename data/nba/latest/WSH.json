@@ -3,7 +3,7 @@
   "team": "Washington Wizards",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/WSH/roster",
-  "checkedAt": "2026-10-10T14:47:18.400597+00:00",
+  "checkedAt": "2026-10-11T15:06:34.024737+00:00",
   "players": [
     {
       "name": "AJ Dybantsa",
@@ -72,6 +72,13 @@
       "name": "Jamir Watkins",
       "position": "G",
       "number": "5",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Jazian Gortman",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

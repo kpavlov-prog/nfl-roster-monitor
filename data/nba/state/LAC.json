@@ -3,7 +3,7 @@
   "team": "LA Clippers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/LAC/roster",
-  "checkedAt": "2026-10-10T14:47:07.474212+00:00",
+  "checkedAt": "2026-10-11T15:06:23.669084+00:00",
   "players": [
     {
       "name": "Baba Miller",
@@ -62,6 +62,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Fletcher Loyer",
+      "position": "G",
+      "number": "26",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Gradey Dick",
       "position": "G",
       "number": "9",
@@ -72,6 +79,13 @@
       "name": "Isaiah Jackson",
       "position": "F",
       "number": "23",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Jahmyl Telfort",
+      "position": "F",
+      "number": "19",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

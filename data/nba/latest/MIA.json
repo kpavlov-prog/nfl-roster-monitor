@@ -3,7 +3,7 @@
   "team": "Miami Heat",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIA/roster",
-  "checkedAt": "2026-10-10T14:47:09.342408+00:00",
+  "checkedAt": "2026-10-11T15:06:25.489088+00:00",
   "players": [
     {
       "name": "Andrew Wiggins",
@@ -41,6 +41,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Dennis Smith Jr.",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Dru Smith",
       "position": "G",
       "number": "12",
@@ -69,6 +76,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "J'Vonne Hadley",
+      "position": "F",
+      "number": "14",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Keshad Johnson",
       "position": "F",
       "number": "16",
@@ -86,6 +100,13 @@
       "name": "Kylor Kelley",
       "position": "C",
       "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Lester Quinones",
+      "position": "G",
+      "number": "25",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
