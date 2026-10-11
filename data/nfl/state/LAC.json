@@ -3,7 +3,7 @@
   "team": "Los Angeles Chargers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/los-angeles-chargers/roster",
-  "checkedAt": "2026-10-10T14:07:09.631017+00:00",
+  "checkedAt": "2026-10-11T14:31:03.506102+00:00",
   "players": [
     {
       "name": "Akheem Mesidor",
@@ -49,7 +49,7 @@
       "name": "Branson Taylor",
       "position": "OT",
       "number": "71",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -137,7 +137,7 @@
       "name": "Daniel Brunskill",
       "position": "OT",
       "number": "77",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -249,7 +249,7 @@
       "name": "Isas Waxter",
       "position": "DB",
       "number": "73",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -511,10 +511,10 @@
     },
     {
       "name": "Scott Matlock",
-      "position": "DT",
+      "position": "RB",
       "number": "44",
-      "status": "LISTED",
-      "important": false,
+      "status": "ACT",
+      "important": true,
       "source": "NFL.com"
     },
     {
@@ -545,7 +545,7 @@
       "name": "Theo Wease Jr.",
       "position": "WR",
       "number": "74",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -577,7 +577,7 @@
       "name": "Trevor Penning",
       "position": "OT",
       "number": "75",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -585,7 +585,7 @@
       "name": "Trey Lance",
       "position": "QB",
       "number": "5",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
