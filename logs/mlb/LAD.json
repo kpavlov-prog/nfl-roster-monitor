@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-12T17:53:53.759501+00:00",
+    "teamCode": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "type": "added",
+    "playerName": "Justin Wrobleski",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-12T17:53:53.759514+00:00",
+    "teamCode": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "type": "removed",
+    "playerName": "Hyeseong Kim",
+    "position": "SS",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-04T14:04:48.825115+00:00",
     "teamCode": "LAD",
     "teamName": "Los Angeles Dodgers",
