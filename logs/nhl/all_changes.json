@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-10-12T18:06:07.065463+00:00",
+    "teamCode": "NSH",
+    "teamName": "Nashville Predators",
+    "type": "number changed",
+    "playerName": "Jayden Struble",
+    "position": "D",
+    "oldValue": "38",
+    "newValue": "3",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-12T18:06:09.862798+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Flyers",
+    "type": "added",
+    "playerName": "Oliver Bonk",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-12T18:06:13.204503+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Maple Leafs",
+    "type": "added",
+    "playerName": "Marshall Rifai",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-12T18:06:14.901421+00:00",
+    "teamCode": "VGK",
+    "teamName": "Vegas Golden Knights",
+    "type": "added",
+    "playerName": "Ville Heinola",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-10-11T15:00:14.641142+00:00",
     "teamCode": "MTL",
     "teamName": "Montreal Canadiens",

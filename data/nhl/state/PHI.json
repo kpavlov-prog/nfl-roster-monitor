@@ -3,7 +3,7 @@
   "team": "Philadelphia Flyers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/PHI/current",
-  "checkedAt": "2026-10-11T15:00:18.882413+00:00",
+  "checkedAt": "2026-10-12T18:06:09.862020+00:00",
   "players": [
     {
       "name": "Cam York",
@@ -114,6 +114,13 @@
       "name": "Noel Acciari",
       "position": "C",
       "number": "52",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Oliver Bonk",
+      "position": "D",
+      "number": "59",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

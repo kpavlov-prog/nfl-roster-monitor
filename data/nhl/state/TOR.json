@@ -3,7 +3,7 @@
   "team": "Toronto Maple Leafs",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/TOR/current",
-  "checkedAt": "2026-10-11T15:00:23.161082+00:00",
+  "checkedAt": "2026-10-12T18:06:13.203617+00:00",
   "players": [
     {
       "name": "Anthony Stolarz",
@@ -93,6 +93,13 @@
       "name": "Kirill Marchenko",
       "position": "R",
       "number": "86",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Marshall Rifai",
+      "position": "D",
+      "number": "83",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
