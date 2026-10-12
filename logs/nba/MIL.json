@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-12T18:14:05.006797+00:00",
+    "teamCode": "MIL",
+    "teamName": "Milwaukee Bucks",
+    "type": "added",
+    "playerName": "John Butler Jr.",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-12T18:14:05.006803+00:00",
+    "teamCode": "MIL",
+    "teamName": "Milwaukee Bucks",
+    "type": "number changed",
+    "playerName": "Johni Broome",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "22",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-10-08T15:52:51.454399+00:00",
     "teamCode": "MIL",
     "teamName": "Milwaukee Bucks",

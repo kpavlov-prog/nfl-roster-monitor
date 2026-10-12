@@ -3,7 +3,7 @@
   "team": "Milwaukee Bucks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIL/roster",
-  "checkedAt": "2026-10-11T15:06:26.131901+00:00",
+  "checkedAt": "2026-10-12T18:14:05.005722+00:00",
   "players": [
     {
       "name": "AJ Green",
@@ -69,9 +69,16 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "John Butler Jr.",
+      "position": "F",
+      "number": "27",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Johni Broome",
       "position": "F",
-      "number": "",
+      "number": "22",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

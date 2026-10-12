@@ -3,7 +3,7 @@
   "team": "Cleveland Cavaliers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/CLE/roster",
-  "checkedAt": "2026-10-11T15:06:19.394515+00:00",
+  "checkedAt": "2026-10-12T18:13:58.069229+00:00",
   "players": [
     {
       "name": "Craig Porter Jr.",
@@ -55,6 +55,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Jaxson Robinson",
+      "position": "F",
+      "number": "2",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Jaylon Tyson",
       "position": "G",
       "number": "20",
@@ -93,6 +100,13 @@
       "name": "Nae'Qwan Tomlin",
       "position": "F",
       "number": "35",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Noam Yaacov",
+      "position": "G",
+      "number": "30",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

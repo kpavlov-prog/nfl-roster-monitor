@@ -3,7 +3,7 @@
   "team": "Orlando Magic",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/ORL/roster",
-  "checkedAt": "2026-10-11T15:06:29.126541+00:00",
+  "checkedAt": "2026-10-12T18:14:08.035767+00:00",
   "players": [
     {
       "name": "Alex Morales",
@@ -107,6 +107,13 @@
       "name": "Malaki Branham",
       "position": "F",
       "number": "12",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Mike Sharavjamts",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
