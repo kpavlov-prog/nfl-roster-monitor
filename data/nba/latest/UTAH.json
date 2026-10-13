@@ -3,7 +3,7 @@
   "team": "Utah Jazz",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/UTAH/roster",
-  "checkedAt": "2026-10-12T18:14:12.654759+00:00",
+  "checkedAt": "2026-10-13T16:28:33.646853+00:00",
   "players": [
     {
       "name": "Ace Bailey",
@@ -118,6 +118,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Mohamed Wague",
+      "position": "F",
+      "number": "17",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Svi Mykhailiuk",
       "position": "G",
       "number": "10",
@@ -134,7 +141,14 @@
     {
       "name": "Taylor Funk",
       "position": "F",
-      "number": "",
+      "number": "33",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Terrell Brown Jr.",
+      "position": "G",
+      "number": "16",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

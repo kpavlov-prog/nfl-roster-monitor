@@ -3,7 +3,7 @@
   "team": "Brooklyn Nets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/BKN/roster",
-  "checkedAt": "2026-10-12T18:13:56.238425+00:00",
+  "checkedAt": "2026-10-13T16:28:17.547293+00:00",
   "players": [
     {
       "name": "Ben Saraf",
@@ -37,6 +37,13 @@
       "name": "Day'Ron Sharpe",
       "position": "C",
       "number": "20",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Dion Brown",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
