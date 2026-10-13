@@ -3,7 +3,7 @@
   "team": "Carolina Panthers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/carolina-panthers/roster",
-  "checkedAt": "2026-10-12T17:09:57.942446+00:00",
+  "checkedAt": "2026-10-13T15:26:13.998577+00:00",
   "players": [
     {
       "name": "AJ Dillon",
@@ -370,6 +370,14 @@
       "position": "RB",
       "number": "25",
       "status": "RES",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Keith Cooper Jr.",
+      "position": "DE",
+      "number": "77",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

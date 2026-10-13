@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-13T15:26:15.887297+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bears",
+    "type": "status changed",
+    "playerName": "Jonathan Garvin",
+    "position": "DE",
+    "oldValue": "RES",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-10-13T15:26:15.887315+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bears",
+    "type": "status changed",
+    "playerName": "Zavier Scott",
+    "position": "RB",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-11T14:30:42.731773+00:00",
     "teamCode": "CHI",
     "teamName": "Chicago Bears",
