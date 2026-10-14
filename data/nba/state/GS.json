@@ -3,7 +3,7 @@
   "team": "Golden State Warriors",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/GS/roster",
-  "checkedAt": "2026-10-13T16:28:21.785238+00:00",
+  "checkedAt": "2026-10-14T14:04:17.813559+00:00",
   "players": [
     {
       "name": "Al Horford",
@@ -118,13 +118,6 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Miles Kelly",
-      "position": "G",
-      "number": "26",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Moses Moody",
       "position": "G",
       "number": "4",
@@ -135,6 +128,13 @@
       "name": "Stephen Curry",
       "position": "G",
       "number": "30",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Tyler Burton",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

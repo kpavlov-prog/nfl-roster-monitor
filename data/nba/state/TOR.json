@@ -3,7 +3,7 @@
   "team": "Toronto Raptors",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/TOR/roster",
-  "checkedAt": "2026-10-13T16:28:33.019525+00:00",
+  "checkedAt": "2026-10-14T14:04:29.791998+00:00",
   "players": [
     {
       "name": "Alijah Martin",
@@ -65,6 +65,13 @@
       "name": "Jamal Shead",
       "position": "G",
       "number": "23",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Jamarion Sharp",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

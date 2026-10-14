@@ -3,7 +3,7 @@
   "team": "Sacramento Kings",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/SAC/roster",
-  "checkedAt": "2026-10-13T16:28:31.661409+00:00",
+  "checkedAt": "2026-10-14T14:04:28.524052+00:00",
   "players": [
     {
       "name": "Adam Flagler",
@@ -128,6 +128,13 @@
       "name": "Tristen Newton",
       "position": "G",
       "number": "00",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Viktor Lakhin",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
