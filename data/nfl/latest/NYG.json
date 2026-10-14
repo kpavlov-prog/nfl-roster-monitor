@@ -3,7 +3,7 @@
   "team": "New York Giants",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-york-giants/roster",
-  "checkedAt": "2026-10-13T15:26:47.432239+00:00",
+  "checkedAt": "2026-10-14T13:12:25.225134+00:00",
   "players": [
     {
       "name": "Aaron Stinnie",
@@ -194,6 +194,14 @@
       "position": "WR",
       "number": "17",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Dawuane Smoot",
+      "position": "DE",
+      "number": "75",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -465,7 +473,7 @@
       "name": "Malik Harrison",
       "position": "LB",
       "number": "75",
-      "status": "LISTED",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-14T13:12:16.595109+00:00",
+    "teamCode": "LAR",
+    "teamName": "Los Angeles Rams",
+    "type": "status changed",
+    "playerName": "Harrison Mevis",
+    "position": "K",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-14T13:12:16.595130+00:00",
+    "teamCode": "LAR",
+    "teamName": "Los Angeles Rams",
+    "type": "added",
+    "playerName": "Pepe Williams",
+    "position": "CB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-10-10T14:07:11.220299+00:00",
     "teamCode": "LAR",
     "teamName": "Los Angeles Rams",

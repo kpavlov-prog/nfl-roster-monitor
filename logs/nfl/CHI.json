@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-14T13:11:54.009816+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bears",
+    "type": "status changed",
+    "playerName": "Montez Sweat",
+    "position": "DE",
+    "oldValue": "ACT",
+    "newValue": "SUS",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-10-14T13:11:54.009835+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bears",
+    "type": "status changed",
+    "playerName": "Shemar Turner",
+    "position": "DT",
+    "oldValue": "PUP",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-13T15:26:15.887297+00:00",
     "teamCode": "CHI",
     "teamName": "Chicago Bears",

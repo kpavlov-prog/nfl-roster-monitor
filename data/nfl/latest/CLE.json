@@ -3,7 +3,7 @@
   "team": "Cleveland Browns",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/cleveland-browns/roster",
-  "checkedAt": "2026-10-13T15:26:19.344182+00:00",
+  "checkedAt": "2026-10-14T13:11:57.529253+00:00",
   "players": [
     {
       "name": "Adin Huntington",
@@ -25,6 +25,14 @@
       "name": "Andre Szmyt",
       "position": "K",
       "number": "25",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Audric Estim",
+      "position": "RB",
+      "number": "71",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -138,6 +146,14 @@
       "position": "QB",
       "number": "4",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Devin Culp",
+      "position": "TE",
+      "number": "76",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -513,7 +529,7 @@
       "name": "Raheim Sanders",
       "position": "RB",
       "number": "23",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },

@@ -3,7 +3,7 @@
   "team": "Kansas City Chiefs",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/kansas-city-chiefs/roster",
-  "checkedAt": "2026-10-13T15:26:33.246088+00:00",
+  "checkedAt": "2026-10-14T13:12:11.454868+00:00",
   "players": [
     {
       "name": "Andrew Armstrong",
@@ -49,7 +49,7 @@
       "name": "Cam Jones",
       "position": "LB",
       "number": "45",
-      "status": "LISTED",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },
@@ -334,6 +334,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Justin Watson",
+      "position": "WR",
+      "number": "74",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Kader Kohou",
       "position": "CB",
       "number": "26",
@@ -569,7 +577,7 @@
       "name": "Tyquan Thornton",
       "position": "WR",
       "number": "2",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
