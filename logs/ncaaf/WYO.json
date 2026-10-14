@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-10-14T14:48:18.159005+00:00",
+    "teamCode": "WYO",
+    "teamName": "Wyoming Cowboys",
+    "type": "added",
+    "playerName": "Jayden Williams",
+    "position": "DT",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-14T14:48:18.159030+00:00",
+    "teamCode": "WYO",
+    "teamName": "Wyoming Cowboys",
+    "type": "removed",
+    "playerName": "Jayden Williams (DT)",
+    "position": "DT",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-14T14:48:18.159032+00:00",
+    "teamCode": "WYO",
+    "teamName": "Wyoming Cowboys",
+    "type": "removed",
+    "playerName": "Jayden Williams (WR)",
+    "position": "WR",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-09-27T14:51:58.314856+00:00",
     "teamCode": "WYO",
     "teamName": "Wyoming Cowboys",
