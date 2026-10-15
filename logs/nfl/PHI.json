@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-10-15T12:59:00.383717+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "added",
+    "playerName": "Dean Clark",
+    "position": "DB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-15T12:59:00.383730+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "status changed",
+    "playerName": "Eli Stowers",
+    "position": "TE",
+    "oldValue": "RES",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-10-15T12:59:00.383745+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "status changed",
+    "playerName": "Landon Dickerson",
+    "position": "G",
+    "oldValue": "RES",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-14T13:12:28.822421+00:00",
     "teamCode": "PHI",
     "teamName": "Philadelphia Eagles",
