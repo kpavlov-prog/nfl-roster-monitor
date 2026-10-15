@@ -3,7 +3,7 @@
   "team": "Denver Nuggets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/DEN/roster",
-  "checkedAt": "2026-10-14T14:04:16.495154+00:00",
+  "checkedAt": "2026-10-15T13:42:26.906363+00:00",
   "players": [
     {
       "name": "Aaron Gordon",
@@ -97,6 +97,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Lonnie Walker IV",
+      "position": "G",
+      "number": "4",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Marvin Bagley III",
       "position": "F",
       "number": "3",
@@ -121,6 +128,13 @@
       "name": "Spencer Jones",
       "position": "F",
       "number": "21",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Steven Crowl",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

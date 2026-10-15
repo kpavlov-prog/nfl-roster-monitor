@@ -3,7 +3,7 @@
   "team": "LA Clippers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/LAC/roster",
-  "checkedAt": "2026-10-14T14:04:19.953778+00:00",
+  "checkedAt": "2026-10-15T13:42:29.887145+00:00",
   "players": [
     {
       "name": "Baba Miller",
@@ -51,6 +51,13 @@
       "name": "Darius Garland",
       "position": "G",
       "number": "10",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "DeAndre Williams",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -149,6 +156,13 @@
       "name": "Yanic Konan Niederhauser",
       "position": "C",
       "number": "14",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Yuki Kawamura",
+      "position": "G",
+      "number": "17",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }

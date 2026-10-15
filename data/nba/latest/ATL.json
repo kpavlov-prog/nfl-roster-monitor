@@ -3,7 +3,7 @@
   "team": "Atlanta Hawks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/ATL/roster",
-  "checkedAt": "2026-10-14T14:04:11.716772+00:00",
+  "checkedAt": "2026-10-15T13:42:22.597405+00:00",
   "players": [
     {
       "name": "Aaron Wiggins",
@@ -51,6 +51,13 @@
       "name": "Dyson Daniels",
       "position": "G",
       "number": "5",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Giorgi Bezhanishvili",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
