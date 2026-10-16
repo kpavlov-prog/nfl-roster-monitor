@@ -3,7 +3,7 @@
   "team": "San Francisco 49ers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/san-francisco-49ers/roster",
-  "checkedAt": "2026-10-15T12:59:03.565629+00:00",
+  "checkedAt": "2026-10-16T12:53:39.632652+00:00",
   "players": [
     {
       "name": "Alfred Collins",
@@ -219,6 +219,14 @@
       "number": "35",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Eugene Asante",
+      "position": "LB",
+      "number": "73",
+      "status": "LISTED",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -561,7 +569,7 @@
       "name": "Ogbo Okoronkwo",
       "position": "DE",
       "number": "59",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },

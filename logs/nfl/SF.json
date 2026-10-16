@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-16T12:53:39.632975+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco 49ers",
+    "type": "added",
+    "playerName": "Eugene Asante",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-16T12:53:39.633001+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco 49ers",
+    "type": "status changed",
+    "playerName": "Ogbo Okoronkwo",
+    "position": "DE",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-13T15:26:54.391436+00:00",
     "teamCode": "SF",
     "teamName": "San Francisco 49ers",
