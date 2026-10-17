@@ -3,7 +3,7 @@
   "team": "Houston Rockets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/HOU/roster",
-  "checkedAt": "2026-10-16T13:32:57.725270+00:00",
+  "checkedAt": "2026-10-17T12:26:49.446092+00:00",
   "players": [
     {
       "name": "Alperen Sengun",
@@ -135,6 +135,13 @@
       "name": "Tari Eason",
       "position": "F",
       "number": "17",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Tyson Chandler",
+      "position": "C",
+      "number": "19",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }

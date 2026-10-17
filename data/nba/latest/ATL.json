@@ -3,7 +3,7 @@
   "team": "Atlanta Hawks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/ATL/roster",
-  "checkedAt": "2026-10-16T13:32:50.663346+00:00",
+  "checkedAt": "2026-10-17T12:26:43.437990+00:00",
   "players": [
     {
       "name": "Aaron Wiggins",
@@ -65,6 +65,13 @@
       "name": "Henri Veesaar",
       "position": "C",
       "number": "13",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Isaac McKneely",
+      "position": "G",
+      "number": "15",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

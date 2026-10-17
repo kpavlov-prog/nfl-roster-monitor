@@ -3,7 +3,7 @@
   "team": "Philadelphia 76ers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/PHI/roster",
-  "checkedAt": "2026-10-16T13:33:05.720427+00:00",
+  "checkedAt": "2026-10-17T12:26:57.035752+00:00",
   "players": [
     {
       "name": "Adem Bona",
@@ -30,6 +30,13 @@
       "name": "Caleb Love",
       "position": "G",
       "number": "8",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Cris Carroll",
+      "position": "F",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -135,6 +142,13 @@
       "name": "Tacko Fall",
       "position": "C",
       "number": "99",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Taye Fields",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

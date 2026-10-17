@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-17T12:26:47.125961+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Mavericks",
+    "type": "added",
+    "playerName": "Quincy Acy",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-17T12:26:47.125975+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Mavericks",
+    "type": "removed",
+    "playerName": "Jorge Diaz Graham",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-15T13:42:26.279916+00:00",
     "teamCode": "DAL",
     "teamName": "Dallas Mavericks",

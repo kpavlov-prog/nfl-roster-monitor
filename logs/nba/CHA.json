@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-17T12:26:45.185385+00:00",
+    "teamCode": "CHA",
+    "teamName": "Charlotte Hornets",
+    "type": "added",
+    "playerName": "Latrell Wrightsell Jr.",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-17T12:26:45.185408+00:00",
+    "teamCode": "CHA",
+    "teamName": "Charlotte Hornets",
+    "type": "removed",
+    "playerName": "Pat Connaughton",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-01T15:41:38.983805+00:00",
     "teamCode": "CHA",
     "teamName": "Charlotte Hornets",

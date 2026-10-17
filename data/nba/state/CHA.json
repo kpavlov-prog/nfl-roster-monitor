@@ -3,7 +3,7 @@
   "team": "Charlotte Hornets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/CHA/roster",
-  "checkedAt": "2026-10-16T13:32:52.704498+00:00",
+  "checkedAt": "2026-10-17T12:26:45.184131+00:00",
   "players": [
     {
       "name": "Brandon Miller",
@@ -76,6 +76,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Latrell Wrightsell Jr.",
+      "position": "G",
+      "number": "",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Liam McNeeley",
       "position": "G",
       "number": "33",
@@ -100,13 +107,6 @@
       "name": "PJ Hall",
       "position": "C",
       "number": "16",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Pat Connaughton",
-      "position": "G",
-      "number": "21",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
