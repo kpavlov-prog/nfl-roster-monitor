@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-17T12:18:35.207378+00:00",
+    "teamCode": "NYR",
+    "teamName": "New York Rangers",
+    "type": "added",
+    "playerName": "Taylor Raddysh",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-17T12:18:35.207388+00:00",
+    "teamCode": "NYR",
+    "teamName": "New York Rangers",
+    "type": "removed",
+    "playerName": "Jaroslav Chmelar",
+    "position": "R",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-15T13:35:50.124476+00:00",
     "teamCode": "NYR",
     "teamName": "New York Rangers",

@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-10-17T12:18:27.024954+00:00",
+    "teamCode": "CAR",
+    "teamName": "Carolina Hurricanes",
+    "type": "added",
+    "playerName": "Felix Unger Sörum",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-17T12:18:31.120381+00:00",
+    "teamCode": "FLA",
+    "teamName": "Florida Panthers",
+    "type": "removed",
+    "playerName": "Cooper Black",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-17T12:18:32.335607+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "removed",
+    "playerName": "Carson Lambos",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-17T12:18:35.207378+00:00",
+    "teamCode": "NYR",
+    "teamName": "New York Rangers",
+    "type": "added",
+    "playerName": "Taylor Raddysh",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-17T12:18:35.207388+00:00",
+    "teamCode": "NYR",
+    "teamName": "New York Rangers",
+    "type": "removed",
+    "playerName": "Jaroslav Chmelar",
+    "position": "R",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-17T12:18:37.600753+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Kraken",
+    "type": "added",
+    "playerName": "Ty Nelson",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-10-16T13:24:25.298432+00:00",
     "teamCode": "LAK",
     "teamName": "Los Angeles Kings",
