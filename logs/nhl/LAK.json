@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-18T12:41:49.984466+00:00",
+    "teamCode": "LAK",
+    "teamName": "Los Angeles Kings",
+    "type": "added",
+    "playerName": "Taylor Ward",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-18T12:41:49.984475+00:00",
+    "teamCode": "LAK",
+    "teamName": "Los Angeles Kings",
+    "type": "removed",
+    "playerName": "Jared Wright",
+    "position": "R",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-16T13:24:25.298432+00:00",
     "teamCode": "LAK",
     "teamName": "Los Angeles Kings",

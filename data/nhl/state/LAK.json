@@ -3,7 +3,7 @@
   "team": "Los Angeles Kings",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/LAK/current",
-  "checkedAt": "2026-10-17T12:18:31.692856+00:00",
+  "checkedAt": "2026-10-18T12:41:49.983363+00:00",
   "players": [
     {
       "name": "Adrian Kempe",
@@ -104,13 +104,6 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Jared Wright",
-      "position": "R",
-      "number": "25",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
       "name": "Joel Armia",
       "position": "R",
       "number": "40",
@@ -163,6 +156,13 @@
       "name": "Scott Laughton",
       "position": "C",
       "number": "21",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Taylor Ward",
+      "position": "R",
+      "number": "17",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
