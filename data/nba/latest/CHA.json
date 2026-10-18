@@ -3,7 +3,7 @@
   "team": "Charlotte Hornets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/CHA/roster",
-  "checkedAt": "2026-10-17T12:26:45.184131+00:00",
+  "checkedAt": "2026-10-18T12:48:04.007275+00:00",
   "players": [
     {
       "name": "Brandon Miller",
@@ -55,13 +55,6 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Jarkel Joiner",
-      "position": "G",
-      "number": "20",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Kon Knueppel",
       "position": "G",
       "number": "7",
@@ -72,13 +65,6 @@
       "name": "Kylan Boswell",
       "position": "G",
       "number": "18",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Latrell Wrightsell Jr.",
-      "position": "G",
-      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -135,13 +121,6 @@
       "name": "Tidjane Salaun",
       "position": "F",
       "number": "31",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Wyatt Fricks",
-      "position": "F",
-      "number": "23",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     }

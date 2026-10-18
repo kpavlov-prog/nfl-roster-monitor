@@ -3,7 +3,7 @@
   "team": "Utah Jazz",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/UTAH/roster",
-  "checkedAt": "2026-10-17T12:27:00.528781+00:00",
+  "checkedAt": "2026-10-18T12:48:19.922961+00:00",
   "players": [
     {
       "name": "Ace Bailey",
@@ -58,13 +58,6 @@
       "name": "Jaxson Hayes",
       "position": "C",
       "number": "11",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Jonas Aidoo",
-      "position": "C",
-      "number": "13",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -125,23 +118,16 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "Tamar Bates",
-      "position": "G",
-      "number": "0",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Taylor Funk",
-      "position": "F",
-      "number": "33",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "Terrell Brown Jr.",
       "position": "G",
       "number": "16",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Tony Bradley",
+      "position": "C",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

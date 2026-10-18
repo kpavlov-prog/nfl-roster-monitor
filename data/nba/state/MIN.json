@@ -3,19 +3,12 @@
   "team": "Minnesota Timberwolves",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIN/roster",
-  "checkedAt": "2026-10-17T12:26:54.100914+00:00",
+  "checkedAt": "2026-10-18T12:48:12.782764+00:00",
   "players": [
     {
       "name": "Anthony Edwards",
       "position": "G",
       "number": "5",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Antonio Reeves",
-      "position": "G",
-      "number": "12",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -44,20 +37,6 @@
       "name": "Donte DiVincenzo",
       "position": "G",
       "number": "0",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Drew Timme",
-      "position": "F",
-      "number": "17",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Enrique Freeman",
-      "position": "F",
-      "number": "25",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -97,23 +76,9 @@
       "source": "ESPN NBA API"
     },
     {
-      "name": "KJ Martin",
-      "position": "F",
-      "number": "99",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
       "name": "LaMelo Ball",
       "position": "G",
       "number": "1",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Norchad Omier",
-      "position": "F",
-      "number": "23",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
