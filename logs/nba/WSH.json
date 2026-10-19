@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-10-19T15:53:22.799436+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Wizards",
+    "type": "number changed",
+    "playerName": "Deandre Ayton",
+    "position": "C",
+    "oldValue": "6",
+    "newValue": "8",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-19T15:53:22.799447+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Wizards",
+    "type": "removed",
+    "playerName": "Jazian Gortman",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-19T15:53:22.799451+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Wizards",
+    "type": "removed",
+    "playerName": "Steve Settle III",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-18T12:48:20.536964+00:00",
     "teamCode": "WSH",
     "teamName": "Washington Wizards",
