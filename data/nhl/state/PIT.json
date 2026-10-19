@@ -3,7 +3,7 @@
   "team": "Pittsburgh Penguins",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/PIT/current",
-  "checkedAt": "2026-10-18T12:41:56.467165+00:00",
+  "checkedAt": "2026-10-19T15:47:17.747352+00:00",
   "players": [
     {
       "name": "Andrei Kuzmenko",
@@ -90,6 +90,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Ilya Solovyov",
+      "position": "D",
+      "number": "7",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Justin Brazeau",
       "position": "R",
       "number": "16",
@@ -121,13 +128,6 @@
       "name": "Rickard Rakell",
       "position": "R",
       "number": "67",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Ryan Johnson",
-      "position": "D",
-      "number": "3",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
