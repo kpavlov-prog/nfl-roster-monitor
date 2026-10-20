@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-10-20T13:52:09.912043+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Suns",
+    "type": "added",
+    "playerName": "Drew Timme",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-20T13:52:09.912056+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Suns",
+    "type": "removed",
+    "playerName": "CJ Huntley",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-20T13:52:09.912060+00:00",
+    "teamCode": "PHX",
+    "teamName": "Phoenix Suns",
+    "type": "removed",
+    "playerName": "Koby Brea",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-18T12:48:16.839186+00:00",
     "teamCode": "PHX",
     "teamName": "Phoenix Suns",
