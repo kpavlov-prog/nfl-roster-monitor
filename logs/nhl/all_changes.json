@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-10-20T13:44:49.631152+00:00",
+    "teamCode": "FLA",
+    "teamName": "Florida Panthers",
+    "type": "added",
+    "playerName": "Cooper Black",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-20T13:44:55.764135+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Flyers",
+    "type": "added",
+    "playerName": "Jacob Gaucher",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-20T13:45:02.489814+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Capitals",
+    "type": "added",
+    "playerName": "Jonny Brodzinski",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-20T13:45:02.489823+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Capitals",
+    "type": "added",
+    "playerName": "Rasmus Sandin",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-20T13:45:02.489830+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Capitals",
+    "type": "removed",
+    "playerName": "Justin Holl",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-19T15:47:09.480224+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Red Wings",
