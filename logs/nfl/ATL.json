@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-10-20T13:09:32.876288+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Falcons",
+    "type": "added",
+    "playerName": "Andy Dalton",
+    "position": "QB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-20T13:09:32.876311+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Falcons",
+    "type": "status changed",
+    "playerName": "Cooper Rush",
+    "position": "QB",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-10-20T13:09:32.876320+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Falcons",
+    "type": "status changed",
+    "playerName": "Drake Jackson",
+    "position": "LB",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-10-18T12:18:51.374015+00:00",
     "teamCode": "ATL",
     "teamName": "Atlanta Falcons",

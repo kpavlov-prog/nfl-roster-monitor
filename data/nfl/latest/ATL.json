@@ -3,13 +3,21 @@
   "team": "Atlanta Falcons",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/atlanta-falcons/roster",
-  "checkedAt": "2026-10-19T15:10:01.375265+00:00",
+  "checkedAt": "2026-10-20T13:09:32.875943+00:00",
   "players": [
     {
       "name": "A.J. Terrell",
       "position": "CB",
       "number": "24",
       "status": "RES",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Andy Dalton",
+      "position": "QB",
+      "number": "74",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -177,7 +185,7 @@
       "name": "Cooper Rush",
       "position": "QB",
       "number": "13",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -225,7 +233,7 @@
       "name": "Drake Jackson",
       "position": "LB",
       "number": "76",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },

@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-10-20T13:09:39.285063+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bears",
+    "type": "status changed",
+    "playerName": "Buddy Johnson",
+    "position": "LB",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-20T13:09:39.285090+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bears",
+    "type": "added",
+    "playerName": "KC Eziomume",
+    "position": "DB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-20T13:09:39.285109+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bears",
+    "type": "status changed",
+    "playerName": "Zavier Scott",
+    "position": "RB",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-18T12:18:57.736044+00:00",
     "teamCode": "CHI",
     "teamName": "Chicago Bears",
