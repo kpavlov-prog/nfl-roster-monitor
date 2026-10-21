@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-21T14:37:28.389222+00:00",
+    "teamCode": "TEX",
+    "teamName": "Texas Longhorns",
+    "type": "added",
+    "playerName": "KJ Lacey",
+    "position": "QB",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN College Football API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-21T14:37:28.389266+00:00",
+    "teamCode": "TEX",
+    "teamName": "Texas Longhorns",
+    "type": "removed",
+    "playerName": "Karle Lacey Jr.",
+    "position": "QB",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN College Football API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-08T16:44:03.718005+00:00",
     "teamCode": "TEX",
     "teamName": "Texas Longhorns",
