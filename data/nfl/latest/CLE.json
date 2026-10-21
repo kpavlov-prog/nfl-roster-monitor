@@ -3,7 +3,7 @@
   "team": "Cleveland Browns",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/cleveland-browns/roster",
-  "checkedAt": "2026-10-20T13:09:42.604330+00:00",
+  "checkedAt": "2026-10-21T13:19:51.549138+00:00",
   "players": [
     {
       "name": "Adin Huntington",
@@ -26,6 +26,14 @@
       "position": "K",
       "number": "25",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Andrew Coker",
+      "position": "OT",
+      "number": "79",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
