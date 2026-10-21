@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-10-21T14:00:28.140337+00:00",
+    "teamCode": "CGY",
+    "teamName": "Calgary Flames",
+    "type": "added",
+    "playerName": "Ben Jones",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-21T14:00:37.273540+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "removed",
+    "playerName": "Hunter Haight",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-21T14:00:47.069678+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Blues",
+    "type": "removed",
+    "playerName": "Dylan Peterson",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-20T13:44:49.631152+00:00",
     "teamCode": "FLA",
     "teamName": "Florida Panthers",
