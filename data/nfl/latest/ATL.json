@@ -3,13 +3,13 @@
   "team": "Atlanta Falcons",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/atlanta-falcons/roster",
-  "checkedAt": "2026-10-21T13:19:40.431697+00:00",
+  "checkedAt": "2026-10-22T13:19:45.149289+00:00",
   "players": [
     {
       "name": "A.J. Terrell",
       "position": "CB",
       "number": "24",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -138,6 +138,14 @@
       "position": "RB",
       "number": "32",
       "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Charles Snowden",
+      "position": "DE",
+      "number": "78",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },

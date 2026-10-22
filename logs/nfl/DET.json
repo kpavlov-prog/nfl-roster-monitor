@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-22T13:19:59.589954+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "number changed",
+    "playerName": "Aidan Keanaaina",
+    "position": "DT",
+    "oldValue": "75",
+    "newValue": "72",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-22T13:19:59.589971+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "position changed",
+    "playerName": "Jackson Meeks",
+    "position": "TE",
+    "oldValue": "WR",
+    "newValue": "TE",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-10-21T13:19:56.829440+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Lions",

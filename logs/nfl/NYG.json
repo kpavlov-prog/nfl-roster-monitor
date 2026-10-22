@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-22T13:20:20.454046+00:00",
+    "teamCode": "NYG",
+    "teamName": "New York Giants",
+    "type": "added",
+    "playerName": "Josh Sills",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-22T13:20:20.454060+00:00",
+    "teamCode": "NYG",
+    "teamName": "New York Giants",
+    "type": "status changed",
+    "playerName": "Paulson Adebo",
+    "position": "CB",
+    "oldValue": "RES",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-10-21T13:20:19.985808+00:00",
     "teamCode": "NYG",
     "teamName": "New York Giants",

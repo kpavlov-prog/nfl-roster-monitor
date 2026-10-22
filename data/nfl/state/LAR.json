@@ -3,7 +3,7 @@
   "team": "Los Angeles Rams",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/los-angeles-rams/roster",
-  "checkedAt": "2026-10-21T13:20:10.975581+00:00",
+  "checkedAt": "2026-10-22T13:20:12.445864+00:00",
   "players": [
     {
       "name": "Aaron Donald",
@@ -94,6 +94,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Brandon McManus",
+      "position": "K",
+      "number": "75",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Brennan Presley",
       "position": "WR",
       "number": "81",
@@ -161,7 +169,7 @@
       "name": "Darryl Peterson III",
       "position": "OLB",
       "number": "59",
-      "status": "LISTED",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },
@@ -286,6 +294,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Jalen Hunt",
+      "position": "DT",
+      "number": "74",
+      "status": "LISTED",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Jamie Sheriff",
       "position": "LB",
       "number": "51",
@@ -369,7 +385,7 @@
       "name": "Keir Thomas",
       "position": "LB",
       "number": "11",
-      "status": "RES",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -385,7 +401,7 @@
       "name": "Kobie Turner",
       "position": "DE",
       "number": "91",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
