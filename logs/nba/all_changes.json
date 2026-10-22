@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-10-22T14:07:23.991905+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Mavericks",
+    "type": "added",
+    "playerName": "Walter Clayton Jr.",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-22T14:07:28.181885+00:00",
+    "teamCode": "LAL",
+    "teamName": "Los Angeles Lakers",
+    "type": "number changed",
+    "playerName": "Matisse Thybulle",
+    "position": "G",
+    "oldValue": "26",
+    "newValue": "4",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-22T14:07:30.062542+00:00",
+    "teamCode": "MIL",
+    "teamName": "Milwaukee Bucks",
+    "type": "added",
+    "playerName": "Pete Nance",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-10-20T13:51:56.065798+00:00",
     "teamCode": "ATL",
     "teamName": "Atlanta Hawks",
