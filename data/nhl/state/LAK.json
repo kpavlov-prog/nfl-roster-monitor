@@ -3,7 +3,7 @@
   "team": "Los Angeles Kings",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/LAK/current",
-  "checkedAt": "2026-10-21T14:00:36.048975+00:00",
+  "checkedAt": "2026-10-22T13:59:21.712287+00:00",
   "players": [
     {
       "name": "Adrian Kempe",
@@ -100,6 +100,13 @@
       "name": "Erik Haula",
       "position": "L",
       "number": "56",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jared Wright",
+      "position": "R",
+      "number": "25",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

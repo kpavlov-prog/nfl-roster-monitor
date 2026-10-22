@@ -3,7 +3,7 @@
   "team": "Buffalo Sabres",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/BUF/current",
-  "checkedAt": "2026-10-21T14:00:27.433238+00:00",
+  "checkedAt": "2026-10-22T13:59:14.307228+00:00",
   "players": [
     {
       "name": "Alex Lyon",
@@ -44,6 +44,13 @@
       "name": "Jack Quinn",
       "position": "R",
       "number": "22",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jason Zucker",
+      "position": "L",
+      "number": "17",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
