@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-10-23T13:41:31.462824+00:00",
+    "teamCode": "FLA",
+    "teamName": "Florida Panthers",
+    "type": "added",
+    "playerName": "Cole Reinhardt",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-23T13:41:31.462832+00:00",
+    "teamCode": "FLA",
+    "teamName": "Florida Panthers",
+    "type": "added",
+    "playerName": "Cole Schwindt",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-23T13:41:31.462839+00:00",
+    "teamCode": "FLA",
+    "teamName": "Florida Panthers",
+    "type": "removed",
+    "playerName": "Sam Lafferty",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-20T13:44:49.631152+00:00",
     "teamCode": "FLA",
     "teamName": "Florida Panthers",

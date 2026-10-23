@@ -3,12 +3,19 @@
   "team": "Vegas Golden Knights",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/VGK/current",
-  "checkedAt": "2026-10-22T13:59:34.160404+00:00",
+  "checkedAt": "2026-10-23T13:41:43.606389+00:00",
   "players": [
     {
       "name": "Adin Hill",
       "position": "G",
       "number": "33",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Alexander Holtz",
+      "position": "R",
+      "number": "10",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -149,6 +156,13 @@
       "name": "Victor Olofsson",
       "position": "L",
       "number": "95",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Ville Heinola",
+      "position": "D",
+      "number": "14",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
