@@ -3,7 +3,7 @@
   "team": "Philadelphia Eagles",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/philadelphia-eagles/roster",
-  "checkedAt": "2026-10-22T13:20:23.687413+00:00",
+  "checkedAt": "2026-10-23T12:59:03.489747+00:00",
   "players": [
     {
       "name": "A.J. Epenesa",
@@ -169,7 +169,7 @@
       "name": "E.J. Jenkins",
       "position": "TE",
       "number": "84",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -203,6 +203,14 @@
       "number": "74",
       "status": "LISTED",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Evan Neal",
+      "position": "G",
+      "number": "79",
+      "status": "LISTED",
+      "important": false,
       "source": "NFL.com"
     },
     {

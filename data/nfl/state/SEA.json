@@ -3,7 +3,7 @@
   "team": "Seattle Seahawks",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/seattle-seahawks/roster",
-  "checkedAt": "2026-10-22T13:20:28.477640+00:00",
+  "checkedAt": "2026-10-23T12:59:08.189491+00:00",
   "players": [
     {
       "name": "AJ Barner",
@@ -217,7 +217,7 @@
       "name": "Elijah Arroyo",
       "position": "TE",
       "number": "18",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -395,6 +395,14 @@
       "number": "74",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Josh Ross",
+      "position": "LB",
+      "number": "72",
+      "status": "LISTED",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -617,7 +625,7 @@
       "name": "Zach Charbonnet",
       "position": "RB",
       "number": "26",
-      "status": "PUP",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     }

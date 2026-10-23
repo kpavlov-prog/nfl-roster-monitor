@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-23T12:58:37.712691+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "status changed",
+    "playerName": "DeAndre Carter",
+    "position": "WR",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-23T12:58:37.712713+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "added",
+    "playerName": "Myles Bryant",
+    "position": "CB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-10-22T13:19:59.589954+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Lions",
