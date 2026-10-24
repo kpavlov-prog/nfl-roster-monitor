@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-24T12:50:44.095254+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Blues",
+    "type": "added",
+    "playerName": "Quinton Burns",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-24T12:50:44.095262+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Blues",
+    "type": "removed",
+    "playerName": "Zach Dean",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-23T13:41:40.282217+00:00",
     "teamCode": "STL",
     "teamName": "St. Louis Blues",

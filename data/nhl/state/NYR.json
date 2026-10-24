@@ -3,7 +3,7 @@
   "team": "New York Rangers",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/NYR/current",
-  "checkedAt": "2026-10-23T13:41:36.245155+00:00",
+  "checkedAt": "2026-10-24T12:50:40.218217+00:00",
   "players": [
     {
       "name": "Adam Fox",
@@ -90,9 +90,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Justin Dowling",
+      "name": "Luke Glendening",
       "position": "C",
-      "number": "37",
+      "number": "43",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -107,6 +107,13 @@
       "name": "Matt Rempe",
       "position": "C",
       "number": "73",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Matthew Robertson",
+      "position": "D",
+      "number": "29",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

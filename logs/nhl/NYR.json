@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-10-24T12:50:40.219136+00:00",
+    "teamCode": "NYR",
+    "teamName": "New York Rangers",
+    "type": "added",
+    "playerName": "Luke Glendening",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-24T12:50:40.219146+00:00",
+    "teamCode": "NYR",
+    "teamName": "New York Rangers",
+    "type": "added",
+    "playerName": "Matthew Robertson",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-24T12:50:40.219152+00:00",
+    "teamCode": "NYR",
+    "teamName": "New York Rangers",
+    "type": "removed",
+    "playerName": "Justin Dowling",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-17T12:18:35.207378+00:00",
     "teamCode": "NYR",
     "teamName": "New York Rangers",
