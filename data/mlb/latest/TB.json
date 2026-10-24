@@ -5,19 +5,12 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/139/roster?rosterType=active",
-  "checkedAt": "2026-10-23T13:26:06.561170+00:00",
+  "checkedAt": "2026-10-24T12:40:23.357631+00:00",
   "players": [
     {
       "name": "Ben Williamson",
       "position": "2B",
       "number": "15",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brody Hopkins",
-      "position": "P",
-      "number": "88",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -67,6 +60,13 @@
       "name": "Freddy Peralta",
       "position": "P",
       "number": "51",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Garrett Cleavinger",
+      "position": "P",
+      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },

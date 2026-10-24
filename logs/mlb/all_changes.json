@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-10-24T12:40:16.356597+00:00",
+    "teamCode": "MIL",
+    "teamName": "Milwaukee Brewers",
+    "type": "added",
+    "playerName": "Brandon Woodruff",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-24T12:40:16.356612+00:00",
+    "teamCode": "MIL",
+    "teamName": "Milwaukee Brewers",
+    "type": "removed",
+    "playerName": "Chad Patrick",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-24T12:40:23.358712+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Rays",
+    "type": "added",
+    "playerName": "Garrett Cleavinger",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-24T12:40:23.358727+00:00",
+    "teamCode": "TB",
+    "teamName": "Tampa Bay Rays",
+    "type": "removed",
+    "playerName": "Brody Hopkins",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-23T13:25:58.016146+00:00",
     "teamCode": "KC",
     "teamName": "Kansas City Royals",
