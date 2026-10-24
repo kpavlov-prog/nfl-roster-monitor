@@ -3,12 +3,19 @@
   "team": "New York Knicks",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/NY/roster",
-  "checkedAt": "2026-10-23T13:50:28.923864+00:00",
+  "checkedAt": "2026-10-24T12:56:23.804306+00:00",
   "players": [
     {
       "name": "Andre Drummond",
       "position": "C",
       "number": "0",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Dalton Knecht",
+      "position": "F",
+      "number": "99",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -58,13 +65,6 @@
       "name": "Karl-Anthony Towns",
       "position": "C",
       "number": "32",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Kevin McCullar Jr.",
-      "position": "G",
-      "number": "9",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-10-24T12:56:23.805810+00:00",
+    "teamCode": "NY",
+    "teamName": "New York Knicks",
+    "type": "added",
+    "playerName": "Dalton Knecht",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-24T12:56:23.805829+00:00",
+    "teamCode": "NY",
+    "teamName": "New York Knicks",
+    "type": "removed",
+    "playerName": "Kevin McCullar Jr.",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-24T12:56:24.388237+00:00",
+    "teamCode": "OKC",
+    "teamName": "Oklahoma City Thunder",
+    "type": "added",
+    "playerName": "Micah Peavy",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-24T12:56:27.342352+00:00",
+    "teamCode": "SAC",
+    "teamName": "Sacramento Kings",
+    "type": "added",
+    "playerName": "Sean Pedulla",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-10-23T13:50:19.070261+00:00",
     "teamCode": "CLE",
     "teamName": "Cleveland Cavaliers",

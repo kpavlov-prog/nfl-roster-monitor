@@ -3,7 +3,7 @@
   "team": "Oklahoma City Thunder",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/OKC/roster",
-  "checkedAt": "2026-10-23T13:50:29.545486+00:00",
+  "checkedAt": "2026-10-24T12:56:24.387222+00:00",
   "players": [
     {
       "name": "Aday Mara",
@@ -93,6 +93,13 @@
       "name": "Kenrich Williams",
       "position": "G",
       "number": "34",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Micah Peavy",
+      "position": "G",
+      "number": "",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
