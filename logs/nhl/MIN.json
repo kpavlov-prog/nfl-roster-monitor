@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-25T13:17:13.962566+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "added",
+    "playerName": "Mason Shaw",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-25T13:17:13.962573+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "removed",
+    "playerName": "Daemon Hunt",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-23T13:41:32.721071+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Wild",

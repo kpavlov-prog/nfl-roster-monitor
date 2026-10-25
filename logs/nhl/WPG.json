@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-10-25T13:17:25.583787+00:00",
+    "teamCode": "WPG",
+    "teamName": "Winnipeg Jets",
+    "type": "number changed",
+    "playerName": "Dawson Mercer",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "19",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-25T13:17:25.583792+00:00",
+    "teamCode": "WPG",
+    "teamName": "Winnipeg Jets",
+    "type": "added",
+    "playerName": "Elias Salomonsson",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-25T13:17:25.583796+00:00",
+    "teamCode": "WPG",
+    "teamName": "Winnipeg Jets",
+    "type": "number changed",
+    "playerName": "Nico Daws",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "35",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-25T13:17:25.583799+00:00",
+    "teamCode": "WPG",
+    "teamName": "Winnipeg Jets",
+    "type": "removed",
+    "playerName": "Jack St. Ivany",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-24T12:50:48.980176+00:00",
     "teamCode": "WPG",
     "teamName": "Winnipeg Jets",
