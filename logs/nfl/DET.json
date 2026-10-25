@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-25T12:52:24.103643+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "status changed",
+    "playerName": "Brian Branch",
+    "position": "CB",
+    "oldValue": "PUP",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-10-25T12:52:24.103653+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "status changed",
+    "playerName": "Cade Mays",
+    "position": "C",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-10-23T12:58:37.712691+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Lions",
