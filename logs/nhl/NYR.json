@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-10-26T15:21:18.476926+00:00",
+    "teamCode": "NYR",
+    "teamName": "New York Rangers",
+    "type": "added",
+    "playerName": "James Reimer",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-26T15:21:18.476940+00:00",
+    "teamCode": "NYR",
+    "teamName": "New York Rangers",
+    "type": "removed",
+    "playerName": "Matthew Robertson",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-26T15:21:18.476944+00:00",
+    "teamCode": "NYR",
+    "teamName": "New York Rangers",
+    "type": "removed",
+    "playerName": "Spencer Martin",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-24T12:50:40.219136+00:00",
     "teamCode": "NYR",
     "teamName": "New York Rangers",

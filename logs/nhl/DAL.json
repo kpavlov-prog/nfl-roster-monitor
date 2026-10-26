@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-10-26T15:21:11.789462+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Stars",
+    "type": "added",
+    "playerName": "Dylan Hryckowian",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-26T15:21:11.789481+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Stars",
+    "type": "added",
+    "playerName": "Matthew Seminoff",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-26T15:21:11.789491+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Stars",
+    "type": "removed",
+    "playerName": "Kyle Burroughs",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-18T12:41:47.124496+00:00",
     "teamCode": "DAL",
     "teamName": "Dallas Stars",
