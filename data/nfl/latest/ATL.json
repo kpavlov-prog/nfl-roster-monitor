@@ -3,7 +3,7 @@
   "team": "Atlanta Falcons",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/atlanta-falcons/roster",
-  "checkedAt": "2026-10-26T14:41:37.045664+00:00",
+  "checkedAt": "2026-10-27T13:48:09.195862+00:00",
   "players": [
     {
       "name": "A.J. Terrell",
@@ -97,7 +97,7 @@
       "name": "Brian Asamoah II",
       "position": "LB",
       "number": "72",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -257,6 +257,14 @@
       "name": "Dylan Drummond",
       "position": "WR",
       "number": "80",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "E.J. Jenkins",
+      "position": "TE",
+      "number": "78",
       "status": "LISTED",
       "important": true,
       "source": "NFL.com"
@@ -425,7 +433,7 @@
       "name": "Khalil Herbert",
       "position": "RB",
       "number": "69",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
