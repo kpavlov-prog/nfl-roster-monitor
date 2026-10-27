@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-27T14:47:30.064494+00:00",
+    "teamCode": "VGK",
+    "teamName": "Vegas Golden Knights",
+    "type": "added",
+    "playerName": "Jonas Rondbjerg",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-27T14:47:30.064507+00:00",
+    "teamCode": "VGK",
+    "teamName": "Vegas Golden Knights",
+    "type": "removed",
+    "playerName": "Alexander Holtz",
+    "position": "R",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-23T13:41:43.608025+00:00",
     "teamCode": "VGK",
     "teamName": "Vegas Golden Knights",

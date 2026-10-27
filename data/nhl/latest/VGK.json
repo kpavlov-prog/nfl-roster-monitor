@@ -3,19 +3,12 @@
   "team": "Vegas Golden Knights",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/VGK/current",
-  "checkedAt": "2026-10-26T15:21:25.321304+00:00",
+  "checkedAt": "2026-10-27T14:47:30.063450+00:00",
   "players": [
     {
       "name": "Adin Hill",
       "position": "G",
       "number": "33",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Alexander Holtz",
-      "position": "R",
-      "number": "10",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -72,6 +65,13 @@
       "name": "Jeremy Lauzon",
       "position": "D",
       "number": "5",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jonas Rondbjerg",
+      "position": "R",
+      "number": "46",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
