@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-10-28T14:43:18.564641+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bears",
+    "type": "number changed",
+    "playerName": "KC Eziomume",
+    "position": "DB",
+    "oldValue": "37",
+    "newValue": "32",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-28T14:43:18.564662+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bears",
+    "type": "status changed",
+    "playerName": "Nick McCloud",
+    "position": "CB",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-28T14:43:18.564677+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Bears",
+    "type": "status changed",
+    "playerName": "Zavier Scott",
+    "position": "RB",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-27T13:48:15.987050+00:00",
     "teamCode": "CHI",
     "teamName": "Chicago Bears",

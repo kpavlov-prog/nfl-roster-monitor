@@ -3,7 +3,7 @@
   "team": "New York Giants",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-york-giants/roster",
-  "checkedAt": "2026-10-27T13:48:47.246263+00:00",
+  "checkedAt": "2026-10-28T14:43:47.180076+00:00",
   "players": [
     {
       "name": "Aaron Stinnie",
@@ -206,6 +206,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Dean Lowry",
+      "position": "DE",
+      "number": "78",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Deonte Banks",
       "position": "CB",
       "number": "2",
@@ -281,6 +289,14 @@
       "name": "Greg Newsome II",
       "position": "CB",
       "number": "20",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Gregory Desrosiers",
+      "position": "RB",
+      "number": "71",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -665,7 +681,7 @@
       "name": "Tyrone Tracy Jr.",
       "position": "RB",
       "number": "29",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },

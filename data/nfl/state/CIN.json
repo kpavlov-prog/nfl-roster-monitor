@@ -3,7 +3,7 @@
   "team": "Cincinnati Bengals",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/cincinnati-bengals/roster",
-  "checkedAt": "2026-10-27T13:48:17.645246+00:00",
+  "checkedAt": "2026-10-28T14:43:20.146330+00:00",
   "players": [
     {
       "name": "Amarius Mims",
@@ -74,6 +74,22 @@
       "position": "OT",
       "number": "62",
       "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Caden Prieskorn",
+      "position": "TE",
+      "number": "77",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Cam Grandy",
+      "position": "TE",
+      "number": "77",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -201,7 +217,7 @@
       "name": "Erick All",
       "position": "TE",
       "number": "83",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
