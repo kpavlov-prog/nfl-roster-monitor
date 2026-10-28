@@ -3,7 +3,7 @@
   "team": "Minnesota Timberwolves",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIN/roster",
-  "checkedAt": "2026-10-27T14:56:16.249995+00:00",
+  "checkedAt": "2026-10-28T15:29:00.572623+00:00",
   "players": [
     {
       "name": "Anthony Edwards",
@@ -37,6 +37,13 @@
       "name": "Donte DiVincenzo",
       "position": "G",
       "number": "0",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Enrique Freeman",
+      "position": "F",
+      "number": "25",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
