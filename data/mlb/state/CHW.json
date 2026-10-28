@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-10-27T14:30:27.892396+00:00",
+  "checkedAt": "2026-10-28T15:05:34.763751+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -50,6 +50,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Chris Murphy",
+      "position": "P",
+      "number": "38",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Colson Montgomery",
       "position": "SS",
       "number": "12",
@@ -67,6 +74,27 @@
       "name": "Davis Martin",
       "position": "P",
       "number": "65",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Drew Romo",
+      "position": "C",
+      "number": "36",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Drew Thorpe",
+      "position": "P",
+      "number": "33",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Edgar Quero",
+      "position": "C",
+      "number": "26",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -92,9 +120,30 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Huascar Brazobán",
+      "position": "P",
+      "number": "50",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jake Rogers",
       "position": "C",
       "number": "28",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Joey Bart",
+      "position": "C",
+      "number": "25",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jonathan Cannon",
+      "position": "P",
+      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -106,9 +155,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Junior Perez",
+      "position": "CF",
+      "number": "37",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Kyle Teel",
       "position": "C",
       "number": "8",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Luis Castillo",
+      "position": "P",
+      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -148,6 +211,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Rikuu Nishida",
+      "position": "RF",
+      "number": "51",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Sam Antonacci",
       "position": "LF",
       "number": "17",
@@ -169,9 +239,30 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Shane Smith",
+      "position": "P",
+      "number": "64",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tanner McDougal",
+      "position": "P",
+      "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Tommy Pham",
       "position": "DH",
       "number": "21",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Trevor Richards",
+      "position": "P",
+      "number": "43",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -186,6 +277,13 @@
       "name": "Tyler Davis",
       "position": "P",
       "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tyler Schweitzer",
+      "position": "P",
+      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     }

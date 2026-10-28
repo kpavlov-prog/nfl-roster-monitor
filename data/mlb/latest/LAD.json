@@ -5,8 +5,22 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-10-27T14:30:32.535071+00:00",
+  "checkedAt": "2026-10-28T15:05:39.712399+00:00",
   "players": [
+    {
+      "name": "Alex Call",
+      "position": "LF",
+      "number": "12",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Alex Freeland",
+      "position": "2B",
+      "number": "76",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Alex Vesia",
       "position": "P",
@@ -29,9 +43,30 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Blake Treinen",
+      "position": "P",
+      "number": "49",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Bobby Miller",
+      "position": "P",
+      "number": "28",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Brock Stewart",
       "position": "P",
       "number": "41",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Dalton Rushing",
+      "position": "C",
+      "number": "68",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -46,6 +81,20 @@
       "name": "Edwin Díaz",
       "position": "P",
       "number": "3",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Eliezer Alfonzo",
+      "position": "C",
+      "number": "64",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Emmet Sheehan",
+      "position": "P",
+      "number": "80",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -78,6 +127,20 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Hyeseong Kim",
+      "position": "SS",
+      "number": "6",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jack Dreyer",
+      "position": "P",
+      "number": "86",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Josue De Paula",
       "position": "DH",
       "number": "95",
@@ -99,9 +162,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Kyle Hurt",
+      "position": "P",
+      "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Kyle Tucker",
       "position": "RF",
       "number": "23",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Landon Knack",
+      "position": "P",
+      "number": "96",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -127,9 +204,30 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Paul Gervase",
+      "position": "P",
+      "number": "65",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Roki Sasaki",
       "position": "P",
       "number": "11",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ronan Kopp",
+      "position": "P",
+      "number": "83",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Seth Halvorsen",
+      "position": "P",
+      "number": "56",
       "status": "A",
       "source": "MLB Stats API"
     },

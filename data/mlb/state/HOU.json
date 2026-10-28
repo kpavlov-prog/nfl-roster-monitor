@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=active",
-  "checkedAt": "2026-10-27T14:30:30.781404+00:00",
+  "checkedAt": "2026-10-28T15:05:37.917540+00:00",
   "players": [
     {
       "name": "AJ Blubaugh",
@@ -200,13 +200,6 @@
       "name": "Miguel Ullola",
       "position": "P",
       "number": "66",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Nelson Velázquez",
-      "position": "LF",
-      "number": "30",
       "status": "A",
       "source": "MLB Stats API"
     },
