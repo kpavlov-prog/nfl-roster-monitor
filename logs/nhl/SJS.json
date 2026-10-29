@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-10-29T15:23:06.420466+00:00",
+    "teamCode": "SJS",
+    "teamName": "San Jose Sharks",
+    "type": "added",
+    "playerName": "Filip Bystedt",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-29T15:23:06.420475+00:00",
+    "teamCode": "SJS",
+    "teamName": "San Jose Sharks",
+    "type": "added",
+    "playerName": "Libor Hajek",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-29T15:23:06.420482+00:00",
+    "teamCode": "SJS",
+    "teamName": "San Jose Sharks",
+    "type": "removed",
+    "playerName": "Luca Cagnoni",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-16T13:24:32.255854+00:00",
     "teamCode": "SJS",
     "teamName": "San Jose Sharks",
