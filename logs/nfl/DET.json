@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-29T14:49:35.206432+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "added",
+    "playerName": "DJ Wonnum",
+    "position": "DE",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-29T14:49:35.206460+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Lions",
+    "type": "removed",
+    "playerName": "D.J. Wonnum",
+    "position": "DE",
+    "oldValue": "ACT",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-28T14:43:26.523091+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Lions",

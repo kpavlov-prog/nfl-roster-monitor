@@ -3,7 +3,7 @@
   "team": "Minnesota Vikings",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/minnesota-vikings/roster",
-  "checkedAt": "2026-10-28T14:43:42.412666+00:00",
+  "checkedAt": "2026-10-29T14:49:51.643416+00:00",
   "players": [
     {
       "name": "Aaron Jones",
@@ -105,7 +105,7 @@
       "name": "Bryson Nesbit",
       "position": "TE",
       "number": "83",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -202,6 +202,14 @@
       "position": "RB",
       "number": "21",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Devin Culp",
+      "position": "TE",
+      "number": "76",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

@@ -3,7 +3,7 @@
   "team": "Arizona Cardinals",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/arizona-cardinals/roster",
-  "checkedAt": "2026-10-28T14:43:10.620925+00:00",
+  "checkedAt": "2026-10-29T14:49:18.758276+00:00",
   "players": [
     {
       "name": "Albert Reese",
@@ -473,7 +473,7 @@
       "name": "Kingsley Eguakun",
       "position": "C",
       "number": "75",
-      "status": "LISTED",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },
@@ -675,6 +675,14 @@
       "number": "25",
       "status": "ACT",
       "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Zay Jones",
+      "position": "WR",
+      "number": "17",
+      "status": "LISTED",
+      "important": true,
       "source": "NFL.com"
     }
   ]

@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-29T14:50:03.791154+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco 49ers",
+    "type": "added",
+    "playerName": "DeForest Buckner",
+    "position": "DT",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-10-29T14:50:03.791168+00:00",
+    "teamCode": "SF",
+    "teamName": "San Francisco 49ers",
+    "type": "status changed",
+    "playerName": "Jack Jones",
+    "position": "CB",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-27T13:48:54.052815+00:00",
     "teamCode": "SF",
     "teamName": "San Francisco 49ers",
