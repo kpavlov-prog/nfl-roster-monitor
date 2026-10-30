@@ -3,7 +3,7 @@
   "team": "Minnesota Wild",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/MIN/current",
-  "checkedAt": "2026-10-29T15:22:58.729719+00:00",
+  "checkedAt": "2026-10-30T15:10:16.784606+00:00",
   "players": [
     {
       "name": "Blake Coleman",
@@ -30,6 +30,20 @@
       "name": "Calvin Pickard",
       "position": "G",
       "number": "31",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Cameron Crotty",
+      "position": "D",
+      "number": "34",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Carson Lambos",
+      "position": "D",
+      "number": "55",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
