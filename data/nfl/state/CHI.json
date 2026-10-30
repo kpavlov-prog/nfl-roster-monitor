@@ -3,7 +3,7 @@
   "team": "Chicago Bears",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/chicago-bears/roster",
-  "checkedAt": "2026-10-29T14:49:26.963586+00:00",
+  "checkedAt": "2026-10-30T14:42:37.613756+00:00",
   "players": [
     {
       "name": "Anthony Johnson",
@@ -273,7 +273,7 @@
       "name": "Jamree Kromah",
       "position": "DE",
       "number": "59",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -291,6 +291,14 @@
       "number": "1",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Jeffery Simmons",
+      "position": "DT",
+      "number": "76",
+      "status": "ACT",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -330,6 +338,14 @@
       "position": "CB",
       "number": "39",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Josh Butler",
+      "position": "DB",
+      "number": "72",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
