@@ -3,12 +3,19 @@
   "team": "LA Clippers",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/LAC/roster",
-  "checkedAt": "2026-10-29T15:36:22.516944+00:00",
+  "checkedAt": "2026-10-30T15:21:29.222253+00:00",
   "players": [
     {
       "name": "Baba Miller",
       "position": "F",
       "number": "18",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Blake Wesley",
+      "position": "G",
+      "number": "20",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
