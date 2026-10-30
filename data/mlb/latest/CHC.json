@@ -5,15 +5,8 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/112/roster?rosterType=active",
-  "checkedAt": "2026-10-29T15:13:08.586492+00:00",
+  "checkedAt": "2026-10-30T15:02:19.830296+00:00",
   "players": [
-    {
-      "name": "Aaron Civale",
-      "position": "P",
-      "number": "38",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
     {
       "name": "Alex Bregman",
       "position": "3B",
@@ -78,13 +71,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "David Peterson",
-      "position": "P",
-      "number": "19",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Edward Cabrera",
       "position": "P",
       "number": "30",
@@ -109,13 +95,6 @@
       "name": "Gavin Hollowell",
       "position": "P",
       "number": "46",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Ian Happ",
-      "position": "LF",
-      "number": "8",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -176,13 +155,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Kevin Gausman",
-      "position": "P",
-      "number": "12",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Matt Shaw",
       "position": "RF",
       "number": "6",
@@ -200,13 +172,6 @@
       "name": "Michael Busch",
       "position": "1B",
       "number": "29",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Michael Conforto",
-      "position": "DH",
-      "number": "20",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -253,37 +218,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Seiya Suzuki",
-      "position": "RF",
-      "number": "27",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Shota Imanaga",
-      "position": "P",
-      "number": "18",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Trent Thornton",
-      "position": "P",
-      "number": "49",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Tyler Ferguson",
       "position": "P",
       "number": "64",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tyrone Taylor",
-      "position": "LF",
-      "number": "55",
       "status": "A",
       "source": "MLB Stats API"
     }

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-10-29T15:13:09.157030+00:00",
+  "checkedAt": "2026-10-30T15:02:20.359463+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -32,6 +32,13 @@
       "name": "Brenton Doyle",
       "position": "CF",
       "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brooks Baldwin",
+      "position": "LF",
+      "number": "27",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -99,13 +106,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Erick Fedde",
-      "position": "P",
-      "number": "47",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Grant Taylor",
       "position": "P",
       "number": "31",
@@ -123,13 +123,6 @@
       "name": "Huascar Brazobán",
       "position": "P",
       "number": "50",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jake Rogers",
-      "position": "C",
-      "number": "28",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -155,9 +148,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jordan Leasure",
+      "position": "P",
+      "number": "49",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Junior Perez",
       "position": "CF",
       "number": "37",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ky Bush",
+      "position": "P",
+      "number": "57",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -190,6 +197,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Mike Vasil",
+      "position": "P",
+      "number": "61",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Munetaka Murakami",
       "position": "1B",
       "number": "5",
@@ -204,9 +218,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Randal Grichuk",
-      "position": "DH",
-      "number": "34",
+      "name": "Prelander Berroa",
+      "position": "P",
+      "number": "52",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -232,13 +246,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Sean Newcomb",
-      "position": "P",
-      "number": "15",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Shane Smith",
       "position": "P",
       "number": "64",
@@ -253,16 +260,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Tommy Pham",
-      "position": "DH",
-      "number": "21",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Trevor Richards",
-      "position": "P",
-      "number": "43",
+      "name": "Tanner Murray",
+      "position": "LF",
+      "number": "41",
       "status": "A",
       "source": "MLB Stats API"
     },

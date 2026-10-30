@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=active",
-  "checkedAt": "2026-10-29T15:13:09.730604+00:00",
+  "checkedAt": "2026-10-30T15:02:20.882641+00:00",
   "players": [
     {
       "name": "Andrew Abbott",
@@ -15,9 +15,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Brady Singer",
-      "position": "P",
-      "number": "51",
+      "name": "Blake Dunn",
+      "position": "CF",
+      "number": "59",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -25,13 +25,6 @@
       "name": "Brandon Williamson",
       "position": "P",
       "number": "55",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brock Burke",
-      "position": "P",
-      "number": "49",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -116,6 +109,13 @@
       "name": "Graham Ashcraft",
       "position": "P",
       "number": "23",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Hunter Greene",
+      "position": "P",
+      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -232,6 +232,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Spencer Steer",
+      "position": "1B",
+      "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Tejay Antone",
       "position": "P",
       "number": "70",
@@ -242,13 +249,6 @@
       "name": "Tony Santillan",
       "position": "P",
       "number": "64",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tyler Stephenson",
-      "position": "C",
-      "number": "37",
       "status": "A",
       "source": "MLB Stats API"
     },

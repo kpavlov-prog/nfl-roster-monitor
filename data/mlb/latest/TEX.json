@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-10-29T15:13:21.904709+00:00",
+  "checkedAt": "2026-10-30T15:02:31.970163+00:00",
   "players": [
     {
       "name": "Adam Macko",
@@ -85,13 +85,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Elias Díaz",
-      "position": "C",
-      "number": "35",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Emiliano Teodo",
       "position": "P",
       "number": "56",
@@ -151,13 +144,6 @@
       "name": "Joc Pederson",
       "position": "DH",
       "number": "3",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jordan Montgomery",
-      "position": "P",
-      "number": "52",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -232,13 +218,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Nicky Lopez",
-      "position": "2B",
-      "number": "33",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Peyton Gray",
       "position": "P",
       "number": "75",
@@ -256,20 +235,6 @@
       "name": "Robert Garcia",
       "position": "P",
       "number": "62",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Trevor Williams",
-      "position": "P",
-      "number": "51",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tyler Alexander",
-      "position": "P",
-      "number": "13",
       "status": "A",
       "source": "MLB Stats API"
     },

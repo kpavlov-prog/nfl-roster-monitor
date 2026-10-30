@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-10-29T15:13:17.295119+00:00",
+  "checkedAt": "2026-10-30T15:02:27.748688+00:00",
   "players": [
     {
       "name": "Alika Williams",
@@ -25,13 +25,6 @@
       "name": "Brady Basso",
       "position": "P",
       "number": "66",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brian Serven",
-      "position": "C",
-      "number": "10",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -92,23 +85,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Geoff Hartlieb",
-      "position": "P",
-      "number": "31",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Hayden Juenger",
       "position": "P",
       "number": "58",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Henry Baez",
-      "position": "P",
-      "number": "76",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -169,27 +148,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Joey Estes",
-      "position": "P",
-      "number": "68",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Johnathan Rodríguez",
-      "position": "RF",
-      "number": "",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jonah Heim",
-      "position": "C",
-      "number": "15",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Joshua Kuroda-Grauer",
       "position": "3B",
       "number": "44",
@@ -239,9 +197,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Michael Stefanic",
-      "position": "2B",
-      "number": "17",
+      "name": "Nate Eaton",
+      "position": "LF",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-10-29T15:13:07.981906+00:00",
+  "checkedAt": "2026-10-30T15:02:19.304377+00:00",
   "players": [
     {
       "name": "Adley Rutschman",
@@ -106,13 +106,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Isiah Kiner-Falefa",
-      "position": "2B",
-      "number": "2",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jahmai Jones",
       "position": "DH",
       "number": "37",
@@ -169,23 +162,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Nate Eaton",
-      "position": "LF",
-      "number": "18",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Nick Sogard",
       "position": "2B",
       "number": "20",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Patrick Sandoval",
-      "position": "P",
-      "number": "43",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -242,13 +221,6 @@
       "name": "Trevor Story",
       "position": "SS",
       "number": "10",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tsung-Che Cheng",
-      "position": "SS",
-      "number": "39",
       "status": "A",
       "source": "MLB Stats API"
     },

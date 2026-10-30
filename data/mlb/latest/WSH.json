@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-10-29T15:13:23.116101+00:00",
+  "checkedAt": "2026-10-30T15:02:33.042028+00:00",
   "players": [
     {
       "name": "Abimelec Ortiz",
@@ -46,6 +46,13 @@
       "name": "Brady House",
       "position": "3B",
       "number": "12",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Braxton Roxby",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

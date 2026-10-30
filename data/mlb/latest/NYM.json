@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-10-29T15:13:16.126136+00:00",
+  "checkedAt": "2026-10-30T15:02:26.685395+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -81,13 +81,6 @@
       "name": "Cionel Pérez",
       "position": "P",
       "number": "52",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Cristian Pache",
-      "position": "OF",
-      "number": "71",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -200,6 +193,13 @@
       "name": "Kodai Senga",
       "position": "P",
       "number": "34",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kyren Paris",
+      "position": "2B",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=active",
-  "checkedAt": "2026-10-29T15:13:16.712859+00:00",
+  "checkedAt": "2026-10-30T15:02:27.222931+00:00",
   "players": [
     {
       "name": "Aaron Judge",
@@ -18,13 +18,6 @@
       "name": "Ali Sánchez",
       "position": "C",
       "number": "39",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Amed Rosario",
-      "position": "3B",
-      "number": "14",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -106,13 +99,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "David Bednar",
-      "position": "P",
-      "number": "53",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Elmer Rodríguez",
       "position": "P",
       "number": "71",
@@ -162,20 +148,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jazz Chisholm Jr.",
-      "position": "2B",
-      "number": "13",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "John Schreiber",
-      "position": "P",
-      "number": "56",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "José Caballero",
       "position": "SS",
       "number": "72",
@@ -211,27 +183,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Michael Fulmer",
-      "position": "P",
-      "number": "43",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Paul Blackburn",
-      "position": "P",
-      "number": "58",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Paul Goldschmidt",
-      "position": "1B",
-      "number": "48",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Ryan McMahon",
       "position": "3B",
       "number": "19",
@@ -246,30 +197,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Ryan Yarbrough",
-      "position": "P",
-      "number": "33",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Spencer Jones",
       "position": "CF",
       "number": "78",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tim Hill",
-      "position": "P",
-      "number": "41",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Trent Grisham",
-      "position": "CF",
-      "number": "12",
       "status": "A",
       "source": "MLB Stats API"
     },

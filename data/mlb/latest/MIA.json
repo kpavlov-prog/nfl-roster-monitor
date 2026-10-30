@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-10-29T15:13:14.409884+00:00",
+  "checkedAt": "2026-10-30T15:02:25.109469+00:00",
   "players": [
     {
       "name": "Agustín Ramírez",
@@ -32,13 +32,6 @@
       "name": "Brandan Bidois",
       "position": "P",
       "number": "",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brian Navarreto",
-      "position": "C",
-      "number": "64",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -169,13 +162,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Logan Driscoll",
-      "position": "C",
-      "number": "33",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Max Meyer",
       "position": "P",
       "number": "23",
@@ -218,13 +204,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Pete Fairbanks",
-      "position": "P",
-      "number": "29",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Ryan Gusto",
       "position": "P",
       "number": "65",
@@ -246,13 +225,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Tyler Zuber",
-      "position": "P",
-      "number": "55",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Victor Vodnik",
       "position": "P",
       "number": "38",
@@ -260,23 +232,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Wikelman González",
-      "position": "P",
-      "number": "67",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Xavier Edwards",
       "position": "2B",
       "number": "9",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Zach Brzykcy",
-      "position": "P",
-      "number": "62",
       "status": "A",
       "source": "MLB Stats API"
     }

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-10-29T15:13:06.188223+00:00",
+  "checkedAt": "2026-10-30T15:02:17.730224+00:00",
   "players": [
     {
       "name": "Adrian Del Castillo",
@@ -50,13 +50,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Dennis Santana",
-      "position": "P",
-      "number": "59",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Drey Jameson",
       "position": "P",
       "number": "20",
@@ -95,27 +88,6 @@
       "name": "Gerardo Carrillo",
       "position": "P",
       "number": "68",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Ildemaro Vargas",
-      "position": "1B",
-      "number": "6",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "James McCann",
-      "position": "C",
-      "number": "8",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jonathan Loáisiga",
-      "position": "P",
-      "number": "43",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,13 +144,6 @@
       "name": "Ketel Marte",
       "position": "2B",
       "number": "4",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Kevin Ginkel",
-      "position": "P",
-      "number": "37",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -253,13 +218,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Taylor Clarke",
-      "position": "P",
-      "number": "45",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Tim Tawa",
       "position": "1B",
       "number": "13",
@@ -270,13 +228,6 @@
       "name": "Tommy Troy",
       "position": "LF",
       "number": "9",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Zac Gallen",
-      "position": "P",
-      "number": "23",
       "status": "A",
       "source": "MLB Stats API"
     }

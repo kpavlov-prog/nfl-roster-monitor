@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=active",
-  "checkedAt": "2026-10-29T15:13:11.475600+00:00",
+  "checkedAt": "2026-10-30T15:02:22.467395+00:00",
   "players": [
     {
       "name": "Andrew Sears",
@@ -106,13 +106,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Gleyber Torres",
-      "position": "2B",
-      "number": "25",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Hao-Yu Lee",
       "position": "2B",
       "number": "50",
@@ -127,23 +120,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jack Flaherty",
-      "position": "P",
-      "number": "9",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jackson Jobe",
       "position": "P",
       "number": "21",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jacob Waguespack",
-      "position": "P",
-      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,13 +144,6 @@
       "name": "John Peck",
       "position": "SS",
       "number": "18",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Justin Verlander",
-      "position": "P",
-      "number": "35",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -253,6 +225,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Tsung-Che Cheng",
+      "position": "SS",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Ty Madden",
       "position": "P",
       "number": "36",
@@ -263,13 +242,6 @@
       "name": "Tyler Holton",
       "position": "P",
       "number": "87",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tyler Kinley",
-      "position": "P",
-      "number": "55",
       "status": "A",
       "source": "MLB Stats API"
     },

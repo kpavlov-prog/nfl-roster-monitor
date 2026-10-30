@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-10-29T15:13:13.827719+00:00",
+  "checkedAt": "2026-10-30T15:02:24.579513+00:00",
   "players": [
     {
       "name": "Alex Call",
@@ -22,13 +22,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Alex Vesia",
-      "position": "P",
-      "number": "51",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Andy Pages",
       "position": "CF",
       "number": "44",
@@ -39,13 +32,6 @@
       "name": "Blake Snell",
       "position": "P",
       "number": "7",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Blake Treinen",
-      "position": "P",
-      "number": "49",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -99,20 +85,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Enrique Hernández",
-      "position": "3B",
-      "number": "8",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Evan Phillips",
-      "position": "P",
-      "number": "59",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Freddie Freeman",
       "position": "1B",
       "number": "5",
@@ -155,13 +127,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Kris Bubic",
-      "position": "P",
-      "number": "40",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Kyle Hurt",
       "position": "P",
       "number": "63",
@@ -186,13 +151,6 @@
       "name": "Max Muncy",
       "position": "3B",
       "number": "13",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Miguel Rojas",
-      "position": "2B",
-      "number": "72",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -242,13 +200,6 @@
       "name": "Tanner Scott",
       "position": "P",
       "number": "66",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tarik Skubal",
-      "position": "P",
-      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },
