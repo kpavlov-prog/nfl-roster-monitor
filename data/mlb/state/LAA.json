@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=active",
-  "checkedAt": "2026-10-30T15:02:24.055363+00:00",
+  "checkedAt": "2026-10-31T14:31:21.752764+00:00",
   "players": [
     {
       "name": "Ben Joyce",
@@ -78,6 +78,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jack Kochanowicz",
+      "position": "P",
+      "number": "41",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jose Siri",
       "position": "LF",
       "number": "28",
@@ -136,6 +143,13 @@
     {
       "name": "Nacho Alvarez Jr.",
       "position": "SS",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Nicolo Pinazzi",
+      "position": "P",
       "number": "",
       "status": "A",
       "source": "MLB Stats API"

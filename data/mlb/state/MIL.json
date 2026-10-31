@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=active",
-  "checkedAt": "2026-10-30T15:02:25.637239+00:00",
+  "checkedAt": "2026-10-31T14:31:23.449741+00:00",
   "players": [
     {
       "name": "Aaron Ashby",
@@ -67,13 +67,6 @@
       "name": "David Hamilton",
       "position": "3B",
       "number": "6",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Dustin May",
-      "position": "P",
-      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     },

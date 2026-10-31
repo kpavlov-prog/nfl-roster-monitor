@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=active",
-  "checkedAt": "2026-10-30T15:02:29.346517+00:00",
+  "checkedAt": "2026-10-31T14:31:27.392871+00:00",
   "players": [
     {
       "name": "Bradgley Rodriguez",
@@ -165,13 +165,6 @@
       "name": "Mason Miller",
       "position": "P",
       "number": "22",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Michael King",
-      "position": "P",
-      "number": "34",
       "status": "A",
       "source": "MLB Stats API"
     },
