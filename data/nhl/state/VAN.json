@@ -3,7 +3,7 @@
   "team": "Vancouver Canucks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/VAN/current",
-  "checkedAt": "2026-10-30T15:10:26.671317+00:00",
+  "checkedAt": "2026-10-31T14:39:19.685931+00:00",
   "players": [
     {
       "name": "Arshdeep Bains",
@@ -65,6 +65,13 @@
       "name": "Guillaume Brisebois",
       "position": "D",
       "number": "55",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jacob Quillan",
+      "position": "C",
+      "number": "62",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

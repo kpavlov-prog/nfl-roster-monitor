@@ -3,7 +3,7 @@
   "team": "Vegas Golden Knights",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/VGK/current",
-  "checkedAt": "2026-10-30T15:10:27.331476+00:00",
+  "checkedAt": "2026-10-31T14:39:20.398178+00:00",
   "players": [
     {
       "name": "Adin Hill",
@@ -30,13 +30,6 @@
       "name": "Brett Howden",
       "position": "C",
       "number": "21",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Cameron Whitehead",
-      "position": "G",
-      "number": "39",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -72,6 +65,13 @@
       "name": "Jeremy Lauzon",
       "position": "D",
       "number": "5",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jonas Rondbjerg",
+      "position": "R",
+      "number": "46",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

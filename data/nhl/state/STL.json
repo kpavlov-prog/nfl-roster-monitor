@@ -3,7 +3,7 @@
   "team": "St. Louis Blues",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/STL/current",
-  "checkedAt": "2026-10-30T15:10:24.028236+00:00",
+  "checkedAt": "2026-10-31T14:39:16.799443+00:00",
   "players": [
     {
       "name": "Adam Jiricek",
@@ -170,6 +170,13 @@
       "name": "Ross Johnston",
       "position": "L",
       "number": "49",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Theo Lindstein",
+      "position": "D",
+      "number": "4",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
