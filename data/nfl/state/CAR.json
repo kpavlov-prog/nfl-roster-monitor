@@ -3,7 +3,7 @@
   "team": "Carolina Panthers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/carolina-panthers/roster",
-  "checkedAt": "2026-10-30T14:42:35.965219+00:00",
+  "checkedAt": "2026-10-31T14:05:24.068948+00:00",
   "players": [
     {
       "name": "AJ Dillon",
@@ -98,6 +98,14 @@
       "position": "WR",
       "number": "87",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Caelen Carson",
+      "position": "DB",
+      "number": "72",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -329,7 +337,7 @@
       "name": "Jake Curhan",
       "position": "OT",
       "number": "74",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -441,7 +449,7 @@
       "name": "Marco Wilson",
       "position": "CB",
       "number": "71",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
