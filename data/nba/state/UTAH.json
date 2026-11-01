@@ -3,19 +3,12 @@
   "team": "Utah Jazz",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/UTAH/roster",
-  "checkedAt": "2026-10-31T14:47:45.090249+00:00",
+  "checkedAt": "2026-11-01T15:28:54.260002+00:00",
   "players": [
     {
       "name": "Ace Bailey",
       "position": "G",
       "number": "19",
-      "status": "ACTIVE",
-      "source": "ESPN NBA API"
-    },
-    {
-      "name": "Blake Hinson",
-      "position": "F",
-      "number": "25",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
@@ -86,6 +79,13 @@
       "name": "Keyonte George",
       "position": "G",
       "number": "3",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Kobe Bufkin",
+      "position": "G",
+      "number": "4",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
