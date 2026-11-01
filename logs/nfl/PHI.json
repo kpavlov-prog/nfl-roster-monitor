@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-11-01T14:38:29.466617+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "status changed",
+    "playerName": "Elijah Mitchell",
+    "position": "RB",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-01T14:38:29.466630+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "status changed",
+    "playerName": "Mason Reiger",
+    "position": "LB",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-01T14:38:29.466634+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Eagles",
+    "type": "position changed",
+    "playerName": "Mason Reiger",
+    "position": "LB",
+    "oldValue": "DE",
+    "newValue": "LB",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-10-29T14:50:00.512318+00:00",
     "teamCode": "PHI",
     "teamName": "Philadelphia Eagles",
