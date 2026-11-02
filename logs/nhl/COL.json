@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-02T18:40:00.198818+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Avalanche",
+    "type": "added",
+    "playerName": "Keaton Middleton",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-02T18:40:00.198825+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Avalanche",
+    "type": "removed",
+    "playerName": "Gavin Brindley",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-01T15:22:34.013500+00:00",
     "teamCode": "COL",
     "teamName": "Colorado Avalanche",

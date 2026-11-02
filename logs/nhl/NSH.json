@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-02T18:40:06.770891+00:00",
+    "teamCode": "NSH",
+    "teamName": "Nashville Predators",
+    "type": "added",
+    "playerName": "Shane Wright",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-02T18:40:06.770897+00:00",
+    "teamCode": "NSH",
+    "teamName": "Nashville Predators",
+    "type": "removed",
+    "playerName": "Matthew Wood",
+    "position": "R",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-25T13:17:15.279345+00:00",
     "teamCode": "NSH",
     "teamName": "Nashville Predators",
