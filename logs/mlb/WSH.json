@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-02T18:21:09.998910+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Nationals",
+    "type": "added",
+    "playerName": "Nate Furman",
+    "position": "2B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-02T18:21:09.998917+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Nationals",
+    "type": "removed",
+    "playerName": "Richard Lovelady",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-30T15:02:33.043069+00:00",
     "teamCode": "WSH",
     "teamName": "Washington Nationals",
