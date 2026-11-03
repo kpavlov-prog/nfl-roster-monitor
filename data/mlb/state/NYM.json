@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-11-02T18:21:02.145199+00:00",
+  "checkedAt": "2026-11-03T16:14:04.843747+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -36,13 +36,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Cameron Weston",
-      "position": "P",
-      "number": "74",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Carson Benge",
       "position": "RF",
       "number": "3",
@@ -53,13 +46,6 @@
       "name": "Chayce McDermott",
       "position": "P",
       "number": "43",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Christian Cairo",
-      "position": "SS",
-      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -113,13 +99,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Eric Wagaman",
-      "position": "1B",
-      "number": "39",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Francisco Alvarez",
       "position": "C",
       "number": "4",
@@ -137,6 +116,13 @@
       "name": "Hayden Senger",
       "position": "C",
       "number": "6",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jack Anderson",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -176,6 +162,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jorge Polanco",
+      "position": "DH",
+      "number": "11",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Juan Soto",
       "position": "LF",
       "number": "22",
@@ -193,13 +186,6 @@
       "name": "Kodai Senga",
       "position": "P",
       "number": "34",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Kyren Paris",
-      "position": "2B",
-      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -246,9 +232,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Philip Abner",
+      "name": "Pierson Ohl",
       "position": "P",
       "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Reed Garrett",
+      "position": "P",
+      "number": "75",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -277,6 +270,13 @@
       "name": "Tobias Myers",
       "position": "P",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tylor Megill",
+      "position": "P",
+      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },

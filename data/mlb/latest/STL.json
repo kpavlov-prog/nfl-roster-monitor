@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=active",
-  "checkedAt": "2026-11-02T18:21:07.423365+00:00",
+  "checkedAt": "2026-11-03T16:14:09.815759+00:00",
   "players": [
     {
       "name": "Alec Burleson",
@@ -46,13 +46,6 @@
       "name": "Cade Winquest",
       "position": "P",
       "number": "63",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Chase Hampton",
-      "position": "P",
-      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -197,6 +190,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Max Rajcic",
+      "position": "P",
+      "number": "71",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Michael McGreevy",
       "position": "P",
       "number": "36",
@@ -249,13 +249,6 @@
       "name": "Ryan Fernandez",
       "position": "P",
       "number": "64",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Ryne Stanek",
-      "position": "P",
-      "number": "55",
       "status": "A",
       "source": "MLB Stats API"
     },

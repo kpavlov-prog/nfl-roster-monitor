@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-11-02T18:21:06.140977+00:00",
+  "checkedAt": "2026-11-03T16:14:08.550640+00:00",
   "players": [
+    {
+      "name": "Adrian Houser",
+      "position": "P",
+      "number": "12",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Anthony Molina",
       "position": "P",
@@ -15,16 +22,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Bo Davidson",
-      "position": "RF",
-      "number": "94",
+      "name": "Blade Tidwell",
+      "position": "P",
+      "number": "46",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Brett Harris",
-      "position": "3B",
-      "number": "29",
+      "name": "Bo Davidson",
+      "position": "RF",
+      "number": "94",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -50,6 +57,20 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Carson Whisenhunt",
+      "position": "P",
+      "number": "88",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Casey Schmitt",
+      "position": "LF",
+      "number": "10",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Cesar Perdomo",
       "position": "P",
       "number": "83",
@@ -60,6 +81,13 @@
       "name": "Christian Koss",
       "position": "SS",
       "number": "50",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Daniel Susac",
+      "position": "C",
+      "number": "6",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -78,13 +106,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Duncan Davitt",
-      "position": "P",
-      "number": "76",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Dylan Smith",
       "position": "P",
       "number": "66",
@@ -92,9 +113,30 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Joel Kuhnel",
+      "name": "Harrison Bader",
+      "position": "CF",
+      "number": "9",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Hayden Birdsong",
       "position": "P",
-      "number": "54",
+      "number": "60",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jesus Rodriguez",
+      "position": "C",
+      "number": "79",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Joel Peguero",
+      "position": "P",
+      "number": "63",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -109,6 +151,13 @@
       "name": "Jung Hoo Lee",
       "position": "RF",
       "number": "51",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Keaton Winn",
+      "position": "P",
+      "number": "67",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -134,6 +183,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Matt Chapman",
+      "position": "3B",
+      "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Matt Wilkinson",
       "position": "P",
       "number": "71",
@@ -148,9 +204,23 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Reiver Sanmartin",
+      "name": "Rafael Devers",
+      "position": "1B",
+      "number": "16",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Randy Rodríguez",
       "position": "P",
-      "number": "48",
+      "number": "73",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Rowan Wick",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -176,20 +246,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Seth Lonsway",
-      "position": "P",
-      "number": "86",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Shay Whitcomb",
-      "position": "3B",
-      "number": "13",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Trent Harris",
       "position": "P",
       "number": "68",
@@ -197,9 +253,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Tristan Beck",
+      "name": "Trevor McDonald",
       "position": "P",
-      "number": "43",
+      "number": "72",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -228,13 +284,6 @@
       "name": "Yunior Marte",
       "position": "P",
       "number": "87",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Zach Morgan",
-      "position": "C",
-      "number": "80",
       "status": "A",
       "source": "MLB Stats API"
     }

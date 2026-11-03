@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=active",
-  "checkedAt": "2026-11-02T18:20:56.677203+00:00",
+  "checkedAt": "2026-11-03T16:13:57.707822+00:00",
   "players": [
     {
       "name": "Andrew Sears",
@@ -53,13 +53,6 @@
       "name": "Colt Keith",
       "position": "3B",
       "number": "33",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Corey Julks",
-      "position": "LF",
-      "number": "44",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -127,6 +120,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jacob Waguespack",
+      "position": "P",
+      "number": "58",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jake Miller",
       "position": "P",
       "number": "60",
@@ -155,9 +155,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Kenley Jansen",
-      "position": "P",
-      "number": "74",
+      "name": "Kerry Carpenter",
+      "position": "RF",
+      "number": "30",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -176,9 +176,30 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Matt Vierling",
+      "position": "CF",
+      "number": "8",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Max Clark",
       "position": "CF",
       "number": "15",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Parker Meadows",
+      "position": "CF",
+      "number": "22",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Reese Olson",
+      "position": "P",
+      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -197,13 +218,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Sawyer Gipson-Long",
-      "position": "P",
-      "number": "66",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Spencer Torkelson",
       "position": "1B",
       "number": "20",
@@ -214,6 +228,13 @@
       "name": "Thayron Liranzo",
       "position": "C",
       "number": "49",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Trey Sweeney",
+      "position": "SS",
+      "number": "27",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -246,9 +267,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Yilber Díaz",
+      "name": "Wenceel Pérez",
+      "position": "RF",
+      "number": "46",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Will Vest",
       "position": "P",
-      "number": "62",
+      "number": "19",
       "status": "A",
       "source": "MLB Stats API"
     },

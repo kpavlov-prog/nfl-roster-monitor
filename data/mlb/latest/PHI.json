@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/143/roster?rosterType=active",
-  "checkedAt": "2026-11-02T18:21:04.237252+00:00",
+  "checkedAt": "2026-11-03T16:14:06.707361+00:00",
   "players": [
     {
       "name": "Aaron Nola",
@@ -43,9 +43,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Brad Keller",
+      "position": "P",
+      "number": "40",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Brandon Marsh",
       "position": "LF",
       "number": "16",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brett Harris",
+      "position": "3B",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -67,6 +81,13 @@
       "name": "Bryson Stott",
       "position": "2B",
       "number": "5",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Caleb Kilian",
+      "position": "P",
+      "number": "56",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -99,16 +120,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Gabriel Rincones Jr.",
-      "position": "RF",
-      "number": "17",
+      "name": "Felix Reyes",
+      "position": "LF",
+      "number": "29",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Garrett Stubbs",
-      "position": "C",
-      "number": "21",
+      "name": "Gabriel Rincones Jr.",
+      "position": "RF",
+      "number": "17",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -137,6 +158,13 @@
       "name": "Jhoan Duran",
       "position": "P",
       "number": "59",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Johan Rojas",
+      "position": "CF",
+      "number": "23",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -207,6 +235,13 @@
       "name": "Rafael Marchán",
       "position": "C",
       "number": "13",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Shay Whitcomb",
+      "position": "3B",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

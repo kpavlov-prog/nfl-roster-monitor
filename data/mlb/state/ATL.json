@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=active",
-  "checkedAt": "2026-11-02T18:20:51.345957+00:00",
+  "checkedAt": "2026-11-03T16:13:52.769732+00:00",
   "players": [
     {
       "name": "AJ Smith-Shawver",
@@ -158,6 +158,13 @@
       "name": "Mike Yastrzemski",
       "position": "LF",
       "number": "18",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Mitchell Parker",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

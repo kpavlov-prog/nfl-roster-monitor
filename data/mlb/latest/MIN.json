@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/142/roster?rosterType=active",
-  "checkedAt": "2026-11-02T18:21:01.497523+00:00",
+  "checkedAt": "2026-11-03T16:14:04.223022+00:00",
   "players": [
     {
       "name": "Alan Roden",
@@ -64,9 +64,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Cole Sands",
+      "position": "P",
+      "number": "44",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Connor Prielipp",
       "position": "P",
       "number": "61",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "David Festa",
+      "position": "P",
+      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -81,13 +95,6 @@
       "name": "Emmanuel Rodriguez",
       "position": "CF",
       "number": "21",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Eric Orze",
-      "position": "P",
-      "number": "19",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -109,13 +116,6 @@
       "name": "Hendry Mendez",
       "position": "OF",
       "number": "64",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jack Anderson",
-      "position": "P",
-      "number": "30",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -179,6 +179,27 @@
       "name": "Matt Wallner",
       "position": "RF",
       "number": "38",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Mick Abel",
+      "position": "P",
+      "number": "20",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Mike Paredes",
+      "position": "P",
+      "number": "53",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Pablo López",
+      "position": "P",
+      "number": "49",
       "status": "A",
       "source": "MLB Stats API"
     },

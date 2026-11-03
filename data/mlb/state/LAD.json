@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-11-02T18:20:59.374655+00:00",
+  "checkedAt": "2026-11-03T16:14:00.273187+00:00",
   "players": [
     {
       "name": "Alex Call",
@@ -25,6 +25,13 @@
       "name": "Andy Pages",
       "position": "CF",
       "number": "44",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ben Casparius",
+      "position": "P",
+      "number": "78",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -92,6 +99,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Gavin Stone",
+      "position": "P",
+      "number": "35",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Hunter Feduccia",
       "position": "C",
       "number": "46",
@@ -109,6 +123,13 @@
       "name": "Jack Dreyer",
       "position": "P",
       "number": "86",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jake Cousins",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -221,6 +242,13 @@
       "name": "Tyler Glasnow",
       "position": "P",
       "number": "31",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Will Klein",
+      "position": "P",
+      "number": "61",
       "status": "A",
       "source": "MLB Stats API"
     },

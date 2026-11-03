@@ -5,19 +5,12 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=active",
-  "checkedAt": "2026-11-02T18:20:55.996326+00:00",
+  "checkedAt": "2026-11-03T16:13:57.113714+00:00",
   "players": [
     {
       "name": "Adael Amador",
       "position": "2B",
       "number": "1",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Blake Adams",
-      "position": "P",
-      "number": "57",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -50,9 +43,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Chad Stevens",
-      "position": "2B",
-      "number": "39",
+      "name": "Chase Dollander",
+      "position": "P",
+      "number": "32",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -67,13 +60,6 @@
       "name": "Connor Norby",
       "position": "2B",
       "number": "35",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Eiberson Castellano",
-      "position": "P",
-      "number": "55",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -148,6 +134,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Kris Bryant",
+      "position": "DH",
+      "number": "23",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Kyle Karros",
       "position": "3B",
       "number": "12",
@@ -165,6 +158,13 @@
       "name": "Mason Adams",
       "position": "P",
       "number": "38",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "McCade Brown",
+      "position": "P",
+      "number": "51",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -218,13 +218,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "TJ Shook",
-      "position": "P",
-      "number": "52",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Tanner Gordon",
       "position": "P",
       "number": "29",
@@ -235,6 +228,13 @@
       "name": "Troy Johnston",
       "position": "RF",
       "number": "20",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Welinton Herrera",
+      "position": "P",
+      "number": "59",
       "status": "A",
       "source": "MLB Stats API"
     },

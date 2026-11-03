@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=active",
-  "checkedAt": "2026-11-02T18:20:52.694131+00:00",
+  "checkedAt": "2026-11-03T16:13:54.019174+00:00",
   "players": [
     {
       "name": "Adley Rutschman",
@@ -78,6 +78,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Eli White",
+      "position": "CF",
+      "number": "38",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Erik Miller",
       "position": "P",
       "number": "67",
@@ -134,6 +141,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Johan Oviedo",
+      "position": "P",
+      "number": "29",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jovani Morán",
       "position": "P",
       "number": "47",
@@ -141,9 +155,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Justin Slaten",
+      "position": "P",
+      "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Kristian Campbell",
       "position": "OF",
       "number": "28",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kutter Crawford",
+      "position": "P",
+      "number": "50",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -214,6 +242,13 @@
       "name": "Trevor Story",
       "position": "SS",
       "number": "10",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Triston Casas",
+      "position": "1B",
+      "number": "36",
       "status": "A",
       "source": "MLB Stats API"
     },

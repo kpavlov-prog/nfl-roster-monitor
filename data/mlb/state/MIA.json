@@ -5,12 +5,26 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-11-02T18:21:00.095775+00:00",
+  "checkedAt": "2026-11-03T16:14:01.113512+00:00",
   "players": [
+    {
+      "name": "Adam Mazur",
+      "position": "P",
+      "number": "60",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Agustín Ramírez",
       "position": "DH",
       "number": "50",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Andrew Nardi",
+      "position": "P",
+      "number": "43",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -50,6 +64,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Cameron Weston",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Dax Fulton",
       "position": "P",
       "number": "90",
@@ -74,13 +95,6 @@
       "name": "Eury Pérez",
       "position": "P",
       "number": "39",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Graham Pauley",
-      "position": "3B",
-      "number": "21",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -148,13 +162,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Josh White",
-      "position": "P",
-      "number": "59",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Kyle Stowers",
       "position": "1B",
       "number": "28",
@@ -197,9 +204,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Patrick Monteverde",
+      "name": "Robby Snelling",
       "position": "P",
-      "number": "44",
+      "number": "61",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ronny Henriquez",
+      "position": "P",
+      "number": "32",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -228,6 +242,13 @@
       "name": "Victor Vodnik",
       "position": "P",
       "number": "38",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "William Kempner",
+      "position": "P",
+      "number": "71",
       "status": "A",
       "source": "MLB Stats API"
     },

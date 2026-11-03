@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=active",
-  "checkedAt": "2026-11-02T18:21:08.705797+00:00",
+  "checkedAt": "2026-11-03T16:14:11.060454+00:00",
   "players": [
     {
       "name": "Adam Macko",
@@ -50,6 +50,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Carter Baumler",
+      "position": "P",
+      "number": "45",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Chase Silseth",
       "position": "P",
       "number": "63",
@@ -67,6 +74,13 @@
       "name": "Cody Freeman",
       "position": "3B",
       "number": "39",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cole Winn",
+      "position": "P",
+      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -120,6 +134,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jack Leiter",
+      "position": "P",
+      "number": "22",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jacob Latz",
       "position": "P",
       "number": "67",
@@ -141,16 +162,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jakob Junis",
+      "name": "Jose Corniell",
       "position": "P",
-      "number": "16",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Joc Pederson",
-      "position": "DH",
-      "number": "3",
+      "number": "59",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -158,6 +172,13 @@
       "name": "Josh Jung",
       "position": "3B",
       "number": "6",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "José Buttó",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -172,13 +193,6 @@
       "name": "Kumar Rocker",
       "position": "P",
       "number": "80",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Kyle Higashioka",
-      "position": "C",
-      "number": "11",
       "status": "A",
       "source": "MLB Stats API"
     },

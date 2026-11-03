@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=active",
-  "checkedAt": "2026-11-02T18:20:57.323362+00:00",
+  "checkedAt": "2026-11-03T16:13:58.347776+00:00",
   "players": [
     {
       "name": "AJ Blubaugh",
@@ -25,6 +25,13 @@
       "name": "Bennett Sousa",
       "position": "P",
       "number": "62",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brandon Walter",
+      "position": "P",
+      "number": "60",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -50,6 +57,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Carlos Correa",
+      "position": "SS",
+      "number": "1",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Christian Walker",
       "position": "1B",
       "number": "8",
@@ -71,9 +85,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "César Salazar",
+      "position": "C",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Ethan Pecko",
       "position": "P",
       "number": "70",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Evan Reifert",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -169,6 +197,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Mike Burrows",
+      "position": "P",
+      "number": "50",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Nick Allen",
       "position": "SS",
       "number": "20",
@@ -186,6 +221,13 @@
       "name": "Raynel Delgado",
       "position": "2B",
       "number": "29",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Roddery Muñoz",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

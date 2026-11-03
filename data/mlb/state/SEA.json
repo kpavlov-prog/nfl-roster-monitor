@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=active",
-  "checkedAt": "2026-11-02T18:21:06.808646+00:00",
+  "checkedAt": "2026-11-03T16:14:09.176196+00:00",
   "players": [
     {
       "name": "Andrés Muñoz",
@@ -18,6 +18,13 @@
       "name": "Brendan Donovan",
       "position": "3B",
       "number": "33",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brennen Davis",
+      "position": "CF",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -71,6 +78,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Colt Emerson",
+      "position": "SS",
+      "number": "4",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Cooper Criswell",
       "position": "P",
       "number": "88",
@@ -120,6 +134,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Isaac Mattson",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jhonny Pereda",
       "position": "C",
       "number": "5",
@@ -130,13 +151,6 @@
       "name": "Josh Naylor",
       "position": "1B",
       "number": "12",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Josh Simpson",
-      "position": "P",
-      "number": "37",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -176,9 +190,30 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Logan Evans",
+      "position": "P",
+      "number": "23",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Logan Gilbert",
       "position": "P",
       "number": "36",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Luke Raley",
+      "position": "RF",
+      "number": "20",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Matt Brash",
+      "position": "P",
+      "number": "47",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -204,9 +239,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Patrick Wisdom",
-      "position": "3B",
-      "number": "35",
+      "name": "Nick Davila",
+      "position": "P",
+      "number": "82",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -235,20 +270,6 @@
       "name": "Troy Taylor",
       "position": "P",
       "number": "59",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Troy Watson",
-      "position": "P",
-      "number": "",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Weston Wilson",
-      "position": "3B",
-      "number": "31",
       "status": "A",
       "source": "MLB Stats API"
     },

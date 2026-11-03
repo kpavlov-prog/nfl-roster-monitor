@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-11-02T18:20:50.619967+00:00",
+  "checkedAt": "2026-11-03T16:13:52.131025+00:00",
   "players": [
     {
       "name": "Adrian Del Castillo",
       "position": "DH",
       "number": "25",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Andrew Saalfrank",
+      "position": "P",
+      "number": "27",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -46,6 +53,13 @@
       "name": "Corbin Carroll",
       "position": "RF",
       "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cristian Mena",
+      "position": "P",
+      "number": "64",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -176,13 +190,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Michael Soroka",
-      "position": "P",
-      "number": "34",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Mitch Bratt",
       "position": "P",
       "number": "60",
@@ -193,13 +200,6 @@
       "name": "Nolan Arenado",
       "position": "3B",
       "number": "28",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Pavin Smith",
-      "position": "1B",
-      "number": "26",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -228,6 +228,13 @@
       "name": "Tommy Troy",
       "position": "LF",
       "number": "9",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tyler Locklear",
+      "position": "1B",
+      "number": "31",
       "status": "A",
       "source": "MLB Stats API"
     }

@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=active",
-  "checkedAt": "2026-11-02T18:21:05.482448+00:00",
+  "checkedAt": "2026-11-03T16:14:07.912653+00:00",
   "players": [
     {
       "name": "Bradgley Rodriguez",
       "position": "P",
       "number": "72",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Bryan Hoeing",
+      "position": "P",
+      "number": "78",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -67,13 +74,6 @@
       "name": "Gavin Sheets",
       "position": "1B",
       "number": "30",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Griffin Canning",
-      "position": "P",
-      "number": "17",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -148,6 +148,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Luis Gutierrez",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Manny Machado",
       "position": "3B",
       "number": "13",
@@ -169,23 +176,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Miguel Andujar",
-      "position": "DH",
-      "number": "41",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Nick Pivetta",
-      "position": "P",
-      "number": "27",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Randy Vásquez",
       "position": "P",
       "number": "98",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Rodolfo Durán",
+      "position": "C",
+      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },

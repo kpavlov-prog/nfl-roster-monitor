@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/112/roster?rosterType=active",
-  "checkedAt": "2026-11-02T18:20:53.342265+00:00",
+  "checkedAt": "2026-11-03T16:13:54.646785+00:00",
   "players": [
     {
       "name": "Alex Bregman",
@@ -22,6 +22,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Ben Brown",
+      "position": "P",
+      "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Braxton Garrett",
       "position": "P",
       "number": "60",
@@ -29,23 +36,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Caleb Thielbar",
+      "name": "Cade Horton",
       "position": "P",
-      "number": "24",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Clay Holmes",
-      "position": "P",
-      "number": "25",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Colin Rea",
-      "position": "P",
-      "number": "53",
+      "number": "22",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -67,6 +60,13 @@
       "name": "Edward Cabrera",
       "position": "P",
       "number": "30",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Eric Orze",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -141,6 +141,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Justin Steele",
+      "position": "P",
+      "number": "35",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Kevin Alcántara",
       "position": "DH",
       "number": "13",
@@ -190,6 +197,27 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Phil Maton",
+      "position": "P",
+      "number": "88",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Porter Hodge",
+      "position": "P",
+      "number": "37",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Riley Martin",
+      "position": "P",
+      "number": "51",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Ryan Rolison",
       "position": "P",
       "number": "33",
@@ -200,6 +228,13 @@
       "name": "Ryan Zeferjahn",
       "position": "P",
       "number": "56",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Shelby Miller",
+      "position": "P",
+      "number": "77",
       "status": "A",
       "source": "MLB Stats API"
     },
