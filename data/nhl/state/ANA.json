@@ -3,7 +3,7 @@
   "team": "Anaheim Ducks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/ANA/current",
-  "checkedAt": "2026-11-02T18:39:55.631097+00:00",
+  "checkedAt": "2026-11-03T16:24:25.964434+00:00",
   "players": [
     {
       "name": "A.J. Greer",
@@ -76,6 +76,13 @@
       "source": "NHL Web API"
     },
     {
+      "name": "Laurent Brossoit",
+      "position": "G",
+      "number": "31",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
       "name": "Leo Carlsson",
       "position": "C",
       "number": "91",
@@ -97,16 +104,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Nick Jensen",
-      "position": "D",
-      "number": "4",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Nikita Klepov",
-      "position": "R",
-      "number": "40",
+      "name": "Nico Myatovic",
+      "position": "L",
+      "number": "48",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

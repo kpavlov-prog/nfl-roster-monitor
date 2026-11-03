@@ -3,7 +3,7 @@
   "team": "Pittsburgh Penguins",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/PIT/current",
-  "checkedAt": "2026-11-02T18:40:11.176363+00:00",
+  "checkedAt": "2026-11-03T16:24:39.498487+00:00",
   "players": [
     {
       "name": "Andrei Kuzmenko",
@@ -93,6 +93,13 @@
       "name": "Ilya Solovyov",
       "position": "D",
       "number": "7",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jake Livanavage",
+      "position": "D",
+      "number": "4",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
