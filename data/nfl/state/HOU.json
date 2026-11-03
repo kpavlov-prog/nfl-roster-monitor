@@ -3,7 +3,7 @@
   "team": "Houston Texans",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/houston-texans/roster",
-  "checkedAt": "2026-11-02T17:36:34.410527+00:00",
+  "checkedAt": "2026-11-03T15:39:16.034670+00:00",
   "players": [
     {
       "name": "Aaron Graves",
@@ -337,7 +337,7 @@
       "name": "Jaden Crumedy",
       "position": "DT",
       "number": "76",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -433,6 +433,14 @@
       "name": "Josh Kelly",
       "position": "WR",
       "number": "85",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Joshua Pitsenberger",
+      "position": "RB",
+      "number": "72",
       "status": "LISTED",
       "important": true,
       "source": "NFL.com"
@@ -579,6 +587,14 @@
       "number": "73",
       "status": "LISTED",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Naquan Jones",
+      "position": "DT",
+      "number": "75",
+      "status": "ACT",
+      "important": false,
       "source": "NFL.com"
     },
     {
