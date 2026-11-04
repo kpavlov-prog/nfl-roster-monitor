@@ -3,7 +3,7 @@
   "team": "Los Angeles Kings",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/LAK/current",
-  "checkedAt": "2026-11-03T16:24:34.539488+00:00",
+  "checkedAt": "2026-11-04T16:28:14.924576+00:00",
   "players": [
     {
       "name": "Adrian Kempe",
@@ -114,6 +114,13 @@
       "name": "Joel Edmundson",
       "position": "D",
       "number": "6",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Kenny Connors",
+      "position": "C",
+      "number": "34",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

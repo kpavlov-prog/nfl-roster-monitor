@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-11-04T16:28:10.029477+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Blackhawks",
+    "type": "number changed",
+    "playerName": "Dillon Boucher",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "36",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-04T16:28:10.745662+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Avalanche",
+    "type": "removed",
+    "playerName": "Keaton Middleton",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-04T16:28:14.925454+00:00",
+    "teamCode": "LAK",
+    "teamName": "Los Angeles Kings",
+    "type": "added",
+    "playerName": "Kenny Connors",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-04T16:28:15.743122+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Wild",
+    "type": "removed",
+    "playerName": "Mason Shaw",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-04T16:28:19.883611+00:00",
+    "teamCode": "PHI",
+    "teamName": "Philadelphia Flyers",
+    "type": "removed",
+    "playerName": "Jack Studnicka",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-04T16:28:21.602349+00:00",
+    "teamCode": "SJS",
+    "teamName": "San Jose Sharks",
+    "type": "added",
+    "playerName": "Eric Pohlkamp",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-11-03T16:24:25.965588+00:00",
     "teamCode": "ANA",
     "teamName": "Anaheim Ducks",
