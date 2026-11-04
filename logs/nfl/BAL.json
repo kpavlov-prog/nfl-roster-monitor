@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-04T15:52:17.309900+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Ravens",
+    "type": "added",
+    "playerName": "Kedon Slovis",
+    "position": "QB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-04T15:52:17.309915+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Ravens",
+    "type": "status changed",
+    "playerName": "Tyler Loop",
+    "position": "K",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-11-03T15:39:00.090098+00:00",
     "teamCode": "BAL",
     "teamName": "Baltimore Ravens",

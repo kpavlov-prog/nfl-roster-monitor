@@ -3,7 +3,7 @@
   "team": "Arizona Cardinals",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/arizona-cardinals/roster",
-  "checkedAt": "2026-11-03T15:38:56.887925+00:00",
+  "checkedAt": "2026-11-04T15:52:14.002590+00:00",
   "players": [
     {
       "name": "Albert Reese",
@@ -249,7 +249,7 @@
       "name": "Harrison Wallace III",
       "position": "WR",
       "number": "30",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -377,7 +377,7 @@
       "name": "Jeremiyah Love",
       "position": "RB",
       "number": "4",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -457,7 +457,7 @@
       "name": "Kendrick Bourne",
       "position": "WR",
       "number": "17",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -547,6 +547,14 @@
       "number": "73",
       "status": "LISTED",
       "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Rivaldo Fairweather",
+      "position": "TE",
+      "number": "45",
+      "status": "LISTED",
+      "important": true,
       "source": "NFL.com"
     },
     {

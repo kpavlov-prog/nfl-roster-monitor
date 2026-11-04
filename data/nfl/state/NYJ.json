@@ -3,7 +3,7 @@
   "team": "New York Jets",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-york-jets/roster",
-  "checkedAt": "2026-11-03T15:39:35.173352+00:00",
+  "checkedAt": "2026-11-04T15:52:53.572920+00:00",
   "players": [
     {
       "name": "Adonai Mitchell",
@@ -82,6 +82,14 @@
       "position": "QB",
       "number": "4",
       "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Blake Freeland",
+      "position": "OT",
+      "number": "79",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -457,7 +465,7 @@
       "name": "Max Mitchell",
       "position": "OT",
       "number": "61",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -601,7 +609,7 @@
       "name": "Tre Brown",
       "position": "CB",
       "number": "30",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
