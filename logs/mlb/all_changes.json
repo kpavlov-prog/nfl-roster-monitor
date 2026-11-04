@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-11-04T16:18:17.746611+00:00",
+    "teamCode": "MIA",
+    "teamName": "Miami Marlins",
+    "type": "removed",
+    "playerName": "Bradley Blalock",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-04T16:18:23.590319+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Cardinals",
+    "type": "added",
+    "playerName": "Eduardo Rivera",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-04T16:18:24.675590+00:00",
+    "teamCode": "TEX",
+    "teamName": "Texas Rangers",
+    "type": "removed",
+    "playerName": "Michael Helman",
+    "position": "CF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-03T16:13:52.131853+00:00",
     "teamCode": "ARI",
     "teamName": "Arizona Diamondbacks",
