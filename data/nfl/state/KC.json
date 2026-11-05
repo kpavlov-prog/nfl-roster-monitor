@@ -3,7 +3,7 @@
   "team": "Kansas City Chiefs",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/kansas-city-chiefs/roster",
-  "checkedAt": "2026-11-04T15:52:38.698273+00:00",
+  "checkedAt": "2026-11-05T15:57:51.957716+00:00",
   "players": [
     {
       "name": "Aiden Fisher",
@@ -226,6 +226,14 @@
       "position": "DE",
       "number": "54",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Jacob De Jesus",
+      "position": "WR",
+      "number": "66",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },

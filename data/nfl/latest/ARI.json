@@ -3,7 +3,7 @@
   "team": "Arizona Cardinals",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/arizona-cardinals/roster",
-  "checkedAt": "2026-11-04T15:52:14.002590+00:00",
+  "checkedAt": "2026-11-05T15:57:19.421957+00:00",
   "players": [
     {
       "name": "Albert Reese",
@@ -297,7 +297,7 @@
       "name": "Isaiah Adams",
       "position": "G",
       "number": "74",
-      "status": "RES",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -329,6 +329,14 @@
       "name": "James Conner",
       "position": "RB",
       "number": "6",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "James Proche",
+      "position": "WR",
+      "number": "71",
       "status": "LISTED",
       "important": true,
       "source": "NFL.com"
@@ -378,6 +386,14 @@
       "position": "RB",
       "number": "4",
       "status": "RES",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Jermar Jefferson",
+      "position": "RB",
+      "number": "70",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
