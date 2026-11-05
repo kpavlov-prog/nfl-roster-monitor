@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-11-04T16:18:25.735481+00:00",
+  "checkedAt": "2026-11-05T16:27:57.947769+00:00",
   "players": [
     {
       "name": "Abimelec Ortiz",
@@ -284,13 +284,6 @@
       "name": "Yovanny Cruz",
       "position": "P",
       "number": "48",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Zak Kent",
-      "position": "P",
-      "number": "57",
       "status": "A",
       "source": "MLB Stats API"
     }
