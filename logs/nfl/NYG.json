@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-06T15:29:51.939205+00:00",
+    "teamCode": "NYG",
+    "teamName": "New York Giants",
+    "type": "number changed",
+    "playerName": "Eric Gray",
+    "position": "RB",
+    "oldValue": "70",
+    "newValue": "38",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-06T15:29:51.939214+00:00",
+    "teamCode": "NYG",
+    "teamName": "New York Giants",
+    "type": "status changed",
+    "playerName": "Jake Haener",
+    "position": "QB",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
     "timestamp": "2026-11-03T15:39:33.559866+00:00",
     "teamCode": "NYG",
     "teamName": "New York Giants",

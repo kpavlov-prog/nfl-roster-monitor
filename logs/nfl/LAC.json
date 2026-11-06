@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-11-06T15:29:42.332231+00:00",
+    "teamCode": "LAC",
+    "teamName": "Los Angeles Chargers",
+    "type": "status changed",
+    "playerName": "David Njoku",
+    "position": "TE",
+    "oldValue": "RES",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-11-06T15:29:42.332239+00:00",
+    "teamCode": "LAC",
+    "teamName": "Los Angeles Chargers",
+    "type": "status changed",
+    "playerName": "Denzel Perryman",
+    "position": "MLB",
+    "oldValue": "RES",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-06T15:29:42.332244+00:00",
+    "teamCode": "LAC",
+    "teamName": "Los Angeles Chargers",
+    "type": "number changed",
+    "playerName": "Jake Browning",
+    "position": "QB",
+    "oldValue": "74",
+    "newValue": "13",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-03T15:39:24.001073+00:00",
     "teamCode": "LAC",
     "teamName": "Los Angeles Chargers",

@@ -3,7 +3,7 @@
   "team": "Seattle Seahawks",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/seattle-seahawks/roster",
-  "checkedAt": "2026-11-05T15:58:22.027445+00:00",
+  "checkedAt": "2026-11-06T15:29:59.786110+00:00",
   "players": [
     {
       "name": "AJ Barner",
@@ -18,6 +18,14 @@
       "position": "OT",
       "number": "72",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Adrian Martinez",
+      "position": "QB",
+      "number": "74",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -354,6 +362,14 @@
       "position": "C",
       "number": "61",
       "status": "ACT",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Jamie Sheriff",
+      "position": "LB",
+      "number": "73",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },

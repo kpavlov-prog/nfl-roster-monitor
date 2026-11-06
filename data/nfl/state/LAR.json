@@ -3,7 +3,7 @@
   "team": "Los Angeles Rams",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/los-angeles-rams/roster",
-  "checkedAt": "2026-11-05T15:57:58.699739+00:00",
+  "checkedAt": "2026-11-06T15:29:43.994701+00:00",
   "players": [
     {
       "name": "Aaron Donald",
@@ -178,6 +178,14 @@
       "position": "WR",
       "number": "17",
       "status": "RES",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "David Long",
+      "position": "DB",
+      "number": "71",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -385,7 +393,7 @@
       "name": "Joshua Karty",
       "position": "K",
       "number": "74",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
