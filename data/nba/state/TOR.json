@@ -3,7 +3,7 @@
   "team": "Toronto Raptors",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/TOR/roster",
-  "checkedAt": "2026-11-04T16:37:02.662247+00:00",
+  "checkedAt": "2026-11-06T16:20:00.771647+00:00",
   "players": [
     {
       "name": "Alijah Martin",
@@ -76,6 +76,13 @@
       "source": "ESPN NBA API"
     },
     {
+      "name": "Kevin McCullar Jr.",
+      "position": "G",
+      "number": "9",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
       "name": "Kyle Anderson",
       "position": "F",
       "number": "12",
@@ -92,7 +99,7 @@
     {
       "name": "Nate Bittle",
       "position": "C",
-      "number": "",
+      "number": "12",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

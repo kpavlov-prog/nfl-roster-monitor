@@ -3,7 +3,7 @@
   "team": "Charlotte Hornets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/CHA/roster",
-  "checkedAt": "2026-11-04T16:36:48.110878+00:00",
+  "checkedAt": "2026-11-06T16:19:44.416683+00:00",
   "players": [
     {
       "name": "Brandon Miller",
@@ -72,6 +72,13 @@
       "name": "Liam McNeeley",
       "position": "G",
       "number": "33",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Michael Ajayi",
+      "position": "F",
+      "number": "10",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

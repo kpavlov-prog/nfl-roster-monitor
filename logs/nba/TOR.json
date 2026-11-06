@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-06T16:20:00.772517+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Raptors",
+    "type": "added",
+    "playerName": "Kevin McCullar Jr.",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-06T16:20:00.772521+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Raptors",
+    "type": "number changed",
+    "playerName": "Nate Bittle",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "12",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-10-18T12:48:19.328404+00:00",
     "teamCode": "TOR",
     "teamName": "Toronto Raptors",
