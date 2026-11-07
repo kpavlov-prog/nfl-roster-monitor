@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-11-07T14:59:27.000582+00:00",
+    "teamCode": "CHI",
+    "teamName": "Chicago Blackhawks",
+    "type": "removed",
+    "playerName": "Dominic Toninato",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-07T14:59:36.135755+00:00",
+    "teamCode": "NYR",
+    "teamName": "New York Rangers",
+    "type": "removed",
+    "playerName": "James Reimer",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-07T14:59:38.176431+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Penguins",
+    "type": "removed",
+    "playerName": "Jake Livanavage",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-07T14:59:40.211772+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Blues",
+    "type": "added",
+    "playerName": "Logan Mailloux",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-07T14:59:40.211781+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Blues",
+    "type": "removed",
+    "playerName": "Quinton Burns",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-07T14:59:42.249989+00:00",
+    "teamCode": "UTA",
+    "teamName": "Utah Mammoth",
+    "type": "added",
+    "playerName": "Gregor Biber",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-11-06T16:06:07.131060+00:00",
     "teamCode": "CGY",
     "teamName": "Calgary Flames",
