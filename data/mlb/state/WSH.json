@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-11-06T15:55:15.417662+00:00",
+  "checkedAt": "2026-11-07T14:54:01.204541+00:00",
   "players": [
     {
       "name": "Abimelec Ortiz",
@@ -218,13 +218,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Kyle Nicolas",
-      "position": "P",
-      "number": "",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Luis Perales",
       "position": "P",
       "number": "43",
@@ -256,6 +249,13 @@
       "name": "Orlando Ribalta",
       "position": "P",
       "number": "64",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Reiver Sanmartin",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

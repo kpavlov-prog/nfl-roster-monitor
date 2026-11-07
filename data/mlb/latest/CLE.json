@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active",
-  "checkedAt": "2026-11-06T15:55:01.868132+00:00",
+  "checkedAt": "2026-11-07T14:53:47.562746+00:00",
   "players": [
     {
       "name": "Andrew Walters",
@@ -158,6 +158,13 @@
       "name": "José Ramírez",
       "position": "3B",
       "number": "11",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "José Tena",
+      "position": "DH",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

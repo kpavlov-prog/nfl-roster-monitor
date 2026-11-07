@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-11-07T14:53:47.563804+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Guardians",
+    "type": "added",
+    "playerName": "José Tena",
+    "position": "DH",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-07T14:54:01.205614+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Nationals",
+    "type": "added",
+    "playerName": "Reiver Sanmartin",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-07T14:54:01.205626+00:00",
+    "teamCode": "WSH",
+    "teamName": "Washington Nationals",
+    "type": "removed",
+    "playerName": "Kyle Nicolas",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-05T16:27:57.948667+00:00",
     "teamCode": "WSH",
     "teamName": "Washington Nationals",
