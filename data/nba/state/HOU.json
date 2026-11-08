@@ -3,7 +3,7 @@
   "team": "Houston Rockets",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/HOU/roster",
-  "checkedAt": "2026-11-07T15:12:05.492432+00:00",
+  "checkedAt": "2026-11-08T15:36:41.255152+00:00",
   "players": [
     {
       "name": "Alperen Sengun",
@@ -23,6 +23,13 @@
       "name": "Bogdan Bogdanovic",
       "position": "G",
       "number": "31",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Bruce Thornton",
+      "position": "G",
+      "number": "2",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

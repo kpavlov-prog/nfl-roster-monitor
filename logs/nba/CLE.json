@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-08T15:36:38.258822+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Cavaliers",
+    "type": "added",
+    "playerName": "Riley Minix",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-08T15:36:38.258836+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Cavaliers",
+    "type": "removed",
+    "playerName": "Tristan Enaruna",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-06T16:19:45.783564+00:00",
     "teamCode": "CLE",
     "teamName": "Cleveland Cavaliers",

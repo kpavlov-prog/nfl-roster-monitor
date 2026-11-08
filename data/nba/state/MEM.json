@@ -3,7 +3,7 @@
   "team": "Memphis Grizzlies",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MEM/roster",
-  "checkedAt": "2026-11-07T15:12:08.022441+00:00",
+  "checkedAt": "2026-11-08T15:36:43.734585+00:00",
   "players": [
     {
       "name": "Cam Spencer",
@@ -100,6 +100,13 @@
       "name": "Quinten Post",
       "position": "C",
       "number": "41",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Richie Saunders",
+      "position": "G",
+      "number": "5",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
