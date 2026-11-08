@@ -3,12 +3,19 @@
   "team": "Toronto Maple Leafs",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/TOR/current",
-  "checkedAt": "2026-11-07T14:59:41.572221+00:00",
+  "checkedAt": "2026-11-08T15:28:42.670488+00:00",
   "players": [
     {
       "name": "Anthony Stolarz",
       "position": "G",
       "number": "41",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Artur Akhtyamov",
+      "position": "G",
+      "number": "70",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
