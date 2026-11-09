@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-11-09T19:12:55.338078+00:00",
+    "teamCode": "OKC",
+    "teamName": "Oklahoma City Thunder",
+    "type": "added",
+    "playerName": "Nique Clifford",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-09T19:12:55.338087+00:00",
+    "teamCode": "OKC",
+    "teamName": "Oklahoma City Thunder",
+    "type": "removed",
+    "playerName": "Dalen Terry",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-09T19:12:58.436390+00:00",
+    "teamCode": "SAC",
+    "teamName": "Sacramento Kings",
+    "type": "removed",
+    "playerName": "Nique Clifford",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-08T15:36:38.258822+00:00",
     "teamCode": "CLE",
     "teamName": "Cleveland Cavaliers",
