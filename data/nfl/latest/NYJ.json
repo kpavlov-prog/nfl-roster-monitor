@@ -3,7 +3,7 @@
   "team": "New York Jets",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-york-jets/roster",
-  "checkedAt": "2026-11-09T18:02:10.618160+00:00",
+  "checkedAt": "2026-11-10T15:58:25.241128+00:00",
   "players": [
     {
       "name": "Adonai Mitchell",
@@ -129,7 +129,7 @@
       "name": "Brant Banks",
       "position": "OT",
       "number": "79",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -491,6 +491,14 @@
       "number": "38",
       "status": "LISTED",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Mykal Walker",
+      "position": "LB",
+      "number": "43",
+      "status": "LISTED",
+      "important": false,
       "source": "NFL.com"
     },
     {

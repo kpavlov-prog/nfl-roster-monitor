@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-10T15:57:39.833292+00:00",
+    "teamCode": "BUF",
+    "teamName": "Buffalo Bills",
+    "type": "status changed",
+    "playerName": "Josh Palmer",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-11-10T15:57:39.833314+00:00",
+    "teamCode": "BUF",
+    "teamName": "Buffalo Bills",
+    "type": "status changed",
+    "playerName": "Trent Sherfield",
+    "position": "WR",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-06T15:29:20.148689+00:00",
     "teamCode": "BUF",
     "teamName": "Buffalo Bills",

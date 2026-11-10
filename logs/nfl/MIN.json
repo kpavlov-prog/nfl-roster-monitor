@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-10T15:58:17.879126+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "status changed",
+    "playerName": "Demond Claiborne",
+    "position": "RB",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-11-10T15:58:17.879151+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "status changed",
+    "playerName": "Odell Beckham Jr.",
+    "position": "WR",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-06T15:29:47.164210+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Vikings",

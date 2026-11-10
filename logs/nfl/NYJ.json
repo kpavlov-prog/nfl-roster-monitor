@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-10T15:58:25.241445+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "status changed",
+    "playerName": "Brant Banks",
+    "position": "OT",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-10T15:58:25.241469+00:00",
+    "teamCode": "NYJ",
+    "teamName": "New York Jets",
+    "type": "added",
+    "playerName": "Mykal Walker",
+    "position": "LB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-11-08T14:39:57.452767+00:00",
     "teamCode": "NYJ",
     "teamName": "New York Jets",
