@@ -3,7 +3,7 @@
   "team": "Tampa Bay Lightning",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/TBL/current",
-  "checkedAt": "2026-11-09T19:00:00.457526+00:00",
+  "checkedAt": "2026-11-10T16:31:15.591452+00:00",
   "players": [
     {
       "name": "Andrei Vasilevskiy",
@@ -51,13 +51,6 @@
       "name": "Dennis Hildeby",
       "position": "G",
       "number": "35",
-      "status": "ACTIVE",
-      "source": "NHL Web API"
-    },
-    {
-      "name": "Dominic James",
-      "position": "C",
-      "number": "17",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -142,6 +135,13 @@
       "name": "Ryan McDonagh",
       "position": "D",
       "number": "27",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Sam O'Reilly",
+      "position": "R",
+      "number": "23",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
