@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-11-11T16:38:15.464033+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Celtics",
+    "type": "added",
+    "playerName": "Chris Cenac Jr.",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-11T16:38:19.694347+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Pistons",
+    "type": "removed",
+    "playerName": "Chaz Lanier",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-11T16:38:22.742782+00:00",
+    "teamCode": "LAL",
+    "teamName": "Los Angeles Lakers",
+    "type": "added",
+    "playerName": "Carson Cooper",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-11T16:38:22.742791+00:00",
+    "teamCode": "LAL",
+    "teamName": "Los Angeles Lakers",
+    "type": "removed",
+    "playerName": "Lawson Lovering",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-11T16:38:23.335829+00:00",
+    "teamCode": "MEM",
+    "teamName": "Memphis Grizzlies",
+    "type": "removed",
+    "playerName": "Carson Cooper",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-11T16:38:25.134757+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Timberwolves",
+    "type": "removed",
+    "playerName": "Isaiah Evans",
+    "position": "F",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-09T19:12:55.338078+00:00",
     "teamCode": "OKC",
     "teamName": "Oklahoma City Thunder",

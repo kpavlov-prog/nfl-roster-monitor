@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-11T16:38:22.742782+00:00",
+    "teamCode": "LAL",
+    "teamName": "Los Angeles Lakers",
+    "type": "added",
+    "playerName": "Carson Cooper",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-11T16:38:22.742791+00:00",
+    "teamCode": "LAL",
+    "teamName": "Los Angeles Lakers",
+    "type": "removed",
+    "playerName": "Lawson Lovering",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-29T15:36:23.211998+00:00",
     "teamCode": "LAL",
     "teamName": "Los Angeles Lakers",

@@ -3,7 +3,7 @@
   "team": "Boston Celtics",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/BOS/roster",
-  "checkedAt": "2026-11-10T16:37:10.384665+00:00",
+  "checkedAt": "2026-11-11T16:38:15.463077+00:00",
   "players": [
     {
       "name": "Amari Williams",
@@ -16,6 +16,13 @@
       "name": "Baylor Scheierman",
       "position": "G",
       "number": "55",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Chris Cenac Jr.",
+      "position": "F",
+      "number": "12",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
