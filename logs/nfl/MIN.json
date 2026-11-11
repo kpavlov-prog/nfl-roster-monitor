@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-11-11T15:43:39.102225+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "added",
+    "playerName": "Audric Estime",
+    "position": "RB",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-11T15:43:39.102266+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "added",
+    "playerName": "Kirk Cousins",
+    "position": "QB",
+    "oldValue": "",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-11T15:43:39.102274+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "status changed",
+    "playerName": "Odell Beckham Jr.",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-11T15:43:39.102283+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Vikings",
+    "type": "removed",
+    "playerName": "Audric Estim",
+    "position": "RB",
+    "oldValue": "LISTED",
+    "newValue": "",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-10T15:58:17.879126+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Vikings",

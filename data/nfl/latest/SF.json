@@ -3,7 +3,7 @@
   "team": "San Francisco 49ers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/san-francisco-49ers/roster",
-  "checkedAt": "2026-11-10T15:58:31.208580+00:00",
+  "checkedAt": "2026-11-11T15:43:50.346373+00:00",
   "players": [
     {
       "name": "Alfred Collins",
@@ -273,7 +273,7 @@
       "name": "Gracen Halton",
       "position": "DT",
       "number": "93",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -401,6 +401,14 @@
       "name": "Kaelon Black",
       "position": "RB",
       "number": "26",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "number": "74",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"

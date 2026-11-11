@@ -3,7 +3,7 @@
   "team": "Kansas City Chiefs",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/kansas-city-chiefs/roster",
-  "checkedAt": "2026-11-10T15:58:09.412255+00:00",
+  "checkedAt": "2026-11-11T15:43:31.079890+00:00",
   "players": [
     {
       "name": "Aiden Fisher",
@@ -233,7 +233,7 @@
       "name": "Jack Pyburn",
       "position": "DE",
       "number": "54",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -330,6 +330,14 @@
       "position": "TE",
       "number": "84",
       "status": "RES",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Josh Downs",
+      "position": "WR",
+      "number": "69",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },

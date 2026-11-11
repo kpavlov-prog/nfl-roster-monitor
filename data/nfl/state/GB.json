@@ -3,7 +3,7 @@
   "team": "Green Bay Packers",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/green-bay-packers/roster",
-  "checkedAt": "2026-11-10T15:57:57.906423+00:00",
+  "checkedAt": "2026-11-11T15:43:24.679797+00:00",
   "players": [
     {
       "name": "Aaron Banks",
@@ -434,6 +434,14 @@
       "position": "DB",
       "number": "25",
       "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Kenny Fletcher Jr.",
+      "position": "TE",
+      "number": "75",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
