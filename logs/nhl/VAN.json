@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-11T16:27:13.380831+00:00",
+    "teamCode": "VAN",
+    "teamName": "Vancouver Canucks",
+    "type": "added",
+    "playerName": "Cameron Crotty",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-11T16:27:13.380847+00:00",
+    "teamCode": "VAN",
+    "teamName": "Vancouver Canucks",
+    "type": "removed",
+    "playerName": "Victor Mancini",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-31T14:39:19.686878+00:00",
     "teamCode": "VAN",
     "teamName": "Vancouver Canucks",
