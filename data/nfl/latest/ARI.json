@@ -3,7 +3,7 @@
   "team": "Arizona Cardinals",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/arizona-cardinals/roster",
-  "checkedAt": "2026-11-11T15:43:06.362162+00:00",
+  "checkedAt": "2026-11-12T16:27:38.622962+00:00",
   "players": [
     {
       "name": "Albert Reese",
@@ -273,7 +273,7 @@
       "name": "Hunter Long",
       "position": "TE",
       "number": "89",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -323,6 +323,14 @@
       "number": "86",
       "status": "RES",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Jamaree Salyer",
+      "position": "G",
+      "number": "76",
+      "status": "LISTED",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -433,6 +441,14 @@
       "name": "Josh Fryar",
       "position": "OT",
       "number": "78",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Josh Johnson",
+      "position": "QB",
+      "number": "75",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -554,6 +570,14 @@
       "position": "OT",
       "number": "70",
       "status": "RES",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Phillip Dorsett",
+      "position": "WR",
+      "number": "70",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
