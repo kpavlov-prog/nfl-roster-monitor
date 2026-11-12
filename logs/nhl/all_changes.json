@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-11-12T16:57:53.142409+00:00",
+    "teamCode": "LAK",
+    "teamName": "Los Angeles Kings",
+    "type": "removed",
+    "playerName": "Kenny Connors",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-12T16:57:55.487784+00:00",
+    "teamCode": "NJD",
+    "teamName": "New Jersey Devils",
+    "type": "added",
+    "playerName": "Lenni Hameenaho",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-12T16:58:02.157808+00:00",
+    "teamCode": "TOR",
+    "teamName": "Toronto Maple Leafs",
+    "type": "added",
+    "playerName": "Brendan Brisson",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-12T16:58:02.890808+00:00",
+    "teamCode": "UTA",
+    "teamName": "Utah Mammoth",
+    "type": "added",
+    "playerName": "Daniil But",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-11-11T16:26:54.937143+00:00",
     "teamCode": "ANA",
     "teamName": "Anaheim Ducks",
