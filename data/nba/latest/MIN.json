@@ -3,7 +3,7 @@
   "team": "Minnesota Timberwolves",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/MIN/roster",
-  "checkedAt": "2026-11-12T17:07:09.106073+00:00",
+  "checkedAt": "2026-11-13T16:45:26.052495+00:00",
   "players": [
     {
       "name": "Anthony Edwards",
@@ -37,6 +37,13 @@
       "name": "Donte DiVincenzo",
       "position": "G",
       "number": "0",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Isaiah Evans",
+      "position": "F",
+      "number": "33",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
