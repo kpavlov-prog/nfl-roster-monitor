@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-11-14T14:40:17.411090+00:00",
+    "teamCode": "LAR",
+    "teamName": "Los Angeles Rams",
+    "type": "status changed",
+    "playerName": "Brennan Presley",
+    "position": "WR",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-14T14:40:17.411111+00:00",
+    "teamCode": "LAR",
+    "teamName": "Los Angeles Rams",
+    "type": "status changed",
+    "playerName": "Puka Nacua",
+    "position": "WR",
+    "oldValue": "ACT",
+    "newValue": "RES",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-11-14T14:40:17.411118+00:00",
+    "teamCode": "LAR",
+    "teamName": "Los Angeles Rams",
+    "type": "added",
+    "playerName": "Tyler Scott",
+    "position": "WR",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-11T15:43:35.911038+00:00",
     "teamCode": "LAR",
     "teamName": "Los Angeles Rams",

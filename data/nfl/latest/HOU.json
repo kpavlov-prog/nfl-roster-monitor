@@ -3,7 +3,7 @@
   "team": "Houston Texans",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/houston-texans/roster",
-  "checkedAt": "2026-11-13T15:48:26.031728+00:00",
+  "checkedAt": "2026-11-14T14:40:07.517870+00:00",
   "players": [
     {
       "name": "Aaron Graves",
@@ -185,7 +185,7 @@
       "name": "Dare Ogunbowale",
       "position": "RB",
       "number": "23",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -609,6 +609,14 @@
       "name": "Nico Collins",
       "position": "WR",
       "number": "12",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Nikko Remigio",
+      "position": "WR",
+      "number": "69",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
