@@ -5,7 +5,7 @@
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
   "source": "ESPN College Football API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/87/roster?limit=100&page=1",
-  "checkedAt": "2026-11-14T15:57:26.565021+00:00",
+  "checkedAt": "2026-11-15T16:29:59.143643+00:00",
   "players": [
     {
       "name": "Adon Shuler",
@@ -606,6 +606,13 @@
       "name": "Micah Gilbert",
       "position": "WR",
       "number": "14",
+      "status": "ACTIVE",
+      "source": "ESPN College Football API"
+    },
+    {
+      "name": "Michael Giovacco",
+      "position": "DB",
+      "number": "30",
       "status": "ACTIVE",
       "source": "ESPN College Football API"
     },
