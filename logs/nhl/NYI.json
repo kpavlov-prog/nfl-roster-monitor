@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-15T15:46:22.183019+00:00",
+    "teamCode": "NYI",
+    "teamName": "New York Islanders",
+    "type": "added",
+    "playerName": "Mathew Barzal",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-15T15:46:22.183033+00:00",
+    "teamCode": "NYI",
+    "teamName": "New York Islanders",
+    "type": "removed",
+    "playerName": "Kyle MacLean",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-06T16:06:16.129343+00:00",
     "teamCode": "NYI",
     "teamName": "New York Islanders",
