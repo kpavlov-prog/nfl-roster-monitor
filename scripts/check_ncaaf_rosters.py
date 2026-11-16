@@ -6,6 +6,8 @@ from pathlib import Path
 
 import requests
 
+import roster_safety
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -298,18 +300,26 @@ def fetch_site_roster(team):
 def fetch_roster(team):
     site_players = []
     site_data = {}
+    site_error = None
 
     try:
         site_players, site_data = fetch_site_roster(team)
     except Exception as error:
+        site_error = error
         print(f"{team['code']}: site roster failed: {error}")
 
     core_players = []
+    core_error = None
 
     try:
         core_players = fetch_core_roster(team)
     except Exception as error:
+        core_error = error
         print(f"{team['code']}: core roster failed: {error}")
+
+    # Both ESPN APIs failing is a fetch failure, not an empty roster.
+    if site_error is not None and core_error is not None:
+        raise RuntimeError(f"Both ESPN roster APIs failed. Site API: {site_error} | Core API: {core_error}")
 
     if len(core_players) > len(site_players):
         players = core_players
@@ -438,49 +448,38 @@ def run():
     for team in teams:
         code = team["code"]
 
-        try:
-            current_roster = fetch_roster(team)
+        outcome = roster_safety.guarded_update(
+            league="ncaaf",
+            code=code,
+            fetch=lambda: fetch_roster(team),
+            diff=diff_rosters,
+            state_dir=STATE,
+            latest_dir=LATEST,
+            team_log=LOGS / f"{code}.json",
+            log_changes=lambda changes: append_team_log(code, changes),
+        )
+        roster = outcome["roster"]
+        changes = outcome["changes"]
 
-            state_path = STATE / f"{code}.json"
-            old_roster = load_json(state_path)
+        if changes:
+            all_changes.extend(changes)
 
-            changes = diff_rosters(old_roster, current_roster)
+        team_name = (roster or {}).get("team") or team["name"]
+        source = (roster or {}).get("source") or "ESPN College Football API"
+        statuses.append({
+            "teamCode": code,
+            "teamName": team_name,
+            "teamId": team["id"],
+            "logo": team.get("logo", ""),
+            **roster_safety.status_fields(outcome),
+            "source": source,
+        })
+        roster_safety.record_issue(DATA, code=code, team_name=team_name, outcome=outcome, source=source)
 
-            save_json(state_path, current_roster)
-            save_json(LATEST / f"{code}.json", current_roster)
-
-            if changes:
-                append_team_log(code, changes)
-                all_changes.extend(changes)
-
-            statuses.append({
-                "teamCode": code,
-                "teamName": current_roster["team"],
-                "teamId": team["id"],
-                "logo": team.get("logo", ""),
-                "checkedAt": current_roster["checkedAt"],
-                "playerCount": len(current_roster["players"]),
-                "lastChangeCount": len(changes),
-                "lastError": "",
-                "source": current_roster["source"],
-            })
-
-            print(f"{code}: {len(current_roster['players'])} players, {len(changes)} changes, {current_roster['source']}")
-
-        except Exception as error:
-            statuses.append({
-                "teamCode": code,
-                "teamName": team["name"],
-                "teamId": team["id"],
-                "logo": team.get("logo", ""),
-                "checkedAt": now_iso(),
-                "playerCount": 0,
-                "lastChangeCount": 0,
-                "lastError": str(error),
-                "source": "ESPN College Football API",
-            })
-
-            print(f"{code}: ERROR {error}")
+        if outcome["accepted"]:
+            print(f"{code}: {len(roster['players'])} players, {len(changes)} changes, {source}")
+        else:
+            print(f"{code}: {outcome['kind'].upper()} {outcome['message']}")
 
         time.sleep(0.25)
 
@@ -489,8 +488,7 @@ def run():
     summary = {
         "lastRunFinished": now_iso(),
         "teamsChecked": len(teams),
-        "teamsOk": sum(1 for item in statuses if not item["lastError"]),
-        "teamsErrored": sum(1 for item in statuses if item["lastError"]),
+        **roster_safety.summary_counts(statuses),
         "totalChanges": len(all_changes),
         "source": "ESPN College Football API / Core API",
     }

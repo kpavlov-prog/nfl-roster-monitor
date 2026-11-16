@@ -5,6 +5,8 @@ from pathlib import Path
 
 import requests
 
+import roster_safety
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -241,45 +243,36 @@ def run():
     for team in TEAMS:
         code = team["code"]
 
-        try:
-            current_roster = fetch_roster(team)
+        outcome = roster_safety.guarded_update(
+            league="nhl",
+            code=code,
+            fetch=lambda: fetch_roster(team),
+            diff=diff_rosters,
+            state_dir=STATE,
+            latest_dir=LATEST,
+            team_log=LOGS / f"{code}.json",
+            log_changes=lambda changes: append_team_log(code, changes),
+        )
+        roster = outcome["roster"]
+        changes = outcome["changes"]
 
-            state_path = STATE / f"{code}.json"
-            old_roster = load_json(state_path)
+        if changes:
+            all_changes.extend(changes)
 
-            changes = diff_rosters(old_roster, current_roster)
+        team_name = team["name"]
+        source = "NHL Web API"
+        statuses.append({
+            "teamCode": code,
+            "teamName": team_name,
+            **roster_safety.status_fields(outcome),
+            "source": source,
+        })
+        roster_safety.record_issue(DATA, code=code, team_name=team_name, outcome=outcome, source=source)
 
-            save_json(state_path, current_roster)
-            save_json(LATEST / f"{code}.json", current_roster)
-
-            if changes:
-                append_team_log(code, changes)
-                all_changes.extend(changes)
-
-            statuses.append({
-                "teamCode": code,
-                "teamName": team["name"],
-                "checkedAt": current_roster["checkedAt"],
-                "playerCount": len(current_roster["players"]),
-                "lastChangeCount": len(changes),
-                "lastError": "",
-                "source": "NHL Web API",
-            })
-
-            print(f"{code}: {len(current_roster['players'])} players, {len(changes)} changes")
-
-        except Exception as error:
-            statuses.append({
-                "teamCode": code,
-                "teamName": team["name"],
-                "checkedAt": now_iso(),
-                "playerCount": 0,
-                "lastChangeCount": 0,
-                "lastError": str(error),
-                "source": "NHL Web API",
-            })
-
-            print(f"{code}: ERROR {error}")
+        if outcome["accepted"]:
+            print(f"{code}: {len(roster['players'])} players, {len(changes)} changes")
+        else:
+            print(f"{code}: {outcome['kind'].upper()} {outcome['message']}")
 
         time.sleep(0.5)
 
@@ -288,8 +281,7 @@ def run():
     summary = {
         "lastRunFinished": now_iso(),
         "teamsChecked": len(TEAMS),
-        "teamsOk": sum(1 for item in statuses if not item["lastError"]),
-        "teamsErrored": sum(1 for item in statuses if item["lastError"]),
+        **roster_safety.summary_counts(statuses),
         "totalChanges": len(all_changes),
         "source": "NHL Web API",
     }

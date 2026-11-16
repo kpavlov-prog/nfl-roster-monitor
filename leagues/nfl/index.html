@@ -102,6 +102,8 @@ hr{border:none;border-top:1px solid var(--line);margin:16px 0}
 .team.selected{border-color:var(--purple);background:#f5f3ff}
 .team.has-change{border-color:var(--yellow)}
 .team.has-important{border-color:var(--red)}
+.team.has-issue{border-color:var(--red)}
+.meta.source-issue{color:var(--red);font-weight:700}
 .team-top{display:flex;gap:12px;align-items:center}
 .team-logo{width:46px;height:46px;object-fit:contain;flex-shrink:0}
 .title-logo{vertical-align:middle;margin-right:10px}
@@ -600,9 +602,11 @@ function renderTeams(){
   const allUnchecked=visibleChanges();
   document.getElementById("teams").innerHTML=statusRows.map(r=>{
     const roster=rosters[r.teamCode]||{},errors=roster.errors||[],changes=teamChanges(r.teamCode),unchecked=teamUnchecked(r.teamCode,allUnchecked),recent=changes[0],important=unchecked.some(isImportant);
-    const pillClass=errors.length?"error":important?"danger":unchecked.length?"warn":"ok";
-    const pillText=errors.length?"Source issue":important?"Important unchecked":unchecked.length?"Needs review":"Official OK";
-    return`<div class="team ${selectedCode===r.teamCode?"selected":""} ${unchecked.length?"has-change":""} ${important?"has-important":""}" onclick="selectTeam(${jsArg(r.teamCode)})">
+    // Source issue = the roster file failed to load, or the checker kept the previous roster (status.json lastError/sourceIssue).
+    const issue=errors.length?errors.join("; "):(r.lastError||(r.sourceIssue?`Source issue: ${r.sourceIssue}`:""));
+    const pillClass=issue?"error":important?"danger":unchecked.length?"warn":"ok";
+    const pillText=issue?"Source issue":important?"Important unchecked":unchecked.length?"Needs review":"Official OK";
+    return`<div class="team ${selectedCode===r.teamCode?"selected":""} ${unchecked.length?"has-change":""} ${important?"has-important":""} ${issue?"has-issue":""}" onclick="selectTeam(${jsArg(r.teamCode)})">
       <div class="team-top">
         <img src="${esc(LOGOS[r.teamCode]||"")}" class="team-logo" alt="">
         <div><div class="team-name">${esc(r.teamName)}</div><div class="team-code">${esc(r.teamCode)}</div></div>
@@ -611,6 +615,7 @@ function renderTeams(){
       <div class="meta">Checked: ${esc(gmt(r.checkedAt))}</div>
       <div class="meta">Last movement: ${recent?esc(timeAgo(recent.timestamp)):"none logged"}</div>
       <div class="meta">Unchecked changes: ${unchecked.length}</div>
+      ${issue?`<div class="meta source-issue">${esc(issue)}${r.lastAttemptedAt?` (last attempt ${esc(gmt(r.lastAttemptedAt))})`:""}</div>`:""}
       <div class="pill ${pillClass}">${pillText}</div>
     </div>`;
   }).join("");
