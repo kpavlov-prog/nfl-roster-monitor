@@ -4,441 +4,369 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>NFL Roster Monitor</title>
-
 <style>
-:root{--bg:#081226;--line:#e5e7eb;--text:#111827;--muted:#64748b;--blue:#2563eb;--purple:#7c3aed;--green:#16a34a;--green-bg:#dcfce7;--red:#dc2626;--red-bg:#fee2e2;--yellow:#d97706;--yellow-bg:#fef3c7}
+:root{
+  --bg:#081226;--line:#e5e7eb;--text:#111827;--muted:#64748b;
+  --blue:#2563eb;--purple:#7c3aed;
+  --green:#16a34a;--green-bg:#dcfce7;
+  --red:#dc2626;--red-bg:#fee2e2;
+  --yellow:#d97706;--yellow-bg:#fef3c7;
+}
 *{box-sizing:border-box}
-body{margin:0;font-family:Arial,sans-serif;background:radial-gradient(circle at top left,rgba(37,99,235,.28),transparent 32%),radial-gradient(circle at top right,rgba(124,58,237,.22),transparent 28%),var(--bg);color:white;min-height:100vh}
+body{
+  margin:0;font-family:Arial,sans-serif;color:#fff;min-height:100vh;
+  background:
+    radial-gradient(circle at top left,rgba(37,99,235,.28),transparent 32%),
+    radial-gradient(circle at top right,rgba(124,58,237,.22),transparent 28%),
+    var(--bg);
+}
 .container{max-width:1550px;margin:0 auto;padding:28px 24px 40px}
-h1{margin:0;font-size:42px}.subtitle{margin-top:8px;color:#cbd5e1}
+
+/* Sports Hub navigation */
+.top-nav{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+.nav-card{color:#fff;text-decoration:none;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.14);padding:10px 14px;border-radius:14px;font-weight:800}
+.nav-card:hover{background:rgba(255,255,255,.18)}
+.nav-card.active{background:linear-gradient(135deg,var(--blue),var(--purple))}
+
+h1{margin:0;font-size:42px}
+.subtitle{margin-top:8px;color:#cbd5e1}
+
+/* Form controls */
+button,select,input{padding:11px 14px;border-radius:12px;border:none;font-size:14px;font-family:inherit}
+button{background:linear-gradient(135deg,var(--blue),var(--purple));color:#fff;font-weight:800;cursor:pointer}
+button.secondary{background:#334155}
+select,input[type="text"],input[type="search"]{min-width:220px}
+
 .controls{margin-top:24px;display:flex;gap:12px;flex-wrap:wrap;background:rgba(255,255,255,.08);padding:14px;border-radius:18px}
-button,select,input{padding:11px 14px;border-radius:12px;border:none;font-size:14px}
-button{background:linear-gradient(135deg,var(--blue),var(--purple));color:white;font-weight:800;cursor:pointer}
-button.secondary{background:#334155}.checked-btn{background:#e2e8f0;color:#334155;padding:8px 10px;font-size:12px;margin-top:8px}
-input{min-width:220px}select{min-width:220px}.status{margin-top:14px;color:#dbeafe;font-size:14px}
+.status{margin-top:14px;color:#dbeafe;font-size:14px}
+
+/* Statistics */
 .stats{margin-top:18px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
-.stat{background:white;color:var(--text);border-radius:18px;padding:18px;box-shadow:0 10px 25px rgba(0,0,0,.18);border-top:5px solid var(--purple)}
-.stat-value{font-size:34px;font-weight:900}.stat-label{margin-top:6px;color:var(--muted);font-size:13px}
-.layout{margin-top:18px;display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:start}
-.panel{background:white;color:var(--text);border-radius:20px;padding:18px;box-shadow:0 12px 30px rgba(0,0,0,.18)}
-.panel+.panel{margin-top:18px}.panel h2{margin-top:0}
+.stat{background:#fff;color:var(--text);border-radius:18px;padding:18px;box-shadow:0 10px 25px rgba(0,0,0,.18);border-top:5px solid var(--purple)}
+.stat-value{font-size:34px;font-weight:900}
+.stat-label{margin-top:6px;color:var(--muted);font-size:13px}
+
+/* View tabs */
+.view-tabs{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+.view-tab{background:#1e293b;border:1px solid rgba(255,255,255,.12);padding:10px 16px}
+.view-tab.active{background:linear-gradient(135deg,var(--blue),var(--purple))}
+.view-section{display:none}
+.view-section.active{display:block}
+
+/* Cards */
+.layout{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:start}
+.column{display:flex;flex-direction:column;gap:18px;min-width:0}
+.panel{background:#fff;color:var(--text);border-radius:20px;padding:18px;box-shadow:0 12px 30px rgba(0,0,0,.18);min-width:0}
+.panel h2{margin-top:0}
+.tool-stack{display:flex;flex-direction:column;gap:18px}
+.meta{margin-top:8px;color:var(--muted);font-size:12px;line-height:1.45}
+.empty{color:var(--muted);font-style:italic}
+
+/* Roster changes (collapsible) */
+.changes-panel{padding:0;overflow:hidden}
+.changes-toggle{width:100%;display:flex;justify-content:space-between;align-items:center;gap:12px;background:#fff;color:var(--text);padding:16px 18px;border-radius:20px;font-size:18px;text-align:left}
+.changes-toggle:hover{background:#f8fafc}
+.changes-toggle-meta{white-space:nowrap}
+#changeToggleCount{color:var(--muted);font-size:12px;margin-right:8px}
+.change-section-body{display:none;padding:0 18px 18px}
+.change-section-body.open{display:block}
+.change-section-body h3{margin:14px 0 10px}
+.change-list{max-height:460px;overflow-y:auto;padding-right:4px}
 .two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.two-col>div{min-width:0}
+.change-item{padding:12px;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;background:#f8fafc}
+.change-item.high{background:var(--red-bg)}
+.change-item.medium{background:var(--yellow-bg)}
+.change-open{cursor:pointer}
+.change-title{font-weight:900}
+.change-time{color:var(--muted);font-size:12px;margin-top:4px}
+.change-action{color:var(--blue);font-size:12px;font-weight:800;margin-top:6px}
+.checked-btn{background:#e2e8f0;color:#334155;padding:8px 10px;font-size:12px;margin-top:8px}
+hr{border:none;border-top:1px solid var(--line);margin:16px 0}
+
+/* Teams grid */
 .teams{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
 .team{border:2px solid transparent;border-radius:16px;padding:14px;background:#f8fafc;cursor:pointer}
-.team:hover{border-color:var(--blue)}.team.selected{border-color:var(--purple);background:#f5f3ff}.team.has-change{border-color:var(--yellow)}.team.has-important{border-color:var(--red)}
-.team-top{display:flex;gap:12px;align-items:center}.team-logo{width:46px;height:46px;object-fit:contain}.team-name{font-weight:900;font-size:15px}
+.team:hover{border-color:var(--blue)}
+.team.selected{border-color:var(--purple);background:#f5f3ff}
+.team.has-change{border-color:var(--yellow)}
+.team.has-important{border-color:var(--red)}
+.team-top{display:flex;gap:12px;align-items:center}
+.team-logo{width:46px;height:46px;object-fit:contain;flex-shrink:0}
+.title-logo{vertical-align:middle;margin-right:10px}
+.team-name{font-weight:900;font-size:15px}
 .team-code{margin-top:4px;display:inline-block;background:#dbeafe;color:#1d4ed8;padding:3px 8px;border-radius:999px;font-size:11px;font-weight:900}
-.meta{margin-top:8px;color:var(--muted);font-size:12px;line-height:1.45}
 .pill{display:inline-block;padding:4px 9px;border-radius:999px;font-size:11px;font-weight:900;margin-top:6px}
-.ok{background:var(--green-bg);color:var(--green)}.error{background:var(--red-bg);color:var(--red)}.warn{background:var(--yellow-bg);color:var(--yellow)}.danger{background:var(--red-bg);color:var(--red)}
-.player{padding:10px 0;border-bottom:1px solid var(--line)}.player.highlight{background:#fef3c7;margin:6px -8px;padding:10px 8px;border-radius:10px}
-.player-name{font-weight:800}.position{display:inline-block;margin-left:8px;background:#ede9fe;color:var(--purple);padding:2px 7px;border-radius:7px;font-size:12px;font-weight:900}
+.ok{background:var(--green-bg);color:var(--green)}
+.error,.danger{background:var(--red-bg);color:var(--red)}
+.warn{background:var(--yellow-bg);color:var(--yellow)}
+
+/* Selected team */
+.player{padding:10px 0;border-bottom:1px solid var(--line)}
+.player.highlight{background:var(--yellow-bg);margin:6px -8px;padding:10px 8px;border-radius:10px}
+.player-name{font-weight:800}
+.position{display:inline-block;margin-left:8px;background:#ede9fe;color:var(--purple);padding:2px 7px;border-radius:7px;font-size:12px;font-weight:900}
 .status-pill{display:inline-block;margin-left:6px;padding:2px 7px;border-radius:7px;font-size:12px;font-weight:900;background:var(--green-bg);color:var(--green)}
-.status-danger{background:var(--red-bg);color:var(--red)}.status-warning{background:var(--yellow-bg);color:var(--yellow)}
-.change-item,.csv-row{padding:12px;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;background:#f8fafc}
-.change-item{cursor:pointer}.change-item.high{background:var(--red-bg)}.change-item.medium{background:var(--yellow-bg)}
-.change-title{font-weight:900}.change-time{color:var(--muted);font-size:12px;margin-top:4px}.change-action{color:#2563eb;font-size:12px;font-weight:800;margin-top:6px}
-.filter-row{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.filter-btn{background:#e2e8f0;color:#334155;padding:8px 10px;font-size:12px}.filter-btn.active{background:linear-gradient(135deg,var(--blue),var(--purple));color:#fff}
-.history-toggle{width:100%;text-align:left;background:#f1f5f9;color:#111827;margin-top:16px}.history-box{display:none;margin-top:12px}.history-box.open{display:block}
-.history-item{padding:10px 0;border-bottom:1px solid var(--line)}.history-main{font-weight:800}.history-time{color:var(--muted);font-size:12px;margin-top:4px}
-.empty{color:var(--muted);font-style:italic}.csv-found{border-left:6px solid var(--green)}.csv-missing{border-left:6px solid var(--red)}.csv-warning{border-left:6px solid var(--yellow)}
-@media(max-width:1150px){.stats,.layout,.two-col{grid-template-columns:1fr}}
-.top-nav{
-  display:flex;
-  gap:12px;
-  flex-wrap:wrap;
-  margin-bottom:18px;
-}
-.position-filter{
-  display:flex;
-  align-items:center;
-  gap:6px;
-  padding:6px 12px;
-  border-radius:20px;
-  background:#eef2ff;
-  border:1px solid #c7d2fe;
-  cursor:pointer;
-  font-weight:700;
-  user-select:none;
-}
+.status-danger{background:var(--red-bg);color:var(--red)}
+.status-warning{background:var(--yellow-bg);color:var(--yellow)}
+.history-toggle{width:100%;text-align:left;background:#f1f5f9;color:var(--text);margin-top:16px}
+.history-box{display:none;margin-top:12px}
+.history-box.open{display:block}
+.history-item{padding:10px 0;border-bottom:1px solid var(--line)}
+.history-main{font-weight:800}
+.history-time{color:var(--muted);font-size:12px;margin-top:4px}
+.filter-row{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.filter-btn{background:#e2e8f0;color:#334155;padding:8px 10px;font-size:12px}
+.filter-btn.active{background:linear-gradient(135deg,var(--blue),var(--purple));color:#fff}
 
-.position-filter input{
-  min-width:auto;
-  cursor:pointer;
-}
-.nav-card{
-  color:white;
-  text-decoration:none;
-  background:rgba(255,255,255,.10);
-  border:1px solid rgba(255,255,255,.14);
-  padding:10px 14px;
-  border-radius:14px;
-  font-weight:800;
-}
+/* CSV roster check */
+.file-row{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:14px}
+.file-row input[type="file"]{background:#f8fafc;border:1px solid var(--line);color:var(--text)}
+#csvResults{margin-top:14px}
+.csv-row{padding:12px;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;background:#f8fafc}
+.csv-found{border-left:6px solid var(--green)}
+.csv-missing{border-left:6px solid var(--red)}
+.csv-warning{border-left:6px solid var(--yellow)}
 
-.nav-card:hover{
-  background:rgba(255,255,255,.18);
-}
+/* Bulk team export */
+.bulk-toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}
+.bulk-toolbar input{flex:1;min-width:220px;border:1px solid var(--line)}
+.bulk-summary{margin:14px 0;padding:12px;background:#eef2ff;border-radius:12px;font-weight:800}
+.position-filter{display:flex;align-items:center;gap:6px;padding:6px 12px;border-radius:20px;background:#eef2ff;border:1px solid #c7d2fe;cursor:pointer;font-weight:700;user-select:none}
+.position-filter input{min-width:auto;padding:0;cursor:pointer}
+.bulk-team-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;margin-top:14px;max-height:420px;overflow-y:auto;padding-right:6px}
+.bulk-team-option{display:flex;align-items:center;gap:10px;padding:11px 12px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;cursor:pointer;font-weight:700}
+.bulk-team-option:hover{border-color:var(--blue);background:#eff6ff}
+.bulk-team-option input{width:18px;height:18px;min-width:auto;padding:0;cursor:pointer}
+.bulk-actions{margin-top:16px}
 
-.nav-card.active{
-  background:linear-gradient(135deg,#2563eb,#7c3aed);
+@media(max-width:1150px){
+  .stats,.layout,.two-col{grid-template-columns:1fr}
 }
-.bulk-toolbar{
-  display:flex;
-  gap:10px;
-  flex-wrap:wrap;
-  margin:14px 0;
+@media(max-width:600px){
+  .container{padding:20px 14px 32px}
+  h1{font-size:32px}
+  .stats{grid-template-columns:1fr 1fr}
+  select,input[type="text"],input[type="search"]{min-width:0;width:100%}
+  .controls>button{flex:1 1 auto}
 }
-
-.bulk-toolbar input{
-  flex:1;
-  min-width:220px;
-  border:1px solid var(--line);
-}
-
-.bulk-team-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
-  gap:10px;
-  margin-top:14px;
-  max-height:420px;
-  overflow-y:auto;
-  padding-right:6px;
-}
-
-.bulk-team-option{
-  display:flex;
-  align-items:center;
-  gap:10px;
-  padding:11px 12px;
-  background:#f8fafc;
-  border:1px solid var(--line);
-  border-radius:12px;
-  cursor:pointer;
-  font-weight:700;
-}
-
-.bulk-team-option:hover{
-  border-color:var(--blue);
-  background:#eff6ff;
-}
-
-.bulk-team-option input{
-  width:18px;
-  height:18px;
-  min-width:auto;
-  cursor:pointer;
-}
-
-.bulk-summary{
-  margin:14px 0;
-  padding:12px;
-  background:#eef2ff;
-  border-radius:12px;
-  font-weight:800;
-}
-.view-tabs{
-  display:flex;
-  gap:10px;
-  flex-wrap:wrap;
-  margin:18px 0;
-}
-
-.view-tab{
-  background:#1e293b;
-  color:white;
-  border:1px solid rgba(255,255,255,.12);
-  padding:10px 16px;
-  border-radius:12px;
-  font-weight:800;
-  cursor:pointer;
-}
-
-.view-tab.active{
-  background:linear-gradient(135deg,var(--blue),var(--purple));
-}
-
-.view-section{
-  display:none;
-}
-
-.view-section.active{
-  display:block;
-}
-.changes-collapsible{
-  padding:0;
-  overflow:hidden;
-}
-
-.changes-toggle{
-  width:100%;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  background:white;
-  color:var(--text);
-  padding:16px 18px;
-  border-radius:20px;
-  font-size:18px;
-  text-align:left;
-}
-
-.changes-toggle:hover{
-  background:#f8fafc;
-}
-
-#changeToggleCount{
-  color:var(--muted);
-  font-size:12px;
-  margin-right:8px;
-}
-
-.change-section-body{
-  display:none;
-  padding:0 18px 18px;
-}
-
-.change-section-body.open{
-  display:block;
-}  
 </style>
 </head>
-
 <body>
 <div class="container">
-<div class="top-nav">
-  <a class="nav-card" href="../../">Sports Hub</a>
-  <a class="nav-card active" href="../../leagues/nfl/">NFL</a>
-  <a class="nav-card" href="../../leagues/ncaaf/">College Football</a>
-  <a class="nav-card" href="../../leagues/nba/">NBA</a>
-  <a class="nav-card" href="../../leagues/wnba/">WNBA</a>
-  <a class="nav-card" href="../../leagues/mlb/">Baseball</a>
-  <a class="nav-card" href="../../leagues/nhl/">Ice Hockey</a>
-</div>
-<h1>NFL Roster Monitor</h1>
-<div class="subtitle">Official NFL roster monitoring dashboard powered by GitHub Actions. Times shown in GMT.</div>
 
-<div class="controls">
-<button onclick="loadDashboard()">Refresh dashboard</button>
-<button class="secondary" onclick="exportCsv()">Export changes CSV</button>
-<button class="secondary" onclick="markAllChecked()">Mark All Checked</button>
-<select id="teamSelect" onchange="selectTeam(this.value)"></select>
-<input id="searchBox" placeholder="Search player..." oninput="renderSelectedTeam()" />
-</div>
+  <nav class="top-nav">
+    <a class="nav-card" href="../../">Sports Hub</a>
+    <a class="nav-card active" href="../../leagues/nfl/">NFL</a>
+    <a class="nav-card" href="../../leagues/ncaaf/">College Football</a>
+    <a class="nav-card" href="../../leagues/nba/">NBA</a>
+    <a class="nav-card" href="../../leagues/wnba/">WNBA</a>
+    <a class="nav-card" href="../../leagues/mlb/">Baseball</a>
+    <a class="nav-card" href="../../leagues/nhl/">Ice Hockey</a>
+  </nav>
 
-<div id="status" class="status">Loading...</div>
+  <header>
+    <h1>NFL Roster Monitor</h1>
+    <div class="subtitle">Official NFL roster monitoring dashboard powered by GitHub Actions. Times shown in GMT.</div>
+  </header>
 
-<div class="stats">
-<div class="stat"><div id="teamsChecked" class="stat-value">-</div><div class="stat-label">Teams checked</div></div>
-<div class="stat"><div id="teamsOk" class="stat-value">-</div><div class="stat-label">Teams OK</div></div>
-<div class="stat"><div id="teamsErrored" class="stat-value">-</div><div class="stat-label">Teams errored</div></div>
-<div class="stat"><div id="totalChanges" class="stat-value">-</div><div class="stat-label">Unchecked changes</div></div>
-</div>
-<div class="view-tabs">
-  <button class="view-tab active" onclick="switchView('dashboard',this)">Dashboard</button>
-  <button class="view-tab" onclick="switchView('tools',this)">Roster Tools</button>
-  <button class="view-tab" onclick="switchView('history',this)">History</button>
-</div>
-
-<!-- DASHBOARD TAB -->
-<div id="dashboardView" class="view-section active">
-  <div class="layout">
-
-    <div>
-<div class="panel changes-collapsible">
-
-  <button class="changes-toggle" onclick="toggleChangeSection()">
-    <span>Roster Changes</span>
-
-    <span>
-      <span id="changeToggleCount">0 unchecked</span>
-      <span id="changeToggleArrow">▼</span>
-    </span>
-  </button>
-
-  <div id="changeSectionBody" class="change-section-body">
-
-    <div class="two-col">
-
-      <div>
-        <h3>Important Changes</h3>
-        <div id="importantChanges" class="empty">
-          No unchecked important changes.
-        </div>
-      </div>
-
-      <div>
-        <h3>Last 24h Changes</h3>
-        <div id="last24Changes" class="empty">
-          No unchecked changes in the last 24 hours.
-        </div>
-      </div>
-
-    </div>
-
-    <hr>
-
-    <h3>Latest Changes Detected</h3>
-
-    <div id="latestChanges" class="empty">
-      No unchecked roster changes.
-    </div>
-
+  <div class="controls">
+    <button type="button" onclick="loadDashboard()">Refresh dashboard</button>
+    <button type="button" class="secondary" onclick="exportCsv()">Export changes CSV</button>
+    <button type="button" class="secondary" onclick="markAllChecked()">Mark All Checked</button>
+    <select id="teamSelect" aria-label="Team" onchange="selectTeam(this.value)"></select>
+    <input id="searchBox" type="search" placeholder="Search player..." aria-label="Search player" oninput="renderSelectedTeam()" />
   </div>
 
-</div>
+  <div id="status" class="status">Loading...</div>
+
+  <div class="stats">
+    <div class="stat"><div id="teamsChecked" class="stat-value">-</div><div class="stat-label">Teams checked</div></div>
+    <div class="stat"><div id="teamsOk" class="stat-value">-</div><div class="stat-label">Teams OK</div></div>
+    <div class="stat"><div id="teamsErrored" class="stat-value">-</div><div class="stat-label">Teams errored</div></div>
+    <div class="stat"><div id="totalChanges" class="stat-value">-</div><div class="stat-label">Unchecked changes</div></div>
+  </div>
+
+  <div class="view-tabs" role="tablist">
+    <button type="button" class="view-tab active" role="tab" aria-selected="true" data-view="dashboard" onclick="switchView('dashboard')">Dashboard</button>
+    <button type="button" class="view-tab" role="tab" aria-selected="false" data-view="tools" onclick="switchView('tools')">Roster Tools</button>
+    <button type="button" class="view-tab" role="tab" aria-selected="false" data-view="history" onclick="switchView('history')">History</button>
+  </div>
+
+  <!-- DASHBOARD TAB -->
+  <section id="dashboardView" class="view-section active" role="tabpanel">
+    <div class="layout">
+
+      <div class="column">
+        <div class="panel changes-panel">
+          <button type="button" id="changeToggle" class="changes-toggle" aria-expanded="false" aria-controls="changeSectionBody" onclick="toggleChangeSection()">
+            <span>Roster Changes</span>
+            <span class="changes-toggle-meta"><span id="changeToggleCount">0 unchecked</span><span id="changeToggleArrow">▼</span></span>
+          </button>
+          <div id="changeSectionBody" class="change-section-body">
+            <div class="two-col">
+              <div>
+                <h3>Important Changes</h3>
+                <div id="importantChanges" class="change-list"><div class="empty">No unchecked important changes.</div></div>
+              </div>
+              <div>
+                <h3>Last 24h Changes</h3>
+                <div id="last24Changes" class="change-list"><div class="empty">No unchecked changes in the last 24 hours.</div></div>
+              </div>
+            </div>
+            <hr>
+            <h3>Latest Changes Detected</h3>
+            <div id="latestChanges" class="change-list"><div class="empty">No unchecked roster changes.</div></div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h2>Teams</h2>
+          <div id="teams" class="teams"></div>
+        </div>
+      </div>
 
       <div class="panel">
-        <h2>Teams</h2>
-        <div id="teams" class="teams"></div>
+        <h2 id="selectedTitle">Selected Team</h2>
+        <div id="selectedTeam">Select a team.</div>
       </div>
-    </div>
 
+    </div>
+  </section>
+
+  <!-- ROSTER TOOLS TAB -->
+  <section id="toolsView" class="view-section" role="tabpanel">
+    <div class="tool-stack">
+
+      <div class="panel">
+        <h2>CSV Roster Check</h2>
+        <div class="meta">
+          Upload CSV with columns: <b>Name</b>, <b>Team name</b>, <b>Position</b>, <b>Status</b>. Other columns are ignored.
+        </div>
+        <div class="file-row">
+          <input type="file" id="csvFile" accept=".csv" aria-label="CSV file" />
+          <button type="button" onclick="runCsvCheck()">Run CSV Check</button>
+        </div>
+        <div id="csvResults" class="meta">No CSV checked yet.</div>
+      </div>
+
+      <div class="panel">
+        <h2>Bulk Team Export</h2>
+        <div class="meta">Select multiple NFL teams and export their combined player rosters in one CSV file.</div>
+
+        <div class="bulk-toolbar">
+          <input id="bulkTeamSearch" type="search" placeholder="Search teams..." aria-label="Search teams" oninput="renderBulkTeams()" />
+          <button type="button" onclick="selectAllBulkTeams()">Select All</button>
+          <button type="button" class="secondary" onclick="clearBulkTeams()">Clear Selection</button>
+        </div>
+
+        <div id="bulkSummary" class="bulk-summary">Selected teams: 0 | Selected players: 0 | Positions: ALL</div>
+
+        <div class="meta">Position filter — leave all unchecked to export all positions.</div>
+        <div id="bulkPositionFilters" class="filter-row"></div>
+
+        <div id="bulkTeams" class="bulk-team-grid"></div>
+
+        <div class="bulk-actions">
+          <button type="button" onclick="exportBulkRosterCsv()">Export Selected Teams CSV</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- HISTORY TAB -->
+  <section id="historyView" class="view-section" role="tabpanel">
     <div class="panel">
-      <h2 id="selectedTitle">Selected Team</h2>
-      <div id="selectedTeam">Select a team.</div>
+      <h2>History</h2>
+      <div class="meta">Team-specific roster history is available from the Selected Team panel. This section can later be expanded into a league-wide history view.</div>
     </div>
+  </section>
 
-  </div>
-</div>
-
-<!-- ROSTER TOOLS TAB -->
-<div id="toolsView" class="view-section">
-
-  <div class="panel">
-    <h2>Roster Tools</h2>
-    <div class="meta">
-      CSV reconciliation and multi-team NFL roster exports.
-    </div>
-  </div>
-
-  <div class="panel">
-    <h2>CSV Roster Check</h2>
-
-    <div class="meta">
-      Upload CSV with columns:
-      <b>Name</b>,
-      <b>Team name</b>,
-      <b>Position</b>,
-      <b>Status</b>.
-      Other columns are ignored.
-    </div>
-
-    <br>
-
-    <input type="file" id="csvFile" accept=".csv" />
-    <button onclick="runCsvCheck()">Run CSV Check</button>
-
-    <div id="csvResults" class="meta" style="margin-top:14px;">
-      No CSV checked yet.
-    </div>
-  </div>
-
-  <div class="panel">
-    <h2>Bulk Team Export</h2>
-
-    <div class="meta">
-      Select multiple NFL teams and export their combined player rosters in one CSV file.
-    </div>
-
-    <div class="bulk-toolbar">
-      <input
-        id="bulkTeamSearch"
-        placeholder="Search teams..."
-        oninput="renderBulkTeams()"
-      />
-
-      <button onclick="selectAllBulkTeams()">Select All</button>
-
-      <button class="secondary" onclick="clearBulkTeams()">
-        Clear Selection
-      </button>
-    </div>
-
-<div id="bulkSummary" class="bulk-summary">
-  Selected teams: 0 | Selected players: 0
-</div>
-
-<div class="meta" style="margin-top:14px;">
-  Position filter — leave all unchecked to export all positions.
-</div>
-
-<div class="filter-row">
-  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="QB" onchange="updateBulkSummary()"> QB</label>
-  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="RB" onchange="updateBulkSummary()"> RB</label>
-  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="FB" onchange="updateBulkSummary()"> FB</label>
-  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="WR" onchange="updateBulkSummary()"> WR</label>
-  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="TE" onchange="updateBulkSummary()"> TE</label>
-  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="OL" onchange="updateBulkSummary()"> OL</label>
-  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="DL" onchange="updateBulkSummary()"> DL</label>
-  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="LB" onchange="updateBulkSummary()"> LB</label>
-  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="DB" onchange="updateBulkSummary()"> DB</label>
-  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="K" onchange="updateBulkSummary()"> K</label>
-  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="P" onchange="updateBulkSummary()"> P</label>
-  <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="LS" onchange="updateBulkSummary()"> LS</label>
-</div>
-
-<div id="bulkTeams" class="bulk-team-grid"></div>
-
-    <br>
-
-    <button onclick="exportBulkRosterCsv()">
-      Export Selected Teams CSV
-    </button>
-  </div>
-
-</div>
-
-<!-- HISTORY TAB -->
-<div id="historyView" class="view-section">
-  <div class="panel">
-    <h2>History</h2>
-    <div class="meta">
-      Team roster history is available from the Selected Team panel. This tab is reserved for a future combined history view.
-    </div>
-  </div>
 </div>
 
 <script>
-function switchView(view,button){
-  document.querySelectorAll(".view-section")
-    .forEach(section=>section.classList.remove("active"));
+/* ---------- Constants ---------- */
 
-  document.querySelectorAll(".view-tab")
-    .forEach(tab=>tab.classList.remove("active"));
+const DATA_PATHS={
+  summary:"../../data/nfl/summary.json",
+  status:"../../data/nfl/status.json",
+  allChanges:"../../logs/nfl/all_changes.json",
+  roster:code=>`../../data/nfl/latest/${code}.json`,
+  teamHistory:code=>`../../logs/nfl/${code}.json`
+};
 
-  const target=document.getElementById(view+"View");
-
-  if(target){
-    target.classList.add("active");
-  }
-
-  if(button){
-    button.classList.add("active");
-  }
-}
 const LOGOS={ARI:"https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",ATL:"https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",BAL:"https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",BUF:"https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",CAR:"https://a.espncdn.com/i/teamlogos/nfl/500/car.png",CHI:"https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",CIN:"https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",CLE:"https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",DAL:"https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",DEN:"https://a.espncdn.com/i/teamlogos/nfl/500/den.png",DET:"https://a.espncdn.com/i/teamlogos/nfl/500/det.png",GB:"https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",HOU:"https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",IND:"https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",JAX:"https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",KC:"https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",LV:"https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",LAC:"https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",LAR:"https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",MIA:"https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",MIN:"https://a.espncdn.com/i/teamlogos/nfl/500/min.png",NE:"https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",NO:"https://a.espncdn.com/i/teamlogos/nfl/500/no.png",NYG:"https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",NYJ:"https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",PHI:"https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",PIT:"https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",SF:"https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",SEA:"https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",TB:"https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",TEN:"https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",WAS:"https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png"};
 
-let summary={},statusRows=[],rosters={},allChanges=[],selectedCode="BUF",highlightedPlayer="",historyFilter="all",historyOpen=false;
-let bulkSelectedTeams=new Set();
+const BULK_POSITIONS=["QB","RB","FB","WR","TE","OL","DL","LB","DB","K","P","LS"];
 
-function getChecked(){return JSON.parse(localStorage.getItem("checkedChanges")||"[]")}
-function saveChecked(items){localStorage.setItem("checkedChanges",JSON.stringify(items))}
-function changeId(c){return [c.timestamp,c.teamCode,c.type,c.playerName,c.oldValue,c.newValue].join("|")}
-function isChecked(c){return getChecked().includes(changeId(c))}
-function markChecked(id){const items=new Set(getChecked());items.add(id);saveChecked([...items]);renderSummary();renderChangePanels();renderTeams()}
-function markAllChecked(){saveChecked(allChanges.map(c=>changeId(c)));renderSummary();renderChangePanels();renderTeams()}
-function clearCheckedChanges(){localStorage.removeItem("checkedChanges");renderSummary();renderChangePanels();renderTeams()}
+// Group chips match several roster positions; every other chip matches itself only.
+const BULK_POSITION_GROUPS={
+  OL:["OT","OG","G","C","OL"],
+  DL:["DE","DT","NT","DL"],
+  LB:["LB","ILB","OLB","MLB"],
+  DB:["DB","CB","S","FS","SS"]
+};
+
+const CHECKED_STORAGE_KEY="checkedChanges";
+
+/* ---------- State ---------- */
+
+let summary={},statusRows=[],rosters={},allChanges=[];
+let selectedCode="BUF",highlightedPlayer="",historyFilter="all",historyOpen=false;
+let bulkSelectedTeams=new Set();
+let historyCache={};
+let selectedRenderToken=0;
+let dashboardLoading=false;
+let csvReportExports={missingOfficial:[],missingCsv:[],mismatch:[],full:[]};
+
+/* ---------- Helpers ---------- */
+
+function esc(value){
+  return String(value??"")
+    .replace(/&/g,"&amp;")
+    .replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;")
+    .replace(/'/g,"&#39;");
+}
+
+// A string literal that is safe inside an inline on* attribute (handles ' and " in names).
+function jsArg(value){
+  return esc(JSON.stringify(String(value??"")));
+}
 
 function setStatus(msg){document.getElementById("status").textContent=msg}
-async function fetchJson(path){const res=await fetch(path+"?v="+Date.now());if(!res.ok)throw new Error(path+" failed");return await res.json()}
-function gmt(value){if(!value)return"-";try{return new Date(value).toLocaleString('en-GB',{timeZone:'UTC',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit'})+" GMT"}catch(e){return value}}
+
+async function fetchJson(path){
+  const res=await fetch(path+"?v="+Date.now());
+  if(!res.ok)throw new Error(path+" failed");
+  return await res.json();
+}
+
+function gmt(value){
+  if(!value)return"-";
+  try{
+    return new Date(value).toLocaleString("en-GB",{timeZone:"UTC",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit"})+" GMT";
+  }catch(e){
+    return value;
+  }
+}
+
+function timeAgo(value){
+  if(!value)return"unknown time ago";
+  const diff=Date.now()-new Date(value).getTime(),mins=Math.floor(diff/60000),hours=Math.floor(mins/60),days=Math.floor(hours/24);
+  if(days>0)return days+(days===1?" day ago":" days ago");
+  if(hours>0)return hours+(hours===1?" hour ago":" hours ago");
+  if(mins>0)return mins+(mins===1?" minute ago":" minutes ago");
+  return"just now";
+}
 
 function norm(v){
-  return String(v || "")
-    .replace(/\s*\([^)]*\)\s*/g, "")
+  return String(v||"")
+    .replace(/\s*\([^)]*\)\s*/g,"")
     .toLowerCase()
-    .replace(/[^a-z0-9]/g, "");
+    .replace(/[^a-z0-9]/g,"");
 }
 
 function normStatus(v){
@@ -455,38 +383,117 @@ function normStatus(v){
   return s;
 }
 
-function timeAgo(value){if(!value)return"unknown time ago";const diff=Date.now()-new Date(value).getTime(),mins=Math.floor(diff/60000),hours=Math.floor(mins/60),days=Math.floor(hours/24);if(days>0)return days+(days===1?" day ago":" days ago");if(hours>0)return hours+(hours===1?" hour ago":" hours ago");if(mins>0)return mins+(mins===1?" minute ago":" minutes ago");return"just now"}
-function changeSentence(c){const n=c.playerName||"Unknown player",t=String(c.type||"change").toLowerCase(),o=c.oldValue||"",ne=c.newValue||"";if(t==="added")return`${n} joined the team ${timeAgo(c.timestamp)}`;if(t==="removed")return`${n} left the team ${timeAgo(c.timestamp)}`;if(t==="status changed")return`${n} status changed ${o} → ${ne} ${timeAgo(c.timestamp)}`;return`${n}: ${c.type||'Roster change'} ${timeAgo(c.timestamp)}`}
-function severityClass(c){return c.severity==="high"?"high":c.severity==="medium"?"medium":""}
-function isImportant(c){const pos=String(c.position||"").toUpperCase(),type=String(c.type||"").toLowerCase(),txt=(type+" "+(c.oldValue||"")+" "+(c.newValue||"")).toLowerCase();return c.severity==="high"||["QB","RB","WR","TE","K"].includes(pos)&&(type==="removed"||type==="status changed")||/ir|pup|nfi|sus|res|out|inj/.test(txt)}
-function isLast24(c){return Date.now()-new Date(c.timestamp).getTime()<=24*60*60*1000}
-function visibleChanges(){return allChanges.filter(c=>!isChecked(c))}
+function csvCell(value){return'"'+String(value??"").replace(/"/g,'""')+'"'}
 
+function downloadCsv(filename,rows){
+  const csv=rows.map(r=>r.map(csvCell).join(",")).join("\n");
+  const blob=new Blob([csv],{type:"text/csv;charset=utf-8;"});
+  const url=URL.createObjectURL(blob);
+  const link=document.createElement("a");
+  link.href=url;
+  link.download=filename;
+  link.click();
+  URL.revokeObjectURL(url);
+}
+
+/* ---------- View tabs ---------- */
+
+function switchView(view){
+  document.querySelectorAll(".view-section").forEach(section=>{
+    section.classList.toggle("active",section.id===view+"View");
+  });
+  document.querySelectorAll(".view-tab").forEach(tab=>{
+    const active=tab.dataset.view===view;
+    tab.classList.toggle("active",active);
+    tab.setAttribute("aria-selected",active?"true":"false");
+  });
+}
+
+/* ---------- Checked changes (stored in localStorage) ---------- */
+
+function getChecked(){
+  try{
+    const items=JSON.parse(localStorage.getItem(CHECKED_STORAGE_KEY)||"[]");
+    return Array.isArray(items)?items:[];
+  }catch(e){
+    return[];
+  }
+}
+function saveChecked(items){localStorage.setItem(CHECKED_STORAGE_KEY,JSON.stringify(items))}
+function changeId(c){return[c.timestamp,c.teamCode,c.type,c.playerName,c.oldValue,c.newValue].join("|")}
+
+function refreshAfterCheck(){
+  renderSummary();
+  renderChangePanels();
+  renderTeams();
+}
+function markChecked(id){
+  const items=new Set(getChecked());
+  items.add(id);
+  saveChecked([...items]);
+  refreshAfterCheck();
+}
+function markAllChecked(){
+  saveChecked(allChanges.map(changeId));
+  refreshAfterCheck();
+}
+
+// Reads the checked list once per call instead of once per change.
+function visibleChanges(){
+  const checked=new Set(getChecked());
+  return allChanges.filter(c=>!checked.has(changeId(c)));
+}
+
+/* ---------- Change classification ---------- */
+
+function changeSentence(c){
+  const n=c.playerName||"Unknown player",t=String(c.type||"change").toLowerCase(),o=c.oldValue||"",ne=c.newValue||"";
+  if(t==="added")return`${n} joined the team ${timeAgo(c.timestamp)}`;
+  if(t==="removed")return`${n} left the team ${timeAgo(c.timestamp)}`;
+  if(t==="status changed")return`${n} status changed ${o} → ${ne} ${timeAgo(c.timestamp)}`;
+  return`${n}: ${c.type||"Roster change"} ${timeAgo(c.timestamp)}`;
+}
+function severityClass(c){return c.severity==="high"?"high":c.severity==="medium"?"medium":""}
+function isImportant(c){
+  const pos=String(c.position||"").toUpperCase(),type=String(c.type||"").toLowerCase(),txt=(type+" "+(c.oldValue||"")+" "+(c.newValue||"")).toLowerCase();
+  return c.severity==="high"||["QB","RB","WR","TE","K"].includes(pos)&&(type==="removed"||type==="status changed")||/ir|pup|nfi|sus|res|out|inj/.test(txt);
+}
+function isLast24(c){return Date.now()-new Date(c.timestamp).getTime()<=24*60*60*1000}
+
+/* ---------- Loading ---------- */
 
 async function loadDashboard(){
+  if(dashboardLoading)return;
+  dashboardLoading=true;
   try{
     setStatus("Loading dashboard...");
 
-    summary=await fetchJson("../../data/nfl/summary.json");
-    statusRows=await fetchJson("../../data/nfl/status.json");
+    const loadedSummary=await fetchJson(DATA_PATHS.summary);
+    const loadedStatus=await fetchJson(DATA_PATHS.status);
 
+    let loadedChanges;
     try{
-      allChanges=await fetchJson("../../logs/nfl/all_changes.json");
+      loadedChanges=await fetchJson(DATA_PATHS.allChanges);
     }catch(e){
-      allChanges=[];
+      loadedChanges=[];
     }
 
-    rosters={};
-
-    for(const row of statusRows){
+    const loadedRosters={};
+    await Promise.all(loadedStatus.map(async row=>{
       try{
-        rosters[row.teamCode]=await fetchJson(`../../data/nfl/latest/${row.teamCode}.json`);
+        loadedRosters[row.teamCode]=await fetchJson(DATA_PATHS.roster(row.teamCode));
       }catch(e){
-        rosters[row.teamCode]={players:[],errors:[e.message]};
+        loadedRosters[row.teamCode]={players:[],errors:[e.message]};
       }
-    }
+    }));
 
-    if(!statusRows.find(r=>r.teamCode===selectedCode) && statusRows.length){
+    summary=loadedSummary;
+    statusRows=Array.isArray(loadedStatus)?loadedStatus:[];
+    allChanges=Array.isArray(loadedChanges)?loadedChanges:[];
+    rosters=loadedRosters;
+    historyCache={};
+
+    if(!statusRows.find(r=>r.teamCode===selectedCode)&&statusRows.length){
       selectedCode=statusRows[0].teamCode;
     }
 
@@ -495,60 +502,234 @@ async function loadDashboard(){
     renderChangePanels();
     renderTeams();
     renderBulkTeams();
-    renderSelectedTeam();
+    await renderSelectedTeam();
 
     setStatus("Last update: "+gmt(summary.lastRunFinished));
   }catch(e){
     setStatus("Dashboard error: "+e.message);
+  }finally{
+    dashboardLoading=false;
   }
 }
 
-function renderSummary(){document.getElementById("teamsChecked").textContent=summary.teamsChecked||0;document.getElementById("teamsOk").textContent=summary.teamsOk||0;document.getElementById("teamsErrored").textContent=summary.teamsErrored||0;document.getElementById("totalChanges").textContent=visibleChanges().length}
-function renderTeamOptions(){document.getElementById("teamSelect").innerHTML=statusRows.map(r=>`<option value="${r.teamCode}">${r.teamName}</option>`).join("");document.getElementById("teamSelect").value=selectedCode}
-function selectTeam(code){selectedCode=code;document.getElementById("teamSelect").value=code;highlightedPlayer="";historyFilter="all";renderTeams();renderSelectedTeam()}
-function openChange(teamCode,playerName){selectedCode=teamCode;highlightedPlayer=playerName||"";document.getElementById("searchBox").value=playerName||"";document.getElementById("teamSelect").value=teamCode;renderTeams();renderSelectedTeam();document.getElementById("selectedTitle").scrollIntoView({behavior:"smooth",block:"start"})}
-function changeHtml(c){const safeName=String(c.playerName||"").replace(/'/g,"\\'"),id=changeId(c).replace(/"/g,"&quot;");return`<div class="change-item ${severityClass(c)}"><div onclick="openChange('${c.teamCode}','${safeName}')"><div class="change-title">${c.teamName||c.teamCode}: ${changeSentence(c)}</div><div class="change-time">${gmt(c.timestamp)} | ${String(c.severity||'low').toUpperCase()}</div><div class="change-action">Open team and player →</div></div><button class="checked-btn" onclick="markChecked('${id}')">Checked ✓</button></div>`}
-function renderChangePanels(){
+/* ---------- Summary + team dropdown ---------- */
 
-  const changes = visibleChanges();
-
-  document.getElementById("latestChanges").innerHTML =
-    changes.length
-      ? changes.map(changeHtml).join("")
-      : `<div class="empty">No unchecked roster changes.</div>`;
-
-  const important = changes.filter(isImportant);
-
-  document.getElementById("importantChanges").innerHTML =
-    important.length
-      ? important.map(changeHtml).join("")
-      : `<div class="empty">No unchecked important changes.</div>`;
-
-  const recent = changes.filter(isLast24);
-  document.getElementById("last24Changes").innerHTML =
-    recent.length
-      ? recent.map(changeHtml).join("")
-      : `<div class="empty">No unchecked changes in the last 24 hours.</div>`;
+function renderSummary(){
+  document.getElementById("teamsChecked").textContent=summary.teamsChecked||0;
+  document.getElementById("teamsOk").textContent=summary.teamsOk||0;
+  document.getElementById("teamsErrored").textContent=summary.teamsErrored||0;
+  document.getElementById("totalChanges").textContent=visibleChanges().length;
 }
-function teamChanges(code){return allChanges.filter(c=>c.teamCode===code)}
-function teamUnchecked(code){return visibleChanges().filter(c=>c.teamCode===code)}
-function renderTeams(){document.getElementById("teams").innerHTML=statusRows.map(r=>{const roster=rosters[r.teamCode]||{},errors=roster.errors||[],changes=teamChanges(r.teamCode),unchecked=teamUnchecked(r.teamCode),recent=changes[0],important=unchecked.some(isImportant);return`<div class="team ${selectedCode===r.teamCode?'selected':''} ${unchecked.length?'has-change':''} ${important?'has-important':''}" onclick="selectTeam('${r.teamCode}')"><div class="team-top"><img src="${LOGOS[r.teamCode]}" class="team-logo"><div><div class="team-name">${r.teamName}</div><div class="team-code">${r.teamCode}</div></div></div><div class="meta">Players: ${(roster.players||[]).length}</div><div class="meta">Checked: ${gmt(r.checkedAt)}</div><div class="meta">Last movement: ${recent?timeAgo(recent.timestamp):'none logged'}</div><div class="meta">Unchecked changes: ${unchecked.length}</div><div class="pill ${errors.length?'error':important?'danger':unchecked.length?'warn':'ok'}">${errors.length?'Source issue':important?'Important unchecked':unchecked.length?'Needs review':'Official OK'}</div></div>`}).join("")}
 
-function statusClass(status){const s=String(status||"").toUpperCase();if(["IR","PUP","NFI","SUS","RES"].includes(s))return"status-danger";if(["UFA","RFA","UDF"].includes(s))return"status-warning";return""}
+function renderTeamOptions(){
+  const select=document.getElementById("teamSelect");
+  select.innerHTML=statusRows.map(r=>`<option value="${esc(r.teamCode)}">${esc(r.teamName)}</option>`).join("");
+  select.value=selectedCode;
+}
+
+function selectTeam(code){
+  selectedCode=code;
+  document.getElementById("teamSelect").value=code;
+  highlightedPlayer="";
+  historyFilter="all";
+  renderTeams();
+  renderSelectedTeam();
+}
+
+function openChange(teamCode,playerName){
+  selectedCode=teamCode;
+  highlightedPlayer=playerName||"";
+  document.getElementById("searchBox").value=playerName||"";
+  document.getElementById("teamSelect").value=teamCode;
+  renderTeams();
+  renderSelectedTeam();
+  document.getElementById("selectedTitle").scrollIntoView({behavior:"smooth",block:"start"});
+}
+
+/* ---------- Roster changes panel ---------- */
+
+function changeHtml(c){
+  return`<div class="change-item ${severityClass(c)}">
+    <div class="change-open" onclick="openChange(${jsArg(c.teamCode)},${jsArg(c.playerName)})">
+      <div class="change-title">${esc(c.teamName||c.teamCode)}: ${esc(changeSentence(c))}</div>
+      <div class="change-time">${esc(gmt(c.timestamp))} | ${esc(String(c.severity||"low").toUpperCase())}</div>
+      <div class="change-action">Open team and player →</div>
+    </div>
+    <button type="button" class="checked-btn" onclick="markChecked(${jsArg(changeId(c))})">Checked ✓</button>
+  </div>`;
+}
+
+function renderChangeList(id,changes,emptyText){
+  document.getElementById(id).innerHTML=changes.length
+    ?changes.map(changeHtml).join("")
+    :`<div class="empty">${emptyText}</div>`;
+}
+
+function renderChangePanels(){
+  const changes=visibleChanges();
+  renderChangeList("latestChanges",changes,"No unchecked roster changes.");
+  renderChangeList("importantChanges",changes.filter(isImportant),"No unchecked important changes.");
+  renderChangeList("last24Changes",changes.filter(isLast24),"No unchecked changes in the last 24 hours.");
+  document.getElementById("changeToggleCount").textContent=`${changes.length} unchecked`;
+}
+
+function toggleChangeSection(){
+  const body=document.getElementById("changeSectionBody");
+  const open=body.classList.toggle("open");
+  document.getElementById("changeToggleArrow").textContent=open?"▲":"▼";
+  document.getElementById("changeToggle").setAttribute("aria-expanded",open?"true":"false");
+}
+
+/* ---------- Teams grid ---------- */
+
+function teamChanges(code){return allChanges.filter(c=>c.teamCode===code)}
+function teamUnchecked(code,unchecked=visibleChanges()){return unchecked.filter(c=>c.teamCode===code)}
+
+function renderTeams(){
+  const allUnchecked=visibleChanges();
+  document.getElementById("teams").innerHTML=statusRows.map(r=>{
+    const roster=rosters[r.teamCode]||{},errors=roster.errors||[],changes=teamChanges(r.teamCode),unchecked=teamUnchecked(r.teamCode,allUnchecked),recent=changes[0],important=unchecked.some(isImportant);
+    const pillClass=errors.length?"error":important?"danger":unchecked.length?"warn":"ok";
+    const pillText=errors.length?"Source issue":important?"Important unchecked":unchecked.length?"Needs review":"Official OK";
+    return`<div class="team ${selectedCode===r.teamCode?"selected":""} ${unchecked.length?"has-change":""} ${important?"has-important":""}" onclick="selectTeam(${jsArg(r.teamCode)})">
+      <div class="team-top">
+        <img src="${esc(LOGOS[r.teamCode]||"")}" class="team-logo" alt="">
+        <div><div class="team-name">${esc(r.teamName)}</div><div class="team-code">${esc(r.teamCode)}</div></div>
+      </div>
+      <div class="meta">Players: ${(roster.players||[]).length}</div>
+      <div class="meta">Checked: ${esc(gmt(r.checkedAt))}</div>
+      <div class="meta">Last movement: ${recent?esc(timeAgo(recent.timestamp)):"none logged"}</div>
+      <div class="meta">Unchecked changes: ${unchecked.length}</div>
+      <div class="pill ${pillClass}">${pillText}</div>
+    </div>`;
+  }).join("");
+}
+
+/* ---------- Selected team + team history ---------- */
+
+function statusClass(status){
+  const s=String(status||"").toUpperCase();
+  if(["IR","PUP","NFI","SUS","RES"].includes(s))return"status-danger";
+  if(["UFA","RFA","UDF"].includes(s))return"status-warning";
+  return"";
+}
 function setHistoryFilter(filter){historyFilter=filter;renderSelectedTeam()}
 function toggleHistory(){historyOpen=!historyOpen;renderSelectedTeam()}
-function historyMatches(c){const t=String(c.type||"").toLowerCase();if(historyFilter==="all")return true;if(historyFilter==="joined")return t==="added";if(historyFilter==="left")return t==="removed";if(historyFilter==="status")return t==="status changed";return true}
-async function renderSelectedTeam(){const roster=rosters[selectedCode];if(!roster)return;let history=[];try{history=await fetchJson(`../../logs/nfl/${selectedCode}.json`)}catch(e){history=[]}const filteredHistory=history.filter(historyMatches),q=document.getElementById("searchBox").value.trim().toLowerCase(),players=(roster.players||[]).filter(p=>!q||String(p.name||"").toLowerCase().includes(q));document.getElementById("selectedTitle").innerHTML=`<img src="${LOGOS[selectedCode]}" class="team-logo" style="vertical-align:middle;margin-right:10px;">${roster.team||selectedCode}`;document.getElementById("selectedTeam").innerHTML=`<div class="meta">Source: ${roster.source||'NFL.com official roster'}</div><div class="meta">Players shown: ${players.length}</div><div class="meta">Last checked: ${gmt(roster.checkedAt)}</div><hr><h3>Roster</h3>${players.length?players.map(p=>`<div class="player ${highlightedPlayer&&p.name===highlightedPlayer?'highlight':''}"><span class="player-name">${p.name}</span><span class="position">${p.position||'?'}</span><span class="status-pill ${statusClass(p.status)}">${p.status||''}</span></div>`).join(""):`<div class="empty">No players found.</div>`}<button class="history-toggle" onclick="toggleHistory()">${historyOpen?'▲ Hide':'▼ Show'} Team History (${history.length})</button><div class="history-box ${historyOpen?'open':''}"><div class="filter-row"><button class="filter-btn ${historyFilter==='all'?'active':''}" onclick="setHistoryFilter('all')">All</button><button class="filter-btn ${historyFilter==='joined'?'active':''}" onclick="setHistoryFilter('joined')">Joined</button><button class="filter-btn ${historyFilter==='left'?'active':''}" onclick="setHistoryFilter('left')">Left</button><button class="filter-btn ${historyFilter==='status'?'active':''}" onclick="setHistoryFilter('status')">Status Changed</button></div>${filteredHistory.length?filteredHistory.slice(0,80).map(h=>`<div class="history-item"><div class="history-main">${changeSentence(h)}</div><div class="history-time">${gmt(h.timestamp)} | ${String(h.severity||'low').toUpperCase()}</div></div>`).join(""):`<div class="empty">No roster changes logged yet for this filter.</div>`}</div>`}
+function historyMatches(c){
+  const t=String(c.type||"").toLowerCase();
+  if(historyFilter==="all")return true;
+  if(historyFilter==="joined")return t==="added";
+  if(historyFilter==="left")return t==="removed";
+  if(historyFilter==="status")return t==="status changed";
+  return true;
+}
 
-function parseCsv(text){const rows=[];let row=[],field="",quotes=false;for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];if(c=='"'&&quotes&&n=='"'){field+='"';i++}else if(c=='"'){quotes=!quotes}else if(c==","&&!quotes){row.push(field);field=""}else if((c=="\n"||c=="\r")&&!quotes){if(field||row.length){row.push(field);rows.push(row);row=[];field=""}if(c=="\r"&&n=="\n")i++}else field+=c}if(field||row.length){row.push(field);rows.push(row)}return rows}
-function teamCodeFromCsv(v){const s=norm(v);const found=statusRows.find(r=>norm(r.teamCode)===s||norm(r.teamName)===s);return found?found.teamCode:selectedCode}
-function runCsvCheck(){const file=document.getElementById("csvFile").files[0];if(!file){document.getElementById("csvResults").innerHTML="Please upload a CSV first.";return}const reader=new FileReader();reader.onload=()=>compareCsv(reader.result);reader.readAsText(file)}
+// Each team log is downloaded once per dashboard load, not on every search keystroke.
+function loadTeamHistory(code){
+  if(!historyCache[code]){
+    historyCache[code]=fetchJson(DATA_PATHS.teamHistory(code))
+      .then(data=>Array.isArray(data)?data:[])
+      .catch(()=>[]);
+  }
+  return historyCache[code];
+}
+
+function historyFilterButton(filter,label){
+  return`<button type="button" class="filter-btn ${historyFilter===filter?"active":""}" onclick="setHistoryFilter('${filter}')">${label}</button>`;
+}
+
+async function renderSelectedTeam(){
+  const code=selectedCode;
+  const roster=rosters[code];
+  if(!roster)return;
+  const token=++selectedRenderToken;
+  const history=await loadTeamHistory(code);
+  if(token!==selectedRenderToken)return; // a newer render started while this one was loading
+
+  const filteredHistory=history.filter(historyMatches);
+  const q=document.getElementById("searchBox").value.trim().toLowerCase();
+  const players=(roster.players||[]).filter(p=>!q||String(p.name||"").toLowerCase().includes(q));
+
+  document.getElementById("selectedTitle").innerHTML=`<img src="${esc(LOGOS[code]||"")}" class="team-logo title-logo" alt="">${esc(roster.team||code)}`;
+
+  const rosterHtml=players.length
+    ?players.map(p=>`<div class="player ${highlightedPlayer&&p.name===highlightedPlayer?"highlight":""}"><span class="player-name">${esc(p.name)}</span><span class="position">${esc(p.position||"?")}</span><span class="status-pill ${statusClass(p.status)}">${esc(p.status||"")}</span></div>`).join("")
+    :`<div class="empty">No players found.</div>`;
+
+  const historyHtml=filteredHistory.length
+    ?filteredHistory.slice(0,80).map(h=>`<div class="history-item"><div class="history-main">${esc(changeSentence(h))}</div><div class="history-time">${esc(gmt(h.timestamp))} | ${esc(String(h.severity||"low").toUpperCase())}</div></div>`).join("")
+    :`<div class="empty">No roster changes logged yet for this filter.</div>`;
+
+  document.getElementById("selectedTeam").innerHTML=`
+    <div class="meta">Source: ${esc(roster.source||"NFL.com official roster")}</div>
+    <div class="meta">Players shown: ${players.length}</div>
+    <div class="meta">Last checked: ${esc(gmt(roster.checkedAt))}</div>
+    <hr>
+    <h3>Roster</h3>
+    ${rosterHtml}
+    <button type="button" class="history-toggle" onclick="toggleHistory()">${historyOpen?"▲ Hide":"▼ Show"} Team History (${history.length})</button>
+    <div class="history-box ${historyOpen?"open":""}">
+      <div class="filter-row">
+        ${historyFilterButton("all","All")}
+        ${historyFilterButton("joined","Joined")}
+        ${historyFilterButton("left","Left")}
+        ${historyFilterButton("status","Status Changed")}
+      </div>
+      ${historyHtml}
+    </div>`;
+}
+
+/* ---------- Changes CSV export ---------- */
+
+function exportCsv(){
+  const rows=[["timestamp_gmt","teamCode","teamName","severity","type","playerName","position","oldValue","newValue"]];
+  allChanges.forEach(c=>rows.push([gmt(c.timestamp),c.teamCode||"",c.teamName||"",c.severity||"",c.type||"",c.playerName||"",c.position||"",c.oldValue||"",c.newValue||""]));
+  downloadCsv("nfl-roster-changes.csv",rows);
+}
+
+/* ---------- CSV roster check ---------- */
+
+function parseCsv(text){
+  const rows=[];let row=[],field="",quotes=false;
+  for(let i=0;i<text.length;i++){
+    const c=text[i],n=text[i+1];
+    if(c=='"'&&quotes&&n=='"'){field+='"';i++}
+    else if(c=='"'){quotes=!quotes}
+    else if(c==","&&!quotes){row.push(field);field=""}
+    else if((c=="\n"||c=="\r")&&!quotes){
+      if(field||row.length){row.push(field);rows.push(row);row=[];field=""}
+      if(c=="\r"&&n=="\n")i++;
+    }
+    else field+=c;
+  }
+  if(field||row.length){row.push(field);rows.push(row)}
+  return rows;
+}
+
+function teamCodeFromCsv(v){
+  const s=norm(v);
+  const found=statusRows.find(r=>norm(r.teamCode)===s||norm(r.teamName)===s);
+  return found?found.teamCode:selectedCode;
+}
+
+function runCsvCheck(){
+  const file=document.getElementById("csvFile").files[0];
+  if(!file){
+    document.getElementById("csvResults").innerHTML="Please upload a CSV first.";
+    return;
+  }
+  const reader=new FileReader();
+  reader.onload=()=>compareCsv(reader.result);
+  reader.readAsText(file);
+}
 
 function compareCsv(text){
-  const rows=parseCsv(text);
+  const results=document.getElementById("csvResults");
+  // Excel's "CSV UTF-8" adds a byte-order mark that would otherwise hide the Name header.
+  const rows=parseCsv(String(text||"").replace(/^\uFEFF/,""));
 
   if(rows.length<2){
-    document.getElementById("csvResults").innerHTML="CSV has no data.";
+    results.innerHTML="CSV has no data.";
     return;
   }
 
@@ -561,326 +742,169 @@ function compareCsv(text){
   };
 
   if(idx.name<0){
-    document.getElementById("csvResults").innerHTML="CSV must have a Name column.";
+    results.innerHTML="CSV must have a Name column.";
     return;
   }
 
-const csvByTeam={};
-const missingOfficialRows=[];
-const missingOfficialExport=window.missingOfficialExport=[];
-const missingCsvRows=[];
-const missingCsvExport=window.missingCsvExport=[];
-const mismatchRows=[];
-const mismatchExport=window.mismatchExport=[];
-const foundRows=[];
-const fullReportExport=window.fullReportExport=[];
-  
-let found=0,missingOfficial=0,missingCsv=0,mismatch=0;
+  const csvByTeam={};
+  const missingOfficialRows=[],missingCsvRows=[],mismatchRows=[],foundRows=[];
+  const exportsOut={missingOfficial:[],missingCsv:[],mismatch:[],full:[]};
+  let found=0,missingOfficial=0,missingCsv=0,mismatch=0;
 
-rows.slice(1).forEach(r=>{
-  const rawName=(r[idx.name]||"").trim();
-  if(!rawName)return;
+  rows.slice(1).forEach(r=>{
+    const rawName=(r[idx.name]||"").trim();
+    if(!rawName)return;
 
-  const cleanName=rawName.replace(/\s*\([^)]*\)\s*/g,"").trim();
-  const teamVal=idx.team>=0?(r[idx.team]||"").trim():"";
-  const code=teamCodeFromCsv(teamVal);
-  const csvPos=idx.position>=0?(r[idx.position]||"").trim():"";
-  const csvStatus=idx.status>=0?(r[idx.status]||"").trim():"";
+    const cleanName=rawName.replace(/\s*\([^)]*\)\s*/g,"").trim();
+    const teamVal=idx.team>=0?(r[idx.team]||"").trim():"";
+    const code=teamCodeFromCsv(teamVal);
+    const csvPos=idx.position>=0?(r[idx.position]||"").trim():"";
+    const csvStatus=idx.status>=0?(r[idx.status]||"").trim():"";
 
-  if(!csvByTeam[code])csvByTeam[code]=[];
-
-  csvByTeam[code].push({
-    name:cleanName,
-    rawName:rawName,
-    position:csvPos,
-    status:csvStatus
-  });
-});
-
-Object.keys(csvByTeam).forEach(code=>{
-  const roster=rosters[code]||{players:[]};
-  const officialPlayers=roster.players||[];
-  const csvPlayers=csvByTeam[code];
-
-  const officialMap=new Map(officialPlayers.map(p=>[norm(p.name),p]));
-  const csvMap=new Map(csvPlayers.map(p=>[norm(p.name),p]));
-
-  csvPlayers.forEach(csvPlayer=>{
-    const official=officialMap.get(norm(csvPlayer.name));
-
-    if(!official){
-      missingOfficial++;
-
-      const row={
-        result:"missing_from_official",
-        name:csvPlayer.rawName,
-        teamCode:code,
-        csvPosition:csvPlayer.position||"",
-        officialPosition:"",
-        csvStatus:csvPlayer.status||"",
-        officialStatus:""
-      };
-
-      missingOfficialExport.push(row);
-      fullReportExport.push(row);
-
-      missingOfficialRows.push(`
-        <div class="csv-row csv-missing">
-          <b>Missing from official roster:</b> ${csvPlayer.rawName} | ${code}
-          <div class="meta">This player is in your CSV but was not found on the official NFL roster.</div>
-        </div>
-      `);
-      return;
-    }
-
-    const issues=[];
-
-    if(csvPlayer.position&&norm(csvPlayer.position)!==norm(official.position)){
-      issues.push(`Position CSV ${csvPlayer.position} vs Official ${official.position}`);
-    }
-
-    if(csvPlayer.status&&normStatus(csvPlayer.status)!==normStatus(official.status)){
-      issues.push(`Status CSV ${csvPlayer.status} vs Official ${official.status}`);
-    }
-
-    if(issues.length){
-      mismatch++;
-
-      const row={
-        result:"position_or_status_mismatch",
-        name:csvPlayer.rawName,
-        teamCode:code,
-        csvPosition:csvPlayer.position||"",
-        officialPosition:official.position||"",
-        csvStatus:csvPlayer.status||"",
-        officialStatus:official.status||""
-      };
-
-      mismatchExport.push(row);
-      fullReportExport.push(row);
-
-      mismatchRows.push(`
-        <div class="csv-row csv-warning">
-          <b>Mismatch:</b> ${csvPlayer.rawName} | ${code}
-          <div class="meta">${issues.join(" | ")}</div>
-        </div>
-      `);
-    }else{
-      found++;
-
-      const row={
-        result:"found_in_both",
-        name:csvPlayer.rawName,
-        teamCode:code,
-        csvPosition:csvPlayer.position||"",
-        officialPosition:official.position||"",
-        csvStatus:csvPlayer.status||"",
-        officialStatus:official.status||""
-      };
-
-      fullReportExport.push(row);
-
-      foundRows.push(`
-        <div class="csv-row csv-found">
-          <b>Found in both:</b> ${csvPlayer.rawName} | ${code}
-          <div class="meta">Official: ${official.position} | ${official.status}</div>
-        </div>
-      `);
-    }
+    if(!csvByTeam[code])csvByTeam[code]=[];
+    csvByTeam[code].push({name:cleanName,rawName:rawName,position:csvPos,status:csvStatus});
   });
 
-  officialPlayers.forEach(official=>{
-    if(!csvMap.has(norm(official.name))){
-      missingCsv++;
+  Object.keys(csvByTeam).forEach(code=>{
+    const roster=rosters[code]||{players:[]};
+    const officialPlayers=roster.players||[];
+    const csvPlayers=csvByTeam[code];
 
-      const row={
-        result:"missing_from_csv",
-        name:official.name||"",
-        teamCode:code,
-        csvPosition:"",
-        officialPosition:official.position||"",
-        csvStatus:"",
-        officialStatus:official.status||""
-      };
+    const officialMap=new Map(officialPlayers.map(p=>[norm(p.name),p]));
+    const csvMap=new Map(csvPlayers.map(p=>[norm(p.name),p]));
 
-      missingCsvExport.push(row);
-      fullReportExport.push(row);
+    csvPlayers.forEach(csvPlayer=>{
+      const official=officialMap.get(norm(csvPlayer.name));
 
-      missingCsvRows.push(`
-        <div class="csv-row csv-warning">
-          <b>Missing from CSV:</b> ${official.name} | ${code}
-          <div class="meta">This player exists on the official NFL roster but is not in your CSV. Official: ${official.position} | ${official.status}</div>
-        </div>
-      `);
-    }
+      if(!official){
+        missingOfficial++;
+        const row={result:"missing_from_official",name:csvPlayer.rawName,teamCode:code,csvPosition:csvPlayer.position||"",officialPosition:"",csvStatus:csvPlayer.status||"",officialStatus:""};
+        exportsOut.missingOfficial.push(row);
+        exportsOut.full.push(row);
+        missingOfficialRows.push(`<div class="csv-row csv-missing"><b>Missing from official roster:</b> ${esc(csvPlayer.rawName)} | ${esc(code)}<div class="meta">This player is in your CSV but was not found on the official NFL roster.</div></div>`);
+        return;
+      }
+
+      const issues=[];
+      if(csvPlayer.position&&norm(csvPlayer.position)!==norm(official.position)){
+        issues.push(`Position CSV ${csvPlayer.position} vs Official ${official.position}`);
+      }
+      if(csvPlayer.status&&normStatus(csvPlayer.status)!==normStatus(official.status)){
+        issues.push(`Status CSV ${csvPlayer.status} vs Official ${official.status}`);
+      }
+
+      if(issues.length){
+        mismatch++;
+        const row={result:"position_or_status_mismatch",name:csvPlayer.rawName,teamCode:code,csvPosition:csvPlayer.position||"",officialPosition:official.position||"",csvStatus:csvPlayer.status||"",officialStatus:official.status||""};
+        exportsOut.mismatch.push(row);
+        exportsOut.full.push(row);
+        mismatchRows.push(`<div class="csv-row csv-warning"><b>Mismatch:</b> ${esc(csvPlayer.rawName)} | ${esc(code)}<div class="meta">${esc(issues.join(" | "))}</div></div>`);
+      }else{
+        found++;
+        const row={result:"found_in_both",name:csvPlayer.rawName,teamCode:code,csvPosition:csvPlayer.position||"",officialPosition:official.position||"",csvStatus:csvPlayer.status||"",officialStatus:official.status||""};
+        exportsOut.full.push(row);
+        foundRows.push(`<div class="csv-row csv-found"><b>Found in both:</b> ${esc(csvPlayer.rawName)} | ${esc(code)}<div class="meta">Official: ${esc(official.position)} | ${esc(official.status)}</div></div>`);
+      }
+    });
+
+    officialPlayers.forEach(official=>{
+      if(!csvMap.has(norm(official.name))){
+        missingCsv++;
+        const row={result:"missing_from_csv",name:official.name||"",teamCode:code,csvPosition:"",officialPosition:official.position||"",csvStatus:"",officialStatus:official.status||""};
+        exportsOut.missingCsv.push(row);
+        exportsOut.full.push(row);
+        missingCsvRows.push(`<div class="csv-row csv-warning"><b>Missing from CSV:</b> ${esc(official.name)} | ${esc(code)}<div class="meta">This player exists on the official NFL roster but is not in your CSV. Official: ${esc(official.position)} | ${esc(official.status)}</div></div>`);
+      }
+    });
   });
-});
 
-document.getElementById("csvResults").innerHTML=`
-  <b>CSV Reconciliation Summary</b>
+  csvReportExports=exportsOut;
 
-  <div class="meta" style="margin-top:8px;">
-    Found in both: ${found}
-    |
-    CSV players missing from official roster: ${missingOfficial}
-    |
-    Official players missing from CSV: ${missingCsv}
-    |
-    Position/status mismatches: ${mismatch}
-  </div>
-
-  <div class="filter-row" style="margin-top:12px;">
-    <button onclick="downloadCsvReport('nfl-missing-from-official.csv', window.missingOfficialExport)">
-      Export Missing from Official
-    </button>
-    
-    <button onclick="downloadCsvReport('nfl-missing-from-csv.csv', window.missingCsvExport)">
-      Export Missing from CSV
-    </button>
-    
-    <button onclick="downloadCsvReport('nfl-position-status-mismatches.csv', window.mismatchExport)">
-      Export Mismatches
-    </button>
-    
-    <button onclick="downloadCsvReport('nfl-full-csv-report.csv', window.fullReportExport)">
-      Export Full Report
-    </button>
-  </div>
-
-  <br>
-
-  <h3>Needs Review: In CSV but missing from official roster</h3>
-  ${missingOfficialRows.join("")||`<div class="empty">None.</div>`}
-
-  <h3>Needs Review: On official roster but missing from CSV</h3>
-  ${missingCsvRows.join("")||`<div class="empty">None.</div>`}
-
-  <h3>Position / Status Mismatches</h3>
-  ${mismatchRows.join("")||`<div class="empty">None.</div>`}
-
-  <h3>Found in both</h3>
-  ${foundRows.join("")||`<div class="empty">None.</div>`}
-`;
+  results.innerHTML=`
+    <b>CSV Reconciliation Summary</b>
+    <div class="meta">
+      Found in both: ${found}
+      | CSV players missing from official roster: ${missingOfficial}
+      | Official players missing from CSV: ${missingCsv}
+      | Position/status mismatches: ${mismatch}
+    </div>
+    <div class="filter-row">
+      <button type="button" onclick="downloadCsvReport('nfl-missing-from-official.csv','missingOfficial')">Export Missing from Official</button>
+      <button type="button" onclick="downloadCsvReport('nfl-missing-from-csv.csv','missingCsv')">Export Missing from CSV</button>
+      <button type="button" onclick="downloadCsvReport('nfl-position-status-mismatches.csv','mismatch')">Export Mismatches</button>
+      <button type="button" onclick="downloadCsvReport('nfl-full-csv-report.csv','full')">Export Full Report</button>
+    </div>
+    <h3>Needs Review: In CSV but missing from official roster</h3>
+    ${missingOfficialRows.join("")||`<div class="empty">None.</div>`}
+    <h3>Needs Review: On official roster but missing from CSV</h3>
+    ${missingCsvRows.join("")||`<div class="empty">None.</div>`}
+    <h3>Position / Status Mismatches</h3>
+    ${mismatchRows.join("")||`<div class="empty">None.</div>`}
+    <h3>Found in both</h3>
+    ${foundRows.join("")||`<div class="empty">None.</div>`}`;
 }
-function exportCsv(){const rows=[["timestamp_gmt","teamCode","teamName","severity","type","playerName","position","oldValue","newValue"]];allChanges.forEach(c=>rows.push([gmt(c.timestamp),c.teamCode||"",c.teamName||"",c.severity||"",c.type||"",c.playerName||"",c.position||"",c.oldValue||"",c.newValue||""]));const csv=rows.map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(",")).join("\n");const blob=new Blob([csv],{type:"text/csv"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="nfl-roster-changes.csv";a.click();URL.revokeObjectURL(url)}
-function downloadMissingOfficialCsv(items){
 
-  if(!items || !items.length){
-    alert("No players missing from official roster.");
-    return;
-  }
-
-  const rows=[
-    ["Name","Team","Position","Status"]
-  ];
-
-  items.forEach(p=>{
-    rows.push([
-      p.name || "",
-      p.teamCode || "",
-      p.position || "",
-      p.status || ""
-    ]);
-  });
-
-  const csv=rows
-    .map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(","))
-    .join("\n");
-
-  const blob=new Blob([csv],{type:"text/csv"});
-  const url=URL.createObjectURL(blob);
-
-  const a=document.createElement("a");
-  a.href=url;
-  a.download="missing_official_roster.csv";
-  a.click();
-
-  URL.revokeObjectURL(url);
-}
-function downloadCsvReport(filename, items){
-  if(!items || !items.length){
+function downloadCsvReport(filename,reportKey){
+  const items=csvReportExports[reportKey];
+  if(!items||!items.length){
     alert("No rows to export.");
     return;
   }
-
-  const rows=[
-    ["result","name","teamCode","csvPosition","officialPosition","csvStatus","officialStatus"]
-  ];
-
-  items.forEach(p=>{
-    rows.push([
-      p.result||"",
-      p.name||"",
-      p.teamCode||"",
-      p.csvPosition||"",
-      p.officialPosition||"",
-      p.csvStatus||"",
-      p.officialStatus||""
-    ]);
-  });
-
-  const csv=rows
-    .map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(","))
-    .join("\n");
-
-  const blob=new Blob([csv],{type:"text/csv"});
-  const url=URL.createObjectURL(blob);
-  const a=document.createElement("a");
-
-  a.href=url;
-  a.download=filename;
-  a.click();
-
-  URL.revokeObjectURL(url);
+  const rows=[["result","name","teamCode","csvPosition","officialPosition","csvStatus","officialStatus"]];
+  items.forEach(p=>rows.push([p.result||"",p.name||"",p.teamCode||"",p.csvPosition||"",p.officialPosition||"",p.csvStatus||"",p.officialStatus||""]));
+  downloadCsv(filename,rows);
 }
+
+/* ---------- Bulk team export ---------- */
+
+function renderBulkPositionFilters(){
+  document.getElementById("bulkPositionFilters").innerHTML=BULK_POSITIONS.map(pos=>
+    `<label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="${pos}" onchange="updateBulkSummary()"> ${pos}</label>`
+  ).join("");
+}
+
+function getSelectedBulkPositions(){
+  return[...document.querySelectorAll(".bulkPositionCheck:checked")].map(box=>box.value);
+}
+
+// The single position rule used by both the live count and the CSV export.
+function bulkPlayerMatchesPosition(player,selectedPositions){
+  if(!selectedPositions.length)return true;
+  const pos=String(player.position||"").trim().toUpperCase();
+  return selectedPositions.some(selected=>(BULK_POSITION_GROUPS[selected]||[selected]).includes(pos));
+}
+
+function bulkPlayersForTeam(code,selectedPositions){
+  const roster=rosters[code]||{players:[]};
+  return(roster.players||[]).filter(player=>bulkPlayerMatchesPosition(player,selectedPositions));
+}
+
 function renderBulkTeams(){
-  const box=document.getElementById("bulkTeams");
-  if(!box)return;
+  const search=String(document.getElementById("bulkTeamSearch").value||"").trim().toLowerCase();
+  const filteredTeams=statusRows.filter(team=>
+    String(team.teamName||"").toLowerCase().includes(search)||
+    String(team.teamCode||"").toLowerCase().includes(search)
+  );
 
-  const search=String(
-    document.getElementById("bulkTeamSearch")?.value||""
-  ).trim().toLowerCase();
-
-  const filteredTeams=statusRows.filter(team=>{
-    return (
-      String(team.teamName||"").toLowerCase().includes(search) ||
-      String(team.teamCode||"").toLowerCase().includes(search)
-    );
-  });
-
-  box.innerHTML=filteredTeams.map(team=>`
-    <label class="bulk-team-option">
-      <input
-        type="checkbox"
-        value="${team.teamCode}"
-        ${bulkSelectedTeams.has(team.teamCode) ? "checked" : ""}
-        onchange="toggleBulkTeam('${team.teamCode}', this.checked)"
-      >
-      <span>
-        ${team.teamName}
-        <span class="team-code">${team.teamCode}</span>
-      </span>
-    </label>
-  `).join("");
+  document.getElementById("bulkTeams").innerHTML=filteredTeams.length
+    ?filteredTeams.map(team=>`
+      <label class="bulk-team-option">
+        <input type="checkbox" value="${esc(team.teamCode)}" ${bulkSelectedTeams.has(team.teamCode)?"checked":""} onchange="toggleBulkTeam(${jsArg(team.teamCode)},this.checked)">
+        <span>${esc(team.teamName)} <span class="team-code">${esc(team.teamCode)}</span></span>
+      </label>`).join("")
+    :`<div class="empty">No teams match your search.</div>`;
 
   updateBulkSummary();
 }
 
 function toggleBulkTeam(code,isChecked){
-  if(isChecked){
-    bulkSelectedTeams.add(code);
-  }else{
-    bulkSelectedTeams.delete(code);
-  }
-
+  if(isChecked)bulkSelectedTeams.add(code);
+  else bulkSelectedTeams.delete(code);
   updateBulkSummary();
 }
 
 function selectAllBulkTeams(){
-  statusRows.forEach(team=>{
-    bulkSelectedTeams.add(team.teamCode);
-  });
-
+  statusRows.forEach(team=>bulkSelectedTeams.add(team.teamCode));
   renderBulkTeams();
 }
 
@@ -888,43 +912,13 @@ function clearBulkTeams(){
   bulkSelectedTeams.clear();
   renderBulkTeams();
 }
+
 function updateBulkSummary(){
+  const selectedPositions=getSelectedBulkPositions();
   let playerCount=0;
-
-  const selectedPositions=[...document.querySelectorAll(".bulkPositionCheck:checked")]
-    .map(box=>box.value);
-
-  bulkSelectedTeams.forEach(code=>{
-    const roster=rosters[code]||{players:[]};
-
-    const players=(roster.players||[]).filter(player=>{
-      if(selectedPositions.length===0)return true;
-
-      const pos=String(player.position||"").toUpperCase();
-
-      if(selectedPositions.includes(pos))return true;
-
-      if(selectedPositions.includes("OL") && ["OT","OG","C"].includes(pos))return true;
-      if(selectedPositions.includes("DL") && ["DE","DT","NT"].includes(pos))return true;
-      if(selectedPositions.includes("LB") && ["ILB","OLB","MLB"].includes(pos))return true;
-      if(selectedPositions.includes("DB") && ["CB","S","FS","SS"].includes(pos))return true;
-
-      return false;
-    });
-
-    playerCount+=players.length;
-  });
-
-  const summaryBox=document.getElementById("bulkSummary");
-
-  if(summaryBox){
-    const positionText=selectedPositions.length
-      ? ` | Positions: ${selectedPositions.join(", ")}`
-      : " | Positions: ALL";
-
-    summaryBox.textContent=
-      `Selected teams: ${bulkSelectedTeams.size} | Selected players: ${playerCount}${positionText}`;
-  }
+  bulkSelectedTeams.forEach(code=>{playerCount+=bulkPlayersForTeam(code,selectedPositions).length});
+  const positionText=selectedPositions.length?selectedPositions.join(", "):"ALL";
+  document.getElementById("bulkSummary").textContent=`Selected teams: ${bulkSelectedTeams.size} | Selected players: ${playerCount} | Positions: ${positionText}`;
 }
 
 function exportBulkRosterCsv(){
@@ -933,102 +927,37 @@ function exportBulkRosterCsv(){
     return;
   }
 
-  const rows=[
-    [
-      "team",
-      "teamCode",
-      "playerName",
-      "number",
-      "position",
-      "status",
-      "lastCheckedGMT"
-    ]
-  ];
-  const selectedPositions=[...document.querySelectorAll(".bulkPositionCheck:checked")]
-  .map(box=>box.value);
-  const selectedCodes=[...bulkSelectedTeams].sort((a,b)=>{
-    const teamA=statusRows.find(team=>team.teamCode===a);
-    const teamB=statusRows.find(team=>team.teamCode===b);
-
-    return String(teamA?.teamName||a)
-      .localeCompare(String(teamB?.teamName||b));
-  });
-
-  selectedCodes.forEach(code=>{
-    const roster=rosters[code]||{players:[]};
+  const selectedPositions=getSelectedBulkPositions();
+  const teamName=code=>{
     const team=statusRows.find(item=>item.teamCode===code)||{};
+    return String((rosters[code]||{}).team||team.teamName||code);
+  };
+  const rows=[["team","teamCode","playerName","number","position","status","lastCheckedGMT"]];
 
-const players=[...(roster.players||[])]
-  .filter(player=>{
-    if(selectedPositions.length===0)return true;
-
-    const pos=String(player.position||"").toUpperCase();
-
-    if(selectedPositions.includes(pos))return true;
-
-    if(selectedPositions.includes("OL") && ["OT","OG","C"].includes(pos))return true;
-    if(selectedPositions.includes("DL") && ["DE","DT","NT"].includes(pos))return true;
-    if(selectedPositions.includes("LB") && ["ILB","OLB","MLB"].includes(pos))return true;
-    if(selectedPositions.includes("DB") && ["CB","S","FS","SS"].includes(pos))return true;
-
-    return false;
-  })
-  .sort((a,b)=>{      const posA=String(a.position||"");
-      const posB=String(b.position||"");
-
-      const posCompare=posA.localeCompare(posB);
-      if(posCompare!==0)return posCompare;
-
-      return String(a.name||"")
-        .localeCompare(String(b.name||""));
+  [...bulkSelectedTeams]
+    .sort((a,b)=>teamName(a).localeCompare(teamName(b)))
+    .forEach(code=>{
+      const roster=rosters[code]||{players:[]};
+      const team=statusRows.find(item=>item.teamCode===code)||{};
+      bulkPlayersForTeam(code,selectedPositions)
+        .sort((a,b)=>String(a.position||"").localeCompare(String(b.position||""))||String(a.name||"").localeCompare(String(b.name||"")))
+        .forEach(player=>rows.push([
+          teamName(code),
+          code,
+          player.name||"",
+          player.number||"",
+          player.position||"",
+          player.status||"ACTIVE",
+          gmt(roster.checkedAt||team.checkedAt)
+        ]));
     });
 
-    players.forEach(player=>{
-      rows.push([
-        roster.team||team.teamName||code,
-        code,
-        player.name||"",
-        player.number||"",
-        player.position||"",
-        player.status||"ACTIVE",
-        gmt(roster.checkedAt||team.checkedAt)
-      ]);
-    });
-  });
-
-  const csv=rows
-    .map(row=>
-      row.map(value=>
-        `"${String(value??"").replace(/"/g,'""')}"`
-      ).join(",")
-    )
-    .join("\n");
-
-  const blob=new Blob([csv],{
-    type:"text/csv;charset=utf-8;"
-  });
-
-  const url=URL.createObjectURL(blob);
-  const link=document.createElement("a");
-
-  link.href=url;
-  link.download=`nfl-${bulkSelectedTeams.size}-teams-rosters.csv`;
-  link.click();
-
-  URL.revokeObjectURL(url);
+  downloadCsv(`nfl-${bulkSelectedTeams.size}-teams-rosters.csv`,rows);
 }
-function toggleChangeSection(){
-  const body=document.getElementById("changeSectionBody");
-  const arrow=document.getElementById("changeToggleArrow");
 
-  if(!body)return;
+/* ---------- Start ---------- */
 
-  const open=body.classList.toggle("open");
-
-  if(arrow){
-    arrow.textContent=open ? "▲" : "▼";
-  }
-}  
+renderBulkPositionFilters();
 loadDashboard();
 setInterval(loadDashboard,24*60*60*1000);
 </script>
