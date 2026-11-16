@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#4f46e5" />
+<title>Roster Monitor - Offline</title>
+<!-- Served by the service worker for any page that is not cached, so it uses no relative links. -->
+<style>
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;font-family:Arial,sans-serif;color:#fff;background:radial-gradient(circle at top left,rgba(37,99,235,.28),transparent 32%),radial-gradient(circle at top right,rgba(124,58,237,.22),transparent 28%),#081226}
+.card{max-width:440px;margin:24px;background:#fff;color:#111827;border-radius:20px;padding:28px;box-shadow:0 12px 30px rgba(0,0,0,.18);text-align:center}
+h1{margin:0 0 10px;font-size:26px}
+p{color:#64748b;line-height:1.5;margin:0 0 20px}
+button{padding:11px 18px;border-radius:12px;border:none;font-size:14px;font-weight:800;color:#fff;cursor:pointer;background:linear-gradient(135deg,#2563eb,#7c3aed)}
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>You're offline</h1>
+  <p>Roster Monitor needs an internet connection to load the latest official roster data.</p>
+  <button type="button" onclick="location.reload()">Try again</button>
+</div>
+</body>
+</html>

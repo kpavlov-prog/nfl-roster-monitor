@@ -1,0 +1,27 @@
+{
+  "id": "./",
+  "name": "Roster Monitor",
+  "short_name": "Roster Monitor",
+  "description": "Official roster monitoring dashboards for NFL, College Football, NBA, WNBA, MLB and NHL.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#081226",
+  "theme_color": "#4f46e5",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "NFL Roster Monitor", "short_name": "NFL", "url": "leagues/nfl/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "College Football Roster Monitor", "short_name": "NCAAF", "url": "leagues/ncaaf/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "NBA Roster Monitor", "short_name": "NBA", "url": "leagues/nba/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "WNBA Roster Monitor", "short_name": "WNBA", "url": "leagues/wnba/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "MLB Roster Monitor", "short_name": "MLB", "url": "leagues/mlb/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "NHL Roster Monitor", "short_name": "NHL", "url": "leagues/nhl/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+  ]
+}
