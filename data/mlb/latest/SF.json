@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-11-15T15:39:27.535616+00:00",
+  "checkedAt": "2026-11-16T18:31:30.716576+00:00",
   "players": [
     {
       "name": "Adrian Houser",
@@ -221,13 +221,6 @@
       "name": "Rowan Wick",
       "position": "P",
       "number": "",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Ryan Walker",
-      "position": "P",
-      "number": "74",
       "status": "A",
       "source": "MLB Stats API"
     },
