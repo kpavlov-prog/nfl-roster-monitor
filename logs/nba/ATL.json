@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-16T18:56:57.633935+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Hawks",
+    "type": "added",
+    "playerName": "Rafael Castro",
+    "position": "F",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "ESPN NBA API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-16T18:56:57.633945+00:00",
+    "teamCode": "ATL",
+    "teamName": "Atlanta Hawks",
+    "type": "removed",
+    "playerName": "Keshon Gilbert",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "ESPN NBA API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-10-20T13:51:56.065798+00:00",
     "teamCode": "ATL",
     "teamName": "Atlanta Hawks",
