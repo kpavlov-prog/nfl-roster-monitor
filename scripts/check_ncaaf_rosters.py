@@ -72,29 +72,6 @@ def get_json(url):
     return response.json()
 
 
-def cleanup_old_files(valid_codes):
-    valid_files = {f"{code}.json" for code in valid_codes}
-
-    for folder in [LATEST, STATE]:
-        if folder.exists():
-            for path in folder.glob("*.json"):
-                if path.name not in valid_files:
-                    path.unlink()
-
-    if LOGS.exists():
-        for path in LOGS.glob("*.json"):
-            if path.name == "all_changes.json":
-                continue
-            if path.name not in valid_files:
-                path.unlink()
-
-    all_changes_path = LOGS / "all_changes.json"
-    if all_changes_path.exists():
-        existing = load_json(all_changes_path) or []
-        filtered = [item for item in existing if item.get("teamCode") in valid_codes]
-        save_json(all_changes_path, filtered)
-
-
 def fetch_teams():
     teams_data = load_json(FBS_TEAMS_FILE)
 
@@ -437,8 +414,9 @@ def run():
 
     print(f"UNIQUE IDS: {len(ids)}")
     print(f"UNIQUE NAMES: {len(names)}")
-    valid_codes = {team["code"] for team in teams}
-    cleanup_old_files(valid_codes)
+    # fbs_teams.json only decides which teams are processed in this run. Files of teams that are
+    # not in it (roster, state, team log, all_changes.json entries) are left untouched: a team that
+    # returns later is compared against its preserved state, and history is never deleted.
 
     statuses = []
     all_changes = []

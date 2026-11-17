@@ -643,6 +643,122 @@ class EmptyBaselineEvidence(unittest.TestCase):
         self.assertEqual((evidence, len(wipe)), ("logged_wipe", 2))
 
 
+class NcaafHistoryRetention(unittest.TestCase):
+    """data/ncaaf/fbs_teams.json only selects the teams processed in a run; it never deletes state
+    or history. Uses the checker's real fetch_teams() reading a temporary fbs_teams.json."""
+
+    TEAMS = {code: {"id": str(900 + i), "code": code, "name": f"Team {code}", "logo": ""}
+             for i, code in enumerate(["TST", "OTH", "AAA", "BBB", "CCC"])}
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.h = Harness("ncaaf", self.tmp.name)
+        m = self.h.module
+        real = load_checker("ncaaf").fetch_teams
+        m.fetch_teams = types.FunctionType(real.__code__, vars(m), "fetch_teams")  # reads FBS_TEAMS_FILE
+        m.FBS_TEAMS_FILE = m.DATA / "fbs_teams.json"
+        self.rosters = {code: [f"{code} Player {i:02d}" for i in range(40)] for code in self.TEAMS}
+        m.fetch_roster = lambda team: self.h._roster(self.rosters[team["code"]]) | {"code": team["code"], "team": team["name"]}
+        self.root = Path(self.tmp.name)
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def run_with(self, codes):
+        roster_safety.save_json(self.h.module.FBS_TEAMS_FILE, [self.TEAMS[c] for c in codes])
+        self.h.run(None)
+
+    def snapshot(self):
+        """Every file under data/ncaaf and logs/ncaaf -> bytes."""
+        return {str(p.relative_to(self.root)).replace("\\", "/"): p.read_bytes()
+                for base in ("data/ncaaf", "logs/ncaaf") for p in (self.root / base).rglob("*") if p.is_file()}
+
+    def read(self, rel):
+        return json.loads((self.root / rel).read_text(encoding="utf-8"))
+
+    def history_with_changes(self, codes):
+        """Two runs so every team has a saved roster and a team log with real entries."""
+        self.run_with(codes)
+        for code in codes:
+            self.rosters[code] = self.rosters[code][1:] + [f"{code} Signing"]
+        self.run_with(codes)
+
+    def test_removed_team_keeps_roster_state_team_log_and_all_changes_entries(self):
+        self.history_with_changes(["TST", "OTH"])
+        before = self.snapshot()
+        oth_entries = [c for c in self.read("logs/ncaaf/all_changes.json") if c["teamCode"] == "OTH"]
+        self.assertEqual(len(oth_entries), 2)
+        self.run_with(["TST"])  # OTH disappears from the team list
+        after = self.snapshot()
+        for rel in ("data/ncaaf/latest/OTH.json", "data/ncaaf/state/OTH.json", "logs/ncaaf/OTH.json"):
+            self.assertEqual(after.get(rel), before[rel], f"{rel} must be untouched")
+        self.assertEqual([c for c in self.read("logs/ncaaf/all_changes.json") if c["teamCode"] == "OTH"], oth_entries)
+        self.assertEqual([r["teamCode"] for r in self.read("data/ncaaf/status.json")], ["TST"], "OTH not processed")
+
+    def test_current_teams_process_normally_while_another_team_is_absent(self):
+        self.history_with_changes(["TST", "OTH"])
+        self.rosters["TST"] = self.rosters["TST"] + ["TST Late Add"]
+        self.run_with(["TST"])
+        newest = self.read("logs/ncaaf/all_changes.json")[0]
+        self.assertEqual((newest["teamCode"], newest["type"], newest["playerName"]), ("TST", "added", "TST Late Add"))
+        self.assertEqual(self.read("data/ncaaf/status.json")[0]["sourceIssue"], "")
+
+    def test_returning_team_is_compared_against_its_preserved_state(self):
+        self.history_with_changes(["TST", "OTH"])
+        self.run_with(["TST"])
+        preserved = self.read("data/ncaaf/state/OTH.json")
+        # While OTH was not monitored: one player left, one joined.
+        self.rosters["OTH"] = self.rosters["OTH"][1:] + ["OTH Returner Pick-Up"]
+        log_before = self.read("logs/ncaaf/OTH.json")
+        self.run_with(["TST", "OTH"])
+        log_after = self.read("logs/ncaaf/OTH.json")
+        new = log_after[:len(log_after) - len(log_before)]
+        self.assertEqual(sorted((c["type"], c["playerName"]) for c in new),
+                         [("added", "OTH Returner Pick-Up"), ("removed", preserved["players"][0]["name"])])
+        self.assertEqual(log_after[len(new):], log_before, "older history kept")
+        oth = next(r for r in self.read("data/ncaaf/status.json") if r["teamCode"] == "OTH")
+        self.assertEqual((oth["sourceIssue"], oth["playerCount"]), ("", 40))
+        issues = self.read("data/ncaaf/source_issues.json") if (self.root / "data/ncaaf/source_issues.json").exists() else []
+        self.assertEqual(issues, [], "a returning team is a normal comparison, not a recovery")
+
+    def test_repeated_runs_with_a_shorter_list_are_idempotent(self):
+        self.history_with_changes(["TST", "OTH", "AAA"])
+        self.run_with(["TST"])
+        first = self.snapshot()
+        for _ in range(3):
+            self.run_with(["TST"])
+        again = self.snapshot()
+        moving = {"data/ncaaf/status.json", "data/ncaaf/summary.json", "data/ncaaf/latest/TST.json", "data/ncaaf/state/TST.json"}
+        self.assertEqual(set(again), set(first), "no file appears or disappears")
+        for rel in set(first) - moving:
+            self.assertEqual(again[rel], first[rel], f"{rel} changed on a repeated run")
+
+    def test_drastically_shortened_team_list_cannot_delete_state_or_history(self):
+        codes = list(self.TEAMS)
+        self.history_with_changes(codes)
+        before = self.snapshot()
+        all_before = self.read("logs/ncaaf/all_changes.json")
+        self.run_with(["TST"])  # 5 teams -> 1, like the 2-team fbs_teams.json of 2026-07-10
+        after = self.snapshot()
+        self.assertEqual(set(before) - set(after), set(), "no file deleted")
+        for code in codes[1:]:
+            for rel in (f"data/ncaaf/latest/{code}.json", f"data/ncaaf/state/{code}.json", f"logs/ncaaf/{code}.json"):
+                self.assertEqual(after[rel], before[rel], f"{rel} must be untouched")
+        all_after = self.read("logs/ncaaf/all_changes.json")
+        self.assertEqual(all_after[len(all_after) - len(all_before):], all_before, "no all_changes entry removed")
+        self.assertEqual(len(all_after), len(all_before), "TST unchanged, so nothing new")
+
+    def test_empty_team_list_aborts_before_touching_anything(self):
+        self.history_with_changes(["TST", "OTH"])
+        before = self.snapshot()
+        roster_safety.save_json(self.h.module.FBS_TEAMS_FILE, [])
+        with self.assertRaises(RuntimeError):
+            self.h.run(None)
+        after = self.snapshot()
+        self.assertEqual({k: v for k, v in after.items() if not k.endswith("fbs_teams.json")},
+                         {k: v for k, v in before.items() if not k.endswith("fbs_teams.json")})
+
+
 class ThresholdBoundaries(unittest.TestCase):
     """The drop limits are inclusive: reaching both limits holds, staying under either accepts."""
 
