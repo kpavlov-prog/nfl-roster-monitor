@@ -101,15 +101,81 @@ body[data-sport="nfl"] .bulk-team-option:hover { background: #f0f7f2; }
 }
 
 /* ------------------------------------------------------------------------------------------------
+ * NBA + WNBA (Phase 3) - basketball: shared top-down court art (themes/basketball-court.svg) and a
+ * faint hardwood-plank texture. Orange is kept to gradients and artwork - never to borders/badges,
+ * where it could be read as the amber "changes found" warning.
+ * ------------------------------------------------------------------------------------------------ */
+body[data-sport="nba"], body[data-sport="wnba"] {
+  --court-art: url("themes/basketball-court.svg") center top / 1600px 420px no-repeat;
+  /* hardwood: horizontal boards with thin seams */
+  --court-texture: repeating-linear-gradient(180deg, rgba(253, 186, 116, .03) 0 1px, transparent 1px 40px),
+                   repeating-linear-gradient(180deg, rgba(255, 255, 255, .012) 0 40px, transparent 40px 80px);
+  background: var(--court-art), var(--court-glow), var(--court-texture), var(--theme-page);
+}
+@media (max-width: 600px) {
+  body[data-sport="nba"], body[data-sport="wnba"] {
+    --court-art: url("themes/basketball-court.svg") 80% top / 1100px 289px no-repeat;
+    --court-texture: repeating-linear-gradient(180deg, rgba(253, 186, 116, .015) 0 1px, transparent 1px 40px),
+                     repeating-linear-gradient(180deg, rgba(255, 255, 255, .006) 0 40px, transparent 40px 80px);
+  }
+}
+
+/* NBA - night navy, blue primary identity, orange secondary energy.
+ * Contrast (WCAG): white on #1d4ed8 6.7, on #c2410c 5.2; tint text #1d4ed8 on #dbeafe 5.5. */
+body[data-sport="nba"] {
+  --theme-accent-start: #1d4ed8;
+  --theme-accent-end: #c2410c;
+  --theme-page: #0b1020;
+  --theme-marking: #fdba74;
+  --theme-browser: #1d4ed8;
+  --blue: var(--theme-accent-start);
+  --purple: var(--theme-accent-end);
+  --bg: var(--theme-page);
+  --court-glow: radial-gradient(1100px 620px at 0 0, rgba(29, 78, 216, .30), transparent 70%),
+                radial-gradient(900px 520px at 100% 0, rgba(194, 65, 12, .14), transparent 70%);
+}
+body[data-sport="nba"] .stat { border-top-color: #1d4ed8; }
+body[data-sport="nba"] button.secondary { background: #273249; }
+/* borders skip .has-change so the amber "changes found" border always wins, as on the original page */
+body[data-sport="nba"] .team:not(.has-change):hover { border-color: #93c5fd; }
+body[data-sport="nba"] .team.selected { background: #eff6ff; }
+body[data-sport="nba"] .team.selected:not(.has-change) { border-color: #1d4ed8; }
+body[data-sport="nba"] .position { background: #dbeafe; color: #1d4ed8; }
+
+/* WNBA - dark plum, orange + plum identity.
+ * Contrast (WCAG): white on #c2410c 5.2, on #a21caf 6.3; tint text #86198f on #fae8ff 7.1. */
+body[data-sport="wnba"] {
+  --theme-accent-start: #c2410c;
+  --theme-accent-end: #a21caf;
+  --theme-page: #140b16;
+  --theme-marking: #fdba74;
+  --theme-browser: #a21caf;
+  --blue: var(--theme-accent-start);
+  --purple: var(--theme-accent-end);
+  --bg: var(--theme-page);
+  --court-glow: radial-gradient(1100px 620px at 0 0, rgba(162, 28, 175, .24), transparent 70%),
+                radial-gradient(900px 520px at 100% 0, rgba(194, 65, 12, .14), transparent 70%);
+}
+body[data-sport="wnba"] .status { color: #f3e8f5; }
+body[data-sport="wnba"] .subtitle { color: #d8cadb; }
+body[data-sport="wnba"] button.secondary { background: #3b2a3f; }
+/* borders skip .has-change so the amber "changes found" border always wins, as on the original page */
+body[data-sport="wnba"] .team:not(.has-change):hover { border-color: #f0abfc; }
+body[data-sport="wnba"] .team.selected { background: #fdf4ff; }
+body[data-sport="wnba"] .team.selected:not(.has-change) { border-color: #a21caf; }
+body[data-sport="wnba"] .team-code,
+body[data-sport="wnba"] .position { background: #fae8ff; color: #86198f; }
+
+/* ------------------------------------------------------------------------------------------------
  * Accessibility / print: artwork and texture are dropped. Listed per themed league so leagues that
  * are not themed yet keep exactly their current look in these modes too.
  * ------------------------------------------------------------------------------------------------ */
 @media (prefers-contrast: more) {
-  body[data-sport="ncaaf"], body[data-sport="nfl"] { background: var(--theme-page); }
+  body[data-sport="ncaaf"], body[data-sport="nfl"], body[data-sport="nba"], body[data-sport="wnba"] { background: var(--theme-page); }
 }
 @media (forced-colors: active) {
-  body[data-sport="ncaaf"], body[data-sport="nfl"] { background: Canvas; }
+  body[data-sport="ncaaf"], body[data-sport="nfl"], body[data-sport="nba"], body[data-sport="wnba"] { background: Canvas; }
 }
 @media print {
-  body[data-sport="ncaaf"], body[data-sport="nfl"] { background: none; }
+  body[data-sport="ncaaf"], body[data-sport="nfl"], body[data-sport="nba"], body[data-sport="wnba"] { background: none; }
 }

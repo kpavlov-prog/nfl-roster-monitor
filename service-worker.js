@@ -12,7 +12,7 @@
  * - Other origins (team logos on ESPN etc.): not intercepted.
  */
 const CACHE_PREFIX = 'roster-monitor-'
-const CACHE_NAME = CACHE_PREFIX + 'shell-v4'
+const CACHE_NAME = CACHE_PREFIX + 'shell-v5'
 const SCOPE_PATH = new URL('./', self.location.href).pathname
 const OFFLINE_PAGE = 'offline.html'
 
@@ -29,6 +29,7 @@ const SHELL = [
   'theme.css',
   'themes/ncaaf-stadium.svg',
   'themes/nfl-field.svg',
+  'themes/basketball-court.svg',
   'manifest.webmanifest',
   'icons/icon.svg',
   'icons/favicon-32.png',
