@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-11-17T17:44:29.246991+00:00",
+    "teamCode": "CGY",
+    "teamName": "Calgary Flames",
+    "type": "removed",
+    "playerName": "William Stromgren",
+    "position": "L",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-17T17:44:39.834560+00:00",
+    "teamCode": "NYR",
+    "teamName": "New York Rangers",
+    "type": "removed",
+    "playerName": "Marc Del Gaizo",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-17T17:44:42.869132+00:00",
+    "teamCode": "SJS",
+    "teamName": "San Jose Sharks",
+    "type": "added",
+    "playerName": "Brett Leason",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-17T17:44:43.430878+00:00",
+    "teamCode": "STL",
+    "teamName": "St. Louis Blues",
+    "type": "added",
+    "playerName": "Nathan Walker",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-17T17:44:46.124838+00:00",
+    "teamCode": "VAN",
+    "teamName": "Vancouver Canucks",
+    "type": "removed",
+    "playerName": "Nikita Tolopilo",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-17T17:44:48.208851+00:00",
+    "teamCode": "WPG",
+    "teamName": "Winnipeg Jets",
+    "type": "added",
+    "playerName": "Danil Zhilkin",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-11-16T18:45:53.618696+00:00",
     "teamCode": "COL",
     "teamName": "Colorado Avalanche",
