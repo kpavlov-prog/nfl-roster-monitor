@@ -3,7 +3,7 @@
   "team": "New York Giants",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/new-york-giants/roster",
-  "checkedAt": "2026-11-16T17:42:11.143437+00:00",
+  "checkedAt": "2026-11-17T17:15:14.562889+00:00",
   "players": [
     {
       "name": "Aaron Stinnie",
@@ -129,7 +129,7 @@
       "name": "Charlie Jones",
       "position": "WR",
       "number": "72",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -569,7 +569,7 @@
       "name": "Nikko Reed",
       "position": "DB",
       "number": "70",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -690,6 +690,14 @@
       "position": "RB",
       "number": "29",
       "status": "RES",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Xavier Gipson",
+      "position": "WR",
+      "number": "69",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },

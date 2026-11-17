@@ -3,7 +3,7 @@
   "team": "Indianapolis Colts",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/indianapolis-colts/roster",
-  "checkedAt": "2026-11-16T17:41:54.585056+00:00",
+  "checkedAt": "2026-11-17T17:14:53.126514+00:00",
   "players": [
     {
       "name": "Adetomiwa Adebawore",
@@ -278,10 +278,18 @@
       "source": "NFL.com"
     },
     {
+      "name": "Harrison Bryant",
+      "position": "TE",
+      "number": "77",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Jacob Bobenmoyer",
       "position": "LS",
       "number": "72",
-      "status": "ACT",
+      "status": "LISTED",
       "important": false,
       "source": "NFL.com"
     },
@@ -329,7 +337,7 @@
       "name": "Johnathan Edwards",
       "position": "DB",
       "number": "73",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -529,7 +537,7 @@
       "name": "Quez Watkins",
       "position": "WR",
       "number": "72",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -569,6 +577,14 @@
       "name": "Roy Mbaeteka",
       "position": "OT",
       "number": "78",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Samori Toure",
+      "position": "WR",
+      "number": "73",
       "status": "LISTED",
       "important": true,
       "source": "NFL.com"
