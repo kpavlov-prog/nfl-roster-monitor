@@ -28,7 +28,14 @@ body{margin:0;font-family:Arial,sans-serif;background:radial-gradient(circle at 
 .nav-card{color:white;text-decoration:none;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.14);padding:10px 14px;border-radius:14px;font-weight:800}
 .nav-card.active{background:linear-gradient(135deg,var(--blue),var(--purple));}
 h1{margin:0;font-size:42px}.subtitle{margin-top:8px;color:#cbd5e1}
-.controls{margin-top:24px;display:flex;gap:12px;flex-wrap:wrap;background:rgba(255,255,255,.08);padding:14px;border-radius:18px}
+.subtitle-meta{margin-top:6px;color:#94a3b8;font-size:13px;letter-spacing:.02em}
+.controls{margin-top:22px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 16px;background:rgba(255,255,255,.08);padding:14px 16px;border-radius:18px}
+.controls-group{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.controls-filters{flex:1 1 440px;justify-content:flex-end}
+.controls button,.controls select,.controls input{height:42px;margin:0;line-height:20px;white-space:nowrap}
+.controls select,.controls input{flex:1 1 210px;min-width:200px;max-width:320px;background:#fff;color:var(--text)}
+@media(max-width:1050px){.controls-filters{flex-basis:100%;justify-content:stretch}.controls select,.controls input{max-width:none}}
+@media(max-width:600px){.controls{padding:12px}.controls-actions{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;width:100%}.controls-actions button{width:100%;height:auto;min-height:42px;padding:10px;font-size:13px;white-space:normal}.controls select,.controls input{flex-basis:100%;min-width:0}}
 button,input,select{padding:11px 14px;border-radius:12px;border:none;font-size:14px}
 button{background:linear-gradient(135deg,var(--blue),var(--purple));color:white;font-weight:800;cursor:pointer}
 button.secondary{background:#334155}
@@ -73,15 +80,20 @@ button.secondary{background:#334155}
 </div>
 
 <h1>NCAAF Roster Monitor</h1>
-<div class="subtitle">College football roster monitoring dashboard powered by ESPN College Football API and GitHub Actions. Times shown in GMT.</div>
+<div class="subtitle">College football roster tracking, roster changes and team history.</div>
+<div class="subtitle-meta">Source: ESPN · Times: GMT</div>
 
 <div class="controls">
-  <button onclick="loadDashboard()">Refresh dashboard</button>
-  <button class="secondary" onclick="exportCsv()">Export changes CSV</button>
-  <button class="secondary" onclick="clearAllChanges()">Clear All Changes</button>
-  <button class="secondary" onclick="resetCheckedChanges()">Reset checked items</button>
-  <select id="teamSelect" onchange="selectTeam(this.value)"></select>
-  <input id="searchBox" placeholder="Search player..." oninput="renderSelectedTeam()" />
+  <div class="controls-group controls-actions">
+    <button onclick="loadDashboard()">Refresh dashboard</button>
+    <button class="secondary" onclick="exportCsv()">Export changes CSV</button>
+    <button class="secondary" onclick="clearAllChanges()">Clear Changes</button>
+    <button class="secondary" onclick="resetCheckedChanges()">Reset Checked</button>
+  </div>
+  <div class="controls-group controls-filters">
+    <select id="teamSelect" aria-label="Team" onchange="selectTeam(this.value)"></select>
+    <input id="searchBox" type="search" aria-label="Search player" placeholder="Search player..." oninput="renderSelectedTeam()" />
+  </div>
 </div>
 
 <div id="status" class="status">Loading NCAAF dashboard...</div>
