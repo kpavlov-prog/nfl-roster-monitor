@@ -1,0 +1,76 @@
+/* Roster Monitor - shared sport theme layer.
+ *
+ * Every league page links this file after its own <style> and marks its sport on
+ * <body data-sport="nfl|ncaaf|nba|wnba|mlb|nhl">.
+ *
+ * PHASE 0: this file only defines theme values. No rule uses them yet, so the pages look exactly
+ * as before. Later phases add one block per sport, e.g.
+ *   body[data-sport="ncaaf"] { --theme-accent-start: ...; }
+ * and the rules that apply the accent, the header band and the page texture.
+ *
+ * Status colours (red / amber / green) are never themed: they keep their warning/status meaning.
+ */
+:root {
+  /* Defaults = the current Roster Monitor colours. */
+  --theme-accent-start: #2563eb;   /* primary buttons, active nav pill, selected chips/states */
+  --theme-accent-end: #7c3aed;
+  --theme-page: #081226;           /* page background */
+  --theme-marking: #cbd5e1;        /* thin sport markings on the dark background */
+  --theme-browser: #4f46e5;        /* <meta name="theme-color"> / installed app title bar */
+}
+
+/* ------------------------------------------------------------------------------------------------
+ * NCAAF (Phase 1 pilot) - college football: maroon accent, gold only as a secondary marking colour.
+ * Contrast (WCAG): white on #9f1239 8.0, on #881337 9.6; tint text #9f1239 on #ffe4e6 6.7.
+ * ------------------------------------------------------------------------------------------------ */
+body[data-sport="ncaaf"] {
+  --theme-accent-start: #9f1239;
+  --theme-accent-end: #881337;
+  --theme-page: #160a0e;
+  --theme-marking: #fcd34d;
+  --theme-browser: #881337;
+  /* the page's own accent variables, used by buttons, active nav, stat borders, hovers, chips */
+  --blue: var(--theme-accent-start);
+  --purple: var(--theme-accent-end);
+  --bg: var(--theme-page);
+  --ncaaf-art: url("themes/ncaaf-stadium.svg") center top / 1600px 420px no-repeat;
+  /* glows sized in px so they stay around the header (a % size grows with the very long page) */
+  --ncaaf-glow: radial-gradient(1100px 620px at 0 0, rgba(159, 18, 57, .24), transparent 70%),
+                radial-gradient(900px 520px at 100% 0, rgba(180, 83, 9, .08), transparent 70%);
+  --ncaaf-texture: repeating-linear-gradient(135deg, rgba(255, 255, 255, .035) 0 2px, transparent 2px 26px);
+  background: var(--ncaaf-art), var(--ncaaf-glow), var(--ncaaf-texture), var(--theme-page);
+}
+/* non-status accent tints (blue/indigo/violet in the page CSS -> rose/maroon) */
+body[data-sport="ncaaf"] .status { color: #f1e4e7; }
+body[data-sport="ncaaf"] .subtitle-meta { color: #c4b5ba; }
+body[data-sport="ncaaf"] button.secondary { background: #3d2a32; }
+body[data-sport="ncaaf"] .team.selected { background: #fff1f2; }
+body[data-sport="ncaaf"] .team-code { background: #ffe4e6; color: #9f1239; }
+body[data-sport="ncaaf"] .position { background: #ffe4e6; }
+body[data-sport="ncaaf"] .bulk-count { background: #fff1f2; border-color: #fecdd3; color: #9f1239; }
+body[data-sport="ncaaf"] .bulk-count b { color: #4c0519; }
+body[data-sport="ncaaf"] .bulk-team-option:hover { background: #fff5f6; }
+body[data-sport="ncaaf"] .bulk-team-option:has(input:checked) { background: #fff1f2; }
+body[data-sport="ncaaf"] #selectedTeam .position-filter { border-color: #fecdd3; color: #3d2a32; }
+body[data-sport="ncaaf"] #selectedTeam .position-filter:hover { background: #fff1f2; }
+body[data-sport="ncaaf"] #selectedTeam .position-filter:has(input:checked) { color: #fff; border-color: transparent; }
+@media (max-width: 600px) {
+  body[data-sport="ncaaf"] {
+    --ncaaf-art: url("themes/ncaaf-stadium.svg") 62% top / 1100px 289px no-repeat;
+    --ncaaf-texture: repeating-linear-gradient(135deg, rgba(255, 255, 255, .02) 0 2px, transparent 2px 26px);
+  }
+}
+
+/* ------------------------------------------------------------------------------------------------
+ * Accessibility / print: artwork and texture are dropped. Listed per themed league (NCAAF only for
+ * now) so leagues that are not themed yet keep exactly their current look in these modes too.
+ * ------------------------------------------------------------------------------------------------ */
+@media (prefers-contrast: more) {
+  body[data-sport="ncaaf"] { background: var(--theme-page); }
+}
+@media (forced-colors: active) {
+  body[data-sport="ncaaf"] { background: Canvas; }
+}
+@media print {
+  body[data-sport="ncaaf"] { background: none; }
+}
