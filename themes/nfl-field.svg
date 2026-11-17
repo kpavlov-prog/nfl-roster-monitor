@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" preserveAspectRatio="xMidYMin slice">
+<defs>
+<linearGradient id="f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset=".5" stop-color="#fff" stop-opacity=".75"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<mask id="m"><rect width="1600" height="420" fill="url(#f)"/></mask>
+<pattern id="t" width="11.2" height="7" patternUnits="userSpaceOnUse" x="241.7"><rect width="1.6" height="7" fill="#d1fae5"/></pattern>
+<pattern id="e" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="2" height="22" fill="#86efac"/></pattern>
+</defs>
+<g mask="url(#m)" fill="none">
+<rect x="130" y="34" width="111.7" height="370" fill="url(#e)" opacity=".07"/>
+<rect x="1358.3" y="34" width="111.7" height="370" fill="url(#e)" opacity=".07"/>
+<rect x="130" y="34" width="1340" height="370" stroke="#d1fae5" stroke-width="3" stroke-opacity=".15"/>
+<path d="M297.5 34V404M409.2 34V404M520.8 34V404M632.5 34V404M744.2 34V404M855.8 34V404M967.5 34V404M1079.2 34V404M1190.8 34V404M1302.5 34V404" stroke="#d1fae5" stroke-width="1.5" stroke-opacity=".09"/>
+<path d="M241.7 34V404M353.3 34V404M465 34V404M576.7 34V404M688.3 34V404M800 34V404M911.7 34V404M1023.3 34V404M1135 34V404M1246.7 34V404M1358.3 34V404" stroke="#d1fae5" stroke-width="2.2" stroke-opacity=".13"/>
+<rect x="241.7" y="40" width="1116.7" height="7" fill="url(#t)" opacity=".07"/>
+<rect x="241.7" y="194" width="1116.7" height="7" fill="url(#t)" opacity=".07"/>
+<rect x="241.7" y="237" width="1116.7" height="7" fill="url(#t)" opacity=".07"/>
+<rect x="241.7" y="391" width="1116.7" height="7" fill="url(#t)" opacity=".07"/>
+<g stroke="#86efac" stroke-opacity=".24" stroke-width="3" stroke-linecap="round"><path d="M130 197.5V240.5M130 219h-20"/></g>
+<g fill="#86efac" fill-opacity=".24"><circle cx="130" cy="197.5" r="3.5"/><circle cx="130" cy="240.5" r="3.5"/><rect x="106" y="215" width="8" height="8"/></g>
+<g stroke="#86efac" stroke-opacity=".24" stroke-width="3" stroke-linecap="round"><path d="M1470 197.5V240.5M1470 219h20"/></g>
+<g fill="#86efac" fill-opacity=".24"><circle cx="1470" cy="197.5" r="3.5"/><circle cx="1470" cy="240.5" r="3.5"/><rect x="1486" y="215" width="8" height="8"/></g>
+</g></svg>

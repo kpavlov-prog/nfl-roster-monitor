@@ -3,10 +3,10 @@
  * Every league page links this file after its own <style> and marks its sport on
  * <body data-sport="nfl|ncaaf|nba|wnba|mlb|nhl">.
  *
- * PHASE 0: this file only defines theme values. No rule uses them yet, so the pages look exactly
- * as before. Later phases add one block per sport, e.g.
- *   body[data-sport="ncaaf"] { --theme-accent-start: ...; }
- * and the rules that apply the accent, the header band and the page texture.
+ * :root holds the default (unthemed) values. Each themed sport has its own block below,
+ *   body[data-sport="..."] { --theme-accent-start: ...; }
+ * with the rules that apply its accent, header band and page texture. Leagues without a block keep
+ * their original look.
  *
  * Status colours (red / amber / green) are never themed: they keep their warning/status meaning.
  */
@@ -62,15 +62,54 @@ body[data-sport="ncaaf"] #selectedTeam .position-filter:has(input:checked) { col
 }
 
 /* ------------------------------------------------------------------------------------------------
- * Accessibility / print: artwork and texture are dropped. Listed per themed league (NCAAF only for
- * now) so leagues that are not themed yet keep exactly their current look in these modes too.
+ * NFL (Phase 2) - pro football: field green -> blue accent, top-down field art, mowing stripes.
+ * No stadium bowl, so it stays distinct from NCAAF.
+ * Contrast (WCAG): white on #166534 7.1, on #1d4ed8 6.7; tint text #1d4ed8 on #dbeafe 5.5.
+ * ------------------------------------------------------------------------------------------------ */
+body[data-sport="nfl"] {
+  --theme-accent-start: #166534;
+  --theme-accent-end: #1d4ed8;
+  --theme-page: #06140d;
+  --theme-marking: #86efac;
+  --theme-browser: #166534;
+  --blue: var(--theme-accent-start);
+  --purple: var(--theme-accent-end);
+  --bg: var(--theme-page);
+  --nfl-art: url("themes/nfl-field.svg") center top / 1600px 420px no-repeat;
+  --nfl-glow: radial-gradient(1100px 620px at 0 0, rgba(22, 101, 52, .30), transparent 70%),
+              radial-gradient(900px 520px at 100% 0, rgba(29, 78, 216, .16), transparent 70%);
+  /* mowing stripes: wide alternating bands */
+  --nfl-texture: repeating-linear-gradient(90deg, rgba(134, 239, 172, .025) 0 80px, transparent 80px 160px);
+  background: var(--nfl-art), var(--nfl-glow), var(--nfl-texture), var(--theme-page);
+}
+/* non-status accent tints (indigo/violet in the page CSS -> field green / blue) */
+body[data-sport="nfl"] .status { color: #e3f1e8; }
+body[data-sport="nfl"] .subtitle { color: #c9d6ce; }
+body[data-sport="nfl"] button.secondary { background: #24392e; }
+body[data-sport="nfl"] .view-tab:not(.active) { background: #12261b; }
+body[data-sport="nfl"] .change-action { color: #1d4ed8; }   /* link-like text stays blue, not status green */
+body[data-sport="nfl"] .team.selected { background: #eff6ff; }
+body[data-sport="nfl"] .position { background: #dbeafe; }
+body[data-sport="nfl"] .bulk-summary { background: #eff6ff; }
+body[data-sport="nfl"] .position-filter { background: #eff6ff; border-color: #bfdbfe; }
+body[data-sport="nfl"] .bulk-team-option:hover { background: #f0f7f2; }
+@media (max-width: 600px) {
+  body[data-sport="nfl"] {
+    --nfl-art: url("themes/nfl-field.svg") right top / 1100px 289px no-repeat;
+    --nfl-texture: repeating-linear-gradient(90deg, rgba(134, 239, 172, .015) 0 56px, transparent 56px 112px);
+  }
+}
+
+/* ------------------------------------------------------------------------------------------------
+ * Accessibility / print: artwork and texture are dropped. Listed per themed league so leagues that
+ * are not themed yet keep exactly their current look in these modes too.
  * ------------------------------------------------------------------------------------------------ */
 @media (prefers-contrast: more) {
-  body[data-sport="ncaaf"] { background: var(--theme-page); }
+  body[data-sport="ncaaf"], body[data-sport="nfl"] { background: var(--theme-page); }
 }
 @media (forced-colors: active) {
-  body[data-sport="ncaaf"] { background: Canvas; }
+  body[data-sport="ncaaf"], body[data-sport="nfl"] { background: Canvas; }
 }
 @media print {
-  body[data-sport="ncaaf"] { background: none; }
+  body[data-sport="ncaaf"], body[data-sport="nfl"] { background: none; }
 }
