@@ -657,8 +657,11 @@ class NcaafHistoryRetention(unittest.TestCase):
         real = load_checker("ncaaf").fetch_teams
         m.fetch_teams = types.FunctionType(real.__code__, vars(m), "fetch_teams")  # reads FBS_TEAMS_FILE
         m.FBS_TEAMS_FILE = m.DATA / "fbs_teams.json"
+        m.MIN_TEAMS = 1  # these tests use a handful of synthetic teams; the 120 minimum is tested separately
         self.rosters = {code: [f"{code} Player {i:02d}" for i in range(40)] for code in self.TEAMS}
-        m.fetch_roster = lambda team: self.h._roster(self.rosters[team["code"]]) | {"code": team["code"], "team": team["name"]}
+        # Like the real fetch_roster: the saved roster records the team's ESPN id.
+        m.fetch_roster = lambda team: self.h._roster(self.rosters[team["code"]]) | {
+            "code": team["code"], "team": team["name"], "teamId": team["id"]}
         self.root = Path(self.tmp.name)
 
     def tearDown(self):
@@ -737,16 +740,14 @@ class NcaafHistoryRetention(unittest.TestCase):
         codes = list(self.TEAMS)
         self.history_with_changes(codes)
         before = self.snapshot()
-        all_before = self.read("logs/ncaaf/all_changes.json")
-        self.run_with(["TST"])  # 5 teams -> 1, like the 2-team fbs_teams.json of 2026-07-10
+        # 5 teams -> 1, like the 2-team fbs_teams.json of 2026-07-10: the run now stops before writing.
+        roster_safety.save_json(self.h.module.FBS_TEAMS_FILE, [self.TEAMS["TST"]])
+        with self.assertRaises(self.h.module.TeamListError) as raised:
+            self.h.run(None)
+        self.assertIn("4 teams monitored in the last run are missing", str(raised.exception))
         after = self.snapshot()
-        self.assertEqual(set(before) - set(after), set(), "no file deleted")
-        for code in codes[1:]:
-            for rel in (f"data/ncaaf/latest/{code}.json", f"data/ncaaf/state/{code}.json", f"logs/ncaaf/{code}.json"):
-                self.assertEqual(after[rel], before[rel], f"{rel} must be untouched")
-        all_after = self.read("logs/ncaaf/all_changes.json")
-        self.assertEqual(all_after[len(all_after) - len(all_before):], all_before, "no all_changes entry removed")
-        self.assertEqual(len(all_after), len(all_before), "TST unchanged, so nothing new")
+        self.assertEqual({k: v for k, v in after.items() if not k.endswith("fbs_teams.json")},
+                         {k: v for k, v in before.items() if not k.endswith("fbs_teams.json")})
 
     def test_empty_team_list_aborts_before_touching_anything(self):
         self.history_with_changes(["TST", "OTH"])
@@ -757,6 +758,231 @@ class NcaafHistoryRetention(unittest.TestCase):
         after = self.snapshot()
         self.assertEqual({k: v for k, v in after.items() if not k.endswith("fbs_teams.json")},
                          {k: v for k, v in before.items() if not k.endswith("fbs_teams.json")})
+
+
+def synthetic_teams(count, start=0):
+    return [{"id": str(1000 + i), "code": f"T{i:03d}", "name": f"Team {i:03d}", "logo": ""}
+            for i in range(start, start + count)]
+
+
+class NcaafTeamListValidationRules(unittest.TestCase):
+    """validate_team_list() on synthetic lists (no files involved)."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.m = load_checker("ncaaf")
+
+    def validate(self, teams, previous=None, codes_by_id=None, ids_by_code=None):
+        return self.m.validate_team_list(teams, previous, codes_by_id or {}, ids_by_code or {})
+
+    def assert_rejected(self, teams, expected, **kwargs):
+        with self.assertRaises(self.m.TeamListError) as raised:
+            self.validate(teams, **kwargs)
+        self.assertIn(expected, str(raised.exception))
+        self.assertIn("nothing was written", str(raised.exception))
+        return str(raised.exception)
+
+    def test_valid_list_passes(self):
+        teams = self.validate(synthetic_teams(130))
+        self.assertEqual(len(teams), 130)
+        self.assertEqual(set(teams[0]), {"id", "code", "name", "logo"})
+
+    def test_must_be_a_json_list(self):
+        self.assert_rejected({"teams": synthetic_teams(130)}, "must be a JSON list")
+
+    def test_duplicate_espn_id(self):
+        teams = synthetic_teams(130) + [{"id": "1005", "code": "XTRA", "name": "Extra"}]
+        self.assert_rejected(teams, "duplicate ESPN id 1005")
+
+    def test_ids_compared_as_trimmed_text(self):
+        teams = synthetic_teams(130) + [{"id": 1005, "code": "XTRA", "name": "Extra"}, {"id": " 1006 ", "code": "XTRB", "name": "B"}]
+        message = self.assert_rejected(teams, "duplicate ESPN id 1005")
+        self.assertIn("duplicate ESPN id 1006", message)
+
+    def test_missing_id_code_or_name(self):
+        for field in ("id", "code", "name"):
+            with self.subTest(field=field):
+                teams = synthetic_teams(130)
+                teams[7] = dict(teams[7], **{field: "  "})
+                self.assert_rejected(teams, f"has no {field}")
+                teams[7] = {k: v for k, v in teams[7].items() if k != field}
+                self.assert_rejected(teams, f"has no {field}")
+
+    def test_code_that_normalizes_to_nothing_counts_as_missing(self):
+        teams = synthetic_teams(130) + [{"id": "9", "code": "&-&", "name": "Symbols"}]
+        self.assert_rejected(teams, "has no code")
+
+    def test_filename_normalization_collisions(self):
+        for first, second, normalized in [("TA&M", "TA M", "TA_M"), ("M-OH", "M_OH", "M_OH"), ("TST", "tst", "TST")]:
+            with self.subTest(codes=(first, second)):
+                teams = synthetic_teams(130) + [{"id": "1", "code": first, "name": "A"}, {"id": "2", "code": second, "name": "B"}]
+                self.assert_rejected(teams, f"duplicate file code (after filename normalization) {normalized}")
+
+    def test_fewer_than_120_teams(self):
+        self.assert_rejected(synthetic_teams(119), "only 119 valid teams; at least 120 are required")
+        self.assertEqual(len(self.validate(synthetic_teams(120))), 120)
+
+    def test_dropping_more_than_two_previous_teams(self):
+        previous = {t["code"] for t in synthetic_teams(130)}
+        message = self.assert_rejected(synthetic_teams(127), "3 teams monitored in the last run are missing", previous=previous)
+        self.assertIn("T127, T128, T129", message)
+
+    def test_one_or_two_previous_teams_may_leave(self):
+        previous = {t["code"] for t in synthetic_teams(130)}
+        self.assertEqual(len(self.validate(synthetic_teams(129), previous=previous)), 129)
+        self.assertEqual(len(self.validate(synthetic_teams(128), previous=previous)), 128)
+
+    def test_new_teams_do_not_count_as_drops(self):
+        previous = {t["code"] for t in synthetic_teams(130)}
+        self.assertEqual(len(self.validate(synthetic_teams(140), previous=previous)), 140)
+
+    def test_saved_id_under_another_code_is_rejected(self):
+        teams = synthetic_teams(130)
+        teams[3] = dict(teams[3], code="RENAMED")
+        self.assert_rejected(teams, "uses code T003; a different code would split its history",
+                             codes_by_id={"1003": {"T003"}}, ids_by_code={"T003": {"1003"}})
+
+    def test_saved_code_under_another_id_is_rejected(self):
+        teams = synthetic_teams(130)
+        teams[3] = dict(teams[3], id="5555")
+        self.assert_rejected(teams, "belongs to ESPN id 1003; this entry would overwrite another team's roster",
+                             codes_by_id={"1003": {"T003"}}, ids_by_code={"T003": {"1003"}})
+
+    def test_every_problem_is_listed_at_once(self):
+        teams = synthetic_teams(118) + [{"id": "1000", "code": "DUPE", "name": "Dup"}, {"code": "NOID", "name": "x"}]
+        message = self.assert_rejected(teams, "duplicate ESPN id 1000")
+        self.assertIn("has no id", message)
+        self.assertIn("at least 120 are required", message)
+
+
+class NcaafRealTeamList(unittest.TestCase):
+    """The repository's corrected fbs_teams.json against its own status.json and saved rosters (read-only)."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.m = load_checker("ncaaf")  # paths point at the real repository; only read here
+        cls.teams_data = json.loads((ROOT / "data/ncaaf/fbs_teams.json").read_text(encoding="utf-8"))
+        cls.previous = cls.m.previous_team_codes()
+        cls.codes_by_id, cls.ids_by_code = cls.m.saved_team_identities()
+
+    def validate(self, teams):
+        return self.m.validate_team_list(teams, self.previous, self.codes_by_id, self.ids_by_code)
+
+    def test_corrected_138_team_list_passes(self):
+        teams = self.validate(self.teams_data)
+        self.assertEqual(len(teams), 138)
+        self.assertEqual({t["code"] for t in teams}, self.previous, "same teams as the last run")
+
+    def test_umass_keeps_its_canonical_code(self):
+        umass = [t for t in self.validate(self.teams_data) if t["id"] == "113"]
+        self.assertEqual([t["code"] for t in umass], ["UMASS"])
+        self.assertEqual(self.codes_by_id.get("113"), {"UMASS"}, "saved roster files use UMASS")
+
+    def test_mass_and_umass_together_are_rejected(self):
+        bad = self.teams_data + [{"id": "113", "code": "MASS", "name": "Massachusetts Minutemen"}]
+        with self.assertRaises(self.m.TeamListError) as raised:
+            self.validate(bad)
+        message = str(raised.exception)
+        self.assertIn("duplicate ESPN id 113", message)
+        self.assertIn("uses code UMASS; a different code would split its history", message)
+
+    def test_mass_instead_of_umass_is_rejected(self):
+        bad = [dict(t, code="MASS") if t["code"] == "UMASS" else t for t in self.teams_data]
+        with self.assertRaises(self.m.TeamListError) as raised:
+            self.validate(bad)
+        self.assertIn("ESPN id 113 uses code UMASS", str(raised.exception))
+
+    def test_sjsu_2459_next_to_niu_2459_is_rejected(self):
+        bad = self.teams_data + [{"id": "2459", "code": "SJSU", "name": "San José State Spartans"}]
+        with self.assertRaises(self.m.TeamListError) as raised:
+            self.validate(bad)
+        message = str(raised.exception)
+        self.assertIn("duplicate ESPN id 2459", message)
+        self.assertIn("duplicate file code (after filename normalization) SJSU", message)
+        self.assertIn("belongs to ESPN id 23", message)
+
+    def test_sjsu_2459_alone_is_still_rejected(self):
+        # Like 2026-07-10/11: the wrong SJSU entry without NIU or SJSU/23 in the list.
+        bad = [t for t in self.teams_data if t["code"] not in ("SJSU", "NIU")]
+        bad.append({"id": "2459", "code": "SJSU", "name": "San José State Spartans"})
+        with self.assertRaises(self.m.TeamListError) as raised:
+            self.validate(bad)
+        self.assertIn("would overwrite another team's roster", str(raised.exception))
+
+    def test_sjsu_23_and_niu_2459_pair_passes(self):
+        by_code = {t["code"]: t["id"] for t in self.validate(self.teams_data)}
+        self.assertEqual((by_code["SJSU"], by_code["NIU"]), ("23", "2459"))
+
+
+class NcaafInvalidTeamListWritesNothing(unittest.TestCase):
+    """An invalid team list stops the real NCAAF run before any file is written."""
+
+    TEAMS = NcaafHistoryRetention.TEAMS
+    setUp = NcaafHistoryRetention.setUp
+    tearDown = NcaafHistoryRetention.tearDown
+    run_with = NcaafHistoryRetention.run_with
+    snapshot = NcaafHistoryRetention.snapshot
+    read = NcaafHistoryRetention.read
+    history_with_changes = NcaafHistoryRetention.history_with_changes
+
+    def assert_aborts_without_writes(self, teams_data, expected, after_history=None):
+        self.history_with_changes(list(self.TEAMS))
+        if after_history:
+            after_history()
+        roster_safety.save_json(self.h.module.DATA / "source_issues.json", [{"kind": "older issue"}])
+        before = self.snapshot()
+        roster_safety.save_json(self.h.module.FBS_TEAMS_FILE, teams_data)
+        with self.assertRaises(self.h.module.TeamListError) as raised:
+            self.h.run(None)
+        self.assertIn(expected, str(raised.exception))
+        after = self.snapshot()
+        unchanged = lambda snap: {k: v for k, v in snap.items() if not k.endswith("fbs_teams.json")}
+        self.assertEqual(unchanged(after), unchanged(before), "status, rosters, state, logs and issues byte-identical")
+        for rel in ("data/ncaaf/status.json", "data/ncaaf/summary.json", "logs/ncaaf/all_changes.json",
+                    "data/ncaaf/latest/TST.json", "data/ncaaf/state/TST.json", "logs/ncaaf/TST.json"):
+            self.assertIn(rel, before)
+
+    def all_teams(self):
+        return list(self.TEAMS.values())
+
+    def test_duplicate_espn_id_aborts(self):
+        self.assert_aborts_without_writes(self.all_teams() + [dict(self.TEAMS["OTH"], code="NEW")], "duplicate ESPN id")
+
+    def test_duplicate_file_code_aborts(self):
+        self.assert_aborts_without_writes(self.all_teams() + [{"id": "4242", "code": "tst", "name": "Lower"}],
+                                          "duplicate file code (after filename normalization) TST")
+
+    def test_missing_fields_abort(self):
+        for field in ("id", "code", "name"):
+            with self.subTest(field=field):
+                teams = self.all_teams()
+                teams[1] = {k: v for k, v in teams[1].items() if k != field}
+                self.assert_aborts_without_writes(teams, f"has no {field}")
+
+    def test_too_few_teams_aborts(self):
+        self.assert_aborts_without_writes(self.all_teams(), "only 5 valid teams; at least 6 are required",
+                                          after_history=lambda: setattr(self.h.module, "MIN_TEAMS", 6))
+
+    def test_dropping_three_previous_teams_aborts(self):
+        self.assert_aborts_without_writes([self.TEAMS["TST"], self.TEAMS["OTH"]], "3 teams monitored in the last run are missing")
+
+    def test_not_a_list_aborts(self):
+        self.assert_aborts_without_writes({"teams": self.all_teams()}, "must be a JSON list")
+
+    def test_identity_change_aborts(self):
+        teams = [dict(t, code="OTHER") if t["code"] == "OTH" else t for t in self.all_teams()]
+        self.assert_aborts_without_writes(teams, "uses code OTH; a different code would split its history")
+
+    def test_valid_list_after_a_failed_run_continues_normally(self):
+        self.history_with_changes(list(self.TEAMS))
+        roster_safety.save_json(self.h.module.FBS_TEAMS_FILE, [self.TEAMS["TST"]])
+        with self.assertRaises(self.h.module.TeamListError):
+            self.h.run(None)
+        self.rosters["TST"] = self.rosters["TST"] + ["TST Newcomer"]
+        self.run_with(list(self.TEAMS))
+        self.assertEqual(len(self.read("data/ncaaf/status.json")), 5)
+        newest = self.read("logs/ncaaf/all_changes.json")[0]
+        self.assertEqual((newest["teamCode"], newest["type"], newest["playerName"]), ("TST", "added", "TST Newcomer"))
 
 
 class ThresholdBoundaries(unittest.TestCase):

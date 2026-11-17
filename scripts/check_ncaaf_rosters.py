@@ -72,35 +72,123 @@ def get_json(url):
     return response.json()
 
 
-def fetch_teams():
-    teams_data = load_json(FBS_TEAMS_FILE)
+# Team-list integrity limits (data/ncaaf/fbs_teams.json is checked before anything is written).
+MIN_TEAMS = 120          # FBS has ~136; the 2026 list has 138
+MAX_DROPPED_TEAMS = 2    # previously monitored teams (status.json) that may leave in one run
 
-    if not teams_data:
-        raise RuntimeError("Missing or empty data/ncaaf/fbs_teams.json")
 
-    teams = []
+class TeamListError(RuntimeError):
+    """fbs_teams.json failed validation; the run stops before any file is written."""
 
-    for team in teams_data:
-        team_id = str(team.get("id", "")).strip()
-        code = safe_code(team.get("code", ""))
-        name = str(team.get("name", "")).strip()
-        logo = str(team.get("logo", "")).strip()
 
-        if not team_id or not code or not name:
+def saved_team_identities():
+    """ESPN team id <-> code pairs recorded in the saved roster files (state/ and latest/).
+
+    Returns (codes_by_id, ids_by_code). Files without a teamId are ignored."""
+    codes_by_id, ids_by_code = {}, {}
+    for folder in (STATE, LATEST):
+        if not folder.exists():
             continue
+        for path in folder.glob("*.json"):
+            try:
+                data = load_json(path) or {}
+            except (OSError, ValueError) as error:
+                raise TeamListError(f"cannot read {path.relative_to(ROOT)} to check team identities: {error}; nothing was written")
+            team_id = str(data.get("teamId") or "").strip() if isinstance(data, dict) else ""
+            if team_id:
+                codes_by_id.setdefault(team_id, set()).add(path.stem)
+                ids_by_code.setdefault(path.stem, set()).add(team_id)
+    return codes_by_id, ids_by_code
 
+
+def previous_team_codes():
+    """Team codes of the last completed run (data/ncaaf/status.json), or None if there is none."""
+    path = DATA / "status.json"
+    if not path.exists():
+        return None
+    try:
+        rows = load_json(path)
+    except (OSError, ValueError) as error:
+        raise TeamListError(f"cannot read data/ncaaf/status.json to compare team lists: {error}; nothing was written")
+    if not isinstance(rows, list):
+        raise TeamListError("data/ncaaf/status.json is not a list; cannot compare team lists; nothing was written")
+    return {safe_code(row.get("teamCode")) for row in rows if isinstance(row, dict) and row.get("teamCode")}
+
+
+def validate_team_list(teams_data, previous_codes, codes_by_id, ids_by_code, min_teams=None, max_dropped=None):
+    """Check fbs_teams.json content; returns the teams to process or raises TeamListError listing
+    every problem found. Never writes anything."""
+    min_teams = MIN_TEAMS if min_teams is None else min_teams
+    max_dropped = MAX_DROPPED_TEAMS if max_dropped is None else max_dropped
+    if not isinstance(teams_data, list):
+        raise TeamListError("data/ncaaf/fbs_teams.json must be a JSON list of teams; nothing was written")
+
+    problems, teams = [], []
+    for index, entry in enumerate(teams_data):
+        if not isinstance(entry, dict):
+            problems.append(f"entry #{index} is not an object: {entry!r}")
+            continue
+        team_id = str(entry.get("id") if entry.get("id") is not None else "").strip()
+        raw_code = str(entry.get("code") if entry.get("code") is not None else "").strip()
+        code = safe_code(raw_code)
+        name = str(entry.get("name") if entry.get("name") is not None else "").strip()
+        missing = [field for field, value in (("id", team_id), ("code", code), ("name", name)) if not value]
+        if missing:
+            problems.append(f"entry #{index} {entry!r} has no {'/'.join(missing)}")
+            continue
         teams.append({
-            "id": team_id,
-            "code": code,
-            "name": name,
-            "logo": logo or f"https://a.espncdn.com/i/teamlogos/ncaa/500/{team_id}.png",
+            "index": index, "raw_code": raw_code, "id": team_id, "code": code, "name": name,
+            "logo": str(entry.get("logo") or "").strip() or f"https://a.espncdn.com/i/teamlogos/ncaa/500/{team_id}.png",
         })
 
-    unique = {}
-    for team in teams:
-        unique[team["id"]] = team
+    def describe(team):
+        return f"#{team['index']} {team['raw_code']}/{team['id']} '{team['name']}'"
 
-    return sorted(unique.values(), key=lambda t: t["name"])
+    for key, label in (("id", "ESPN id"), ("code", "file code (after filename normalization)")):
+        groups = {}
+        for team in teams:
+            groups.setdefault(team[key], []).append(team)
+        for value, group in groups.items():
+            if len(group) > 1:
+                problems.append(f"duplicate {label} {value}: " + ", ".join(describe(t) for t in group))
+
+    if len(teams) < min_teams:
+        problems.append(f"only {len(teams)} valid teams; at least {min_teams} are required")
+
+    if previous_codes:
+        dropped = sorted(previous_codes - {team["code"] for team in teams})
+        if len(dropped) > max_dropped:
+            problems.append(f"{len(dropped)} teams monitored in the last run are missing (more than {max_dropped} "
+                            f"allowed per run): {', '.join(dropped)}")
+
+    for team in teams:
+        saved_codes = codes_by_id.get(team["id"], set())
+        if saved_codes and team["code"] not in saved_codes:
+            problems.append(f"{describe(team)}: the saved roster for ESPN id {team['id']} uses code "
+                            f"{', '.join(sorted(saved_codes))}; a different code would split its history")
+        saved_ids = ids_by_code.get(team["code"], set())
+        if saved_ids and team["id"] not in saved_ids:
+            problems.append(f"{describe(team)}: the saved roster under code {team['code']} belongs to ESPN id "
+                            f"{', '.join(sorted(saved_ids))}; this entry would overwrite another team's roster")
+
+    if problems:
+        raise TeamListError("data/ncaaf/fbs_teams.json failed validation; nothing was written.\n  - "
+                            + "\n  - ".join(problems))
+
+    return sorted(({key: team[key] for key in ("id", "code", "name", "logo")} for team in teams),
+                  key=lambda t: t["name"])
+
+
+def fetch_teams():
+    """The teams to process this run, from data/ncaaf/fbs_teams.json after validation."""
+    try:
+        teams_data = load_json(FBS_TEAMS_FILE)
+    except (OSError, ValueError) as error:
+        raise TeamListError(f"cannot read data/ncaaf/fbs_teams.json: {error}; nothing was written")
+    if teams_data is None:
+        raise TeamListError("data/ncaaf/fbs_teams.json is missing; nothing was written")
+    codes_by_id, ids_by_code = saved_team_identities()
+    return validate_team_list(teams_data, previous_team_codes(), codes_by_id, ids_by_code)
 
 
 def roster_url(team_id, page=1):
@@ -397,23 +485,11 @@ def append_all_log(changes):
 
 
 def run():
-    ensure_dirs()
-
+    # Validate the team list before anything is written (raises TeamListError: no file touched).
     teams = fetch_teams()
-    ids = {}
-    names = {}
+    print(f"Team list valid: {len(teams)} teams, unique ESPN ids and file codes")
 
-    for t in teams:
-        if t["id"] in ids:
-            print(f"DUPLICATE ID: {t['id']} -> {ids[t['id']]} AND {t['name']}")
-        ids[t["id"]] = t["name"]
-
-        if t["name"] in names:
-            print(f"DUPLICATE NAME: {t['name']}")
-        names[t["name"]] = t["id"]
-
-    print(f"UNIQUE IDS: {len(ids)}")
-    print(f"UNIQUE NAMES: {len(names)}")
+    ensure_dirs()
     # fbs_teams.json only decides which teams are processed in this run. Files of teams that are
     # not in it (roster, state, team log, all_changes.json entries) are left untouched: a team that
     # returns later is compared against its preserved state, and history is never deleted.
@@ -478,4 +554,8 @@ def run():
 
 
 if __name__ == "__main__":
-    run()
+    try:
+        run()
+    except TeamListError as error:
+        print(f"NCAAF RUN ABORTED: {error}")
+        raise SystemExit(1)
