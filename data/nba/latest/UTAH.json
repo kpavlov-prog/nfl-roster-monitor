@@ -3,7 +3,7 @@
   "team": "Utah Jazz",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/UTAH/roster",
-  "checkedAt": "2026-11-17T17:54:58.785756+00:00",
+  "checkedAt": "2026-11-18T17:36:25.611589+00:00",
   "players": [
     {
       "name": "Ace Bailey",
@@ -51,6 +51,13 @@
       "name": "Jaxson Hayes",
       "position": "C",
       "number": "11",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Jonas Aidoo",
+      "position": "C",
+      "number": "13",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },

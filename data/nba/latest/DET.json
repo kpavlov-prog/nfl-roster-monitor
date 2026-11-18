@@ -3,7 +3,7 @@
   "team": "Detroit Pistons",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/DET/roster",
-  "checkedAt": "2026-11-17T17:54:47.228468+00:00",
+  "checkedAt": "2026-11-18T17:36:13.342383+00:00",
   "players": [
     {
       "name": "Ausar Thompson",
@@ -16,6 +16,13 @@
       "name": "Cade Cunningham",
       "position": "G",
       "number": "2",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Chaz Lanier",
+      "position": "G",
+      "number": "8",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
