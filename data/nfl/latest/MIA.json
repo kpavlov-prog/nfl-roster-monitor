@@ -3,7 +3,7 @@
   "team": "Miami Dolphins",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/miami-dolphins/roster",
-  "checkedAt": "2026-11-17T17:15:08.037241+00:00",
+  "checkedAt": "2026-11-18T16:50:48.655722+00:00",
   "players": [
     {
       "name": "A.J. Henning",
@@ -62,10 +62,18 @@
       "source": "NFL.com"
     },
     {
+      "name": "Brady Boyd",
+      "position": "WR",
+      "number": "73",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Brady Cook",
       "position": "QB",
       "number": "15",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -126,6 +134,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Chris Smith",
+      "position": "DT",
+      "number": "73",
+      "status": "LISTED",
+      "important": false,
+      "source": "NFL.com"
+    },
+    {
       "name": "Christian Haynes",
       "position": "G",
       "number": "75",
@@ -174,6 +190,14 @@
       "source": "NFL.com"
     },
     {
+      "name": "Daniel Carlson",
+      "position": "K",
+      "number": "77",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
       "name": "Darrell Baker Jr.",
       "position": "CB",
       "number": "22",
@@ -193,7 +217,7 @@
       "name": "Eric Watts",
       "position": "DE",
       "number": "77",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -329,7 +353,7 @@
       "name": "Jordan Jefferson",
       "position": "DT",
       "number": "76",
-      "status": "LISTED",
+      "status": "ACT",
       "important": false,
       "source": "NFL.com"
     },
@@ -345,7 +369,7 @@
       "name": "Jordan Phillips",
       "position": "DT",
       "number": "94",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     },
@@ -475,6 +499,14 @@
       "number": "24",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Matthew Butler",
+      "position": "DT",
+      "number": "91",
+      "status": "LISTED",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -657,7 +689,7 @@
       "name": "Zeek Biggers",
       "position": "DT",
       "number": "93",
-      "status": "ACT",
+      "status": "RES",
       "important": false,
       "source": "NFL.com"
     }

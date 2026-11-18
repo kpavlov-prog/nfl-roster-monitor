@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-18T16:50:27.150431+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Cowboys",
+    "type": "status changed",
+    "playerName": "Ajani Cornelius",
+    "position": "OT",
+    "oldValue": "ACT",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-18T16:50:27.150472+00:00",
+    "teamCode": "DAL",
+    "teamName": "Dallas Cowboys",
+    "type": "status changed",
+    "playerName": "Nick Leverett",
+    "position": "G",
+    "oldValue": "LISTED",
+    "newValue": "ACT",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-11-17T17:14:36.488798+00:00",
     "teamCode": "DAL",
     "teamName": "Dallas Cowboys",
