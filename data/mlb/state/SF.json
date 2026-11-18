@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=active",
-  "checkedAt": "2026-11-17T17:37:15.781124+00:00",
+  "checkedAt": "2026-11-18T17:15:25.623149+00:00",
   "players": [
     {
       "name": "Adrian Houser",
@@ -78,13 +78,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Christian Koss",
-      "position": "SS",
-      "number": "50",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Daniel Susac",
       "position": "C",
       "number": "6",
@@ -127,6 +120,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Henry Lalane",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Jesus Rodriguez",
       "position": "C",
       "number": "79",
@@ -144,6 +144,13 @@
       "name": "Jonah Cox",
       "position": "CF",
       "number": "53",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Josh Bostick",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -183,6 +190,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Marty Gair",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Matt Chapman",
       "position": "3B",
       "number": "26",
@@ -214,13 +228,6 @@
       "name": "Randy Rodríguez",
       "position": "P",
       "number": "73",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Rowan Wick",
-      "position": "P",
-      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

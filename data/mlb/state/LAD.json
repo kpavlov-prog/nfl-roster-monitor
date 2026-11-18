@@ -5,8 +5,15 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-11-17T17:37:09.731220+00:00",
+  "checkedAt": "2026-11-18T17:15:20.205376+00:00",
   "players": [
+    {
+      "name": "Adam Serwinowski",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
     {
       "name": "Alex Call",
       "position": "LF",
@@ -57,8 +64,8 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Christian Cairo",
-      "position": "SS",
+      "name": "Christian Zazueta",
+      "position": "P",
       "number": "",
       "status": "A",
       "source": "MLB Stats API"
@@ -134,7 +141,7 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jake Cousins",
+      "name": "Jackson Ferris",
       "position": "P",
       "number": "",
       "status": "A",
@@ -172,6 +179,13 @@
       "name": "Landon Knack",
       "position": "P",
       "number": "96",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Luke Fox",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

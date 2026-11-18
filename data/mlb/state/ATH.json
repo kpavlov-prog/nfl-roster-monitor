@@ -5,19 +5,12 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active",
-  "checkedAt": "2026-11-17T17:37:13.399421+00:00",
+  "checkedAt": "2026-11-18T17:15:23.468645+00:00",
   "players": [
     {
       "name": "Alika Williams",
       "position": "SS",
       "number": "12",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Braden Nett",
-      "position": "P",
-      "number": "78",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -46,6 +39,13 @@
       "name": "Chris Roycroft",
       "position": "P",
       "number": "56",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cole Conn",
+      "position": "C",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -95,13 +95,6 @@
       "name": "Gunnar Hoglund",
       "position": "P",
       "number": "53",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Hayden Juenger",
-      "position": "P",
-      "number": "58",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -239,6 +232,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Raymond Burgos",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Scott Blewett",
       "position": "P",
       "number": "49",
@@ -274,9 +274,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Yunior Tur",
+      "name": "Yaqui Rivera",
       "position": "P",
-      "number": "70",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

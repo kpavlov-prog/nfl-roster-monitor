@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/142/roster?rosterType=active",
-  "checkedAt": "2026-11-17T17:37:11.591675+00:00",
+  "checkedAt": "2026-11-18T17:15:21.833881+00:00",
   "players": [
     {
       "name": "Alan Roden",
@@ -207,6 +207,13 @@
       "name": "Royce Lewis",
       "position": "1B",
       "number": "23",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ryan Jeffers",
+      "position": "C",
+      "number": "27",
       "status": "A",
       "source": "MLB Stats API"
     },

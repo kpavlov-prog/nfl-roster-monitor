@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=active",
-  "checkedAt": "2026-11-17T17:37:10.351860+00:00",
+  "checkedAt": "2026-11-18T17:15:20.748444+00:00",
   "players": [
     {
       "name": "Adam Mazur",
@@ -37,6 +37,13 @@
     },
     {
       "name": "Brandan Bidois",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Brandon White",
       "position": "P",
       "number": "",
       "status": "A",
@@ -78,6 +85,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Eliazar Dishmey",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Esteury Ruiz",
       "position": "RF",
       "number": "3",
@@ -102,6 +116,13 @@
       "name": "Heriberto Hernández",
       "position": "LF",
       "number": "13",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jace Beck",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -151,6 +172,13 @@
       "name": "Josh Ekness",
       "position": "P",
       "number": "95",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Juan Matheus",
+      "position": "SS",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

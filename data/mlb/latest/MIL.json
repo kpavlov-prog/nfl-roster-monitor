@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=active",
-  "checkedAt": "2026-11-17T17:37:10.973723+00:00",
+  "checkedAt": "2026-11-18T17:15:21.291721+00:00",
   "players": [
     {
       "name": "Aaron Ashby",
@@ -32,6 +32,13 @@
       "name": "Brice Turang",
       "position": "2B",
       "number": "2",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Cameron Wagoner",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -64,6 +71,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Dylan O'Rae",
+      "position": "2B",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Garrett Mitchell",
       "position": "CF",
       "number": "5",
@@ -81,6 +95,13 @@
       "name": "Jacob Misiorowski",
       "position": "P",
       "number": "32",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Jett Williams",
+      "position": "SS",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -113,6 +134,20 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Luke Adams",
+      "position": "3B",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Matthew Wood",
+      "position": "C",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Robert Gasser",
       "position": "P",
       "number": "54",
@@ -137,6 +172,13 @@
       "name": "Shane Drohan",
       "position": "P",
       "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tate Kuehner",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

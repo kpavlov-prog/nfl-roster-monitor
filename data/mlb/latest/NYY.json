@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=active",
-  "checkedAt": "2026-11-17T17:37:12.829619+00:00",
+  "checkedAt": "2026-11-18T17:15:22.923394+00:00",
   "players": [
     {
       "name": "Aaron Judge",
@@ -78,9 +78,23 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Carlos Lagrange",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Carlos Rodón",
       "position": "P",
       "number": "55",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Chase Hampton",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -99,6 +113,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "David Bednar",
+      "position": "P",
+      "number": "53",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Elmer Rodríguez",
       "position": "P",
       "number": "71",
@@ -109,6 +130,13 @@
       "name": "Fernando Cruz",
       "position": "P",
       "number": "63",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Garrett Martin",
+      "position": "RF",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -165,6 +193,13 @@
       "name": "Kervin Castro",
       "position": "P",
       "number": "74",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kyle Carr",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,12 +5,19 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-11-17T17:37:19.403027+00:00",
+  "checkedAt": "2026-11-18T17:15:28.745057+00:00",
   "players": [
     {
       "name": "Abimelec Ortiz",
       "position": "1B",
       "number": "81",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Alejandro Rosario",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -50,13 +57,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Braxton Roxby",
-      "position": "P",
-      "number": "",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "CJ Abrams",
       "position": "SS",
       "number": "5",
@@ -67,13 +67,6 @@
       "name": "Cade Cavalli",
       "position": "P",
       "number": "24",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Carson Palmquist",
-      "position": "P",
-      "number": "51",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -134,13 +127,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Gus Varland",
-      "position": "P",
-      "number": "47",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Harry Ford",
       "position": "C",
       "number": "17",
@@ -197,16 +183,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jorbit Vivas",
-      "position": "3B",
-      "number": "84",
+      "name": "Jarlin Susana",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
     {
-      "name": "Josiah Gray",
-      "position": "P",
-      "number": "40",
+      "name": "Jorbit Vivas",
+      "position": "3B",
+      "number": "84",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -253,6 +239,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Philip Abner",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Reiver Sanmartin",
       "position": "P",
       "number": "",
@@ -263,6 +256,13 @@
       "name": "Riley Cornelio",
       "position": "P",
       "number": "74",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Travis Sykora",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

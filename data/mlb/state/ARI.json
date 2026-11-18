@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-11-17T17:37:01.734879+00:00",
+  "checkedAt": "2026-11-18T17:15:13.213356+00:00",
   "players": [
     {
       "name": "Adrian Del Castillo",
@@ -18,6 +18,13 @@
       "name": "Andrew Saalfrank",
       "position": "P",
       "number": "27",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Ashton Izzi",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -64,9 +71,30 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Cristofer Torin",
+      "position": "2B",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Demetrio Crisantes",
+      "position": "SS",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Drey Jameson",
       "position": "P",
       "number": "20",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Druw Jones",
+      "position": "CF",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -218,6 +246,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Spencer Giesting",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Tim Tawa",
       "position": "1B",
       "number": "13",
@@ -235,6 +270,13 @@
       "name": "Tyler Locklear",
       "position": "1B",
       "number": "31",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Wellington Aracena",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     }

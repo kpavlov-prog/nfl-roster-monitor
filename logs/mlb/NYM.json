@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-18T17:15:22.374663+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "added",
+    "playerName": "Jefferson Rojas",
+    "position": "SS",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-18T17:15:22.374675+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "removed",
+    "playerName": "Dylan Ross",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-03T16:14:04.844621+00:00",
     "teamCode": "NYM",
     "teamName": "New York Mets",

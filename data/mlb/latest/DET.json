@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=active",
-  "checkedAt": "2026-11-17T17:37:07.231003+00:00",
+  "checkedAt": "2026-11-18T17:15:18.038704+00:00",
   "players": [
     {
       "name": "Andrew Sears",
@@ -85,6 +85,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Emilio Pagán",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Enmanuel De Jesus",
       "position": "P",
       "number": "37",
@@ -106,13 +113,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jace Jung",
-      "position": "3B",
-      "number": "17",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Jackson Jobe",
       "position": "P",
       "number": "21",
@@ -127,13 +127,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Jake Miller",
-      "position": "P",
-      "number": "60",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Javier Báez",
       "position": "SS",
       "number": "28",
@@ -144,6 +137,13 @@
       "name": "John Peck",
       "position": "SS",
       "number": "18",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Josue Briceño",
+      "position": "C",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -176,9 +176,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Matt Vierling",
-      "position": "CF",
-      "number": "8",
+      "name": "Max Anderson",
+      "position": "2B",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -193,6 +193,13 @@
       "name": "Parker Meadows",
       "position": "CF",
       "number": "22",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Peyton Graham",
+      "position": "SS",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -228,13 +235,6 @@
       "name": "Thayron Liranzo",
       "position": "C",
       "number": "49",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Trey Sweeney",
-      "position": "SS",
-      "number": "27",
       "status": "A",
       "source": "MLB Stats API"
     },

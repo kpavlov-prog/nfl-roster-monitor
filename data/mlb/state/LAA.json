@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=active",
-  "checkedAt": "2026-11-17T17:37:09.113453+00:00",
+  "checkedAt": "2026-11-18T17:15:19.663910+00:00",
   "players": [
     {
       "name": "Ben Joyce",
@@ -148,6 +148,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Nelson Rada",
+      "position": "CF",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Nicolo Pinazzi",
       "position": "P",
       "number": "",
@@ -165,6 +172,13 @@
       "name": "Oswald Peraza",
       "position": "2B",
       "number": "2",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Raudi Rodriguez",
+      "position": "CF",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
