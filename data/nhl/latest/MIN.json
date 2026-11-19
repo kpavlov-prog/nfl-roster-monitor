@@ -3,7 +3,7 @@
   "team": "Minnesota Wild",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/MIN/current",
-  "checkedAt": "2026-11-18T17:26:12.380402+00:00",
+  "checkedAt": "2026-11-19T17:31:14.056577+00:00",
   "players": [
     {
       "name": "Blake Coleman",
@@ -156,6 +156,13 @@
       "name": "Ryan Hartman",
       "position": "R",
       "number": "38",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Tyler Pitlick",
+      "position": "C",
+      "number": "19",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

@@ -3,7 +3,7 @@
   "team": "Tampa Bay Lightning",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/TBL/current",
-  "checkedAt": "2026-11-18T17:26:19.538416+00:00",
+  "checkedAt": "2026-11-19T17:31:20.920262+00:00",
   "players": [
     {
       "name": "Andrei Vasilevskiy",
@@ -93,6 +93,13 @@
       "name": "Jake Guentzel",
       "position": "C",
       "number": "59",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Jansen Harkins",
+      "position": "C",
+      "number": "10",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
