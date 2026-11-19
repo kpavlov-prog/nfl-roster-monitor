@@ -3,7 +3,7 @@
   "team": "Miami Dolphins",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/miami-dolphins/roster",
-  "checkedAt": "2026-11-18T16:50:48.655722+00:00",
+  "checkedAt": "2026-11-19T16:57:56.247991+00:00",
   "players": [
     {
       "name": "A.J. Henning",
@@ -243,6 +243,14 @@
       "number": "85",
       "status": "ACT",
       "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Jack Browning",
+      "position": "P",
+      "number": "71",
+      "status": "LISTED",
+      "important": false,
       "source": "NFL.com"
     },
     {
@@ -513,7 +521,7 @@
       "name": "Max Llewellyn",
       "position": "DE",
       "number": "57",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
