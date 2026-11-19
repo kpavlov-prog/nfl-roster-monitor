@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-11-18T17:15:15.880760+00:00",
+  "checkedAt": "2026-11-19T17:22:17.303261+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -99,6 +99,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Dustin May",
+      "position": "P",
+      "number": "85",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Edgar Quero",
       "position": "C",
       "number": "26",
@@ -151,13 +158,6 @@
       "name": "Jordan Hicks",
       "position": "P",
       "number": "44",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jordan Leasure",
-      "position": "P",
-      "number": "49",
       "status": "A",
       "source": "MLB Stats API"
     },

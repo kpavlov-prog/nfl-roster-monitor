@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/142/roster?rosterType=active",
-  "checkedAt": "2026-11-18T17:15:21.833881+00:00",
+  "checkedAt": "2026-11-19T17:22:23.706122+00:00",
   "players": [
     {
       "name": "Alan Roden",
@@ -221,6 +221,13 @@
       "name": "Ryan Kreidler",
       "position": "SS",
       "number": "5",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Sonny Gray",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

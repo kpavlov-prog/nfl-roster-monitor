@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/139/roster?rosterType=active",
-  "checkedAt": "2026-11-18T17:15:27.183328+00:00",
+  "checkedAt": "2026-11-19T17:22:29.409138+00:00",
   "players": [
     {
       "name": "Alex Cook",
@@ -200,13 +200,6 @@
       "name": "Mason Englert",
       "position": "P",
       "number": "59",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Nick Fortes",
-      "position": "C",
-      "number": "40",
       "status": "A",
       "source": "MLB Stats API"
     },

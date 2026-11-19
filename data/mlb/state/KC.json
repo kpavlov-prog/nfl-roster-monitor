@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/118/roster?rosterType=active",
-  "checkedAt": "2026-11-18T17:15:19.144445+00:00",
+  "checkedAt": "2026-11-19T17:22:20.807363+00:00",
   "players": [
     {
       "name": "Angel Bastardo",
@@ -39,6 +39,13 @@
       "name": "Bobby Witt Jr.",
       "position": "SS",
       "number": "7",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Bryce Miller",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -92,13 +99,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "James McArthur",
-      "position": "P",
-      "number": "66",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "John Rave",
       "position": "RF",
       "number": "16",
@@ -113,9 +113,16 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Kyle Isbel",
-      "position": "CF",
-      "number": "28",
+      "name": "José A. Ferrer",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Logan Evans",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -130,13 +137,6 @@
       "name": "Lucas Erceg",
       "position": "P",
       "number": "60",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Maikel Garcia",
-      "position": "3B",
-      "number": "11",
       "status": "A",
       "source": "MLB Stats API"
     },

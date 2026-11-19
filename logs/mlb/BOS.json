@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-19T17:22:16.169606+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "added",
+    "playerName": "Nick Fortes",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-19T17:22:16.169613+00:00",
+    "teamCode": "BOS",
+    "teamName": "Boston Red Sox",
+    "type": "removed",
+    "playerName": "Connor Wong",
+    "position": "C",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-18T17:15:14.820191+00:00",
     "teamCode": "BOS",
     "teamName": "Boston Red Sox",
