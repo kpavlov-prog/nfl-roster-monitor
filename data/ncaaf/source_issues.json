@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2026-11-20T18:14:00.307413+00:00",
+    "teamCode": "UTSA",
+    "teamName": "UTSA Roadrunners",
+    "kind": "fetch_error",
+    "message": "Both ESPN roster APIs failed. Site API: 503 Server Error: Service Unavailable for url: https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2636/roster?limit=100&page=2 | Core API: 503 Server Error: Backend fetch failed for url: http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/athletes/5222175?lang=en&region=us",
+    "previousCount": 117,
+    "fetchedCount": null,
+    "lastSuccessfulCheckedAt": "2026-11-19T18:28:25.899706+00:00",
+    "source": "ESPN College Football API"
+  },
+  {
+    "timestamp": "2026-11-20T18:13:59.543940+00:00",
+    "teamCode": "UTEP",
+    "teamName": "UTEP Miners",
+    "kind": "fetch_error",
+    "message": "Both ESPN roster APIs failed. Site API: 503 Server Error: Service Unavailable for url: https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2638/roster?limit=100&page=2 | Core API: 503 Server Error: Backend fetch failed for url: http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/athletes/5328464?lang=en&region=us",
+    "previousCount": 110,
+    "fetchedCount": null,
+    "lastSuccessfulCheckedAt": "2026-11-19T18:28:20.702157+00:00",
+    "source": "ESPN College Football API"
+  }
+]
