@@ -1,5 +1,16 @@
 [
   {
+    "timestamp": "2026-11-20T17:37:27.560330+00:00",
+    "teamCode": "CON",
+    "teamName": "Connecticut Sun",
+    "kind": "fetch_error",
+    "message": "400 Client Error: Bad Request for url: https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/CON/roster",
+    "previousCount": 14,
+    "fetchedCount": null,
+    "lastSuccessfulCheckedAt": "2026-11-09T19:35:03.536610+00:00",
+    "source": "ESPN WNBA API"
+  },
+  {
     "timestamp": "2026-11-19T18:01:01.565902+00:00",
     "teamCode": "CON",
     "teamName": "Connecticut Sun",
