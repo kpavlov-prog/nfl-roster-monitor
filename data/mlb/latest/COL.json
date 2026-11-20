@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=active",
-  "checkedAt": "2026-11-19T17:22:19.014731+00:00",
+  "checkedAt": "2026-11-20T16:57:30.877040+00:00",
   "players": [
     {
       "name": "Adael Amador",
@@ -67,6 +67,13 @@
       "name": "Connor Norby",
       "position": "2B",
       "number": "35",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Davis Martin",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -169,6 +176,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Luis Castillo",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Mark Manfredi",
       "position": "P",
       "number": "54",
@@ -214,13 +228,6 @@
       "name": "Ryan Ritter",
       "position": "SS",
       "number": "8",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Sean Sullivan",
-      "position": "P",
-      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=active",
-  "checkedAt": "2026-11-19T17:22:17.303261+00:00",
+  "checkedAt": "2026-11-20T16:57:29.176787+00:00",
   "players": [
     {
       "name": "Andrew Benintendi",
@@ -74,13 +74,6 @@
       "name": "David Sandlin",
       "position": "P",
       "number": "54",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Davis Martin",
-      "position": "P",
-      "number": "65",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -169,13 +162,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Luis Castillo",
-      "position": "P",
-      "number": "58",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Luisangel Acuña",
       "position": "SS",
       "number": "0",
@@ -235,6 +221,13 @@
       "name": "Sean Burke",
       "position": "P",
       "number": "59",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Sean Sullivan",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
