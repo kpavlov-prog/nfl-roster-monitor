@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-11-20T17:05:34.357088+00:00",
+    "teamCode": "COL",
+    "teamName": "Colorado Avalanche",
+    "type": "removed",
+    "playerName": "Alex Gagne",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-20T17:05:41.648377+00:00",
+    "teamCode": "OTT",
+    "teamName": "Ottawa Senators",
+    "type": "added",
+    "playerName": "Philip Tomasino",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-20T17:05:41.648384+00:00",
+    "teamCode": "OTT",
+    "teamName": "Ottawa Senators",
+    "type": "added",
+    "playerName": "Sammy Blais",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-20T17:05:41.648389+00:00",
+    "teamCode": "OTT",
+    "teamName": "Ottawa Senators",
+    "type": "added",
+    "playerName": "Tyler Boucher",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-20T17:05:42.744691+00:00",
+    "teamCode": "PIT",
+    "teamName": "Pittsburgh Penguins",
+    "type": "added",
+    "playerName": "Avery Hayes",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-20T17:05:43.313595+00:00",
+    "teamCode": "SEA",
+    "teamName": "Seattle Kraken",
+    "type": "removed",
+    "playerName": "Jani Nyman",
+    "position": "R",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-19T17:31:10.797753+00:00",
     "teamCode": "CBJ",
     "teamName": "Columbus Blue Jackets",
