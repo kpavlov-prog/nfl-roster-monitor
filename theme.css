@@ -207,18 +207,58 @@ body[data-sport="mlb"] .team-code,
 body[data-sport="mlb"] .position { background: #dbeafe; color: #1e3a8a; }
 
 /* ------------------------------------------------------------------------------------------------
+ * NHL (Phase 5) - arena ice at night: blue primary identity, teal secondary, faint skate-scratch ice.
+ * The rink's red centre/goal lines are muted rose and live only in the artwork, never in borders,
+ * badges or selected states.
+ * Contrast (WCAG): white on #0369a1 5.9, on #0e7490 5.4; badge text #075985 on #e0f2fe 6.6.
+ * ------------------------------------------------------------------------------------------------ */
+body[data-sport="nhl"] {
+  --theme-accent-start: #0369a1;
+  --theme-accent-end: #0e7490;
+  --theme-page: #06121c;
+  --theme-marking: #a5f3fc;
+  --theme-browser: #0369a1;
+  --blue: var(--theme-accent-start);
+  --purple: var(--theme-accent-end);
+  --bg: var(--theme-page);
+  --nhl-art: url("themes/nhl-rink.svg") center top / 1600px 420px no-repeat;
+  --nhl-glow: radial-gradient(1100px 620px at 0 0, rgba(3, 105, 161, .30), transparent 70%),
+              radial-gradient(900px 520px at 100% 0, rgba(14, 116, 144, .18), transparent 70%);
+  /* ice: thin skate scratches in two directions, mostly transparent */
+  --nhl-texture: repeating-linear-gradient(112deg, rgba(165, 243, 252, .025) 0 1px, transparent 1px 29px),
+                 repeating-linear-gradient(64deg, rgba(255, 255, 255, .014) 0 1px, transparent 1px 47px);
+  background: var(--nhl-art), var(--nhl-glow), var(--nhl-texture), var(--theme-page);
+}
+@media (max-width: 600px) {
+  body[data-sport="nhl"] {
+    --nhl-art: url("themes/nhl-rink.svg") center top / 1100px 289px no-repeat;
+    --nhl-texture: repeating-linear-gradient(112deg, rgba(165, 243, 252, .012) 0 1px, transparent 1px 29px),
+                   repeating-linear-gradient(64deg, rgba(255, 255, 255, .007) 0 1px, transparent 1px 47px);
+  }
+}
+body[data-sport="nhl"] .status { color: #e0f2fe; }
+body[data-sport="nhl"] .stat { border-top-color: #0369a1; }
+body[data-sport="nhl"] button.secondary { background: #1f3340; }
+/* borders skip .has-change so the amber "changes found" border always wins, as on the original page */
+body[data-sport="nhl"] .team:not(.has-change):hover { border-color: #7dd3fc; }
+body[data-sport="nhl"] .team.selected { background: #f0f9ff; }
+body[data-sport="nhl"] .team.selected:not(.has-change) { border-color: #0369a1; }
+body[data-sport="nhl"] .team-code,
+body[data-sport="nhl"] .position { background: #e0f2fe; color: #075985; }
+
+/* ------------------------------------------------------------------------------------------------
  * Accessibility / print: artwork and texture are dropped. Listed per themed league so leagues that
  * are not themed yet keep exactly their current look in these modes too.
  * ------------------------------------------------------------------------------------------------ */
 @media (prefers-contrast: more) {
   body[data-sport="ncaaf"], body[data-sport="nfl"], body[data-sport="nba"], body[data-sport="wnba"],
-  body[data-sport="mlb"] { background: var(--theme-page); }
+  body[data-sport="mlb"], body[data-sport="nhl"] { background: var(--theme-page); }
 }
 @media (forced-colors: active) {
   body[data-sport="ncaaf"], body[data-sport="nfl"], body[data-sport="nba"], body[data-sport="wnba"],
-  body[data-sport="mlb"] { background: Canvas; }
+  body[data-sport="mlb"], body[data-sport="nhl"] { background: Canvas; }
 }
 @media print {
   body[data-sport="ncaaf"], body[data-sport="nfl"], body[data-sport="nba"], body[data-sport="wnba"],
-  body[data-sport="mlb"] { background: none; }
+  body[data-sport="mlb"], body[data-sport="nhl"] { background: none; }
 }
