@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-11-21T16:18:16.068935+00:00",
+    "teamCode": "VAN",
+    "teamName": "Vancouver Canucks",
+    "type": "added",
+    "playerName": "Nikita Tolopilo",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-21T16:18:16.068943+00:00",
+    "teamCode": "VAN",
+    "teamName": "Vancouver Canucks",
+    "type": "added",
+    "playerName": "Ty Mueller",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-21T16:18:16.068949+00:00",
+    "teamCode": "VAN",
+    "teamName": "Vancouver Canucks",
+    "type": "removed",
+    "playerName": "Max Sasson",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-17T17:44:46.124838+00:00",
     "teamCode": "VAN",
     "teamName": "Vancouver Canucks",
