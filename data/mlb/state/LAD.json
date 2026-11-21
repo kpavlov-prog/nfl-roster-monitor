@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=active",
-  "checkedAt": "2026-11-20T16:57:33.738791+00:00",
+  "checkedAt": "2026-11-21T16:07:59.277220+00:00",
   "players": [
     {
       "name": "Adam Serwinowski",
@@ -46,13 +46,6 @@
       "name": "Blake Snell",
       "position": "P",
       "number": "7",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Bobby Miller",
-      "position": "P",
-      "number": "28",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -221,6 +214,13 @@
       "name": "Ronan Kopp",
       "position": "P",
       "number": "83",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Royce Lewis",
+      "position": "1B",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-11-20T16:57:26.303532+00:00",
+  "checkedAt": "2026-11-21T16:07:51.246438+00:00",
   "players": [
     {
       "name": "Adrian Del Castillo",
@@ -15,23 +15,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Andrew Saalfrank",
-      "position": "P",
-      "number": "27",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Ashton Izzi",
       "position": "P",
       "number": "",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Blake Walston",
-      "position": "P",
-      "number": "48",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -130,6 +116,13 @@
       "name": "Gerardo Carrillo",
       "position": "P",
       "number": "68",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Johan Oviedo",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

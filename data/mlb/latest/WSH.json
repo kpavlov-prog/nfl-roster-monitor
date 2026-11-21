@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=active",
-  "checkedAt": "2026-11-20T16:57:42.773087+00:00",
+  "checkedAt": "2026-11-21T16:08:09.022548+00:00",
   "players": [
     {
       "name": "Abimelec Ortiz",
@@ -172,13 +172,6 @@
       "name": "James Wood",
       "position": "RF",
       "number": "29",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jared Simpson",
-      "position": "P",
-      "number": "72",
       "status": "A",
       "source": "MLB Stats API"
     },

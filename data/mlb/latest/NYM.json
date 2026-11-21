@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-11-20T16:57:35.987345+00:00",
+  "checkedAt": "2026-11-21T16:08:01.712173+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -46,13 +46,6 @@
       "name": "Christian Scott",
       "position": "P",
       "number": "45",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Christopher Morel",
-      "position": "1B",
-      "number": "28",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -99,9 +92,9 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Hayden Senger",
-      "position": "C",
-      "number": "6",
+      "name": "Gus Varland",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -270,6 +263,13 @@
       "name": "Tylor Megill",
       "position": "P",
       "number": "58",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Yunior Tur",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

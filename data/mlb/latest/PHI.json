@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/143/roster?rosterType=active",
-  "checkedAt": "2026-11-20T16:57:37.680930+00:00",
+  "checkedAt": "2026-11-21T16:08:03.577918+00:00",
   "players": [
     {
       "name": "Aaron Nola",
@@ -29,13 +29,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Andrew Hoffmann",
-      "position": "P",
-      "number": "",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Andrew Painter",
       "position": "P",
       "number": "24",
@@ -53,20 +46,6 @@
       "name": "Brandon Marsh",
       "position": "LF",
       "number": "16",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Brett Harris",
-      "position": "3B",
-      "number": "",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Bryan De La Cruz",
-      "position": "RF",
-      "number": "41",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -183,6 +162,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Jordan Leasure",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Justin Crawford",
       "position": "CF",
       "number": "2",
@@ -214,13 +200,6 @@
       "name": "Max Lazar",
       "position": "P",
       "number": "60",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Moisés Chace",
-      "position": "P",
-      "number": "75",
       "status": "A",
       "source": "MLB Stats API"
     },

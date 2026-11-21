@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-11-21T16:08:01.109788+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "added",
+    "playerName": "Bobby Miller",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-21T16:08:01.109803+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "removed",
+    "playerName": "Bailey Ober",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-21T16:08:01.109807+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "removed",
+    "playerName": "Matt Wallner",
+    "position": "RF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-21T16:08:01.109809+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "removed",
+    "playerName": "Royce Lewis",
+    "position": "1B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-21T16:08:01.109811+00:00",
+    "teamCode": "MIN",
+    "teamName": "Minnesota Twins",
+    "type": "removed",
+    "playerName": "Trevor Larnach",
+    "position": "LF",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-20T16:57:35.429515+00:00",
     "teamCode": "MIN",
     "teamName": "Minnesota Twins",

@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-11-21T16:07:53.670772+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "added",
+    "playerName": "Braxton Roxby",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-21T16:07:53.670783+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "added",
+    "playerName": "Joey Bart",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-21T16:07:53.670791+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "removed",
+    "playerName": "Ethan Roberts",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-21T16:07:53.670793+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "removed",
+    "playerName": "Gabriel Arias",
+    "position": "3B",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-20T16:57:28.611157+00:00",
     "teamCode": "CHC",
     "teamName": "Chicago Cubs",

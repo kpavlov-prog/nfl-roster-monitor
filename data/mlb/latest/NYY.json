@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=active",
-  "checkedAt": "2026-11-20T16:57:36.557294+00:00",
+  "checkedAt": "2026-11-21T16:08:02.315148+00:00",
   "players": [
     {
       "name": "Aaron Judge",
@@ -127,13 +127,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Fernando Cruz",
-      "position": "P",
-      "number": "63",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Garrett Martin",
       "position": "RF",
       "number": "",
@@ -207,13 +200,6 @@
       "name": "Luis García Jr.",
       "position": "1B",
       "number": "26",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Luis Gil",
-      "position": "P",
-      "number": "81",
       "status": "A",
       "source": "MLB Stats API"
     },

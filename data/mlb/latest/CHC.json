@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/112/roster?rosterType=active",
-  "checkedAt": "2026-11-20T16:57:28.610415+00:00",
+  "checkedAt": "2026-11-21T16:07:53.669944+00:00",
   "players": [
     {
       "name": "Alex Bregman",
@@ -32,6 +32,13 @@
       "name": "Braxton Garrett",
       "position": "P",
       "number": "60",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Braxton Roxby",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -85,20 +92,6 @@
       "source": "MLB Stats API"
     },
     {
-      "name": "Ethan Roberts",
-      "position": "P",
-      "number": "39",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Gabriel Arias",
-      "position": "3B",
-      "number": "43",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
       "name": "Gavin Hollowell",
       "position": "P",
       "number": "46",
@@ -137,6 +130,13 @@
       "name": "Jayden Murray",
       "position": "P",
       "number": "70",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Joey Bart",
+      "position": "C",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
