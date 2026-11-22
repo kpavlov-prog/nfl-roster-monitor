@@ -10,9 +10,11 @@
  * - Pages and static app files (HTML, manifest, icons, pwa.js): network first, so a new deploy is
  *   picked up on the next online visit; the cached copy is used only when the network fails.
  * - Other origins (team logos on ESPN etc.): not intercepted.
+ * - vendor/pdfjs/ (PDF reader for Player Lookup) is not pre-cached - it is large and only needed
+ *   when a PDF is opened; it is cached network-first like other static files on first use.
  */
 const CACHE_PREFIX = 'roster-monitor-'
-const CACHE_NAME = CACHE_PREFIX + 'shell-v8'
+const CACHE_NAME = CACHE_PREFIX + 'shell-v9'
 const SCOPE_PATH = new URL('./', self.location.href).pathname
 const OFFLINE_PAGE = 'offline.html'
 
@@ -24,6 +26,8 @@ const SHELL = [
   'leagues/wnba/',
   'leagues/mlb/',
   'leagues/nhl/',
+  'lookup/',
+  'lookup/player-lookup.js',
   OFFLINE_PAGE,
   'pwa.js',
   'theme.css',

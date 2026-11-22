@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Player Team Finder - Roster Monitor</title>
+<meta name="description" content="Find the current team of players from the Roster Monitor's latest rosters." />
+<meta name="theme-color" content="#4f46e5" />
+<link rel="manifest" href="../manifest.webmanifest" />
+<link rel="icon" href="../icons/icon.svg" type="image/svg+xml" />
+<link rel="icon" href="../icons/favicon-32.png" type="image/png" sizes="32x32" />
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="Roster Monitor" />
+<meta name="mobile-web-app-capable" content="yes" />
+<script src="../pwa.js" defer></script>
+<script src="../timezone.js"></script>
+<script src="player-lookup.js"></script>
+<style>
+:root{
+  --bg:#081226;--text:#111827;--muted:#64748b;--blue:#2563eb;--purple:#7c3aed;
+  --green:#16a34a;--green-bg:#dcfce7;--yellow:#d97706;--yellow-bg:#fef3c7;
+  --red:#dc2626;--red-bg:#fee2e2;--line:#e5e7eb;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:radial-gradient(circle at top left,rgba(37,99,235,.28),transparent 32%),radial-gradient(circle at top right,rgba(124,58,237,.22),transparent 28%),var(--bg);color:white;min-height:100vh}
+.container{max-width:1500px;margin:0 auto;padding:28px 24px 40px}
+.top-nav{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.nav-card{color:white;text-decoration:none;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.14);padding:10px 14px;border-radius:14px;font-weight:800}
+.nav-card.active{background:linear-gradient(135deg,var(--blue),var(--purple))}
+h1{margin:0;font-size:42px}.subtitle{margin-top:8px;color:#cbd5e1}
+.status{margin-top:14px;color:#dbeafe;font-size:14px}
+button,input,select,textarea{font-family:inherit;font-size:14px}
+button{padding:11px 14px;border-radius:12px;border:none;background:linear-gradient(135deg,var(--blue),var(--purple));color:white;font-weight:800;cursor:pointer}
+button.secondary{background:#334155}
+button:disabled{opacity:.55;cursor:default}
+.panel{background:white;color:var(--text);border-radius:20px;padding:18px;box-shadow:0 12px 30px rgba(0,0,0,.18);margin-top:18px;min-width:0}
+.panel h2{margin:0 0 12px}
+.meta{margin-top:6px;color:var(--muted);font-size:12px;line-height:1.45}
+.empty{color:var(--muted);font-style:italic}
+.layout{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:18px;align-items:start}
+.layout>.panel{margin-top:18px}
+/* input */
+.mode-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.mode-tab{background:#e2e8f0;color:#334155}
+.mode-tab[aria-selected="true"]{background:linear-gradient(135deg,var(--blue),var(--purple));color:#fff}
+textarea{width:100%;min-height:220px;resize:vertical;padding:12px 14px;border:1px solid var(--line);border-radius:12px;color:var(--text);line-height:1.45}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.drop{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-height:150px;padding:18px;border:2px dashed #cbd5e1;border-radius:14px;background:#f8fafc;text-align:center;cursor:pointer}
+.drop.over{border-color:var(--blue);background:#eff6ff}
+.drop input{max-width:100%}
+.file-name{font-weight:800;word-break:break-all}
+.notice{margin-top:12px;padding:10px 12px;border-radius:12px;background:#f1f5f9;font-size:13px;line-height:1.45}
+.notice.warn{background:var(--yellow-bg);color:#78350f}
+.notice.error{background:var(--red-bg);color:#7f1d1d}
+details.review{margin-top:10px;font-size:13px}
+details.review ul{margin:6px 0 0;padding-left:18px;max-height:180px;overflow:auto}
+/* freshness */
+.fresh{width:100%;border-collapse:collapse;font-size:13px}
+.fresh th,.fresh td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.fresh th{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.03em}
+.issue{color:var(--yellow);font-weight:700}
+/* results */
+.summary{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.count{padding:5px 10px;border-radius:999px;background:#f1f5f9;font-size:12px;font-weight:800}
+.results{width:100%;border-collapse:collapse;font-size:14px}
+.results th,.results td{padding:10px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.results th{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.03em}
+.results td.player{font-weight:800}
+.badge{display:inline-block;padding:3px 9px;border-radius:999px;font-size:11px;font-weight:900;white-space:nowrap}
+.badge.exact{background:var(--green-bg);color:#166534}
+.badge.normalized{background:#dbeafe;color:#1d4ed8}
+.badge.ambiguous{background:var(--yellow-bg);color:#92400e}
+.badge.notfound{background:#e2e8f0;color:#334155}
+.cands{margin:6px 0 0;padding-left:18px;font-size:13px;line-height:1.5}
+.possible{margin-top:6px;font-size:12px;color:var(--muted)}
+.possible b{color:#475569}
+.times{color:var(--muted);font-size:11px;font-weight:700}
+@media(max-width:1050px){.layout{grid-template-columns:1fr}}
+@media(max-width:700px){
+  .container{padding:20px 14px 32px}
+  h1{font-size:32px}
+  .results thead{display:none}
+  .results,.results tbody,.results tr,.results td{display:block;width:100%}
+  .results tr{padding:10px 0;border-bottom:1px solid var(--line)}
+  .results td{border:none;padding:3px 0}
+  .results td[data-label]:not(.player)::before{content:attr(data-label) ": ";color:var(--muted);font-size:12px;font-weight:700}
+  .fresh .hide-sm{display:none}
+}
+</style>
+<link rel="stylesheet" href="../theme.css" />
+</head>
+<body>
+<div class="container">
+
+<div class="top-nav">
+  <a class="nav-card" href="../">Sports Hub</a>
+  <a class="nav-card" href="../leagues/nfl/">NFL</a>
+  <a class="nav-card" href="../leagues/ncaaf/">College Football</a>
+  <a class="nav-card" href="../leagues/nba/">NBA</a>
+  <a class="nav-card" href="../leagues/wnba/">WNBA</a>
+  <a class="nav-card" href="../leagues/mlb/">Baseball</a>
+  <a class="nav-card" href="../leagues/nhl/">Ice Hockey</a>
+  <a class="nav-card active" href="./">Player Lookup</a>
+</div>
+
+<h1>Player Team Finder</h1>
+<div class="subtitle">Find a player's current team on the Roster Monitor's latest rosters: NFL, NCAAF, NBA, WNBA, MLB and NHL. Times shown in <span class="tz-label">GMT</span>.</div>
+
+<div class="status-row"><div id="status" class="status">Loading current rosters...</div><span class="tz-control"><label for="tzSelect">Time zone</label><select id="tzSelect" data-tz-select><option value="GMT">GMT</option><option value="EST">EST</option></select></span></div>
+
+<div class="layout">
+  <div>
+    <section class="panel" aria-labelledby="inputTitle">
+      <h2 id="inputTitle">Player input</h2>
+      <div class="mode-tabs" role="tablist">
+        <button type="button" class="mode-tab" role="tab" id="tabPaste" aria-selected="true" aria-controls="pastePane" onclick="setMode('paste')">Paste Names</button>
+        <button type="button" class="mode-tab" role="tab" id="tabPdf" aria-selected="false" aria-controls="pdfPane" onclick="setMode('pdf')">Upload PDF</button>
+      </div>
+      <div id="pastePane" role="tabpanel" aria-labelledby="tabPaste">
+        <label class="meta" for="names">One name per line. Blank lines, list numbers and bullets are ignored.</label>
+        <textarea id="names" spellcheck="false" placeholder="Patrick Mahomes&#10;Devin Booker&#10;Connor McDavid"></textarea>
+      </div>
+      <div id="pdfPane" role="tabpanel" aria-labelledby="tabPdf" hidden>
+        <label class="drop" id="drop" for="pdfFile">
+          <span><b>Drop a PDF here</b> or choose a file</span>
+          <input type="file" id="pdfFile" accept="application/pdf,.pdf" />
+          <span class="file-name" id="pdfName"></span>
+          <span class="meta">Read on this device only - the file is not uploaded anywhere. Text-based PDFs only (scanned images are not read).</span>
+        </label>
+        <div id="pdfNotice"></div>
+      </div>
+      <div class="actions">
+        <button type="button" id="findBtn" onclick="findPlayers()">Find Players</button>
+        <button type="button" class="secondary" onclick="clearAll()">Clear</button>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="freshTitle">
+      <h2 id="freshTitle">Roster data</h2>
+      <div class="meta">Results use the Roster Monitor's latest successful roster for each team. A team with a current source issue keeps its last good roster.</div>
+      <table class="fresh" id="fresh"><tbody><tr><td class="empty">Loading...</td></tr></tbody></table>
+    </section>
+  </div>
+
+  <section class="panel" aria-labelledby="resultsTitle">
+    <h2 id="resultsTitle">Results</h2>
+    <div id="resultsSummary" class="summary"></div>
+    <div id="results"><div class="empty">Paste names or upload a PDF, then choose Find Players.</div></div>
+    <div class="actions"><button type="button" class="secondary" id="exportBtn" onclick="exportResults()" disabled>Export Results CSV</button></div>
+  </section>
+</div>
+
+</div>
+
+<script>
+const P = window.PlayerLookup
+const LEAGUE_NAMES = { nfl: 'NFL', ncaaf: 'NCAAF', nba: 'NBA', wnba: 'WNBA', mlb: 'MLB', nhl: 'NHL' }
+let index = null, lastResults = [], leagueInfo = []
+
+function esc(v){return String(v==null?'':v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+// same text the dashboards print; timezone.js shows it in the chosen zone
+function gmt(value){
+  if(!value)return"-";
+  return new Date(value).toLocaleString("en-GB",{timeZone:"UTC",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit"})+" GMT";
+}
+async function fetchJson(path){
+  const res=await fetch(path+"?v="+Date.now());
+  if(!res.ok)throw new Error(res.status+" "+path);
+  return res.json();
+}
+function setStatus(text){document.getElementById('status').textContent=text}
+
+// --- current-player index: every league's status.json teams and their latest rosters, loaded once ---
+async function loadLeague(key){
+  const info={key,label:LEAGUE_NAMES[key],status:[],rosters:{},summary:null,error:''}
+  try{info.status=await fetchJson(`../data/${key}/status.json`)}catch(e){info.error='Teams unavailable ('+e.message+')';return info}
+  try{info.summary=await fetchJson(`../data/${key}/summary.json`)}catch(e){}
+  return info
+}
+async function loadRosters(leagues){
+  const jobs=[]; leagues.forEach(l=>l.status.forEach(row=>jobs.push([l,row.teamCode])))
+  let done=0,next=0
+  async function worker(){
+    while(next<jobs.length){
+      const [l,code]=jobs[next++]
+      try{l.rosters[code]=await fetchJson(`../data/${l.key}/latest/${code}.json`)}catch(e){}
+      done++; if(done%25===0||done===jobs.length)setStatus(`Loading current rosters... ${done}/${jobs.length} teams`)
+    }
+  }
+  await Promise.all(Array.from({length:8},worker))
+}
+const ready=(async()=>{
+  const t0=performance.now()
+  const leagues=await Promise.all(Object.keys(LEAGUE_NAMES).map(loadLeague))
+  await loadRosters(leagues)
+  index=P.buildIndex(leagues)
+  leagueInfo=leagues
+  renderFreshness()
+  const newest=leagues.map(l=>l.summary&&l.summary.lastRunFinished).filter(Boolean).sort().pop()
+  setStatus(`Ready: ${index.size.toLocaleString('en-GB')} current players indexed. Newest roster update: ${gmt(newest)}`)
+  document.documentElement.dataset.indexMs=String(Math.round(performance.now()-t0))
+  return index
+})().catch(e=>{setStatus('Could not load the current rosters: '+e.message);throw e})
+
+function renderFreshness(){
+  const rows=leagueInfo.map(l=>{
+    const issues=l.status.filter(r=>r.sourceIssue)
+    const missing=index.missingTeams.filter(m=>m.league===l.label)
+    const note=l.error?`<span class="issue">${esc(l.error)}</span>`
+      :[issues.length?`<span class="issue">${issues.length} team${issues.length>1?'s':''} with a source issue (last good roster kept)</span>`:'',
+        missing.length?`<span class="issue">${missing.length} roster file${missing.length>1?'s':''} not loaded: ${esc(missing.map(m=>m.teamCode).join(', '))}</span>`:''].filter(Boolean).join('<br>')||'OK'
+    return `<tr><td><b>${l.label}</b></td><td class="hide-sm">${l.status.length} teams</td><td>${(index.counts[l.key]||0).toLocaleString('en-GB')} players</td>
+      <td>${esc(gmt(l.summary&&l.summary.lastRunFinished))}</td><td>${note}</td></tr>`
+  }).join('')
+  document.getElementById('fresh').innerHTML=`<thead><tr><th>League</th><th class="hide-sm">Teams</th><th>Players</th><th>Last update</th><th>Status</th></tr></thead><tbody>${rows}</tbody>`
+}
+
+// --- input modes ---
+function setMode(mode){
+  const pdf=mode==='pdf'
+  document.getElementById('pastePane').hidden=pdf; document.getElementById('pdfPane').hidden=!pdf
+  document.getElementById('tabPaste').setAttribute('aria-selected',String(!pdf)); document.getElementById('tabPdf').setAttribute('aria-selected',String(pdf))
+}
+function clearAll(){
+  document.getElementById('names').value=''; document.getElementById('pdfFile').value=''
+  document.getElementById('pdfName').textContent=''; document.getElementById('pdfNotice').innerHTML=''
+  lastResults=[]; document.getElementById('results').innerHTML='<div class="empty">Paste names or upload a PDF, then choose Find Players.</div>'
+  document.getElementById('resultsSummary').innerHTML=''; document.getElementById('exportBtn').disabled=true
+}
+
+// --- lookup ---
+function candidateLine(c){
+  const st=c.rosterStatus&&c.rosterStatus!=='ACTIVE'?` · roster status ${esc(c.rosterStatus)}`:''
+  return `<li>${esc(c.name)} - <b>${esc(c.team)}</b> (${esc(c.league)}${c.position?', '+esc(c.position):''})${st}${c.sourceIssue?' · source issue, last good roster':''}</li>`
+}
+function renderResults(results){
+  lastResults=results
+  const n=s=>results.filter(r=>r.status===s).length
+  document.getElementById('resultsSummary').innerHTML=results.length?
+    [['Exact','exact'],['Normalized','normalized'],['Ambiguous','ambiguous'],['Not found','notfound']].map(([s,c])=>`<span class="count">${s}: ${n(s)}</span>`).join(''):''
+  if(!results.length){document.getElementById('results').innerHTML='<div class="empty">No names to look up.</div>';document.getElementById('exportBtn').disabled=true;return}
+  const body=results.map(r=>{
+    const cls={Exact:'exact',Normalized:'normalized',Ambiguous:'ambiguous','Not found':'notfound'}[r.status]
+    const times=r.count>1?` <span class="times">(listed ${r.count}×)</span>`:''
+    let team='—',league='—',position='—'
+    if(r.match){
+      const m=r.match
+      team=`${esc(m.team)}<div class="meta">${m.name!==r.input.trim()?'Roster name: '+esc(m.name)+' · ':''}roster checked ${esc(gmt(m.checkedAt))}${m.sourceIssue?' · source issue, last good roster':''}</div>`
+      league=esc(m.league); position=esc(m.position||'—')
+    }else if(r.status==='Ambiguous'){
+      team=`<b>${r.candidates.length} current teams - not chosen:</b><ul class="cands">${r.candidates.map(candidateLine).join('')}</ul>`
+    }else if(r.possible.length){
+      team=`—<div class="possible"><b>Possible matches (not confirmed):</b><ul class="cands">${r.possible.map(candidateLine).join('')}</ul></div>`
+    }
+    return `<tr><td class="player" data-label="Player">${esc(r.input)}${times}</td><td data-label="Current team">${team}</td><td data-label="League">${league}</td><td data-label="Position">${position}</td><td data-label="Match"><span class="badge ${cls}">${r.status}</span></td></tr>`
+  }).join('')
+  document.getElementById('results').innerHTML=`<table class="results"><thead><tr><th>Player</th><th>Current Team</th><th>League</th><th>Position</th><th>Match Status</th></tr></thead><tbody>${body}</tbody></table>`
+  document.getElementById('exportBtn').disabled=false
+}
+async function findPlayers(){
+  const btn=document.getElementById('findBtn'); btn.disabled=true
+  try{ await ready; renderResults(P.lookupAll(index,document.getElementById('names').value)) }
+  catch(e){ document.getElementById('results').innerHTML=`<div class="notice error">${esc(e.message)}</div>` }
+  finally{ btn.disabled=false }
+}
+function exportResults(){
+  if(!lastResults.length)return
+  const blob=new Blob([P.toCsv(lastResults)],{type:'text/csv'}), url=URL.createObjectURL(blob), a=document.createElement('a')
+  a.href=url; a.download='player-lookup-results.csv'; a.click(); URL.revokeObjectURL(url)
+}
+
+// --- PDF: read locally with pdf.js (loaded only when a PDF is chosen) ---
+let pdfjs=null
+async function pdfLib(){
+  if(!pdfjs){
+    pdfjs=await import('../vendor/pdfjs/pdf.min.js')
+    pdfjs.GlobalWorkerOptions.workerSrc=new URL('../vendor/pdfjs/pdf.worker.min.js',location.href).href
+  }
+  return pdfjs
+}
+async function pdfText(file){
+  const lib=await pdfLib()
+  const doc=await lib.getDocument({data:new Uint8Array(await file.arrayBuffer()),isEvalSupported:false,disableFontFace:true,useSystemFonts:false}).promise
+  const lines=[]
+  for(let p=1;p<=doc.numPages;p++){
+    const page=await doc.getPage(p), content=await page.getTextContent()
+    let line=''
+    for(const item of content.items){
+      if(typeof item.str!=='string')continue
+      line+=item.str
+      if(item.hasEOL){lines.push(line);line=''}
+      else if(item.str && !/\s$/.test(item.str))line+=' '
+    }
+    if(line.trim())lines.push(line)
+  }
+  return {pages:doc.numPages,text:lines.join('\n')}
+}
+async function handlePdf(file){
+  const notice=document.getElementById('pdfNotice')
+  document.getElementById('pdfName').textContent=file?file.name:''
+  if(!file)return
+  if(!/\.pdf$/i.test(file.name)&&file.type!=='application/pdf'){notice.innerHTML='<div class="notice error">Please choose a PDF file.</div>';return}
+  notice.innerHTML='<div class="notice">Reading the PDF on this device...</div>'
+  try{
+    const [{pages,text}]=await Promise.all([pdfText(file),ready])
+    if(!text.replace(/\s/g,'')){notice.innerHTML='<div class="notice warn">No extractable text found in this PDF.</div>';return}
+    const found=P.detectNames(index,text)
+    if(!found.names.length){
+      notice.innerHTML=`<div class="notice warn">Text was found on ${pages} page${pages>1?'s':''}, but none of it matches a player on the current rosters.</div>`+unrecognisedList(found)
+      return
+    }
+    document.getElementById('names').value=found.names.join('\n')
+    notice.innerHTML=`<div class="notice">Found ${found.names.length} player name${found.names.length>1?'s':''} on ${pages} page${pages>1?'s':''} (${found.ignoredLines} other line${found.ignoredLines===1?'':'s'} ignored). They are listed under Paste Names for review.</div>`+unrecognisedList(found)
+    await findPlayers()
+  }catch(e){
+    notice.innerHTML=`<div class="notice error">This PDF could not be read (${esc(e.message||e)}).</div>`
+  }
+}
+function unrecognisedList(found){
+  if(!found.unrecognised.length)return''
+  const n=found.unrecognised.length
+  return `<details class="review"><summary>${n} line${n>1?'s look':' looks'} like ${n>1?'names':'a name'} but ${n>1?'are':'is'} on no current roster (not added)</summary><ul>${found.unrecognised.map(l=>`<li>${esc(l)}</li>`).join('')}</ul></details>`
+}
+document.getElementById('pdfFile').addEventListener('change',e=>handlePdf(e.target.files[0]))
+const drop=document.getElementById('drop')
+;['dragenter','dragover'].forEach(t=>drop.addEventListener(t,e=>{e.preventDefault();drop.classList.add('over')}))
+;['dragleave','drop'].forEach(t=>drop.addEventListener(t,e=>{e.preventDefault();drop.classList.remove('over')}))
+drop.addEventListener('drop',e=>{const f=e.dataTransfer&&e.dataTransfer.files[0]; if(f)handlePdf(f)})
+</script>
+</body>
+</html>
