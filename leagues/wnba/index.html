@@ -134,6 +134,7 @@ CHI:"https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
 CON:"https://a.espncdn.com/i/teamlogos/wnba/500/conn.png",
 DAL:"https://a.espncdn.com/i/teamlogos/wnba/500/dal.png",
 GS:"https://a.espncdn.com/i/teamlogos/wnba/500/gs.png",
+HOU:"https://a.espncdn.com/i/teamlogos/wnba/500/hou.png",
 IND:"https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
 LV:"https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
 LA:"https://a.espncdn.com/i/teamlogos/wnba/500/la.png",
@@ -144,6 +145,12 @@ POR:"https://a.espncdn.com/i/teamlogos/wnba/500/por.png",
 SEA:"https://a.espncdn.com/i/teamlogos/wnba/500/sea.png",
 TOR:"https://a.espncdn.com/i/teamlogos/wnba/500/tor.png",
 WSH:"https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png"
+};
+
+// Relocated franchises: the successor's team history also shows the predecessor's (kept) log,
+// labelled with the predecessor's name. Same lineage as FRANCHISE_TRANSITIONS in check_wnba_rosters.py.
+const FRANCHISE_PREDECESSORS={
+  HOU:[{code:"CON",name:"Connecticut Sun"}]
 };
 
 let summary={},statusRows=[],rosters={},allChanges=[],visibleChanges=[],teamHistory=[],selectedCode="NY";
@@ -357,15 +364,17 @@ function renderSelectedTeam(){
 }
 
 function loadTeamHistory(){
-  fetchJson(`../../logs/wnba/${selectedCode}.json`)
-    .then(items=>{
-      teamHistory=items||[];
-      renderSelectedTeamHistory();
-    })
-    .catch(()=>{
-      teamHistory=[];
-      renderSelectedTeamHistory();
-    });
+  const own=fetchJson(`../../logs/wnba/${selectedCode}.json`).catch(()=>[]);
+  const older=(FRANCHISE_PREDECESSORS[selectedCode]||[]).map(p=>
+    fetchJson(`../../logs/wnba/${p.code}.json`)
+      .then(items=>(items||[]).map(c=>({...c,franchiseName:p.name})))
+      .catch(()=>[])
+  );
+  // each log keeps its own order (newest first); the predecessor's entries predate the relocation
+  Promise.all([own,...older]).then(lists=>{
+    teamHistory=[].concat(...lists.map(l=>l||[]));
+    renderSelectedTeamHistory();
+  });
 }
 
 function toggleHistory(){
@@ -385,7 +394,7 @@ function renderSelectedTeamHistory(){
 
   box.innerHTML=teamHistory.slice(0,50).map(c=>`
     <div class="change-item">
-      <b>${c.playerName}</b>
+      <b>${c.playerName}</b>${c.franchiseName?`<div class="meta">${c.franchiseName} (before relocation)</div>`:""}
       <div class="meta">${c.type} | ${c.oldValue||"-"} → ${c.newValue||"-"}</div>
       <div class="meta">${gmt(c.timestamp)} | ${String(c.severity||"low").toUpperCase()}</div>
     </div>
@@ -411,7 +420,12 @@ function parseCsv(text){
 function teamCodeFromCsv(value){
   const s=norm(value);
   const found=statusRows.find(r=>norm(r.teamCode)===s||norm(r.teamName)===s);
-  return found?found.teamCode:selectedCode;
+  if(found)return found.teamCode;
+  // a predecessor's code or name (e.g. "Connecticut Sun") means its active successor
+  const successor=Object.keys(FRANCHISE_PREDECESSORS).find(code=>
+    statusRows.some(r=>r.teamCode===code) &&
+    FRANCHISE_PREDECESSORS[code].some(p=>norm(p.code)===s||norm(p.name)===s));
+  return successor||selectedCode;
 }
 
 function runCsvCheck(){
