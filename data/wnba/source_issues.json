@@ -1,5 +1,20 @@
 [
   {
+    "timestamp": "2026-11-22T13:55:56.099109+00:00",
+    "teamCode": "HOU",
+    "teamName": "Houston Comets",
+    "kind": "franchise_transition",
+    "message": "Franchise transition: Connecticut Sun (CON) became Houston Comets (HOU) for the 2027 season. The last good CON roster (14 players, checked 2026-11-09) is the HOU baseline: nothing logged as added or removed; CON history left unchanged.",
+    "previousCount": 14,
+    "fetchedCount": null,
+    "lastSuccessfulCheckedAt": "2026-11-09T19:35:03.536610+00:00",
+    "source": "ESPN WNBA API",
+    "fromCode": "CON",
+    "fromTeam": "Connecticut Sun",
+    "toCode": "HOU",
+    "effectiveSeason": 2027
+  },
+  {
     "timestamp": "2026-11-21T16:38:49.103554+00:00",
     "teamCode": "CON",
     "teamName": "Connecticut Sun",
