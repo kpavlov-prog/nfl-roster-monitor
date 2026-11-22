@@ -14,6 +14,7 @@
 <meta name="apple-mobile-web-app-title" content="Roster Monitor" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <script src="../../pwa.js" defer></script>
+<script src="../../timezone.js"></script>
 <title>NFL Roster Monitor</title>
 <style>
 :root{
@@ -181,7 +182,7 @@ hr{border:none;border-top:1px solid var(--line);margin:16px 0}
 
   <header>
     <h1>NFL Roster Monitor</h1>
-    <div class="subtitle">Official NFL roster monitoring dashboard powered by GitHub Actions. Times shown in GMT.</div>
+    <div class="subtitle">Official NFL roster monitoring dashboard powered by GitHub Actions. Times shown in <span class="tz-label">GMT</span>.</div>
   </header>
 
   <div class="controls">
@@ -192,7 +193,7 @@ hr{border:none;border-top:1px solid var(--line);margin:16px 0}
     <input id="searchBox" type="search" placeholder="Search player..." aria-label="Search player" oninput="renderSelectedTeam()" />
   </div>
 
-  <div id="status" class="status">Loading...</div>
+  <div class="status-row"><div id="status" class="status">Loading...</div><span class="tz-control"><label for="tzSelect">Time zone</label><select id="tzSelect" data-tz-select><option value="GMT">GMT</option><option value="EST">EST</option></select></span></div>
 
   <div class="stats">
     <div class="stat"><div id="teamsChecked" class="stat-value">-</div><div class="stat-label">Teams checked</div></div>

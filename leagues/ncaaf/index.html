@@ -14,6 +14,7 @@
 <meta name="apple-mobile-web-app-title" content="Roster Monitor" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <script src="../../pwa.js" defer></script>
+<script src="../../timezone.js"></script>
 <title>NCAAF Roster Monitor</title>
 <style>
 :root{
@@ -112,7 +113,7 @@ button.secondary{background:#334155}
 
 <h1>NCAAF Roster Monitor</h1>
 <div class="subtitle">College football roster tracking, roster changes and team history.</div>
-<div class="subtitle-meta">Source: ESPN · Times: GMT</div>
+<div class="subtitle-meta">Source: ESPN · Times: <span class="tz-label">GMT</span></div>
 
 <div class="controls">
   <div class="controls-group controls-actions">
@@ -127,7 +128,7 @@ button.secondary{background:#334155}
   </div>
 </div>
 
-<div id="status" class="status">Loading NCAAF dashboard...</div>
+<div class="status-row"><div id="status" class="status">Loading NCAAF dashboard...</div><span class="tz-control"><label for="tzSelect">Time zone</label><select id="tzSelect" data-tz-select><option value="GMT">GMT</option><option value="EST">EST</option></select></span></div>
 
 <div class="stats">
   <div class="stat"><div id="teamsChecked" class="stat-value">-</div><div class="stat-label">Teams checked</div></div>
