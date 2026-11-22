@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-22T15:48:28.605685+00:00",
+    "teamCode": "LAR",
+    "teamName": "Los Angeles Rams",
+    "type": "status changed",
+    "playerName": "Kobie Turner",
+    "position": "DE",
+    "oldValue": "RES",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "high"
+  },
+  {
+    "timestamp": "2026-11-22T15:48:28.605701+00:00",
+    "teamCode": "LAR",
+    "teamName": "Los Angeles Rams",
+    "type": "added",
+    "playerName": "Michael Niese",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "LISTED",
+    "source": "NFL.com",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-11-20T16:31:20.185237+00:00",
     "teamCode": "LAR",
     "teamName": "Los Angeles Rams",
