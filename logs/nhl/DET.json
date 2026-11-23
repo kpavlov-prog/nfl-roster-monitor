@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-11-23T20:26:38.161918+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Red Wings",
+    "type": "added",
+    "playerName": "Kirby Dach",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-23T20:26:38.161926+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Red Wings",
+    "type": "added",
+    "playerName": "Samuel Montembeault",
+    "position": "G",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-23T20:26:38.161930+00:00",
+    "teamCode": "DET",
+    "teamName": "Detroit Red Wings",
+    "type": "removed",
+    "playerName": "Sheldon Dries",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-09T18:59:49.161339+00:00",
     "teamCode": "DET",
     "teamName": "Detroit Red Wings",

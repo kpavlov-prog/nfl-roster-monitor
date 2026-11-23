@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-23T20:26:37.046211+00:00",
+    "teamCode": "CBJ",
+    "teamName": "Columbus Blue Jackets",
+    "type": "added",
+    "playerName": "Mikael Pyyhtia",
+    "position": "L",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-23T20:26:37.046220+00:00",
+    "teamCode": "CBJ",
+    "teamName": "Columbus Blue Jackets",
+    "type": "removed",
+    "playerName": "Steven Lorentz",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-19T17:31:10.797753+00:00",
     "teamCode": "CBJ",
     "teamName": "Columbus Blue Jackets",

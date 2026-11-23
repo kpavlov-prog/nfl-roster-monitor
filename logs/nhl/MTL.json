@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-11-23T20:26:40.984046+00:00",
+    "teamCode": "MTL",
+    "teamName": "Montreal Canadiens",
+    "type": "added",
+    "playerName": "Dylan Larkin",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-23T20:26:40.984056+00:00",
+    "teamCode": "MTL",
+    "teamName": "Montreal Canadiens",
+    "type": "removed",
+    "playerName": "Kirby Dach",
+    "position": "C",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-23T20:26:40.984058+00:00",
+    "teamCode": "MTL",
+    "teamName": "Montreal Canadiens",
+    "type": "removed",
+    "playerName": "Samuel Montembeault",
+    "position": "G",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-22T16:31:01.876499+00:00",
     "teamCode": "MTL",
     "teamName": "Montreal Canadiens",
