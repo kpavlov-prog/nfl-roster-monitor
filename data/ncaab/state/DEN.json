@@ -1,0 +1,139 @@
+{
+  "code": "DEN",
+  "team": "Denver Pioneers",
+  "teamId": "2172",
+  "conference": "West Coast Conference",
+  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2172.png",
+  "checkedAt": "2026-11-24T11:08:07.849981+00:00",
+  "players": [
+    {
+      "name": "Baba Mbengue",
+      "position": "C",
+      "number": "21",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5205881",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "CJ Hyland",
+      "position": "G",
+      "number": "11",
+      "status": "ACTIVE",
+      "class": "Junior",
+      "providerPlayerId": "5243266",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Carson Johnson",
+      "position": "G",
+      "number": "20",
+      "status": "ACTIVE",
+      "class": "Junior",
+      "providerPlayerId": "5314641",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Charlie Dimmock",
+      "position": "F",
+      "number": "0",
+      "status": "ACTIVE",
+      "class": "Sophomore",
+      "providerPlayerId": "5458394",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Harry Bates",
+      "position": "F",
+      "number": "4",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5458395",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Jaelen Nelson",
+      "position": "G",
+      "number": "7",
+      "status": "ACTIVE",
+      "class": "Junior",
+      "providerPlayerId": "5255669",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Jordan Rogers",
+      "position": "F",
+      "number": "3",
+      "status": "ACTIVE",
+      "class": "Junior",
+      "providerPlayerId": "5239762",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Kam Martin",
+      "position": "G",
+      "number": "2",
+      "status": "ACTIVE",
+      "class": "Junior",
+      "providerPlayerId": "5241906",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Logan Threatt",
+      "position": "G",
+      "number": "10",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5107089",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Oskar Stumer",
+      "position": "F",
+      "number": "8",
+      "status": "ACTIVE",
+      "class": "Sophomore",
+      "providerPlayerId": "5458397",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Shaun Wysocki",
+      "position": "F",
+      "number": "1",
+      "status": "ACTIVE",
+      "class": "Junior",
+      "providerPlayerId": "5314634",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Spencer Mahoney",
+      "position": "F",
+      "number": "12",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5060690",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Trey Cady",
+      "position": "G",
+      "number": "22",
+      "status": "ACTIVE",
+      "class": "Sophomore",
+      "providerPlayerId": "5314454",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Will Kirsch",
+      "position": "G",
+      "number": "5",
+      "status": "ACTIVE",
+      "class": "Freshman",
+      "providerPlayerId": "5458396",
+      "source": "ESPN Men's College Basketball API"
+    }
+  ],
+  "source": "ESPN Men's College Basketball API",
+  "rosterSource": "site",
+  "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/2172/roster"
+}

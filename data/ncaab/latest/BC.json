@@ -1,0 +1,139 @@
+{
+  "code": "BC",
+  "team": "Boston College Eagles",
+  "teamId": "103",
+  "conference": "Atlantic Coast Conference",
+  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+  "checkedAt": "2026-11-24T11:07:52.026423+00:00",
+  "players": [
+    {
+      "name": "Aly Tounkara",
+      "position": "F",
+      "number": "13",
+      "status": "ACTIVE",
+      "class": "Junior",
+      "providerPlayerId": "5242438",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Andrija Bukumirovic",
+      "position": "F",
+      "number": "1",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5242999",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Armoni Zeigler",
+      "position": "G",
+      "number": "5",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5177148",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Brandon Benjamin",
+      "position": "F",
+      "number": "20",
+      "status": "ACTIVE",
+      "class": "Sophomore",
+      "providerPlayerId": "5311734",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Colby Duggan",
+      "position": "F",
+      "number": "2",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5174947",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Ernest Shelton",
+      "position": "G",
+      "number": "3",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5314297",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "JB Frankel",
+      "position": "G",
+      "number": "11",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5175017",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Jack Bailey",
+      "position": "F",
+      "number": "22",
+      "status": "ACTIVE",
+      "class": "Freshman",
+      "providerPlayerId": "5144146",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Jacob Furphy",
+      "position": "G",
+      "number": "7",
+      "status": "ACTIVE",
+      "class": "Sophomore",
+      "providerPlayerId": "5248294",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Jameson O'Toole",
+      "position": "G",
+      "number": "12",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5174589",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Jordan Ghee",
+      "position": "G",
+      "number": "14",
+      "status": "ACTIVE",
+      "class": "Freshman",
+      "providerPlayerId": "5351294",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Luke Hunger",
+      "position": "F",
+      "number": "33",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5105833",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Money Williams",
+      "position": "G",
+      "number": "0",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5177694",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Will Eggemeier",
+      "position": "G",
+      "number": "21",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5238156",
+      "source": "ESPN Men's College Basketball API"
+    }
+  ],
+  "source": "ESPN Men's College Basketball API",
+  "rosterSource": "site",
+  "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/103/roster"
+}

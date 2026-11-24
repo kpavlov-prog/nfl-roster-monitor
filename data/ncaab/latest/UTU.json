@@ -1,0 +1,139 @@
+{
+  "code": "UTU",
+  "team": "Utah Tech Trailblazers",
+  "teamId": "3101",
+  "conference": "Big Sky Conference",
+  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
+  "checkedAt": "2026-11-24T11:09:59.759332+00:00",
+  "players": [
+    {
+      "name": "Alex Dupre",
+      "position": "G",
+      "number": "10",
+      "status": "ACTIVE",
+      "class": "Junior",
+      "providerPlayerId": "5241305",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Aris Rodriguez",
+      "position": "G",
+      "number": "4",
+      "status": "ACTIVE",
+      "class": "Junior",
+      "providerPlayerId": "5455864",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Boston Harker",
+      "position": "G",
+      "number": "33",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5314821",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Christian Gibson",
+      "position": "G",
+      "number": "2",
+      "status": "ACTIVE",
+      "class": "Freshman",
+      "providerPlayerId": "5210803",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Dallin Grant",
+      "position": "F",
+      "number": "5",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5176272",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Ethan Potter",
+      "position": "F",
+      "number": "35",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5105471",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Jax Clark",
+      "position": "F",
+      "number": "7",
+      "status": "ACTIVE",
+      "class": "Freshman",
+      "providerPlayerId": "5455865",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Kyle Lemke",
+      "position": "C",
+      "number": "12",
+      "status": "ACTIVE",
+      "class": "Junior",
+      "providerPlayerId": "5455866",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Mark Brown Jr.",
+      "position": "G",
+      "number": "1",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5313887",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Owen Mackay",
+      "position": "G",
+      "number": "24",
+      "status": "ACTIVE",
+      "class": "Freshman",
+      "providerPlayerId": "5455868",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Petros Ragkos",
+      "position": "G",
+      "number": "0",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5455863",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Preston Vandermyde",
+      "position": "G",
+      "number": "14",
+      "status": "ACTIVE",
+      "class": "Junior",
+      "providerPlayerId": "5241401",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Rex Sunderland",
+      "position": "G",
+      "number": "3",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5107184",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Samuel Ariyibi",
+      "position": "F",
+      "number": "23",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "4898377",
+      "source": "ESPN Men's College Basketball API"
+    }
+  ],
+  "source": "ESPN Men's College Basketball API",
+  "rosterSource": "site",
+  "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/3101/roster"
+}

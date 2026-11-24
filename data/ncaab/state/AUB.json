@@ -1,0 +1,166 @@
+{
+  "code": "AUB",
+  "team": "Auburn Tigers",
+  "teamId": "2",
+  "conference": "Southeastern Conference",
+  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+  "checkedAt": "2026-11-24T11:07:48.283961+00:00",
+  "players": [
+    {
+      "name": "Adam Olsen",
+      "position": "F",
+      "number": "24",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5313206",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Blake Muschalek",
+      "position": "G",
+      "number": "21",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5174652",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Bradley Pearson",
+      "position": "G",
+      "number": "13",
+      "status": "ACTIVE",
+      "class": "Junior",
+      "providerPlayerId": "5311505",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Bukky Oboye",
+      "position": "C",
+      "number": "12",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5176361",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Caleb Williams",
+      "position": "G",
+      "number": "2",
+      "status": "ACTIVE",
+      "class": "Freshman",
+      "providerPlayerId": "5319273",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Drake Cardwell",
+      "position": "G",
+      "number": "7",
+      "status": "ACTIVE",
+      "class": "Junior",
+      "providerPlayerId": "5238198",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "George Kimble III",
+      "position": "G",
+      "number": "3",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5239784",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Jeremiah Bowman",
+      "position": "F",
+      "number": "20",
+      "status": "ACTIVE",
+      "class": "Sophomore",
+      "providerPlayerId": "5311504",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Joah Shay",
+      "position": "G",
+      "number": "14",
+      "status": "ACTIVE",
+      "class": "Junior",
+      "providerPlayerId": "5238197",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Kevin Overton",
+      "position": "G",
+      "number": "1",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5176314",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Kolby King",
+      "position": "G",
+      "number": "4",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5105604",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Mantas Rubštavičius",
+      "position": "G",
+      "number": "17",
+      "status": "ACTIVE",
+      "class": "",
+      "providerPlayerId": "5351499",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Narcisse Ngoy",
+      "position": "C",
+      "number": "94",
+      "status": "ACTIVE",
+      "class": "",
+      "providerPlayerId": "5345015",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Owen Freeman",
+      "position": "F",
+      "number": "8",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "4894465",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Simon Walker",
+      "position": "G",
+      "number": "10",
+      "status": "ACTIVE",
+      "class": "Sophomore",
+      "providerPlayerId": "5223184",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Tahaad Pettiford",
+      "position": "G",
+      "number": "0",
+      "status": "ACTIVE",
+      "class": "Junior",
+      "providerPlayerId": "4873089",
+      "source": "ESPN Men's College Basketball API"
+    },
+    {
+      "name": "Thomas Dowd",
+      "position": "F",
+      "number": "5",
+      "status": "ACTIVE",
+      "class": "Senior",
+      "providerPlayerId": "5176732",
+      "source": "ESPN Men's College Basketball API"
+    }
+  ],
+  "source": "ESPN Men's College Basketball API",
+  "rosterSource": "site",
+  "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/2/roster"
+}
