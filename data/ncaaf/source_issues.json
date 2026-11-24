@@ -1,5 +1,16 @@
 [
   {
+    "timestamp": "2026-11-24T20:10:21.989169+00:00",
+    "teamCode": "ARST",
+    "teamName": "Arkansas State Red Wolves",
+    "kind": "fetch_error",
+    "message": "Both ESPN roster APIs failed. Site API: 503 Server Error: Service Unavailable for url: https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2032/roster?limit=100&page=2 | Core API: 503 Server Error: Backend fetch failed for url: http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/athletes/5379737?lang=en&region=us",
+    "previousCount": 114,
+    "fetchedCount": null,
+    "lastSuccessfulCheckedAt": "2026-11-23T21:27:34.886654+00:00",
+    "source": "ESPN College Football API"
+  },
+  {
     "timestamp": "2026-11-20T18:14:00.307413+00:00",
     "teamCode": "UTSA",
     "teamName": "UTSA Roadrunners",
