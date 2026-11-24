@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- PWA: manifest, icons and service worker (paths relative to this page) -->
+<link rel="manifest" href="../../manifest.webmanifest" />
+<meta name="theme-color" content="#4338ca" />
+<link rel="icon" href="../../icons/icon.svg" type="image/svg+xml" />
+<link rel="icon" href="../../icons/favicon-32.png" sizes="32x32" type="image/png" />
+<link rel="apple-touch-icon" href="../../icons/apple-touch-icon.png" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="Roster Monitor" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<script src="../../pwa.js" defer></script>
+<script src="../../timezone.js"></script>
+<script src="../../roster-bundle.js"></script>
+<title>NCAAB Roster Monitor</title>
+<style>
+:root{
+  --bg:#081226;--text:#111827;--muted:#64748b;--blue:#2563eb;--purple:#7c3aed;
+  --green:#16a34a;--green-bg:#dcfce7;--yellow:#d97706;--yellow-bg:#fef3c7;
+  --red:#dc2626;--red-bg:#fee2e2;--line:#e5e7eb;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:radial-gradient(circle at top left,rgba(37,99,235,.28),transparent 32%),radial-gradient(circle at top right,rgba(124,58,237,.22),transparent 28%),var(--bg);color:white;min-height:100vh}
+.container{max-width:1500px;margin:0 auto;padding:28px 24px 40px}
+.top-nav{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.nav-card{color:white;text-decoration:none;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.14);padding:10px 14px;border-radius:14px;font-weight:800}
+.nav-card.active{background:linear-gradient(135deg,var(--blue),var(--purple))}
+h1{margin:0;font-size:42px}.subtitle{margin-top:8px;color:#cbd5e1}
+.subtitle-meta{margin-top:6px;color:#94a3b8;font-size:13px;letter-spacing:.02em}
+.controls{margin-top:22px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 16px;background:rgba(255,255,255,.08);padding:14px 16px;border-radius:18px}
+.controls-group{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.controls-filters{flex:1 1 440px;justify-content:flex-end}
+.controls button,.controls select,.controls input{height:42px;margin:0;line-height:20px;white-space:nowrap}
+.controls select,.controls input{flex:1 1 210px;min-width:200px;max-width:320px;background:#fff;color:var(--text)}
+@media(max-width:1050px){.controls-filters{flex-basis:100%;justify-content:stretch}.controls select,.controls input{max-width:none}}
+@media(max-width:600px){.controls{padding:12px}.controls-actions{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;width:100%}.controls-actions button{width:100%;height:auto;min-height:42px;padding:10px;font-size:13px;white-space:normal}.controls select,.controls input{flex-basis:100%;min-width:0}}
+button,input,select{padding:11px 14px;border-radius:12px;border:none;font-size:14px;font-family:inherit}
+button{background:linear-gradient(135deg,var(--blue),var(--purple));color:white;font-weight:800;cursor:pointer}
+button.secondary{background:#334155}
+.status{margin-top:14px;color:#dbeafe;font-size:14px}
+.stats{margin-top:18px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.stat{background:white;color:var(--text);border-radius:18px;padding:18px;box-shadow:0 10px 25px rgba(0,0,0,.18);border-top:5px solid var(--purple)}
+.stat-value{font-size:34px;font-weight:900}.stat-label{margin-top:6px;color:var(--muted);font-size:13px}
+.view-tabs{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 0}
+.view-tab{background:#1e293b;border:1px solid rgba(255,255,255,.12);padding:10px 16px}
+.view-tab.active{background:linear-gradient(135deg,var(--blue),var(--purple))}
+.view-section{display:none}
+.view-section.active{display:block}
+.layout{margin-top:18px;display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:start}
+.layout>div{min-width:0}
+.layout>.panel+.panel{margin-top:0}
+.panel{background:white;color:var(--text);border-radius:20px;padding:18px;box-shadow:0 12px 30px rgba(0,0,0,.18);min-width:0}
+.panel+.panel{margin-top:18px}
+.panel h2{margin-top:0}
+.tools{margin-top:18px}
+/* team picker: conference, team search, team dropdown, player search */
+.picker{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr) minmax(0,1.5fr) minmax(0,1.1fr);gap:12px;align-items:end}
+.field{min-width:0}
+.field label{display:flex;justify-content:space-between;gap:8px;margin-bottom:6px;color:var(--muted);font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.04em}
+.field input,.field select{width:100%;height:42px;margin:0;border:1px solid var(--line);background:#fff;color:var(--text)}
+.team-count{color:var(--muted);font-size:12px;font-weight:700;white-space:nowrap;text-transform:none;letter-spacing:0}
+.picker-note{margin-top:12px;padding:9px 12px;border-radius:10px;background:#f1f5f9;color:#334155;font-size:13px;line-height:1.45}
+.picker-note[hidden]{display:none}
+.link-btn{background:none;border:none;padding:0;color:var(--blue);font:inherit;font-weight:800;cursor:pointer;text-decoration:underline}
+.team-logo-lg{width:52px;height:52px}
+.team-facts{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:6px}
+.team-facts .team-code,.team-facts .pill{margin-top:0}
+.conf-name{color:var(--muted);font-size:13px;font-weight:700}
+.roster-count{color:var(--muted);font-size:13px;font-weight:700;margin-left:8px}
+.other-matches{margin-top:12px;padding:10px 12px;border:1px dashed #c7d2fe;border-radius:12px;font-size:13px;line-height:1.6}
+.change-team{color:var(--text)}
+.team-top{display:flex;align-items:center;gap:12px}.team-logo{width:46px;height:46px;object-fit:contain;flex-shrink:0}
+.team-name{font-weight:900;font-size:15px}.team-code{margin-top:4px;display:inline-block;background:#dbeafe;color:#1d4ed8;padding:3px 8px;border-radius:999px;font-size:11px;font-weight:900}
+.meta{margin-top:8px;color:var(--muted);font-size:12px;line-height:1.45}
+.pill{display:inline-block;padding:4px 9px;border-radius:999px;font-size:11px;font-weight:900;margin-top:6px}
+.ok{background:var(--green-bg);color:var(--green)}.warn{background:var(--yellow-bg);color:var(--yellow)}.error{background:var(--red-bg);color:var(--red)}
+.player{padding:10px 0;border-bottom:1px solid var(--line)}
+.player-name{font-weight:800}.position{display:inline-block;margin-left:8px;background:#ede9fe;color:var(--purple);padding:2px 7px;border-radius:7px;font-size:12px;font-weight:900}
+.status-pill{display:inline-block;margin-left:6px;padding:2px 7px;border-radius:7px;font-size:12px;font-weight:900;background:var(--green-bg);color:var(--green)}
+.player-class{margin-left:8px;color:var(--muted);font-size:12px;font-weight:700}
+.csv-row,.change-item{padding:12px;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;background:#f8fafc}
+.csv-found{border-left:6px solid var(--green)}.csv-missing{border-left:6px solid var(--red)}.csv-warning{border-left:6px solid var(--yellow)}
+.empty{color:var(--muted);font-style:italic}
+.history-title{cursor:pointer;background:#f1f5f9;border-radius:12px;padding:10px 12px;margin-top:14px}
+.small-btn{padding:7px 10px;font-size:12px;border-radius:9px}
+.fallback-note{margin-top:8px;padding:8px 10px;border-radius:10px;background:#f1f5f9;color:#334155;font-size:12px}
+@media(max-width:1050px){.stats,.layout{grid-template-columns:1fr}.picker{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.stats{grid-template-columns:1fr 1fr}h1{font-size:32px}.container{padding:20px 14px 32px}.picker{grid-template-columns:1fr}}
+/* Bulk Team Export */
+.bulk-panel{container-type:inline-size}
+.bulk-panel h2{margin:0}
+.bulk-help{margin-top:6px;color:var(--muted);font-size:13px}
+.bulk-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:14px}
+.bulk-toolbar input,.bulk-toolbar select,.bulk-toolbar button{height:42px;margin:0;line-height:20px;white-space:nowrap}
+.bulk-toolbar input,.bulk-toolbar select{flex:1 1 200px;min-width:180px;border:1px solid var(--line);background:#fff;color:var(--text)}
+.bulk-toolbar .bulk-export{margin-left:auto}
+.bulk-summary{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.bulk-count{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:999px;background:#eef2ff;border:1px solid #c7d2fe;color:#3730a3;font-size:13px;font-weight:700}
+.bulk-count b{font-size:15px;font-weight:900;color:#312e81}
+.bulk-team-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px;margin-top:12px;max-height:360px;overflow-y:auto;padding:2px 6px 2px 2px}
+.bulk-team-option{display:flex;align-items:center;gap:10px;padding:8px 10px;border:1px solid var(--line);border-radius:12px;background:#f8fafc;cursor:pointer;font-size:13px;font-weight:700;line-height:1.3}
+.bulk-team-option:hover{border-color:var(--blue);background:#eff6ff}
+.bulk-team-option:has(input:checked){border-color:var(--purple);background:#f5f3ff}
+.bulk-team-option input{flex:none;width:16px;height:16px;margin:0;padding:0;accent-color:var(--purple);cursor:pointer}
+.bulk-team-option .team-code{margin:0 0 0 4px}
+@container (max-width:760px){.bulk-toolbar input,.bulk-toolbar select{flex-basis:100%}}
+/* position-group chips (G / F / C / Other) */
+.filter-row{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 4px}
+.position-filter{display:inline-flex;align-items:center;gap:6px;padding:5px 11px;border:1px solid #c7d2fe;border-radius:999px;background:#fff;color:#334155;font-size:12px;font-weight:800;line-height:1.2;cursor:pointer;user-select:none}
+.position-filter:hover{border-color:var(--blue);background:#eff6ff}
+.position-filter:has(input:checked){background:linear-gradient(135deg,var(--blue),var(--purple));border-color:transparent;color:#fff}
+.position-filter input{flex:none;width:13px;height:13px;margin:0;padding:0;accent-color:var(--purple);cursor:pointer}
+@media(max-width:600px){
+  .bulk-toolbar input,.bulk-toolbar select{flex-basis:100%}
+  .bulk-toolbar button{flex:1 1 calc(50% - 5px);white-space:normal}
+  .bulk-toolbar .bulk-export{flex-basis:100%;margin-left:0}
+  .bulk-team-grid{grid-template-columns:1fr;max-height:320px}
+}
+</style>
+<link rel="stylesheet" href="../../theme.css" />
+</head>
+
+<body data-sport="ncaab">
+<div class="container">
+
+<div class="top-nav">
+  <a class="nav-card" href="../../">Sports Hub</a>
+  <a class="nav-card" href="../../leagues/nfl/">NFL</a>
+  <a class="nav-card" href="../../leagues/ncaaf/">College Football</a>
+  <a class="nav-card" href="../../leagues/nba/">NBA</a>
+  <a class="nav-card" href="../../leagues/wnba/">WNBA</a>
+  <a class="nav-card" href="../../leagues/mlb/">Baseball</a>
+  <a class="nav-card" href="../../leagues/nhl/">Ice Hockey</a>
+  <a class="nav-card active" href="./">College Basketball</a>
+  <a class="nav-card" href="../../lookup/">Player Lookup</a>
+</div>
+
+<h1>NCAAB Roster Monitor</h1>
+<div class="subtitle">NCAA Division I men's basketball: roster tracking, roster changes and team history for all 365 teams.</div>
+<div class="subtitle-meta">Source: ESPN · Times: <span class="tz-label">GMT</span></div>
+
+<div class="controls">
+  <div class="controls-group controls-actions">
+    <button onclick="loadDashboard()">Refresh dashboard</button>
+    <button class="secondary" onclick="exportCsv()">Export changes CSV</button>
+    <button class="secondary" onclick="clearAllChanges()">Clear Changes</button>
+    <button class="secondary" onclick="resetCheckedChanges()">Reset Checked</button>
+  </div>
+</div>
+
+<div class="status-row"><div id="status" class="status">Loading NCAAB dashboard...</div><span class="tz-control"><label for="tzSelect">Time zone</label><select id="tzSelect" data-tz-select><option value="GMT">GMT</option><option value="EST">EST</option></select></span></div>
+
+<div class="stats">
+  <div class="stat"><div id="teamsChecked" class="stat-value">-</div><div class="stat-label">Teams checked</div></div>
+  <div class="stat"><div id="teamsOk" class="stat-value">-</div><div class="stat-label">Teams OK</div></div>
+  <div class="stat"><div id="teamsErrored" class="stat-value">-</div><div class="stat-label">Teams errored</div></div>
+  <div class="stat"><div id="totalChanges" class="stat-value">-</div><div class="stat-label">Unchecked changes</div></div>
+</div>
+
+<div class="view-tabs" role="tablist">
+  <button type="button" class="view-tab active" id="tabDashboard" role="tab" aria-selected="true" onclick="showView('dashboard')">Dashboard</button>
+  <button type="button" class="view-tab" id="tabTools" role="tab" aria-selected="false" onclick="showView('tools')">Roster Tools</button>
+</div>
+
+<section id="dashboardView" class="view-section active">
+<div class="panel picker-panel" style="margin-top:18px">
+  <div class="picker">
+    <div class="field"><label for="conferenceFilter">Conference</label>
+      <select id="conferenceFilter" onchange="renderTeamOptions()"><option value="">All conferences</option></select></div>
+    <div class="field"><label for="teamSearch">Search teams</label>
+      <input id="teamSearch" type="search" placeholder="Team name or code..." autocomplete="off" oninput="renderTeamOptions()" onkeydown="teamSearchKey(event)" /></div>
+    <div class="field"><label for="teamSelect">Team <span id="teamCount" class="team-count"></span></label>
+      <select id="teamSelect" onchange="selectTeam(this.value)"></select></div>
+    <div class="field"><label for="searchBox">Search player</label>
+      <input id="searchBox" type="search" placeholder="Player on the selected team..." autocomplete="off" oninput="renderRoster()" /></div>
+  </div>
+  <div id="pickerNote" class="picker-note" hidden></div>
+</div>
+<div class="layout">
+  <div class="panel">
+    <h2 id="selectedTitle">Selected Team</h2>
+    <div id="selectedTeam">Select a team.</div>
+  </div>
+  <div class="panel">
+    <h2>Latest NCAAB Changes</h2>
+    <div id="latestChanges"><div class="empty">Loading changes...</div></div>
+  </div>
+</div>
+</section>
+
+<section id="toolsView" class="view-section">
+<div class="tools">
+  <div class="panel">
+    <h2>NCAAB CSV Roster Check</h2>
+    <div class="meta">
+      Upload CSV with columns: <b>Name</b>, <b>Team name</b>, <b>Position</b>, <b>Status</b>. Other columns are ignored.
+      Rows whose team is not recognised are listed separately (never checked against another team).
+    </div>
+    <br>
+    <input type="file" id="csvFile" accept=".csv" />
+    <button onclick="runCsvCheck()">Run CSV Check</button>
+    <div id="csvResults" class="meta" style="margin-top:14px;">No CSV checked yet.</div>
+  </div>
+  <div class="panel bulk-panel">
+    <h2>Bulk Team Export</h2>
+    <div class="bulk-help">Select teams (search or pick a conference first if you like) and export their combined rosters as one CSV.</div>
+    <div class="bulk-toolbar">
+      <input id="bulkTeamSearch" type="search" aria-label="Search teams" placeholder="Search teams..." oninput="renderBulkTeams()" />
+      <select id="bulkConference" aria-label="Conference" onchange="renderBulkTeams()"><option value="">All conferences</option></select>
+      <button class="secondary" onclick="selectAllBulkTeams()">Select All</button>
+      <button class="secondary" onclick="clearBulkTeams()">Clear Selection</button>
+      <button class="bulk-export" onclick="exportBulkRosterCsv()">Export Selected Teams CSV</button>
+    </div>
+    <div class="filter-row" id="bulkPositions" aria-label="Positions to export"></div>
+    <div id="bulkSummary" class="bulk-summary"></div>
+    <div id="bulkTeams" class="bulk-team-grid"></div>
+  </div>
+</div>
+</section>
+
+</div>
+
+<script>
+let summary={},statusRows=[],rosters={},allChanges=[],visibleChanges=[],teamHistory=[],selectedCode="";
+let bulkSelectedTeams=new Set(),loadedVia="",selectedGroups=new Set(),firstLoad=true;
+const CHECKED_KEY="ncaab_checked_changes";
+const DEFAULT_TEAM="DUKE";
+const GROUPS=["G","F","C","Other"];
+const GROUP_OF={G:"G",PG:"G",SG:"G",F:"F",SF:"F",PF:"F",C:"C"};
+
+function esc(v){return String(v==null?"":v).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function jsArg(v){return esc(JSON.stringify(String(v)))}
+function positionGroup(pos){return GROUP_OF[String(pos||"").toUpperCase()]||"Other"}
+
+async function fetchJson(path){
+  const res=await fetch(path+"?v="+Date.now());
+  if(!res.ok)throw new Error(path+" failed ("+res.status+")");
+  return await res.json();
+}
+
+function gmt(value){
+  if(!value)return"-";
+  return new Date(value).toLocaleString("en-GB",{timeZone:"UTC",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit"})+" GMT";
+}
+
+function norm(v){
+  return String(v||"").normalize("NFD").replace(/[̀-ͯ]/g,"")
+    .replace(/\s*\([^)]*\)\s*/g,"").replace(/\b(jr|sr|ii|iii|iv|v)\b\.?/gi,"").toLowerCase().replace(/[^a-z0-9]/g,"");
+}
+function fold(v){return String(v||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
+function normStatus(v){const s=norm(v);return["active","act","a"].includes(s)?"active":s}
+
+/** The saved roster of a team, or null (a per-team file that could not be read is not a roster). */
+function savedRoster(code){const r=rosters[code];return r&&!(r.errors&&r.errors.length)?r:null}
+/** First-load team: Duke when it is in the active list with a saved roster, else the first active team
+ *  with a saved roster, else the first active team, else "" (nothing to show). */
+function defaultTeam(rows,preferred){
+  const valid=(Array.isArray(rows)?rows:[]).filter(r=>r&&r.teamCode);
+  if(valid.some(r=>r.teamCode===preferred)&&savedRoster(preferred))return preferred;
+  return ((valid.find(r=>savedRoster(r.teamCode))||valid[0])||{}).teamCode||"";
+}
+
+function changeId(c){return[c.timestamp||"",c.teamCode||"",c.type||"",c.playerName||"",c.oldValue||"",c.newValue||""].join("|")}
+function checkedChanges(){return JSON.parse(localStorage.getItem(CHECKED_KEY)||"[]")}
+function saveCheckedChanges(items){localStorage.setItem(CHECKED_KEY,JSON.stringify(items))}
+function markChangeChecked(id){
+  const checked=new Set(checkedChanges()); checked.add(id); saveCheckedChanges([...checked]); renderChanges();
+}
+function clearAllChanges(){
+  const checked=new Set(checkedChanges()); allChanges.forEach(c=>checked.add(changeId(c))); saveCheckedChanges([...checked]); renderChanges();
+}
+function resetCheckedChanges(){localStorage.removeItem(CHECKED_KEY);renderChanges()}
+
+function showView(view){
+  const tools=view==="tools";
+  document.getElementById("dashboardView").classList.toggle("active",!tools);
+  document.getElementById("toolsView").classList.toggle("active",tools);
+  document.getElementById("tabDashboard").classList.toggle("active",!tools);
+  document.getElementById("tabTools").classList.toggle("active",tools);
+  document.getElementById("tabDashboard").setAttribute("aria-selected",String(!tools));
+  document.getElementById("tabTools").setAttribute("aria-selected",String(tools));
+}
+
+async function loadDashboard(){
+  const status=document.getElementById("status");
+  try{
+    status.textContent="Loading NCAAB dashboard...";
+    summary=await fetchJson("../../data/ncaab/summary.json");
+    statusRows=await fetchJson("../../data/ncaab/status.json");
+    try{allChanges=await fetchJson("../../logs/ncaab/all_changes.json")}catch(e){allChanges=[]}
+    // one bundle request when it matches this run; otherwise every team's latest file (source of truth)
+    const result=await RosterBundle.load({base:"../../",league:"ncaab",statusRows,summary,fetchJson,
+      onProgress:(d,n)=>{status.textContent=`Loading NCAAB rosters... ${d}/${n} teams`}});
+    rosters=result.rosters; loadedVia=result.via;
+    document.documentElement.dataset.rostersVia=result.via;
+    document.documentElement.dataset.rosterRequests=String(result.requests);
+    if(result.reason)console.info("NCAAB rosters loaded from per-team files: "+result.reason);
+    const t0=performance.now();
+    // first load only (a refresh never switches the selected team)
+    if(firstLoad)selectedCode=defaultTeam(statusRows,DEFAULT_TEAM);
+    firstLoad=false;
+    renderSummary(); renderConferences(); renderTeamOptions(); renderChanges(); renderSelectedTeam(); renderBulkPositions(); renderBulkTeams();
+    document.documentElement.dataset.renderMs=String(Math.round(performance.now()-t0));
+    status.textContent="Last update: "+gmt(summary.lastRunFinished);
+  }catch(e){
+    status.textContent="NCAAB dashboard error: "+e.message;
+  }
+}
+
+function renderSummary(){
+  document.getElementById("teamsChecked").textContent=summary.teamsChecked||0;
+  document.getElementById("teamsOk").textContent=summary.teamsOk||0;
+  document.getElementById("teamsErrored").textContent=summary.teamsErrored||0;
+}
+
+function conferences(){return [...new Set(statusRows.map(r=>r.conference).filter(Boolean))].sort((a,b)=>a.localeCompare(b))}
+function renderConferences(){
+  const options=`<option value="">All conferences</option>`+conferences().map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join("");
+  for(const id of ["conferenceFilter","bulkConference"]){const s=document.getElementById(id),v=s.value;s.innerHTML=options;s.value=v}
+}
+
+/** Teams matching the conference filter and team search (never changes the selected team). */
+function matchingTeams(){
+  const search=document.getElementById("teamSearch").value.trim().toLowerCase();
+  const conference=document.getElementById("conferenceFilter").value;
+  return statusRows.filter(r=>teamMatches(r,search,conference));
+}
+function renderTeamOptions(){
+  const shown=matchingTeams(), sel=document.getElementById("teamSelect");
+  const inList=shown.some(r=>r.teamCode===selectedCode);
+  const placeholder=inList?"":`<option value="" disabled>${shown.length?`Select a team (${shown.length} matching)`:"No teams match the filter"}</option>`;
+  sel.innerHTML=placeholder+shown.map(r=>`<option value="${esc(r.teamCode)}">${esc(r.teamName)}</option>`).join("");
+  sel.value=inList?selectedCode:"";
+  document.getElementById("teamCount").textContent=`${shown.length} of ${statusRows.length}`;
+  const note=document.getElementById("pickerNote"), row=statusRows.find(r=>r.teamCode===selectedCode);
+  if(row&&!inList){
+    note.hidden=false;
+    note.innerHTML=`<b>${esc(row.teamName)}</b> is still shown below but is outside the current filter. Choose a team from the list to switch, or <button type="button" class="link-btn" onclick="clearTeamFilters()">clear the filters</button>.`;
+  }else note.hidden=true;
+}
+function clearTeamFilters(){
+  document.getElementById("teamSearch").value=""; document.getElementById("conferenceFilter").value=""; renderTeamOptions();
+}
+/** Enter in the team search opens the team only when exactly one team matches. */
+function teamSearchKey(e){
+  if(e.key!=="Enter")return;
+  const shown=matchingTeams(); if(shown.length===1){e.preventDefault();selectTeam(shown[0].teamCode)}
+}
+
+function selectTeam(code){
+  if(!code)return;
+  selectedCode=code;
+  renderTeamOptions(); renderSelectedTeam();
+}
+
+function changeHtml(c,withTeam){
+  const team=withTeam
+    ?(statusRows.some(r=>r.teamCode===c.teamCode)
+      ?`<button type="button" class="link-btn change-team" onclick="selectTeam(${jsArg(c.teamCode)})" title="Open this team">${esc(c.teamName||c.teamCode)}</button>: `
+      :`${esc(c.teamName||c.teamCode)}: `)
+    :"";
+  return `
+    <div class="change-item">
+      <b>${team}${esc(c.playerName)}</b>
+      <div class="meta">${esc(c.type)} | ${esc(c.oldValue||"-")} → ${esc(c.newValue||"-")}</div>
+      <div class="meta">${esc(gmt(c.timestamp))} | ${esc(String(c.severity||"low").toUpperCase())}</div>
+      <br>
+      <button class="secondary small-btn check-btn" onclick="markChangeChecked(${jsArg(changeId(c))})">Checked</button>
+    </div>`;
+}
+function renderChanges(){
+  const box=document.getElementById("latestChanges");
+  const checked=new Set(checkedChanges());
+  visibleChanges=allChanges.filter(c=>!checked.has(changeId(c)));
+  document.getElementById("totalChanges").textContent=visibleChanges.length||0;
+  box.innerHTML=visibleChanges.length?visibleChanges.slice(0,30).map(c=>changeHtml(c,true)).join(""):`<div class="empty">No unchecked NCAAB roster changes.</div>`;
+  renderTeamChanges();
+}
+function renderTeamChanges(){
+  const box=document.getElementById("teamChanges"); if(!box)return;
+  const items=visibleChanges.filter(c=>c.teamCode===selectedCode);
+  box.innerHTML=items.length?items.slice(0,20).map(c=>changeHtml(c,false)).join(""):`<div class="empty">No unchecked roster changes for this team.</div>`;
+}
+
+function teamMatches(r,search,conference){
+  return (!conference||r.conference===conference)&&
+    (!search||String(r.teamName||"").toLowerCase().includes(search)||String(r.teamCode||"").toLowerCase().includes(search));
+}
+
+function positionRank(pos){return {G:1,F:2,C:3,Other:4}[positionGroup(pos)]}
+
+function renderSelectedTeam(){
+  const row=statusRows.find(r=>r.teamCode===selectedCode), roster=savedRoster(selectedCode);
+  const title=document.getElementById("selectedTitle"), box=document.getElementById("selectedTeam");
+  if(!selectedCode){title.textContent="Selected Team";box.innerHTML=`<div class="empty">No NCAAB teams are available yet.</div>`;return}
+  if(!row&&!roster){title.textContent="Selected Team";box.innerHTML=`<div class="empty">${esc(selectedCode)} is not in the current NCAAB team list.</div>`;return}
+  const r=row||{};
+  const hasError=!!r.lastError, hasChange=(r.lastChangeCount||0)>0;
+  title.innerHTML=`<img src="${esc(r.logo||(roster&&roster.logo)||"")}" class="team-logo team-logo-lg" alt="" width="52" height="52" style="vertical-align:middle;margin-right:10px;">${esc((roster&&roster.team)||r.teamName||selectedCode)}`;
+  const fallback=roster&&roster.rosterSource==="core-fallback"
+    ?`<div class="fallback-note">ESPN's normal roster page failed for this team, so this roster comes from ESPN's core API for the current season.</div>`:"";
+  const issue=hasError?`<div class="meta" style="color:var(--red);font-weight:700">Source issue: ${esc(r.lastError)} ${roster?"(showing the last good roster)":"(no roster saved yet)"}</div>`:"";
+  box.innerHTML=`
+    <div class="team-facts">
+      <span class="team-code">${esc(selectedCode)}</span>
+      <span class="conf-name">${esc(r.conference||(roster&&roster.conference)||"-")}</span>
+      <span class="pill ${hasError?"error":hasChange?"warn":"ok"}">${hasError?"Source issue":hasChange?"Changes found":"Official OK"}</span>
+    </div>
+    <div class="meta">Source: ${esc((roster&&roster.source)||r.source||"ESPN Men's College Basketball API")}</div>
+    <div class="meta">Last checked: ${esc(gmt((roster&&roster.checkedAt)||r.checkedAt))}</div>
+    <div class="meta">Last run changes: ${r.lastChangeCount||0}</div>
+    ${fallback}${issue}
+    <div class="filter-row" aria-label="Position groups">${GROUPS.map(g=>`
+      <label class="position-filter"><input type="checkbox" class="positionCheck" value="${g}" ${selectedGroups.has(g)?"checked":""} onchange="toggleGroup(this)">${g}</label>`).join("")}
+    </div>
+    <hr>
+    <h3>Roster<span id="rosterCount" class="roster-count"></span></h3>
+    <div id="rosterList"></div>
+    <div id="otherMatches"></div>
+    <hr>
+    <h3>Recent roster changes</h3>
+    <div id="teamChanges"></div>
+    <h3 class="history-title" onclick="toggleHistory()">▼ Show Team History</h3>
+    <div id="teamHistoryBox" style="display:none;"><div class="empty">Loading history...</div></div>`;
+  renderRoster(); renderTeamChanges(); loadTeamHistory();
+}
+function toggleGroup(cb){cb.checked?selectedGroups.add(cb.value):selectedGroups.delete(cb.value);renderRoster()}
+
+/** Roster of the selected team, filtered by the player search and position groups (no refetch, no full re-render). */
+function renderRoster(){
+  const list=document.getElementById("rosterList"); if(!list)return;
+  const roster=savedRoster(selectedCode), q=fold(document.getElementById("searchBox").value.trim());
+  renderOtherMatches(q);
+  if(!roster){list.innerHTML=`<div class="empty">No roster has been saved for this team yet.</div>`;document.getElementById("rosterCount").textContent="";return}
+  const all=roster.players||[];
+  const players=all.filter(p=>(!q||fold(p.name).includes(q))&&(!selectedGroups.size||selectedGroups.has(positionGroup(p.position))))
+    .sort((a,b)=>positionRank(a.position)-positionRank(b.position)||String(a.name||"").localeCompare(String(b.name||"")));
+  document.getElementById("rosterCount").textContent=players.length===all.length?`${all.length} players`:`${players.length} of ${all.length} players shown`;
+  list.innerHTML=players.length?players.map(p=>`
+      <div class="player">
+        <span class="player-name">${esc(p.name)}</span>
+        <span class="position">#${esc(p.number||"-")}</span>
+        <span class="position">${esc(p.position||"?")}</span>
+        <span class="status-pill">${esc(p.status||"ACTIVE")}</span>
+        ${p.class?`<span class="player-class">${esc(p.class)}</span>`:""}
+      </div>`).join(""):`<div class="empty">No players found.</div>`;
+}
+/** With 3+ letters typed, list other NCAAB teams that have a matching player (links only; nothing switches by itself). */
+function renderOtherMatches(q){
+  const box=document.getElementById("otherMatches"); if(!box)return;
+  if(q.length<3){box.innerHTML="";return}
+  const hits=[];
+  for(const r of statusRows){
+    if(r.teamCode===selectedCode)continue;
+    const names=((rosters[r.teamCode]||{}).players||[]).filter(p=>fold(p.name).includes(q)).map(p=>p.name);
+    if(names.length)hits.push({r,names});
+  }
+  if(!hits.length){box.innerHTML="";return}
+  box.innerHTML=`<div class="other-matches"><b>Matching players on other NCAAB teams (${hits.length}):</b><br>`+
+    hits.slice(0,10).map(h=>`<button type="button" class="link-btn" onclick="selectTeam(${jsArg(h.r.teamCode)})">${esc(h.r.teamName)}</button> — ${esc(h.names.join(", "))}`).join("<br>")+
+    (hits.length>10?`<br><span class="meta">and ${hits.length-10} more teams; type more of the name to narrow it down.</span>`:"")+`</div>`;
+}
+
+function loadTeamHistory(){
+  const code=selectedCode;
+  fetchJson(`../../logs/ncaab/${code}.json`).then(items=>{if(code===selectedCode){teamHistory=items||[];renderSelectedTeamHistory()}})
+    .catch(()=>{if(code===selectedCode){teamHistory=[];renderSelectedTeamHistory()}});
+}
+function toggleHistory(){
+  const box=document.getElementById("teamHistoryBox"); if(!box)return;
+  box.style.display=box.style.display==="none"?"block":"none";
+}
+function renderSelectedTeamHistory(){
+  const box=document.getElementById("teamHistoryBox"); if(!box)return;
+  if(!teamHistory.length){box.innerHTML=`<div class="empty">No NCAAB history for this team yet.</div>`;return}
+  box.innerHTML=teamHistory.slice(0,80).map(c=>`
+    <div class="change-item">
+      <b>${esc(c.playerName)}</b>
+      <div class="meta">${esc(c.type)} | ${esc(c.oldValue||"-")} → ${esc(c.newValue||"-")}</div>
+      <div class="meta">${esc(gmt(c.timestamp))} | ${esc(String(c.severity||"low").toUpperCase())}</div>
+    </div>`).join("");
+}
+
+// --- CSV roster check ---
+function parseCsv(text){
+  const rows=[];let row=[],field="",quotes=false;
+  for(let i=0;i<text.length;i++){
+    const c=text[i],n=text[i+1];
+    if(c=='"'&&quotes&&n=='"'){field+='"';i++}
+    else if(c=='"'){quotes=!quotes}
+    else if(c==","&&!quotes){row.push(field);field=""}
+    else if((c=="\n"||c=="\r")&&!quotes){if(field||row.length){row.push(field);rows.push(row);row=[];field=""}if(c=="\r"&&n=="\n")i++}
+    else field+=c;
+  }
+  if(field||row.length){row.push(field);rows.push(row)}
+  return rows;
+}
+/** Team code for a CSV team value, or null when it matches no monitored team. */
+function teamCodeFromCsv(value){
+  const s=norm(value); if(!s)return null;
+  const found=statusRows.find(r=>norm(r.teamCode)===s||norm(r.teamName)===s);
+  return found?found.teamCode:null;
+}
+function runCsvCheck(){
+  const file=document.getElementById("csvFile").files[0];
+  if(!file){document.getElementById("csvResults").innerHTML="Please upload a CSV first.";return}
+  const reader=new FileReader(); reader.onload=()=>compareCsv(reader.result); reader.readAsText(file);
+}
+function compareCsv(text){
+  const rows=parseCsv(text.replace(/^﻿/,""));
+  const out=document.getElementById("csvResults");
+  if(rows.length<2){out.innerHTML="CSV has no data.";return}
+  const headers=rows[0].map(h=>h.trim().toLowerCase());
+  const idx={name:headers.indexOf("name"),team:headers.indexOf("team name"),position:headers.indexOf("position"),status:headers.indexOf("status")};
+  if(idx.name<0){out.innerHTML="CSV must have a Name column.";return}
+  const csvByTeam={},unmatched=[];
+  rows.slice(1).forEach(r=>{
+    const rawName=(r[idx.name]||"").trim(); if(!rawName)return;
+    const teamVal=idx.team>=0?(r[idx.team]||"").trim():"";
+    const code=idx.team>=0?teamCodeFromCsv(teamVal):selectedCode;
+    if(!code){unmatched.push({rawName,teamVal});return}
+    (csvByTeam[code]=csvByTeam[code]||[]).push({name:rawName.replace(/\s*\([^)]*\)\s*/g,"").trim(),rawName,
+      position:idx.position>=0?(r[idx.position]||"").trim():"",status:idx.status>=0?(r[idx.status]||"").trim():""});
+  });
+  let found=0,missingOfficial=0,missingCsv=0,mismatch=0;const foundRows=[],missingOfficialRows=[],missingCsvRows=[],mismatchRows=[];
+  Object.keys(csvByTeam).forEach(code=>{
+    const officialPlayers=(rosters[code]||{players:[]}).players||[], csvPlayers=csvByTeam[code];
+    const officialMap=new Map(officialPlayers.map(p=>[norm(p.name),p])), csvMap=new Map(csvPlayers.map(p=>[norm(p.name),p]));
+    csvPlayers.forEach(cp=>{
+      const official=officialMap.get(norm(cp.name));
+      if(!official){missingOfficial++;missingOfficialRows.push(`<div class="csv-row csv-missing"><b>Missing from official roster:</b> ${esc(cp.rawName)} | ${esc(code)}<div class="meta">In your CSV but not on the ESPN NCAAB roster.</div></div>`);return}
+      const issues=[];
+      if(cp.position&&norm(cp.position)!==norm(official.position))issues.push(`Position CSV ${cp.position} vs Official ${official.position}`);
+      if(cp.status&&normStatus(cp.status)!==normStatus(official.status))issues.push(`Status CSV ${cp.status} vs Official ${official.status}`);
+      if(issues.length){mismatch++;mismatchRows.push(`<div class="csv-row csv-warning"><b>Mismatch:</b> ${esc(cp.rawName)} | ${esc(code)}<div class="meta">${esc(issues.join(" | "))}</div></div>`)}
+      else{found++;foundRows.push(`<div class="csv-row csv-found"><b>Found in both:</b> ${esc(cp.rawName)} | ${esc(code)}<div class="meta">Official: ${esc(official.position)} | ${esc(official.status)}</div></div>`)}
+    });
+    officialPlayers.forEach(o=>{if(!csvMap.has(norm(o.name))){missingCsv++;missingCsvRows.push(`<div class="csv-row csv-warning"><b>Missing from CSV:</b> ${esc(o.name)} | ${esc(code)}<div class="meta">Official: #${esc(o.number||"-")} | ${esc(o.position)} | ${esc(o.status)}</div></div>`)}});
+  });
+  out.innerHTML=`
+    <b>NCAAB CSV Reconciliation Summary</b>
+    <div class="meta">Found in both: ${found} | CSV players missing from official roster: ${missingOfficial} | Official players missing from CSV: ${missingCsv} | Position/status mismatches: ${mismatch} | Team not recognised: ${unmatched.length}</div>
+    <br>
+    <h3>Team not recognised (not checked)</h3>
+    ${unmatched.map(u=>`<div class="csv-row csv-warning"><b>${esc(u.rawName)}</b><div class="meta">Team "${esc(u.teamVal||"(blank)")}" is not one of the 365 monitored teams.</div></div>`).join("")||`<div class="empty">None.</div>`}
+    <h3>Needs Review: In CSV but missing from official roster</h3>
+    ${missingOfficialRows.join("")||`<div class="empty">None.</div>`}
+    <h3>Needs Review: On official roster but missing from CSV</h3>
+    ${missingCsvRows.join("")||`<div class="empty">None.</div>`}
+    <h3>Position / Status Mismatches</h3>
+    ${mismatchRows.join("")||`<div class="empty">None.</div>`}
+    <h3>Found in both</h3>
+    ${foundRows.join("")||`<div class="empty">None.</div>`}`;
+}
+
+function downloadCsv(filename,rows){
+  const csv=rows.map(r=>r.map(v=>'"'+String(v??"").replace(/"/g,'""')+'"').join(",")).join("\n");
+  const blob=new Blob([csv],{type:"text/csv;charset=utf-8;"}),url=URL.createObjectURL(blob),a=document.createElement("a");
+  a.href=url; a.download=filename; a.click(); URL.revokeObjectURL(url);
+}
+function exportCsv(){
+  const rows=[["timestamp_gmt","teamCode","teamName","severity","type","playerName","position","oldValue","newValue"]];
+  allChanges.forEach(c=>rows.push([gmt(c.timestamp),c.teamCode||"",c.teamName||"",c.severity||"",c.type||"",c.playerName||"",c.position||"",c.oldValue||"",c.newValue||""]));
+  downloadCsv("ncaab-roster-changes.csv",rows);
+}
+
+// --- bulk export ---
+function bulkFilteredTeams(){
+  const search=String(document.getElementById("bulkTeamSearch").value||"").trim().toLowerCase();
+  return statusRows.filter(r=>teamMatches(r,search,document.getElementById("bulkConference").value));
+}
+function renderBulkPositions(){
+  document.getElementById("bulkPositions").innerHTML=GROUPS.map(g=>`
+    <label class="position-filter"><input type="checkbox" class="bulkPositionCheck" value="${g}" onchange="updateBulkSummary()">${g}</label>`).join("")+
+    `<span class="meta" style="margin:0 0 0 4px;align-self:center">G = G/PG/SG · F = F/SF/PF · none ticked = all positions</span>`;
+}
+function bulkGroups(){return [...document.querySelectorAll(".bulkPositionCheck:checked")].map(c=>c.value)}
+function bulkPlayers(code){
+  const groups=bulkGroups();
+  return ((rosters[code]||{}).players||[]).filter(p=>!groups.length||groups.includes(positionGroup(p.position)));
+}
+function renderBulkTeams(){
+  document.getElementById("bulkTeams").innerHTML=bulkFilteredTeams().map(team=>`
+    <label class="bulk-team-option">
+      <input type="checkbox" value="${esc(team.teamCode)}" ${bulkSelectedTeams.has(team.teamCode)?"checked":""} onchange="toggleBulkTeam(${jsArg(team.teamCode)},this.checked)">
+      <span>${esc(team.teamName)} <span class="team-code">${esc(team.teamCode)}</span></span>
+    </label>`).join("")||`<div class="empty">No teams match.</div>`;
+  updateBulkSummary();
+}
+function toggleBulkTeam(code,on){on?bulkSelectedTeams.add(code):bulkSelectedTeams.delete(code);updateBulkSummary()}
+/** Select All selects the teams currently shown (all 365 when no search/conference filter is set). */
+function selectAllBulkTeams(){bulkFilteredTeams().forEach(t=>bulkSelectedTeams.add(t.teamCode));renderBulkTeams()}
+function clearBulkTeams(){bulkSelectedTeams.clear();renderBulkTeams()}
+function updateBulkSummary(){
+  let players=0; bulkSelectedTeams.forEach(code=>{players+=bulkPlayers(code).length});
+  const groups=bulkGroups();
+  document.getElementById("bulkSummary").innerHTML=
+    `<span class="bulk-count">Selected teams: <b>${bulkSelectedTeams.size}</b></span>`+
+    `<span class="bulk-count">Selected players: <b>${players}</b></span>`+
+    `<span class="bulk-count">Positions: <b>${groups.length?groups.join(", "):"All"}</b></span>`;
+}
+function exportBulkRosterCsv(){
+  if(!bulkSelectedTeams.size){alert("Please select at least one team.");return}
+  const rows=[["team","teamCode","conference","playerName","number","position","positionGroup","class","status","providerPlayerId","lastCheckedGMT"]];
+  const codes=[...bulkSelectedTeams].sort((a,b)=>String((statusRows.find(t=>t.teamCode===a)||{}).teamName||a).localeCompare(String((statusRows.find(t=>t.teamCode===b)||{}).teamName||b)));
+  codes.forEach(code=>{
+    const roster=rosters[code]||{}, team=statusRows.find(t=>t.teamCode===code)||{};
+    bulkPlayers(code).sort((a,b)=>positionRank(a.position)-positionRank(b.position)||String(a.name||"").localeCompare(String(b.name||""))).forEach(p=>{
+      rows.push([roster.team||team.teamName||code,code,team.conference||"",p.name||"",p.number||"",p.position||"",positionGroup(p.position),p.class||"",p.status||"ACTIVE",p.providerPlayerId||"",gmt(roster.checkedAt||team.checkedAt)]);
+    });
+  });
+  downloadCsv(`ncaab-${bulkSelectedTeams.size}-teams-rosters.csv`,rows);
+}
+
+loadDashboard();
+</script>
+
+</body>
+</html>

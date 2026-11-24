@@ -26,7 +26,8 @@
 
   var LEAGUES = [
     { key: 'nfl', label: 'NFL' }, { key: 'ncaaf', label: 'NCAAF' }, { key: 'nba', label: 'NBA' },
-    { key: 'wnba', label: 'WNBA' }, { key: 'mlb', label: 'MLB' }, { key: 'nhl', label: 'NHL' }
+    { key: 'wnba', label: 'WNBA' }, { key: 'mlb', label: 'MLB' }, { key: 'nhl', label: 'NHL' },
+    { key: 'ncaab', label: 'NCAAB' }
   ]
   var SUFFIXES = { jr: 1, sr: 1, ii: 1, iii: 1, iv: 1, v: 1 }
   // words that mark a heading or table header, not a person ("No. Player Pos Team", "Page Total")

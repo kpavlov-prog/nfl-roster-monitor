@@ -1,0 +1,61 @@
+name: NCAAB Roster Check
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 09:30 UTC daily: after the other leagues (08:00-09:15). About 365 site requests, paced, ~4 minutes.
+    - cron: "30 9 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ncaab-roster-check
+  cancel-in-progress: false
+
+jobs:
+  check-ncaab-rosters:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run NCAAB roster checker
+        run: |
+          python scripts/check_ncaab_rosters.py
+
+      - name: Commit NCAAB data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/ncaab logs/ncaab
+
+          if git diff --cached --quiet; then
+            echo "No NCAAB data changes"
+            exit 0
+          fi
+
+          git commit -m "Update NCAAB roster data"
+
+          # Another league's job may have pushed meanwhile: rebase this data-only commit and retry.
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            echo "push attempt $attempt failed; retrying"
+            sleep 10
+          done
+          exit 1

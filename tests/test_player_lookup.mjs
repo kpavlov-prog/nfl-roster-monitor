@@ -29,6 +29,16 @@ function leagues(overrides = {}) {
                       ARI: roster('Arizona Diamondbacks', [['Adrian Del Castillo', 'DH', '25', 'A']]) } },
     nhl: { status: [row('EDM', 'Edmonton Oilers', { sourceIssue: 'fetch_error', lastError: '503' })],
            rosters: { EDM: roster('Edmonton Oilers', [['Connor McDavid', 'C', '97'], ['Ryan Nugent-Hopkins', 'C', '93']], '2026-11-19T17:00:00+00:00') } },
+    // NCAAB rosters as the checker stores them (with providerPlayerId + class)
+    ncaab: { status: [row('DUKE', 'Duke Blue Devils'), row('KENT', 'Kent State Golden Flashes'), row('UK', 'Kentucky Wildcats')],
+             rosters: { DUKE: { team: 'Duke Blue Devils', checkedAt: '2026-11-24T07:49:00+00:00', players: [
+                          { name: 'Cameron Williams', position: 'F', number: '2', status: 'ACTIVE', class: 'Senior', providerPlayerId: '111' },
+                          { name: 'Cooper Flagg Jr.', position: 'F', number: '32', status: 'ACTIVE', class: 'Freshman', providerPlayerId: '222' }] },
+                        KENT: { team: 'Kent State Golden Flashes', checkedAt: '2026-11-24T07:49:00+00:00', players: [
+                          { name: 'Cameron Williams', position: 'G', number: '5', status: 'ACTIVE', class: 'Junior', providerPlayerId: '333' }] },
+                        UK: { team: 'Kentucky Wildcats', checkedAt: '2026-11-24T07:49:00+00:00', players: [
+                          { name: 'John Smith', position: 'C', number: '4', status: 'ACTIVE', class: 'Sophomore', providerPlayerId: '444' },
+                          { name: 'Otega Oweh', position: 'G', number: '0', status: 'ACTIVE', class: 'Senior', providerPlayerId: '555' }] } } },
   }
   return P.LEAGUES.map(l => ({ ...l, ...base[l.key], ...(overrides[l.key] || {}) }))
 }
@@ -37,8 +47,8 @@ const one = (name, o) => P.lookup(index(o), name)
 
 test('index counts only teams listed in status.json', () => {
   const idx = index()
-  assert.deepEqual(idx.counts, { nfl: 6, ncaaf: 2, nba: 1, wnba: 2, mlb: 2, nhl: 2 })
-  assert.equal(idx.size, 15)
+  assert.deepEqual(idx.counts, { nfl: 6, ncaaf: 2, nba: 1, wnba: 2, mlb: 2, nhl: 2, ncaab: 5 })
+  assert.equal(idx.size, 20)
 })
 
 for (const [name, team, league, position] of [
@@ -101,7 +111,7 @@ test('accents are a normalized match', () => {
 test('the same name on two current teams is Ambiguous with every candidate and no chosen team', () => {
   const r = one('John Smith')
   assert.equal(r.status, 'Ambiguous'); assert.equal(r.match, null)
-  assert.deepEqual(r.candidates.map(c => `${c.team} (${c.league})`).sort(), ['Alabama Crimson Tide (NCAAF)', 'Kansas City Chiefs (NFL)'])
+  assert.deepEqual(r.candidates.map(c => `${c.team} (${c.league})`).sort(), ['Alabama Crimson Tide (NCAAF)', 'Kansas City Chiefs (NFL)', 'Kentucky Wildcats (NCAAB)'])
 })
 
 test('names that only differ by punctuation on two teams are also Ambiguous', () => {
@@ -190,4 +200,27 @@ test('CSV export has the agreed columns, one row per input, quoted safely', () =
   assert.ok(!/\d{4}-\d{2}-\d{2}T|GMT|EST/.test(P.toCsv(results)))   // no timestamps, so no time zone
   const tricky = P.toCsv([{ input: 'Say "Hi", ok', status: 'Not found', match: null, candidates: [], possible: [] }])
   assert.equal(tricky.split('\n')[1], '"Say ""Hi"", ok","","","","","","Not found",""')
+})
+
+test('NCAAB exact lookup returns team, league NCAAB and position', () => {
+  const r = one('Otega Oweh')
+  assert.equal(r.status, 'Exact')
+  assert.deepEqual([r.match.team, r.match.league, r.match.position, r.match.teamCode], ['Kentucky Wildcats', 'NCAAB', 'G', 'UK'])
+})
+
+test('NCAAB name on two NCAAB teams is Ambiguous; different provider ids are never merged', () => {
+  const r = one('Cameron Williams')
+  assert.equal(r.status, 'Ambiguous'); assert.equal(r.match, null)
+  assert.deepEqual(r.candidates.map(c => c.team).sort(), ['Duke Blue Devils', 'Kent State Golden Flashes'])
+})
+
+test('NCAAB player vs a same-name player in another league is Ambiguous across leagues', () => {
+  const r = one('John Smith')
+  assert.equal(r.status, 'Ambiguous')
+  assert.deepEqual([...new Set(r.candidates.map(c => c.league))].sort(), ['NCAAB', 'NCAAF', 'NFL'])
+})
+
+test('NCAAB suffix formats match like every other league', () => {
+  assert.equal(one('Cooper Flagg Jr').match.team, 'Duke Blue Devils')
+  assert.equal(one('Cooper Flagg').status, 'Not found')
 })

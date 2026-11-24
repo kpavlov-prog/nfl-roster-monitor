@@ -105,7 +105,7 @@ body[data-sport="nfl"] .bulk-team-option:hover { background: #f0f7f2; }
  * faint hardwood-plank texture. Orange is kept to gradients and artwork - never to borders/badges,
  * where it could be read as the amber "changes found" warning.
  * ------------------------------------------------------------------------------------------------ */
-body[data-sport="nba"], body[data-sport="wnba"] {
+body[data-sport="nba"], body[data-sport="wnba"], body[data-sport="ncaab"] {
   --court-art: url("themes/basketball-court.svg") center top / 1600px 420px no-repeat;
   /* hardwood: horizontal boards with thin seams */
   --court-texture: repeating-linear-gradient(180deg, rgba(253, 186, 116, .03) 0 1px, transparent 1px 40px),
@@ -113,7 +113,7 @@ body[data-sport="nba"], body[data-sport="wnba"] {
   background: var(--court-art), var(--court-glow), var(--court-texture), var(--theme-page);
 }
 @media (max-width: 600px) {
-  body[data-sport="nba"], body[data-sport="wnba"] {
+  body[data-sport="nba"], body[data-sport="wnba"], body[data-sport="ncaab"] {
     --court-art: url("themes/basketball-court.svg") 80% top / 1100px 289px no-repeat;
     --court-texture: repeating-linear-gradient(180deg, rgba(253, 186, 116, .015) 0 1px, transparent 1px 40px),
                      repeating-linear-gradient(180deg, rgba(255, 255, 255, .006) 0 40px, transparent 40px 80px);
@@ -247,20 +247,45 @@ body[data-sport="nhl"] .team-code,
 body[data-sport="nhl"] .position { background: #e0f2fe; color: #075985; }
 
 /* ------------------------------------------------------------------------------------------------
+ * NCAAB (NCAA Division I men's basketball) - college arena at night: indigo -> royal blue identity,
+ * shared court art and hardwood texture; gold only in the artwork glow, never in UI states.
+ * Contrast (WCAG): white on #4338ca 7.9, on #1e40af 8.7; badge text #3730a3 on #e0e7ff 8.1.
+ * ------------------------------------------------------------------------------------------------ */
+body[data-sport="ncaab"] {
+  --theme-accent-start: #4338ca;
+  --theme-accent-end: #1e40af;
+  --theme-page: #0b1220;
+  --theme-marking: #fcd34d;
+  --theme-browser: #4338ca;
+  --blue: var(--theme-accent-start);
+  --purple: var(--theme-accent-end);
+  --bg: var(--theme-page);
+  --court-glow: radial-gradient(1100px 620px at 0 0, rgba(67, 56, 202, .32), transparent 70%),
+                radial-gradient(900px 520px at 100% 0, rgba(252, 211, 77, .07), transparent 70%);
+}
+body[data-sport="ncaab"] .stat { border-top-color: #4338ca; }
+body[data-sport="ncaab"] button.secondary { background: #262f4a; }
+body[data-sport="ncaab"] .view-tab:not(.active) { background: #141c33; }
+body[data-sport="ncaab"] .field input:focus-visible,
+body[data-sport="ncaab"] .field select:focus-visible { outline: 2px solid #4338ca; outline-offset: 1px; }
+body[data-sport="ncaab"] .team-code,
+body[data-sport="ncaab"] .position { background: #e0e7ff; color: #3730a3; }
+
+/* ------------------------------------------------------------------------------------------------
  * Accessibility / print: artwork and texture are dropped. Listed per themed league so leagues that
  * are not themed yet keep exactly their current look in these modes too.
  * ------------------------------------------------------------------------------------------------ */
 @media (prefers-contrast: more) {
   body[data-sport="ncaaf"], body[data-sport="nfl"], body[data-sport="nba"], body[data-sport="wnba"],
-  body[data-sport="mlb"], body[data-sport="nhl"] { background: var(--theme-page); }
+  body[data-sport="mlb"], body[data-sport="nhl"], body[data-sport="ncaab"] { background: var(--theme-page); }
 }
 @media (forced-colors: active) {
   body[data-sport="ncaaf"], body[data-sport="nfl"], body[data-sport="nba"], body[data-sport="wnba"],
-  body[data-sport="mlb"], body[data-sport="nhl"] { background: Canvas; }
+  body[data-sport="mlb"], body[data-sport="nhl"], body[data-sport="ncaab"] { background: Canvas; }
 }
 @media print {
   body[data-sport="ncaaf"], body[data-sport="nfl"], body[data-sport="nba"], body[data-sport="wnba"],
-  body[data-sport="mlb"], body[data-sport="nhl"] { background: none; }
+  body[data-sport="mlb"], body[data-sport="nhl"], body[data-sport="ncaab"] { background: none; }
 }
 
 /* ------------------------------------------------------------------------------------------------

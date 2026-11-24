@@ -51,6 +51,8 @@ DROP_THRESHOLDS = {
     "mlb":   {"fraction": 0.40, "min_players": 8},
     "nhl":   {"fraction": 0.50, "min_players": 10},
     "ncaaf": {"fraction": 0.40, "min_players": 20},
+    # NCAA D-I men's basketball: 365 rosters of 12-25 players (median 15, 2026-27 season), like WNBA
+    "ncaab": {"fraction": 0.40, "min_players": 5},
 }
 
 # Share of the held missing-player set that must be missing again to accept a held drop

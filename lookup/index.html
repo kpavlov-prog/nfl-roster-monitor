@@ -15,6 +15,7 @@
 <meta name="mobile-web-app-capable" content="yes" />
 <script src="../pwa.js" defer></script>
 <script src="../timezone.js"></script>
+<script src="../roster-bundle.js"></script>
 <script src="player-lookup.js"></script>
 <style>
 :root{
@@ -101,11 +102,12 @@ details.review ul{margin:6px 0 0;padding-left:18px;max-height:180px;overflow:aut
   <a class="nav-card" href="../leagues/wnba/">WNBA</a>
   <a class="nav-card" href="../leagues/mlb/">Baseball</a>
   <a class="nav-card" href="../leagues/nhl/">Ice Hockey</a>
+  <a class="nav-card" href="../leagues/ncaab/">College Basketball</a>
   <a class="nav-card active" href="./">Player Lookup</a>
 </div>
 
 <h1>Player Team Finder</h1>
-<div class="subtitle">Find a player's current team on the Roster Monitor's latest rosters: NFL, NCAAF, NBA, WNBA, MLB and NHL. Times shown in <span class="tz-label">GMT</span>.</div>
+<div class="subtitle">Find a player's current team on the Roster Monitor's latest rosters: NFL, NCAAF, NBA, WNBA, MLB, NHL and NCAAB. Times shown in <span class="tz-label">GMT</span>.</div>
 
 <div class="status-row"><div id="status" class="status">Loading current rosters...</div><span class="tz-control"><label for="tzSelect">Time zone</label><select id="tzSelect" data-tz-select><option value="GMT">GMT</option><option value="EST">EST</option></select></span></div>
 
@@ -155,7 +157,10 @@ details.review ul{margin:6px 0 0;padding-left:18px;max-height:180px;overflow:aut
 
 <script>
 const P = window.PlayerLookup
-const LEAGUE_NAMES = { nfl: 'NFL', ncaaf: 'NCAAF', nba: 'NBA', wnba: 'WNBA', mlb: 'MLB', nhl: 'NHL' }
+const LEAGUE_NAMES = { nfl: 'NFL', ncaaf: 'NCAAF', nba: 'NBA', wnba: 'WNBA', mlb: 'MLB', nhl: 'NHL', ncaab: 'NCAAB' }
+// leagues whose checker writes data/<league>/rosters.json: one request when it matches the run, else per-team files
+const BUNDLED = { ncaab: true }
+let dataRequests = 0
 let index = null, lastResults = [], leagueInfo = []
 
 function esc(v){return String(v==null?'':v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
@@ -165,6 +170,7 @@ function gmt(value){
   return new Date(value).toLocaleString("en-GB",{timeZone:"UTC",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit"})+" GMT";
 }
 async function fetchJson(path){
+  dataRequests++
   const res=await fetch(path+"?v="+Date.now());
   if(!res.ok)throw new Error(res.status+" "+path);
   return res.json();
@@ -179,7 +185,11 @@ async function loadLeague(key){
   return info
 }
 async function loadRosters(leagues){
-  const jobs=[]; leagues.forEach(l=>l.status.forEach(row=>jobs.push([l,row.teamCode])))
+  const jobs=[]; leagues.filter(l=>!BUNDLED[l.key]).forEach(l=>l.status.forEach(row=>jobs.push([l,row.teamCode])))
+  await Promise.all(leagues.filter(l=>BUNDLED[l.key]&&l.status.length).map(async l=>{
+    const r=await RosterBundle.load({base:'../',league:l.key,statusRows:l.status,summary:l.summary,fetchJson})
+    l.rosters=r.rosters; l.via=r.via; l.viaReason=r.reason
+  }))
   let done=0,next=0
   async function worker(){
     while(next<jobs.length){
@@ -200,6 +210,7 @@ const ready=(async()=>{
   const newest=leagues.map(l=>l.summary&&l.summary.lastRunFinished).filter(Boolean).sort().pop()
   setStatus(`Ready: ${index.size.toLocaleString('en-GB')} current players indexed. Newest roster update: ${gmt(newest)}`)
   document.documentElement.dataset.indexMs=String(Math.round(performance.now()-t0))
+  document.documentElement.dataset.dataRequests=String(dataRequests)
   return index
 })().catch(e=>{setStatus('Could not load the current rosters: '+e.message);throw e})
 
@@ -209,7 +220,8 @@ function renderFreshness(){
     const missing=index.missingTeams.filter(m=>m.league===l.label)
     const note=l.error?`<span class="issue">${esc(l.error)}</span>`
       :[issues.length?`<span class="issue">${issues.length} team${issues.length>1?'s':''} with a source issue (last good roster kept)</span>`:'',
-        missing.length?`<span class="issue">${missing.length} roster file${missing.length>1?'s':''} not loaded: ${esc(missing.map(m=>m.teamCode).join(', '))}</span>`:''].filter(Boolean).join('<br>')||'OK'
+        missing.length?`<span class="issue">${missing.length} roster file${missing.length>1?'s':''} not loaded: ${esc(missing.map(m=>m.teamCode).join(', '))}</span>`:'',
+        l.via==='per-team'?`<span class="issue">roster bundle not used (${esc(l.viaReason||'unavailable')}); loaded per team</span>`:''].filter(Boolean).join('<br>')||'OK'
     return `<tr><td><b>${l.label}</b></td><td class="hide-sm">${l.status.length} teams</td><td>${(index.counts[l.key]||0).toLocaleString('en-GB')} players</td>
       <td>${esc(gmt(l.summary&&l.summary.lastRunFinished))}</td><td>${note}</td></tr>`
   }).join('')

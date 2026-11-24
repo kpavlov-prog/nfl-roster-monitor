@@ -37,6 +37,7 @@ CHECKERS = {
     "mlb": "check_mlb_rosters.py",
     "nhl": "check_nhl_rosters.py",
     "ncaaf": "check_ncaaf_rosters.py",
+    "ncaab": "check_ncaab_rosters.py",
 }
 CODE = "TST"
 BASE = [f"Player {i:02d}" for i in range(60)]
@@ -89,6 +90,12 @@ class Harness:
         elif league == "ncaaf":
             self.ncaaf_team = {"id": "999", "code": CODE, "name": "Test University", "logo": ""}
             m.fetch_teams = lambda: [dict(self.ncaaf_team)]
+            m.fetch_roster = self._fake_fetch_roster
+        elif league == "ncaab":
+            m.TEAMS_FILE, m.BUNDLE_FILE = m.DATA / "d1_teams.json", m.DATA / "rosters.json"
+            m.TEAM_PAUSE = 0
+            m.fetch_teams = lambda: [{"id": "999", "code": CODE, "name": "Test University", "conference": "Test Conference",
+                                      "conferenceId": "1", "logo": ""}]
             m.fetch_roster = self._fake_fetch_roster
         else:
             m.TEAMS = [{"code": CODE, "name": "Test Team", "id": 1}]
