@@ -87,6 +87,7 @@ button.secondary{background:#334155}
 .empty{color:var(--muted);font-style:italic}
 .history-title{cursor:pointer;background:#f1f5f9;border-radius:12px;padding:10px 12px;margin-top:14px}
 .small-btn{padding:7px 10px;font-size:12px;border-radius:9px}
+.log-warning{margin:8px 0;padding:9px 12px;border-radius:10px;background:var(--yellow-bg);color:#92400e;border-left:5px solid var(--yellow);font-size:13px;font-weight:700;line-height:1.45}
 .fallback-note{margin-top:8px;padding:8px 10px;border-radius:10px;background:#f1f5f9;color:#334155;font-size:12px}
 @media(max-width:1050px){.stats,.layout{grid-template-columns:1fr}.picker{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.stats{grid-template-columns:1fr 1fr}h1{font-size:32px}.container{padding:20px 14px 32px}.picker{grid-template-columns:1fr}}
@@ -226,7 +227,7 @@ button.secondary{background:#334155}
 
 <script>
 let summary={},statusRows=[],rosters={},allChanges=[],visibleChanges=[],teamHistory=[],selectedCode="";
-let bulkSelectedTeams=new Set(),loadedVia="",selectedGroups=new Set(),firstLoad=true;
+let bulkSelectedTeams=new Set(),loadedVia="",selectedGroups=new Set(),firstLoad=true,changeLogError="",historyError="";
 const CHECKED_KEY="ncaab_checked_changes";
 const DEFAULT_TEAM="DUKE";
 const GROUPS=["G","F","C","Other"];
@@ -291,7 +292,7 @@ async function loadDashboard(){
     status.textContent="Loading NCAAB dashboard...";
     summary=await fetchJson("../../data/ncaab/summary.json");
     statusRows=await fetchJson("../../data/ncaab/status.json");
-    try{allChanges=await fetchJson("../../logs/ncaab/all_changes.json")}catch(e){allChanges=[]}
+    await loadLeagueLog();
     // one bundle request when it matches this run; otherwise every team's latest file (source of truth)
     const result=await RosterBundle.load({base:"../../",league:"ncaab",statusRows,summary,fetchJson,
       onProgress:(d,n)=>{status.textContent=`Loading NCAAB rosters... ${d}/${n} teams`}});
@@ -309,6 +310,20 @@ async function loadDashboard(){
   }catch(e){
     status.textContent="NCAAB dashboard error: "+e.message;
   }
+}
+
+/** Which change logs exist, from summary.json (historyTeams / hasLeagueLog, written by the checker from the
+ *  log files). known=false for data written before these fields existed: then every log is requested as before. */
+function historyMeta(){
+  const known=Array.isArray(summary.historyTeams)&&typeof summary.hasLeagueLog==="boolean";
+  return {known,league:known?summary.hasLeagueLog:true,teams:new Set(known?summary.historyTeams:[])};
+}
+function teamHasLog(code){const m=historyMeta();return !m.known||m.teams.has(code)}
+async function loadLeagueLog(){
+  const m=historyMeta(); changeLogError="";
+  if(!m.league){allChanges=[];return}                 // no change has ever been logged: nothing to request
+  try{allChanges=await fetchJson("../../logs/ncaab/all_changes.json")}
+  catch(e){allChanges=[];if(m.known)changeLogError=e.message}   // expected to exist: say so, never pretend "no changes"
 }
 
 function renderSummary(){
@@ -376,12 +391,14 @@ function renderChanges(){
   const box=document.getElementById("latestChanges");
   const checked=new Set(checkedChanges());
   visibleChanges=allChanges.filter(c=>!checked.has(changeId(c)));
-  document.getElementById("totalChanges").textContent=visibleChanges.length||0;
-  box.innerHTML=visibleChanges.length?visibleChanges.slice(0,30).map(c=>changeHtml(c,true)).join(""):`<div class="empty">No unchecked NCAAB roster changes.</div>`;
+  document.getElementById("totalChanges").textContent=changeLogError?"-":(visibleChanges.length||0);
+  const warn=changeLogError?`<div class="log-warning">The NCAAB change log could not be loaded (${esc(changeLogError)}). Changes are not shown; this is not an empty log.</div>`:"";
+  box.innerHTML=warn+(visibleChanges.length?visibleChanges.slice(0,30).map(c=>changeHtml(c,true)).join(""):(warn?"":`<div class="empty">No unchecked NCAAB roster changes.</div>`));
   renderTeamChanges();
 }
 function renderTeamChanges(){
   const box=document.getElementById("teamChanges"); if(!box)return;
+  if(changeLogError){box.innerHTML=`<div class="log-warning">Recent changes unavailable: the NCAAB change log could not be loaded.</div>`;return}
   const items=visibleChanges.filter(c=>c.teamCode===selectedCode);
   box.innerHTML=items.length?items.slice(0,20).map(c=>changeHtml(c,false)).join(""):`<div class="empty">No unchecked roster changes for this team.</div>`;
 }
@@ -466,9 +483,11 @@ function renderOtherMatches(q){
 }
 
 function loadTeamHistory(){
-  const code=selectedCode;
+  const code=selectedCode, expected=historyMeta().known;
+  historyError="";
+  if(!teamHasLog(code)){teamHistory=[];renderSelectedTeamHistory();return}   // no log file exists for this team
   fetchJson(`../../logs/ncaab/${code}.json`).then(items=>{if(code===selectedCode){teamHistory=items||[];renderSelectedTeamHistory()}})
-    .catch(()=>{if(code===selectedCode){teamHistory=[];renderSelectedTeamHistory()}});
+    .catch(e=>{if(code===selectedCode){teamHistory=[];historyError=expected?e.message:"";renderSelectedTeamHistory()}});
 }
 function toggleHistory(){
   const box=document.getElementById("teamHistoryBox"); if(!box)return;
@@ -476,6 +495,7 @@ function toggleHistory(){
 }
 function renderSelectedTeamHistory(){
   const box=document.getElementById("teamHistoryBox"); if(!box)return;
+  if(historyError){box.innerHTML=`<div class="log-warning">This team's change history could not be loaded (${esc(historyError)}). History is not shown; this is not an empty history.</div>`;return}
   if(!teamHistory.length){box.innerHTML=`<div class="empty">No NCAAB history for this team yet.</div>`;return}
   box.innerHTML=teamHistory.slice(0,80).map(c=>`
     <div class="change-item">

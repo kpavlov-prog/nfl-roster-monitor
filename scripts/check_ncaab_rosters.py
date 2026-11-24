@@ -349,6 +349,15 @@ def append_team_log(team_code, changes):
     append_json_log(LOGS / f"{team_code}.json", changes)
 
 
+def history_metadata():
+    """Which change logs exist on disk, so the dashboard requests only logs that exist.
+
+    Read from the log files themselves (cumulative; never deleted), not from this run's counts:
+    a team that changed on an earlier run keeps its entry on later quiet runs."""
+    teams = sorted(p.stem for p in LOGS.glob("*.json") if p.name != "all_changes.json") if LOGS.exists() else []
+    return {"historyTeams": teams, "hasLeagueLog": (LOGS / "all_changes.json").exists()}
+
+
 # --- bundle ---------------------------------------------------------------------------------------
 
 def build_bundle(statuses, generated_at):
@@ -443,6 +452,7 @@ def run():
         "totalChanges": len(all_changes),
         "coreFallbackTeams": fallbacks,
         "source": f"{SITE_SOURCE} (core API fallback when the site roster fails)",
+        **history_metadata(),
     }
     save_json(DATA / "status.json", statuses)
     save_json(DATA / "summary.json", summary)

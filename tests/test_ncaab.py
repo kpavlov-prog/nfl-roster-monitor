@@ -282,6 +282,19 @@ class Changes(SiteTest):
     def test_first_baseline_creates_no_history(self):
         self.first(squad("D", 15))
         self.assertEqual(self.s.log("DUKE"), []); self.assertIsNone(self.s.read("logs", "ncaab", "all_changes.json"))
+        summary = self.s.read("data", "ncaab", "summary.json")
+        self.assertEqual((summary["historyTeams"], summary["hasLeagueLog"]), ([], False))   # dashboard: nothing to request
+
+    def test_history_metadata_follows_the_log_files_not_the_last_run(self):
+        base = squad("D", 15); self.first(base)
+        self.s.espn.site(150, base[1:]); self.s.run()                          # a real change: logs appear
+        s1 = self.s.read("data", "ncaab", "summary.json")
+        self.assertEqual((s1["historyTeams"], s1["hasLeagueLog"], s1["totalChanges"]), (["DUKE"], True, 1))
+        self.s.run()                                                           # quiet run: history still known
+        s2 = self.s.read("data", "ncaab", "summary.json")
+        self.assertEqual((s2["historyTeams"], s2["hasLeagueLog"], s2["totalChanges"]), (["DUKE"], True, 0))
+        self.assertEqual(self.s.status("DUKE")["lastChangeCount"], 0)
+        self.assertEqual(len(self.s.log("DUKE")), 1)                           # the log itself is unchanged
 
     def test_provider_player_id_and_class_are_stored(self):
         self.first([athlete("5311504", "Jeremiah Bowman", pos="F", jersey="20", cls="Sophomore")])
