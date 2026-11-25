@@ -78,83 +78,202 @@ h1{
   line-height:1.5;
 }
 
-.grid{
+/* sport groups: one card per sport, its leagues as direct links */
+.sport-grid{
   display:grid;
   grid-template-columns:repeat(4,1fr);
   gap:18px;
   margin-top:30px;
+  align-items:stretch;
 }
 
-.card{
+.sport-card{
+  --sport-a:#2563eb;
+  --sport-b:#7c3aed;
+  --sport-tint:rgba(37,99,235,.06);
   background:white;
   color:var(--text);
   border-radius:24px;
-  padding:24px;
-  min-height:270px;
+  padding:24px 22px 22px;
   box-shadow:0 18px 40px rgba(0,0,0,.25);
-  border:2px solid transparent;
-  text-decoration:none;
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
-  transition:.16s ease;
   position:relative;
   overflow:hidden;
+  display:flex;
+  flex-direction:column;
 }
 
-.card:hover{
-  transform:translateY(-4px);
-  border-color:#7c3aed;
-}
-
-.card:before{
+/* sport cue: colour band + a faint pattern behind the heading, same layout for every sport */
+.sport-card:before{
   content:"";
   position:absolute;
   top:0;
   left:0;
   width:100%;
   height:7px;
-  background:linear-gradient(90deg,var(--blue),var(--purple));
+  background:linear-gradient(90deg,var(--sport-a),var(--sport-b));
 }
+
+.sport-head{
+  position:relative;
+  margin:-24px -22px 0;
+  padding:30px 22px 16px;
+  background:linear-gradient(180deg,var(--sport-tint),transparent);
+}
+
+/* the faint sport pattern fades out instead of ending in a hard edge */
+.sport-head:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:var(--sport-pattern,none);
+  -webkit-mask-image:linear-gradient(180deg,#000 35%,transparent);
+  mask-image:linear-gradient(180deg,#000 35%,transparent);
+  pointer-events:none;
+}
+
+.sport-head>*{
+  position:relative;
+}
+
+.sport-football{--sport-a:#166534;--sport-b:#15803d;--sport-tint:rgba(22,101,52,.08);
+  --sport-pattern:repeating-linear-gradient(90deg,transparent 0 38px,rgba(22,101,52,.07) 38px 40px)}
+.sport-basketball{--sport-a:#1e3a8a;--sport-b:#c2410c;--sport-tint:rgba(30,58,138,.07);
+  --sport-pattern:radial-gradient(circle at 100% 0,transparent 0 58px,rgba(194,65,12,.12) 58px 60px,transparent 60px)}
+.sport-baseball{--sport-a:#1e3a8a;--sport-b:#334155;--sport-tint:rgba(30,58,138,.07);
+  --sport-pattern:linear-gradient(45deg,transparent 46%,rgba(30,58,138,.08) 46% 48%,transparent 48%)}
+.sport-hockey{--sport-a:#0369a1;--sport-b:#38bdf8;--sport-tint:rgba(56,189,248,.12);
+  --sport-pattern:radial-gradient(circle at 88% 30%,transparent 0 34px,rgba(3,105,161,.16) 34px 36px,transparent 36px)}
 
 .icon{
-  font-size:46px;
-  margin-bottom:18px;
+  font-size:42px;
+  margin-bottom:12px;
 }
 
-.card h2{
+.sport-card h2{
   margin:0;
-  font-size:26px;
+  font-size:25px;
 }
 
-.card p{
+.sport-card p{
+  margin:8px 0 0;
   color:var(--muted);
   line-height:1.45;
   font-size:14px;
 }
 
-.leagues{
+.league-links{
+  list-style:none;
+  margin:16px 0 0;
+  padding:0;
   display:flex;
-  gap:8px;
-  flex-wrap:wrap;
-  margin-top:16px;
+  flex-direction:column;
+  gap:10px;
 }
 
-.pill{
-  display:inline-block;
-  margin-top:6px;
-  padding:4px 9px;
-  border-radius:999px;
-  font-size:11px;
+.league-link{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  min-height:56px;
+  padding:10px 14px;
+  border-radius:14px;
+  border:2px solid #e5e7eb;
+  background:#f8fafc;
+  color:var(--text);
+  text-decoration:none;
+  transition:border-color .15s ease,background .15s ease,transform .15s ease;
+}
+
+.league-link:hover{
+  border-color:var(--sport-a);
+  background:#fff;
+  transform:translateY(-1px);
+}
+
+.league-link:focus-visible,.lookup-card:focus-visible{
+  outline:3px solid #fff;
+  outline-offset:3px;
+}
+
+.league-code{
+  flex:none;
+  min-width:64px;
+  padding:5px 10px;
+  border-radius:10px;
+  background:linear-gradient(135deg,var(--sport-a),var(--sport-b));
+  color:#fff;
+  font-size:14px;
   font-weight:900;
-  background:#eef2ff;
-  color:#3730a3;
+  text-align:center;
+}
+
+.league-name{
+  flex:1;
+  font-size:14px;
+  font-weight:800;
+  line-height:1.3;
+}
+
+.league-arrow{
+  color:var(--sport-a);
+  font-weight:900;
+}
+
+/* Player Lookup: a separate tool, not part of any sport */
+.lookup-card{
+  margin-top:18px;
+  display:flex;
+  align-items:center;
+  gap:18px;
+  padding:20px 24px;
+  border-radius:24px;
+  background:white;
+  color:var(--text);
+  text-decoration:none;
+  box-shadow:0 18px 40px rgba(0,0,0,.25);
+  border:2px solid transparent;
+  position:relative;
+  overflow:hidden;
+}
+
+.lookup-card:before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:7px;
+  height:100%;
+  background:linear-gradient(180deg,var(--blue),var(--purple));
+}
+
+.lookup-card:hover{
+  border-color:#7c3aed;
+}
+
+.lookup-card .icon{
+  margin:0;
+}
+
+.lookup-text{
+  flex:1;
+}
+
+.lookup-card h2{
+  margin:0;
+  font-size:24px;
+}
+
+.lookup-card p{
+  margin:6px 0 0;
+  color:var(--muted);
+  line-height:1.45;
+  font-size:14px;
 }
 
 .open{
-  margin-top:20px;
   font-weight:900;
   color:#2563eb;
+  white-space:nowrap;
 }
 
 .footer{
@@ -164,11 +283,13 @@ h1{
 }
 
 @media(max-width:1050px){
-  .grid{grid-template-columns:repeat(2,1fr)}
+  .sport-grid{grid-template-columns:repeat(2,1fr)}
 }
 
 @media(max-width:650px){
-  .grid{grid-template-columns:1fr}
+  .sport-grid{grid-template-columns:1fr}
+  .lookup-card{flex-wrap:wrap;gap:12px}
+  .lookup-card .open{width:100%}
 }
 </style>
 </head>
@@ -184,109 +305,64 @@ h1{
     </div>
   </div>
 
-  <div class="grid">
+  <div class="sport-grid">
 
-    <a class="card" href="leagues/nfl/">
-      <div>
-        <div class="icon">🏈</div>
-        <h2>Football</h2>
-        <p>
-          Monitor official NFL roster changes, player movement, statuses, and team-level history.
-        </p>
-        <div class="leagues">
-          <span class="pill">NFL</span>
-        </div>
+    <section class="sport-card sport-football" data-sport-group="football" aria-labelledby="sport-football">
+      <div class="sport-head">
+        <div class="icon" aria-hidden="true">🏈</div>
+        <h2 id="sport-football">American Football</h2>
+        <p>Official roster changes, player movement, statuses and team history.</p>
       </div>
-      <div class="open">Open Football Monitor →</div>
-    </a>
-    <a class="card" href="leagues/ncaaf/">
-      <h2>College Football</h2>
-      <p>NCAAF roster monitor</p>
-      <span>Open NCAAF Monitor →</span>
-    </a>
-    
-    <a class="card" href="leagues/nba/">
-      <div>
-        <div class="icon">🏀</div>
-        <h2>Basketball</h2>
-        <p>
-          Compare NBA rosters against uploaded CSV lists and track official changes.
-        </p>
-        <div class="leagues">
-          <span class="pill">NBA</span>
-        </div>
-      </div>
-      <div class="open">Open Basketball Monitor →</div>
-    </a>
+      <ul class="league-links">
+          <li><a class="league-link" href="leagues/nfl/"><span class="league-code">NFL</span><span class="league-name">National Football League</span><span class="league-arrow" aria-hidden="true">→</span></a></li>
+          <li><a class="league-link" href="leagues/ncaaf/"><span class="league-code">NCAAF</span><span class="league-name">College Football</span><span class="league-arrow" aria-hidden="true">→</span></a></li>
+      </ul>
+    </section>
 
-    <a class="card" href="leagues/wnba/">
-      <div>
-        <div class="icon">🏀</div>
-        <h2>Women's Basketball</h2>
-        <p>
-          WNBA roster monitoring with team history, player changes, and CSV reconciliation.
-        </p>
-        <div class="leagues">
-          <span class="pill">WNBA</span>
-        </div>
+    <section class="sport-card sport-basketball" data-sport-group="basketball" aria-labelledby="sport-basketball">
+      <div class="sport-head">
+        <div class="icon" aria-hidden="true">🏀</div>
+        <h2 id="sport-basketball">Basketball</h2>
+        <p>Roster tracking, change history and CSV reconciliation for pro and college basketball.</p>
       </div>
-      <div class="open">Open WNBA Monitor →</div>
-    </a>
-    <a class="card" href="leagues/ncaab/">
-      <div>
-        <div class="icon">🏀</div>
-        <h2>Men's College Basketball</h2>
-        <p>
-          Monitor all 365 NCAA Division I men's basketball rosters: changes, conferences and team history.
-        </p>
-        <div class="leagues">
-          <span class="pill">NCAAB</span>
-        </div>
-      </div>
-      <div class="open">Open NCAAB Monitor →</div>
-    </a>
-    <a class="card" href="leagues/mlb/">
-      <div>
-        <div class="icon">⚾</div>
-        <h2>Baseball</h2>
-        <p>
-          MLB roster monitoring with permanent logs and CSV reconciliation against official sources.
-        </p>
-        <div class="leagues">
-          <span class="pill">MLB</span>
-        </div>
-      </div>
-      <div class="open">Open Baseball Monitor →</div>
-    </a>
+      <ul class="league-links">
+          <li><a class="league-link" href="leagues/nba/"><span class="league-code">NBA</span><span class="league-name">National Basketball Association</span><span class="league-arrow" aria-hidden="true">→</span></a></li>
+          <li><a class="league-link" href="leagues/wnba/"><span class="league-code">WNBA</span><span class="league-name">Women's National Basketball Association</span><span class="league-arrow" aria-hidden="true">→</span></a></li>
+          <li><a class="league-link" href="leagues/ncaab/"><span class="league-code">NCAAB</span><span class="league-name">Men's College Basketball</span><span class="league-arrow" aria-hidden="true">→</span></a></li>
+      </ul>
+    </section>
 
-    <a class="card" href="leagues/nhl/">
-      <div>
-        <div class="icon">🏒</div>
-        <h2>Ice Hockey</h2>
-        <p>
-          NHL roster checks, team history, player changes, and imported roster validation.
-        </p>
-        <div class="leagues">
-          <span class="pill">NHL</span>
-        </div>
+    <section class="sport-card sport-baseball" data-sport-group="baseball" aria-labelledby="sport-baseball">
+      <div class="sport-head">
+        <div class="icon" aria-hidden="true">⚾</div>
+        <h2 id="sport-baseball">Baseball</h2>
+        <p>Roster monitoring with permanent logs and CSV checks against official sources.</p>
       </div>
-      <div class="open">Open Hockey Monitor →</div>
-    </a>
-    <a class="card" href="lookup/">
-      <div>
-        <div class="icon">🔎</div>
-        <h2>Player Team Finder</h2>
-        <p>
-          Paste names or upload a PDF to find each player's current team across all six leagues.
-        </p>
-        <div class="leagues">
-          <span class="pill">Player Lookup</span>
-        </div>
-      </div>
-      <div class="open">Open Player Lookup →</div>
-    </a>
+      <ul class="league-links">
+          <li><a class="league-link" href="leagues/mlb/"><span class="league-code">MLB</span><span class="league-name">Major League Baseball</span><span class="league-arrow" aria-hidden="true">→</span></a></li>
+      </ul>
+    </section>
 
+    <section class="sport-card sport-hockey" data-sport-group="hockey" aria-labelledby="sport-hockey">
+      <div class="sport-head">
+        <div class="icon" aria-hidden="true">🏒</div>
+        <h2 id="sport-hockey">Ice Hockey</h2>
+        <p>Roster checks, player changes, team history and imported roster validation.</p>
+      </div>
+      <ul class="league-links">
+          <li><a class="league-link" href="leagues/nhl/"><span class="league-code">NHL</span><span class="league-name">National Hockey League</span><span class="league-arrow" aria-hidden="true">→</span></a></li>
+      </ul>
+    </section>
   </div>
+
+  <a class="lookup-card" href="lookup/">
+    <div class="icon" aria-hidden="true">🔎</div>
+    <div class="lookup-text">
+      <h2>Player Lookup</h2>
+      <p>Paste names or upload a PDF to find each player's current team across all seven leagues.</p>
+    </div>
+    <div class="open">Open Player Lookup →</div>
+  </a>
 
   <div class="footer">
     Powered by GitHub Actions, GitHub Pages, official roster sources, and permanent JSON history logs.
