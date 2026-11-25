@@ -3,7 +3,7 @@
   "team": "Seattle Seahawks",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/seattle-seahawks/roster",
-  "checkedAt": "2026-11-24T19:14:43.371113+00:00",
+  "checkedAt": "2026-11-25T18:19:03.724520+00:00",
   "players": [
     {
       "name": "AJ Barner",
@@ -57,7 +57,7 @@
       "name": "Avery Smith",
       "position": "CB",
       "number": "27",
-      "status": "ACT",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -81,7 +81,7 @@
       "name": "Bobby Hart",
       "position": "OT",
       "number": "77",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
@@ -113,6 +113,14 @@
       "name": "Charles Cross",
       "position": "OT",
       "number": "67",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Chase Lundt",
+      "position": "OT",
+      "number": "79",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
@@ -305,7 +313,7 @@
       "name": "George Holani",
       "position": "RB",
       "number": "36",
-      "status": "ACT",
+      "status": "RES",
       "important": true,
       "source": "NFL.com"
     },
@@ -337,6 +345,14 @@
       "name": "Jackson Acker",
       "position": "RB",
       "number": "73",
+      "status": "LISTED",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Jacob De Jesus",
+      "position": "WR",
+      "number": "66",
       "status": "LISTED",
       "important": true,
       "source": "NFL.com"
@@ -633,7 +649,7 @@
       "name": "Trevon Diggs",
       "position": "CB",
       "number": "16",
-      "status": "LISTED",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },

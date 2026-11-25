@@ -3,7 +3,7 @@
   "team": "Chicago Bears",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/chicago-bears/roster",
-  "checkedAt": "2026-11-24T19:14:04.852255+00:00",
+  "checkedAt": "2026-11-25T18:18:11.163141+00:00",
   "players": [
     {
       "name": "Anthony Johnson",
@@ -242,6 +242,14 @@
       "position": "TE",
       "number": "43",
       "status": "RES",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Isaac Yiadom",
+      "position": "CB",
+      "number": "73",
+      "status": "ACT",
       "important": true,
       "source": "NFL.com"
     },
