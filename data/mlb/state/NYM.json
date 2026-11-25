@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-11-24T19:30:02.710546+00:00",
+  "checkedAt": "2026-11-25T18:38:40.899768+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -214,6 +214,13 @@
       "name": "Nolan McLean",
       "position": "P",
       "number": "26",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Paul Goldschmidt",
+      "position": "1B",
+      "number": "43",
       "status": "A",
       "source": "MLB Stats API"
     },

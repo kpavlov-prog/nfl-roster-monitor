@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-11-25T18:38:29.959541+00:00",
+    "teamCode": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "type": "number changed",
+    "playerName": "Johan Oviedo",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "50",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-25T18:38:31.263599+00:00",
+    "teamCode": "BAL",
+    "teamName": "Baltimore Orioles",
+    "type": "added",
+    "playerName": "Freddy Peralta",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-25T18:38:32.615489+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "number changed",
+    "playerName": "BJ Murray Jr.",
+    "position": "3B",
+    "oldValue": "83",
+    "newValue": "18",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-25T18:38:32.615506+00:00",
+    "teamCode": "CHC",
+    "teamName": "Chicago Cubs",
+    "type": "number changed",
+    "playerName": "Pedro Ramírez",
+    "position": "2B",
+    "oldValue": "75",
+    "newValue": "20",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-25T18:38:37.070431+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Royals",
+    "type": "number changed",
+    "playerName": "Caleb Thielbar",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "56",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-25T18:38:40.900627+00:00",
+    "teamCode": "NYM",
+    "teamName": "New York Mets",
+    "type": "added",
+    "playerName": "Paul Goldschmidt",
+    "position": "1B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-11-24T19:29:59.577536+00:00",
     "teamCode": "KC",
     "teamName": "Kansas City Royals",
