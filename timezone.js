@@ -96,6 +96,8 @@
     syncSelects()
     if (document.body) convertNode(document.body)
     if (document.documentElement) document.documentElement.setAttribute('data-timezone', zone)
+    // pages that lay out by day (Games) re-render on this; the GMT-stamp pages do not need it
+    try { window.dispatchEvent(new CustomEvent('roster-timezone-change', { detail: { zone: zone } })) } catch (e) { /* old browser */ }
   }
 
   // convert content as the page adds it (renders, history, refresh); our own rewrites produce
@@ -125,5 +127,7 @@
   })
 
   window.RosterTime = { KEY: KEY, get: function () { return current }, set: function (z) { apply(z, true) },
-                        format: format, convertText: convertText }
+                        format: format, convertText: convertText,
+                        /** Fixed offset of a zone in minutes (GMT 0, EST -300); the current zone by default. */
+                        offsetMinutes: function (z) { return OFFSET_MINUTES[valid(z) ? z : current] } }
 })()

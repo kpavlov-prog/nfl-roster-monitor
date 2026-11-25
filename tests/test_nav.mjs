@@ -29,17 +29,18 @@ test('the Sports Hub shows exactly the nav.js groups, in order, each league a di
     const links = [...m[3].matchAll(/<a class="league-link" href="leagues\/([a-z]+)\/"><span class="league-code">([^<]+)<\/span>/g)].map(x => [x[1], x[2]])
     assert.deepEqual(links, GROUPS[i].leagues.map(l => [l.key, l.label]))
   })
-  // Player Lookup: one separate card outside the sport grid
+  // Games and Player Lookup: one separate card each, outside the sport grid
   assert.equal((hub.match(/href="lookup\/"/g) || []).length, 1)
-  const grid = hub.slice(hub.indexOf('<div class="sport-grid">'), hub.indexOf('<a class="lookup-card"'))
-  assert.ok(!grid.includes('lookup/'))
+  assert.equal((hub.match(/href="events\/"/g) || []).length, 1)
+  const grid = hub.slice(hub.indexOf('<div class="sport-grid">'), hub.indexOf('<div class="tool-grid">'))
+  assert.ok(!grid.includes('lookup/') && !grid.includes('events/'))
 })
 
 test('every league page and Player Lookup use the shared nav with the right root and current page', () => {
   const pages = { 'leagues/nfl/index.html': 'nfl', 'leagues/ncaaf/index.html': 'ncaaf', 'leagues/nba/index.html': 'nba', 'leagues/wnba/index.html': 'wnba',
-    'leagues/mlb/index.html': 'mlb', 'leagues/nhl/index.html': 'nhl', 'leagues/ncaab/index.html': 'ncaab', 'lookup/index.html': 'lookup' }
+    'leagues/mlb/index.html': 'mlb', 'leagues/nhl/index.html': 'nhl', 'leagues/ncaab/index.html': 'ncaab', 'lookup/index.html': 'lookup', 'events/index.html': 'games' }
   for (const [p, key] of Object.entries(pages)) {
-    const root = p.startsWith('lookup/') ? '../' : '../../'
+    const root = p.startsWith('lookup/') || p.startsWith('events/') ? '../' : '../../'
     const html = read(p)
     const m = html.match(/<nav class="top-nav" aria-label="Roster Monitor" data-nav-root="([^"]+)" data-nav-current="([a-z]+)">[\s\S]*?<\/nav>\s*<script src="([^"]+)"><\/script>/)
     assert.ok(m, p)
@@ -51,5 +52,6 @@ test('every league page and Player Lookup use the shared nav with the right root
 test('nav.js is part of the offline app shell; data/ and logs/ are still never cached', () => {
   const sw = read('service-worker.js')
   assert.match(sw, /'nav\.js',/)
+  assert.match(sw, /'events\/',\s+'events\/games\.js',/)
   assert.match(sw, /const LIVE_DATA_FOLDERS = \['data\/', 'logs\/'\]/)
 })

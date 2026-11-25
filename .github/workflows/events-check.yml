@@ -1,0 +1,63 @@
+name: Events Check
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every 6 hours at :40 (00:40, 06:40, 12:40, 18:40 UTC): clear of the roster checks (08:00-09:45).
+    # 7 leagues x 10 ESPN dates = 70 paced scoreboard requests, about 1 minute. Live scores are NOT
+    # produced here: the Games page polls ESPN scoreboards directly while games are live.
+    - cron: "40 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: events-check
+  cancel-in-progress: false
+
+jobs:
+  check-events:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run events checker
+        run: |
+          python scripts/check_upcoming_events.py
+
+      - name: Commit events data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/events
+
+          if git diff --cached --quiet; then
+            echo "No events data changes"
+            exit 0
+          fi
+
+          git commit -m "Update events data"
+
+          # A roster job may have pushed meanwhile: rebase this data-only commit and retry.
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            echo "push attempt $attempt failed; retrying"
+            sleep 10
+          done
+          exit 1

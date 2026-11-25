@@ -1,6 +1,7 @@
 /*
  * Shared grouped navigation for the league pages and Player Lookup.
  *
+ * Items: Sports Hub · four sport menus · Games · Player Lookup (Games and Player Lookup are direct links).
  * Usage (right where the nav belongs; the script must directly follow its <nav>):
  *   <nav class="top-nav" aria-label="Roster Monitor" data-nav-root="../../" data-nav-current="nba">
  *     <a class="nav-card" href="../../">Sports Hub</a> <a class="nav-card" href="../../lookup/">Player Lookup</a>
@@ -32,6 +33,7 @@
       { key: 'nhl', label: 'NHL', name: 'National Hockey League' }] }
   ]
   if (typeof module === 'object' && module.exports) { module.exports = { GROUPS: GROUPS }; return }
+  window.RosterNav = { GROUPS: GROUPS }   // the Games page builds its sport/league filters from this list
 
   var nav = document.currentScript && document.currentScript.previousElementSibling
   if (!nav || !nav.matches('nav[data-nav-root]')) return
@@ -68,6 +70,7 @@
     '  .nav-current,.nav-caret{flex:none}',
     '  .nav-group{position:static}',
     '  .nav-menu{left:0;right:0;min-width:0;max-width:none}',
+    '  .top-nav>:last-child:nth-child(odd){grid-column:1/-1}',
     '}',
     '@media print{.nav-menu{display:none!important}}'
   ].join('\n')
@@ -92,6 +95,12 @@
           '<b>' + esc(l.label) + '</b><span>' + esc(l.name) + '</span></a>'
       }).join('') + '</div></div>')
   })
+  // Games: a direct item (not a sport). From a league page it opens that league's games.
+  var onGames = current === 'games'
+  var leagueHere = null
+  GROUPS.forEach(function (g) { g.leagues.forEach(function (l) { if (l.key === current) leagueHere = l }) })
+  html.push('<a class="nav-card nav-games' + (onGames ? ' active' : '') + '" href="' + esc(base) + 'events/' + (leagueHere ? '?league=' + esc(leagueHere.label) : '') + '"' +
+    (onGames ? ' aria-current="page"' : '') + (leagueHere ? ' title="' + esc(leagueHere.label) + ' games"' : '') + '>Games</a>')
   var onLookup = current === 'lookup'
   html.push('<a class="nav-card nav-lookup' + (onLookup ? ' active' : '') + '" href="' + esc(base) + 'lookup/"' + (onLookup ? ' aria-current="page"' : '') + '>Player Lookup</a>')
   nav.innerHTML = html.join('')

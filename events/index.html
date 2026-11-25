@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- PWA: manifest, icons and service worker (paths relative to this page) -->
+<link rel="manifest" href="../manifest.webmanifest" />
+<meta name="theme-color" content="#4f46e5" />
+<link rel="icon" href="../icons/icon.svg" type="image/svg+xml" />
+<link rel="icon" href="../icons/favicon-32.png" sizes="32x32" type="image/png" />
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="Roster Monitor" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<script src="../pwa.js" defer></script>
+<script src="../timezone.js"></script>
+<script src="games.js"></script>
+<title>Games - Roster Monitor</title>
+<style>
+:root{--bg:#081226;--text:#111827;--muted:#64748b;--line:#e5e7eb;--blue:#2563eb;--purple:#7c3aed;--live:#e11d48;--live-bg:#fff1f2}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:radial-gradient(circle at top left,rgba(37,99,235,.28),transparent 32%),radial-gradient(circle at top right,rgba(124,58,237,.22),transparent 28%),var(--bg);color:#fff;min-height:100vh}
+.container{max-width:1500px;margin:0 auto;padding:28px 24px 40px}
+.games-main{max-width:1100px}
+.top-nav{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+h1{margin:0;font-size:42px}.subtitle{margin-top:8px;color:#cbd5e1}
+.status{margin-top:14px;color:#dbeafe;font-size:13px}
+.status .stale{color:#fde68a;font-weight:700}
+/* filter bar */
+.filters{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;background:rgba(255,255,255,.08);padding:12px;border-radius:16px}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.chip{min-height:40px;padding:8px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.08);color:#fff;font:800 14px Arial,sans-serif;cursor:pointer}
+.chip:hover{background:rgba(255,255,255,.16)}
+.chip[aria-pressed="true"]{background:linear-gradient(135deg,var(--blue),var(--purple));border-color:transparent}
+.chip:focus-visible,.day:focus-visible,.pin:focus-visible,.daynav:focus-visible,#leagueSelect:focus-visible{outline:3px solid #fff;outline-offset:2px}
+#leagueSelect{flex:0 1 280px;min-width:0;min-height:40px;padding:8px 12px;border-radius:12px;border:none;font:700 14px Arial,sans-serif;color:var(--text);background:#fff}
+.modes{margin-left:auto}
+.live-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--live);margin-right:5px;vertical-align:1px}
+/* day strip */
+.days{margin-top:12px;display:flex;align-items:stretch;gap:6px}
+.daynav{flex:none;width:44px;border-radius:12px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.08);color:#fff;font:900 18px Arial;cursor:pointer}
+.daynav:disabled{opacity:.35;cursor:default}
+.day-list{flex:1;display:flex;gap:6px;overflow-x:auto;scrollbar-width:thin;padding:2px}
+.day{flex:1 0 74px;min-height:52px;padding:6px 4px;border-radius:12px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.06);color:#e2e8f0;cursor:pointer;font-family:Arial,sans-serif;text-align:center;line-height:1.2}
+.day b{display:block;font-size:13px}.day span{display:block;font-size:12px}.day small{display:block;font-size:11px;color:#94a3b8}
+.day[aria-pressed="true"]{background:#fff;color:var(--text);border-color:#fff}
+.day[aria-pressed="true"] small{color:var(--muted)}
+.day.today b{text-transform:uppercase;letter-spacing:.04em}
+/* list */
+.board{margin-top:14px;background:#fff;color:var(--text);border-radius:18px;overflow:hidden;box-shadow:0 12px 30px rgba(0,0,0,.18)}
+.board-note{padding:16px 18px;color:var(--muted)}
+.board-note.warn{color:#92400e;background:#fef3c7}
+.day-head{padding:10px 16px;background:#0f172a;color:#e2e8f0;font-size:13px;font-weight:900;letter-spacing:.04em;text-transform:uppercase}
+.sec-head{display:flex;align-items:center;gap:8px;padding:8px 16px;background:#f1f5f9;border-top:1px solid var(--line);font-size:12px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;color:#334155}
+.sec-head .n{color:var(--muted);font-weight:700}
+.sec-head.live{color:var(--live);background:var(--live-bg)}
+.game{display:grid;grid-template-columns:48px 104px minmax(0,560px);align-items:center;border-top:1px solid var(--line);min-height:62px}
+.game.pinned{background:#fffbeb}
+.pin{width:44px;height:44px;margin:0 2px;border:none;background:none;font-size:22px;line-height:1;color:#94a3b8;cursor:pointer;border-radius:10px}
+.pin[aria-pressed="true"]{color:#d97706}
+.pin:hover{background:#f1f5f9}
+.when{padding:6px 4px;font-size:13px;font-weight:800;color:#334155;line-height:1.3}
+.when .lg{display:inline-block;margin-top:3px;padding:1px 7px;border-radius:999px;background:#eef2ff;color:#3730a3;font-size:11px;font-weight:900}
+.when.live .st{color:var(--live)}
+.when.off .st{color:#92400e}
+.teams{padding:6px 14px 6px 4px;min-width:0}
+.side{display:flex;align-items:center;gap:8px;min-height:24px}
+.side img{width:20px;height:20px;object-fit:contain;flex:none}
+.side .noimg{width:20px;height:20px;flex:none}
+.tname{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:14px;font-weight:700}
+.tname .short{display:none}
+.side .at{color:var(--muted);font-size:12px;font-weight:700;margin-right:-4px}
+.score{flex:none;min-width:28px;text-align:right;font-size:15px;font-weight:900;font-variant-numeric:tabular-nums}
+.side.win .tname,.side.win .score{font-weight:900}
+.side.lose .tname,.side.lose .score{color:#64748b}
+.venue{font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:600px){
+  .container{padding:20px 12px 32px}h1{font-size:32px}
+  .filters{padding:10px}.modes{margin-left:0}
+  .seg .chip{padding:8px 11px}
+  #leagueSelect{flex:1}
+  .game{grid-template-columns:46px 78px minmax(0,1fr)}
+  .tname .full{display:none}.tname .short{display:inline}
+  .teams{padding-right:10px}
+  .day{flex-basis:66px}
+}
+@media(prefers-contrast:more){.chip,.day{border-color:#fff}}
+</style>
+<link rel="stylesheet" href="../theme.css" />
+</head>
+
+<body>
+<div class="container">
+
+<nav class="top-nav" aria-label="Roster Monitor" data-nav-root="../" data-nav-current="games">
+  <a class="nav-card" href="../">Sports Hub</a>
+  <a class="nav-card" href="../lookup/">Player Lookup</a>
+</nav>
+<script src="../nav.js"></script>
+
+<div class="games-main">
+<h1>Games</h1>
+<div class="subtitle">Scheduled, live and recent games for every monitored league. Times in <span class="tz-label">GMT</span>.</div>
+
+<div class="status-row"><div id="status" class="status" aria-live="polite">Loading games...</div><span class="tz-control"><label for="tzSelect">Time zone</label><select id="tzSelect" data-tz-select><option value="GMT">GMT</option><option value="EST">EST</option></select></span></div>
+
+<div class="filters" role="group" aria-label="Filters">
+  <div class="seg" id="sportFilter" role="group" aria-label="Sport"></div>
+  <select id="leagueSelect" aria-label="League"></select>
+  <div class="seg modes" role="group" aria-label="Show">
+    <button type="button" class="chip" id="modePinned" aria-pressed="false">★ My Games</button>
+    <button type="button" class="chip" id="modeLive" aria-pressed="false"><span class="live-dot" aria-hidden="true"></span>Live</button>
+  </div>
+</div>
+
+<div class="days" id="days">
+  <button type="button" class="daynav" id="dayPrev" aria-label="Previous day">‹</button>
+  <div class="day-list" id="dayList" role="group" aria-label="Date"></div>
+  <button type="button" class="daynav" id="dayNext" aria-label="Next day">›</button>
+</div>
+
+<div class="board" id="board" aria-live="off"><div class="board-note">Loading games...</div></div>
+</div>
+
+</div>
+
+<script>
+(function () {
+  'use strict'
+  var G = window.Games, GROUPS = (window.RosterNav && window.RosterNav.GROUPS) || [], T = window.RosterTime
+  var SHORT = { football: 'Football', basketball: 'Basketball', baseball: 'Baseball', hockey: 'Hockey' }
+  var state = { events: [], doc: null, sport: 'all', league: 'all', mode: 'all', day: null, pins: G.readPins(localStorage), loadError: null, lastLive: null, poll: null }
+  var perf = document.documentElement.dataset
+  function offset() { return T ? T.offsetMinutes() : 0 }
+  function now() { return Date.now() }
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined && text !== null) e.textContent = text; return e }
+
+  // ---------------------------------------------------------------- filters
+  function leaguesOf(sport) { var out = []; GROUPS.forEach(function (g) { if (sport === 'all' || g.id === sport) g.leagues.forEach(function (l) { out.push(l) }) }); return out }
+  function buildFilters() {
+    var seg = document.getElementById('sportFilter')
+    ;[{ id: 'all', label: 'All' }].concat(GROUPS.map(function (g) { return { id: g.id, label: SHORT[g.id] || g.label, title: g.label } })).forEach(function (s) {
+      var b = el('button', 'chip', s.label); b.type = 'button'; b.dataset.sport = s.id; if (s.title) b.title = s.title
+      b.addEventListener('click', function () { state.sport = s.id; if (state.league !== 'all' && !leaguesOf(s.id).some(function (l) { return l.key === state.league })) state.league = 'all'; update() })
+      seg.appendChild(b)
+    })
+    document.getElementById('leagueSelect').addEventListener('change', function (e) { state.league = e.target.value; update() })
+    document.getElementById('modePinned').addEventListener('click', function () { state.mode = state.mode === 'pinned' ? 'all' : 'pinned'; update() })
+    document.getElementById('modeLive').addEventListener('click', function () { state.mode = state.mode === 'live' ? 'all' : 'live'; update() })
+    document.getElementById('dayPrev').addEventListener('click', function () { stepDay(-1) })
+    document.getElementById('dayNext').addEventListener('click', function () { stepDay(1) })
+  }
+  function syncFilters() {
+    document.querySelectorAll('#sportFilter .chip').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.sport === state.sport)) })
+    var sel = document.getElementById('leagueSelect'), opts = leaguesOf(state.sport)
+    sel.textContent = ''
+    sel.appendChild(new Option(state.sport === 'all' ? 'All leagues' : 'All ' + (SHORT[state.sport] || '').toLowerCase() + ' leagues', 'all'))
+    opts.forEach(function (l) { sel.appendChild(new Option(l.label + ' · ' + l.name, l.key)) })
+    sel.value = state.league
+    document.getElementById('modePinned').setAttribute('aria-pressed', String(state.mode === 'pinned'))
+    document.getElementById('modeLive').setAttribute('aria-pressed', String(state.mode === 'live'))
+  }
+  function filterArgs() { return { day: state.day, offset: offset(), sport: state.sport, league: state.league, mode: state.mode, pins: state.pins, groups: GROUPS } }
+
+  // ---------------------------------------------------------------- days
+  function days() { return G.dayList(now(), offset()) }
+  function stepDay(n) { var d = days(), i = d.indexOf(state.day); if (i + n >= 0 && i + n < d.length) { state.day = d[i + n]; state.mode = 'all'; update() } }
+  function renderDays() {
+    var d = days(), today = G.dayKey(now(), offset()), list = document.getElementById('dayList'), counts = G.countsByDay(state.events, filterArgs(), d)
+    if (d.indexOf(state.day) < 0) state.day = today
+    list.textContent = ''
+    d.forEach(function (k) {
+      var p = G.dayParts(k), b = el('button', 'day' + (k === today ? ' today' : '')); b.type = 'button'; b.dataset.day = k
+      b.appendChild(el('b', null, k === today ? 'Today' : k === G.addDays(today, -1) ? 'Yesterday' : k === G.addDays(today, 1) ? 'Tomorrow' : p.weekday))
+      b.appendChild(el('span', null, p.day + ' ' + p.month))
+      b.appendChild(el('small', null, counts[k] + (counts[k] === 1 ? ' game' : ' games')))
+      b.setAttribute('aria-pressed', String(state.mode === 'all' && k === state.day))
+      b.setAttribute('aria-label', p.weekday + ' ' + p.day + ' ' + p.month + (k === today ? ', today' : '') + ', ' + counts[k] + ' games')
+      b.addEventListener('click', function () { state.day = k; state.mode = 'all'; update() })
+      list.appendChild(b)
+    })
+    var i = d.indexOf(state.day)
+    document.getElementById('dayPrev').disabled = i <= 0
+    document.getElementById('dayNext').disabled = i >= d.length - 1
+    var cur = list.querySelector('[aria-pressed="true"]'); if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: 'nearest', inline: 'nearest' })
+  }
+
+  // ---------------------------------------------------------------- rows
+  function statusCell(ev) {
+    var w = el('div', 'when'), sec = G.section(ev), st
+    if (sec === 'off') { w.classList.add('off'); st = el('div', 'st', ev.cancelled ? 'Cancelled' : 'Postponed') }
+    else if (sec === 'live') { w.classList.add('live'); st = el('div', 'st'); st.appendChild(el('span', 'live-dot')); st.lastChild.setAttribute('aria-hidden', 'true')
+      st.appendChild(document.createTextNode(ev.display || (ev.period ? 'P' + ev.period + (ev.clock ? ' ' + ev.clock : '') : 'Live'))) }
+    else if (sec === 'finished') st = el('div', 'st', ev.detail || 'Final')
+    else { st = el('div', 'st', G.timeLabel(ev.startMs, offset())); if (ev.delayed) { st.appendChild(document.createTextNode(' ')); st.appendChild(el('span', null, 'Delayed')) } }
+    w.appendChild(st); w.appendChild(el('span', 'lg', ev.league))
+    return w
+  }
+  function side(t, score, cls, sec, isHome, neutral) {
+    var s = el('div', 'side ' + cls)
+    if (t.logo) { var img = el('img'); img.src = t.logo; img.alt = ''; img.loading = 'lazy'; img.decoding = 'async'; img.width = 20; img.height = 20; s.appendChild(img) }
+    else s.appendChild(el('span', 'noimg'))
+    if (isHome) { var at = el('span', 'at', neutral ? 'vs' : '@'); at.title = neutral ? 'Neutral site' : 'Home team'; s.appendChild(at) }
+    var n = el('span', 'tname'); n.appendChild(el('span', 'full', t.name)); n.appendChild(el('span', 'short', t.shortName || t.name)); n.title = t.name + (isHome ? (neutral ? ' (neutral site, listed home)' : ' (home)') : ' (away)')
+    s.appendChild(n)
+    s.appendChild(el('span', 'score', sec === 'live' || sec === 'finished' ? (score === null ? '–' : String(score)) : ''))
+    return s
+  }
+  function row(ev) {
+    var pinned = !!state.pins[ev.eventId], sec = G.section(ev)
+    var r = el('div', 'game' + (pinned ? ' pinned' : '')); r.dataset.id = ev.eventId; r.setAttribute('role', 'listitem')
+    var pin = el('button', 'pin', pinned ? '★' : '☆'); pin.type = 'button'; pin.setAttribute('aria-pressed', String(pinned))
+    pin.setAttribute('aria-label', (pinned ? 'Unpin ' : 'Pin ') + ev.away.name + (ev.neutralSite ? ' vs ' : ' at ') + ev.home.name)
+    pin.addEventListener('click', function () { var t0 = performance.now(); state.pins = G.togglePin(state.pins, ev.eventId, now()); G.writePins(localStorage, state.pins); render(); perf.pinMs = (performance.now() - t0).toFixed(1); restartPolling() })
+    r.appendChild(pin); r.appendChild(statusCell(ev))
+    var teams = el('div', 'teams'), hs = ev.score.home, as = ev.score.away, done = sec === 'finished' && hs !== null && as !== null && hs !== as
+    teams.appendChild(side(ev.away, as, done ? (as > hs ? 'win' : 'lose') : '', sec, false, ev.neutralSite))
+    teams.appendChild(side(ev.home, hs, done ? (hs > as ? 'win' : 'lose') : '', sec, true, ev.neutralSite))
+    if (ev.neutralSite && ev.venue) teams.appendChild(el('div', 'venue', ev.venue))
+    r.appendChild(teams)
+    return r
+  }
+  var SEC_LABEL = { live: 'Live', upcoming: 'Upcoming', finished: 'Finished', off: 'Postponed / cancelled' }
+  function appendSections(box, rows) {
+    G.sections(rows).forEach(function (s) {
+      var h = el('div', 'sec-head ' + s.section); if (s.section === 'live') { var d = el('span', 'live-dot'); d.setAttribute('aria-hidden', 'true'); h.appendChild(d) }
+      h.appendChild(document.createTextNode(SEC_LABEL[s.section])); h.appendChild(el('span', 'n', '(' + s.events.length + ')'))
+      box.appendChild(h)
+      var list = el('div'); list.setAttribute('role', 'list'); list.setAttribute('aria-label', SEC_LABEL[s.section] + ' games')
+      s.events.forEach(function (ev) { list.appendChild(row(ev)) }); box.appendChild(list)
+    })
+  }
+  function render() {
+    var t0 = performance.now(), board = document.getElementById('board')
+    board.textContent = ''
+    if (state.loadError) { board.appendChild(el('div', 'board-note warn', state.loadError)); return }
+    var rows = G.select(state.events, filterArgs())
+    issueNote(board)
+    if (!rows.length) {
+      board.appendChild(el('div', 'board-note', state.mode === 'pinned' ? 'No pinned games in the loaded schedule. Tap ☆ on a game to pin it.' :
+        state.mode === 'live' ? 'No live games right now for these filters.' : 'No games for these filters on ' + dayLabel(state.day) + '.'))
+    } else if (state.mode === 'all') appendSections(board, rows)
+    else {                                   // My Games / Live: across the loaded days, grouped by day
+      var byDay = {}; rows.forEach(function (ev) { var k = G.dayKey(ev.startMs, offset()); (byDay[k] = byDay[k] || []).push(ev) })
+      Object.keys(byDay).sort().forEach(function (k) { board.appendChild(el('div', 'day-head', dayLabel(k))); appendSections(board, byDay[k]) })
+    }
+    perf.renderMs = (performance.now() - t0).toFixed(1); perf.rows = String(rows.length)
+  }
+  function dayLabel(k) { var p = G.dayParts(k), t = G.dayKey(now(), offset()); return (k === t ? 'Today · ' : '') + p.weekday + ' ' + p.day + ' ' + p.month }
+  function issueNote(board) {
+    var lg = (state.doc && state.doc.leagues) || {}, bad = Object.keys(lg).filter(function (k) { return lg[k].issueDates && lg[k].issueDates.length && (state.league === 'all' || state.league === k) })
+    if (bad.length) board.appendChild(el('div', 'board-note warn', 'Source issue: ' + bad.map(function (k) { return lg[k].label }).join(', ') + ' could not be fully refreshed at the last schedule check; the last known games are shown for those dates.'))
+  }
+
+  // ---------------------------------------------------------------- status line
+  function renderStatus() {
+    var s = document.getElementById('status'); s.textContent = ''
+    if (state.loadError) { s.textContent = 'Game data unavailable'; return }
+    if (!state.doc) { s.textContent = 'Loading games...'; return }
+    s.appendChild(document.createTextNode('Schedule updated: ' + (T ? T.format(state.doc.generatedAt) : state.doc.generatedAt)))
+    if (state.lastLive) s.appendChild(document.createTextNode(' · Live scores refreshed: ' + T.format(state.lastLive)))
+    var p = state.poller && G.plan(state.events, now(), state.pins), stale = p && state.poller.stale(now(), p)
+    if (stale && stale.length) { s.appendChild(document.createTextNode(' · ')); s.appendChild(el('span', 'stale', 'Live data may be stale (' + stale.map(function (k) { return k.toUpperCase() }).join(', ') + ')')) }
+  }
+
+  // ---------------------------------------------------------------- URL state
+  function syncUrl() {
+    var q = new URLSearchParams()
+    if (state.league !== 'all') q.set('league', state.league.toUpperCase()); else if (state.sport !== 'all') q.set('sport', state.sport)
+    if (state.mode !== 'all') q.set('filter', state.mode)
+    if (state.mode === 'all' && state.day && state.day !== G.dayKey(now(), offset())) q.set('date', state.day)
+    var s = q.toString(); history.replaceState(null, '', location.pathname + (s ? '?' + s : ''))
+  }
+  function update() { var t0 = performance.now(); syncFilters(); renderDays(); render(); syncUrl(); perf.filterMs = (performance.now() - t0).toFixed(1) }
+
+  // ---------------------------------------------------------------- live polling
+  function fetchJson(url) { return fetch(url, { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json() }) }
+  function restartPolling() { if (state.poller) state.poller.wake() }
+  function startPolling() {
+    state.poller = new G.Poller({
+      now: now, fetchJson: fetchJson, setTimer: function (f, ms) { return setTimeout(f, ms) }, clearTimer: function (h) { clearTimeout(h) },
+      hidden: function () { return document.visibilityState === 'hidden' }, events: function () { return state.events }, pins: function () { return state.pins },
+      onUpdate: function (info) {
+        var t0 = performance.now()
+        if (Object.keys(info.plan.leagues).length || info.changed) {
+          var anyOk = Object.keys(state.poller.leagueState).map(function (k) { return state.poller.leagueState[k].lastOk || 0 })
+          state.lastLive = Math.max.apply(null, [0].concat(anyOk)) || state.lastLive
+        }
+        if (info.changed) { renderDays(); render() }
+        renderStatus()
+        perf.mergeMs = (performance.now() - t0).toFixed(1); perf.liveRequests = String(state.poller.requests); perf.pollLeagues = Object.keys(info.plan.leagues).join(',')
+      }
+    })
+    state.poller.start()
+    document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'visible') state.poller.wake() })
+  }
+
+  // ---------------------------------------------------------------- start
+  buildFilters()
+  var q = G.parseQuery(location.search, GROUPS, days())
+  state.sport = q.sport; state.league = q.league; state.mode = q.mode; state.day = q.day || G.dayKey(now(), offset())
+  // the zone can change before the schedule has arrived (timezone.js applies the saved choice at start-up)
+  window.addEventListener('roster-timezone-change', function () { if (!state.doc && !state.loadError) return; var d = days(); if (d.indexOf(state.day) < 0) state.day = G.dayKey(now(), offset()); update(); renderStatus() })
+  window.addEventListener('storage', function (e) { if (e.key === G.PIN_KEY) { state.pins = G.readPins(localStorage); render() } })
+  var t0 = performance.now()
+  fetchJson('../data/events/upcoming.json?v=' + Date.now()).then(function (doc) {
+    state.doc = doc
+    var loaded = G.load(doc); state.events = loaded.events; perf.skipped = String(loaded.skipped); perf.events = String(loaded.events.length)
+    state.pins = G.prunePins(state.pins, state.events, now()); G.writePins(localStorage, state.pins)
+    update(); renderStatus(); perf.loadMs = (performance.now() - t0).toFixed(1); perf.ready = '1'
+    startPolling()
+  }).catch(function (err) {
+    state.loadError = navigator.onLine === false
+      ? "You're offline. Game schedules and live scores are never stored on this device, so they can't be shown until you're back online."
+      : 'The game schedule could not be loaded (' + String(err && err.message || err).slice(0, 80) + '). Nothing is shown rather than out-of-date games.'
+    update(); renderStatus(); perf.ready = 'error'
+  })
+})()
+</script>
+</body>
+</html>

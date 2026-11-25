@@ -14,7 +14,7 @@
  *   when a PDF is opened; it is cached network-first like other static files on first use.
  */
 const CACHE_PREFIX = 'roster-monitor-'
-const CACHE_NAME = CACHE_PREFIX + 'shell-v11'
+const CACHE_NAME = CACHE_PREFIX + 'shell-v12'
 const SCOPE_PATH = new URL('./', self.location.href).pathname
 const OFFLINE_PAGE = 'offline.html'
 
@@ -29,6 +29,8 @@ const SHELL = [
   'leagues/ncaab/',
   'lookup/',
   'lookup/player-lookup.js',
+  'events/',
+  'events/games.js',
   OFFLINE_PAGE,
   'pwa.js',
   'theme.css',

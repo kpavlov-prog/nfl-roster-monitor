@@ -219,9 +219,15 @@ h1{
   font-weight:900;
 }
 
-/* Player Lookup: a separate tool, not part of any sport */
-.lookup-card{
+/* Games and Player Lookup: separate tools, not part of any sport */
+.tool-grid{
   margin-top:18px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+}
+
+.lookup-card,.games-card{
   display:flex;
   align-items:center;
   gap:18px;
@@ -246,11 +252,21 @@ h1{
   background:linear-gradient(180deg,var(--blue),var(--purple));
 }
 
-.lookup-card:hover{
+.lookup-card:hover,.games-card:hover{
   border-color:#7c3aed;
 }
 
-.lookup-card .icon{
+.games-card:before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:7px;
+  height:100%;
+  background:linear-gradient(180deg,#e11d48,#7c3aed);
+}
+
+.lookup-card .icon,.games-card .icon{
   margin:0;
 }
 
@@ -258,12 +274,12 @@ h1{
   flex:1;
 }
 
-.lookup-card h2{
+.lookup-card h2,.games-card h2{
   margin:0;
   font-size:24px;
 }
 
-.lookup-card p{
+.lookup-card p,.games-card p{
   margin:6px 0 0;
   color:var(--muted);
   line-height:1.45;
@@ -284,12 +300,13 @@ h1{
 
 @media(max-width:1050px){
   .sport-grid{grid-template-columns:repeat(2,1fr)}
+  .tool-grid{grid-template-columns:1fr}
 }
 
 @media(max-width:650px){
   .sport-grid{grid-template-columns:1fr}
-  .lookup-card{flex-wrap:wrap;gap:12px}
-  .lookup-card .open{width:100%}
+  .lookup-card,.games-card{flex-wrap:wrap;gap:12px}
+  .lookup-card .open,.games-card .open{width:100%}
 }
 </style>
 </head>
@@ -355,6 +372,16 @@ h1{
     </section>
   </div>
 
+  <div class="tool-grid">
+  <a class="games-card" href="events/">
+    <div class="icon" aria-hidden="true">📅</div>
+    <div class="lookup-text">
+      <h2>Games</h2>
+      <p>Scheduled, live and recent games for all seven leagues, with live scores and pinned games.</p>
+    </div>
+    <div class="open">Open Games →</div>
+  </a>
+
   <a class="lookup-card" href="lookup/">
     <div class="icon" aria-hidden="true">🔎</div>
     <div class="lookup-text">
@@ -363,6 +390,7 @@ h1{
     </div>
     <div class="open">Open Player Lookup →</div>
   </a>
+  </div>
 
   <div class="footer">
     Powered by GitHub Actions, GitHub Pages, official roster sources, and permanent JSON history logs.
