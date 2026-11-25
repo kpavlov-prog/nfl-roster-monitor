@@ -1,5 +1,27 @@
 [
   {
+    "timestamp": "2026-11-25T19:31:19.555692+00:00",
+    "teamCode": "MER",
+    "teamName": "Mercer Bears",
+    "kind": "fetch_error",
+    "message": "Both ESPN roster APIs failed. Site API: 404 Client Error: Not Found for url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/2382/roster | Core API: core athlete list names 16 athletes but 2 could not be read (athlete ids: 5461498 (HTTPError: 404 Client Error: Not Found for url: htt), 5461501 (HTTPError: 404 Client Error: Not Found for url: htt)); incomplete roster not used",
+    "previousCount": 0,
+    "fetchedCount": null,
+    "lastSuccessfulCheckedAt": "",
+    "source": "ESPN Men's College Basketball API"
+  },
+  {
+    "timestamp": "2026-11-25T19:31:09.667013+00:00",
+    "teamCode": "UL",
+    "teamName": "Louisiana Ragin' Cajuns",
+    "kind": "fetch_error",
+    "message": "Both ESPN roster APIs failed. Site API: 404 Client Error: Not Found for url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/309/roster | Core API: core athlete list names 17 athletes but 1 could not be read (athlete ids: 5460929 (HTTPError: 404 Client Error: Not Found for url: htt)); incomplete roster not used",
+    "previousCount": 0,
+    "fetchedCount": null,
+    "lastSuccessfulCheckedAt": "",
+    "source": "ESPN Men's College Basketball API"
+  },
+  {
     "timestamp": "2026-11-24T12:13:48.341856+00:00",
     "teamCode": "MER",
     "teamName": "Mercer Bears",
