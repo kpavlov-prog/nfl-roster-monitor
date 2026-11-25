@@ -1,0 +1,3398 @@
+{
+ "league": "NCAAF",
+ "leagueKey": "ncaaf",
+ "sport": "football",
+ "source": "ESPN",
+ "window": {
+  "fromUTC": "2026-11-24T00:00:00Z",
+  "toUTC": "2026-12-03T05:00:00Z"
+ },
+ "dates": {
+  "20261123": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 0,
+   "skipped": 0
+  },
+  "20261124": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 2,
+   "skipped": 0
+  },
+  "20261125": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 0,
+   "skipped": 0
+  },
+  "20261126": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 1,
+   "skipped": 0
+  },
+  "20261127": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 13,
+   "skipped": 0
+  },
+  "20261128": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 53,
+   "skipped": 0
+  },
+  "20261129": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 0,
+   "skipped": 0
+  },
+  "20261130": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 0,
+   "skipped": 0
+  },
+  "20261201": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 0,
+   "skipped": 0
+  },
+  "20261202": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 0,
+   "skipped": 0
+  }
+ },
+ "eventCount": 69,
+ "events": [
+  {
+   "eventId": "401866470",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-25T00:00:00Z",
+   "espnDate": "20261124",
+   "homeTeam": {
+    "id": "2199",
+    "code": "EMU",
+    "name": "Eastern Michigan Eagles",
+    "shortName": "E Michigan",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2309",
+    "code": "KENT",
+    "name": "Kent State Golden Flashes",
+    "shortName": "Kent State",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
+    "monitored": true
+   },
+   "venue": "Rynearson Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": 17,
+    "away": 12
+   },
+   "gameState": {
+    "period": 4,
+    "clock": null,
+    "display": "Final"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401866471",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-25T00:00:00Z",
+   "espnDate": "20261124",
+   "homeTeam": {
+    "id": "2711",
+    "code": "WMU",
+    "name": "Western Michigan Broncos",
+    "shortName": "W Michigan",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "193",
+    "code": "M-OH",
+    "name": "Miami (OH) RedHawks",
+    "shortName": "Miami OH",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+    "monitored": true
+   },
+   "venue": "Waldo Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": 24,
+    "away": 28
+   },
+   "gameState": {
+    "period": 4,
+    "clock": null,
+    "display": "Final"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401856879",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-27T01:00:00Z",
+   "espnDate": "20261126",
+   "homeTeam": {
+    "id": "2641",
+    "code": "TTU",
+    "name": "Texas Tech Red Raiders",
+    "shortName": "Texas Tech",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2628",
+    "code": "TCU",
+    "name": "TCU Horned Frogs",
+    "shortName": "TCU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+    "monitored": true
+   },
+   "venue": "Galaxy Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/26 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/26 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401856762",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-27T17:00:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "145",
+    "code": "MISS",
+    "name": "Ole Miss Rebels",
+    "shortName": "Ole Miss",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "344",
+    "code": "MSST",
+    "name": "Mississippi State Bulldogs",
+    "shortName": "Mississippi St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+    "monitored": true
+   },
+   "venue": "Vaught-Hemingway Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 12:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 12:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401858536",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-27T17:00:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "2294",
+    "code": "IOWA",
+    "name": "Iowa Hawkeyes",
+    "shortName": "Iowa",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "158",
+    "code": "NEB",
+    "name": "Nebraska Cornhuskers",
+    "shortName": "Nebraska",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+    "monitored": true
+   },
+   "venue": "Kinnick Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 12:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 12:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401862840",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-27T17:00:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "2636",
+    "code": "UTSA",
+    "name": "UTSA Roadrunners",
+    "shortName": "UTSA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "202",
+    "code": "TLSA",
+    "name": "Tulsa Golden Hurricane",
+    "shortName": "Tulsa",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
+    "monitored": true
+   },
+   "venue": "Alamodome",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 12:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 12:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401866472",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-27T17:00:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "2006",
+    "code": "AKR",
+    "name": "Akron Zips",
+    "shortName": "Akron",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2084",
+    "code": "BUFF",
+    "name": "Buffalo Bulls",
+    "shortName": "Buffalo",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
+    "monitored": true
+   },
+   "venue": "InfoCision Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 12:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 12:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401866473",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-27T17:00:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "195",
+    "code": "OHIO",
+    "name": "Ohio Bobcats",
+    "shortName": "Ohio",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2649",
+    "code": "TOL",
+    "name": "Toledo Rockets",
+    "shortName": "Toledo",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+    "monitored": true
+   },
+   "venue": "Peden Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 12:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 12:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401869930",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-27T20:00:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "6",
+    "code": "USA",
+    "name": "South Alabama Jaguars",
+    "shortName": "South Alabama",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2026",
+    "code": "APP",
+    "name": "App State Mountaineers",
+    "shortName": "App State",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
+    "monitored": true
+   },
+   "venue": "Hancock Whitney Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 3:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 3:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401856759",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-27T20:30:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "52",
+    "code": "FSU",
+    "name": "Florida State Seminoles",
+    "shortName": "Florida St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "57",
+    "code": "FLA",
+    "name": "Florida Gators",
+    "shortName": "Florida",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+    "monitored": true
+   },
+   "venue": "Doak Campbell Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 3:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 3:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401862838",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-27T20:30:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "235",
+    "code": "MEM",
+    "name": "Memphis Tigers",
+    "shortName": "Memphis",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "218",
+    "code": "TEM",
+    "name": "Temple Owls",
+    "shortName": "Temple",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
+    "monitored": true
+   },
+   "venue": "Simmons Bank Liberty Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 3:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 3:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401864549",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-27T20:30:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "23",
+    "code": "SJSU",
+    "name": "San José State Spartans",
+    "shortName": "San José St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2449",
+    "code": "NDSU",
+    "name": "North Dakota State Bison",
+    "shortName": "N Dakota St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+    "monitored": true
+   },
+   "venue": "CEFCU Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 3:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 3:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401864546",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-27T21:30:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "167",
+    "code": "UNM",
+    "name": "New Mexico Lobos",
+    "shortName": "New Mexico",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2005",
+    "code": "AFA",
+    "name": "Air Force Falcons",
+    "shortName": "Air Force",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+    "monitored": true
+   },
+   "venue": "University Stadium (NM)",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 4:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 4:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401856756",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T00:30:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "245",
+    "code": "TA&M",
+    "name": "Texas A&M Aggies",
+    "shortName": "Texas A&M",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "251",
+    "code": "TEX",
+    "name": "Texas Longhorns",
+    "shortName": "Texas",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+    "monitored": true
+   },
+   "venue": "Kyle Field",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 7:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 7:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401858544",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T00:30:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "275",
+    "code": "WIS",
+    "name": "Wisconsin Badgers",
+    "shortName": "Wisconsin",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "135",
+    "code": "MINN",
+    "name": "Minnesota Golden Gophers",
+    "shortName": "Minnesota",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
+    "monitored": true
+   },
+   "venue": "Camp Randall Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 7:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 7:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401856880",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T02:00:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "254",
+    "code": "UTAH",
+    "name": "Utah Utes",
+    "shortName": "Utah",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "277",
+    "code": "WVU",
+    "name": "West Virginia Mountaineers",
+    "shortName": "West Virginia",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+    "monitored": true
+   },
+   "venue": "Rice-Eccles Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 9:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 9:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401856761",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T17:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "96",
+    "code": "UK",
+    "name": "Kentucky Wildcats",
+    "shortName": "Kentucky",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "97",
+    "code": "LOU",
+    "name": "Louisville Cardinals",
+    "shortName": "Louisville",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+    "monitored": true
+   },
+   "venue": "Kroger Field",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 12:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 12:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401858311",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T17:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "2390",
+    "code": "MIA",
+    "name": "Miami Hurricanes",
+    "shortName": "Miami",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "103",
+    "code": "BC",
+    "name": "Boston College Eagles",
+    "shortName": "Boston College",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+    "monitored": true
+   },
+   "venue": "Hard Rock Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 12:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 12:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401858313",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T17:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "153",
+    "code": "UNC",
+    "name": "North Carolina Tar Heels",
+    "shortName": "North Carolina",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "152",
+    "code": "NCSU",
+    "name": "NC State Wolfpack",
+    "shortName": "NC State",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+    "monitored": true
+   },
+   "venue": "Kenan Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 12:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 12:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401858314",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T17:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "183",
+    "code": "SYR",
+    "name": "Syracuse Orange",
+    "shortName": "Syracuse",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "87",
+    "code": "ND",
+    "name": "Notre Dame Fighting Irish",
+    "shortName": "Notre Dame",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+    "monitored": true
+   },
+   "venue": "JMA Wireless Dome",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 12:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 12:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401858540",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T17:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "194",
+    "code": "OSU",
+    "name": "Ohio State Buckeyes",
+    "shortName": "Ohio State",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "130",
+    "code": "MICH",
+    "name": "Michigan Wolverines",
+    "shortName": "Michigan",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+    "monitored": true
+   },
+   "venue": "Ohio Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 12:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 12:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401861969",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T17:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "2751",
+    "code": "WYO",
+    "name": "Wyoming Cowboys",
+    "shortName": "Wyoming",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "41",
+    "code": "CONN",
+    "name": "UConn Huskies",
+    "shortName": "UConn",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+    "monitored": true
+   },
+   "venue": "War Memorial Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 12:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 12:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401862842",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T17:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "2429",
+    "code": "CLT",
+    "name": "Charlotte 49ers",
+    "shortName": "Charlotte",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2426",
+    "code": "NAVY",
+    "name": "Navy Midshipmen",
+    "shortName": "Navy",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+    "monitored": true
+   },
+   "venue": "Jerry Richardson Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 12:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 12:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401866474",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T17:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "2050",
+    "code": "BALL",
+    "name": "Ball State Cardinals",
+    "shortName": "Ball State",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2117",
+    "code": "CMU",
+    "name": "Central Michigan Chippewas",
+    "shortName": "C Michigan",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
+    "monitored": true
+   },
+   "venue": "Scheumann Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 12:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 12:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401869954",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T17:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "290",
+    "code": "GASO",
+    "name": "Georgia Southern Eagles",
+    "shortName": "GA Southern",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2348",
+    "code": "LT",
+    "name": "Louisiana Tech Bulldogs",
+    "shortName": "Louisiana Tech",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
+    "monitored": true
+   },
+   "venue": "Allen E. Paulson Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 12:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 12:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401858537",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T17:30:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "77",
+    "code": "NU",
+    "name": "Northwestern Wildcats",
+    "shortName": "Northwestern",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "356",
+    "code": "ILL",
+    "name": "Illinois Fighting Illini",
+    "shortName": "Illinois",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
+    "monitored": true
+   },
+   "venue": "Ryan Field",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 12:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 12:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401856758",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T17:45:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "8",
+    "code": "ARK",
+    "name": "Arkansas Razorbacks",
+    "shortName": "Arkansas",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "99",
+    "code": "LSU",
+    "name": "LSU Tigers",
+    "shortName": "LSU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+    "monitored": true
+   },
+   "venue": "Donald W. Reynolds Razorback Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 12:45 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 12:45 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401862837",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T18:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "151",
+    "code": "ECU",
+    "name": "East Carolina Pirates",
+    "shortName": "East Carolina",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2226",
+    "code": "FAU",
+    "name": "Florida Atlantic Owls",
+    "shortName": "FAU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png",
+    "monitored": true
+   },
+   "venue": "Dowdy-Ficklen Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 1:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 1:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401870804",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T18:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "98",
+    "code": "WKU",
+    "name": "Western Kentucky Hilltoppers",
+    "shortName": "Western KY",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/98.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "338",
+    "code": "KENN",
+    "name": "Kennesaw State Owls",
+    "shortName": "Kennesaw St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
+    "monitored": true
+   },
+   "venue": "Houchens Industries-L.T. Smith Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 1:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 1:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401871102",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T18:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "2433",
+    "code": "ULM",
+    "name": "UL Monroe Warhawks",
+    "shortName": "UL Monroe",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "276",
+    "code": "MRSH",
+    "name": "Marshall Thundering Herd",
+    "shortName": "Marshall",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+    "monitored": true
+   },
+   "venue": "Malone Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 1:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 1:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401871103",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T18:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "295",
+    "code": "ODU",
+    "name": "Old Dominion Monarchs",
+    "shortName": "Old Dominion",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2572",
+    "code": "USM",
+    "name": "Southern Miss Golden Eagles",
+    "shortName": "Southern Miss",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+    "monitored": true
+   },
+   "venue": "S.B. Ballard Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 1:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 1:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401856875",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T19:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "38",
+    "code": "COLO",
+    "name": "Colorado Buffaloes",
+    "shortName": "Colorado",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2116",
+    "code": "UCF",
+    "name": "UCF Knights",
+    "shortName": "UCF",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
+    "monitored": true
+   },
+   "venue": "Folsom Field",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 2:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 2:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401856878",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T19:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "66",
+    "code": "ISU",
+    "name": "Iowa State Cyclones",
+    "shortName": "Iowa State",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2306",
+    "code": "KSU",
+    "name": "Kansas State Wildcats",
+    "shortName": "Kansas St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+    "monitored": true
+   },
+   "venue": "Jack Trice Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 2:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 2:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401862841",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T19:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "242",
+    "code": "RICE",
+    "name": "Rice Owls",
+    "shortName": "Rice",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "349",
+    "code": "ARMY",
+    "name": "Army Black Knights",
+    "shortName": "Army",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+    "monitored": true
+   },
+   "venue": "First Community Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 2:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 2:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401869947",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T19:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "256",
+    "code": "JMU",
+    "name": "James Madison Dukes",
+    "shortName": "James Madison",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "324",
+    "code": "CCU",
+    "name": "Coastal Carolina Chanticleers",
+    "shortName": "Coastal",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+    "monitored": true
+   },
+   "venue": "Bridgeforth Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 2:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 2:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401869959",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T19:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "2247",
+    "code": "GAST",
+    "name": "Georgia State Panthers",
+    "shortName": "Georgia St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "309",
+    "code": "UL",
+    "name": "Louisiana Ragin' Cajuns",
+    "shortName": "Louisiana",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+    "monitored": true
+   },
+   "venue": "Center Parc Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 2:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 2:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401871063",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T19:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "2623",
+    "code": "MOST",
+    "name": "Missouri State Bears",
+    "shortName": "Missouri St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2335",
+    "code": "LIB",
+    "name": "Liberty Flames",
+    "shortName": "Liberty",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+    "monitored": true
+   },
+   "venue": "Robert W. Plaster Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 2:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 2:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401871082",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T19:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "2229",
+    "code": "FIU",
+    "name": "Florida International Panthers",
+    "shortName": "FIU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2534",
+    "code": "SHSU",
+    "name": "Sam Houston Bearkats",
+    "shortName": "Sam Houston",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
+    "monitored": true
+   },
+   "venue": "Pitbull Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 2:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 2:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401871083",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T19:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "2393",
+    "code": "MTSU",
+    "name": "Middle Tennessee Blue Raiders",
+    "shortName": "MTSU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "166",
+    "code": "NMSU",
+    "name": "New Mexico State Aggies",
+    "shortName": "New Mexico St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
+    "monitored": true
+   },
+   "venue": "Johnny \"Red\" Floyd Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 2:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 2:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401856764",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T20:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "228",
+    "code": "CLEM",
+    "name": "Clemson Tigers",
+    "shortName": "Clemson",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2579",
+    "code": "SC",
+    "name": "South Carolina Gamecocks",
+    "shortName": "South Carolina",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+    "monitored": true
+   },
+   "venue": "Memorial Stadium (Clemson, SC)",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 3:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 3:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401858317",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T20:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "259",
+    "code": "VT",
+    "name": "Virginia Tech Hokies",
+    "shortName": "Virginia Tech",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "258",
+    "code": "UVA",
+    "name": "Virginia Cavaliers",
+    "shortName": "Virginia",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+    "monitored": true
+   },
+   "venue": "Lane Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 3:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 3:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401869939",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T20:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "2032",
+    "code": "ARST",
+    "name": "Arkansas State Red Wolves",
+    "shortName": "Arkansas St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2653",
+    "code": "TROY",
+    "name": "Troy Trojans",
+    "shortName": "Troy",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+    "monitored": true
+   },
+   "venue": "Centennial Bank Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 3:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 3:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401856760",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T20:30:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "61",
+    "code": "UGA",
+    "name": "Georgia Bulldogs",
+    "shortName": "Georgia",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "59",
+    "code": "GT",
+    "name": "Georgia Tech Yellow Jackets",
+    "shortName": "Georgia Tech",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+    "monitored": true
+   },
+   "venue": "Sanford Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 3:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 3:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401856876",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T20:30:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "252",
+    "code": "BYU",
+    "name": "BYU Cougars",
+    "shortName": "BYU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2132",
+    "code": "CIN",
+    "name": "Cincinnati Bearcats",
+    "shortName": "Cincinnati",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
+    "monitored": true
+   },
+   "venue": "LaVell Edwards Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 3:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 3:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401858312",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T20:30:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "154",
+    "code": "WAKE",
+    "name": "Wake Forest Demon Deacons",
+    "shortName": "Wake Forest",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "150",
+    "code": "DUKE",
+    "name": "Duke Blue Devils",
+    "shortName": "Duke",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+    "monitored": true
+   },
+   "venue": "Allegacy Federal Credit Union Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 3:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 3:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401858316",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T20:30:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "24",
+    "code": "STAN",
+    "name": "Stanford Cardinal",
+    "shortName": "Stanford",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2567",
+    "code": "SMU",
+    "name": "SMU Mustangs",
+    "shortName": "SMU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+    "monitored": true
+   },
+   "venue": "Stanford Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 3:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 3:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401858539",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T20:30:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "120",
+    "code": "MD",
+    "name": "Maryland Terrapins",
+    "shortName": "Maryland",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "213",
+    "code": "PSU",
+    "name": "Penn State Nittany Lions",
+    "shortName": "Penn State",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
+    "monitored": true
+   },
+   "venue": "SECU Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 3:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 3:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401858543",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T20:30:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "26",
+    "code": "UCLA",
+    "name": "UCLA Bruins",
+    "shortName": "UCLA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "30",
+    "code": "USC",
+    "name": "USC Trojans",
+    "shortName": "USC",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+    "monitored": true
+   },
+   "venue": "Rose Bowl",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 3:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 3:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401862839",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T20:30:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "58",
+    "code": "USF",
+    "name": "South Florida Bulls",
+    "shortName": "South Florida",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2655",
+    "code": "TULN",
+    "name": "Tulane Green Wave",
+    "shortName": "Tulane",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+    "monitored": true
+   },
+   "venue": "Raymond James Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 3:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 3:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401864550",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T20:30:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "2459",
+    "code": "NIU",
+    "name": "Northern Illinois Huskies",
+    "shortName": "N Illinois",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2638",
+    "code": "UTEP",
+    "name": "UTEP Miners",
+    "shortName": "UTEP",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
+    "monitored": true
+   },
+   "venue": "Huskie Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 3:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 3:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401866475",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T20:30:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "189",
+    "code": "BGSU",
+    "name": "Bowling Green Falcons",
+    "shortName": "Bowling Green",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "113",
+    "code": "MASS",
+    "name": "Massachusetts Minutemen",
+    "shortName": "UMass",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
+    "monitored": true
+   },
+   "venue": "Doyt L. Perry Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 3:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 3:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401871062",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T20:30:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "48",
+    "code": "DEL",
+    "name": "Delaware Blue Hens",
+    "shortName": "Delaware",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "55",
+    "code": "JXST",
+    "name": "Jacksonville State Gamecocks",
+    "shortName": "Jax State",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+    "monitored": true
+   },
+   "venue": "Delaware Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 3:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 3:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401862843",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T21:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "249",
+    "code": "UNT",
+    "name": "North Texas Mean Green",
+    "shortName": "North Texas",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "5",
+    "code": "UAB",
+    "name": "UAB Blazers",
+    "shortName": "UAB",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
+    "monitored": true
+   },
+   "venue": "DATCU Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 4:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 4:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401856763",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T21:15:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "142",
+    "code": "MIZ",
+    "name": "Missouri Tigers",
+    "shortName": "Missouri",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "201",
+    "code": "OU",
+    "name": "Oklahoma Sooners",
+    "shortName": "Oklahoma",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+    "monitored": true
+   },
+   "venue": "Memorial Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 4:15 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 4:15 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401858542",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T21:15:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "164",
+    "code": "RUTG",
+    "name": "Rutgers Scarlet Knights",
+    "shortName": "Rutgers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "127",
+    "code": "MSU",
+    "name": "Michigan State Spartans",
+    "shortName": "Michigan St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+    "monitored": true
+   },
+   "venue": "SHI Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 4:15 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 4:15 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401860926",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T23:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "36",
+    "code": "CSU",
+    "name": "Colorado State Rams",
+    "shortName": "Colorado St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "68",
+    "code": "BOIS",
+    "name": "Boise State Broncos",
+    "shortName": "Boise St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+    "monitored": true
+   },
+   "venue": "Canvas Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 6:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 6:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401856877",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T23:15:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "197",
+    "code": "OKST",
+    "name": "Oklahoma State Cowboys",
+    "shortName": "Oklahoma St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2305",
+    "code": "KU",
+    "name": "Kansas Jayhawks",
+    "shortName": "Kansas",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+    "monitored": true
+   },
+   "venue": "Boone Pickens Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 6:15 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 6:15 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401860929",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-28T23:30:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "265",
+    "code": "WSU",
+    "name": "Washington State Cougars",
+    "shortName": "Washington St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "21",
+    "code": "SDSU",
+    "name": "San Diego State Aztecs",
+    "shortName": "San Diego St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
+    "monitored": true
+   },
+   "venue": "Martin Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 6:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 6:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401856765",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-29T00:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "238",
+    "code": "VAN",
+    "name": "Vanderbilt Commodores",
+    "shortName": "Vanderbilt",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2633",
+    "code": "TENN",
+    "name": "Tennessee Volunteers",
+    "shortName": "Tennessee",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+    "monitored": true
+   },
+   "venue": "FirstBank Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401858538",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-29T00:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "84",
+    "code": "IU",
+    "name": "Indiana Hoosiers",
+    "shortName": "Indiana",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2509",
+    "code": "PUR",
+    "name": "Purdue Boilermakers",
+    "shortName": "Purdue",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
+    "monitored": true
+   },
+   "venue": "Memorial Stadium (Bloomington, IN)",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401856757",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-29T00:30:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "333",
+    "code": "ALA",
+    "name": "Alabama Crimson Tide",
+    "shortName": "Alabama",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2",
+    "code": "AUB",
+    "name": "Auburn Tigers",
+    "shortName": "Auburn",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+    "monitored": true
+   },
+   "venue": "Bryant-Denny Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 7:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 7:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401858315",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-29T00:30:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "25",
+    "code": "CAL",
+    "name": "California Golden Bears",
+    "shortName": "California",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "221",
+    "code": "PITT",
+    "name": "Pittsburgh Panthers",
+    "shortName": "Pitt",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
+    "monitored": true
+   },
+   "venue": "California Memorial Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 7:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 7:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401858541",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-29T00:30:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "2483",
+    "code": "ORE",
+    "name": "Oregon Ducks",
+    "shortName": "Oregon",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "264",
+    "code": "WASH",
+    "name": "Washington Huskies",
+    "shortName": "Washington",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
+    "monitored": true
+   },
+   "venue": "Autzen Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 7:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 7:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401856873",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-29T02:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "12",
+    "code": "ARIZ",
+    "name": "Arizona Wildcats",
+    "shortName": "Arizona",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "9",
+    "code": "ASU",
+    "name": "Arizona State Sun Devils",
+    "shortName": "Arizona St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
+    "monitored": true
+   },
+   "venue": "Casino Del Sol Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 9:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 9:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401864548",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-29T02:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "2439",
+    "code": "UNLV",
+    "name": "UNLV Rebels",
+    "shortName": "UNLV",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2440",
+    "code": "NEV",
+    "name": "Nevada Wolf Pack",
+    "shortName": "Nevada",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
+    "monitored": true
+   },
+   "venue": "Allegiant Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 9:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 9:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401856874",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-29T02:30:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "248",
+    "code": "HOU",
+    "name": "Houston Cougars",
+    "shortName": "Houston",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "239",
+    "code": "BAY",
+    "name": "Baylor Bears",
+    "shortName": "Baylor",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+    "monitored": true
+   },
+   "venue": "TDECU Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 9:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 9:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401860928",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-29T02:30:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "328",
+    "code": "USU",
+    "name": "Utah State Aggies",
+    "shortName": "Utah State",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "326",
+    "code": "TXST",
+    "name": "Texas State Bobcats",
+    "shortName": "Texas St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
+    "monitored": true
+   },
+   "venue": "Maverik Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 9:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 9:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401860927",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-29T03:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "278",
+    "code": "FRES",
+    "name": "Fresno State Bulldogs",
+    "shortName": "Fresno St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "204",
+    "code": "ORST",
+    "name": "Oregon State Beavers",
+    "shortName": "Oregon St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
+    "monitored": true
+   },
+   "venue": "Valley Children's Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 10:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 10:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401864547",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-11-29T04:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "62",
+    "code": "HAW",
+    "name": "Hawai'i Rainbow Warriors",
+    "shortName": "Hawai'i",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "16",
+    "code": "SAC",
+    "name": "Sacramento State Hornets",
+    "shortName": "Sacramento St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
+    "monitored": true
+   },
+   "venue": "Clarence T.C. Ching Athletics Complex",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 11:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 11:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 13,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  }
+ ],
+ "generatedAt": "2026-11-25T16:03:26Z"
+}

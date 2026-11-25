@@ -1,0 +1,3542 @@
+{
+ "league": "NBA",
+ "leagueKey": "nba",
+ "sport": "basketball",
+ "source": "ESPN",
+ "window": {
+  "fromUTC": "2026-11-24T00:00:00Z",
+  "toUTC": "2026-12-03T05:00:00Z"
+ },
+ "dates": {
+  "20261123": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 10,
+   "skipped": 0
+  },
+  "20261124": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 3,
+   "skipped": 0
+  },
+  "20261125": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 9,
+   "skipped": 0
+  },
+  "20261126": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 0,
+   "skipped": 0
+  },
+  "20261127": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 11,
+   "skipped": 0
+  },
+  "20261128": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 5,
+   "skipped": 0
+  },
+  "20261129": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 10,
+   "skipped": 0
+  },
+  "20261130": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 7,
+   "skipped": 0
+  },
+  "20261201": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 8,
+   "skipped": 0
+  },
+  "20261202": {
+   "status": "ok",
+   "checkedAt": "2026-11-25T16:03:26Z",
+   "lastSuccessAt": "2026-11-25T16:03:26Z",
+   "events": 9,
+   "skipped": 0
+  }
+ },
+ "eventCount": 72,
+ "events": [
+  {
+   "eventId": "401910036",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-24T00:00:00Z",
+   "espnDate": "20261123",
+   "homeTeam": {
+    "id": "30",
+    "code": "CHA",
+    "name": "Charlotte Hornets",
+    "shortName": "Hornets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "29",
+    "code": "MEM",
+    "name": "Memphis Grizzlies",
+    "shortName": "Grizzlies",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+    "monitored": true
+   },
+   "venue": "Spectrum Center",
+   "neutralSite": false,
+   "status": {
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": 111,
+    "away": 117
+   },
+   "gameState": {
+    "period": 4,
+    "clock": null,
+    "display": "Final"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910037",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-24T00:00:00Z",
+   "espnDate": "20261123",
+   "homeTeam": {
+    "id": "20",
+    "code": "PHI",
+    "name": "Philadelphia 76ers",
+    "shortName": "76ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "22",
+    "code": "POR",
+    "name": "Portland Trail Blazers",
+    "shortName": "Trail Blazers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+    "monitored": true
+   },
+   "venue": "Xfinity Mobile Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": 111,
+    "away": 128
+   },
+   "gameState": {
+    "period": 4,
+    "clock": null,
+    "display": "Final"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910038",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-24T00:30:00Z",
+   "espnDate": "20261123",
+   "homeTeam": {
+    "id": "11",
+    "code": "IND",
+    "name": "Indiana Pacers",
+    "shortName": "Pacers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "25",
+    "code": "OKC",
+    "name": "Oklahoma City Thunder",
+    "shortName": "Thunder",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+    "monitored": true
+   },
+   "venue": "Gainbridge Fieldhouse",
+   "neutralSite": false,
+   "status": {
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": 125,
+    "away": 120
+   },
+   "gameState": {
+    "period": 4,
+    "clock": null,
+    "display": "Final"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910039",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-24T00:30:00Z",
+   "espnDate": "20261123",
+   "homeTeam": {
+    "id": "28",
+    "code": "TOR",
+    "name": "Toronto Raptors",
+    "shortName": "Raptors",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "15",
+    "code": "MIL",
+    "name": "Milwaukee Bucks",
+    "shortName": "Bucks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+    "monitored": true
+   },
+   "venue": "Scotiabank Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": 111,
+    "away": 116
+   },
+   "gameState": {
+    "period": 4,
+    "clock": null,
+    "display": "Final"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910040",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-24T00:30:00Z",
+   "espnDate": "20261123",
+   "homeTeam": {
+    "id": "16",
+    "code": "MIN",
+    "name": "Minnesota Timberwolves",
+    "shortName": "Timberwolves",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "17",
+    "code": "BKN",
+    "name": "Brooklyn Nets",
+    "shortName": "Nets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+    "monitored": true
+   },
+   "venue": "Target Center",
+   "neutralSite": false,
+   "status": {
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": 142,
+    "away": 116
+   },
+   "gameState": {
+    "period": 4,
+    "clock": null,
+    "display": "Final"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910041",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-24T01:00:00Z",
+   "espnDate": "20261123",
+   "homeTeam": {
+    "id": "4",
+    "code": "CHI",
+    "name": "Chicago Bulls",
+    "shortName": "Bulls",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "5",
+    "code": "CLE",
+    "name": "Cleveland Cavaliers",
+    "shortName": "Cavaliers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+    "monitored": true
+   },
+   "venue": "United Center",
+   "neutralSite": false,
+   "status": {
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": 122,
+    "away": 108
+   },
+   "gameState": {
+    "period": 4,
+    "clock": null,
+    "display": "Final"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910042",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-24T01:00:00Z",
+   "espnDate": "20261123",
+   "homeTeam": {
+    "id": "3",
+    "code": "NO",
+    "name": "New Orleans Pelicans",
+    "shortName": "Pelicans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "21",
+    "code": "PHX",
+    "name": "Phoenix Suns",
+    "shortName": "Suns",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+    "monitored": true
+   },
+   "venue": "Smoothie King Center",
+   "neutralSite": false,
+   "status": {
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final/OT",
+    "completed": true,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": 119,
+    "away": 123
+   },
+   "gameState": {
+    "period": 5,
+    "clock": null,
+    "display": "Final/OT"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910043",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-24T01:30:00Z",
+   "espnDate": "20261123",
+   "homeTeam": {
+    "id": "10",
+    "code": "HOU",
+    "name": "Houston Rockets",
+    "shortName": "Rockets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "12",
+    "code": "LAC",
+    "name": "LA Clippers",
+    "shortName": "Clippers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+    "monitored": true
+   },
+   "venue": "Toyota Center (Houston)",
+   "neutralSite": false,
+   "status": {
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": 116,
+    "away": 104
+   },
+   "gameState": {
+    "period": 4,
+    "clock": null,
+    "display": "Final"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910044",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-24T03:00:00Z",
+   "espnDate": "20261123",
+   "homeTeam": {
+    "id": "13",
+    "code": "LAL",
+    "name": "Los Angeles Lakers",
+    "shortName": "Lakers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "26",
+    "code": "UTAH",
+    "name": "Utah Jazz",
+    "shortName": "Jazz",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+    "monitored": true
+   },
+   "venue": "crypto.com Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": 109,
+    "away": 94
+   },
+   "gameState": {
+    "period": 4,
+    "clock": null,
+    "display": "Final"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910045",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-24T03:00:00Z",
+   "espnDate": "20261123",
+   "homeTeam": {
+    "id": "23",
+    "code": "SAC",
+    "name": "Sacramento Kings",
+    "shortName": "Kings",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "24",
+    "code": "SA",
+    "name": "San Antonio Spurs",
+    "shortName": "Spurs",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+    "monitored": true
+   },
+   "venue": "Golden 1 Center",
+   "neutralSite": false,
+   "status": {
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": 107,
+    "away": 123
+   },
+   "gameState": {
+    "period": 4,
+    "clock": null,
+    "display": "Final"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909314",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-25T00:00:00Z",
+   "espnDate": "20261124",
+   "homeTeam": {
+    "id": "19",
+    "code": "ORL",
+    "name": "Orlando Magic",
+    "shortName": "Magic",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "8",
+    "code": "DET",
+    "name": "Detroit Pistons",
+    "shortName": "Pistons",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+    "monitored": true
+   },
+   "venue": "Kia Center",
+   "neutralSite": false,
+   "status": {
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": 86,
+    "away": 104
+   },
+   "gameState": {
+    "period": 4,
+    "clock": null,
+    "display": "Final"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909315",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-25T01:00:00Z",
+   "espnDate": "20261124",
+   "homeTeam": {
+    "id": "27",
+    "code": "WSH",
+    "name": "Washington Wizards",
+    "shortName": "Wizards",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2",
+    "code": "BOS",
+    "name": "Boston Celtics",
+    "shortName": "Celtics",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+    "monitored": true
+   },
+   "venue": "Capital One Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": 116,
+    "away": 131
+   },
+   "gameState": {
+    "period": 4,
+    "clock": null,
+    "display": "Final"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909316",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-25T03:00:00Z",
+   "espnDate": "20261124",
+   "homeTeam": {
+    "id": "7",
+    "code": "DEN",
+    "name": "Denver Nuggets",
+    "shortName": "Nuggets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "6",
+    "code": "DAL",
+    "name": "Dallas Mavericks",
+    "shortName": "Mavericks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+    "monitored": true
+   },
+   "venue": "Ball Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": 101,
+    "away": 120
+   },
+   "gameState": {
+    "period": 4,
+    "clock": null,
+    "display": "Final"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909317",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-25T22:00:00Z",
+   "espnDate": "20261125",
+   "homeTeam": {
+    "id": "20",
+    "code": "PHI",
+    "name": "Philadelphia 76ers",
+    "shortName": "76ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "14",
+    "code": "MIA",
+    "name": "Miami Heat",
+    "shortName": "Heat",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+    "monitored": true
+   },
+   "venue": "Xfinity Mobile Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/25 - 5:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/25 - 5:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909318",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-26T00:00:00Z",
+   "espnDate": "20261125",
+   "homeTeam": {
+    "id": "30",
+    "code": "CHA",
+    "name": "Charlotte Hornets",
+    "shortName": "Hornets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "4",
+    "code": "CHI",
+    "name": "Chicago Bulls",
+    "shortName": "Bulls",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+    "monitored": true
+   },
+   "venue": "Spectrum Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/25 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/25 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909319",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-26T00:30:00Z",
+   "espnDate": "20261125",
+   "homeTeam": {
+    "id": "18",
+    "code": "NY",
+    "name": "New York Knicks",
+    "shortName": "Knicks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "5",
+    "code": "CLE",
+    "name": "Cleveland Cavaliers",
+    "shortName": "Cavaliers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+    "monitored": true
+   },
+   "venue": "Madison Square Garden",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/25 - 7:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/25 - 7:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909320",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-26T00:30:00Z",
+   "espnDate": "20261125",
+   "homeTeam": {
+    "id": "25",
+    "code": "OKC",
+    "name": "Oklahoma City Thunder",
+    "shortName": "Thunder",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "16",
+    "code": "MIN",
+    "name": "Minnesota Timberwolves",
+    "shortName": "Timberwolves",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+    "monitored": true
+   },
+   "venue": "Paycom Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/25 - 7:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/25 - 7:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909321",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-26T01:00:00Z",
+   "espnDate": "20261125",
+   "homeTeam": {
+    "id": "29",
+    "code": "MEM",
+    "name": "Memphis Grizzlies",
+    "shortName": "Grizzlies",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "12",
+    "code": "LAC",
+    "name": "LA Clippers",
+    "shortName": "Clippers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+    "monitored": true
+   },
+   "venue": "FedExForum",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/25 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/25 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909322",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-26T01:00:00Z",
+   "espnDate": "20261125",
+   "homeTeam": {
+    "id": "15",
+    "code": "MIL",
+    "name": "Milwaukee Bucks",
+    "shortName": "Bucks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "17",
+    "code": "BKN",
+    "name": "Brooklyn Nets",
+    "shortName": "Nets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+    "monitored": true
+   },
+   "venue": "Fiserv Forum",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/25 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/25 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909323",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-26T01:30:00Z",
+   "espnDate": "20261125",
+   "homeTeam": {
+    "id": "10",
+    "code": "HOU",
+    "name": "Houston Rockets",
+    "shortName": "Rockets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "21",
+    "code": "PHX",
+    "name": "Phoenix Suns",
+    "shortName": "Suns",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+    "monitored": true
+   },
+   "venue": "Toyota Center (Houston)",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/25 - 8:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/25 - 8:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909324",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-26T03:00:00Z",
+   "espnDate": "20261125",
+   "homeTeam": {
+    "id": "9",
+    "code": "GS",
+    "name": "Golden State Warriors",
+    "shortName": "Warriors",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "23",
+    "code": "SAC",
+    "name": "Sacramento Kings",
+    "shortName": "Kings",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+    "monitored": true
+   },
+   "venue": "Chase Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/25 - 10:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/25 - 10:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909325",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-26T03:00:00Z",
+   "espnDate": "20261125",
+   "homeTeam": {
+    "id": "22",
+    "code": "POR",
+    "name": "Portland Trail Blazers",
+    "shortName": "Trail Blazers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "24",
+    "code": "SA",
+    "name": "San Antonio Spurs",
+    "shortName": "Spurs",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+    "monitored": true
+   },
+   "venue": "Moda Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/25 - 10:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/25 - 10:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909326",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-28T00:00:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "18",
+    "code": "NY",
+    "name": "New York Knicks",
+    "shortName": "Knicks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "14",
+    "code": "MIA",
+    "name": "Miami Heat",
+    "shortName": "Heat",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+    "monitored": true
+   },
+   "venue": "Madison Square Garden",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909327",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-28T00:30:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "8",
+    "code": "DET",
+    "name": "Detroit Pistons",
+    "shortName": "Pistons",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "15",
+    "code": "MIL",
+    "name": "Milwaukee Bucks",
+    "shortName": "Bucks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+    "monitored": true
+   },
+   "venue": "Little Caesars Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 7:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 7:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909328",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-28T00:30:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "11",
+    "code": "IND",
+    "name": "Indiana Pacers",
+    "shortName": "Pacers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "20",
+    "code": "PHI",
+    "name": "Philadelphia 76ers",
+    "shortName": "76ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+    "monitored": true
+   },
+   "venue": "Gainbridge Fieldhouse",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 7:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 7:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909329",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-28T00:30:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "28",
+    "code": "TOR",
+    "name": "Toronto Raptors",
+    "shortName": "Raptors",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "17",
+    "code": "BKN",
+    "name": "Brooklyn Nets",
+    "shortName": "Nets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+    "monitored": true
+   },
+   "venue": "Scotiabank Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 7:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 7:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909330",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-28T01:00:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "2",
+    "code": "BOS",
+    "name": "Boston Celtics",
+    "shortName": "Celtics",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "1",
+    "code": "ATL",
+    "name": "Atlanta Hawks",
+    "shortName": "Hawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
+    "monitored": true
+   },
+   "venue": "TD Garden",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909331",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-28T01:30:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "16",
+    "code": "MIN",
+    "name": "Minnesota Timberwolves",
+    "shortName": "Timberwolves",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "29",
+    "code": "MEM",
+    "name": "Memphis Grizzlies",
+    "shortName": "Grizzlies",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+    "monitored": true
+   },
+   "venue": "Target Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 8:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 8:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909332",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-28T02:00:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "21",
+    "code": "PHX",
+    "name": "Phoenix Suns",
+    "shortName": "Suns",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "6",
+    "code": "DAL",
+    "name": "Dallas Mavericks",
+    "shortName": "Mavericks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+    "monitored": true
+   },
+   "venue": "Mortgage Matchup Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 9:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 9:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909333",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-28T02:30:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "24",
+    "code": "SA",
+    "name": "San Antonio Spurs",
+    "shortName": "Spurs",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "13",
+    "code": "LAL",
+    "name": "Los Angeles Lakers",
+    "shortName": "Lakers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+    "monitored": true
+   },
+   "venue": "Frost Bank Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 9:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 9:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909334",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-28T02:30:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "26",
+    "code": "UTAH",
+    "name": "Utah Jazz",
+    "shortName": "Jazz",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "7",
+    "code": "DEN",
+    "name": "Denver Nuggets",
+    "shortName": "Nuggets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+    "monitored": true
+   },
+   "venue": "Delta Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 9:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 9:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909335",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-28T02:30:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "12",
+    "code": "LAC",
+    "name": "LA Clippers",
+    "shortName": "Clippers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "3",
+    "code": "NO",
+    "name": "New Orleans Pelicans",
+    "shortName": "Pelicans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+    "monitored": true
+   },
+   "venue": "Intuit Dome",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 9:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 9:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401909336",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-28T02:30:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "22",
+    "code": "POR",
+    "name": "Portland Trail Blazers",
+    "shortName": "Trail Blazers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "9",
+    "code": "GS",
+    "name": "Golden State Warriors",
+    "shortName": "Warriors",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+    "monitored": true
+   },
+   "venue": "Moda Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 9:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 9:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910046",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-28T22:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "27",
+    "code": "WSH",
+    "name": "Washington Wizards",
+    "shortName": "Wizards",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "19",
+    "code": "ORL",
+    "name": "Orlando Magic",
+    "shortName": "Magic",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+    "monitored": true
+   },
+   "venue": "Capital One Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 5:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 5:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910047",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-28T23:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "30",
+    "code": "CHA",
+    "name": "Charlotte Hornets",
+    "shortName": "Hornets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "17",
+    "code": "BKN",
+    "name": "Brooklyn Nets",
+    "shortName": "Nets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+    "monitored": true
+   },
+   "venue": "Spectrum Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 6:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 6:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910048",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-29T01:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "4",
+    "code": "CHI",
+    "name": "Chicago Bulls",
+    "shortName": "Bulls",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "11",
+    "code": "IND",
+    "name": "Indiana Pacers",
+    "shortName": "Pacers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
+    "monitored": true
+   },
+   "venue": "United Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910049",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-29T01:00:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "15",
+    "code": "MIL",
+    "name": "Milwaukee Bucks",
+    "shortName": "Bucks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "25",
+    "code": "OKC",
+    "name": "Oklahoma City Thunder",
+    "shortName": "Thunder",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+    "monitored": true
+   },
+   "venue": "Fiserv Forum",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910050",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-29T01:30:00Z",
+   "espnDate": "20261128",
+   "homeTeam": {
+    "id": "10",
+    "code": "HOU",
+    "name": "Houston Rockets",
+    "shortName": "Rockets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "20",
+    "code": "PHI",
+    "name": "Philadelphia 76ers",
+    "shortName": "76ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+    "monitored": true
+   },
+   "venue": "Toyota Center (Houston)",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/28 - 8:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/28 - 8:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910054",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-29T20:30:00Z",
+   "espnDate": "20261129",
+   "homeTeam": {
+    "id": "5",
+    "code": "CLE",
+    "name": "Cleveland Cavaliers",
+    "shortName": "Cavaliers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "14",
+    "code": "MIA",
+    "name": "Miami Heat",
+    "shortName": "Heat",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+    "monitored": true
+   },
+   "venue": "Rocket Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/29 - 3:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/29 - 3:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910051",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-29T21:00:00Z",
+   "espnDate": "20261129",
+   "homeTeam": {
+    "id": "29",
+    "code": "MEM",
+    "name": "Memphis Grizzlies",
+    "shortName": "Grizzlies",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "13",
+    "code": "LAL",
+    "name": "Los Angeles Lakers",
+    "shortName": "Lakers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+    "monitored": true
+   },
+   "venue": "FedExForum",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/29 - 4:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/29 - 4:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910052",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-29T21:00:00Z",
+   "espnDate": "20261129",
+   "homeTeam": {
+    "id": "24",
+    "code": "SA",
+    "name": "San Antonio Spurs",
+    "shortName": "Spurs",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2",
+    "code": "BOS",
+    "name": "Boston Celtics",
+    "shortName": "Celtics",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+    "monitored": true
+   },
+   "venue": "Frost Bank Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/29 - 4:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/29 - 4:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910053",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-29T22:00:00Z",
+   "espnDate": "20261129",
+   "homeTeam": {
+    "id": "26",
+    "code": "UTAH",
+    "name": "Utah Jazz",
+    "shortName": "Jazz",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "21",
+    "code": "PHX",
+    "name": "Phoenix Suns",
+    "shortName": "Suns",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+    "monitored": true
+   },
+   "venue": "Delta Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/29 - 5:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/29 - 5:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910055",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-29T23:00:00Z",
+   "espnDate": "20261129",
+   "homeTeam": {
+    "id": "8",
+    "code": "DET",
+    "name": "Detroit Pistons",
+    "shortName": "Pistons",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "19",
+    "code": "ORL",
+    "name": "Orlando Magic",
+    "shortName": "Magic",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+    "monitored": true
+   },
+   "venue": "Little Caesars Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/29 - 6:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/29 - 6:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910056",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-29T23:00:00Z",
+   "espnDate": "20261129",
+   "homeTeam": {
+    "id": "18",
+    "code": "NY",
+    "name": "New York Knicks",
+    "shortName": "Knicks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "1",
+    "code": "ATL",
+    "name": "Atlanta Hawks",
+    "shortName": "Hawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
+    "monitored": true
+   },
+   "venue": "Madison Square Garden",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/29 - 6:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/29 - 6:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910057",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-29T23:00:00Z",
+   "espnDate": "20261129",
+   "homeTeam": {
+    "id": "28",
+    "code": "TOR",
+    "name": "Toronto Raptors",
+    "shortName": "Raptors",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "7",
+    "code": "DEN",
+    "name": "Denver Nuggets",
+    "shortName": "Nuggets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+    "monitored": true
+   },
+   "venue": "Scotiabank Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/29 - 6:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/29 - 6:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910058",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-29T23:00:00Z",
+   "espnDate": "20261129",
+   "homeTeam": {
+    "id": "22",
+    "code": "POR",
+    "name": "Portland Trail Blazers",
+    "shortName": "Trail Blazers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "3",
+    "code": "NO",
+    "name": "New Orleans Pelicans",
+    "shortName": "Pelicans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+    "monitored": true
+   },
+   "venue": "Moda Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/29 - 6:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/29 - 6:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910059",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-30T01:30:00Z",
+   "espnDate": "20261129",
+   "homeTeam": {
+    "id": "9",
+    "code": "GS",
+    "name": "Golden State Warriors",
+    "shortName": "Warriors",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "12",
+    "code": "LAC",
+    "name": "LA Clippers",
+    "shortName": "Clippers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+    "monitored": true
+   },
+   "venue": "Chase Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/29 - 8:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/29 - 8:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910060",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-30T02:00:00Z",
+   "espnDate": "20261129",
+   "homeTeam": {
+    "id": "23",
+    "code": "SAC",
+    "name": "Sacramento Kings",
+    "shortName": "Kings",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "16",
+    "code": "MIN",
+    "name": "Minnesota Timberwolves",
+    "shortName": "Timberwolves",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+    "monitored": true
+   },
+   "venue": "Golden 1 Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/29 - 9:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/29 - 9:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910061",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-01T00:00:00Z",
+   "espnDate": "20261130",
+   "homeTeam": {
+    "id": "30",
+    "code": "CHA",
+    "name": "Charlotte Hornets",
+    "shortName": "Hornets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "27",
+    "code": "WSH",
+    "name": "Washington Wizards",
+    "shortName": "Wizards",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
+    "monitored": true
+   },
+   "venue": "Spectrum Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/30 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/30 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910062",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-01T00:00:00Z",
+   "espnDate": "20261130",
+   "homeTeam": {
+    "id": "8",
+    "code": "DET",
+    "name": "Detroit Pistons",
+    "shortName": "Pistons",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "7",
+    "code": "DEN",
+    "name": "Denver Nuggets",
+    "shortName": "Nuggets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+    "monitored": true
+   },
+   "venue": "Little Caesars Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/30 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/30 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910063",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-01T00:30:00Z",
+   "espnDate": "20261130",
+   "homeTeam": {
+    "id": "17",
+    "code": "BKN",
+    "name": "Brooklyn Nets",
+    "shortName": "Nets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "25",
+    "code": "OKC",
+    "name": "Oklahoma City Thunder",
+    "shortName": "Thunder",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+    "monitored": true
+   },
+   "venue": "Barclays Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/30 - 7:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/30 - 7:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910064",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-01T00:30:00Z",
+   "espnDate": "20261130",
+   "homeTeam": {
+    "id": "10",
+    "code": "HOU",
+    "name": "Houston Rockets",
+    "shortName": "Rockets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "13",
+    "code": "LAL",
+    "name": "Los Angeles Lakers",
+    "shortName": "Lakers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+    "monitored": true
+   },
+   "venue": "Toyota Center (Houston)",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/30 - 7:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/30 - 7:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910065",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-01T01:00:00Z",
+   "espnDate": "20261130",
+   "homeTeam": {
+    "id": "6",
+    "code": "DAL",
+    "name": "Dallas Mavericks",
+    "shortName": "Mavericks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2",
+    "code": "BOS",
+    "name": "Boston Celtics",
+    "shortName": "Celtics",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+    "monitored": true
+   },
+   "venue": "American Airlines Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/30 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/30 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910066",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-01T01:00:00Z",
+   "espnDate": "20261130",
+   "homeTeam": {
+    "id": "15",
+    "code": "MIL",
+    "name": "Milwaukee Bucks",
+    "shortName": "Bucks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "24",
+    "code": "SA",
+    "name": "San Antonio Spurs",
+    "shortName": "Spurs",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+    "monitored": true
+   },
+   "venue": "Fiserv Forum",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/30 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/30 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910067",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-01T03:00:00Z",
+   "espnDate": "20261130",
+   "homeTeam": {
+    "id": "23",
+    "code": "SAC",
+    "name": "Sacramento Kings",
+    "shortName": "Kings",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "3",
+    "code": "NO",
+    "name": "New Orleans Pelicans",
+    "shortName": "Pelicans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+    "monitored": true
+   },
+   "venue": "Golden 1 Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/30 - 10:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/30 - 10:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910068",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-02T00:00:00Z",
+   "espnDate": "20261201",
+   "homeTeam": {
+    "id": "5",
+    "code": "CLE",
+    "name": "Cleveland Cavaliers",
+    "shortName": "Cavaliers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "11",
+    "code": "IND",
+    "name": "Indiana Pacers",
+    "shortName": "Pacers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
+    "monitored": true
+   },
+   "venue": "Rocket Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/1 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/1 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910069",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-02T00:00:00Z",
+   "espnDate": "20261201",
+   "homeTeam": {
+    "id": "20",
+    "code": "PHI",
+    "name": "Philadelphia 76ers",
+    "shortName": "76ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "29",
+    "code": "MEM",
+    "name": "Memphis Grizzlies",
+    "shortName": "Grizzlies",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+    "monitored": true
+   },
+   "venue": "Xfinity Mobile Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/1 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/1 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910070",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-02T00:30:00Z",
+   "espnDate": "20261201",
+   "homeTeam": {
+    "id": "14",
+    "code": "MIA",
+    "name": "Miami Heat",
+    "shortName": "Heat",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "1",
+    "code": "ATL",
+    "name": "Atlanta Hawks",
+    "shortName": "Hawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
+    "monitored": true
+   },
+   "venue": "Kaseya Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/1 - 7:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/1 - 7:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910071",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-02T01:00:00Z",
+   "espnDate": "20261201",
+   "homeTeam": {
+    "id": "4",
+    "code": "CHI",
+    "name": "Chicago Bulls",
+    "shortName": "Bulls",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "18",
+    "code": "NY",
+    "name": "New York Knicks",
+    "shortName": "Knicks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+    "monitored": true
+   },
+   "venue": "United Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/1 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/1 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910072",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-02T01:30:00Z",
+   "espnDate": "20261201",
+   "homeTeam": {
+    "id": "10",
+    "code": "HOU",
+    "name": "Houston Rockets",
+    "shortName": "Rockets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "28",
+    "code": "TOR",
+    "name": "Toronto Raptors",
+    "shortName": "Raptors",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+    "monitored": true
+   },
+   "venue": "Toyota Center (Houston)",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/1 - 8:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/1 - 8:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910073",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-02T02:00:00Z",
+   "espnDate": "20261201",
+   "homeTeam": {
+    "id": "21",
+    "code": "PHX",
+    "name": "Phoenix Suns",
+    "shortName": "Suns",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "12",
+    "code": "LAC",
+    "name": "LA Clippers",
+    "shortName": "Clippers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+    "monitored": true
+   },
+   "venue": "Mortgage Matchup Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/1 - 9:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/1 - 9:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910075",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-02T03:00:00Z",
+   "espnDate": "20261201",
+   "homeTeam": {
+    "id": "9",
+    "code": "GS",
+    "name": "Golden State Warriors",
+    "shortName": "Warriors",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "26",
+    "code": "UTAH",
+    "name": "Utah Jazz",
+    "shortName": "Jazz",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+    "monitored": true
+   },
+   "venue": "Chase Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/1 - 10:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/1 - 10:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910074",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-02T04:00:00Z",
+   "espnDate": "20261201",
+   "homeTeam": {
+    "id": "22",
+    "code": "POR",
+    "name": "Portland Trail Blazers",
+    "shortName": "Trail Blazers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "16",
+    "code": "MIN",
+    "name": "Minnesota Timberwolves",
+    "shortName": "Timberwolves",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+    "monitored": true
+   },
+   "venue": "Moda Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/1 - 11:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/1 - 11:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910076",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-03T00:00:00Z",
+   "espnDate": "20261202",
+   "homeTeam": {
+    "id": "8",
+    "code": "DET",
+    "name": "Detroit Pistons",
+    "shortName": "Pistons",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "29",
+    "code": "MEM",
+    "name": "Memphis Grizzlies",
+    "shortName": "Grizzlies",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+    "monitored": true
+   },
+   "venue": "Little Caesars Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/2 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/2 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910077",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-03T00:00:00Z",
+   "espnDate": "20261202",
+   "homeTeam": {
+    "id": "20",
+    "code": "PHI",
+    "name": "Philadelphia 76ers",
+    "shortName": "76ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "7",
+    "code": "DEN",
+    "name": "Denver Nuggets",
+    "shortName": "Nuggets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+    "monitored": true
+   },
+   "venue": "Xfinity Mobile Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/2 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/2 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910078",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-03T00:30:00Z",
+   "espnDate": "20261202",
+   "homeTeam": {
+    "id": "2",
+    "code": "BOS",
+    "name": "Boston Celtics",
+    "shortName": "Celtics",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "30",
+    "code": "CHA",
+    "name": "Charlotte Hornets",
+    "shortName": "Hornets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+    "monitored": true
+   },
+   "venue": "TD Garden",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/2 - 7:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/2 - 7:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910079",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-03T01:00:00Z",
+   "espnDate": "20261202",
+   "homeTeam": {
+    "id": "6",
+    "code": "DAL",
+    "name": "Dallas Mavericks",
+    "shortName": "Mavericks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "19",
+    "code": "ORL",
+    "name": "Orlando Magic",
+    "shortName": "Magic",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+    "monitored": true
+   },
+   "venue": "American Airlines Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/2 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/2 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910080",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-03T01:00:00Z",
+   "espnDate": "20261202",
+   "homeTeam": {
+    "id": "15",
+    "code": "MIL",
+    "name": "Milwaukee Bucks",
+    "shortName": "Bucks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "18",
+    "code": "NY",
+    "name": "New York Knicks",
+    "shortName": "Knicks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+    "monitored": true
+   },
+   "venue": "Fiserv Forum",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/2 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/2 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910081",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-03T01:00:00Z",
+   "espnDate": "20261202",
+   "homeTeam": {
+    "id": "3",
+    "code": "NO",
+    "name": "New Orleans Pelicans",
+    "shortName": "Pelicans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "13",
+    "code": "LAL",
+    "name": "Los Angeles Lakers",
+    "shortName": "Lakers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+    "monitored": true
+   },
+   "venue": "Smoothie King Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/2 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/2 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910082",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-03T01:00:00Z",
+   "espnDate": "20261202",
+   "homeTeam": {
+    "id": "25",
+    "code": "OKC",
+    "name": "Oklahoma City Thunder",
+    "shortName": "Thunder",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "17",
+    "code": "BKN",
+    "name": "Brooklyn Nets",
+    "shortName": "Nets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+    "monitored": true
+   },
+   "venue": "Paycom Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/2 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/2 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910083",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-03T02:00:00Z",
+   "espnDate": "20261202",
+   "homeTeam": {
+    "id": "21",
+    "code": "PHX",
+    "name": "Phoenix Suns",
+    "shortName": "Suns",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "23",
+    "code": "SAC",
+    "name": "Sacramento Kings",
+    "shortName": "Kings",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+    "monitored": true
+   },
+   "venue": "Mortgage Matchup Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/2 - 9:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/2 - 9:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401910084",
+   "league": "NBA",
+   "leagueKey": "nba",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-03T03:30:00Z",
+   "espnDate": "20261202",
+   "homeTeam": {
+    "id": "12",
+    "code": "LAC",
+    "name": "LA Clippers",
+    "shortName": "Clippers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "16",
+    "code": "MIN",
+    "name": "Minnesota Timberwolves",
+    "shortName": "Timberwolves",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+    "monitored": true
+   },
+   "venue": "Intuit Dome",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/2 - 10:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/2 - 10:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-25T16:03:26Z"
+  }
+ ],
+ "generatedAt": "2026-11-25T16:03:26Z"
+}
