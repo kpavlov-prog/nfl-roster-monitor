@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-26T18:33:01.640427+00:00",
+    "teamCode": "UTA",
+    "teamName": "Utah Mammoth",
+    "type": "added",
+    "playerName": "Yegor Borikov",
+    "position": "R",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-26T18:33:01.640433+00:00",
+    "teamCode": "UTA",
+    "teamName": "Utah Mammoth",
+    "type": "removed",
+    "playerName": "Ben McCartney",
+    "position": "L",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-22T16:31:10.100548+00:00",
     "teamCode": "UTA",
     "teamName": "Utah Mammoth",

@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-11-26T18:32:58.771464+00:00",
+    "teamCode": "SJS",
+    "teamName": "San Jose Sharks",
+    "type": "added",
+    "playerName": "Cam Lund",
+    "position": "C",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-26T18:32:58.771472+00:00",
+    "teamCode": "SJS",
+    "teamName": "San Jose Sharks",
+    "type": "added",
+    "playerName": "Luca Cagnoni",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-26T18:32:58.771478+00:00",
+    "teamCode": "SJS",
+    "teamName": "San Jose Sharks",
+    "type": "removed",
+    "playerName": "Brett Leason",
+    "position": "R",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-26T18:32:58.771481+00:00",
+    "teamCode": "SJS",
+    "teamName": "San Jose Sharks",
+    "type": "removed",
+    "playerName": "Libor Hajek",
+    "position": "D",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-23T20:26:46.553735+00:00",
     "teamCode": "SJS",
     "teamName": "San Jose Sharks",
