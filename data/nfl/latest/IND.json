@@ -3,7 +3,7 @@
   "team": "Indianapolis Colts",
   "source": "NFL.com official roster",
   "url": "https://www.nfl.com/teams/indianapolis-colts/roster",
-  "checkedAt": "2026-11-25T18:18:25.503622+00:00",
+  "checkedAt": "2026-11-26T17:59:40.948822+00:00",
   "players": [
     {
       "name": "Adetomiwa Adebawore",
@@ -121,7 +121,7 @@
       "name": "Cam Taylor-Britt",
       "position": "CB",
       "number": "29",
-      "status": "RES",
+      "status": "LISTED",
       "important": true,
       "source": "NFL.com"
     },
@@ -689,6 +689,14 @@
       "name": "Tyler Warren",
       "position": "TE",
       "number": "84",
+      "status": "ACT",
+      "important": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Wanya Morris",
+      "position": "OT",
+      "number": "78",
       "status": "ACT",
       "important": true,
       "source": "NFL.com"
