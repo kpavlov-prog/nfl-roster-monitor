@@ -3,7 +3,7 @@
   "team": "Orlando Magic",
   "source": "ESPN NBA API",
   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/ORL/roster",
-  "checkedAt": "2026-11-25T18:51:16.705481+00:00",
+  "checkedAt": "2026-11-26T18:39:44.460597+00:00",
   "players": [
     {
       "name": "Alex Morales",
@@ -86,6 +86,13 @@
       "name": "Jonathan Isaac",
       "position": "F",
       "number": "1",
+      "status": "ACTIVE",
+      "source": "ESPN NBA API"
+    },
+    {
+      "name": "Kevin Porter Jr.",
+      "position": "G",
+      "number": "7",
       "status": "ACTIVE",
       "source": "ESPN NBA API"
     },
