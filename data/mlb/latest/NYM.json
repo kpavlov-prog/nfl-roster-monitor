@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=active",
-  "checkedAt": "2026-11-25T18:38:40.899768+00:00",
+  "checkedAt": "2026-11-26T18:25:00.429769+00:00",
   "players": [
     {
       "name": "A.J. Ewing",
@@ -64,6 +64,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Darwinzon Hernández",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Dedniel Núñez",
       "position": "P",
       "number": "72",
@@ -93,13 +100,6 @@
     },
     {
       "name": "Gus Varland",
-      "position": "P",
-      "number": "",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Jack Anderson",
       "position": "P",
       "number": "",
       "status": "A",
@@ -260,6 +260,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Tarik Skubal",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Tobias Myers",
       "position": "P",
       "number": "32",
@@ -270,13 +277,6 @@
       "name": "Tylor Megill",
       "position": "P",
       "number": "58",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Yunior Tur",
-      "position": "P",
-      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=active",
-  "checkedAt": "2026-11-25T18:38:39.636831+00:00",
+  "checkedAt": "2026-11-26T18:24:59.255446+00:00",
   "players": [
     {
       "name": "Aaron Ashby",
@@ -32,6 +32,13 @@
       "name": "Angel Zerpa",
       "position": "P",
       "number": "61",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Antonio Senzatela",
+      "position": "P",
+      "number": "49",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -270,13 +277,6 @@
       "name": "Trevor Megill",
       "position": "P",
       "number": "29",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tyler Black",
-      "position": "DH",
-      "number": "7",
       "status": "A",
       "source": "MLB Stats API"
     },

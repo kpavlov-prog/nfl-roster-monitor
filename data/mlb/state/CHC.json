@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/112/roster?rosterType=active",
-  "checkedAt": "2026-11-25T18:38:32.614564+00:00",
+  "checkedAt": "2026-11-26T18:24:52.659937+00:00",
   "players": [
     {
       "name": "Alex Bregman",
@@ -256,6 +256,20 @@
       "name": "Shelby Miller",
       "position": "P",
       "number": "77",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Teruaki Sato",
+      "position": "3B",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Trevor Rogers",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
