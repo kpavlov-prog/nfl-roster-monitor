@@ -10,71 +10,71 @@
  "dates": {
   "20261124": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 0,
    "skipped": 0
   },
   "20261125": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 1,
    "skipped": 0
   },
   "20261126": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 3,
    "skipped": 0
   },
   "20261127": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 1,
    "skipped": 0
   },
   "20261128": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 0,
    "skipped": 0
   },
   "20261129": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 10,
    "skipped": 0
   },
   "20261130": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 1,
    "skipped": 0
   },
   "20261201": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 0,
    "skipped": 0
   },
   "20261202": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 0,
    "skipped": 0
   },
   "20261203": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 1,
    "skipped": 0
   }
@@ -107,27 +107,27 @@
    "venue": "SoFi Stadium",
    "neutralSite": false,
    "status": {
-    "state": "in",
-    "name": "STATUS_IN_PROGRESS",
-    "detail": "15:00 - 2nd",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": 6,
-    "away": 3
+    "home": 26,
+    "away": 13
    },
    "gameState": {
-    "period": 2,
-    "clock": "15:00",
-    "display": "15:00 - 2nd"
+    "period": 4,
+    "clock": null,
+    "display": "Final"
    },
    "seasonType": 2,
    "week": 12,
    "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
+   "updatedAt": "2026-11-26T17:16:48Z"
   },
   {
    "eventId": "401873081",
@@ -898,5 +898,5 @@
    "updatedAt": "2026-11-26T01:55:48Z"
   }
  ],
- "generatedAt": "2026-11-26T01:55:48Z"
+ "generatedAt": "2026-11-26T17:16:48Z"
 }

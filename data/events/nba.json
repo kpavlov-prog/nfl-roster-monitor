@@ -10,71 +10,71 @@
  "dates": {
   "20261124": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 3,
    "skipped": 0
   },
   "20261125": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 9,
    "skipped": 0
   },
   "20261126": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 0,
    "skipped": 0
   },
   "20261127": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 11,
    "skipped": 0
   },
   "20261128": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 5,
    "skipped": 0
   },
   "20261129": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 10,
    "skipped": 0
   },
   "20261130": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 7,
    "skipped": 0
   },
   "20261201": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 8,
    "skipped": 0
   },
   "20261202": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 9,
    "skipped": 0
   },
   "20261203": {
    "status": "ok",
-   "checkedAt": "2026-11-26T01:55:48Z",
-   "lastSuccessAt": "2026-11-26T01:55:48Z",
+   "checkedAt": "2026-11-26T17:16:48Z",
+   "lastSuccessAt": "2026-11-26T17:16:48Z",
    "events": 5,
    "skipped": 0
   }
@@ -299,27 +299,27 @@
    "venue": "Spectrum Center",
    "neutralSite": false,
    "status": {
-    "state": "in",
-    "name": "STATUS_IN_PROGRESS",
-    "detail": "7:12 - 4th",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": 84,
-    "away": 85
+    "home": 105,
+    "away": 107
    },
    "gameState": {
     "period": 4,
-    "clock": "7:12",
-    "display": "7:12 - 4th"
+    "clock": null,
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
+   "updatedAt": "2026-11-26T17:16:48Z"
   },
   {
    "eventId": "401909319",
@@ -347,27 +347,27 @@
    "venue": "Madison Square Garden",
    "neutralSite": false,
    "status": {
-    "state": "in",
-    "name": "STATUS_HALFTIME",
-    "detail": "Halftime",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": 56,
-    "away": 61
+    "home": 121,
+    "away": 102
    },
    "gameState": {
-    "period": 2,
-    "clock": "0.1",
-    "display": "Halftime"
+    "period": 4,
+    "clock": null,
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
+   "updatedAt": "2026-11-26T17:16:48Z"
   },
   {
    "eventId": "401909320",
@@ -395,27 +395,27 @@
    "venue": "Paycom Center",
    "neutralSite": false,
    "status": {
-    "state": "in",
-    "name": "STATUS_HALFTIME",
-    "detail": "Halftime",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": 53,
-    "away": 47
+    "home": 106,
+    "away": 113
    },
    "gameState": {
-    "period": 2,
-    "clock": "0.0",
-    "display": "Halftime"
+    "period": 4,
+    "clock": null,
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
+   "updatedAt": "2026-11-26T17:16:48Z"
   },
   {
    "eventId": "401909321",
@@ -443,27 +443,27 @@
    "venue": "FedExForum",
    "neutralSite": false,
    "status": {
-    "state": "in",
-    "name": "STATUS_IN_PROGRESS",
-    "detail": "4:37 - 2nd",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": 42,
-    "away": 32
+    "home": 115,
+    "away": 97
    },
    "gameState": {
-    "period": 2,
-    "clock": "4:37",
-    "display": "4:37 - 2nd"
+    "period": 4,
+    "clock": null,
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
+   "updatedAt": "2026-11-26T17:16:48Z"
   },
   {
    "eventId": "401909322",
@@ -491,27 +491,27 @@
    "venue": "Fiserv Forum",
    "neutralSite": false,
    "status": {
-    "state": "in",
-    "name": "STATUS_IN_PROGRESS",
-    "detail": "3:47 - 2nd",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": 34,
-    "away": 44
+    "home": 97,
+    "away": 104
    },
    "gameState": {
-    "period": 2,
-    "clock": "3:47",
-    "display": "3:47 - 2nd"
+    "period": 4,
+    "clock": null,
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
+   "updatedAt": "2026-11-26T17:16:48Z"
   },
   {
    "eventId": "401909323",
@@ -539,27 +539,27 @@
    "venue": "Toyota Center (Houston)",
    "neutralSite": false,
    "status": {
-    "state": "in",
-    "name": "STATUS_IN_PROGRESS",
-    "detail": "5:38 - 1st",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": 18,
-    "away": 15
+    "home": 116,
+    "away": 104
    },
    "gameState": {
-    "period": 1,
-    "clock": "5:38",
-    "display": "5:38 - 1st"
+    "period": 4,
+    "clock": null,
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
+   "updatedAt": "2026-11-26T17:16:48Z"
   },
   {
    "eventId": "401909324",
@@ -587,27 +587,27 @@
    "venue": "Chase Center",
    "neutralSite": false,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/25 - 10:00 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 129,
+    "away": 110
    },
    "gameState": {
-    "period": null,
+    "period": 4,
     "clock": null,
-    "display": "11/25 - 10:00 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-26T17:16:48Z"
   },
   {
    "eventId": "401909325",
@@ -635,27 +635,27 @@
    "venue": "Moda Center",
    "neutralSite": false,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/25 - 10:00 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 116,
+    "away": 111
    },
    "gameState": {
-    "period": null,
+    "period": 4,
     "clock": null,
-    "display": "11/25 - 10:00 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-26T17:16:48Z"
   },
   {
    "eventId": "401909326",
@@ -3298,5 +3298,5 @@
    "updatedAt": "2026-11-26T01:55:48Z"
   }
  ],
- "generatedAt": "2026-11-26T01:55:48Z"
+ "generatedAt": "2026-11-26T17:16:48Z"
 }
