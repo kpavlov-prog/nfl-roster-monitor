@@ -3,7 +3,7 @@
   "team": "Chicago Blackhawks",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/CHI/current",
-  "checkedAt": "2026-11-26T18:32:47.387857+00:00",
+  "checkedAt": "2026-11-27T18:20:42.992802+00:00",
   "players": [
     {
       "name": "Alex Vlasic",
@@ -55,9 +55,9 @@
       "source": "NHL Web API"
     },
     {
-      "name": "Dominic Toninato",
-      "position": "C",
-      "number": "25",
+      "name": "Dillon Boucher",
+      "position": "L",
+      "number": "36",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
@@ -100,6 +100,13 @@
       "name": "Kevin Korchinski",
       "position": "D",
       "number": "14",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Landon Slaggert",
+      "position": "L",
+      "number": "84",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

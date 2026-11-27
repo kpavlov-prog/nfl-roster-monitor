@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-27T18:20:50.166997+00:00",
+    "teamCode": "NJD",
+    "teamName": "New Jersey Devils",
+    "type": "added",
+    "playerName": "Anton Silaev",
+    "position": "D",
+    "oldValue": "",
+    "newValue": "ACTIVE",
+    "source": "NHL Web API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-27T18:20:50.167014+00:00",
+    "teamCode": "NJD",
+    "teamName": "New Jersey Devils",
+    "type": "removed",
+    "playerName": "Lenni Hameenaho",
+    "position": "R",
+    "oldValue": "ACTIVE",
+    "newValue": "",
+    "source": "NHL Web API",
+    "severity": "medium"
+  },
+  {
     "timestamp": "2026-11-21T16:18:08.123848+00:00",
     "teamCode": "NJD",
     "teamName": "New Jersey Devils",
