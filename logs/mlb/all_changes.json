@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-11-27T18:10:51.807835+00:00",
+    "teamCode": "CLE",
+    "teamName": "Cleveland Guardians",
+    "type": "number changed",
+    "playerName": "Kris Bubic",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "34",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-27T18:10:54.461725+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Royals",
+    "type": "added",
+    "playerName": "Alec Bohm",
+    "position": "3B",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-27T18:10:54.461738+00:00",
+    "teamCode": "KC",
+    "teamName": "Kansas City Royals",
+    "type": "removed",
+    "playerName": "Mitch Spence",
+    "position": "P",
+    "oldValue": "A",
+    "newValue": "",
+    "source": "MLB Stats API",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-27T18:11:01.318298+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "added",
+    "playerName": "JoJo Romero",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
+    "timestamp": "2026-11-27T18:11:01.318307+00:00",
+    "teamCode": "SD",
+    "teamName": "San Diego Padres",
+    "type": "added",
+    "playerName": "Yu Darvish",
+    "position": "P",
+    "oldValue": "",
+    "newValue": "A",
+    "source": "MLB Stats API",
+    "severity": "low"
+  },
+  {
     "timestamp": "2026-11-26T18:24:52.660720+00:00",
     "teamCode": "CHC",
     "teamName": "Chicago Cubs",
