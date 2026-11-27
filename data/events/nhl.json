@@ -4,131 +4,83 @@
  "sport": "hockey",
  "source": "ESPN",
  "window": {
-  "fromUTC": "2026-11-25T00:00:00Z",
-  "toUTC": "2026-12-04T05:00:00Z"
+  "fromUTC": "2026-11-26T00:00:00Z",
+  "toUTC": "2026-12-05T05:00:00Z"
  },
  "dates": {
-  "20261124": {
-   "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
-   "events": 1,
-   "skipped": 0
-  },
   "20261125": {
    "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
    "events": 14,
    "skipped": 0
   },
   "20261126": {
    "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
    "events": 0,
    "skipped": 0
   },
   "20261127": {
    "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
    "events": 15,
    "skipped": 0
   },
   "20261128": {
    "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
    "events": 13,
    "skipped": 0
   },
   "20261129": {
    "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
    "events": 2,
    "skipped": 0
   },
   "20261130": {
    "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
    "events": 6,
    "skipped": 0
   },
   "20261201": {
    "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
    "events": 9,
    "skipped": 0
   },
   "20261202": {
    "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
    "events": 3,
    "skipped": 0
   },
   "20261203": {
    "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
    "events": 12,
+   "skipped": 0
+  },
+  "20261204": {
+   "status": "ok",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
+   "events": 4,
    "skipped": 0
   }
  },
- "eventCount": 75,
+ "eventCount": 78,
  "events": [
-  {
-   "eventId": "401892780",
-   "league": "NHL",
-   "leagueKey": "nhl",
-   "sport": "hockey",
-   "startTimeUTC": "2026-11-25T01:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "6",
-    "code": "EDM",
-    "name": "Edmonton Oilers",
-    "shortName": "Oilers",
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "37",
-    "code": "VGK",
-    "name": "Vegas Golden Knights",
-    "shortName": "Golden Knights",
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png",
-    "monitored": true
-   },
-   "venue": "Rogers Place",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 3,
-    "away": 5
-   },
-   "gameState": {
-    "period": 3,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
   {
    "eventId": "401892781",
    "league": "NHL",
@@ -3680,7 +3632,199 @@
    "week": null,
    "source": "ESPN",
    "updatedAt": "2026-11-26T01:55:48Z"
+  },
+  {
+   "eventId": "401892855",
+   "league": "NHL",
+   "leagueKey": "nhl",
+   "sport": "hockey",
+   "startTimeUTC": "2026-12-05T00:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "12",
+    "code": "NYI",
+    "name": "New York Islanders",
+    "shortName": "Islanders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyi.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "18",
+    "code": "SJ",
+    "name": "San Jose Sharks",
+    "shortName": "Sharks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png",
+    "monitored": true
+   },
+   "venue": "UBS Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401892856",
+   "league": "NHL",
+   "leagueKey": "nhl",
+   "sport": "hockey",
+   "startTimeUTC": "2026-12-05T01:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "19",
+    "code": "STL",
+    "name": "St. Louis Blues",
+    "shortName": "Blues",
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "4",
+    "code": "CHI",
+    "name": "Chicago Blackhawks",
+    "shortName": "Blackhawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
+    "monitored": true
+   },
+   "venue": "Enterprise Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401892857",
+   "league": "NHL",
+   "leagueKey": "nhl",
+   "sport": "hockey",
+   "startTimeUTC": "2026-12-05T02:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "22",
+    "code": "VAN",
+    "name": "Vancouver Canucks",
+    "shortName": "Canucks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/van.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2",
+    "code": "BUF",
+    "name": "Buffalo Sabres",
+    "shortName": "Sabres",
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png",
+    "monitored": true
+   },
+   "venue": "Rogers Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 9:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 9:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401892858",
+   "league": "NHL",
+   "leagueKey": "nhl",
+   "sport": "hockey",
+   "startTimeUTC": "2026-12-05T03:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "25",
+    "code": "ANA",
+    "name": "Anaheim Ducks",
+    "shortName": "Ducks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "124292",
+    "code": "SEA",
+    "name": "Seattle Kraken",
+    "shortName": "Kraken",
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sea.png",
+    "monitored": true
+   },
+   "venue": "Honda Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 10:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 10:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
   }
  ],
- "generatedAt": "2026-11-26T17:16:48Z"
+ "generatedAt": "2026-11-27T01:54:19Z"
 }

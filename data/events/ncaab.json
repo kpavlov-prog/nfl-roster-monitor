@@ -4,4883 +4,83 @@
  "sport": "basketball",
  "source": "ESPN",
  "window": {
-  "fromUTC": "2026-11-25T00:00:00Z",
-  "toUTC": "2026-12-04T05:00:00Z"
+  "fromUTC": "2026-11-26T00:00:00Z",
+  "toUTC": "2026-12-05T05:00:00Z"
  },
  "dates": {
-  "20261124": {
-   "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
-   "events": 87,
-   "skipped": 0
-  },
   "20261125": {
    "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
    "events": 69,
    "skipped": 0
   },
   "20261126": {
    "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
    "events": 21,
    "skipped": 0
   },
   "20261127": {
    "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
-   "events": 45,
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
+   "events": 49,
    "skipped": 0
   },
   "20261128": {
    "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
    "events": 75,
    "skipped": 0
   },
   "20261129": {
    "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
    "events": 50,
    "skipped": 0
   },
   "20261130": {
    "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
    "events": 15,
    "skipped": 0
   },
   "20261201": {
    "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
    "events": 66,
    "skipped": 0
   },
   "20261202": {
    "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
    "events": 71,
    "skipped": 0
   },
   "20261203": {
    "status": "ok",
-   "checkedAt": "2026-11-26T17:16:48Z",
-   "lastSuccessAt": "2026-11-26T17:16:48Z",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
    "events": 29,
+   "skipped": 0
+  },
+  "20261204": {
+   "status": "ok",
+   "checkedAt": "2026-11-27T01:54:19Z",
+   "lastSuccessAt": "2026-11-27T01:54:19Z",
+   "events": 20,
    "skipped": 0
   }
  },
- "eventCount": 496,
+ "eventCount": 420,
  "events": [
-  {
-   "eventId": "401906774",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "57",
-    "code": "FLA",
-    "name": "Florida Gators",
-    "shortName": "Florida",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "270",
-    "code": "MILW",
-    "name": "Milwaukee Panthers",
-    "shortName": "Milwaukee",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/270.png",
-    "monitored": true
-   },
-   "venue": "Tower Hill Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 76,
-    "away": 67
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401911027",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "189",
-    "code": "BGSU",
-    "name": "Bowling Green Falcons",
-    "shortName": "Bowling Green",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2241",
-    "code": "GWEB",
-    "name": "Gardner-Webb Runnin' Bulldogs",
-    "shortName": "Gardner-Webb",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2241.png",
-    "monitored": true
-   },
-   "venue": "Stroh Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 91,
-    "away": 65
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401911279",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2329",
-    "code": "LEH",
-    "name": "Lehigh Mountain Hawks",
-    "shortName": "Lehigh",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2329.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2066",
-    "code": "BING",
-    "name": "Binghamton Bearcats",
-    "shortName": "Binghamton",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2066.png",
-    "monitored": true
-   },
-   "venue": "Stabler Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 83,
-    "away": 90
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401911379",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "256",
-    "code": "JMU",
-    "name": "James Madison Dukes",
-    "shortName": "James Madison",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2127",
-    "code": "CHSO",
-    "name": "Charleston Southern Buccaneers",
-    "shortName": "Charleston So",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2127.png",
-    "monitored": true
-   },
-   "venue": "Atlantic Union Bank Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 82,
-    "away": 58
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401911458",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2440",
-    "code": "NEV",
-    "name": "Nevada Wolf Pack",
-    "shortName": "Nevada",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2541",
-    "code": "SCU",
-    "name": "Santa Clara Broncos",
-    "shortName": "Santa Clara",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
-    "monitored": true
-   },
-   "venue": "Acrisure Arena",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 85,
-    "away": 66
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401916291",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "84",
-    "code": "IU",
-    "name": "Indiana Hoosiers",
-    "shortName": "Indiana",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "294",
-    "code": "JAX",
-    "name": "Jacksonville Dolphins",
-    "shortName": "Jacksonville",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/294.png",
-    "monitored": true
-   },
-   "venue": "Simon Skjodt Assembly Hall",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 82,
-    "away": 64
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401916319",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "194",
-    "code": "OSU",
-    "name": "Ohio State Buckeyes",
-    "shortName": "Ohio State",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "238",
-    "code": "VAN",
-    "name": "Vanderbilt Commodores",
-    "shortName": "Vanderbilt",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
-    "monitored": true
-   },
-   "venue": "Schottenstein Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 66,
-    "away": 72
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401918996",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "58",
-    "code": "USF",
-    "name": "South Florida Bulls",
-    "shortName": "South Florida",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "56",
-    "code": "STET",
-    "name": "Stetson Hatters",
-    "shortName": "Stetson",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/56.png",
-    "monitored": true
-   },
-   "venue": "Yuengling Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 100,
-    "away": 67
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401919829",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2385",
-    "code": "MERC",
-    "name": "Mercyhurst Lakers",
-    "shortName": "Mercyhurst",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2385.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2902",
-    "code": "SNYF",
-    "name": "SUNY Fredonia Blue Devils",
-    "shortName": "SUNY Fredonia",
-    "logo": "",
-    "monitored": false
-   },
-   "venue": "Mercyhurst Athletic Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 95,
-    "away": 56
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401920309",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "59",
-    "code": "GT",
-    "name": "Georgia Tech Yellow Jackets",
-    "shortName": "Georgia Tech",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2535",
-    "code": "SAM",
-    "name": "Samford Bulldogs",
-    "shortName": "Samford",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png",
-    "monitored": true
-   },
-   "venue": "McCamish Pavilion",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 81,
-    "away": 92
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401920358",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "108",
-    "code": "HARV",
-    "name": "Harvard Crimson",
-    "shortName": "Harvard",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/108.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "104",
-    "code": "BU",
-    "name": "Boston University Terriers",
-    "shortName": "Boston U",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/104.png",
-    "monitored": true
-   },
-   "venue": "Lavietes Pavilion",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 72,
-    "away": 81
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401920695",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2561",
-    "code": "SIE",
-    "name": "Siena Saints",
-    "shortName": "Siena",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2561.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "261",
-    "code": "UVM",
-    "name": "Vermont Catamounts",
-    "shortName": "Vermont",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/261.png",
-    "monitored": true
-   },
-   "venue": "MVP Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 98,
-    "away": 88
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401920727",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2294",
-    "code": "IOWA",
-    "name": "Iowa Hawkeyes",
-    "shortName": "Iowa",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2378",
-    "code": "UMBC",
-    "name": "UMBC Retrievers",
-    "shortName": "UMBC",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2378.png",
-    "monitored": true
-   },
-   "venue": "Carver-Hawkeye Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 87,
-    "away": 48
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401920742",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "324",
-    "code": "CCU",
-    "name": "Coastal Carolina Chanticleers",
-    "shortName": "Coastal",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2097",
-    "code": "CAM",
-    "name": "Campbell Fighting Camels",
-    "shortName": "Campbell",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2097.png",
-    "monitored": true
-   },
-   "venue": "The HTC Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 66,
-    "away": 70
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401920889",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2550",
-    "code": "HALL",
-    "name": "Seton Hall Pirates",
-    "shortName": "Seton Hall",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "160",
-    "code": "UNH",
-    "name": "New Hampshire Wildcats",
-    "shortName": "New Hampshire",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
-    "monitored": true
-   },
-   "venue": "Prudential Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 73,
-    "away": 27
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401920923",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2415",
-    "code": "MORG",
-    "name": "Morgan State Bears",
-    "shortName": "Morgan St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2415.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "116",
-    "code": "MSM",
-    "name": "Mount St. Mary's Mountaineers",
-    "shortName": "Mount St Marys",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/116.png",
-    "monitored": true
-   },
-   "venue": "Hill Field House",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 74,
-    "away": 75
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401920976",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "236",
-    "code": "UTC",
-    "name": "Chattanooga Mocs",
-    "shortName": "Chattanooga",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/236.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2169",
-    "code": "DSU",
-    "name": "Delaware State Hornets",
-    "shortName": "Delaware St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2169.png",
-    "monitored": true
-   },
-   "venue": "McKenzie Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 79,
-    "away": 66
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401921030",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "91",
-    "code": "BELL",
-    "name": "Bellarmine Knights",
-    "shortName": "Bellarmine",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/91.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "290",
-    "code": "GASO",
-    "name": "Georgia Southern Eagles",
-    "shortName": "GA Southern",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
-    "monitored": true
-   },
-   "venue": "Truist Arena",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 82,
-    "away": 67
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401921266",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2352",
-    "code": "L-MD",
-    "name": "Loyola Maryland Greyhounds",
-    "shortName": "Loyola MD",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2352.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2520",
-    "code": "RID",
-    "name": "Rider Broncs",
-    "shortName": "Rider",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2520.png",
-    "monitored": true
-   },
-   "venue": "Reitz Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 71,
-    "away": 54
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401921777",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "222",
-    "code": "VILL",
-    "name": "Villanova Wildcats",
-    "shortName": "Villanova",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2154",
-    "code": "COPP",
-    "name": "Coppin State Eagles",
-    "shortName": "Coppin St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2154.png",
-    "monitored": true
-   },
-   "venue": "Finneran Pavilion",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 70,
-    "away": 52
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401923271",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2368",
-    "code": "MRST",
-    "name": "Marist Red Foxes",
-    "shortName": "Marist",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2368.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2803",
-    "code": "BRY",
-    "name": "Bryant Bulldogs",
-    "shortName": "Bryant",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2803.png",
-    "monitored": true
-   },
-   "venue": "McCann Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 58,
-    "away": 57
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401925950",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2692",
-    "code": "WEB",
-    "name": "Weber State Wildcats",
-    "shortName": "Weber St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2692.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2627",
-    "code": "TAR",
-    "name": "Tarleton State Texans",
-    "shortName": "Tarleton St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2627.png",
-    "monitored": true
-   },
-   "venue": "Dee Events Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final/OT",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 89,
-    "away": 87
-   },
-   "gameState": {
-    "period": 3,
-    "clock": null,
-    "display": "Final/OT"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401926827",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "295",
-    "code": "ODU",
-    "name": "Old Dominion Monarchs",
-    "shortName": "Old Dominion",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2261",
-    "code": "HAMP",
-    "name": "Hampton Pirates",
-    "shortName": "Hampton",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2261.png",
-    "monitored": true
-   },
-   "venue": "Chartway Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 71,
-    "away": 59
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401928348",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2506",
-    "code": "PRES",
-    "name": "Presbyterian Blue Hose",
-    "shortName": "Presbyterian",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2506.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "128326",
-    "code": "NCCC",
-    "name": "Carolina Christian Centurions",
-    "shortName": "Car Christian",
-    "logo": "",
-    "monitored": false
-   },
-   "venue": "Templeton Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 123,
-    "away": 46
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401917904",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:30:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2635",
-    "code": "TNTC",
-    "name": "Tennessee Tech Golden Eagles",
-    "shortName": "Tennessee Tech",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2698",
-    "code": "WGA",
-    "name": "West Georgia Wolves",
-    "shortName": "West Georgia",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
-    "monitored": true
-   },
-   "venue": "Hooper Eblen Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 124,
-    "away": 85
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401917983",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:30:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2433",
-    "code": "ULM",
-    "name": "UL Monroe Warhawks",
-    "shortName": "UL Monroe",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2277",
-    "code": "HCU",
-    "name": "Houston Christian Huskies",
-    "shortName": "Hou Christian",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2277.png",
-    "monitored": true
-   },
-   "venue": "b1Bank Fant Coliseum",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 58,
-    "away": 84
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401925687",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:30:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2348",
-    "code": "LT",
-    "name": "Louisiana Tech Bulldogs",
-    "shortName": "Louisiana Tech",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2016",
-    "code": "ALCN",
-    "name": "Alcorn State Braves",
-    "shortName": "Alcorn St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
-    "monitored": true
-   },
-   "venue": "Thomas Assembly Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 83,
-    "away": 41
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401926154",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:30:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2546",
-    "code": "SEMO",
-    "name": "Southeast Missouri State Redhawks",
-    "shortName": "SE Missouri",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2870",
-    "code": "PFW",
-    "name": "Purdue Fort Wayne Mastodons",
-    "shortName": "Purdue FW",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2870.png",
-    "monitored": true
-   },
-   "venue": "Show Me Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 75,
-    "away": 80
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401929351",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T00:30:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2837",
-    "code": "ETAM",
-    "name": "East Texas A&M Lions",
-    "shortName": "East Texas A&M",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2837.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "3166",
-    "code": "ABU",
-    "name": "Arlington Baptist Patriots",
-    "shortName": "Arlington Bapt",
-    "logo": "",
-    "monitored": false
-   },
-   "venue": "The Field House",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 79,
-    "away": 51
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401911026",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T01:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "87",
-    "code": "ND",
-    "name": "Notre Dame Fighting Irish",
-    "shortName": "Notre Dame",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2117",
-    "code": "CMU",
-    "name": "Central Michigan Chippewas",
-    "shortName": "C Michigan",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
-    "monitored": true
-   },
-   "venue": "Purcell Pavilion",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 88,
-    "away": 70
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401911338",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T01:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2005",
-    "code": "AF",
-    "name": "Air Force Falcons",
-    "shortName": "Air Force",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "349",
-    "code": "ARMY",
-    "name": "Army Black Knights",
-    "shortName": "Army",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
-    "monitored": true
-   },
-   "venue": "UTSA Convocation Center",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 88,
-    "away": 79
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401920709",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T01:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2",
-    "code": "AUB",
-    "name": "Auburn Tigers",
-    "shortName": "Auburn",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "288",
-    "code": "LIP",
-    "name": "Lipscomb Bisons",
-    "shortName": "Lipscomb",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
-    "monitored": true
-   },
-   "venue": "Neville Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 101,
-    "away": 66
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401921008",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T01:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "140",
-    "code": "KC",
-    "name": "Kansas City Roos",
-    "shortName": "Kansas City",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/140.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2739",
-    "code": "GB",
-    "name": "Green Bay Phoenix",
-    "shortName": "Green Bay",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2739.png",
-    "monitored": true
-   },
-   "venue": "Swinney Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 72,
-    "away": 77
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401921184",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T01:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "219",
-    "code": "PENN",
-    "name": "Pennsylvania Quakers",
-    "shortName": "Penn",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/219.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2182",
-    "code": "DREX",
-    "name": "Drexel Dragons",
-    "shortName": "Drexel",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2182.png",
-    "monitored": true
-   },
-   "venue": "The Palestra",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 89,
-    "away": 74
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401921711",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T01:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "264",
-    "code": "WASH",
-    "name": "Washington Huskies",
-    "shortName": "Washington",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "228",
-    "code": "CLEM",
-    "name": "Clemson Tigers",
-    "shortName": "Clemson",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-    "monitored": true
-   },
-   "venue": "Lahaina Civic Center",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 64,
-    "away": 63
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401925642",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T01:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2453",
-    "code": "UNA",
-    "name": "North Alabama Lions",
-    "shortName": "North Alabama",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2453.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2010",
-    "code": "AAMU",
-    "name": "Alabama A&M Bulldogs",
-    "shortName": "Alabama A&M",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2010.png",
-    "monitored": true
-   },
-   "venue": "CB&S Bank Arena at Flowers Hall",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 77,
-    "away": 74
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401929359",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T01:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "250",
-    "code": "UTA",
-    "name": "UT Arlington Mavericks",
-    "shortName": "UT Arlington",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/250.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "198",
-    "code": "ORU",
-    "name": "Oral Roberts Golden Eagles",
-    "shortName": "Oral Roberts",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/198.png",
-    "monitored": true
-   },
-   "venue": "College Park Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 80,
-    "away": 84
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401929380",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T01:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2031",
-    "code": "LR",
-    "name": "Little Rock Trojans",
-    "shortName": "Little Rock",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2031.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2027",
-    "code": "ARBA",
-    "name": "Arkansas Baptist Buffaloes",
-    "shortName": "Ark Baptist",
-    "logo": "",
-    "monitored": false
-   },
-   "venue": "Jack Stephens Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 82,
-    "away": 47
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401929421",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T01:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "6",
-    "code": "USA",
-    "name": "South Alabama Jaguars",
-    "shortName": "South Alabama",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "50",
-    "code": "FAMU",
-    "name": "Florida A&M Rattlers",
-    "shortName": "Florida A&M",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png",
-    "monitored": true
-   },
-   "venue": "Mitchell Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 74,
-    "away": 49
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401924723",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T01:30:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "172",
-    "code": "COR",
-    "name": "Cornell Big Red",
-    "shortName": "Cornell",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/172.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2083",
-    "code": "BUCK",
-    "name": "Bucknell Bison",
-    "shortName": "Bucknell",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png",
-    "monitored": true
-   },
-   "venue": "Newman Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 92,
-    "away": 71
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401929456",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T01:30:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "309",
-    "code": "UL",
-    "name": "Louisiana Ragin' Cajuns",
-    "shortName": "Louisiana",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2347",
-    "code": "LCHR",
-    "name": "Louisiana Christian Wildcats",
-    "shortName": "LA Christian",
-    "logo": "",
-    "monitored": false
-   },
-   "venue": "Cajundome",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 91,
-    "away": 24
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401915942",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T01:37:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "97",
-    "code": "LOU",
-    "name": "Louisville Cardinals",
-    "shortName": "Louisville",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2641",
-    "code": "TTU",
-    "name": "Texas Tech Red Raiders",
-    "shortName": "Texas Tech",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-    "monitored": true
-   },
-   "venue": "Michelob ULTRA Arena",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 72,
-    "away": 64
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401920414",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T01:45:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2272",
-    "code": "HPU",
-    "name": "High Point Panthers",
-    "shortName": "High Point",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2272.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2184",
-    "code": "DUQ",
-    "name": "Duquesne Dukes",
-    "shortName": "Duquesne",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2184.png",
-    "monitored": true
-   },
-   "venue": "Ocean Center",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 75,
-    "away": 70
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401909699",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T02:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "52",
-    "code": "FSU",
-    "name": "Florida State Seminoles",
-    "shortName": "Florida St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2427",
-    "code": "UNCA",
-    "name": "UNC Asheville Bulldogs",
-    "shortName": "UNC Asheville",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2427.png",
-    "monitored": true
-   },
-   "venue": "Donald L. Tucker Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 97,
-    "away": 61
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401911535",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T02:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "232",
-    "code": "COFC",
-    "name": "Charleston Cougars",
-    "shortName": "Charleston",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/232.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2638",
-    "code": "UTEP",
-    "name": "UTEP Miners",
-    "shortName": "UTEP",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
-    "monitored": true
-   },
-   "venue": "Hard Rock Hotel Riviera Maya",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 69,
-    "away": 80
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401921817",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T02:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "142",
-    "code": "MIZ",
-    "name": "Missouri Tigers",
-    "shortName": "Missouri",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "339",
-    "code": "EVAN",
-    "name": "Evansville Purple Aces",
-    "shortName": "Evansville",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/339.png",
-    "monitored": true
-   },
-   "venue": "Mizzou Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 78,
-    "away": 67
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401922023",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T02:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "68",
-    "code": "BOIS",
-    "name": "Boise State Broncos",
-    "shortName": "Boise St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "304",
-    "code": "IDST",
-    "name": "Idaho State Bengals",
-    "shortName": "Idaho St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/304.png",
-    "monitored": true
-   },
-   "venue": "ExtraMile Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 88,
-    "away": 71
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401926184",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T02:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2540",
-    "code": "UCSB",
-    "name": "UC Santa Barbara Gauchos",
-    "shortName": "Santa Barbara",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2540.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2430",
-    "code": "UNCG",
-    "name": "UNC Greensboro Spartans",
-    "shortName": "UNC Greensboro",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2430.png",
-    "monitored": true
-   },
-   "venue": "The Thunderdome",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 85,
-    "away": 65
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401928796",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T02:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "265",
-    "code": "WSU",
-    "name": "Washington State Cougars",
-    "shortName": "Washington St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2534",
-    "code": "SHSU",
-    "name": "Sam Houston Bearkats",
-    "shortName": "Sam Houston",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
-    "monitored": true
-   },
-   "venue": "Beasley Coliseum",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 80,
-    "away": 73
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401911253",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T02:55:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2253",
-    "code": "GCU",
-    "name": "Grand Canyon Lopes",
-    "shortName": "Grand Canyon",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2253.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "139",
-    "code": "SLU",
-    "name": "Saint Louis Billikens",
-    "shortName": "Saint Louis",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/139.png",
-    "monitored": true
-   },
-   "venue": "Acrisure Arena",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 91,
-    "away": 88
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401906762",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T03:05:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "333",
-    "code": "ALA",
-    "name": "Alabama Crimson Tide",
-    "shortName": "Alabama",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "239",
-    "code": "BAY",
-    "name": "Baylor Bears",
-    "shortName": "Baylor",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
-    "monitored": true
-   },
-   "venue": "T-Mobile Arena",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 63,
-    "away": 68
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401921712",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T03:30:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "36",
-    "code": "CSU",
-    "name": "Colorado State Rams",
-    "shortName": "Colorado St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2670",
-    "code": "VCU",
-    "name": "VCU Rams",
-    "shortName": "VCU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2670.png",
-    "monitored": true
-   },
-   "venue": "Lahaina Civic Center",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 81,
-    "away": 84
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401915943",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T04:18:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2599",
-    "code": "SJU",
-    "name": "St. John's Red Storm",
-    "shortName": "St John's",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2483",
-    "code": "ORE",
-    "name": "Oregon Ducks",
-    "shortName": "Oregon",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
-    "monitored": true
-   },
-   "venue": "Michelob ULTRA Arena",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 90,
-    "away": 79
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401909800",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T05:49:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "2306",
-    "code": "KSU",
-    "name": "Kansas State Wildcats",
-    "shortName": "Kansas St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2250",
-    "code": "GONZ",
-    "name": "Gonzaga Bulldogs",
-    "shortName": "Gonzaga",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
-    "monitored": true
-   },
-   "venue": "T-Mobile Arena",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 61,
-    "away": 101
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401909763",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T06:00:00Z",
-   "espnDate": "20261124",
-   "homeTeam": {
-    "id": "24",
-    "code": "STAN",
-    "name": "Stanford Cardinal",
-    "shortName": "Stanford",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "38",
-    "code": "COLO",
-    "name": "Colorado Buffaloes",
-    "shortName": "Colorado",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
-    "monitored": true
-   },
-   "venue": "Acrisure Arena",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 65,
-    "away": 70
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401927399",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T15:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2057",
-    "code": "BEL",
-    "name": "Belmont Bruins",
-    "shortName": "Belmont",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2057.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "179",
-    "code": "SBU",
-    "name": "St. Bonaventure Bonnies",
-    "shortName": "St Bonaventure",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/179.png",
-    "monitored": true
-   },
-   "venue": "State Farm Field House",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 68,
-    "away": 71
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401911201",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T16:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2230",
-    "code": "FOR",
-    "name": "Fordham Rams",
-    "shortName": "Fordham",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2230.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2384",
-    "code": "MRCY",
-    "name": "Mercy Mavericks",
-    "shortName": "Mercy",
-    "logo": "",
-    "monitored": false
-   },
-   "venue": "Rose Hill Gym",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 104,
-    "away": 56
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401921702",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T16:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2429",
-    "code": "CLT",
-    "name": "Charlotte 49ers",
-    "shortName": "Charlotte",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2460",
-    "code": "UNI",
-    "name": "Northern Iowa Panthers",
-    "shortName": "Northern Iowa",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2460.png",
-    "monitored": true
-   },
-   "venue": "Suncoast Credit Union Arena",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 85,
-    "away": 72
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401928845",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T16:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "195",
-    "code": "OHIO",
-    "name": "Ohio Bobcats",
-    "shortName": "Ohio",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "242",
-    "code": "RICE",
-    "name": "Rice Owls",
-    "shortName": "Rice",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
-    "monitored": true
-   },
-   "venue": "The Reef",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 74,
-    "away": 82
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401919762",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T17:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "161",
-    "code": "FDU",
-    "name": "Fairleigh Dickinson Knights",
-    "shortName": "FDU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/161.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "130189",
-    "code": "VTSR",
-    "name": "Vermont State Randolph Knights",
-    "shortName": "VTSU Randolph",
-    "logo": "",
-    "monitored": false
-   },
-   "venue": "Bogota Savings Bank Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 123,
-    "away": 48
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401920196",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T17:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2603",
-    "code": "JOES",
-    "name": "Saint Joseph's Hawks",
-    "shortName": "Saint Joseph's",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2603.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "3183",
-    "code": "PSAB",
-    "name": "Penn State Abington Nittany Lions",
-    "shortName": "PSU Abington",
-    "logo": "",
-    "monitored": false
-   },
-   "venue": "Michael J. Hagan '85 Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 104,
-    "away": 48
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401920428",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T17:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "269",
-    "code": "MARQ",
-    "name": "Marquette Golden Eagles",
-    "shortName": "Marquette",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "258",
-    "code": "UVA",
-    "name": "Virginia Cavaliers",
-    "shortName": "Virginia",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-    "monitored": true
-   },
-   "venue": "Imperial Arena",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 54,
-    "away": 60
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401920547",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T17:30:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2174",
-    "code": "DETM",
-    "name": "Detroit Mercy Titans",
-    "shortName": "Detroit Mercy",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2174.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2458",
-    "code": "UNCO",
-    "name": "Northern Colorado Bears",
-    "shortName": "N Colorado",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png",
-    "monitored": true
-   },
-   "venue": "Hard Rock Hotel Riviera Maya",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 83,
-    "away": 93
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401928831",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T17:31:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2750",
-    "code": "WRST",
-    "name": "Wright State Raiders",
-    "shortName": "Wright St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2750.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "43",
-    "code": "YALE",
-    "name": "Yale Bulldogs",
-    "shortName": "Yale",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png",
-    "monitored": true
-   },
-   "venue": "State Farm Field House",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 70,
-    "away": 72
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401911029",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T18:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "193",
-    "code": "M-OH",
-    "name": "Miami (OH) RedHawks",
-    "shortName": "Miami OH",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2198",
-    "code": "EKU",
-    "name": "Eastern Kentucky Colonels",
-    "shortName": "E Kentucky",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2198.png",
-    "monitored": true
-   },
-   "venue": "Millett Hall",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 85,
-    "away": 72
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401920067",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T18:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "227",
-    "code": "URI",
-    "name": "Rhode Island Rams",
-    "shortName": "Rhode Island",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/227.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2022",
-    "code": "AIC",
-    "name": "American International Yellow Jackets",
-    "shortName": "American Int'l",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2022.png",
-    "monitored": false
-   },
-   "venue": "Thomas M. Ryan Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 98,
-    "away": 89
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401924268",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T18:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "299",
-    "code": "LBSU",
-    "name": "Long Beach State Beach",
-    "shortName": "Long Beach St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/299.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "253",
-    "code": "SUU",
-    "name": "Southern Utah Thunderbirds",
-    "shortName": "Southern Utah",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/253.png",
-    "monitored": true
-   },
-   "venue": "Ocean Bank Convocation Center",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 65,
-    "away": 64
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401926835",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T18:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2619",
-    "code": "STBK",
-    "name": "Stony Brook Seawolves",
-    "shortName": "Stony Brook",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2815",
-    "code": "LIN",
-    "name": "Lindenwood Lions",
-    "shortName": "Lindenwood",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2815.png",
-    "monitored": true
-   },
-   "venue": "Stony Brook Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 69,
-    "away": 63
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401919007",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T18:30:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2166",
-    "code": "DAV",
-    "name": "Davidson Wildcats",
-    "shortName": "Davidson",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2166.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2655",
-    "code": "TULN",
-    "name": "Tulane Green Wave",
-    "shortName": "Tulane",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
-    "monitored": true
-   },
-   "venue": "Suncoast Credit Union Arena",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 74,
-    "away": 47
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401911311",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T19:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "225",
-    "code": "BRWN",
-    "name": "Brown Bears",
-    "shortName": "Brown",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/225.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "353",
-    "code": "JWU",
-    "name": "Johnson & Wales Griffins",
-    "shortName": "J&W",
-    "logo": "",
-    "monitored": false
-   },
-   "venue": "Pizzitola Sports Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 98,
-    "away": 52
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401917967",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T19:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2571",
-    "code": "SDST",
-    "name": "South Dakota State Jackrabbits",
-    "shortName": "S Dakota St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2571.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2000",
-    "code": "ACU",
-    "name": "Abilene Christian Wildcats",
-    "shortName": "Abilene Chrstn",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2000.png",
-    "monitored": true
-   },
-   "venue": "First Bank & Trust Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 95,
-    "away": 101
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401920868",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T19:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2885",
-    "code": "NJIT",
-    "name": "NJIT Highlanders",
-    "shortName": "NJIT",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2885.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2363",
-    "code": "MAN",
-    "name": "Manhattan Jaspers",
-    "shortName": "Manhattan",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2363.png",
-    "monitored": true
-   },
-   "venue": "Joel & Diane Bloom Wellness and Events Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 70,
-    "away": 81
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401921669",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T19:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "9",
-    "code": "ASU",
-    "name": "Arizona State Sun Devils",
-    "shortName": "Arizona St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "99",
-    "code": "LSU",
-    "name": "LSU Tigers",
-    "shortName": "LSU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-    "monitored": true
-   },
-   "venue": "Acrisure Arena",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final/2OT",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 92,
-    "away": 94
-   },
-   "gameState": {
-    "period": 4,
-    "clock": null,
-    "display": "Final/2OT"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401922223",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T19:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2454",
-    "code": "UNF",
-    "name": "North Florida Ospreys",
-    "shortName": "North Florida",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2454.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2683",
-    "code": "WRNR",
-    "name": "Warner Royals",
-    "shortName": "Warner",
-    "logo": "",
-    "monitored": false
-   },
-   "venue": "UNF Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 100,
-    "away": 68
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401924705",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T19:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "171",
-    "code": "COLU",
-    "name": "Columbia Lions",
-    "shortName": "Columbia",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/171.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2612",
-    "code": "SPU",
-    "name": "Saint Peter's Peacocks",
-    "shortName": "Saint Peter's",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2612.png",
-    "monitored": true
-   },
-   "venue": "Levien Gymnasium",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 65,
-    "away": 44
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401926207",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T19:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2717",
-    "code": "WCU",
-    "name": "Western Carolina Catamounts",
-    "shortName": "W Carolina",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2717.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2410",
-    "code": "MNTT",
-    "name": "Montreat Cavaliers",
-    "shortName": "Montreat",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2410.png",
-    "monitored": false
-   },
-   "venue": "Ramsey Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 100,
-    "away": 42
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401928850",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T19:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2711",
-    "code": "WMU",
-    "name": "Western Michigan Broncos",
-    "shortName": "W Michigan",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "126822",
-    "code": "GCRU",
-    "name": "Grace Christian Tigers",
-    "shortName": "Grace Chrstn",
-    "logo": "",
-    "monitored": false
-   },
-   "venue": "University Arena (MI)",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 104,
-    "away": 52
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401929406",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T19:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "233",
-    "code": "SDAK",
-    "name": "South Dakota Coyotes",
-    "shortName": "South Dakota",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/233.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2029",
-    "code": "UAPB",
-    "name": "Arkansas-Pine Bluff Golden Lions",
-    "shortName": "AR-Pine Bluff",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2029.png",
-    "monitored": true
-   },
-   "venue": "Sanford Coyote Sports Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 86,
-    "away": 50
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401921715",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T19:30:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "12",
-    "code": "ARIZ",
-    "name": "Arizona Wildcats",
-    "shortName": "Arizona",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "145",
-    "code": "MISS",
-    "name": "Ole Miss Rebels",
-    "shortName": "Ole Miss",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
-    "monitored": true
-   },
-   "venue": "Lahaina Civic Center",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 84,
-    "away": 73
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401919042",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T20:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "197",
-    "code": "OKST",
-    "name": "Oklahoma State Cowboys",
-    "shortName": "Oklahoma St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2296",
-    "code": "JKST",
-    "name": "Jackson State Tigers",
-    "shortName": "Jackson St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2296.png",
-    "monitored": true
-   },
-   "venue": "Gallagher-Iba Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 93,
-    "away": 58
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401920548",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T20:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "155",
-    "code": "UND",
-    "name": "North Dakota Fighting Hawks",
-    "shortName": "North Dakota",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2545",
-    "code": "SELA",
-    "name": "SE Louisiana Lions",
-    "shortName": "SE Louisiana",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2545.png",
-    "monitored": true
-   },
-   "venue": "Hard Rock Hotel Riviera Maya",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 72,
-    "away": 73
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401928836",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T20:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2026",
-    "code": "APP",
-    "name": "App State Mountaineers",
-    "shortName": "App State",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2006",
-    "code": "AKR",
-    "name": "Akron Zips",
-    "shortName": "Akron",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
-    "monitored": true
-   },
-   "venue": "State Farm Field House",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 76,
-    "away": 66
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401928359",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T20:30:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2229",
-    "code": "FIU",
-    "name": "Florida International Panthers",
-    "shortName": "FIU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2032",
-    "code": "ARST",
-    "name": "Arkansas State Red Wolves",
-    "shortName": "Arkansas St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
-    "monitored": true
-   },
-   "venue": "Ocean Bank Convocation Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 88,
-    "away": 92
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401920858",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T21:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "276",
-    "code": "MRSH",
-    "name": "Marshall Thundering Herd",
-    "shortName": "Marshall",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2504",
-    "code": "PV",
-    "name": "Prairie View A&M Panthers",
-    "shortName": "Prairie View",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2504.png",
-    "monitored": true
-   },
-   "venue": "Cam Henderson Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 64,
-    "away": 58
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401921703",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T21:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "526",
-    "code": "FGCU",
-    "name": "Florida Gulf Coast Eagles",
-    "shortName": "FGCU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/526.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2247",
-    "code": "GAST",
-    "name": "Georgia State Panthers",
-    "shortName": "Georgia St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
-    "monitored": true
-   },
-   "venue": "Suncoast Credit Union Arena",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 77,
-    "away": 72
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401924737",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T21:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2335",
-    "code": "LIB",
-    "name": "Liberty Flames",
-    "shortName": "Liberty",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "163",
-    "code": "PRIN",
-    "name": "Princeton Tigers",
-    "shortName": "Princeton",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/163.png",
-    "monitored": true
-   },
-   "venue": "Trask Coliseum",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 72,
-    "away": 79
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401925050",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T21:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2443",
-    "code": "NOLA",
-    "name": "LSU New Orleans Privateers",
-    "shortName": "LSU N Orleans",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2443.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2755",
-    "code": "GRAM",
-    "name": "Grambling Tigers",
-    "shortName": "Grambling",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2755.png",
-    "monitored": true
-   },
-   "venue": "Lakefront Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final/OT",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 80,
-    "away": 81
-   },
-   "gameState": {
-    "period": 3,
-    "clock": null,
-    "display": "Final/OT"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401925943",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T21:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "3101",
-    "code": "UTU",
-    "name": "Utah Tech Trailblazers",
-    "shortName": "Utah Tech",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "3246",
-    "code": "BTHS",
-    "name": "Bethesda Flames",
-    "shortName": "Bethesda",
-    "logo": "",
-    "monitored": false
-   },
-   "venue": "Burns Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 124,
-    "away": 54
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401920809",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T21:13:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2752",
-    "code": "XAV",
-    "name": "Xavier Musketeers",
-    "shortName": "Xavier",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2752.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "245",
-    "code": "TA&M",
-    "name": "Texas A&M Aggies",
-    "shortName": "Texas A&M",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
-    "monitored": true
-   },
-   "venue": "Imperial Arena",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 88,
-    "away": 83
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401920237",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T22:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "159",
-    "code": "DART",
-    "name": "Dartmouth Big Green",
-    "shortName": "Dartmouth",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/159.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "107",
-    "code": "HC",
-    "name": "Holy Cross Crusaders",
-    "shortName": "Holy Cross",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/107.png",
-    "monitored": true
-   },
-   "venue": "Leede Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 65,
-    "away": 67
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401925688",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T22:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "326",
-    "code": "TXST",
-    "name": "Texas State Bobcats",
-    "shortName": "Texas St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2016",
-    "code": "ALCN",
-    "name": "Alcorn State Braves",
-    "shortName": "Alcorn St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
-    "monitored": true
-   },
-   "venue": "Thomas Assembly Center",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 97,
-    "away": 70
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401925917",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T22:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "27",
-    "code": "UCR",
-    "name": "UC Riverside Highlanders",
-    "shortName": "UC Riverside",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/27.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2502",
-    "code": "PRST",
-    "name": "Portland State Vikings",
-    "shortName": "Portland St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
-    "monitored": true
-   },
-   "venue": "SRC Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 65,
-    "away": 72
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401926065",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T22:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "158",
-    "code": "NEB",
-    "name": "Nebraska Cornhuskers",
-    "shortName": "Nebraska",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2582",
-    "code": "SOU",
-    "name": "Southern Jaguars",
-    "shortName": "Southern",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2582.png",
-    "monitored": true
-   },
-   "venue": "Pinnacle Bank Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 101,
-    "away": 72
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401921670",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T22:17:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "30",
-    "code": "USC",
-    "name": "USC Trojans",
-    "shortName": "USC",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2579",
-    "code": "SC",
-    "name": "South Carolina Gamecocks",
-    "shortName": "South Carolina",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
-    "monitored": true
-   },
-   "venue": "Acrisure Arena",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 71,
-    "away": 69
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401921716",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T22:30:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2507",
-    "code": "PROV",
-    "name": "Providence Friars",
-    "shortName": "Providence",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "252",
-    "code": "BYU",
-    "name": "BYU Cougars",
-    "shortName": "BYU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
-    "monitored": true
-   },
-   "venue": "Lahaina Civic Center",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 82,
-    "away": 85
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401909720",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T23:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "183",
-    "code": "SYR",
-    "name": "Syracuse Orange",
-    "shortName": "Syracuse",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "399",
-    "code": "UALB",
-    "name": "UAlbany Great Danes",
-    "shortName": "UAlbany",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/399.png",
-    "monitored": true
-   },
-   "venue": "JMA Wireless Dome",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 74,
-    "away": 53
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401911241",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T23:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "257",
-    "code": "RICH",
-    "name": "Richmond Spiders",
-    "shortName": "Richmond",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/257.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2065",
-    "code": "BCU",
-    "name": "Bethune-Cookman Wildcats",
-    "shortName": "Bethune",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2065.png",
-    "monitored": true
-   },
-   "venue": "Robins Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 86,
-    "away": 79
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401920299",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T23:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2692",
-    "code": "WEB",
-    "name": "Weber State Wildcats",
-    "shortName": "Weber St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2692.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2463",
-    "code": "CSUN",
-    "name": "Cal State Northridge Matadors",
-    "shortName": "CSU Northridge",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2463.png",
-    "monitored": true
-   },
-   "venue": "Dee Events Center",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 67,
-    "away": 89
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401920549",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T23:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "232",
-    "code": "COFC",
-    "name": "Charleston Cougars",
-    "shortName": "Charleston",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/232.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "338",
-    "code": "KENN",
-    "name": "Kennesaw State Owls",
-    "shortName": "Kennesaw St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
-    "monitored": true
-   },
-   "venue": "Hard Rock Hotel Riviera Maya",
-   "neutralSite": true,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 91,
-    "away": 77
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
-  {
-   "eventId": "401922253",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-11-25T23:00:00Z",
-   "espnDate": "20261125",
-   "homeTeam": {
-    "id": "2466",
-    "code": "NWST",
-    "name": "Northwestern State Demons",
-    "shortName": "N'Western St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2466.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2697",
-    "code": "UWF",
-    "name": "West Florida Argonauts",
-    "shortName": "West Florida",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2697.png",
-    "monitored": true
-   },
-   "venue": "Prather Coliseum",
-   "neutralSite": false,
-   "status": {
-    "state": "post",
-    "name": "STATUS_FINAL",
-    "detail": "Final",
-    "completed": true,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": 71,
-    "away": 57
-   },
-   "gameState": {
-    "period": 2,
-    "clock": null,
-    "display": "Final"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-26T01:55:48Z"
-  },
   {
    "eventId": "401909568",
    "league": "NCAAB",
@@ -6059,27 +1259,27 @@
    "venue": "State Farm Field House",
    "neutralSite": true,
    "status": {
-    "state": "in",
-    "name": "STATUS_IN_PROGRESS",
-    "detail": "16:47 - 2nd",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": 52,
-    "away": 45
+    "home": 83,
+    "away": 81
    },
    "gameState": {
     "period": 2,
-    "clock": "16:47",
-    "display": "16:47 - 2nd"
+    "clock": null,
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-26T17:16:48Z"
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401906807",
@@ -6107,27 +1307,27 @@
    "venue": "Suncoast Credit Union Arena",
    "neutralSite": true,
    "status": {
-    "state": "in",
-    "name": "STATUS_IN_PROGRESS",
-    "detail": "13:53 - 1st",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": 13,
-    "away": 14
+    "home": 63,
+    "away": 70
    },
    "gameState": {
-    "period": 1,
-    "clock": "13:53",
-    "display": "13:53 - 1st"
+    "period": 2,
+    "clock": null,
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-26T17:16:48Z"
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401912231",
@@ -6155,27 +1355,27 @@
    "venue": "UTSA Convocation Center",
    "neutralSite": false,
    "status": {
-    "state": "in",
-    "name": "STATUS_IN_PROGRESS",
-    "detail": "11:48 - 1st",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": 10,
-    "away": 22
+    "home": 61,
+    "away": 79
    },
    "gameState": {
-    "period": 1,
-    "clock": "11:48",
-    "display": "11:48 - 1st"
+    "period": 2,
+    "clock": null,
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-26T17:16:48Z"
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401920528",
@@ -6185,14 +1385,6 @@
    "startTimeUTC": "2026-11-26T18:00:00Z",
    "espnDate": "20261126",
    "homeTeam": {
-    "id": "120",
-    "code": "MD",
-    "name": "Maryland Terrapins",
-    "shortName": "Maryland",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
-    "monitored": true
-   },
-   "awayTeam": {
     "id": "21",
     "code": "SDSU",
     "name": "San Diego State Aztecs",
@@ -6200,30 +1392,38 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
     "monitored": true
    },
+   "awayTeam": {
+    "id": "120",
+    "code": "MD",
+    "name": "Maryland Terrapins",
+    "shortName": "Maryland",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+    "monitored": true
+   },
    "venue": "Michelob ULTRA Arena",
    "neutralSite": true,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/26 - 1:00 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 75,
+    "away": 71
    },
    "gameState": {
-    "period": null,
+    "period": 2,
     "clock": null,
-    "display": "11/26 - 1:00 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401929282",
@@ -6251,27 +1451,27 @@
    "venue": "State Farm Field House",
    "neutralSite": true,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/26 - 1:30 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 73,
+    "away": 75
    },
    "gameState": {
-    "period": null,
+    "period": 2,
     "clock": null,
-    "display": "11/26 - 1:30 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401921674",
@@ -6281,14 +1481,6 @@
    "startTimeUTC": "2026-11-26T19:00:00Z",
    "espnDate": "20261126",
    "homeTeam": {
-    "id": "9",
-    "code": "ASU",
-    "name": "Arizona State Sun Devils",
-    "shortName": "Arizona St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
-    "monitored": true
-   },
-   "awayTeam": {
     "id": "2579",
     "code": "SC",
     "name": "South Carolina Gamecocks",
@@ -6296,30 +1488,38 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
     "monitored": true
    },
+   "awayTeam": {
+    "id": "9",
+    "code": "ASU",
+    "name": "Arizona State Sun Devils",
+    "shortName": "Arizona St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
+    "monitored": true
+   },
    "venue": "Acrisure Arena",
    "neutralSite": true,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/26 - 2:00 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 80,
+    "away": 73
    },
    "gameState": {
-    "period": null,
+    "period": 2,
     "clock": null,
-    "display": "11/26 - 2:00 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401906869",
@@ -6347,27 +1547,27 @@
    "venue": "Jenny Craig Pavilion",
    "neutralSite": true,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/26 - 2:30 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 92,
+    "away": 83
    },
    "gameState": {
-    "period": null,
+    "period": 2,
     "clock": null,
-    "display": "11/26 - 2:30 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401920529",
@@ -6395,27 +1595,27 @@
    "venue": "Michelob ULTRA Arena",
    "neutralSite": true,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/26 - 3:30 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 64,
+    "away": 75
    },
    "gameState": {
-    "period": null,
+    "period": 2,
     "clock": null,
-    "display": "11/26 - 3:30 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401920537",
@@ -6443,27 +1643,27 @@
    "venue": "T-Mobile Arena",
    "neutralSite": true,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/26 - 3:30 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 70,
+    "away": 97
    },
    "gameState": {
-    "period": null,
+    "period": 2,
     "clock": null,
-    "display": "11/26 - 3:30 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401921673",
@@ -6473,14 +1673,6 @@
    "startTimeUTC": "2026-11-26T21:30:00Z",
    "espnDate": "20261126",
    "homeTeam": {
-    "id": "30",
-    "code": "USC",
-    "name": "USC Trojans",
-    "shortName": "USC",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
-    "monitored": true
-   },
-   "awayTeam": {
     "id": "328",
     "code": "USU",
     "name": "Utah State Aggies",
@@ -6488,30 +1680,38 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
     "monitored": true
    },
+   "awayTeam": {
+    "id": "30",
+    "code": "USC",
+    "name": "USC Trojans",
+    "shortName": "USC",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+    "monitored": true
+   },
    "venue": "Acrisure Arena",
    "neutralSite": true,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/26 - 4:30 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 78,
+    "away": 74
    },
    "gameState": {
-    "period": null,
+    "period": 2,
     "clock": null,
-    "display": "11/26 - 4:30 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401925757",
@@ -6539,27 +1739,27 @@
    "venue": "Little Caesars Arena",
    "neutralSite": true,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/26 - 4:30 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 70,
+    "away": 67
    },
    "gameState": {
-    "period": null,
+    "period": 2,
     "clock": null,
-    "display": "11/26 - 4:30 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401917547",
@@ -6569,14 +1769,6 @@
    "startTimeUTC": "2026-11-26T22:00:00Z",
    "espnDate": "20261126",
    "homeTeam": {
-    "id": "26",
-    "code": "UCLA",
-    "name": "UCLA Bruins",
-    "shortName": "UCLA",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-    "monitored": true
-   },
-   "awayTeam": {
     "id": "2608",
     "code": "SMC",
     "name": "Saint Mary's Gaels",
@@ -6584,30 +1776,38 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2608.png",
     "monitored": true
    },
+   "awayTeam": {
+    "id": "26",
+    "code": "UCLA",
+    "name": "UCLA Bruins",
+    "shortName": "UCLA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+    "monitored": true
+   },
    "venue": "Jenny Craig Pavilion",
    "neutralSite": true,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/26 - 5:00 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 85,
+    "away": 70
    },
    "gameState": {
-    "period": null,
+    "period": 2,
     "clock": null,
-    "display": "11/26 - 5:00 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401920538",
@@ -6635,27 +1835,27 @@
    "venue": "T-Mobile Arena",
    "neutralSite": true,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/26 - 6:00 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 95,
+    "away": 87
    },
    "gameState": {
-    "period": null,
+    "period": 2,
     "clock": null,
-    "display": "11/26 - 6:00 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401909506",
@@ -6683,27 +1883,27 @@
    "venue": "Suncoast Credit Union Arena",
    "neutralSite": true,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/26 - 7:00 PM EST",
+    "state": "in",
+    "name": "STATUS_IN_PROGRESS",
+    "detail": "8:57 - 2nd",
     "completed": false,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 49,
+    "away": 48
    },
    "gameState": {
-    "period": null,
-    "clock": null,
-    "display": "11/26 - 7:00 PM EST"
+    "period": 2,
+    "clock": "8:57",
+    "display": "8:57 - 2nd"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401918972",
@@ -6713,14 +1913,6 @@
    "startTimeUTC": "2026-11-27T00:00:00Z",
    "espnDate": "20261126",
    "homeTeam": {
-    "id": "99",
-    "code": "LSU",
-    "name": "LSU Tigers",
-    "shortName": "LSU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-    "monitored": true
-   },
-   "awayTeam": {
     "id": "2567",
     "code": "SMU",
     "name": "SMU Mustangs",
@@ -6728,30 +1920,38 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
     "monitored": true
    },
+   "awayTeam": {
+    "id": "99",
+    "code": "LSU",
+    "name": "LSU Tigers",
+    "shortName": "LSU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+    "monitored": true
+   },
    "venue": "Acrisure Arena",
    "neutralSite": true,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/26 - 7:00 PM EST",
+    "state": "in",
+    "name": "STATUS_IN_PROGRESS",
+    "detail": "15:25 - 2nd",
     "completed": false,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 49,
+    "away": 50
    },
    "gameState": {
-    "period": null,
-    "clock": null,
-    "display": "11/26 - 7:00 PM EST"
+    "period": 2,
+    "clock": "15:25",
+    "display": "15:25 - 2nd"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401911523",
@@ -6761,14 +1961,6 @@
    "startTimeUTC": "2026-11-27T01:00:00Z",
    "espnDate": "20261126",
    "homeTeam": {
-    "id": "302",
-    "code": "UCD",
-    "name": "UC Davis Aggies",
-    "shortName": "UC Davis",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/302.png",
-    "monitored": true
-   },
-   "awayTeam": {
     "id": "55",
     "code": "JXST",
     "name": "Jacksonville State Gamecocks",
@@ -6776,30 +1968,38 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
     "monitored": true
    },
+   "awayTeam": {
+    "id": "302",
+    "code": "UCD",
+    "name": "UC Davis Aggies",
+    "shortName": "UC Davis",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/302.png",
+    "monitored": true
+   },
    "venue": "Resorts World Event Center",
    "neutralSite": true,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/26 - 8:00 PM EST",
+    "state": "in",
+    "name": "STATUS_HALFTIME",
+    "detail": "Halftime",
     "completed": false,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 35,
+    "away": 26
    },
    "gameState": {
-    "period": null,
-    "clock": null,
-    "display": "11/26 - 8:00 PM EST"
+    "period": 1,
+    "clock": "0:00",
+    "display": "Halftime"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401920530",
@@ -7570,6 +2770,54 @@
    "updatedAt": "2026-11-25T16:03:26Z"
   },
   {
+   "eventId": "401921717",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-27T19:30:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "26",
+    "code": "UCLA",
+    "name": "UCLA Bruins",
+    "shortName": "UCLA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "46",
+    "code": "GTWN",
+    "name": "Georgetown Hoyas",
+    "shortName": "Georgetown",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
+    "monitored": true
+   },
+   "venue": "Jenny Craig Pavilion",
+   "neutralSite": true,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 2:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 2:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
    "eventId": "401902282",
    "league": "NCAAB",
    "leagueKey": "ncaab",
@@ -7760,6 +3008,55 @@
    "week": null,
    "source": "ESPN",
    "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401920532",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-27T20:30:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "120",
+    "code": "MD",
+    "name": "Maryland Terrapins",
+    "shortName": "Maryland",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "",
+    "code": "TBD",
+    "name": "TBD",
+    "shortName": "TBD",
+    "logo": "",
+    "placeholder": true,
+    "monitored": false
+   },
+   "venue": "Michelob ULTRA Arena",
+   "neutralSite": true,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 3:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 3:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401920774",
@@ -8240,6 +3537,54 @@
    "week": null,
    "source": "ESPN",
    "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401921718",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-27T22:00:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "2608",
+    "code": "SMC",
+    "name": "Saint Mary's Gaels",
+    "shortName": "Saint Mary's",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2608.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "251",
+    "code": "TEX",
+    "name": "Texas Longhorns",
+    "shortName": "Texas",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+    "monitored": true
+   },
+   "venue": "Jenny Craig Pavilion",
+   "neutralSite": true,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 5:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 5:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401927366",
@@ -9200,6 +4545,55 @@
    "week": null,
    "source": "ESPN",
    "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401920535",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-11-28T04:30:00Z",
+   "espnDate": "20261127",
+   "homeTeam": {
+    "id": "21",
+    "code": "SDSU",
+    "name": "San Diego State Aztecs",
+    "shortName": "San Diego St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "",
+    "code": "TBD",
+    "name": "TBD",
+    "shortName": "TBD",
+    "logo": "",
+    "placeholder": true,
+    "monitored": false
+   },
+   "venue": "Michelob ULTRA Arena",
+   "neutralSite": true,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "11/27 - 11:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "11/27 - 11:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401918961",
@@ -16018,54 +11412,6 @@
    "updatedAt": "2026-11-25T16:03:26Z"
   },
   {
-   "eventId": "401925081",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-12-01T18:00:00Z",
-   "espnDate": "20261201",
-   "homeTeam": {
-    "id": "2466",
-    "code": "NWST",
-    "name": "Northwestern State Demons",
-    "shortName": "N'Western St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2466.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "3120",
-    "code": "ECCL",
-    "name": "Ecclesia Royals",
-    "shortName": "Ecclesia",
-    "logo": "",
-    "monitored": false
-   },
-   "venue": "Prather Coliseum",
-   "neutralSite": false,
-   "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "12/1 - 1:00 PM EST",
-    "completed": false,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": null,
-    "away": null
-   },
-   "gameState": {
-    "period": null,
-    "clock": null,
-    "display": "12/1 - 1:00 PM EST"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
    "eventId": "401921159",
    "league": "NCAAB",
    "leagueKey": "ncaab",
@@ -16400,6 +11746,54 @@
    "week": null,
    "source": "ESPN",
    "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401925081",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-01T23:30:00Z",
+   "espnDate": "20261201",
+   "homeTeam": {
+    "id": "2466",
+    "code": "NWST",
+    "name": "Northwestern State Demons",
+    "shortName": "N'Western St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2466.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "3120",
+    "code": "ECCL",
+    "name": "Ecclesia Royals",
+    "shortName": "Ecclesia",
+    "logo": "",
+    "monitored": false
+   },
+   "venue": "Prather Coliseum",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/1 - 6:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/1 - 6:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401929440",
@@ -17241,54 +12635,6 @@
     "monitored": true
    },
    "venue": "Mackey Arena",
-   "neutralSite": false,
-   "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "12/1 - 7:00 PM EST",
-    "completed": false,
-    "postponed": false,
-    "cancelled": false,
-    "delayed": false
-   },
-   "score": {
-    "home": null,
-    "away": null
-   },
-   "gameState": {
-    "period": null,
-    "clock": null,
-    "display": "12/1 - 7:00 PM EST"
-   },
-   "seasonType": 2,
-   "week": null,
-   "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
-  },
-  {
-   "eventId": "401925734",
-   "league": "NCAAB",
-   "leagueKey": "ncaab",
-   "sport": "basketball",
-   "startTimeUTC": "2026-12-02T00:00:00Z",
-   "espnDate": "20261201",
-   "homeTeam": {
-    "id": "130",
-    "code": "MICH",
-    "name": "Michigan Wolverines",
-    "shortName": "Michigan",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
-    "monitored": true
-   },
-   "awayTeam": {
-    "id": "2400",
-    "code": "MVSU",
-    "name": "Mississippi Valley State Delta Devils",
-    "shortName": "Miss Valley St",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2400.png",
-    "monitored": true
-   },
-   "venue": "Crisler Center",
    "neutralSite": false,
    "status": {
     "state": "pre",
@@ -18224,6 +13570,54 @@
    "week": null,
    "source": "ESPN",
    "updatedAt": "2026-11-25T16:03:26Z"
+  },
+  {
+   "eventId": "401925734",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-02T01:00:00Z",
+   "espnDate": "20261201",
+   "homeTeam": {
+    "id": "130",
+    "code": "MICH",
+    "name": "Michigan Wolverines",
+    "shortName": "Michigan",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2400",
+    "code": "MVSU",
+    "name": "Mississippi Valley State Delta Devils",
+    "shortName": "Miss Valley St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2400.png",
+    "monitored": true
+   },
+   "venue": "Crisler Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/1 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/1 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
   },
   {
    "eventId": "401927358",
@@ -23888,7 +19282,967 @@
    "week": null,
    "source": "ESPN",
    "updatedAt": "2026-11-26T01:55:48Z"
+  },
+  {
+   "eventId": "401911314",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-04T23:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "2803",
+    "code": "BRY",
+    "name": "Bryant Bulldogs",
+    "shortName": "Bryant",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2803.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "225",
+    "code": "BRWN",
+    "name": "Brown Bears",
+    "shortName": "Brown",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/225.png",
+    "monitored": true
+   },
+   "venue": "Chace Athletic Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 6:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 6:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401911708",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-04T23:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "2634",
+    "code": "TNST",
+    "name": "Tennessee State Tigers",
+    "shortName": "Tennessee St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2634.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2755",
+    "code": "GRAM",
+    "name": "Grambling Tigers",
+    "shortName": "Grambling",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2755.png",
+    "monitored": true
+   },
+   "venue": "CareFirst Arena",
+   "neutralSite": true,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 6:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 6:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401924706",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-04T23:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "2441",
+    "code": "NHVN",
+    "name": "New Haven Chargers",
+    "shortName": "New Haven",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2441.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "171",
+    "code": "COLU",
+    "name": "Columbia Lions",
+    "shortName": "Columbia",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/171.png",
+    "monitored": true
+   },
+   "venue": "Jeffery P. Hazell Athletics Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 6:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 6:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401920925",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-04T23:30:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "315",
+    "code": "NIA",
+    "name": "Niagara Purple Eagles",
+    "shortName": "Niagara",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/315.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "116",
+    "code": "MSM",
+    "name": "Mount St. Mary's Mountaineers",
+    "shortName": "Mount St Marys",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/116.png",
+    "monitored": true
+   },
+   "venue": "Gallagher Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 6:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 6:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401909569",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-05T00:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "150",
+    "code": "DUKE",
+    "name": "Duke Blue Devils",
+    "shortName": "Duke",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "108",
+    "code": "HARV",
+    "name": "Harvard Crimson",
+    "shortName": "Harvard",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/108.png",
+    "monitored": true
+   },
+   "venue": "Cameron Indoor Stadium",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401909801",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-05T00:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "2550",
+    "code": "HALL",
+    "name": "Seton Hall Pirates",
+    "shortName": "Seton Hall",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2306",
+    "code": "KSU",
+    "name": "Kansas State Wildcats",
+    "shortName": "Kansas St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+    "monitored": true
+   },
+   "venue": "Prudential Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401913532",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-05T00:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "356",
+    "code": "ILL",
+    "name": "Illinois Fighting Illini",
+    "shortName": "Illinois",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "41",
+    "code": "CONN",
+    "name": "UConn Huskies",
+    "shortName": "UConn",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+    "monitored": true
+   },
+   "venue": "United Center",
+   "neutralSite": true,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401919763",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-05T00:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "161",
+    "code": "FDU",
+    "name": "Fairleigh Dickinson Knights",
+    "shortName": "FDU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/161.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "322",
+    "code": "LAF",
+    "name": "Lafayette Leopards",
+    "shortName": "Lafayette",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/322.png",
+    "monitored": true
+   },
+   "venue": "Bogota Savings Bank Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401920281",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-05T00:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "2099",
+    "code": "CAN",
+    "name": "Canisius Golden Griffins",
+    "shortName": "Canisius",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2099.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2520",
+    "code": "RID",
+    "name": "Rider Broncs",
+    "shortName": "Rider",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2520.png",
+    "monitored": true
+   },
+   "venue": "Koessler Athletic Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401920416",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-05T00:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "2272",
+    "code": "HPU",
+    "name": "High Point Panthers",
+    "shortName": "High Point",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2272.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2681",
+    "code": "WAG",
+    "name": "Wagner Seahawks",
+    "shortName": "Wagner",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2681.png",
+    "monitored": true
+   },
+   "venue": "Qubein Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401921193",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-05T00:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "314",
+    "code": "IONA",
+    "name": "Iona Gaels",
+    "shortName": "Iona",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/314.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2514",
+    "code": "QUIN",
+    "name": "Quinnipiac Bobcats",
+    "shortName": "Quinnipiac",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2514.png",
+    "monitored": true
+   },
+   "venue": "Hynes Athletics Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401924765",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-05T00:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "2217",
+    "code": "FAIR",
+    "name": "Fairfield Stags",
+    "shortName": "Fairfield",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2217.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2363",
+    "code": "MAN",
+    "name": "Manhattan Jaspers",
+    "shortName": "Manhattan",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2363.png",
+    "monitored": true
+   },
+   "venue": "Leo D. Mahoney Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401924797",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-05T00:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "2368",
+    "code": "MRST",
+    "name": "Marist Red Foxes",
+    "shortName": "Marist",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2368.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2529",
+    "code": "SHU",
+    "name": "Sacred Heart Pioneers",
+    "shortName": "Sacred Heart",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2529.png",
+    "monitored": true
+   },
+   "venue": "McCann Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401924812",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-05T00:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "2561",
+    "code": "SIE",
+    "name": "Siena Saints",
+    "shortName": "Siena",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2561.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2771",
+    "code": "MRMK",
+    "name": "Merrimack Warriors",
+    "shortName": "Merrimack",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2771.png",
+    "monitored": true
+   },
+   "venue": "MVP Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 7:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 7:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401921099",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-05T01:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "242",
+    "code": "RICE",
+    "name": "Rice Owls",
+    "shortName": "Rice",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2534",
+    "code": "SHSU",
+    "name": "Sam Houston Bearkats",
+    "shortName": "Sam Houston",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
+    "monitored": true
+   },
+   "venue": "Tudor Fieldhouse",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401925832",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-05T01:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "249",
+    "code": "UNT",
+    "name": "North Texas Mean Green",
+    "shortName": "North Texas",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "71",
+    "code": "BRAD",
+    "name": "Bradley Braves",
+    "shortName": "Bradley",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/71.png",
+    "monitored": true
+   },
+   "venue": "The Super Pit",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401927390",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-05T01:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "2460",
+    "code": "UNI",
+    "name": "Northern Iowa Panthers",
+    "shortName": "Northern Iowa",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2460.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2685",
+    "code": "WTBG",
+    "name": "Wartburg Knights",
+    "shortName": "Wartburg",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2685.png",
+    "monitored": false
+   },
+   "venue": "McLeod Center",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401927393",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-05T01:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "2350",
+    "code": "LUC",
+    "name": "Loyola Chicago Ramblers",
+    "shortName": "Loyola Chicago",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2350.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2042",
+    "code": "AUGC",
+    "name": "Augustana (IL) Vikings",
+    "shortName": "Augustana (IL)",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2042.png",
+    "monitored": false
+   },
+   "venue": "Gentile Arena",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 8:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 8:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401925899",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-05T01:30:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "2450",
+    "code": "NORF",
+    "name": "Norfolk State Spartans",
+    "shortName": "Norfolk St",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "50",
+    "code": "FAMU",
+    "name": "Florida A&M Rattlers",
+    "shortName": "Florida A&M",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png",
+    "monitored": true
+   },
+   "venue": "CareFirst Arena",
+   "neutralSite": true,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 8:30 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 8:30 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401917557",
+   "league": "NCAAB",
+   "leagueKey": "ncaab",
+   "sport": "basketball",
+   "startTimeUTC": "2026-12-05T03:00:00Z",
+   "espnDate": "20261204",
+   "homeTeam": {
+    "id": "2351",
+    "code": "LMU",
+    "name": "Loyola Marymount Lions",
+    "shortName": "LMU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "62",
+    "code": "HAW",
+    "name": "Hawai'i Rainbow Warriors",
+    "shortName": "Hawai'i",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+    "monitored": true
+   },
+   "venue": "Gersten Pavilion",
+   "neutralSite": false,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/4 - 10:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/4 - 10:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": null,
+   "source": "ESPN",
+   "updatedAt": "2026-11-27T01:54:19Z"
   }
  ],
- "generatedAt": "2026-11-26T17:16:48Z"
+ "generatedAt": "2026-11-27T01:54:19Z"
 }
