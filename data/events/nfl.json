@@ -10,71 +10,71 @@
  "dates": {
   "20261125": {
    "status": "ok",
-   "checkedAt": "2026-11-27T01:54:19Z",
-   "lastSuccessAt": "2026-11-27T01:54:19Z",
+   "checkedAt": "2026-11-27T16:56:51Z",
+   "lastSuccessAt": "2026-11-27T16:56:51Z",
    "events": 1,
    "skipped": 0
   },
   "20261126": {
    "status": "ok",
-   "checkedAt": "2026-11-27T01:54:19Z",
-   "lastSuccessAt": "2026-11-27T01:54:19Z",
+   "checkedAt": "2026-11-27T16:56:51Z",
+   "lastSuccessAt": "2026-11-27T16:56:51Z",
    "events": 3,
    "skipped": 0
   },
   "20261127": {
    "status": "ok",
-   "checkedAt": "2026-11-27T01:54:19Z",
-   "lastSuccessAt": "2026-11-27T01:54:19Z",
+   "checkedAt": "2026-11-27T16:56:51Z",
+   "lastSuccessAt": "2026-11-27T16:56:51Z",
    "events": 1,
    "skipped": 0
   },
   "20261128": {
    "status": "ok",
-   "checkedAt": "2026-11-27T01:54:19Z",
-   "lastSuccessAt": "2026-11-27T01:54:19Z",
+   "checkedAt": "2026-11-27T16:56:51Z",
+   "lastSuccessAt": "2026-11-27T16:56:51Z",
    "events": 0,
    "skipped": 0
   },
   "20261129": {
    "status": "ok",
-   "checkedAt": "2026-11-27T01:54:19Z",
-   "lastSuccessAt": "2026-11-27T01:54:19Z",
+   "checkedAt": "2026-11-27T16:56:51Z",
+   "lastSuccessAt": "2026-11-27T16:56:51Z",
    "events": 10,
    "skipped": 0
   },
   "20261130": {
    "status": "ok",
-   "checkedAt": "2026-11-27T01:54:19Z",
-   "lastSuccessAt": "2026-11-27T01:54:19Z",
+   "checkedAt": "2026-11-27T16:56:51Z",
+   "lastSuccessAt": "2026-11-27T16:56:51Z",
    "events": 1,
    "skipped": 0
   },
   "20261201": {
    "status": "ok",
-   "checkedAt": "2026-11-27T01:54:19Z",
-   "lastSuccessAt": "2026-11-27T01:54:19Z",
+   "checkedAt": "2026-11-27T16:56:51Z",
+   "lastSuccessAt": "2026-11-27T16:56:51Z",
    "events": 0,
    "skipped": 0
   },
   "20261202": {
    "status": "ok",
-   "checkedAt": "2026-11-27T01:54:19Z",
-   "lastSuccessAt": "2026-11-27T01:54:19Z",
+   "checkedAt": "2026-11-27T16:56:51Z",
+   "lastSuccessAt": "2026-11-27T16:56:51Z",
    "events": 0,
    "skipped": 0
   },
   "20261203": {
    "status": "ok",
-   "checkedAt": "2026-11-27T01:54:19Z",
-   "lastSuccessAt": "2026-11-27T01:54:19Z",
+   "checkedAt": "2026-11-27T16:56:51Z",
+   "lastSuccessAt": "2026-11-27T16:56:51Z",
    "events": 1,
    "skipped": 0
   },
   "20261204": {
    "status": "ok",
-   "checkedAt": "2026-11-27T01:54:19Z",
-   "lastSuccessAt": "2026-11-27T01:54:19Z",
+   "checkedAt": "2026-11-27T16:56:51Z",
+   "lastSuccessAt": "2026-11-27T16:56:51Z",
    "events": 0,
    "skipped": 0
   }
@@ -251,27 +251,27 @@
    "venue": "Highmark Stadium",
    "neutralSite": false,
    "status": {
-    "state": "in",
-    "name": "STATUS_IN_PROGRESS",
-    "detail": "5:40 - 1st",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": 0,
-    "away": 0
+    "home": 13,
+    "away": 10
    },
    "gameState": {
-    "period": 1,
-    "clock": "5:40",
-    "display": "5:40 - 1st"
+    "period": 4,
+    "clock": null,
+    "display": "Final"
    },
    "seasonType": 2,
    "week": 12,
    "source": "ESPN",
-   "updatedAt": "2026-11-27T01:54:19Z"
+   "updatedAt": "2026-11-27T16:56:51Z"
   },
   {
    "eventId": "401873083",
@@ -898,5 +898,5 @@
    "updatedAt": "2026-11-26T01:55:48Z"
   }
  ],
- "generatedAt": "2026-11-27T01:54:19Z"
+ "generatedAt": "2026-11-27T16:56:51Z"
 }
