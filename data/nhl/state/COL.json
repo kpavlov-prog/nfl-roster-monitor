@@ -3,7 +3,7 @@
   "team": "Colorado Avalanche",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/COL/current",
-  "checkedAt": "2026-11-27T18:20:43.637738+00:00",
+  "checkedAt": "2026-11-28T17:04:18.982293+00:00",
   "players": [
     {
       "name": "Adam Beckman",
@@ -177,6 +177,13 @@
       "name": "Taylor Makar",
       "position": "L",
       "number": "16",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Trent Miner",
+      "position": "G",
+      "number": "50",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },

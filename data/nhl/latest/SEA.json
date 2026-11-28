@@ -3,7 +3,7 @@
   "team": "Seattle Kraken",
   "source": "NHL Web API",
   "url": "https://api-web.nhle.com/v1/roster/SEA/current",
-  "checkedAt": "2026-11-27T18:20:53.990716+00:00",
+  "checkedAt": "2026-11-28T17:04:28.263280+00:00",
   "players": [
     {
       "name": "Adam Larsson",
@@ -135,6 +135,13 @@
       "name": "Matty Beniers",
       "position": "C",
       "number": "10",
+      "status": "ACTIVE",
+      "source": "NHL Web API"
+    },
+    {
+      "name": "Nikke Kokko",
+      "position": "G",
+      "number": "39",
       "status": "ACTIVE",
       "source": "NHL Web API"
     },
