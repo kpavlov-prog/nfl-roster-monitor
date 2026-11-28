@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=active",
-  "checkedAt": "2026-11-27T18:11:05.132336+00:00",
+  "checkedAt": "2026-11-28T16:53:13.551430+00:00",
   "players": [
     {
       "name": "Addison Barger",
@@ -172,6 +172,13 @@
       "name": "José Soriano",
       "position": "P",
       "number": "40",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kaima Taira",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

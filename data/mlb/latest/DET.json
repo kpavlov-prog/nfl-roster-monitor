@@ -5,19 +5,12 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=active",
-  "checkedAt": "2026-11-27T18:10:53.196999+00:00",
+  "checkedAt": "2026-11-28T16:53:01.604908+00:00",
   "players": [
     {
       "name": "Andrew Sears",
       "position": "P",
       "number": "64",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Beau Brieske",
-      "position": "P",
-      "number": "4",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -106,6 +99,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Ha-Seong Kim",
+      "position": "SS",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Hao-Yu Lee",
       "position": "2B",
       "number": "50",
@@ -176,6 +176,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "Luis Gil",
+      "position": "P",
+      "number": "",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Max Anderson",
       "position": "2B",
       "number": "",
@@ -242,13 +249,6 @@
       "name": "Troy Melton",
       "position": "P",
       "number": "52",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tsung-Che Cheng",
-      "position": "SS",
-      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

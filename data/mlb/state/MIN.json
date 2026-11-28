@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/142/roster?rosterType=active",
-  "checkedAt": "2026-11-27T18:10:57.559663+00:00",
+  "checkedAt": "2026-11-28T16:53:05.968182+00:00",
   "players": [
     {
       "name": "Alan Roden",
@@ -137,6 +137,13 @@
       "name": "Kendry Rojas",
       "position": "P",
       "number": "60",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Kevin Ginkel",
+      "position": "P",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },

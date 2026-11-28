@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=active",
-  "checkedAt": "2026-11-27T18:10:47.098553+00:00",
+  "checkedAt": "2026-11-28T16:52:55.818201+00:00",
   "players": [
     {
       "name": "Adrian Del Castillo",
@@ -116,6 +116,13 @@
       "name": "Gerardo Carrillo",
       "position": "P",
       "number": "68",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Henry Davis",
+      "position": "C",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -242,13 +249,6 @@
       "name": "Spencer Giesting",
       "position": "P",
       "number": "",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Tim Tawa",
-      "position": "1B",
-      "number": "13",
       "status": "A",
       "source": "MLB Stats API"
     },

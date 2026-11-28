@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=active",
-  "checkedAt": "2026-11-27T18:10:52.525337+00:00",
+  "checkedAt": "2026-11-28T16:53:00.958426+00:00",
   "players": [
     {
       "name": "Adael Amador",
@@ -78,6 +78,13 @@
       "source": "MLB Stats API"
     },
     {
+      "name": "David Peterson",
+      "position": "P",
+      "number": "24",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
       "name": "Davis Martin",
       "position": "P",
       "number": "65",
@@ -94,14 +101,7 @@
     {
       "name": "Gabriel Hughes",
       "position": "P",
-      "number": "43",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Hayden Harris",
-      "position": "P",
-      "number": "",
+      "number": "45",
       "status": "A",
       "source": "MLB Stats API"
     },

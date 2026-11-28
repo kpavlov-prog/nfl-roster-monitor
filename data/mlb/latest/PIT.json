@@ -5,7 +5,7 @@
   "source": "MLB Stats API",
   "rosterType": "active",
   "url": "https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=active",
-  "checkedAt": "2026-11-27T18:11:00.700911+00:00",
+  "checkedAt": "2026-11-28T16:53:09.168980+00:00",
   "players": [
     {
       "name": "Akil Baddoo",
@@ -88,13 +88,6 @@
       "name": "Evan Sisk",
       "position": "P",
       "number": "48",
-      "status": "A",
-      "source": "MLB Stats API"
-    },
-    {
-      "name": "Henry Davis",
-      "position": "C",
-      "number": "32",
       "status": "A",
       "source": "MLB Stats API"
     },
@@ -256,6 +249,13 @@
       "name": "Thomas Harrington",
       "position": "P",
       "number": "53",
+      "status": "A",
+      "source": "MLB Stats API"
+    },
+    {
+      "name": "Tim Tawa",
+      "position": "1B",
+      "number": "",
       "status": "A",
       "source": "MLB Stats API"
     },
