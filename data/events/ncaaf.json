@@ -4,82 +4,82 @@
  "sport": "football",
  "source": "ESPN",
  "window": {
-  "fromUTC": "2026-11-26T00:00:00Z",
-  "toUTC": "2026-12-05T05:00:00Z"
+  "fromUTC": "2026-11-27T00:00:00Z",
+  "toUTC": "2026-12-06T05:00:00Z"
  },
  "dates": {
-  "20261125": {
-   "status": "ok",
-   "checkedAt": "2026-11-27T16:56:51Z",
-   "lastSuccessAt": "2026-11-27T16:56:51Z",
-   "events": 0,
-   "skipped": 0
-  },
   "20261126": {
    "status": "ok",
-   "checkedAt": "2026-11-27T16:56:51Z",
-   "lastSuccessAt": "2026-11-27T16:56:51Z",
+   "checkedAt": "2026-11-28T01:38:24Z",
+   "lastSuccessAt": "2026-11-28T01:38:24Z",
    "events": 1,
    "skipped": 0
   },
   "20261127": {
    "status": "ok",
-   "checkedAt": "2026-11-27T16:56:51Z",
-   "lastSuccessAt": "2026-11-27T16:56:51Z",
+   "checkedAt": "2026-11-28T01:38:24Z",
+   "lastSuccessAt": "2026-11-28T01:38:24Z",
    "events": 13,
    "skipped": 0
   },
   "20261128": {
    "status": "ok",
-   "checkedAt": "2026-11-27T16:56:51Z",
-   "lastSuccessAt": "2026-11-27T16:56:51Z",
+   "checkedAt": "2026-11-28T01:38:24Z",
+   "lastSuccessAt": "2026-11-28T01:38:24Z",
    "events": 53,
    "skipped": 0
   },
   "20261129": {
    "status": "ok",
-   "checkedAt": "2026-11-27T16:56:51Z",
-   "lastSuccessAt": "2026-11-27T16:56:51Z",
+   "checkedAt": "2026-11-28T01:38:24Z",
+   "lastSuccessAt": "2026-11-28T01:38:24Z",
    "events": 0,
    "skipped": 0
   },
   "20261130": {
    "status": "ok",
-   "checkedAt": "2026-11-27T16:56:51Z",
-   "lastSuccessAt": "2026-11-27T16:56:51Z",
+   "checkedAt": "2026-11-28T01:38:24Z",
+   "lastSuccessAt": "2026-11-28T01:38:24Z",
    "events": 0,
    "skipped": 0
   },
   "20261201": {
    "status": "ok",
-   "checkedAt": "2026-11-27T16:56:51Z",
-   "lastSuccessAt": "2026-11-27T16:56:51Z",
+   "checkedAt": "2026-11-28T01:38:24Z",
+   "lastSuccessAt": "2026-11-28T01:38:24Z",
    "events": 0,
    "skipped": 0
   },
   "20261202": {
    "status": "ok",
-   "checkedAt": "2026-11-27T16:56:51Z",
-   "lastSuccessAt": "2026-11-27T16:56:51Z",
+   "checkedAt": "2026-11-28T01:38:24Z",
+   "lastSuccessAt": "2026-11-28T01:38:24Z",
    "events": 0,
    "skipped": 0
   },
   "20261203": {
    "status": "ok",
-   "checkedAt": "2026-11-27T16:56:51Z",
-   "lastSuccessAt": "2026-11-27T16:56:51Z",
+   "checkedAt": "2026-11-28T01:38:24Z",
+   "lastSuccessAt": "2026-11-28T01:38:24Z",
    "events": 0,
    "skipped": 0
   },
   "20261204": {
    "status": "ok",
-   "checkedAt": "2026-11-27T16:56:51Z",
-   "lastSuccessAt": "2026-11-27T16:56:51Z",
+   "checkedAt": "2026-11-28T01:38:24Z",
+   "lastSuccessAt": "2026-11-28T01:38:24Z",
+   "events": 3,
+   "skipped": 0
+  },
+  "20261205": {
+   "status": "ok",
+   "checkedAt": "2026-11-28T01:38:24Z",
+   "lastSuccessAt": "2026-11-28T01:38:24Z",
    "events": 3,
    "skipped": 0
   }
  },
- "eventCount": 70,
+ "eventCount": 73,
  "events": [
   {
    "eventId": "401856879",
@@ -155,27 +155,27 @@
    "venue": "Vaught-Hemingway Stadium",
    "neutralSite": false,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/27 - 12:00 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 41,
+    "away": 17
    },
    "gameState": {
-    "period": null,
+    "period": 4,
     "clock": null,
-    "display": "11/27 - 12:00 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": 13,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-28T01:38:24Z"
   },
   {
    "eventId": "401862840",
@@ -203,27 +203,27 @@
    "venue": "Alamodome",
    "neutralSite": false,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/27 - 12:00 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 28,
+    "away": 22
    },
    "gameState": {
-    "period": null,
+    "period": 4,
     "clock": null,
-    "display": "11/27 - 12:00 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": 13,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-28T01:38:24Z"
   },
   {
    "eventId": "401866472",
@@ -251,27 +251,27 @@
    "venue": "InfoCision Stadium",
    "neutralSite": false,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/27 - 12:00 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 9,
+    "away": 17
    },
    "gameState": {
-    "period": null,
+    "period": 4,
     "clock": null,
-    "display": "11/27 - 12:00 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": 13,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-28T01:38:24Z"
   },
   {
    "eventId": "401866473",
@@ -299,27 +299,27 @@
    "venue": "Peden Stadium",
    "neutralSite": false,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/27 - 12:00 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 31,
+    "away": 34
    },
    "gameState": {
-    "period": null,
+    "period": 4,
     "clock": null,
-    "display": "11/27 - 12:00 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": 13,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-28T01:38:24Z"
   },
   {
    "eventId": "401858536",
@@ -347,27 +347,27 @@
    "venue": "Kinnick Stadium",
    "neutralSite": false,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/27 - 12:08 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 31,
+    "away": 7
    },
    "gameState": {
-    "period": null,
+    "period": 4,
     "clock": null,
-    "display": "11/27 - 12:08 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": 13,
    "source": "ESPN",
-   "updatedAt": "2026-11-27T16:56:51Z"
+   "updatedAt": "2026-11-28T01:38:24Z"
   },
   {
    "eventId": "401869930",
@@ -395,27 +395,27 @@
    "venue": "Hancock Whitney Stadium",
    "neutralSite": false,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/27 - 3:00 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 20,
+    "away": 13
    },
    "gameState": {
-    "period": null,
+    "period": 4,
     "clock": null,
-    "display": "11/27 - 3:00 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": 13,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-28T01:38:24Z"
   },
   {
    "eventId": "401856759",
@@ -443,27 +443,27 @@
    "venue": "Doak Campbell Stadium",
    "neutralSite": false,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/27 - 3:30 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 10,
+    "away": 26
    },
    "gameState": {
-    "period": null,
+    "period": 4,
     "clock": null,
-    "display": "11/27 - 3:30 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": 13,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-28T01:38:24Z"
   },
   {
    "eventId": "401862838",
@@ -491,27 +491,27 @@
    "venue": "Simmons Bank Liberty Stadium",
    "neutralSite": false,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/27 - 3:30 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 31,
+    "away": 35
    },
    "gameState": {
-    "period": null,
+    "period": 4,
     "clock": null,
-    "display": "11/27 - 3:30 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": 13,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-28T01:38:24Z"
   },
   {
    "eventId": "401864549",
@@ -539,27 +539,27 @@
    "venue": "CEFCU Stadium",
    "neutralSite": false,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/27 - 3:30 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 31,
+    "away": 38
    },
    "gameState": {
-    "period": null,
+    "period": 4,
     "clock": null,
-    "display": "11/27 - 3:30 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": 13,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-28T01:38:24Z"
   },
   {
    "eventId": "401864546",
@@ -587,27 +587,27 @@
    "venue": "University Stadium (NM)",
    "neutralSite": false,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/27 - 4:30 PM EST",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 42,
+    "away": 19
    },
    "gameState": {
-    "period": null,
+    "period": 4,
     "clock": null,
-    "display": "11/27 - 4:30 PM EST"
+    "display": "Final"
    },
    "seasonType": 2,
    "week": 13,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-28T01:38:24Z"
   },
   {
    "eventId": "401856756",
@@ -635,27 +635,27 @@
    "venue": "Kyle Field",
    "neutralSite": false,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/27 - 7:30 PM EST",
+    "state": "in",
+    "name": "STATUS_IN_PROGRESS",
+    "detail": "8:22 - 2nd",
     "completed": false,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 10
    },
    "gameState": {
-    "period": null,
-    "clock": null,
-    "display": "11/27 - 7:30 PM EST"
+    "period": 2,
+    "clock": "8:22",
+    "display": "8:22 - 2nd"
    },
    "seasonType": 2,
    "week": 13,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-28T01:38:24Z"
   },
   {
    "eventId": "401858544",
@@ -683,27 +683,27 @@
    "venue": "Camp Randall Stadium",
    "neutralSite": false,
    "status": {
-    "state": "pre",
-    "name": "STATUS_SCHEDULED",
-    "detail": "11/27 - 7:30 PM EST",
+    "state": "in",
+    "name": "STATUS_IN_PROGRESS",
+    "detail": "7:46 - 2nd",
     "completed": false,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": null,
-    "away": null
+    "home": 14,
+    "away": 3
    },
    "gameState": {
-    "period": null,
-    "clock": null,
-    "display": "11/27 - 7:30 PM EST"
+    "period": 2,
+    "clock": "7:46",
+    "display": "7:46 - 2nd"
    },
    "seasonType": 2,
    "week": 13,
    "source": "ESPN",
-   "updatedAt": "2026-11-25T16:03:26Z"
+   "updatedAt": "2026-11-28T01:38:24Z"
   },
   {
    "eventId": "401856880",
@@ -3440,7 +3440,152 @@
    "week": 14,
    "source": "ESPN",
    "updatedAt": "2026-11-27T01:54:19Z"
+  },
+  {
+   "eventId": "401858318",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-12-05T17:00:00Z",
+   "espnDate": "20261205",
+   "homeTeam": {
+    "id": "2390",
+    "code": "MIA",
+    "name": "Miami Hurricanes",
+    "shortName": "Miami",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "154",
+    "code": "WAKE",
+    "name": "Wake Forest Demon Deacons",
+    "shortName": "Wake Forest",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
+    "monitored": true
+   },
+   "venue": "Bank of America Stadium",
+   "neutralSite": true,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/5 - 12:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/5 - 12:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 14,
+   "source": "ESPN",
+   "updatedAt": "2026-11-28T01:38:24Z"
+  },
+  {
+   "eventId": "401869536",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-12-05T17:00:00Z",
+   "espnDate": "20261205",
+   "homeTeam": {
+    "id": "2084",
+    "code": "BUFF",
+    "name": "Buffalo Bulls",
+    "shortName": "Buffalo",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "2649",
+    "code": "TOL",
+    "name": "Toledo Rockets",
+    "shortName": "Toledo",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+    "monitored": true
+   },
+   "venue": "Ford Field",
+   "neutralSite": true,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/5 - 12:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/5 - 12:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 14,
+   "source": "ESPN",
+   "updatedAt": "2026-11-28T01:38:24Z"
+  },
+  {
+   "eventId": "401869545",
+   "league": "NCAAF",
+   "leagueKey": "ncaaf",
+   "sport": "football",
+   "startTimeUTC": "2026-12-05T21:00:00Z",
+   "espnDate": "20261205",
+   "homeTeam": {
+    "id": "61",
+    "code": "UGA",
+    "name": "Georgia Bulldogs",
+    "shortName": "Georgia",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+    "monitored": true
+   },
+   "awayTeam": {
+    "id": "",
+    "code": "TBD",
+    "name": "TBD",
+    "shortName": "TBD",
+    "logo": "",
+    "placeholder": true,
+    "monitored": false
+   },
+   "venue": "Mercedes-Benz Stadium",
+   "neutralSite": true,
+   "status": {
+    "state": "pre",
+    "name": "STATUS_SCHEDULED",
+    "detail": "12/5 - 4:00 PM EST",
+    "completed": false,
+    "postponed": false,
+    "cancelled": false,
+    "delayed": false
+   },
+   "score": {
+    "home": null,
+    "away": null
+   },
+   "gameState": {
+    "period": null,
+    "clock": null,
+    "display": "12/5 - 4:00 PM EST"
+   },
+   "seasonType": 2,
+   "week": 14,
+   "source": "ESPN",
+   "updatedAt": "2026-11-28T01:38:24Z"
   }
  ],
- "generatedAt": "2026-11-27T16:56:51Z"
+ "generatedAt": "2026-11-28T01:38:24Z"
 }
