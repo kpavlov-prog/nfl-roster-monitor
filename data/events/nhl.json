@@ -10,71 +10,71 @@
  "dates": {
   "20261126": {
    "status": "ok",
-   "checkedAt": "2026-11-28T01:38:24Z",
-   "lastSuccessAt": "2026-11-28T01:38:24Z",
+   "checkedAt": "2026-11-28T15:47:39Z",
+   "lastSuccessAt": "2026-11-28T15:47:39Z",
    "events": 0,
    "skipped": 0
   },
   "20261127": {
    "status": "ok",
-   "checkedAt": "2026-11-28T01:38:24Z",
-   "lastSuccessAt": "2026-11-28T01:38:24Z",
+   "checkedAt": "2026-11-28T15:47:39Z",
+   "lastSuccessAt": "2026-11-28T15:47:39Z",
    "events": 15,
    "skipped": 0
   },
   "20261128": {
    "status": "ok",
-   "checkedAt": "2026-11-28T01:38:24Z",
-   "lastSuccessAt": "2026-11-28T01:38:24Z",
+   "checkedAt": "2026-11-28T15:47:39Z",
+   "lastSuccessAt": "2026-11-28T15:47:39Z",
    "events": 13,
    "skipped": 0
   },
   "20261129": {
    "status": "ok",
-   "checkedAt": "2026-11-28T01:38:24Z",
-   "lastSuccessAt": "2026-11-28T01:38:24Z",
+   "checkedAt": "2026-11-28T15:47:39Z",
+   "lastSuccessAt": "2026-11-28T15:47:39Z",
    "events": 2,
    "skipped": 0
   },
   "20261130": {
    "status": "ok",
-   "checkedAt": "2026-11-28T01:38:24Z",
-   "lastSuccessAt": "2026-11-28T01:38:24Z",
+   "checkedAt": "2026-11-28T15:47:39Z",
+   "lastSuccessAt": "2026-11-28T15:47:39Z",
    "events": 6,
    "skipped": 0
   },
   "20261201": {
    "status": "ok",
-   "checkedAt": "2026-11-28T01:38:24Z",
-   "lastSuccessAt": "2026-11-28T01:38:24Z",
+   "checkedAt": "2026-11-28T15:47:39Z",
+   "lastSuccessAt": "2026-11-28T15:47:39Z",
    "events": 9,
    "skipped": 0
   },
   "20261202": {
    "status": "ok",
-   "checkedAt": "2026-11-28T01:38:24Z",
-   "lastSuccessAt": "2026-11-28T01:38:24Z",
+   "checkedAt": "2026-11-28T15:47:39Z",
+   "lastSuccessAt": "2026-11-28T15:47:39Z",
    "events": 3,
    "skipped": 0
   },
   "20261203": {
    "status": "ok",
-   "checkedAt": "2026-11-28T01:38:24Z",
-   "lastSuccessAt": "2026-11-28T01:38:24Z",
+   "checkedAt": "2026-11-28T15:47:39Z",
+   "lastSuccessAt": "2026-11-28T15:47:39Z",
    "events": 12,
    "skipped": 0
   },
   "20261204": {
    "status": "ok",
-   "checkedAt": "2026-11-28T01:38:24Z",
-   "lastSuccessAt": "2026-11-28T01:38:24Z",
+   "checkedAt": "2026-11-28T15:47:39Z",
+   "lastSuccessAt": "2026-11-28T15:47:39Z",
    "events": 4,
    "skipped": 0
   },
   "20261205": {
    "status": "ok",
-   "checkedAt": "2026-11-28T01:38:24Z",
-   "lastSuccessAt": "2026-11-28T01:38:24Z",
+   "checkedAt": "2026-11-28T15:47:39Z",
+   "lastSuccessAt": "2026-11-28T15:47:39Z",
    "events": 12,
    "skipped": 0
   }
@@ -683,27 +683,27 @@
    "venue": "UBS Arena",
    "neutralSite": false,
    "status": {
-    "state": "in",
-    "name": "STATUS_IN_PROGRESS",
-    "detail": "14:59 - 2nd",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": 0,
-    "away": 2
+    "home": 1,
+    "away": 3
    },
    "gameState": {
-    "period": 2,
-    "clock": "14:59",
-    "display": "14:59 - 2nd"
+    "period": 3,
+    "clock": null,
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-28T01:38:24Z"
+   "updatedAt": "2026-11-28T15:47:39Z"
   },
   {
    "eventId": "401892808",
@@ -731,27 +731,27 @@
    "venue": "KeyBank Center",
    "neutralSite": false,
    "status": {
-    "state": "in",
-    "name": "STATUS_IN_PROGRESS",
-    "detail": "8:34 - 1st",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": 2,
-    "away": 1
+    "home": 3,
+    "away": 6
    },
    "gameState": {
-    "period": 1,
-    "clock": "8:34",
-    "display": "8:34 - 1st"
+    "period": 3,
+    "clock": null,
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-28T01:38:24Z"
+   "updatedAt": "2026-11-28T15:47:39Z"
   },
   {
    "eventId": "401892809",
@@ -779,27 +779,27 @@
    "venue": "Rogers Place",
    "neutralSite": false,
    "status": {
-    "state": "in",
-    "name": "STATUS_IN_PROGRESS",
-    "detail": "5:06 - 1st",
-    "completed": false,
+    "state": "post",
+    "name": "STATUS_FINAL",
+    "detail": "Final",
+    "completed": true,
     "postponed": false,
     "cancelled": false,
     "delayed": false
    },
    "score": {
-    "home": 0,
-    "away": 1
+    "home": 2,
+    "away": 4
    },
    "gameState": {
-    "period": 1,
-    "clock": "5:06",
-    "display": "5:06 - 1st"
+    "period": 3,
+    "clock": null,
+    "display": "Final"
    },
    "seasonType": 2,
    "week": null,
    "source": "ESPN",
-   "updatedAt": "2026-11-28T01:38:24Z"
+   "updatedAt": "2026-11-28T15:47:39Z"
   },
   {
    "eventId": "401892810",
@@ -3730,5 +3730,5 @@
    "updatedAt": "2026-11-28T01:38:24Z"
   }
  ],
- "generatedAt": "2026-11-28T01:38:24Z"
+ "generatedAt": "2026-11-28T15:47:39Z"
 }
